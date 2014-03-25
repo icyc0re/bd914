@@ -1,0 +1,16 @@
+files:
+foursquare/ - wrapper Python wrapper for the foursquare v2 API
+pull_ids.py : pull venues ids of ids from new york city
+	usage: pull_ids.py <login_file> <output_file>
+
+login_file must contains 3 lines:
+<client ID>
+<client secret>
+<redirect URI>
+
+To use the API you need a client ID and a client secret that you get by creating an app at:
+https://foursquare.com/developers/register
+For Redirect URI use for instance	 http://localhost:8888
+
+
+

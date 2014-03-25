@@ -7,3 +7,11 @@
 
 # Python #
 *.pyc
+
+# Eclipse #
+.metadata
+.project
+.settings
+.classpath
+.pydevproject
+bin
