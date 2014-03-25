@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+
+	<title>{% block title %}{{title}}{% endblock %}</title>
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}style/reset.css" />
+	<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}style/bootstrap.min.css" />
+
+	<!-- scripts -->
+	<script src="{{STATIC_URL}}scripts/jquery.min.js"></script>
+
+{% block head %}
+{% endblock %}
+</head>
+
+<body>
+	<header>
+	{% block header %}
+	{% endblock %}
+	</header>
+	
+	<section>
+	{% block content %}
+	{% endblock %}
+	</section>
+
+	<footer>
+		{% block footer %}
+		{% endblock %}
+	</footer>
+</body>
+
+</html>
