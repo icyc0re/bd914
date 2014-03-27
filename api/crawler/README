@@ -1,5 +1,7 @@
 files:
-foursquare/ - wrapper Python wrapper for the foursquare v2 API
+foursquare/ - wrapper Python wrapper (https://github.com/mLewisLogic/foursquare) for the foursquare v2 API
+Installation of the wrapper: pip install foursquare OR easy_install foursquare
+
 pull_ids.py : pull venues ids of ids from new york city
 	usage: pull_ids.py <login_file> <output_file>
 
