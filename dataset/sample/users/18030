@@ -1,0 +1,616 @@
+{
+    "user": {
+        "checkins": {
+            "count": 5277, 
+            "items": []
+        }, 
+        "bio": "", 
+        "gender": "male", 
+        "type": "user", 
+        "firstName": "Eduard", 
+        "superuser": 1, 
+        "lastName": "M.", 
+        "scores": {
+            "max": 444, 
+            "checkinsCount": 13, 
+            "recent": 55
+        }, 
+        "lists": {
+            "count": 13, 
+            "groups": [
+                {
+                    "count": 9, 
+                    "items": [
+                        {
+                            "description": "http://www.grubstreet.com/2014/01/new-breed-of-health-food.html", 
+                            "collaborative": false, 
+                            "url": "/ematamoros/list/healthy-nyc", 
+                            "photo": {
+                                "suffix": "/16558279_QHyGiqscU6chlORx5j27-MlfO-1s_XqYQQKCZ4syArg.jpg", 
+                                "visibility": "public", 
+                                "height": 640, 
+                                "width": 640, 
+                                "prefix": "https://irs2.4sqi.net/img/general/", 
+                                "user": {
+                                    "lastName": "B.", 
+                                    "photo": {
+                                        "prefix": "https://irs1.4sqi.net/img/user/", 
+                                        "suffix": "/ZIJ0GHCKIPETWNEZ.jpg"
+                                    }, 
+                                    "id": "16558279", 
+                                    "firstName": "Matt", 
+                                    "gender": "male"
+                                }, 
+                                "id": "529f806511d235c1232c09b1", 
+                                "createdAt": 1386184805
+                            }, 
+                            "editable": false, 
+                            "listItems": {
+                                "count": 7
+                            }, 
+                            "createdAt": 1389752788, 
+                            "public": true, 
+                            "entities": [
+                                {
+                                    "indices": [
+                                        0, 
+                                        63
+                                    ], 
+                                    "object": {
+                                        "url": "http://www.grubstreet.com/2014/01/new-breed-of-health-food.html"
+                                    }, 
+                                    "type": "url"
+                                }
+                            ], 
+                            "followers": {
+                                "count": 0
+                            }, 
+                            "user": {
+                                "lastName": "M.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/ROIIWTOWT5TB444G.jpg"
+                                }, 
+                                "id": "18030", 
+                                "firstName": "Eduard", 
+                                "gender": "male"
+                            }, 
+                            "updatedAt": 1389753083, 
+                            "id": "52d5f1d4498e17ec17d1ee27", 
+                            "canonicalUrl": "https://foursquare.com/ematamoros/list/healthy-nyc", 
+                            "name": "Healthy NYC"
+                        }
+                    ], 
+                    "type": "created"
+                }, 
+                {
+                    "count": 4, 
+                    "items": [], 
+                    "type": "followed"
+                }
+            ]
+        }, 
+        "homeCity": "New York, NY", 
+        "photos": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "photo": {
+            "prefix": "https://irs1.4sqi.net/img/user/", 
+            "suffix": "/ROIIWTOWT5TB444G.jpg"
+        }, 
+        "following": {
+            "count": 28, 
+            "groups": [
+                {
+                    "count": 28, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "firstName": "High Line", 
+                            "gender": "none", 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "highlinenyc"
+                            }, 
+                            "followers": {
+                                "count": 1162, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/QOPEIDYO02JIHRXW.jpg"
+                            }, 
+                            "tips": {
+                                "count": 4
+                            }, 
+                            "type": "chain", 
+                            "id": "32281258"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Central Park", 
+                            "gender": "none", 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "centralparknyc", 
+                                "facebook": "37965424481"
+                            }, 
+                            "followers": {
+                                "count": 2576, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/PCPGGJ2N3ULA5O05.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "type": "chain", 
+                            "id": "29060351"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "nycHealthy", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 6, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "nychealthy"
+                            }, 
+                            "followers": {
+                                "count": 855, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/DOAFPBE5PVWURAFE.gif"
+                            }, 
+                            "tips": {
+                                "count": 581
+                            }, 
+                            "type": "page", 
+                            "id": "31694405"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "NYC: The Official Guide", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 9, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "nycgo"
+                            }, 
+                            "followers": {
+                                "count": 6701, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/I0UHQJS3LZAAVKWU.jpg"
+                            }, 
+                            "tips": {
+                                "count": 115
+                            }, 
+                            "type": "page", 
+                            "id": "13978489"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "4sq Addict", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 60, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "", 
+                            "contact": {
+                                "twitter": "4sqaddictinfo", 
+                                "facebook": "202373856489085"
+                            }, 
+                            "followers": {
+                                "count": 41229, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/BWUTHSW4FMDI1O04.png"
+                            }, 
+                            "tips": {
+                                "count": 97
+                            }, 
+                            "type": "chain", 
+                            "id": "12720253"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Solomon R. Guggenheim Museum", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 1, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "guggenheim"
+                            }, 
+                            "followers": {
+                                "count": 25259, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/J5V1L2KADF2PJAFD.jpg"
+                            }, 
+                            "tips": {
+                                "count": 5
+                            }, 
+                            "type": "page", 
+                            "id": "6587909"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "NYC Parks", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 21, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "nycparks"
+                            }, 
+                            "followers": {
+                                "count": 24894, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/001JBVL1X5TPDRTV.gif"
+                            }, 
+                            "tips": {
+                                "count": 413
+                            }, 
+                            "type": "chain", 
+                            "id": "805536"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Metro News", 
+                            "gender": "none", 
+                            "homeCity": "Calgary, Canada", 
+                            "contact": {
+                                "twitter": "metrofoursquare"
+                            }, 
+                            "followers": {
+                                "count": 139106, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/MRVAQF5BOFVA2I34.png"
+                            }, 
+                            "tips": {
+                                "count": 332
+                            }, 
+                            "type": "page", 
+                            "id": "261702"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "New York Public Library", 
+                            "gender": "none", 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "nypl"
+                            }, 
+                            "followers": {
+                                "count": 82472, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/OZ1NQB3IDLZNF0WW.jpg"
+                            }, 
+                            "tips": {
+                                "count": 183
+                            }, 
+                            "type": "chain", 
+                            "id": "5255525"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "The Corcoran Group", 
+                            "superuser": 2, 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 106, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York City, NY", 
+                            "contact": {
+                                "twitter": "corcoran_group"
+                            }, 
+                            "followers": {
+                                "count": 21810, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/-1_1258038350214.jpg"
+                            }, 
+                            "tips": {
+                                "count": 3063
+                            }, 
+                            "type": "page", 
+                            "id": "95423"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other following"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 17
+        }, 
+        "mayorships": {
+            "count": 9, 
+            "items": []
+        }, 
+        "friends": {
+            "count": 37, 
+            "groups": [
+                {
+                    "count": 37, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Ken", 
+                            "lastName": "T.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/393644-3E21GMQJDQWMSGW5.jpg"
+                            }, 
+                            "tips": {
+                                "count": 6
+                            }, 
+                            "id": "393644"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "David", 
+                            "lastName": "O.", 
+                            "homeCity": "Denver, CO", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/XBUSDHGEX10RIMOO.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "48663805"
+                        }, 
+                        {
+                            "bio": "Touring musician.", 
+                            "gender": "male", 
+                            "firstName": "Billy", 
+                            "lastName": "M.", 
+                            "homeCity": "Omaha, Nebraska", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/NA4VZY2NLQEHKTQN.jpg"
+                            }, 
+                            "tips": {
+                                "count": 3
+                            }, 
+                            "id": "67704720"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "PJ", 
+                            "lastName": "J.", 
+                            "homeCity": "Austin, TX", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/COWZF5BK5UOEUQKF.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "46770906"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Danielle", 
+                            "lastName": "O.", 
+                            "homeCity": "Austin, TX", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/R5K4E0NPOMTGTXE2.jpg"
+                            }, 
+                            "tips": {
+                                "count": 2
+                            }, 
+                            "id": "27702924"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Rachelle", 
+                            "lastName": "F.", 
+                            "homeCity": "Omaha, NE", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/3D2MSLQJMGC1XSYG.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "42156594"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Vivian", 
+                            "lastName": "T.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/GGBGNRJDZS0YBE3X.jpg"
+                            }, 
+                            "tips": {
+                                "count": 4
+                            }, 
+                            "id": "17543026"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Mitch", 
+                            "lastName": "M.", 
+                            "homeCity": "Austin, Texas", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/W254CKBHAC32L4D3.jpg"
+                            }, 
+                            "tips": {
+                                "count": 1
+                            }, 
+                            "id": "24088673"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Jerry", 
+                            "lastName": "R.", 
+                            "homeCity": "Austin, TX", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/WYOC4ZWK5RPIS2UR.jpg"
+                            }, 
+                            "tips": {
+                                "count": 9
+                            }, 
+                            "id": "607649"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Brian", 
+                            "lastName": "O.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/WVD1E0V0JRITTUYK.jpg"
+                            }, 
+                            "tips": {
+                                "count": 8
+                            }, 
+                            "id": "41108"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other friends"
+                }
+            ]
+        }, 
+        "id": "18030", 
+        "badges": {
+            "count": 78, 
+            "items": [
+                {
+                    "unlockMessage": "Eduard unlocked the Fresh Brew badge", 
+                    "description": "Look at you, Juan Valdez! That's a lot of coffee. Now that you've had your caffeine fix, get out there and conquer the day - one twitchy step at a time.\n\nLevel 10 Fresh Brew? That was easy. Now, how about going WITHOUT coffee for a day? On second thought, we don't really want to be around when that withdrawal kicks in. Have as many cups as you'd like.", 
+                    "level": 10, 
+                    "unlocks": [
+                        {
+                            "checkins": [
+                                {
+                                    "timeZoneOffset": -360, 
+                                    "source": {
+                                        "url": "https://foursquare.com/download/#/iphone", 
+                                        "name": "foursquare for iPhone"
+                                    }, 
+                                    "type": "checkin", 
+                                    "id": "4ecd81f09a52262b7f7769a3", 
+                                    "createdAt": 1322090992
+                                }
+                            ]
+                        }
+                    ], 
+                    "image": {
+                        "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                        "name": "/coffee_10.png", 
+                        "sizes": [
+                            57, 
+                            114, 
+                            200, 
+                            300, 
+                            400
+                        ]
+                    }, 
+                    "badgeText": "Look at you, Juan Valdez! That's a lot of coffee. Now that you've had your caffeine fix, get out there and conquer the day - one twitchy step at a time.", 
+                    "badgeId": "4d24bfee668f60fc7b32b26f", 
+                    "categorySummary": "Coffee Shops", 
+                    "id": "4ecd81f19a52262b7f776aa3", 
+                    "levelText": "Level 10 Fresh Brew? That was easy. Now, how about going WITHOUT coffee for a day? On second thought, we don't really want to be around when that withdrawal kicks in. Have as many cups as you'd like.", 
+                    "name": "Fresh Brew"
+                }
+            ]
+        }
+    }
+}

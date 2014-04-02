@@ -1,0 +1,570 @@
+{
+    "user": {
+        "checkins": {
+            "count": 3785, 
+            "items": []
+        }, 
+        "bio": "", 
+        "gender": "male", 
+        "type": "user", 
+        "firstName": "Anthony", 
+        "lastName": "O.", 
+        "scores": {
+            "max": 592, 
+            "checkinsCount": 12, 
+            "recent": 51
+        }, 
+        "lists": {
+            "count": 2, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "description": "", 
+                            "collaborative": false, 
+                            "url": "/latinegro/list/my-list", 
+                            "editable": false, 
+                            "listItems": {
+                                "count": 2
+                            }, 
+                            "createdAt": 1355875298, 
+                            "id": "50d103e2e4b0eac979307cb0", 
+                            "followers": {
+                                "count": 0
+                            }, 
+                            "user": {
+                                "lastName": "O.", 
+                                "photo": {
+                                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                                    "suffix": "/XBDR4G0CE2NPWW04.jpg"
+                                }, 
+                                "id": "4027813", 
+                                "firstName": "Anthony", 
+                                "gender": "male"
+                            }, 
+                            "updatedAt": 1355875331, 
+                            "public": true, 
+                            "canonicalUrl": "https://foursquare.com/latinegro/list/my-list", 
+                            "name": "My list"
+                        }
+                    ], 
+                    "type": "created"
+                }, 
+                {
+                    "count": 1, 
+                    "items": [], 
+                    "type": "followed"
+                }
+            ]
+        }, 
+        "homeCity": "New York, NY", 
+        "photos": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "photo": {
+            "prefix": "https://irs0.4sqi.net/img/user/", 
+            "suffix": "/XBDR4G0CE2NPWW04.jpg"
+        }, 
+        "following": {
+            "count": 13, 
+            "groups": [
+                {
+                    "count": 13, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "firstName": "LPT365", 
+                            "gender": "male", 
+                            "homeCity": "Arlington, VA", 
+                            "contact": {
+                                "twitter": "lpt365", 
+                                "facebook": "100000102722251"
+                            }, 
+                            "followers": {
+                                "count": 1370, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/1YCQEW04P0BV11QI.jpg"
+                            }, 
+                            "tips": {
+                                "count": 1
+                            }, 
+                            "type": "celebrity", 
+                            "id": "647859"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "HISTORY", 
+                            "superuser": 2, 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 6, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "history", 
+                                "facebook": "8429246183"
+                            }, 
+                            "followers": {
+                                "count": 793805, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/J0PBAHRCPOMVIL42.jpg"
+                            }, 
+                            "tips": {
+                                "count": 1025
+                            }, 
+                            "type": "page", 
+                            "id": "376887"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Big Apple Orange!", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 3, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "bigappleorange", 
+                                "facebook": "21220544266"
+                            }, 
+                            "followers": {
+                                "count": 1529, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/BMKWGPCCXGU2RBV5.png"
+                            }, 
+                            "tips": {
+                                "count": 24
+                            }, 
+                            "type": "page", 
+                            "id": "13705837"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "The New York Daily News", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 23, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "nydailynews", 
+                                "facebook": "94277694710"
+                            }, 
+                            "followers": {
+                                "count": 40409, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/3EV01452MGIUWBAQ.jpg"
+                            }, 
+                            "tips": {
+                                "count": 398
+                            }, 
+                            "type": "page", 
+                            "id": "1241858"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "30 Minutes Or Less", 
+                            "gender": "none", 
+                            "homeCity": "Culver City, CA", 
+                            "contact": {
+                                "twitter": "30minutesorless"
+                            }, 
+                            "followers": {
+                                "count": 90654, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/OPQBZKHJWZCBYSZP.jpg"
+                            }, 
+                            "tips": {
+                                "count": 119
+                            }, 
+                            "type": "page", 
+                            "id": "10378159"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Team Coco", 
+                            "gender": "none", 
+                            "homeCity": "Los Angeles, CA", 
+                            "contact": {
+                                "twitter": "teamcoco"
+                            }, 
+                            "followers": {
+                                "count": 130497, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/QHQSQ5SP3LBXNA3R.jpg"
+                            }, 
+                            "tips": {
+                                "count": 69
+                            }, 
+                            "type": "page", 
+                            "id": "3499494"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Starbucks", 
+                            "gender": "none", 
+                            "homeCity": "Seattle, WA", 
+                            "contact": {
+                                "twitter": "starbucks"
+                            }, 
+                            "followers": {
+                                "count": 1664227, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/PM3ZCXLZIG3WZHVC.png"
+                            }, 
+                            "tips": {
+                                "count": 11
+                            }, 
+                            "type": "chain", 
+                            "id": "1070527"
+                        }, 
+                        {
+                            "bio": "Co-founder of Postmates", 
+                            "gender": "male", 
+                            "firstName": "Sam", 
+                            "lastName": "S.", 
+                            "homeCity": "London & San Francisco", 
+                            "contact": {
+                                "twitter": "wirah", 
+                                "facebook": "726540032"
+                            }, 
+                            "followers": {
+                                "count": 154562, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/UV2PPIEWGT5IG0ID.png"
+                            }, 
+                            "tips": {
+                                "count": 32
+                            }, 
+                            "type": "celebrity", 
+                            "id": "56594"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Adam Bouska", 
+                            "gender": "male", 
+                            "homeCity": "Los Angeles, CA", 
+                            "contact": {
+                                "facebook": "501001610"
+                            }, 
+                            "followers": {
+                                "count": 33161, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/BBC0BKFUJFSDJ3DE.jpg"
+                            }, 
+                            "tips": {
+                                "count": 11
+                            }, 
+                            "type": "celebrity", 
+                            "id": "4794169"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Caleb", 
+                            "lastName": "C.", 
+                            "homeCity": "Scottsdale, AZ", 
+                            "contact": {
+                                "twitter": "olairanloye", 
+                                "facebook": "27700864"
+                            }, 
+                            "followers": {
+                                "count": 31817, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/E04ZAXQWECLKXIGR.jpg"
+                            }, 
+                            "tips": {
+                                "count": 14
+                            }, 
+                            "type": "celebrity", 
+                            "id": "142058"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other following"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 5
+        }, 
+        "mayorships": {
+            "count": 9, 
+            "items": []
+        }, 
+        "friends": {
+            "count": 133, 
+            "groups": [
+                {
+                    "count": 133, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "firstName": "Shawn D", 
+                            "gender": "male", 
+                            "homeCity": "Orlando, FL", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/DSOWWZJCD3XLCSBW.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "14941385"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Aaron", 
+                            "gender": "male", 
+                            "homeCity": "Astoria, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/40HX34SVNYKAQD1A.jpg"
+                            }, 
+                            "tips": {
+                                "count": 4
+                            }, 
+                            "id": "37152746"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Harold", 
+                            "lastName": "C.", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 5, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "Queens, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/PAUOZJIL5MDZIVZI.png"
+                            }, 
+                            "tips": {
+                                "count": 13
+                            }, 
+                            "id": "2545719"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Gizelle", 
+                            "lastName": "O.", 
+                            "homeCity": "Miramar, FL", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/FJQHHK5PNO5SD3MN.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "59505613"
+                        }, 
+                        {
+                            "bio": "I enjoy Traveling and going on spontaneous adventures", 
+                            "gender": "male", 
+                            "firstName": "Ademar", 
+                            "lastName": "P.", 
+                            "homeCity": "Syracuse, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/WNAQNWRIY3CTEUIO.jpg"
+                            }, 
+                            "tips": {
+                                "count": 1
+                            }, 
+                            "id": "12362185"
+                        }, 
+                        {
+                            "bio": "Never on schedule, but always on time.", 
+                            "gender": "male", 
+                            "firstName": "John", 
+                            "lastName": "A.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/YAJGQK5GBNPLBTXC.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "21161516"
+                        }, 
+                        {
+                            "bio": "http://wishi.me/r/kg1", 
+                            "gender": "female", 
+                            "firstName": "Glorelys", 
+                            "lastName": "M.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/BMMX4KELCXVOJNN1.jpg"
+                            }, 
+                            "tips": {
+                                "count": 2
+                            }, 
+                            "id": "33721059"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Michael", 
+                            "lastName": "R.", 
+                            "homeCity": "Syracuse, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/3DHNEWSZULAD3P5V.jpg"
+                            }, 
+                            "tips": {
+                                "count": 1
+                            }, 
+                            "id": "58955952"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Alex", 
+                            "lastName": "R.", 
+                            "homeCity": "Queens, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/CQWV3GOSXPAXIXRF.jpg"
+                            }, 
+                            "tips": {
+                                "count": 6
+                            }, 
+                            "id": "1989717"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Sam", 
+                            "lastName": "W.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/blank_boy.png"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "10210"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other friends"
+                }
+            ]
+        }, 
+        "id": "4027813", 
+        "badges": {
+            "count": 65, 
+            "items": [
+                {
+                    "unlockMessage": "Anthony unlocked the Mall Rat badge", 
+                    "description": "Sharper Image. Gap. That guy selling bedazzled iPhone cases from a kiosk. It\u2019s always nice to see some familiar faces. Now, weave your way through that crazy crowd, grab an Orange Julius, and enjoy the fountain\u2019s soothing gurgles.\n\nThat\u2019s 35 different mall spots! Visit 5 new ones to unlock Level 9. Try to find one with a roller coaster inside!", 
+                    "level": 8, 
+                    "unlocks": [
+                        {
+                            "checkins": [
+                                {
+                                    "timeZoneOffset": -240, 
+                                    "source": {
+                                        "url": "https://foursquare.com/download/#/iphone", 
+                                        "name": "foursquare for iPhone"
+                                    }, 
+                                    "type": "checkin", 
+                                    "id": "514f948fe4b09cb0c55fefc5", 
+                                    "createdAt": 1364169871
+                                }
+                            ]
+                        }
+                    ], 
+                    "image": {
+                        "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                        "name": "/VCNL1VD5FZAK5JBN_8.png", 
+                        "sizes": [
+                            57, 
+                            114, 
+                            200, 
+                            300, 
+                            400
+                        ]
+                    }, 
+                    "badgeText": "Sharper Image. Gap. That guy selling bedazzled iPhone cases from a kiosk. It\u2019s always nice to see some familiar faces. Now, weave your way through that crazy crowd, grab an Orange Julius, and enjoy the fountain\u2019s soothing gurgles.", 
+                    "badgeId": "4ecbdd9e7beb20ebed8da36d", 
+                    "categorySummary": "Malls", 
+                    "id": "514f9490e4b09cb0c55ff8f4", 
+                    "levelText": "That\u2019s 35 different mall spots! Visit 5 new ones to unlock Level 9. Try to find one with a roller coaster inside!", 
+                    "name": "Mall Rat"
+                }
+            ]
+        }
+    }
+}

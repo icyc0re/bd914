@@ -50,7 +50,7 @@ def main():
         
     #save ids in file
     for user_id in users_ids:
-        ids_file.write(user_id+'\n    ')
+        ids_file.write(user_id+'\n')
      
             
         

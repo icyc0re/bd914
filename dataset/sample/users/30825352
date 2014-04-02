@@ -1,0 +1,186 @@
+{
+    "user": {
+        "checkins": {
+            "count": 2, 
+            "items": []
+        }, 
+        "bio": "", 
+        "type": "user", 
+        "firstName": "Marcin", 
+        "gender": "male", 
+        "scores": {
+            "max": 9, 
+            "checkinsCount": 0, 
+            "goal": 50, 
+            "recent": 0
+        }, 
+        "lists": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "created"
+                }, 
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "followed"
+                }
+            ]
+        }, 
+        "homeCity": "New York, NY", 
+        "photos": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "photo": {
+            "prefix": "https://irs3.4sqi.net/img/user/", 
+            "suffix": "/KOK2Q5EQWAH1BWFU.jpg"
+        }, 
+        "following": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Other following"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0
+        }, 
+        "mayorships": {
+            "count": 0, 
+            "items": []
+        }, 
+        "friends": {
+            "count": 4, 
+            "groups": [
+                {
+                    "count": 4, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Magdalena", 
+                            "lastName": "L.", 
+                            "homeCity": "Bia\u0142ystok", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/4RYVU0HMBVPCWSTW.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "35597948"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Sebastian", 
+                            "lastName": "B.", 
+                            "homeCity": "Bia\u0142ystok, Polska", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/AYXSIYFBGU3AXRSP.jpg"
+                            }, 
+                            "tips": {
+                                "count": 2
+                            }, 
+                            "id": "15443116"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Marvin", 
+                            "gender": "male", 
+                            "homeCity": "Charlotte, NC", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/VQCKIVCLW5BEBYMU.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "30329669"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Scout", 
+                            "lastName": "R.", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 7, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/34XUGYRVABJZE4QU.jpg"
+                            }, 
+                            "tips": {
+                                "count": 38
+                            }, 
+                            "id": "9350801"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other friends"
+                }
+            ]
+        }, 
+        "id": "30825352", 
+        "badges": {
+            "count": 1, 
+            "items": [
+                {
+                    "unlockMessage": "Marcin unlocked the Newbie badge", 
+                    "description": "Your first check-in! Foursquare keeps track of your adventures and milestones, like visiting five new sushi spots or galleries. And with every check-in, we learn about what you like and can give you better recommendations.", 
+                    "unlocks": [
+                        {
+                            "checkins": [
+                                {
+                                    "timeZoneOffset": -240, 
+                                    "source": {
+                                        "url": "https://foursquare.com/download/#/iphone", 
+                                        "name": "foursquare for iPhone"
+                                    }, 
+                                    "type": "checkin", 
+                                    "id": "500f18a1e4b073fd445dccd0", 
+                                    "createdAt": 1343166625
+                                }
+                            ]
+                        }
+                    ], 
+                    "image": {
+                        "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                        "name": "/newbie.png", 
+                        "sizes": [
+                            57, 
+                            114, 
+                            200, 
+                            300, 
+                            400
+                        ]
+                    }, 
+                    "badgeText": "Your first check-in! Foursquare keeps track of your adventures and milestones, like visiting five new sushi spots or galleries. And with every check-in, we learn about what you like and can give you better recommendations.", 
+                    "badgeId": "4c4f08667a0803bbaa202ab7", 
+                    "id": "500f18a1e4b073fd445dcd12", 
+                    "name": "Newbie"
+                }
+            ]
+        }
+    }
+}

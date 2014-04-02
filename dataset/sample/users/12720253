@@ -1,0 +1,235 @@
+{
+    "user": {
+        "checkins": {
+            "count": 80, 
+            "items": []
+        }, 
+        "bio": "", 
+        "firstName": "4sq Addict", 
+        "gender": "none", 
+        "friends": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Other friends"
+                }
+            ]
+        }, 
+        "lists": {
+            "count": 60, 
+            "groups": [
+                {
+                    "count": 60, 
+                    "items": [
+                        {
+                            "description": "Follow NTV Spor on Foursquare and check-in at one recommended venue. http://foursquareaddict.info/ntv-spor-badge/", 
+                            "collaborative": false, 
+                            "url": "/4sqaddictinfo/list/ntv-spor-badge", 
+                            "photo": {
+                                "suffix": "/12720253_p8NgWmLZDDptUc2ISYcjWjK8c7s0xAeSsixS6Fiqhb8.png", 
+                                "visibility": "public", 
+                                "height": 300, 
+                                "width": 300, 
+                                "prefix": "https://irs2.4sqi.net/img/general/", 
+                                "user": {
+                                    "gender": "none", 
+                                    "type": "chain", 
+                                    "id": "12720253", 
+                                    "firstName": "4sq Addict", 
+                                    "photo": {
+                                        "prefix": "https://irs3.4sqi.net/img/user/", 
+                                        "suffix": "/BWUTHSW4FMDI1O04.png"
+                                    }
+                                }, 
+                                "id": "531e7a4211d21f33170613d1", 
+                                "createdAt": 1394506306
+                            }, 
+                            "logView": true, 
+                            "editable": false, 
+                            "listItems": {
+                                "count": 42
+                            }, 
+                            "createdAt": 1394506217, 
+                            "public": true, 
+                            "entities": [
+                                {
+                                    "indices": [
+                                        69, 
+                                        113
+                                    ], 
+                                    "object": {
+                                        "url": "http://foursquareaddict.info/ntv-spor-badge/"
+                                    }, 
+                                    "type": "url"
+                                }
+                            ], 
+                            "followers": {
+                                "count": 11
+                            }, 
+                            "user": {
+                                "gender": "none", 
+                                "type": "chain", 
+                                "id": "12720253", 
+                                "firstName": "4sq Addict", 
+                                "photo": {
+                                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                                    "suffix": "/BWUTHSW4FMDI1O04.png"
+                                }
+                            }, 
+                            "updatedAt": 1395601536, 
+                            "id": "531e79e9498e82abb53a2e6e", 
+                            "canonicalUrl": "https://foursquare.com/4sqaddictinfo/list/ntv-spor-badge", 
+                            "name": "NTV Spor badge"
+                        }
+                    ], 
+                    "type": "created"
+                }, 
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "followed"
+                }
+            ]
+        }, 
+        "pageInfo": {
+            "banner": "https://is1.4sqi.net/userpix/0NBJ24IJYXWYKXJO.png", 
+            "description": "We love foursquare.", 
+            "links": {
+                "count": 1, 
+                "items": [
+                    {
+                        "url": "http://foursquareaddict.info/"
+                    }
+                ]
+            }
+        }, 
+        "homeCity": "", 
+        "photos": {
+            "count": 112, 
+            "items": [
+                {
+                    "suffix": "/12720253_p8NgWmLZDDptUc2ISYcjWjK8c7s0xAeSsixS6Fiqhb8.png", 
+                    "width": 300, 
+                    "checkin": {
+                        "visibility": "public", 
+                        "entities": [
+                            {
+                                "indices": [
+                                    75, 
+                                    119
+                                ], 
+                                "object": {
+                                    "url": "http://foursquareaddict.info/ntv-spor-badge/"
+                                }, 
+                                "type": "url"
+                            }
+                        ], 
+                        "shout": "Follow @ntvspor on @foursquare and check in here to unlock NTV Spor badge. http://foursquareaddict.info/ntv-spor-badge/", 
+                        "timeZoneOffset": 120, 
+                        "type": "checkin", 
+                        "id": "531e7a40498eed92f1832d65", 
+                        "createdAt": 1394506304
+                    }, 
+                    "venue": {
+                        "verified": true, 
+                        "name": "Atat\u00fcrk Olimpiyat Stadyumu", 
+                        "storeId": "", 
+                        "contact": {
+                            "phone": "+902124133000", 
+                            "formattedPhone": "+90 212 413 3000"
+                        }, 
+                        "location": {
+                            "city": "\u0130stanbul", 
+                            "cc": "TR", 
+                            "country": "T\u00fcrkiye", 
+                            "address": "\u0130kitelli", 
+                            "lat": 41.074433826731486, 
+                            "lng": 28.76546859741211
+                        }, 
+                        "venuePage": {
+                            "id": "67533896"
+                        }, 
+                        "stats": {
+                            "tipCount": 413, 
+                            "checkinsCount": 49024, 
+                            "usersCount": 33837
+                        }, 
+                        "id": "4b69a14cf964a5205faa2be3", 
+                        "categories": [
+                            {
+                                "pluralName": "Stadiums", 
+                                "primary": true, 
+                                "name": "Stadium", 
+                                "shortName": "Stadium", 
+                                "id": "4bf58dd8d48988d184941735", 
+                                "icon": {
+                                    "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/stadium_", 
+                                    "suffix": ".png"
+                                }
+                            }
+                        ], 
+                        "likes": {
+                            "count": 1402, 
+                            "groups": [
+                                {
+                                    "count": 1402, 
+                                    "items": [], 
+                                    "type": "others"
+                                }
+                            ], 
+                            "summary": "1402 likes"
+                        }
+                    }, 
+                    "visibility": "public", 
+                    "height": 300, 
+                    "source": {
+                        "url": "https://foursquare.com", 
+                        "name": "foursquare Web"
+                    }, 
+                    "prefix": "https://irs2.4sqi.net/img/general/", 
+                    "id": "531e7a4211d21f33170613d1", 
+                    "createdAt": 1394506306
+                }
+            ]
+        }, 
+        "contact": {
+            "twitter": "4sqaddictinfo", 
+            "facebook": "202373856489085"
+        }, 
+        "followers": {
+            "count": 41229, 
+            "groups": []
+        }, 
+        "photo": {
+            "prefix": "https://irs3.4sqi.net/img/user/", 
+            "suffix": "/BWUTHSW4FMDI1O04.png"
+        }, 
+        "following": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Other following"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 97
+        }, 
+        "mayorships": {
+            "count": 0, 
+            "items": []
+        }, 
+        "type": "chain", 
+        "id": "12720253", 
+        "badges": {
+            "count": 0, 
+            "items": []
+        }
+    }
+}

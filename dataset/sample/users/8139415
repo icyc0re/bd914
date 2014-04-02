@@ -1,0 +1,597 @@
+{
+    "user": {
+        "checkins": {
+            "count": 3333, 
+            "items": []
+        }, 
+        "bio": "Wannabe outer-space pythonaut. Will code for food and beer.", 
+        "gender": "male", 
+        "type": "user", 
+        "firstName": "Randall", 
+        "superuser": 1, 
+        "lastName": "H.", 
+        "scores": {
+            "max": 525, 
+            "checkinsCount": 25, 
+            "recent": 118
+        }, 
+        "lists": {
+            "count": 8, 
+            "groups": [
+                {
+                    "count": 3, 
+                    "items": [
+                        {
+                            "description": "", 
+                            "collaborative": false, 
+                            "url": "/jrhunt/list/homes", 
+                            "editable": false, 
+                            "listItems": {
+                                "count": 3
+                            }, 
+                            "createdAt": 1353560386, 
+                            "id": "50adb142e4b0b42d0da49c61", 
+                            "followers": {
+                                "count": 0
+                            }, 
+                            "user": {
+                                "lastName": "H.", 
+                                "photo": {
+                                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                                    "suffix": "/8139415-IEOTW22ZLYRAAOFN.jpg"
+                                }, 
+                                "id": "8139415", 
+                                "firstName": "Randall", 
+                                "gender": "male"
+                            }, 
+                            "updatedAt": 1387905993, 
+                            "public": true, 
+                            "canonicalUrl": "https://foursquare.com/jrhunt/list/homes", 
+                            "name": "Homes"
+                        }
+                    ], 
+                    "type": "created"
+                }, 
+                {
+                    "count": 5, 
+                    "items": [], 
+                    "type": "followed"
+                }
+            ]
+        }, 
+        "homeCity": "New York, NY", 
+        "photos": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "photo": {
+            "prefix": "https://irs3.4sqi.net/img/user/", 
+            "suffix": "/8139415-IEOTW22ZLYRAAOFN.jpg"
+        }, 
+        "following": {
+            "count": 23, 
+            "groups": [
+                {
+                    "count": 23, 
+                    "items": [
+                        {
+                            "bio": "co-founder, foursquare.", 
+                            "firstName": "naveen", 
+                            "superuser": 3, 
+                            "gender": "male", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 74, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "naveen", 
+                                "facebook": "29103995"
+                            }, 
+                            "followers": {
+                                "count": 5621, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/IHBVKYMA1PTMSFYR.png"
+                            }, 
+                            "tips": {
+                                "count": 497
+                            }, 
+                            "type": "celebrity", 
+                            "id": "33"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "The White House", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 7, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "Washington, DC", 
+                            "contact": {
+                                "twitter": "whitehouse"
+                            }, 
+                            "followers": {
+                                "count": 184275, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/AEO5YQTNAZXOJC1H.jpg"
+                            }, 
+                            "tips": {
+                                "count": 244
+                            }, 
+                            "type": "page", 
+                            "id": "12485552"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "City of New York", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 14, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York City, NY", 
+                            "contact": {
+                                "twitter": "nycgov", 
+                                "facebook": "583523342"
+                            }, 
+                            "followers": {
+                                "count": 64142, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/2X1FKJPUY3DGRRK3.png"
+                            }, 
+                            "tips": {
+                                "count": 210
+                            }, 
+                            "type": "page", 
+                            "id": "13764780"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Foursquare Cities", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 65, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "4sqcities"
+                            }, 
+                            "followers": {
+                                "count": 654832, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/17842209-SQZ4RBOD1V4KKNIJ.png"
+                            }, 
+                            "tips": {
+                                "count": 6
+                            }, 
+                            "type": "page", 
+                            "id": "17842209"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "ZocDoc", 
+                            "gender": "none", 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "zocdoc"
+                            }, 
+                            "followers": {
+                                "count": 595, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/5WXNASY0OTO2J3DI.png"
+                            }, 
+                            "tips": {
+                                "count": 76
+                            }, 
+                            "type": "page", 
+                            "id": "15293177"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Seamless", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 3, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "seamless"
+                            }, 
+                            "followers": {
+                                "count": 2086, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/EDW3VIGNE0DZYOWJ.jpg"
+                            }, 
+                            "tips": {
+                                "count": 40
+                            }, 
+                            "type": "page", 
+                            "id": "12227471"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Hertz", 
+                            "gender": "none", 
+                            "homeCity": "Park Ridge", 
+                            "contact": {
+                                "twitter": "hertz"
+                            }, 
+                            "followers": {
+                                "count": 361, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/2B3EKBHACQOWGULP.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "type": "chain", 
+                            "id": "32749366"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Indochino Traveling Tailor", 
+                            "gender": "none", 
+                            "homeCity": "Global", 
+                            "contact": {
+                                "twitter": "indochino"
+                            }, 
+                            "followers": {
+                                "count": 174, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/USX5E401TSZL1N05.jpg"
+                            }, 
+                            "tips": {
+                                "count": 2
+                            }, 
+                            "type": "chain", 
+                            "id": "37495435"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "American Museum of Natural History", 
+                            "gender": "none", 
+                            "homeCity": "200 Central Park West, New York, NY 10024", 
+                            "contact": {
+                                "twitter": "amnh"
+                            }, 
+                            "followers": {
+                                "count": 2574, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/12194048-S4DXJAR05R3AAHVT.jpg"
+                            }, 
+                            "tips": {
+                                "count": 7
+                            }, 
+                            "type": "chain", 
+                            "id": "12194048"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other following"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 42
+        }, 
+        "mayorships": {
+            "count": 10, 
+            "items": []
+        }, 
+        "friends": {
+            "count": 222, 
+            "groups": [
+                {
+                    "count": 222, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "emma", 
+                            "superuser": 3, 
+                            "lastName": "t.", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 59, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/WSRCYSVW0QNCZJPP.jpg"
+                            }, 
+                            "tips": {
+                                "count": 224
+                            }, 
+                            "id": "5600267"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Hadar", 
+                            "lastName": "D.", 
+                            "homeCity": "Mountain View, CA", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/H23FT1RXH22HCIMY.jpg"
+                            }, 
+                            "tips": {
+                                "count": 10
+                            }, 
+                            "id": "63983909"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Jessica", 
+                            "gender": "female", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 2, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "Newton, MA", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/FA0FYN0CJOJNKRNU.jpg"
+                            }, 
+                            "tips": {
+                                "count": 6
+                            }, 
+                            "id": "34281021"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Karina", 
+                            "lastName": "R.", 
+                            "homeCity": "Brooklyn, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/1ERCRQZBDAX1V5TE.jpg"
+                            }, 
+                            "tips": {
+                                "count": 7
+                            }, 
+                            "id": "26467553"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "dj", 
+                            "gender": "male", 
+                            "homeCity": "Los Altos, CA", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/HT3AO1UIXWXGLJN0.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "1840371"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Justin", 
+                            "lastName": "J.", 
+                            "homeCity": "San Francisco, CA", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/N2JC1G2UKU00N12P.jpg"
+                            }, 
+                            "tips": {
+                                "count": 2
+                            }, 
+                            "id": "14056"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Geoffrey", 
+                            "lastName": "V.", 
+                            "homeCity": "Philadelphia, PA", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/-Z2DRKRMAK2IEMH0Y.jpg"
+                            }, 
+                            "tips": {
+                                "count": 2
+                            }, 
+                            "id": "21461495"
+                        }, 
+                        {
+                            "bio": "<3 tea", 
+                            "gender": "female", 
+                            "firstName": "Ayaka", 
+                            "lastName": "N.", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 8, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "Berkeley, CA", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/FJK4EG3T0QKTAGXF.jpg"
+                            }, 
+                            "tips": {
+                                "count": 83
+                            }, 
+                            "id": "1688817"
+                        }, 
+                        {
+                            "bio": "Singer-Songwriter. FashionForward. Travel Junkie. Tokyo. New York. Honolulu.", 
+                            "firstName": "Di\u00e9r", 
+                            "gender": "male", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 3, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "Tokyo, Japan ", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/GZUPNN4HDFUAYNWY.jpg"
+                            }, 
+                            "tips": {
+                                "count": 17
+                            }, 
+                            "id": "58072385"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "David", 
+                            "lastName": "P.", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 7, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/blank_boy.png"
+                            }, 
+                            "tips": {
+                                "count": 46
+                            }, 
+                            "id": "59704532"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other friends"
+                }
+            ]
+        }, 
+        "id": "8139415", 
+        "badges": {
+            "count": 68, 
+            "items": [
+                {
+                    "unlockMessage": "Randall unlocked the Trainspotter badge", 
+                    "description": "From the MTA to the Tube, the Shinkansen to the Trans-Siberian, you\u2019ve ridden them all (or will someday)! Here\u2019s to the beauty of public transit, and to always giving up your seat for the pregnant, elderly, and backpackers who haven\u2019t showered in a week.\n\nThat\u2019s 35 different spots! Check in to 5 more to unlock Level 9. You sure know how to get around!", 
+                    "level": 8, 
+                    "unlocks": [
+                        {
+                            "checkins": [
+                                {
+                                    "timeZoneOffset": -240, 
+                                    "source": {
+                                        "url": "https://foursquare.com/download/#/iphone", 
+                                        "name": "foursquare for iPhone"
+                                    }, 
+                                    "type": "checkin", 
+                                    "id": "5338e705498eba3b74524423", 
+                                    "createdAt": 1396238085
+                                }
+                            ]
+                        }
+                    ], 
+                    "image": {
+                        "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                        "name": "/QWUWU3B1435TFTEC_8.png", 
+                        "sizes": [
+                            57, 
+                            114, 
+                            200, 
+                            300, 
+                            400
+                        ]
+                    }, 
+                    "badgeText": "From the MTA to the Tube, the Shinkansen to the Trans-Siberian, you\u2019ve ridden them all (or will someday)! Here\u2019s to the beauty of public transit, and to always giving up your seat for the pregnant, elderly, and backpackers who haven\u2019t showered in a week.", 
+                    "badgeId": "4f6a48fa7beb7e5831d4eb25", 
+                    "categorySummary": "Stations", 
+                    "id": "5338e706498eba3b7452442c", 
+                    "levelText": "That\u2019s 35 different spots! Check in to 5 more to unlock Level 9. You sure know how to get around!", 
+                    "name": "Trainspotter"
+                }
+            ]
+        }
+    }
+}

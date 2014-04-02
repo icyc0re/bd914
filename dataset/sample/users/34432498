@@ -1,0 +1,203 @@
+{
+    "user": {
+        "checkins": {
+            "count": 8, 
+            "items": []
+        }, 
+        "bio": "", 
+        "gender": "male", 
+        "type": "user", 
+        "firstName": "Hayden", 
+        "lastName": "G.", 
+        "scores": {
+            "max": 30, 
+            "checkinsCount": 0, 
+            "goal": 50, 
+            "recent": 0
+        }, 
+        "lists": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "created"
+                }, 
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "followed"
+                }
+            ]
+        }, 
+        "homeCity": "New York", 
+        "photos": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "photo": {
+            "prefix": "https://irs3.4sqi.net/img/user/", 
+            "suffix": "/JBEQYI2EDVOTYUNL.png"
+        }, 
+        "following": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Other following"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0
+        }, 
+        "mayorships": {
+            "count": 0, 
+            "items": []
+        }, 
+        "friends": {
+            "count": 5, 
+            "groups": [
+                {
+                    "count": 5, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Steven", 
+                            "lastName": "C.", 
+                            "homeCity": "Hoboken, NJ", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/DQWUOAZ5ZVSIUXBJ.jpg"
+                            }, 
+                            "tips": {
+                                "count": 15
+                            }, 
+                            "id": "23119834"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Jason", 
+                            "lastName": "L.", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 1, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "Annapolis, MD", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/VQGCTY4OGZEK3DCT.jpg"
+                            }, 
+                            "tips": {
+                                "count": 1
+                            }, 
+                            "id": "746808"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Mrs.", 
+                            "lastName": "c.", 
+                            "homeCity": "Queens, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/GFO1SBLK04NVJOS3.jpg"
+                            }, 
+                            "tips": {
+                                "count": 10
+                            }, 
+                            "id": "27729991"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Kat", 
+                            "gender": "female", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/0ZYP3RSUG3ZQCYYT.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "42251645"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Neela", 
+                            "lastName": "P.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/blank_girl.png"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "50351422"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other friends"
+                }
+            ]
+        }, 
+        "id": "34432498", 
+        "badges": {
+            "count": 2, 
+            "items": [
+                {
+                    "unlockMessage": "Hayden unlocked the Far Far Away badge", 
+                    "description": "Welcome to the world above 59th Street!", 
+                    "unlocks": [
+                        {
+                            "checkins": [
+                                {
+                                    "timeZoneOffset": -240, 
+                                    "source": {
+                                        "url": "https://foursquare.com/download/#/android", 
+                                        "name": "foursquare for Android"
+                                    }, 
+                                    "type": "checkin", 
+                                    "id": "50254177e4b061fce762efb0", 
+                                    "createdAt": 1344618871
+                                }
+                            ]
+                        }
+                    ], 
+                    "image": {
+                        "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                        "name": "/farfaraway.png", 
+                        "sizes": [
+                            57, 
+                            114, 
+                            200, 
+                            300, 
+                            400
+                        ]
+                    }, 
+                    "badgeText": "Welcome to the world above 59th Street!", 
+                    "badgeId": "4c4f08667a0803bbb4202ab7", 
+                    "id": "50254177e4b061fce762efff", 
+                    "name": "Far Far Away"
+                }
+            ]
+        }
+    }
+}

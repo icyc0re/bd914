@@ -1,0 +1,181 @@
+{
+    "user": {
+        "checkins": {
+            "count": 36, 
+            "items": []
+        }, 
+        "bio": "", 
+        "gender": "male", 
+        "type": "user", 
+        "firstName": "Omieez", 
+        "lastName": "K.", 
+        "scores": {
+            "max": 61, 
+            "checkinsCount": 1, 
+            "recent": 8
+        }, 
+        "lists": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "created"
+                }, 
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "followed"
+                }
+            ]
+        }, 
+        "homeCity": "New York, NY", 
+        "photos": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "photo": {
+            "prefix": "https://irs3.4sqi.net/img/user/", 
+            "suffix": "/POQGTXKHE1IE32AX.jpg"
+        }, 
+        "following": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Other following"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1
+        }, 
+        "mayorships": {
+            "count": 0, 
+            "items": []
+        }, 
+        "friends": {
+            "count": 4, 
+            "groups": [
+                {
+                    "count": 4, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Mudrey", 
+                            "lastName": "M.", 
+                            "homeCity": "Saint Bonaventure, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/LQDB3VXLCRLTITNR.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "54481048"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Cat", 
+                            "lastName": "C.", 
+                            "homeCity": "Saint Bonaventure, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/53155309-B0D222XMBFYKR50X.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "53155309"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Sarah", 
+                            "lastName": "B.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/YU45AHSBYKLF2XZS.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "39456399"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Alissa", 
+                            "lastName": "J.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/49407572-HRTAUI00AEMROANK.jpg"
+                            }, 
+                            "tips": {
+                                "count": 7
+                            }, 
+                            "id": "49407572"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other friends"
+                }
+            ]
+        }, 
+        "id": "54212306", 
+        "badges": {
+            "count": 5, 
+            "items": [
+                {
+                    "unlockMessage": "Omieez unlocked the Hot Tamale badge", 
+                    "description": "Rice, beans, cheese, cilantro \u2013 why eat anything else when you can get all the important food groups wrapped into one delicious pound of foil? Now pass those nachos, will ya? It\u2019s time to guac and roll.\n\nRefried Warrior! You'll unlock Level 2 once you've been to 5 DIFFERENT Mexican restaurants.", 
+                    "level": 1, 
+                    "unlocks": [
+                        {
+                            "checkins": [
+                                {
+                                    "timeZoneOffset": -300, 
+                                    "source": {
+                                        "url": "https://foursquare.com/download/#/iphone", 
+                                        "name": "foursquare for iPhone"
+                                    }, 
+                                    "type": "checkin", 
+                                    "id": "53081331498e998bb0791735", 
+                                    "createdAt": 1393038129
+                                }
+                            ]
+                        }
+                    ], 
+                    "image": {
+                        "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                        "name": "/L2RRMCA2PGOBSFRN.png", 
+                        "sizes": [
+                            57, 
+                            114, 
+                            200, 
+                            300, 
+                            400
+                        ]
+                    }, 
+                    "badgeText": "Rice, beans, cheese, cilantro \u2013 why eat anything else when you can get all the important food groups wrapped into one delicious pound of foil? Now pass those nachos, will ya? It\u2019s time to guac and roll.", 
+                    "badgeId": "4ebb078f7bebd6a83f1176bd", 
+                    "categorySummary": "Mexican Restaurants", 
+                    "id": "53081332498e998bb0791888", 
+                    "levelText": "Refried Warrior! You'll unlock Level 2 once you've been to 5 DIFFERENT Mexican restaurants.", 
+                    "name": "Hot Tamale"
+                }
+            ]
+        }
+    }
+}

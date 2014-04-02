@@ -1,0 +1,184 @@
+{
+    "user": {
+        "checkins": {
+            "count": 25, 
+            "items": []
+        }, 
+        "bio": "", 
+        "gender": "male", 
+        "type": "user", 
+        "firstName": "William", 
+        "lastName": "P.", 
+        "scores": {
+            "max": 70, 
+            "checkinsCount": 0, 
+            "recent": 0
+        }, 
+        "lists": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "description": "", 
+                            "collaborative": false, 
+                            "url": "/user/28216043/list/awesome", 
+                            "editable": false, 
+                            "listItems": {
+                                "count": 3
+                            }, 
+                            "createdAt": 1357178557, 
+                            "id": "50e4e6bde4b05b3dba7e9c8b", 
+                            "followers": {
+                                "count": 0
+                            }, 
+                            "user": {
+                                "lastName": "P.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/5ELNHCFYM1W1Q2EB.jpg"
+                                }, 
+                                "id": "28216043", 
+                                "firstName": "William", 
+                                "gender": "male"
+                            }, 
+                            "updatedAt": 1388589694, 
+                            "public": true, 
+                            "canonicalUrl": "https://foursquare.com/user/28216043/list/awesome", 
+                            "name": "Awesome"
+                        }
+                    ], 
+                    "type": "created"
+                }, 
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "followed"
+                }
+            ]
+        }, 
+        "homeCity": "Seoul", 
+        "photos": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "photo": {
+            "prefix": "https://irs1.4sqi.net/img/user/", 
+            "suffix": "/5ELNHCFYM1W1Q2EB.jpg"
+        }, 
+        "following": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Other following"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 20
+        }, 
+        "mayorships": {
+            "count": 0, 
+            "items": []
+        }, 
+        "friends": {
+            "count": 2, 
+            "groups": [
+                {
+                    "count": 2, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Inyoung", 
+                            "lastName": "C.", 
+                            "homeCity": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc, \ub300\ud55c\ubbfc\uad6d", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/OYVATCVTPAQICQ15.jpg"
+                            }, 
+                            "tips": {
+                                "count": 1
+                            }, 
+                            "id": "16190749"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Sang Woo", 
+                            "lastName": "K.", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 1, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "Seoul", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/AH0OJSOWWSSSBXIJ.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "43235139"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other friends"
+                }
+            ]
+        }, 
+        "id": "28216043", 
+        "badges": {
+            "count": 3, 
+            "items": [
+                {
+                    "unlockMessage": "William unlocked the Shutterbug badge", 
+                    "description": "You\u2019re a regular Ansel Adams! Whether you\u2019re capturing the sun setting over the Siberian tundra, an adorable French Bulldog, or an artsy cappuccino foam shot (#nojudgements), your friends love your photo-worthy adventures. Keep snapping away!", 
+                    "unlocks": [
+                        {
+                            "checkins": [
+                                {
+                                    "timeZoneOffset": -300, 
+                                    "source": {
+                                        "url": "https://foursquare.com/download/#/iphone", 
+                                        "name": "foursquare for iPhone"
+                                    }, 
+                                    "type": "checkin", 
+                                    "id": "516b9b9d498e31f5fc5c291f", 
+                                    "createdAt": 1366006685
+                                }
+                            ]
+                        }
+                    ], 
+                    "image": {
+                        "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                        "name": "/2KKQ4FII01YK1TYK.png", 
+                        "sizes": [
+                            57, 
+                            114, 
+                            200, 
+                            300, 
+                            400
+                        ]
+                    }, 
+                    "badgeText": "You\u2019re a regular Ansel Adams! Whether you\u2019re capturing the sun setting over the Siberian tundra, an adorable French Bulldog, or an artsy cappuccino foam shot (#nojudgements), your friends love your photo-worthy adventures. Keep snapping away!", 
+                    "badgeId": "502ae142011c88ba3d9bfe5b", 
+                    "id": "516b9b9f0637cc2590cb4f44", 
+                    "name": "Shutterbug"
+                }
+            ]
+        }
+    }
+}

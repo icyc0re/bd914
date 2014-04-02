@@ -1,0 +1,338 @@
+{
+    "user": {
+        "checkins": {
+            "count": 1091, 
+            "items": []
+        }, 
+        "bio": "", 
+        "type": "user", 
+        "firstName": "Eyal", 
+        "gender": "male", 
+        "scores": {
+            "max": 261, 
+            "checkinsCount": 10, 
+            "recent": 23
+        }, 
+        "lists": {
+            "count": 3, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "description": "", 
+                            "collaborative": false, 
+                            "url": "/user/33567638/list/places-i-like", 
+                            "editable": false, 
+                            "listItems": {
+                                "count": 15
+                            }, 
+                            "createdAt": 1343576296, 
+                            "id": "501558e8e4b0ad6ab3251fad", 
+                            "followers": {
+                                "count": 0
+                            }, 
+                            "user": {
+                                "gender": "male", 
+                                "id": "33567638", 
+                                "firstName": "Eyal", 
+                                "photo": {
+                                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                                    "suffix": "/KVEAJAIXOIVKPRB1.jpg"
+                                }
+                            }, 
+                            "updatedAt": 1343577355, 
+                            "public": true, 
+                            "canonicalUrl": "https://foursquare.com/user/33567638/list/places-i-like", 
+                            "name": "Places I like"
+                        }
+                    ], 
+                    "type": "created"
+                }, 
+                {
+                    "count": 2, 
+                    "items": [], 
+                    "type": "followed"
+                }
+            ]
+        }, 
+        "homeCity": "New York, NY", 
+        "photos": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "photo": {
+            "prefix": "https://irs0.4sqi.net/img/user/", 
+            "suffix": "/KVEAJAIXOIVKPRB1.jpg"
+        }, 
+        "following": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Jeff", 
+                            "lastName": "P.", 
+                            "homeCity": "Great Neck, NY", 
+                            "contact": {
+                                "facebook": "638880510"
+                            }, 
+                            "followers": {
+                                "count": 1531, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/5NAL4WFQZAJZSCZN.jpg"
+                            }, 
+                            "tips": {
+                                "count": 8
+                            }, 
+                            "type": "celebrity", 
+                            "id": "79295"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other following"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 2
+        }, 
+        "mayorships": {
+            "count": 3, 
+            "items": []
+        }, 
+        "friends": {
+            "count": 28, 
+            "groups": [
+                {
+                    "count": 28, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Daniel", 
+                            "lastName": "G.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/75425120-LEFVVHXJH0DMOLGB.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "75425120"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Aviad", 
+                            "lastName": "K.", 
+                            "homeCity": "New York, New York", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/74164461-WEU1IHP15KPTDHGE.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "74164461"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Uri", 
+                            "lastName": "T.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/71274952-M01FTYNS2CKS4SIT.jpg"
+                            }, 
+                            "tips": {
+                                "count": 2
+                            }, 
+                            "id": "71274952"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Christopher", 
+                            "gender": "male", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/ALM2SGBBGFZ0AYHL.jpg"
+                            }, 
+                            "tips": {
+                                "count": 9
+                            }, 
+                            "id": "5234264"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Wilson", 
+                            "lastName": "X.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/6668036-DDZVYKG1VV4CZRID.jpg"
+                            }, 
+                            "tips": {
+                                "count": 7
+                            }, 
+                            "id": "6668036"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Sean", 
+                            "lastName": "C.", 
+                            "homeCity": "Washington D.C., DC", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/GPBPBCSJWU0TRSZI.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "9159133"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Yu", 
+                            "lastName": "Z.", 
+                            "homeCity": "Berkeley, CA", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/V5LNC0YFTMPBM2VY.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "9291210"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Howa", 
+                            "lastName": "J.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/DGXRIFWZGMN4JYPT.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "33441422"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "none", 
+                            "firstName": "Jared", 
+                            "lastName": "R.", 
+                            "homeCity": "", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/blank_boy.png"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "63597299"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Eric", 
+                            "lastName": "L.", 
+                            "homeCity": "Richmond Hill, ON", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/blank_boy.png"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "55391044"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other friends"
+                }
+            ]
+        }, 
+        "id": "33567638", 
+        "badges": {
+            "count": 41, 
+            "items": [
+                {
+                    "unlockMessage": "Eyal unlocked the JetSetter badge", 
+                    "description": "Hopping around the world one airport at a time... safe travels!\n\nThat's 20 different airports! Treat yourself to one of those mini-massages. 5 new airports and you'll unlock Level 6.", 
+                    "level": 5, 
+                    "unlocks": [
+                        {
+                            "checkins": [
+                                {
+                                    "type": "checkin", 
+                                    "source": {
+                                        "url": "https://foursquare.com/download/#/android", 
+                                        "name": "foursquare for Android"
+                                    }, 
+                                    "createdAt": 1395103520, 
+                                    "with": [
+                                        {
+                                            "gender": "male", 
+                                            "id": "5234264", 
+                                            "firstName": "Christopher", 
+                                            "photo": {
+                                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                                "suffix": "/ALM2SGBBGFZ0AYHL.jpg"
+                                            }
+                                        }
+                                    ], 
+                                    "id": "53279720498e3ff11cfe0b8b", 
+                                    "timeZoneOffset": -240
+                                }
+                            ]
+                        }
+                    ], 
+                    "image": {
+                        "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                        "name": "/jetsetter_5.png", 
+                        "sizes": [
+                            57, 
+                            114, 
+                            200, 
+                            300, 
+                            400
+                        ]
+                    }, 
+                    "badgeText": "Hopping around the world one airport at a time... safe travels!", 
+                    "badgeId": "4c4f08667a0803bbda202ab7", 
+                    "categorySummary": "Airports", 
+                    "id": "53279720498e3ff11cfe0b92", 
+                    "levelText": "That's 20 different airports! Treat yourself to one of those mini-massages. 5 new airports and you'll unlock Level 6.", 
+                    "name": "JetSetter"
+                }
+            ]
+        }
+    }
+}

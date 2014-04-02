@@ -1,0 +1,554 @@
+{
+    "user": {
+        "checkins": {
+            "count": 20, 
+            "items": []
+        }, 
+        "bio": "", 
+        "gender": "female", 
+        "type": "user", 
+        "firstName": "Fortune", 
+        "lastName": "H.", 
+        "scores": {
+            "max": 40, 
+            "checkinsCount": 0, 
+            "goal": 50, 
+            "recent": 0
+        }, 
+        "lists": {
+            "count": 8, 
+            "groups": [
+                {
+                    "count": 8, 
+                    "items": [
+                        {
+                            "description": "", 
+                            "collaborative": false, 
+                            "url": "/user/23953979/list/absence-of-subject", 
+                            "editable": false, 
+                            "listItems": {
+                                "count": 0
+                            }, 
+                            "createdAt": 1390317961, 
+                            "id": "52de9189498e55876b2bfc76", 
+                            "followers": {
+                                "count": 0
+                            }, 
+                            "user": {
+                                "lastName": "H.", 
+                                "photo": {
+                                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                                    "suffix": "/USZWAEWUUOMYH5F3.jpg"
+                                }, 
+                                "id": "23953979", 
+                                "firstName": "Fortune", 
+                                "gender": "female"
+                            }, 
+                            "updatedAt": 1390317961, 
+                            "public": true, 
+                            "canonicalUrl": "https://foursquare.com/user/23953979/list/absence-of-subject", 
+                            "name": "Absence Of Subject"
+                        }
+                    ], 
+                    "type": "created"
+                }, 
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "followed"
+                }
+            ]
+        }, 
+        "homeCity": "New York", 
+        "photos": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "photo": {
+            "prefix": "https://irs0.4sqi.net/img/user/", 
+            "suffix": "/USZWAEWUUOMYH5F3.jpg"
+        }, 
+        "following": {
+            "count": 8, 
+            "groups": [
+                {
+                    "count": 8, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "firstName": "The New Yorker", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 2, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "newyorker"
+                            }, 
+                            "followers": {
+                                "count": 183054, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/2611536-ZWKHMEGCZWBA3QQY.png"
+                            }, 
+                            "tips": {
+                                "count": 207
+                            }, 
+                            "type": "page", 
+                            "id": "2611536"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "ZAGAT", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 1, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "zagat", 
+                                "facebook": "6209532642"
+                            }, 
+                            "followers": {
+                                "count": 402759, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/HJPRUD2NFJVZKZ01.png"
+                            }, 
+                            "tips": {
+                                "count": 108
+                            }, 
+                            "type": "page", 
+                            "id": "203469"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "CNN", 
+                            "gender": "none", 
+                            "homeCity": "Atlanta, GA", 
+                            "contact": {
+                                "twitter": "cnn"
+                            }, 
+                            "followers": {
+                                "count": 736973, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/CG0JKCAAR4XZVDPX.gif"
+                            }, 
+                            "tips": {
+                                "count": 16
+                            }, 
+                            "type": "page", 
+                            "id": "1413072"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "InStyle", 
+                            "gender": "none", 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "instyle"
+                            }, 
+                            "followers": {
+                                "count": 268637, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/ASDINF3KUHFACOSC.jpg"
+                            }, 
+                            "tips": {
+                                "count": 211
+                            }, 
+                            "type": "page", 
+                            "id": "901653"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Vogue", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 2, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "London, UK", 
+                            "contact": {
+                                "twitter": "britishvogue"
+                            }, 
+                            "followers": {
+                                "count": 354127, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/BE0AIKGEXW0TYNZY.png"
+                            }, 
+                            "tips": {
+                                "count": 188
+                            }, 
+                            "type": "page", 
+                            "id": "3225840"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "MoMA", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 1, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "museummodernart"
+                            }, 
+                            "followers": {
+                                "count": 164617, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/VRBRRK4QP3YBF0GR.jpg"
+                            }, 
+                            "tips": {
+                                "count": 27
+                            }, 
+                            "type": "chain", 
+                            "id": "2944196"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Giuseppe Zanotti Design", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 2, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "Italy", 
+                            "contact": {
+                                "twitter": "gzanottidesign"
+                            }, 
+                            "followers": {
+                                "count": 1307, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/VJKTBJPNOX1RED12.jpg"
+                            }, 
+                            "tips": {
+                                "count": 5
+                            }, 
+                            "type": "chain", 
+                            "id": "17009522"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "World Economic Forum", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 1, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "Gen\u00e8ve, Suisse", 
+                            "contact": {
+                                "twitter": "wef"
+                            }, 
+                            "followers": {
+                                "count": 9977, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/3TW0G4DDGLSHHO5Q.gif"
+                            }, 
+                            "tips": {
+                                "count": 22
+                            }, 
+                            "type": "chain", 
+                            "id": "5749743"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other following"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 3
+        }, 
+        "mayorships": {
+            "count": 0, 
+            "items": []
+        }, 
+        "friends": {
+            "count": 92, 
+            "groups": [
+                {
+                    "count": 92, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Ari", 
+                            "lastName": "Z.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/-EQWXDOMJA1LJMNRH.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "69349597"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Mary", 
+                            "lastName": "V.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/PL12XFZ4BL4LUIUW.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "3948050"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Lisa", 
+                            "lastName": "P.", 
+                            "homeCity": "San Mateo, CA", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/5SE2F0QGD1RXIDQ2.jpg"
+                            }, 
+                            "tips": {
+                                "count": 57
+                            }, 
+                            "id": "46385"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Kamil", 
+                            "lastName": "K.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/X2NQLQ1AVGXT12UR.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "36817902"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Cynthia", 
+                            "lastName": "L.", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 1, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "Los Angeles, CA", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/DZVYXJ5WCFGYBA51.jpg"
+                            }, 
+                            "tips": {
+                                "count": 1
+                            }, 
+                            "id": "8686514"
+                        }, 
+                        {
+                            "bio": "Chief Relationship Architect, Engage! Consulting. Business Development, Marketing & Sales Executive, Founder of Spa Gypsies.", 
+                            "gender": "female", 
+                            "firstName": "Peggy", 
+                            "lastName": "L.", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 5, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New Canaan, CT", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/FZ1V0VD3VUWXS5DQ.jpg"
+                            }, 
+                            "tips": {
+                                "count": 34
+                            }, 
+                            "id": "469334"
+                        }, 
+                        {
+                            "bio": "Multimedia maven and lifelong fan of Doctor Who, The Muppets and Star Wars!", 
+                            "gender": "male", 
+                            "firstName": "John", 
+                            "lastName": "H.", 
+                            "homeCity": "Pinhoe, Exeter, Devon", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/JE42TGMVDJTE3YFN.jpg"
+                            }, 
+                            "tips": {
+                                "count": 4
+                            }, 
+                            "id": "57141"
+                        }, 
+                        {
+                            "bio": "I am an Entrepreneur & creating opportunities for people who are looking to become an Entrepreneurs.", 
+                            "gender": "male", 
+                            "firstName": "Aneel", 
+                            "lastName": "S.", 
+                            "homeCity": "Chicago, Illinois", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/CNYWYW1IWTIUEFQC.jpg"
+                            }, 
+                            "tips": {
+                                "count": 15
+                            }, 
+                            "id": "27436331"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Atif Ali", 
+                            "lastName": "K.", 
+                            "homeCity": "Bangkok, Thailand", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/VYG0PZIZPUB4Z5SY.jpg"
+                            }, 
+                            "tips": {
+                                "count": 2
+                            }, 
+                            "id": "68423931"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Ike", 
+                            "lastName": "D.", 
+                            "homeCity": "Brooklyn, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/79187106-GXQGYXPCXR3YPYNJ.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "79187106"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other friends"
+                }
+            ]
+        }, 
+        "id": "23953979", 
+        "badges": {
+            "count": 5, 
+            "items": [
+                {
+                    "unlockMessage": "Fortune unlocked the Adventurer badge", 
+                    "description": "You've checked into 10 different places! Now, how about inviting some friends into the mix? You can share recommendations and check out new spots together!", 
+                    "unlocks": [
+                        {
+                            "checkins": [
+                                {
+                                    "timeZoneOffset": -300, 
+                                    "source": {
+                                        "url": "https://foursquare.com/download/#/iphone", 
+                                        "name": "foursquare for iPhone"
+                                    }, 
+                                    "type": "checkin", 
+                                    "id": "52fdf4a0498ea927e6dd5ae1", 
+                                    "createdAt": 1392374944
+                                }
+                            ]
+                        }
+                    ], 
+                    "image": {
+                        "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                        "name": "/adventurer.png", 
+                        "sizes": [
+                            57, 
+                            114, 
+                            200, 
+                            300, 
+                            400
+                        ]
+                    }, 
+                    "badgeText": "You've checked into 10 different places! Now, how about inviting some friends into the mix? You can share recommendations and check out new spots together!", 
+                    "badgeId": "4c4f08667a0803bbab202ab7", 
+                    "id": "52fdf4a0498ea927e6dd5ae6", 
+                    "name": "Adventurer"
+                }
+            ]
+        }
+    }
+}

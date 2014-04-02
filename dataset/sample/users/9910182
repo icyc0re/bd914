@@ -1,0 +1,614 @@
+{
+    "user": {
+        "checkins": {
+            "count": 1554, 
+            "items": []
+        }, 
+        "bio": "Social Brand Strategist at IBM, Columbia Alum, Crossfitter, Kayaker.", 
+        "gender": "male", 
+        "type": "user", 
+        "firstName": "Keith", 
+        "lastName": "K.", 
+        "scores": {
+            "max": 311, 
+            "checkinsCount": 7, 
+            "recent": 40
+        }, 
+        "lists": {
+            "count": 11, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "description": "Samsung and Foursquare team up to help you discover great new places. http://foursquare.com/timemachine", 
+                            "collaborative": false, 
+                            "url": "/krazykaplan14/list/the-next-big-thing", 
+                            "editable": false, 
+                            "listItems": {
+                                "count": 12
+                            }, 
+                            "createdAt": 1371139339, 
+                            "public": true, 
+                            "entities": [
+                                {
+                                    "indices": [
+                                        70, 
+                                        103
+                                    ], 
+                                    "object": {
+                                        "url": "http://foursquare.com/timemachine"
+                                    }, 
+                                    "type": "url"
+                                }
+                            ], 
+                            "followers": {
+                                "count": 0
+                            }, 
+                            "user": {
+                                "lastName": "K.", 
+                                "photo": {
+                                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                                    "suffix": "/WBIW03QWXSB2AOQS.jpg"
+                                }, 
+                                "id": "9910182", 
+                                "firstName": "Keith", 
+                                "gender": "male"
+                            }, 
+                            "updatedAt": 1371139342, 
+                            "id": "51b9ed0b498e1ba2220b6380", 
+                            "canonicalUrl": "https://foursquare.com/krazykaplan14/list/the-next-big-thing", 
+                            "name": "The Next Big Thing"
+                        }
+                    ], 
+                    "type": "created"
+                }, 
+                {
+                    "count": 10, 
+                    "items": [], 
+                    "type": "followed"
+                }
+            ]
+        }, 
+        "homeCity": "NYC", 
+        "photos": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "photo": {
+            "prefix": "https://irs0.4sqi.net/img/user/", 
+            "suffix": "/WBIW03QWXSB2AOQS.jpg"
+        }, 
+        "following": {
+            "count": 68, 
+            "groups": [
+                {
+                    "count": 68, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "firstName": "People", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 6, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "USA", 
+                            "contact": {
+                                "twitter": "peoplemag"
+                            }, 
+                            "followers": {
+                                "count": 520213, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/UDX1GUZZJXZRKX3M.jpg"
+                            }, 
+                            "tips": {
+                                "count": 105
+                            }, 
+                            "type": "page", 
+                            "id": "2394891"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "nymag", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 3, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "nymag"
+                            }, 
+                            "followers": {
+                                "count": 151062, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/DT4PCEZ2F45CQMX1.png"
+                            }, 
+                            "tips": {
+                                "count": 205
+                            }, 
+                            "type": "page", 
+                            "id": "1769287"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "American Express", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 5, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "americanexpress", 
+                                "facebook": "6185812851"
+                            }, 
+                            "followers": {
+                                "count": 203416, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/7128944-4EYCIQHHUVOF0MGG.png"
+                            }, 
+                            "tips": {
+                                "count": 97
+                            }, 
+                            "type": "chain", 
+                            "id": "7128944"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Columbia University", 
+                            "gender": "none", 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "columbia"
+                            }, 
+                            "followers": {
+                                "count": 535, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/BKQSOGIW0X3RJRRV.png"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "type": "page", 
+                            "id": "20090096"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "American Airlines", 
+                            "gender": "none", 
+                            "homeCity": "Fort Worth", 
+                            "contact": {
+                                "twitter": "americanair", 
+                                "facebook": "7003656077"
+                            }, 
+                            "followers": {
+                                "count": 13321, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/GRZC5GMAIVZORNCM.jpg"
+                            }, 
+                            "tips": {
+                                "count": 1
+                            }, 
+                            "type": "chain", 
+                            "id": "25348596"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Best Buy", 
+                            "gender": "none", 
+                            "homeCity": "", 
+                            "contact": {
+                                "twitter": "bestbuy", 
+                                "facebook": "12699262021"
+                            }, 
+                            "followers": {
+                                "count": 18111, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/9870494-GMA5O0SMGLAAYRHD.jpg"
+                            }, 
+                            "tips": {
+                                "count": 103
+                            }, 
+                            "type": "chain", 
+                            "id": "9870494"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Universal Sports", 
+                            "gender": "none", 
+                            "homeCity": "Westlake Village, CA", 
+                            "contact": {
+                                "twitter": "universalsports"
+                            }, 
+                            "followers": {
+                                "count": 6966, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/RMVOJOYMEGZ2V1YD.jpg"
+                            }, 
+                            "tips": {
+                                "count": 79
+                            }, 
+                            "type": "page", 
+                            "id": "6372205"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Fortune Magazine", 
+                            "gender": "none", 
+                            "homeCity": "New York", 
+                            "contact": {
+                                "twitter": "fortunemagazine"
+                            }, 
+                            "followers": {
+                                "count": 10262, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/4F2WO3CGZ1HKXWM3.png"
+                            }, 
+                            "tips": {
+                                "count": 10
+                            }, 
+                            "type": "page", 
+                            "id": "23423171"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Spotify", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 2, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "Stockholm, Sverige", 
+                            "contact": {
+                                "twitter": "spotify"
+                            }, 
+                            "followers": {
+                                "count": 38146, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/TP2XLD300KKBQ1LT.png"
+                            }, 
+                            "tips": {
+                                "count": 18
+                            }, 
+                            "type": "chain", 
+                            "id": "21385895"
+                        }, 
+                        {
+                            "bio": "", 
+                            "firstName": "Seamless", 
+                            "gender": "none", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 3, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {
+                                "twitter": "seamless"
+                            }, 
+                            "followers": {
+                                "count": 2086, 
+                                "groups": []
+                            }, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/EDW3VIGNE0DZYOWJ.jpg"
+                            }, 
+                            "tips": {
+                                "count": 40
+                            }, 
+                            "type": "page", 
+                            "id": "12227471"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other following"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 30
+        }, 
+        "mayorships": {
+            "count": 0, 
+            "items": []
+        }, 
+        "friends": {
+            "count": 161, 
+            "groups": [
+                {
+                    "count": 161, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Pete", 
+                            "lastName": "P.", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 1, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "Brooklyn, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/2ZMYW2SRVYE02CDM.jpg"
+                            }, 
+                            "tips": {
+                                "count": 2
+                            }, 
+                            "id": "1537219"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Rasmus", 
+                            "lastName": "M.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/72570525-XSTHWEMUUUG50NV2.jpg"
+                            }, 
+                            "tips": {
+                                "count": 3
+                            }, 
+                            "id": "72570525"
+                        }, 
+                        {
+                            "bio": "Scrum Master at IBM\r\nLives in NYC\r\nMarried to Chris Markle", 
+                            "gender": "female", 
+                            "firstName": "Sydney", 
+                            "lastName": "M.", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 4, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/28959302-1ZXOF4MWZ2CKSSRF.jpg"
+                            }, 
+                            "tips": {
+                                "count": 4
+                            }, 
+                            "id": "28959302"
+                        }, 
+                        {
+                            "bio": "I'm all about #NYCNights and #NYC #Tech #Startup #SiliconAlley scene.", 
+                            "gender": "female", 
+                            "firstName": "Katy", 
+                            "lastName": "K.", 
+                            "homeCity": "New York City", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/70228868-XVCBYNVRINVCAUHP.jpg"
+                            }, 
+                            "tips": {
+                                "count": 2
+                            }, 
+                            "id": "70228868"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Lauren", 
+                            "lastName": "L.", 
+                            "homeCity": "Georgia", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/H01AMNK142NHCKU1.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "69525762"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "none", 
+                            "firstName": "Nicholas", 
+                            "lastName": "D.", 
+                            "homeCity": "New York", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/5GE0JB5XQMQWJZOG.jpg"
+                            }, 
+                            "tips": {
+                                "count": 12
+                            }, 
+                            "id": "57906139"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Chelsea", 
+                            "lastName": "F.", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 2, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/CMUFYUEHEUU42R14.jpg"
+                            }, 
+                            "tips": {
+                                "count": 3
+                            }, 
+                            "id": "9874233"
+                        }, 
+                        {
+                            "bio": "Video producer, full-time dork. Twenteensomething.", 
+                            "gender": "female", 
+                            "firstName": "Bianca", 
+                            "lastName": "C.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/HCNAGWHB4GU0HAOA.jpg"
+                            }, 
+                            "tips": {
+                                "count": 5
+                            }, 
+                            "id": "54574470"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Devora", 
+                            "lastName": "M.", 
+                            "homeCity": "Midrand, South Africa", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/blank_girl.png"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "7830005"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Sarah", 
+                            "lastName": "R.", 
+                            "homeCity": "East Lansing, MI", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/blank_girl.png"
+                            }, 
+                            "tips": {
+                                "count": 1
+                            }, 
+                            "id": "59400501"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other friends"
+                }
+            ]
+        }, 
+        "id": "9910182", 
+        "badges": {
+            "count": 49, 
+            "items": [
+                {
+                    "unlockMessage": "Keith unlocked the Great Outdoors badge", 
+                    "description": "Welcome to the Great Outdoors!\n\nYou've been to 20 different outdoorsy places! Celebrate with a GORP party! Check in at 5 new spots to unlock Level 6.", 
+                    "level": 5, 
+                    "unlocks": [
+                        {
+                            "checkins": [
+                                {
+                                    "timeZoneOffset": -240, 
+                                    "source": {
+                                        "url": "https://foursquare.com/download/#/android", 
+                                        "name": "foursquare for Android"
+                                    }, 
+                                    "type": "checkin", 
+                                    "id": "5221e8bd11d2be142382d7bd", 
+                                    "createdAt": 1377953981
+                                }
+                            ]
+                        }
+                    ], 
+                    "image": {
+                        "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                        "name": "/greatoutdoors_5.png", 
+                        "sizes": [
+                            57, 
+                            114, 
+                            200, 
+                            300, 
+                            400
+                        ]
+                    }, 
+                    "badgeText": "Welcome to the Great Outdoors!", 
+                    "badgeId": "4c7d1deb978976b064cfe939", 
+                    "categorySummary": "Outdoor Spots", 
+                    "id": "5221e8bd11d2be142382de29", 
+                    "levelText": "You've been to 20 different outdoorsy places! Celebrate with a GORP party! Check in at 5 new spots to unlock Level 6.", 
+                    "name": "Great Outdoors"
+                }
+            ]
+        }
+    }
+}
