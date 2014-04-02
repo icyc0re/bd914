@@ -1,0 +1,174 @@
+{
+    "user": {
+        "checkins": {
+            "count": 68, 
+            "items": []
+        }, 
+        "bio": "", 
+        "gender": "female", 
+        "type": "user", 
+        "firstName": "Margaret", 
+        "lastName": "W.", 
+        "scores": {
+            "max": 181, 
+            "checkinsCount": 1, 
+            "recent": 7
+        }, 
+        "lists": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "created"
+                }, 
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "followed"
+                }
+            ]
+        }, 
+        "homeCity": "Islip Terrace, NY", 
+        "photos": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "photo": {
+            "prefix": "https://irs2.4sqi.net/img/user/", 
+            "suffix": "/77765339-S3MML55AA0Q2B1RG.jpg"
+        }, 
+        "following": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Other following"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0
+        }, 
+        "mayorships": {
+            "count": 0, 
+            "items": []
+        }, 
+        "friends": {
+            "count": 3, 
+            "groups": [
+                {
+                    "count": 3, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Matt", 
+                            "lastName": "C.", 
+                            "homeCity": "Centereach, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/IV3GLW0NAWI41RIU.jpg"
+                            }, 
+                            "tips": {
+                                "count": 3
+                            }, 
+                            "id": "7028341"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "none", 
+                            "firstName": "Adrian", 
+                            "lastName": "R.", 
+                            "homeCity": "Wantagh, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/X4EUOPR3W3JDHZRA.jpg"
+                            }, 
+                            "tips": {
+                                "count": 1
+                            }, 
+                            "id": "16941501"
+                        }, 
+                        {
+                            "bio": "", 
+                            "gender": "male", 
+                            "firstName": "Tony", 
+                            "lastName": "F.", 
+                            "lists": {
+                                "groups": [
+                                    {
+                                        "count": 1, 
+                                        "items": [], 
+                                        "type": "created"
+                                    }
+                                ]
+                            }, 
+                            "homeCity": "Massapequa Park, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/4DQJ4YKQZULX3FP3.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "16941449"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other friends"
+                }
+            ]
+        }, 
+        "id": "77765339", 
+        "badges": {
+            "count": 8, 
+            "items": [
+                {
+                    "unlockMessage": "Margaret unlocked the Mall Rat badge", 
+                    "description": "Sharper Image. Gap. That guy selling bedazzled iPhone cases from a kiosk. It\u2019s always nice to see some familiar faces. Now, weave your way through that crazy crowd, grab an Orange Julius, and enjoy the fountain\u2019s soothing gurgles.\n\nThat\u2019s 5 different mall spots! Get yourself a new sweater! Explore 5 new spots to unlock Level 3.", 
+                    "level": 2, 
+                    "unlocks": [
+                        {
+                            "checkins": [
+                                {
+                                    "timeZoneOffset": -300, 
+                                    "source": {
+                                        "url": "https://foursquare.com/download/#/android", 
+                                        "name": "foursquare for Android"
+                                    }, 
+                                    "type": "checkin", 
+                                    "id": "52feb3a0498ed40aef34b0a9", 
+                                    "createdAt": 1392423840
+                                }
+                            ]
+                        }
+                    ], 
+                    "image": {
+                        "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                        "name": "/VCNL1VD5FZAK5JBN_2.png", 
+                        "sizes": [
+                            57, 
+                            114, 
+                            200, 
+                            300, 
+                            400
+                        ]
+                    }, 
+                    "badgeText": "Sharper Image. Gap. That guy selling bedazzled iPhone cases from a kiosk. It\u2019s always nice to see some familiar faces. Now, weave your way through that crazy crowd, grab an Orange Julius, and enjoy the fountain\u2019s soothing gurgles.", 
+                    "badgeId": "4ecbdd9e7beb20ebed8da36d", 
+                    "categorySummary": "Malls", 
+                    "id": "52feb3a1498ed40aef34b0ab", 
+                    "levelText": "That\u2019s 5 different mall spots! Get yourself a new sweater! Explore 5 new spots to unlock Level 3.", 
+                    "name": "Mall Rat"
+                }
+            ]
+        }
+    }
+}

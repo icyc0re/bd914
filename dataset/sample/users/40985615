@@ -1,0 +1,131 @@
+{
+    "user": {
+        "checkins": {
+            "count": 12, 
+            "items": []
+        }, 
+        "bio": "", 
+        "gender": "female", 
+        "type": "user", 
+        "firstName": "Maritza", 
+        "lastName": "H.", 
+        "scores": {
+            "max": 47, 
+            "checkinsCount": 0, 
+            "goal": 50, 
+            "recent": 0
+        }, 
+        "lists": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "created"
+                }, 
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "followed"
+                }
+            ]
+        }, 
+        "homeCity": "New York, NY", 
+        "photos": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "photo": {
+            "prefix": "https://irs1.4sqi.net/img/user/", 
+            "suffix": "/5BXGC0G1GT3OYDHS.jpg"
+        }, 
+        "following": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Other following"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0
+        }, 
+        "mayorships": {
+            "count": 0, 
+            "items": []
+        }, 
+        "friends": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Leslie", 
+                            "lastName": "H.", 
+                            "homeCity": "Culver City, California", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/KV2XTAF51NALEKNQ.jpg"
+                            }, 
+                            "tips": {
+                                "count": 0
+                            }, 
+                            "id": "21384108"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other friends"
+                }
+            ]
+        }, 
+        "id": "40985615", 
+        "badges": {
+            "count": 3, 
+            "items": [
+                {
+                    "unlockMessage": "Maritza unlocked the Adventurer badge", 
+                    "description": "You've checked into 10 different places! Now, how about inviting some friends into the mix? You can share recommendations and check out new spots together!", 
+                    "unlocks": [
+                        {
+                            "checkins": [
+                                {
+                                    "timeZoneOffset": -300, 
+                                    "source": {
+                                        "url": "https://foursquare.com/download/#/iphone", 
+                                        "name": "foursquare for iPhone"
+                                    }, 
+                                    "type": "checkin", 
+                                    "id": "5132787fe4b098c26d9197d5", 
+                                    "createdAt": 1362262143
+                                }
+                            ]
+                        }
+                    ], 
+                    "image": {
+                        "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                        "name": "/adventurer.png", 
+                        "sizes": [
+                            57, 
+                            114, 
+                            200, 
+                            300, 
+                            400
+                        ]
+                    }, 
+                    "badgeText": "You've checked into 10 different places! Now, how about inviting some friends into the mix? You can share recommendations and check out new spots together!", 
+                    "badgeId": "4c4f08667a0803bbab202ab7", 
+                    "id": "51327880e4b098c26d919d99", 
+                    "name": "Adventurer"
+                }
+            ]
+        }
+    }
+}

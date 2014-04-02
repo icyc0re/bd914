@@ -1,0 +1,131 @@
+{
+    "user": {
+        "checkins": {
+            "count": 3, 
+            "items": []
+        }, 
+        "bio": "", 
+        "gender": "male", 
+        "type": "user", 
+        "firstName": "D", 
+        "lastName": "S.", 
+        "scores": {
+            "max": 22, 
+            "checkinsCount": 0, 
+            "goal": 50, 
+            "recent": 0
+        }, 
+        "lists": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "created"
+                }, 
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "followed"
+                }
+            ]
+        }, 
+        "homeCity": "Englewood Cliffs, NJ", 
+        "photos": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "photo": {
+            "prefix": "https://irs0.4sqi.net/img/user/", 
+            "suffix": "/blank_boy.png"
+        }, 
+        "following": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Other following"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1
+        }, 
+        "mayorships": {
+            "count": 0, 
+            "items": []
+        }, 
+        "friends": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "bio": "", 
+                            "gender": "female", 
+                            "firstName": "Jenni", 
+                            "lastName": "S.", 
+                            "homeCity": "New York, NY", 
+                            "contact": {}, 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/5ZY5KUTXITNBECS0.jpg"
+                            }, 
+                            "tips": {
+                                "count": 1
+                            }, 
+                            "id": "313003"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Other friends"
+                }
+            ]
+        }, 
+        "id": "14183366", 
+        "badges": {
+            "count": 1, 
+            "items": [
+                {
+                    "unlockMessage": "D unlocked the Newbie badge", 
+                    "description": "Your first check-in! Foursquare keeps track of your adventures and milestones, like visiting five new sushi spots or galleries. And with every check-in, we learn about what you like and can give you better recommendations.", 
+                    "unlocks": [
+                        {
+                            "checkins": [
+                                {
+                                    "timeZoneOffset": -240, 
+                                    "source": {
+                                        "url": "https://foursquare.com/download/#/android", 
+                                        "name": "foursquare for Android"
+                                    }, 
+                                    "type": "checkin", 
+                                    "id": "4e86694f6da1136e7c2ce150", 
+                                    "createdAt": 1317431631
+                                }
+                            ]
+                        }
+                    ], 
+                    "image": {
+                        "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                        "name": "/newbie.png", 
+                        "sizes": [
+                            57, 
+                            114, 
+                            200, 
+                            300, 
+                            400
+                        ]
+                    }, 
+                    "badgeText": "Your first check-in! Foursquare keeps track of your adventures and milestones, like visiting five new sushi spots or galleries. And with every check-in, we learn about what you like and can give you better recommendations.", 
+                    "badgeId": "4c4f08667a0803bbaa202ab7", 
+                    "id": "4e86694f6da1136e7c2ce159", 
+                    "name": "Newbie"
+                }
+            ]
+        }
+    }
+}

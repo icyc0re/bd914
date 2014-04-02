@@ -7,12 +7,10 @@ import foursquare
 import json
 import time
 
-sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)),"foursquare/"))
-
 def main():	
     
     if len(sys.argv) != 4:
-        print 'usage: pull_ids.py <login_file> <ids_file> <output_directory>'
+        print 'usage: pull_venues.py <login_file> <ids_file> <output_directory>'
         sys.exit (1)
         
     #retrieve credentials
