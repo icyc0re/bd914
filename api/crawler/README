@@ -1,9 +1,22 @@
 files:
-foursquare/ - wrapper Python wrapper (https://github.com/mLewisLogic/foursquare) for the foursquare v2 API
+foursquare/ - Python wrapper (https://github.com/mLewisLogic/foursquare) for the foursquare v2 API
 Installation of the wrapper: pip install foursquare OR easy_install foursquare
 
-pull_ids.py : pull venues ids of ids from new york city
+PULL OBJECTS
+pull_venues.py : pull venues from ids
+	usage: pull_venues.py <login_file> <ids_file> <output_directory>
+	
+pull_users.py : pull venues ids of ids from new york city
+	usage: pull_users.py <login_file> <ids_file> <output_directory>
+
+
+PULL IDS
+pull_venues_ids.py : pull venues ids of ids from new york city
 	usage: pull_ids.py <login_file> <output_file>
+	
+pull_users_ids.py : pull venues ids of ids from new york city
+	usage: pull_ids.py <login_file> <output_file>
+
 
 login_file must contains 3 lines:
 <client ID>
@@ -13,6 +26,3 @@ login_file must contains 3 lines:
 To use the API you need a client ID and a client secret that you get by creating an app at:
 https://foursquare.com/developers/register
 For Redirect URI use for instance	 http://localhost:8888
-
-
-
