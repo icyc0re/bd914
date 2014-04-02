@@ -47,8 +47,12 @@ def main():
             print 'Foursquare servers are experiencing problems. Please retry and check status.foursquare.com for updates.'
             print '...waiting 60s'
             time.sleep(60)
+        except foursquare.ParamError:
+            print 'foursquare.ParamError: Must provide a valid user ID or \'self.\''
+            i += 1
         except foursquare.Other:
             print 'error while fetching user...skipped'
+            i += 1
             
             
         
