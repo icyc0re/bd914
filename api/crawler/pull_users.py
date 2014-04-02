@@ -26,7 +26,10 @@ def main():
                                    client_secret=login[1], 
                                    redirect_uri=login[2])
 
-    for user_id in ids:
+    
+    i = 0
+    while(i < len(ids)):
+        user_id = ids[i]
         try:
             user_path=os.path.join(sys.argv[3],user_id)
             if not os.path.isfile(user_path):
@@ -35,14 +38,15 @@ def main():
                     json.dump(user, outfile)#, indent=4) #    to make it human readable, but oc use more space
                 print 'user '+user_id+' saved in '+sys.argv[3]
             else:
-                print user_path+' already exists'     
+                print user_path+' already exists'
+            i += 1
         except foursquare.RateLimitExceeded:
-            print 'Rate limit exceeded...waiting 10s'
-            time.sleep(10);
+            print 'Rate limit exceeded...waiting 60s'
+            time.sleep(60)
         except foursquare.ServerError:
             print 'Foursquare servers are experiencing problems. Please retry and check status.foursquare.com for updates.'
-            print '...waiting 10s'
-            time.sleep(10);
+            print '...waiting 60s'
+            time.sleep(60)
         except foursquare.Other:
             print 'error while fetching user...skipped'
             
