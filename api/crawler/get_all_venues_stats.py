@@ -5,14 +5,6 @@ import os.path
 import re
 import sys
 
-class VenueStats:
-    def __init__(self):
-        self.tips_count = 0
-        self.checkins_count = 0
-        self.users_count = 0
-        self.categories_count = 0
-        self.tags_count = 0
-
 # extract values from nested dictionaries and lists 
 def extract(DictIn, stats, prevKey):
     if isinstance(DictIn, dict):
