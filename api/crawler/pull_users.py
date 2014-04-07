@@ -53,6 +53,10 @@ def main():
         except foursquare.Other:
             print 'error while fetching user...skipped'
             i += 1
+        except foursquare.FoursquareException as e:
+            print e
+            print '...waiting 60s'
+            time.sleep(60)
             
             
         
