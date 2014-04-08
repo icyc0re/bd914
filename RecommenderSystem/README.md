@@ -29,5 +29,9 @@ Computes the distances between the venues and the user vector given a certain me
 
 ### Scalability 
 
-As a first step everything will be achieve without clusters. But if you see some modifications that could be done now and make the scaling part easier feel free.   
+As a first step everything will be achieve without clusters. But if you see some modifications that could be done now and make the scaling part easier feel free.
+
+### Context Aware Recommender
+
+We also plan on taking the user's context into account when recommending a venue. See [[this|context.md]] page for more details.
 
