@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas { height: 80%; width: 80%% ; margin-left:auto ; margin-right: auto}
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlDrXtddpoMG5JcpGZ52OkrUcJ5tLc4lY&sensor=true">
+    </script>
+    
+    
+    <script type="text/javascript"  src="mockVenues.js">
+    </script>
+    
+    <script type="text/javascript">
+    
+      //Create the markers for each recommended location
+      
+      function setMarkers(map, recommendedLocations){
+      	
+      	
+      	for(var i = 0; i < recommendedLocations.length; i++){
+      		var location = recommendedLocations[i]["venue"];
+      		
+      		//get location coordinates
+      		var latlng = new google.maps.LatLng(location["location"]["lat"],location["location"]["lng"]);
+      		
+      		//create marker
+      		 marker = new google.maps.Marker({			
+      			position: latlng,
+      			map:map,
+      			title: location["name"],
+      		});
+ 			
+ 			//TODO
+ 			// add attributes that need to be with the marker
+ 			// custom image for marker? (to avoid looking exactly like google)
+ 			// make proper click function (ie fill in the "clickedOnLocation"
+ 			
+ 			google.maps.event.addListener(marker, 'click', clickedOnLocation);
+      	}
+      	
+      }
+      
+      
+      // Get the mean coordinates for the recommended locations. this is used to center the map.
+      function getMeanLocation(recommendedLocations){
+      	  var lat = 0, lng = 0;
+      	  
+      	  for(var i = 0; i < recommendedLocations.length; i++){
+      	  		lat += recommendedLocations[i]["venue"]["location"]["lat"];
+      	  		lng += recommendedLocations[i]["venue"]["location"]["lng"];
+      	  }
+      	  var meanPosition = new google.maps.LatLng(lat/recommendedLocations.length, lng/recommendedLocations.length);
+      	  
+      	  return meanPosition;
+      }
+	  
+	  //The function that controls what happens when a location is clicked
+      function clickedOnLocation(){
+      	
+      	//Test function
+      	console.log("Someone clicked \"" + this["title"] + "\" !");
+      	
+      	
+      }
+      
+
+//map.setOptions({styles: noPoi});
+      
+      
+      //initialize the map ("main" function)
+      function initialize() {
+      
+      var noPoi = [
+					{
+  					  featureType: "poi",
+  					  stylers: [
+    					  { visibility: "off" }
+  					  ]   
+ 					 }, 
+ 					 
+					{
+  					  featureType: "poi.park",
+  					  stylers: [
+    					  { visibility: "on" }
+  					  ]   
+ 					 }
+				];
+
+        var mapOptions = {
+          center: getMeanLocation(recommendedLocations),
+          zoom: 13,
+          styles: noPoi
+        };
+        
+        //TODO
+        //Add code to make to set the bounds of the map so that all locations are guaranteed to visible and to
+        // have an automatically determined zoom level, Will likely be done by using bounds and auxilary function to find
+        // the appropriate bounds
+        
+        
+		/* var southWest = new google.maps.LatLng(..., ...);
+ 		 var northEast = new google.maps.LatLng(..., ...);
+ 		 var bounds = new google.maps.LatLngBounds(southWest,northEast);
+		  map.fitBounds(bounds);*/
+        
+        var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+        
+        //Add recommended locations to the map
+        setMarkers(map, recommendedLocations);
+      }
+      
+      //load the map
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    
+    
+    
+  </head>
+  <body>
+    <div id="map-canvas"/>
+  </body>
+  
+  
+</html>
