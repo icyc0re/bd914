@@ -1,0 +1,72 @@
+Report - Users statistics
+=========
+
+To do an efficient user profiling, we need statistics on the amount of information available for users. This report provides such information on the dataset of users. It includes the following statistics:
+* number and types of interactions per user.
+* average number of information per user.
+
+Interactions
+----
+We can have a list of the venues visited by a user using his/her interactions with venues. We gathered statistics on the following relevant interactions. 
+
+* tips
+* photos
+* mayorships
+ 
+The following table contains the mean and standard deviation for each type of interaction.
+
+| interaction | mean |  std |
+|:----------- | ----:| ----:|
+| tips        |  7.5 | 13.0 |
+| photos      |  0.1 |  1.2 |
+| mayorships  |  4.7 |  9.2 |
+| all         | 12.3 | 18.5 |
+
+Those initial results show that we can't profile the user easily, since on aveerage we a user interact with 12 venues.
+Also the standard deviation is pretty high which means that many users have a very few number of interactions.
+Those reasons validates our choice to add in input from the user to infer relevant features.
+
+To do collaborative filtering we need to build a social graph, which is meaningful if it is not too sparse. Users have on average 63 friends, enough to build recommendation provided that we have enough data on the user itself.
+
+| user         |    mean  |  std  |
+|--------------|---------:|------:|
+| friends      |        63|   119 |
+
+
+Informations
+----
+Many information on users may be helpful for recommendation. The more an attribute is filled in on average by users, the more it is likely to be useful.  We focus on the following user attributes:
+
+* gender
+* home city
+* contacts: IDs of facebook/twitter accounts
+* type: if present, it means the user is not a standard one, typically a company or a celebrity.
+* friends: number of friends of user
+
+Below we provide the ratios of information available per user for each attribute.
+
+| information  |          | ratio | 
+|--------------|----------|------:|
+| gender       | female   |   43% |
+|              | male     |   50% |
+|              | none     |    7% |
+| home city    |          |   98% |
+| contact      | facebook | 1.0%  |
+|              | twitter  | 1.2%  |
+| non-standard |          |  4%   |
+
+From this data we see that gender and homecity may be used for classification, even if further statistics are needed for the ratio of people not coming from New-York.
+Information from other social networks are not likely to be useful since it only 1% of the user provide it.
+4% of users are non-standard users. They can be useful because they can have followers which help for similarity between users.
+
+
+
+
+
+
+
+
+
+
+
+    

@@ -28,7 +28,7 @@ def main():
     
     user_infos = dict()
             
-    infos = ["female", "male", "none", "homeCity", "facebook", "twitter", "type", "friends"]
+    infos = ["female", "male", "none", "homeCity", "facebook", "twitter", "non-standard", "friends"]
     genders = ["female", "male", "none"]
     contacts = ["facebook", "twitter"]
     
@@ -63,8 +63,8 @@ def main():
                 if contact in user["user"]["contact"]:
                     infos_count[contact] +=1
 
-            if "type" in user["user"]:
-                infos_count["type"] +=1
+            if user["user"]["type"] != "user":
+                infos_count["non-standard"] +=1
                 
             infos_count["friends"].append(user["user"]["friends"]["count"])
                 #sys.stdout.write(info +"\t"+ str(infos_count[info])+"\t")
@@ -104,7 +104,7 @@ def main():
         for contact in contacts:
             print >> outfile, "\t" +contact+ " " + str(infos_count[contact])
         print >> outfile, ""
-        print >> outfile, "non-standard: " + str(infos_count["type"])
+        print >> outfile, "non-standard: " + str(infos_count["non-standard"])
         
         print >> outfile, "friends stats"
         print >> outfile, "\tmean: " + str(means)
