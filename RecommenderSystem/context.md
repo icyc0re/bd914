@@ -11,20 +11,20 @@ It is important to first note the difference between what is defined as a `user`
 We will define the context dimensions in our project as hierarchical trees going from general to more particular, on several categories:
 
 * TimeOfWeek: the time of the week is directly connected to the free time a users has and, as probably stated within the user features. A user may prefers caffees during the week and bars during the weekends.
-⋅⋅* AnyDay -> Weekday -> Mon .. Fri
-⋅⋅* AnyDay -> Holiday -> Weekend -> Sat .. Sun
+⋅⋅- AnyDay -> Weekday -> Mon .. Fri
+⋅⋅- AnyDay -> Holiday -> Weekend -> Sat .. Sun
 
 * TimeOfDay: this is a good way to take into account the venue opening hours into the recommendations made by the system.
 
 * CurrentVenue: you're probably not going to head out to the disco if your current location is a museum. You might however head to a fast food if you're currently grabbing coffee.
-⋅⋅* AnyPlace -> Bar -> Pub .. Cafee
-⋅⋅* AnyPlace -> Restaurant -> Fast Food .. Fancy Place
-⋅⋅* AnyPlace -> Culture -> Museum .. Theatre
-⋅⋅* AnyPlace -> ...
+⋅⋅- AnyPlace -> Bar -> Pub .. Cafee
+⋅⋅- AnyPlace -> Restaurant -> Fast Food .. Fancy Place
+⋅⋅- AnyPlace -> Culture -> Museum .. Theatre
+⋅⋅- AnyPlace -> ...
 
 * Company: who you're with should also matter when recommending a venue. If you're hanging out with your buddies, going out for beers may seem like a good idea, but maybe a nice place to eat out would be better suited for a family reunion.
-⋅⋅* AnyCompany -> NotAlone -> Friends -> Girlfriend/Boyfriend
-⋅⋅* NotAlone -> Co-workers
+⋅⋅- AnyCompany -> NotAlone -> Friends -> Girlfriend/Boyfriend
+⋅⋅- NotAlone -> Co-workers
 
 For the moment, these four dimensions seem most relevant for the user's context. They are also easy to acquire either directly by checking the date and location or by adding a choise for the Company. We will see later that by using the most general of contexts for each dimension we obtain a basic recommender that doesn't take user context into account.
 
