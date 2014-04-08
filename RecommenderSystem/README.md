@@ -33,5 +33,5 @@ As a first step everything will be achieve without clusters. But if you see some
 
 ### Context Aware Recommender
 
-We also plan on taking the user's context into account when recommending a venue. See [[this|context.md]] page for more details.
+We also plan on taking the user's context into account when recommending a venue. See [this](context.md) page for more details.
 
