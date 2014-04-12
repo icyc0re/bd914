@@ -7,7 +7,7 @@ import filtering.MockVectorSimilarity
  * This is the main class of the recommender system.
  * @author Ivan Gavrilović
  */
-object RecommenderApp {
+object RecommenderApp{
   def main(args:Array[String]){
     // todo
     val processor:MockAbstractInputProcessor = new MockAbstractInputProcessor
