@@ -26,4 +26,16 @@ Categories      | 1.04 | 1
 Likes       | 0.8 | 0
 Tags           | 0.3 | 0
 
-More detailed statistic providing charts with distribution of all above attributes will be added shortly.
+
+Distributions
+----
+
+Distribution of venues per category is available at /api/analyzer/venue_stats_results/categories. Other useful distribution charts are listed below.
+
+![](../api/analyzer/venue_stats_results/checkins.png?raw=true)
+
+![](../api/analyzer/venue_stats_results/users.png?raw=true)
+
+![](../api/analyzer/venue_stats_results/tips.png?raw=true)
+
+![](../api/analyzer/venue_stats_results/tags.png?raw=true)
