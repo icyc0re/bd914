@@ -1,0 +1,7 @@
+set output "tips.png" 
+set term png
+set logscale x 
+set title "number of tips per users" 
+set xlabel "number of users" 
+set ylabel "tips" 
+plot "tips.count" using 2:1 title "distribution of tips per user"

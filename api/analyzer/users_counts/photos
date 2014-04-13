@@ -1,0 +1,7 @@
+set output "photos.png" 
+set term png
+set logscale x 
+set title "number of photos per users" 
+set xlabel "number of users" 
+set ylabel "photos" 
+plot "photos.count" using 2:1 title "distribution of photos per user"

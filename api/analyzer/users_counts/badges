@@ -1,0 +1,7 @@
+set output "badges.png" 
+set term png
+set logscale x 
+set title "number of badges per users" 
+set xlabel "number of users" 
+set ylabel "badges" 
+plot "badges.count" using 2:1 title "distribution of badges per user"
