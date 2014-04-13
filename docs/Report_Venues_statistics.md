@@ -17,14 +17,14 @@ Price         | 3%
 
 Average and median values per venue for both required and optional attributes:
 
-Attribute       | Average         | Median 
-:------------   | :------------: |
-Checkins        | 237            | 9
-Users          | 93  |3 
-Tips         | 1.6 | 0
-Categories      | 1.04 | 1
-Likes       | 0.8 | 0
-Tags           | 0.3 | 0
+Attribute     | Average        | Median 
+:------------ | :------------: |
+Checkins      | 237            | 9
+Users         | 93             | 3 
+Tips          | 1.6            | 0
+Categories    | 1.04           | 1
+Likes         | 0.8            | 0
+Tags          | 0.3            | 0
 
 
 Distributions
