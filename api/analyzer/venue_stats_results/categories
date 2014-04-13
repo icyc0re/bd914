@@ -1,0 +1,8 @@
+set output "categories.png" 
+set term png
+set logscale x 
+set logscale y 
+set title "number of categories per venues" 
+set xlabel "number of venues" 
+set ylabel "categories" 
+plot "categories.count" using 2:1 title "distribution of categories per venue"

@@ -60,7 +60,7 @@ def extract(DictIn, stats, prevKey):
 def main():    
     
     if len(sys.argv) != 2:
-        print 'usage: pull_users_ids.py <venues_dir>'
+        print 'usage: venue_stats.py <venues_dir>'
         sys.exit (1)
      
     venues_paths = [os.path.join(sys.argv[1],f) for f in os.listdir(sys.argv[1])]# if os.path.isfile(f)]
@@ -98,14 +98,14 @@ def main():
             print counter
     print 'Total number of venues: ' + str(counter)
     # Create folder with result (stats_results) and calculate average and mean
-    average_and_median_file=open('stats_results/average_and_median','w')
+    average_and_median_file=open('venue_stats_results/average_and_median','w')
     for stat_name, stat_dict in all_stats.iteritems():
         valueSum = 0.0
         timesSum = 0.0
         median = 0.0
         is_median_set = 0
         key_stored_for_median_calc = -1.0;
-        file=open('stats_results/' + stat_name,'w')
+        file=open('venue_stats_results/' + stat_name,'w')
         
         # key is the value of json object and value is the times of its accurance
         for key, value in sorted(stat_dict.iteritems()):

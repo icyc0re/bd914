@@ -1,0 +1,7 @@
+set output "tagsCount.png" 
+set term png
+set logscale x 
+set title "number of tags per venues" 
+set xlabel "number of venues" 
+set ylabel "tags" 
+plot "tagsCount" using 2:1 title "distribution of tags per venue"

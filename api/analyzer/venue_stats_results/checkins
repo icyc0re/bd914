@@ -1,0 +1,8 @@
+set output "checkins.png" 
+set term png
+set logscale x 
+set logscale y 
+set title "number of checkins per venues" 
+set xlabel "number of venues" 
+set ylabel "checkins" 
+plot "checkins.count" using 2:1 title "distribution of checkins per venue"
