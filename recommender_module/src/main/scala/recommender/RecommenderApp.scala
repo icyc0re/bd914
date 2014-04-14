@@ -1,6 +1,7 @@
 package recommender
 
 import input.MockAbstractInputProcessor
+import input.Venue
 import filtering.MockVectorSimilarity
 
 /**
@@ -10,6 +11,13 @@ import filtering.MockVectorSimilarity
 object RecommenderApp {
   def main(args:Array[String]){
     // todo
+
+    //example on how to extract feature from a JSON file 
+    val filePath : String = "venue_test"
+    val venue : Venue = new Venue(filePath)
+    venue.displayFeatures()
+    println("\nIt's easy to extract features : "+venue.name+"\t"+venue.likes+"\n")
+
     val processor:MockAbstractInputProcessor = new MockAbstractInputProcessor
 
     val vectors = processor.processData(null)
