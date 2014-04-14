@@ -1,0 +1,15 @@
+#!/bin/bash
+
+declare -a arr=("tips" "badges" "photos" "all_interactions")
+
+for i in "${arr[@]}"
+do
+	echo "set output \"$i.png\" " > $i
+	echo "set term png" >> $i
+	echo "set logscale x " >> $i
+	echo "set title \"number of $i per users\" " >> $i
+	echo "set xlabel \"number of users\" " >> $i
+	echo "set ylabel \"$i\" " >> $i
+	echo "plot \"$i.count\" using 2:1 title \"distribution of $i per user\"" >> $i
+	gnuplot $i
+done

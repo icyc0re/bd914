@@ -1,0 +1,8 @@
+set output "tips categories tags users checkins.png" 
+set term png
+set logscale x 
+set logscale y 
+set title "number of tips categories tags users checkins per venues" 
+set xlabel "number of venues" 
+set ylabel "tips categories tags users checkins" 
+plot "tips categories tags users checkins.count" using 2:1 title "distribution of tips categories tags users checkins per venue"

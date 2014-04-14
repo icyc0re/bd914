@@ -1,7 +1,7 @@
 Report - Venue classifier
 =========
 
-This report specifies relevant attirbutes of 4SQ venues and their potential usage in content-based recommender system. For each attribute provided are  clarifications of its meaning, possible usage in recommender system and example JSON data structor that can be found in venues data. Eclosed JSON file fragments are part of the venue file that can be found [here][example venue].
+This report specifies relevant attirbutes of foursquare venues and their potential usage in content-based recommender system. For each attribute provided are  clarifications of its meaning, possible usage in recommender system and example JSON data structor that can be found in venues data. Eclosed JSON file fragments are part of the venue file that can be found [here][example venue].
 
 Location
 ----
@@ -186,10 +186,10 @@ phrases: [
 
 Other attributes
 ----
-Other attributes that potential can be used within recommender system are:
+Other attributes that potentialy can be used within recommender system are:
  - Opening hours and *popular* hours
- - Menus, drins, dining options (takeout/delivery)
- - Possibility of reseration
+ - Menus, drinks, dinning options (takeout/delivery)
+ - Possibility of reservation
  - Payment methods
 
 

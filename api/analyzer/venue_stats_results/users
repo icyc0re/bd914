@@ -1,0 +1,8 @@
+set output "users.png" 
+set term png
+set logscale x 
+set logscale y 
+set title "number of users per venues" 
+set xlabel "number of venues" 
+set ylabel "users" 
+plot "users.count" using 2:1 title "distribution of users per venue"
