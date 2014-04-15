@@ -10,8 +10,9 @@ This means that they cannot be precomputed before having the user input, so we  
 
 Vector (non-precomputable: np)
 
-Attribute     | Type             	| Calculation 
-:------------ | :----------------: 	|
+
+Attribute     | Type                 | Calculation 
+:------------ | :--------------: 	|
 latitude	  |	Numerical			|
 longitude 	  | Numerical			|
 (Distance (np)) | Numerical      		| See below
@@ -21,14 +22,14 @@ Check-ins     | "Ordinal"	   		| See below
 Hours 		  | "Text"				|
 (Hours 	 (np)) | True (1) unknown (0.5) False(0) 	|
 Cateogries 	  | True (1) False(0) 	|
-* Arts & Entertainment | 			|
-* College & University | 			|
-* Food				   |  			|
-* Great Outdoors 	   |  			|
-* Home, Work, Other    |  			|
-* Nightlife Spot	   |			|
-* Shop				   |			|
-* Travel Spot		   |			|
+Arts & Entertainment | 			|
+College & University | 			|
+Food				   |  			|
+Great Outdoors 	   |  			|
+Home, Work, Other    |  			|
+Nightlife Spot	   |			|
+Shop				   |			|
+Travel Spot		   |			|
 
 
 Each of this could/should be weighted. This can be done either as suggested in 
