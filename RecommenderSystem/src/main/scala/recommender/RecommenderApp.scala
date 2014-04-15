@@ -16,16 +16,11 @@ object RecommenderApp {
     
     // Recommender pipeline:
     val vectors = processor.processData(null)
+    val context = Vector(0,1,2);//The context vector has to be computed
     println(vectors)
-    
-    // process the context data into
-    val context = null
-    
-    // fetch user data into
-    val user = null
-    	
-    PreFilter.apply(vectors, context, user)
+
+    PreFilter.apply(vectors)
     println(MockVectorSimilarity.calculateSimilarity(vectors(0), vectors(1)))
-    PostFilter.apply(vectors, context)
+    //PostFilter.apply(vectors, context) <= vectors has to be a Seq[VenueVector] here (once this transformation is done, this line can be uncommented to use the postfiltering)
   }
 }
