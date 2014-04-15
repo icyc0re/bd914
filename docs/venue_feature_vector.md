@@ -11,8 +11,8 @@ This means that they cannot be precomputed before having the user input, so we  
 Vector (non-precomputable: np)
 
 
-Attribute     | Type                 | Calculation 
-:------------ | :--------------: 	|
+Attribute     | Type                 | Calculation  |
+:------------ | :--------------: 	| -------------
 latitude	  |	Numerical			|
 longitude 	  | Numerical			|
 (Distance (np)) | Numerical      		| See below
