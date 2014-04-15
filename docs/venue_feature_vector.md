@@ -77,7 +77,7 @@ The number of users follows quite closely the number of check-ins, therefore it 
 Location / Distance
 --------
 
-Location is the most fundamental feature of any location. There are different strategies of using it in a recommender system: pre-filtering, in recommender or post-filtering. Pre-filtering of location is more likely to be interesting for a large scale system - as we only cover one city it may not be as interesting. Post-filtering might be interesting but should be in relation to how many results were achieved or result density (notice foursquare API gives venues from search in a circle based system where the radius is determined by the density of venues in the area). 
+Location is the most fundamental feature of any venue. There are different strategies of using it in a recommender system: pre-filtering, in recommender or post-filtering. Pre-filtering of location is more likely to be interesting for a large scale system - as we only cover one city it may not be as interesting. Post-filtering might be interesting but should be in relation to how many results were achieved or result density (notice foursquare API gives venues from search in a circle based system where the radius is determined by the density of venues in the area). 
 
 
 I suggest that Location can be used in the recommender system as a distance measure from the location of the user/his desired location, where a penalty is increased if the location is further away.
