@@ -17,9 +17,15 @@ object RecommenderApp {
     // Recommender pipeline:
     val vectors = processor.processData(null)
     println(vectors)
-
-    PreFilter.apply(vectors)
+    
+    // process the context data into
+    val context = null
+    
+    // fetch user data into
+    val user = null
+    	
+    PreFilter.apply(vectors, context, user)
     println(MockVectorSimilarity.calculateSimilarity(vectors(0), vectors(1)))
-    PostFilter.apply(vectors)
+    PostFilter.apply(vectors, context)
   }
 }

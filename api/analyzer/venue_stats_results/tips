@@ -1,0 +1,8 @@
+set output "tips.png" 
+set term png
+set logscale x 
+set logscale y 
+set title "number of tips per venues" 
+set xlabel "number of venues" 
+set ylabel "tips" 
+plot "tips.count" using 2:1 title "distribution of tips per venue"

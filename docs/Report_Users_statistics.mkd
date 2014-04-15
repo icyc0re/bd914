@@ -17,12 +17,17 @@ The following table contains the mean and standard deviation for each type of in
 
 | interaction | mean |  std |
 |:----------- | ----:| ----:|
-| tips        |  7.5 | 13.0 |
-| photos      |  0.1 |  1.2 |
-| mayorships  |  4.7 |  9.2 |
-| all         | 12.3 | 18.5 |
+| tips        |  7.3 | 12.7 |
+| mayorships  |  4.7 |  8.6 |
+| badges      |  26.5|  20.9|
+| photos      |  0.1 |  1.3 |
+| all         | 38.3 | 33.8 |
 
-Those initial results show that we can't profile the user easily, since on aveerage we a user interact with 12 venues.
+The following graph confirm that we have a fair amount of users that have enought interactions to be used for profiling.
+
+![Alt text](../api/analyzer/users_counts/all_interactions.png)
+
+Those initial results show that we can't profile the user easily, since on average we a user interact with 38 venues. Please note that those are not necessarily unique venues. 
 Also the standard deviation is pretty high which means that many users have a very few number of interactions.
 Those reasons validates our choice to add in input from the user to infer relevant features.
 

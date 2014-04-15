@@ -28,7 +28,7 @@ def main():
     
     user_interactions = dict()
             
-    interactions = ["tips", "photos", "mayorships"]
+    interactions = ["tips", "photos", "mayorships", "badges"]
     interactions_count = dict.fromkeys(interactions+["all"])
     
     counter=0
@@ -53,7 +53,7 @@ def main():
                 interactions_count["all"] += interactions_count[interaction]
             
             # remove users with more than 100 interactions of unique type, there are very likely to be companies or garbage
-            if max([interactions_count[interaction] for interaction in interactions]) < 100:
+            if max([interactions_count[interaction] for interaction in interactions]) < 500:
                 user_interactions[os.path.basename(user_path)]=dict(interactions_count)
             
             counter+=1
@@ -67,11 +67,11 @@ def main():
         
     
     interactions_stats = dict.fromkeys(interactions+["all"]) # list of number of interaction for each user
-    friends_count= dict.fromkeys(interactions+["all"]) # aggregated list 
+    users_count= dict.fromkeys(interactions+["all"]) # aggregated list 
     # init list
     for interaction in interactions+["all"]: 
         interactions_stats[interaction] = list()
-        friends_count[interaction] = list()
+        users_count[interaction] = list()
     
     # get list per user
     for user in user_interactions.keys(): #for each user
@@ -85,11 +85,12 @@ def main():
     # aggregate data
     for interaction in interactions+["all"]:
         # count number of occurrences of value in list
-        friends_count[interaction] = dict((interaction_stat,interactions_stats[interaction].count(interaction_stat)) for interaction_stat in interactions_stats[interaction])
+        users_count[interaction] = dict((interaction_stat,interactions_stats[interaction].count(interaction_stat)) for interaction_stat in interactions_stats[interaction])
         # plot histogram
-        plt.hist(friends_count[interaction].values(), bins=range(0,max(friends_count[interaction].keys())))
+        plt.hist(users_count[interaction].values(), bins=range(0,max(users_count[interaction].keys())))
         plt.savefig(interaction+".png")
         #plt.show()
+        
         # get mean and std
         means[interaction] = mean(interactions_stats[interaction])
         stds[interaction] = std(interactions_stats[interaction])
@@ -104,6 +105,11 @@ def main():
             print >> outfile, "\tmean: " + str(means[interaction])
             print >> outfile, "\tstd: " + str(stds[interaction])
     
+    # save stats for later use
+    for interaction in interactions+["all"]:
+        with open(interaction+".count",'wb') as outfile:
+            for k, v in users_count[interaction].items():
+                print >> outfile, str(k)+"\t"+str(v)
         
         
 if __name__ == '__main__':

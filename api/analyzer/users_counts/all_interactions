@@ -1,0 +1,7 @@
+set output "all_interactions.png" 
+set term png
+set logscale x 
+set title "number of all_interactions per users" 
+set xlabel "number of users" 
+set ylabel "all_interactions" 
+plot "all_interactions.count" using 2:1 title "distribution of all_interactions per user"
