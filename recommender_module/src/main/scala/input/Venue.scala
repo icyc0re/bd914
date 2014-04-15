@@ -3,14 +3,15 @@ package input
 import scala.io.BufferedSource
 import vectors.{VenueVector, AbstractVector}
 import features.IntFeature
-//import java.lang.reflect.{Type, ParameterizedType}
 //import com.fasterxml.jackson.databind.ObjectMapper
 //import com.fasterxml.jackson.module.scala.DefaultScalaModule
-//import com.fasterxml.jackson.annotation.JsonProperty;
-//import com.fasterxml.jackson.core.`type`.TypeReference;
+//import com.fasterxml.jackson.module.scala.experimental.ScalaObjectMapper
 import play.api.libs.json._
 import play.api.libs.json.Reads._
 import play.api.libs.functional.syntax._ 
+import play.api.data.validation.ValidationError
+import scala.util.parsing.json.JSON
+import scala.collection.mutable.ListBuffer
 
 
 case class VenueStats(checkinsCount: Option[Int], usersCount: Option[Int], tipCount: Option[Int])
@@ -18,8 +19,10 @@ case class VenueStats(checkinsCount: Option[Int], usersCount: Option[Int], tipCo
 case class VenueLocation(address: Option[String], crossStreet: Option[String],  city: Option[String], 
 						 state: Option[String], postalCode: Option[String], lat: Option[Double], lng: Option[Double])
 
-case class VenueCategoryCompact(id: Option[String], name: String, pluralName: String, shortName: String,
-                                 primary: Option[Boolean])
+case class VenueCategory(id: Option[String], name: Option[String], pluralName: Option[String], shortName: Option[String],
+                                  icon : Option[VenueIcon], primary: Option[Boolean])
+
+case class VenueCategories(categories : List[VenueCategory])
 
 case class VenueMayor(count: Option[Int], id: Option[String], firstName: Option[String], lastName: Option[String],
                       gender: Option[String], homeCity: Option[String], relationship: Option[String])
@@ -40,14 +43,53 @@ case class CompactEvent(id: String, name: Option[String])
 
 case class VenueListed(count: Int, items: Option[List[String]])
 
+case class VenueIcon(prefix : Option[String], suffix: Option[String])
+
 
 /**
  * @author Matteo Pagliardini
  */
 class Venue(filePath : String) {
 
-	val fileString = scala.io.Source.fromFile(filePath).mkString
-  	val jsonFile: JsValue = Json.parse(fileString)
+	val jsonString = scala.io.Source.fromFile(filePath).mkString
+  	val jsonFile: JsValue = Json.parse(jsonString)
+
+  	/*val mapper = new ObjectMapper() with ScalaObjectMapper
+	mapper.registerModule(DefaultScalaModule)
+	val obj = mapper.readValue[Map[String, Map[String, Object]]](jsonString)
+	
+	val map = mapper.readValue[Map[String, Any]](obj.get("venue").get("stats"))
+	println(map)*/
+
+	/*implicit val iconFormat: Format[VenueIcon] = (
+			(__ \ "prefix").format[Option[String]] and
+			(__ \ "suffix").format[Option[String]]
+		)(VenueIcon.apply, unlift(VenueIcon.unapply))*/
+
+	implicit val iconRead: Reads[VenueIcon] = (
+			(JsPath \ "venue" \ "categories" \ "icon" \ "prefix").read[Option[String]] and
+			(JsPath \ "venue" \ "categories" \ "icon" \ "suffix").read[Option[String]]
+		)(VenueIcon.apply _)
+
+	/*implicit val categoryFormat: Format[VenueCategory] = (
+    		(__ \ "id").format[Option[String]] and 
+  			(__ \ "name").format[Option[String]] and
+  			(__ \ "pluralName").format[Option[String]] and
+  			(__ \ "shortName").format[Option[String]] and
+  			(__ \ "icon").format[Option[VenueIcon]] and
+  			(__ \ "primary").format[Option[Boolean]] 
+		)(VenueCategory.apply, unlift(VenueCategory.unapply))*/
+
+	implicit val categoryRead: Reads[VenueCategory] = (
+  			(JsPath \ "venue" \ "categories" \ "id").read[Option[String]] and
+  			(JsPath \ "venue" \ "categories" \ "name").read[Option[String]] and
+  			(JsPath \ "venue" \ "categories" \ "pluralName").read[Option[String]] and
+  			(JsPath \ "venue" \ "categories" \ "shortName").read[Option[String]] and 
+  			(JsPath \ "venue" \ "categories" \ "icon").read[Option[VenueIcon]] and
+  			(JsPath \ "venue" \ "categories" \ "primary").read[Option[Boolean]]
+		)(VenueCategory.apply _)
+
+	implicit val categoriesRead: Reads[VenueCategories] = (JsPath \ "venue" \ "categories").read(list[VenueCategory](categoryRead)).map(VenueCategories.apply _)
 
 	val id: String = filePath 								
     val name = (jsonFile \ "venue" \ "name" ).as[Option[String]]
@@ -64,12 +106,39 @@ class Venue(filePath : String) {
                          		(  jsonFile \ "venue" \ "location" \ "lng").as[Option[Double]])
     val foursquareURL = (jsonFile \ "venue" \ "canonicalUrl" ).as[Option[String]]
     //val categories: List[VenueCategoryCompact] 			= ???
+    //var categories: JsResult[VenueCategories] = jsonFile.validate[VenueCategories](categoriesRead)
+
+
+  	private val json:Option[Any] = JSON.parseFull(jsonString)
+  	private val map:Map[String,Any] = json.get.asInstanceOf[Map[String, Any]]
+  	private val venue:Map[String,Any] = map.get("venue").get.asInstanceOf[Map[String,Any]]
+  	private val categoriesList:List[Any] = venue.get("categories").get.asInstanceOf[List[Any]]
+	var categories  = new ListBuffer[(String,String,Boolean)]//(String, String, Boolean)]
+	categoriesList.foreach( c => {
+		val cat: Map[String,Any] = c.asInstanceOf[Map[String,Any]]
+		var id : String =
+	    if(cat.contains("id")) {
+			cat.get("id").get.asInstanceOf[String]
+		} else {
+			""
+		}
+		val name: String = cat.get("name").get.asInstanceOf[String]
+		val primary : Boolean = 
+		if(cat.contains("primary")) {
+			cat.get("primary").get.asInstanceOf[Boolean]
+		} else {
+			false
+		}
+
+		val t : (String,String,Boolean) = (id, name, primary)
+		categories += t
+	})
+    //var categories = (Json.parse(jsonString) \ "venue" \ "categories").as[List[VenueCategory]]
     val verified = (jsonFile \ "venue" \ "verified").as[Option[Boolean]]
     val stats = VenueStats((jsonFile \ "venue" \ "stats" \ "checkinsCount").as[Option[Int]], 
     	   				   (jsonFile \ "venue" \ "stats" \ "usersCount").as[Option[Int]],
     	   				   (jsonFile \ "venue" \ "stats" \ "tipCount").as[Option[Int]])
-    val url = (jsonFile \ "venue" \ "url").as[Option[String]]
-	//val createdAt: Long 								= ???
+    val url = (jsonFile \ "venue" \ "url").as[Option[String]]		
     val mayor = VenueMayor ((jsonFile \ "venue" \ "mayor" \ "count").as[Option[Int]],
     			 		   (jsonFile \ "venue" \ "mayor" \ "user" \ "id").as[Option[String]],
     			 		   (jsonFile \ "venue" \ "mayor" \ "user" \ "firstName").as[Option[String]],
@@ -78,7 +147,8 @@ class Venue(filePath : String) {
     			   		   (jsonFile \ "venue" \ "mayor" \ "user" \ "homeCity").as[Option[String]],
     			 		   (jsonFile \ "venue" \ "mayor" \ "user" \ "relationship").as[Option[String]])
     //val tips: VenueTips 								= ???
-    val tags = (jsonFile \ "venue" \ "tags" ).as[Option[List[String]]]    
+    val tags = (jsonFile \ "venue" \ "tags" ).as[Option[List[String]]] 
+
     val timeZone = (jsonFile \ "venue" \ "timeZone" ).as[Option[String]]
     //val photos: Option[VenuePhotos]	 					= ???
     val description = (jsonFile \ "venue" \ "description" ).as[Option[String]]
