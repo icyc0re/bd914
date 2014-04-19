@@ -17,6 +17,8 @@ pull_venues_ids.py : pull venues ids of ids from new york city
 pull_users_ids.py : pull venues ids of ids from new york city
 	usage: pull_ids.py <login_file> <output_file>
 
+pull_users_interactions.py : pull specific interaction of all users
+	usage: pull_users_interactions.py <interaction_type> <login_file> <ids_file> <output_directory>
 
 login_file must contains 3 lines:
 <client ID>
