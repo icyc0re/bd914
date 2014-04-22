@@ -1,58 +1,72 @@
 package vectors
 
-import features.{IntFeature, Feature}
+import features._
 import sets.AbstractVectorSet
-import scala.reflect.ClassTag
+import utils.Cons
+import features.BooleanFeature
+import features.DoubleFeature
+import scala.Some
 
 /**
+ * * See [[input.User]] for the list of features that make the vector
  * @author Ivan Gavrilović
  */
-class UserVector(features: Seq[IntFeature], sets:Seq[AbstractVectorSet]) extends AbstractVector{
-
-
+class UserVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet]) extends AbstractVector {
   /**
    * Get all sets to which this vector belongs to
    * @return all vector sets associated
    */
-  override def getVectorSets(): Seq[AbstractVectorSet] = ???
+  override def getVectorSets: Seq[AbstractVectorSet] = sets
 
   /**
-   * Gets the value of the feature that is associated with the key
-   * @param key key of the feature
-   * @tparam K key's type
-   * @tparam V value's type
-   * @return value of the feature
+   * Set all of the vector's features
    */
-  override def getFeatureValue[K, V](key: K): V = ???
-
-  /**
-   * Sets the value of the feature
-   * @param key key of the feature
-   * @param value feature's value
-   * @tparam K key's type
-   * @tparam V value's type
-   * @return created feature instance
-   */
-  override def putFeature[K, V, T <: Feature[K, V]](key: K, value: V): T = ???
+  override protected def setFeatures(feats: Seq[Feature[_, _]]): Unit = features = feats
 
   /**
    * Get all of the vector's features
    * @return all features
    */
-  override def getFeatures(): Seq[Feature[_, _]] = ???
+  override def getFeatures: Seq[Feature[_, _]] = features
 
   /**
-   * Get only the specific features of the vector
-   * @param keys keys of the features that we need
-   * @tparam K key's type
-   * @return features with the specified keys
+   * Updates the feature vector according to the venues that user interacted with
+   * @param venues collection of venues
    */
-  override def getFeatures[K](keys: Seq[K]): Seq[Feature[K, _]] = ???
+  def applyVenues(venues: Seq[VenueVector]):UserVector = {
+    val size = venues.size
+    venues.foreach((x: VenueVector) =>
+      x.features.foreach((f: Feature[_, _]) =>
+        findFeature(f.key) match {
+          case Some(old:Feature[_,_]) => combineFeatures(old, f, 1 / size)
+          case None => putFeature(f)
+        }
+      )
+    )
+    this
+  }
 
-  /**
-   * Get all features with specific type
-   * @tparam T feature type
-   * @return list of features with specified type
-   */
-  override def getFeaturesTyped[T<: Feature[_, _] : ClassTag](): Seq[T] = features.collect{case (x:T) => x}
+  def combineFeatures(old: Feature[_, _], n: Feature[_, _], weight: Double) = {
+    val oldVal = old match {
+      case IntFeature(key, value) => value
+      case DoubleFeature(key, value) => value
+      case _ => 0
+    }
+
+    val newVal = n match {
+      case IntFeature(key, value) => value
+      case DoubleFeature(key, value) => value
+      case _ => 0
+    }
+
+    features = features diff List(old)
+    features = features :+ DoubleFeature(old.key.asInstanceOf[String], oldVal + weight*newVal)
+  }
+}
+
+/**
+ * User vector companion object, use it to specify global operations on user vectors
+ */
+object UserVector {
+  def homeCity(city: String): BooleanFeature = BooleanFeature(Cons.HOME_CITY, city.toLowerCase == "new york")
 }

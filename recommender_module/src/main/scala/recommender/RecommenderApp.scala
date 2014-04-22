@@ -1,8 +1,8 @@
 package recommender
 
-import input.MockAbstractInputProcessor
-import input.Venue
+import input._
 import filtering.MockVectorSimilarity
+import vectors.{UserVector, VenueVector}
 
 /**
  * This is the main class of the recommender system.
@@ -18,7 +18,13 @@ object RecommenderApp {
 
     println(MockVectorSimilarity.calculateSimilarity(vectors(0), vectors(1)))*/
 
-
-    var v : Venue = new Venue("/home/mat/Documents/Git/bd914/dataset/sample/venues/4a9fb11cf964a520343d20e3")
+    // get venue features
+    val v : Seq[VenueVector] = new VenueInputProcessor().processInDir("/Users/ivan/ProjectEPFL/bd914/dataset/sample/venues/")
+    // get user features
+    val u : Seq[UserVector] = new UserInputProcessor().processInDir("/Users/ivan/ProjectEPFL/bd914/dataset/sample/users/")
+    // apply venue features to user vector
+    val newUsers = u.map((x:UserVector) => x.applyVenues(v))
+    println(v)
+    println(u)
   }
 }
