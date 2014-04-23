@@ -1,0 +1,179 @@
+{
+    "mayorships": {
+        "count": 5, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Big Blue - Harlem", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10026", 
+                        "state": "NY", 
+                        "crossStreet": "at 8th Ave", 
+                        "address": "116th St", 
+                        "lat": 40.80443810502738, 
+                        "lng": -73.95530462265015
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 81, 
+                        "usersCount": 12
+                    }, 
+                    "id": "4e29fd8b091ac5a470e5117f", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Apothem", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Norman", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "73069", 
+                        "state": "OK", 
+                        "lat": 35.211976, 
+                        "lng": -97.443787
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 41, 
+                        "usersCount": 35
+                    }, 
+                    "id": "4c69aaaa1a6620a1512c648c", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "FansEdge", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Norman", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "OK", 
+                        "address": "798 Asp", 
+                        "lat": 35.211481, 
+                        "lng": -97.4440632
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 19, 
+                        "usersCount": 17
+                    }, 
+                    "id": "4e650fbd483bd9a97571d589", 
+                    "categories": [
+                        {
+                            "pluralName": "Sporting Goods Shops", 
+                            "primary": true, 
+                            "name": "Sporting Goods Shop", 
+                            "shortName": "Sporting Goods", 
+                            "id": "4bf58dd8d48988d1f2941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/sports_outdoors_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "A & Z Convenience Store", 
+                    "contact": {
+                        "phone": "2126633826", 
+                        "formattedPhone": "(212) 663-3826"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10026", 
+                        "state": "NY", 
+                        "crossStreet": "117th St", 
+                        "address": "2162 Frederick Douglass Blvd", 
+                        "lat": 40.80485634204875, 
+                        "lng": -73.95485401153564
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 7, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4e3d83f01850d7b505e6a038", 
+                    "categories": [
+                        {
+                            "pluralName": "Convenience Stores", 
+                            "primary": true, 
+                            "name": "Convenience Store", 
+                            "shortName": "Convenience Stores", 
+                            "id": "4d954b0ea243a5684a65b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/conveniencestore_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "IBM", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Oklahoma City", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "73118", 
+                        "state": "OK", 
+                        "crossStreet": "NW Penn", 
+                        "address": "6301 Waterford Blvd", 
+                        "lat": 35.535020101075006, 
+                        "lng": -97.546706199646
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 11, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4e98ab4b0cd6de03c3b2b43f", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Lehman Social Sciences Library", 
+                    "url": "http://library.columbia.edu/content/libraryweb/indiv/lehman.html", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2128543794", 
+                        "formattedPhone": "(212) 854-3794"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "420 West 118th St", 
+                        "address": "Columbia University", 
+                        "lat": 40.8074276747989, 
+                        "lng": -73.9598067779505
+                    }, 
+                    "venuePage": {
+                        "id": "34296781"
+                    }, 
+                    "stats": {
+                        "tipCount": 19, 
+                        "checkinsCount": 2270, 
+                        "usersCount": 413
+                    }, 
+                    "id": "4b5f6691f964a52031b829e3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Libraries", 
+                            "primary": true, 
+                            "name": "College Library", 
+                            "shortName": "Library", 
+                            "id": "4bf58dd8d48988d1a7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Steph, Franny, and Danielle's place", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Cleveland", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "OH", 
+                        "lat": 41.50912566047752, 
+                        "lng": -81.60898731024885
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 17, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4c6d5acb99b9236a83f6e4c9", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The George And Jesse Siegel Reading Room", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "lat": 40.8065484133342, 
+                        "lng": -73.96341136215634
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4f518a6de4b06025e7e2456c", 
+                    "categories": [
+                        {
+                            "pluralName": "College Libraries", 
+                            "primary": true, 
+                            "name": "College Library", 
+                            "shortName": "Library", 
+                            "id": "4bf58dd8d48988d1a7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

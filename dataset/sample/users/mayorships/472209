@@ -1,0 +1,117 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Physical Therapy of Harlem", 
+                    "contact": {
+                        "phone": "2129963303", 
+                        "formattedPhone": "(212) 996-3303"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10035", 
+                        "state": "NY", 
+                        "crossStreet": "117th Street", 
+                        "address": "1783A Madison Ave", 
+                        "lat": 40.80943008, 
+                        "lng": -73.94190785
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 37, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4c8ffdf33790199cd0c9926b", 
+                    "categories": [
+                        {
+                            "pluralName": "Medical Centers", 
+                            "primary": true, 
+                            "name": "Medical Center", 
+                            "shortName": "Medical", 
+                            "id": "4bf58dd8d48988d104941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "the Chandler Pad", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Manhattan", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.81343117375547, 
+                        "lng": -73.94186034276925
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 129, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4c058d871cead13a19a8a1db", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Weimer Diner", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Taos", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NM", 
+                        "lat": 36.371102627175276, 
+                        "lng": -105.56502391610668
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 5, 
+                        "usersCount": 1
+                    }, 
+                    "id": "50d36479f136a045a34d737a", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

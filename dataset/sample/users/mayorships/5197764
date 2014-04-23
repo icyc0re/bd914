@@ -1,0 +1,1238 @@
+{
+    "mayorships": {
+        "count": 35, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "East Harlem (El Barrio)", 
+                    "private": true, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.783817514990794, 
+                        "lng": -73.94186034276925
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 139, 
+                        "usersCount": 6
+                    }, 
+                    "id": "524a822a11d2f1191e9eddc4", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA Bus - M11 (Uptown) - Amsterdam Ave @ 120th St.", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "120th", 
+                        "address": "Amsterdam Ave", 
+                        "lat": 40.809002024724286, 
+                        "lng": -73.95901679992676
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 58, 
+                        "usersCount": 20
+                    }, 
+                    "id": "4b68a9abf964a520c0852be3", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Lines", 
+                            "primary": true, 
+                            "name": "Bus Line", 
+                            "shortName": "Bus", 
+                            "id": "4bf58dd8d48988d12b951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Metropolitan Mini Mart", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10029", 
+                        "state": "NY", 
+                        "lat": 40.78622352474604, 
+                        "lng": -73.94522130042822
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 437, 
+                        "usersCount": 34
+                    }, 
+                    "id": "4c34f6cc3896e21e1676ec90", 
+                    "categories": [
+                        {
+                            "pluralName": "Convenience Stores", 
+                            "primary": true, 
+                            "name": "Convenience Store", 
+                            "shortName": "Convenience Stores", 
+                            "id": "4d954b0ea243a5684a65b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/conveniencestore_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Columbia University Deli & Grocery", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "1270 Amsterdam Ave", 
+                        "lat": 40.8106, 
+                        "lng": -73.95765
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 45, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4db960c64b22a2fe44f05c87", 
+                    "categories": [
+                        {
+                            "pluralName": "Delis / Bodegas", 
+                            "primary": true, 
+                            "name": "Deli / Bodega", 
+                            "shortName": "Deli / Bodega", 
+                            "id": "4bf58dd8d48988d146941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/deli_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Monument Park", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "Yankee Stadium", 
+                        "lat": 40.82993356280235, 
+                        "lng": -73.92582178115845
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 2090, 
+                        "usersCount": 1568
+                    }, 
+                    "id": "4c41fde43735be9a0c4919a4", 
+                    "categories": [
+                        {
+                            "pluralName": "Sculpture Gardens", 
+                            "primary": true, 
+                            "name": "Sculpture Garden", 
+                            "shortName": "Sculpture", 
+                            "id": "4bf58dd8d48988d166941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/sculpture_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "East 103rd St. and Lexington Ave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10029", 
+                        "state": "NY", 
+                        "crossStreet": "at Lexington Ave.", 
+                        "address": "E. 103rd St.", 
+                        "lat": 40.7904696223934, 
+                        "lng": -73.94766664027789
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 783, 
+                        "usersCount": 270
+                    }, 
+                    "id": "4dab77e3a86e771ea73ac168", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "USPS Mailbox", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10128", 
+                        "state": "NY", 
+                        "address": "309 East 90th St.", 
+                        "lat": 40.786210619247534, 
+                        "lng": -73.94517537825743
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 41, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4fb81bdde4b0372f06fef12a", 
+                    "categories": [
+                        {
+                            "pluralName": "Post Offices", 
+                            "primary": true, 
+                            "name": "Post Office", 
+                            "shortName": "Post Office", 
+                            "id": "4bf58dd8d48988d172941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/postoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Platinum Guild International", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10110", 
+                        "state": "NY", 
+                        "crossStreet": "42nd", 
+                        "address": "500 5th Ave", 
+                        "lat": 40.75368783346434, 
+                        "lng": -73.9815387543007
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 14, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4cdb10c2c409b60cf987d21a", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Rite Aid", 
+                    "url": "http://www.riteaid.com", 
+                    "storeId": "4688", 
+                    "contact": {
+                        "phone": "2128288664", 
+                        "twitter": "riteaid", 
+                        "formattedPhone": "(212) 828-8664"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10128", 
+                        "state": "NY", 
+                        "crossStreet": "at E 95th St", 
+                        "address": "1849 2nd Ave", 
+                        "lat": 40.78440012130794, 
+                        "lng": -73.94783884614439
+                    }, 
+                    "stats": {
+                        "tipCount": 12, 
+                        "checkinsCount": 855, 
+                        "usersCount": 300
+                    }, 
+                    "id": "4b70341bf964a520770b2de3", 
+                    "categories": [
+                        {
+                            "pluralName": "Drugstores / Pharmacies", 
+                            "primary": true, 
+                            "name": "Drugstore / Pharmacy", 
+                            "shortName": "Pharmacy", 
+                            "id": "4bf58dd8d48988d10f951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/pharmacy_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "489 Fifth Avenue", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10017", 
+                        "state": "NY", 
+                        "crossStreet": "41st and 5th", 
+                        "address": "489 5th Ave", 
+                        "lat": 40.753318836839426, 
+                        "lng": -73.98086509072763
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 50, 
+                        "usersCount": 23
+                    }, 
+                    "id": "4dd517feae60a78cec64fc0d", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA Bus M96", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10128", 
+                        "state": "NY", 
+                        "lat": 40.784397898810084, 
+                        "lng": -73.94516389771303
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 133, 
+                        "usersCount": 48
+                    }, 
+                    "id": "4f7ae114e4b06b9552a4f793", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Stations", 
+                            "primary": true, 
+                            "name": "Bus Station", 
+                            "shortName": "Bus Station", 
+                            "id": "4bf58dd8d48988d1fe931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "489 5th Ave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10036", 
+                        "state": "NY", 
+                        "lat": 40.75289710216914, 
+                        "lng": -73.98118074700727
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 9, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4feb061be4b016e917be4aeb", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Con Edison Payment Center - Harlem", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10035", 
+                        "state": "NY", 
+                        "address": "122 E 124th St", 
+                        "lat": 40.803902108098214, 
+                        "lng": -73.938889503479
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 144, 
+                        "usersCount": 70
+                    }, 
+                    "id": "4bbcb3cc593fef3bad7a0256", 
+                    "categories": [
+                        {
+                            "pluralName": "Conference Rooms", 
+                            "primary": true, 
+                            "name": "Conference Room", 
+                            "shortName": "Conference room", 
+                            "id": "4bf58dd8d48988d127941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/office_conferenceroom_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "500 5th Avenue 4th Floor Zara Corp.", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10018", 
+                        "state": "NY", 
+                        "lat": 40.76081503035168, 
+                        "lng": -73.9754185034864
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4f04700e7ee579338fc4893a", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cohens Fashion Optical", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10028", 
+                        "state": "NY", 
+                        "crossStreet": "3rd Ave", 
+                        "address": "177 E 86th St", 
+                        "lat": 40.778996, 
+                        "lng": -73.95425875
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 99, 
+                        "usersCount": 71
+                    }, 
+                    "id": "4c535166728920a1b88edf80", 
+                    "categories": [
+                        {
+                            "pluralName": "Miscellaneous Shops", 
+                            "primary": true, 
+                            "name": "Miscellaneous Shop", 
+                            "shortName": "Shop", 
+                            "id": "4bf58dd8d48988d1ff941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Jim Beam Suite Lounge", 
+                    "url": "http://mlb.mlb.com/nyy/ticketing/suites_jimbeam.jsp", 
+                    "contact": {
+                        "twitter": "yankees"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10452", 
+                        "state": "NY", 
+                        "address": "Yankee Stadium", 
+                        "lat": 40.82941313952344, 
+                        "lng": -73.92732230957026
+                    }, 
+                    "stats": {
+                        "tipCount": 9, 
+                        "checkinsCount": 1469, 
+                        "usersCount": 1175
+                    }, 
+                    "id": "4c86dd8f51ada1cddaa54310", 
+                    "categories": [
+                        {
+                            "pluralName": "Sports Bars", 
+                            "primary": true, 
+                            "name": "Sports Bar", 
+                            "shortName": "Sports Bar", 
+                            "id": "4bf58dd8d48988d11d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/sportsbar_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ortiz Funeral Home", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10035", 
+                        "state": "NY", 
+                        "address": "116 street", 
+                        "lat": 40.797273, 
+                        "lng": -73.936299
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 170, 
+                        "usersCount": 33
+                    }, 
+                    "id": "4c6c7deaa437224bbaa52ab1", 
+                    "categories": [
+                        {
+                            "pluralName": "Spiritual Centers", 
+                            "primary": true, 
+                            "name": "Spiritual Center", 
+                            "shortName": "Spiritual", 
+                            "id": "4bf58dd8d48988d131941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/religious_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "citi bank", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "96St", 
+                        "address": "Broadway", 
+                        "lat": 40.791135626747426, 
+                        "lng": -73.94204690471557
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 6, 
+                        "usersCount": 5
+                    }, 
+                    "id": "51468344e4b0dba1baea29fc", 
+                    "categories": [
+                        {
+                            "pluralName": "Banks", 
+                            "primary": true, 
+                            "name": "Bank", 
+                            "shortName": "Bank", 
+                            "id": "4bf58dd8d48988d10a951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/financial_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "LabCorp", 
+                    "contact": {
+                        "phone": "9175210590", 
+                        "formattedPhone": "(917) 521-0590"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10032", 
+                        "state": "NY", 
+                        "crossStreet": "171st", 
+                        "address": "109 Audubon Ave", 
+                        "lat": 40.84164077805386, 
+                        "lng": -73.93704698242263
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 43, 
+                        "usersCount": 25
+                    }, 
+                    "id": "4b72d755f964a5203c8b2de3", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Tribune365 - NY", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10017", 
+                        "state": "NY", 
+                        "crossStreet": "Second Avenue", 
+                        "address": "220 E. 42nd Street", 
+                        "lat": 40.74957, 
+                        "lng": -73.972686
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 139, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4b854ce9f964a5205c5531e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Generacion 2000 Barber shop", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Queens", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "43-08 143rd st", 
+                        "lat": 40.74778, 
+                        "lng": -73.86014
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4d93890829c637047ee80ad7", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Champions Club", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.829939, 
+                        "lng": -73.925933
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4e2de4b66284021061e4cce0", 
+                    "categories": [
+                        {
+                            "pluralName": "Baseball Fields", 
+                            "primary": true, 
+                            "name": "Baseball Field", 
+                            "shortName": "Baseball Field", 
+                            "id": "4bf58dd8d48988d1e8941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/baseballfield_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Plaza Dental", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10029", 
+                        "state": "NY", 
+                        "crossStreet": "106th Street", 
+                        "lat": 40.791843407761405, 
+                        "lng": -73.94437747880033
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4f0383822c5b145d089e2275", 
+                    "categories": [
+                        {
+                            "pluralName": "Dentist's Offices", 
+                            "primary": true, 
+                            "name": "Dentist's Office", 
+                            "shortName": "Dentist's Office", 
+                            "id": "4bf58dd8d48988d178941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_dentist_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Emmerson Gourmet", 
+                    "contact": {
+                        "phone": "2123691111", 
+                        "twitter": "locu_none", 
+                        "formattedPhone": "(212) 369-1111"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10029", 
+                        "state": "NY", 
+                        "crossStreet": "btwn 100th & 101st St.", 
+                        "address": "1810 3rd Ave", 
+                        "lat": 40.78838866659522, 
+                        "lng": -73.94714428154488
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 440, 
+                        "usersCount": 65
+                    }, 
+                    "id": "4b5b5848f964a5204df628e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Delis / Bodegas", 
+                            "primary": true, 
+                            "name": "Deli / Bodega", 
+                            "shortName": "Deli / Bodega", 
+                            "id": "4bf58dd8d48988d146941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/deli_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Citi bank", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "East Harlem", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10035", 
+                        "state": "NY", 
+                        "crossStreet": "1st ave", 
+                        "address": "E. 116th st", 
+                        "lat": 40.79678531384817, 
+                        "lng": -73.9356003677502
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 134, 
+                        "usersCount": 35
+                    }, 
+                    "id": "4c9bb7733495236ac922bade", 
+                    "categories": [
+                        {
+                            "pluralName": "Banks", 
+                            "primary": true, 
+                            "name": "Bank", 
+                            "shortName": "Bank", 
+                            "id": "4bf58dd8d48988d10a951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/financial_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Steiner Sports Memorabilia", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "9143071000", 
+                        "formattedPhone": "(914) 307-1000"
+                    }, 
+                    "location": {
+                        "city": "New Rochelle", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10801", 
+                        "state": "NY", 
+                        "crossStreet": "Harrison Street", 
+                        "address": "145 Huguenot St", 
+                        "lat": 40.913809023360415, 
+                        "lng": -73.77983731636559
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 1248, 
+                        "usersCount": 154
+                    }, 
+                    "id": "4bfa91278d30d13a14c10318", 
+                    "categories": [
+                        {
+                            "pluralName": "Sporting Goods Shops", 
+                            "primary": true, 
+                            "name": "Sporting Goods Shop", 
+                            "shortName": "Sporting Goods", 
+                            "id": "4bf58dd8d48988d1f2941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/sports_outdoors_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "t-mobile", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10029", 
+                        "state": "NY", 
+                        "address": "1910 3rd Ave", 
+                        "lat": 40.79122543334961, 
+                        "lng": -73.94497680664062
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 2
+                    }, 
+                    "id": "527a7df0498ef0bba673aceb", 
+                    "categories": [
+                        {
+                            "pluralName": "Mobile Phone Shops", 
+                            "primary": true, 
+                            "name": "Mobile Phone Shop", 
+                            "shortName": "Mobile Phone", 
+                            "id": "4f04afc02fb6e1c99f3db0bc", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/mobilephoneshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "FedEx Banquet & Conference Center", 
+                    "contact": {
+                        "phone": "2129265337", 
+                        "twitter": "yankees", 
+                        "formattedPhone": "(212) 926-5337"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10452", 
+                        "state": "NY", 
+                        "crossStreet": "River Avenue", 
+                        "address": "Yankee Stadium", 
+                        "lat": 40.82822743480601, 
+                        "lng": -73.9260191434149
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 122, 
+                        "usersCount": 37
+                    }, 
+                    "id": "4dc1c5a0ae609667509bbf78", 
+                    "categories": [
+                        {
+                            "pluralName": "Meeting Rooms", 
+                            "primary": true, 
+                            "name": "Meeting Room", 
+                            "shortName": "Meeting Room", 
+                            "id": "4bf58dd8d48988d100941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/conventioncenter_meetingroom_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA Bus M15", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10029", 
+                        "state": "NY", 
+                        "address": "1st Ave & East 99th St", 
+                        "lat": 40.788763245137346, 
+                        "lng": -73.94006646872728
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 10, 
+                        "usersCount": 4
+                    }, 
+                    "id": "50c26b49e4b032fa81577a7f", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Stations", 
+                            "primary": true, 
+                            "name": "Bus Station", 
+                            "shortName": "Bus Station", 
+                            "id": "4bf58dd8d48988d1fe931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Welcome To NJ Sign", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bogota", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 40.86828493312766, 
+                        "lng": -74.00279335874559
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 37, 
+                        "usersCount": 23
+                    }, 
+                    "id": "4df88e682271607ac9182cc9", 
+                    "categories": [
+                        {
+                            "pluralName": "Roads", 
+                            "primary": true, 
+                            "name": "Road", 
+                            "shortName": "Road", 
+                            "id": "4bf58dd8d48988d1f9931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/highway_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Mount Siani Nathan Cummings Atrium", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10029", 
+                        "state": "NY", 
+                        "lat": 40.78972183469373, 
+                        "lng": -73.95311401153862
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4f39a732e4b05ef0ed876a46", 
+                    "categories": [
+                        {
+                            "pluralName": "Hospitals", 
+                            "primary": true, 
+                            "name": "Hospital", 
+                            "shortName": "Hospital", 
+                            "id": "4bf58dd8d48988d196941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_hospital_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "D & J Yankees Variety Store", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10451", 
+                        "state": "NY", 
+                        "lat": 40.82698956361188, 
+                        "lng": -73.92635785264008
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 27, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4c6173f012e5c9288698214c", 
+                    "categories": [
+                        {
+                            "pluralName": "Sporting Goods Shops", 
+                            "primary": true, 
+                            "name": "Sporting Goods Shop", 
+                            "shortName": "Sporting Goods", 
+                            "id": "4bf58dd8d48988d1f2941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/sports_outdoors_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Makana", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10029", 
+                        "state": "NY", 
+                        "address": "2245 1st Ave", 
+                        "lat": 40.79676222590984, 
+                        "lng": -73.95005454794615
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 12, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4c656dc49cb82d7f35b68dd2", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Citi Bank 145 East 42nd St", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.751333, 
+                        "cc": "US", 
+                        "lng": -73.975545, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4d63ecd41a83f04d94e1782b", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Sosingtons", 
+                    "contact": {}, 
+                    "location": {
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "Connecticut", 
+                        "lat": 41.06247293505685, 
+                        "lng": -73.55352339897821
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4fcbfc7ce4b0b0ef075fca15", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

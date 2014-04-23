@@ -1,0 +1,336 @@
+{
+    "mayorships": {
+        "count": 9, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "PH 620 W 116th", 
+                    "private": true, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "At Claremont", 
+                        "address": "620 W 116th St", 
+                        "lat": 40.808276, 
+                        "lng": -73.965439
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 231, 
+                        "usersCount": 3
+                    }, 
+                    "id": "527373e111d2d7e14636cc7a", 
+                    "categories": [
+                        {
+                            "pluralName": "College Residence Halls", 
+                            "primary": true, 
+                            "name": "College Residence Hall", 
+                            "shortName": "Residence Hall", 
+                            "id": "4bf58dd8d48988d1a3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/residencehall_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Barnard College - Altschul Hall", 
+                    "contact": {
+                        "phone": "2128545262", 
+                        "formattedPhone": "(212) 854-5262"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "at 117th St.", 
+                        "address": "3009 Broadway", 
+                        "lat": 40.809996663723474, 
+                        "lng": -73.96322769070457
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 1110, 
+                        "usersCount": 226
+                    }, 
+                    "id": "4b996d77f964a520d87a35e3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Classrooms", 
+                            "primary": true, 
+                            "name": "College Classroom", 
+                            "shortName": "Classroom", 
+                            "id": "4bf58dd8d48988d1a0941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/classroom_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "House of Coz", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Millburn", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 40.71965985345547, 
+                        "lng": -74.3294199424752
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 67, 
+                        "usersCount": 2
+                    }, 
+                    "id": "5233cca711d23fd44ce27886", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sigma Delta Tau", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "address": "540 W 114th St", 
+                        "lat": 40.8063018321991, 
+                        "lng": -73.96397608749999
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 492, 
+                        "usersCount": 70
+                    }, 
+                    "id": "4bc7d4028b7c9c746e4c37cf", 
+                    "categories": [
+                        {
+                            "pluralName": "Fraternity Houses", 
+                            "primary": true, 
+                            "name": "Fraternity House", 
+                            "shortName": "Frat House", 
+                            "id": "4bf58dd8d48988d1b0941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/frathouse_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Event Oval, Diana Center", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "W. 119th St.", 
+                        "address": "3009 Broadway", 
+                        "lat": 40.80977750074064, 
+                        "lng": -73.96288330626103
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 118, 
+                        "usersCount": 43
+                    }, 
+                    "id": "4f7a26cae4b0a76294bf8b65", 
+                    "categories": [
+                        {
+                            "pluralName": "College Auditoriums", 
+                            "primary": true, 
+                            "name": "College Auditorium", 
+                            "shortName": "Auditorium", 
+                            "id": "4bf58dd8d48988d1af941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/auditorium_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "303 Eddy", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Ithaca", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "14850", 
+                        "state": "NY", 
+                        "address": "303 Eddy St", 
+                        "lat": 42.44118275000001, 
+                        "lng": -76.48724337
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 17, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4c6f1ef0df6b8cfa8958b44d", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Windsor Hotel", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10002", 
+                        "state": "NY", 
+                        "crossStreet": "at Broome St", 
+                        "address": "108 Forsyth St", 
+                        "lat": 40.718732, 
+                        "lng": -73.992848
+                    }, 
+                    "stats": {
+                        "tipCount": 8, 
+                        "checkinsCount": 351, 
+                        "usersCount": 172
+                    }, 
+                    "id": "4be65a60d4f7c9b6fabb2620", 
+                    "categories": [
+                        {
+                            "pluralName": "Hotels", 
+                            "primary": true, 
+                            "name": "Hotel", 
+                            "shortName": "Hotel", 
+                            "id": "4bf58dd8d48988d1fa931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Roxy's Love Den", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Plantation", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "FL", 
+                        "lat": 26.109174913882985, 
+                        "lng": -80.29345220996619
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "532529bb498e95e3c3c4cd72", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hawks Landings", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Fort Lauderdale", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "33324", 
+                        "state": "FL", 
+                        "lat": 26.117241329775013, 
+                        "lng": -80.28873114473271
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 519, 
+                        "usersCount": 147
+                    }, 
+                    "id": "4c2241979a67a5931b2fdc87", 
+                    "categories": [
+                        {
+                            "pluralName": "Neighborhoods", 
+                            "primary": true, 
+                            "name": "Neighborhood", 
+                            "shortName": "Neighborhood", 
+                            "id": "4f2a25ac4b909258e854f55f", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

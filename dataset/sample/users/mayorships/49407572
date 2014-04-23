@@ -1,0 +1,363 @@
+{
+    "mayorships": {
+        "count": 9, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "181 St / Bennet Ave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10033", 
+                        "state": "NY", 
+                        "lat": 40.85215012826029, 
+                        "lng": -73.93604239004564
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 61, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4fa5df77e4b038e6a2c259f2", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "H\u00e4agen-Dazs", 
+                    "url": "http://www.haagendazs.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/h%C3%A4agendazs-new-york-ny/4a63840bf964a5203ac51fe3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4a63840bf964a5203ac51fe3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "delivery": {
+                        "url": "http://www.seamless.com/food-delivery/restaurant.24102.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", 
+                        "provider": {
+                            "name": "seamless"
+                        }
+                    }, 
+                    "contact": {
+                        "phone": "2126625265", 
+                        "twitter": "haagendazsshops", 
+                        "formattedPhone": "(212) 662-5265"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "btw 113th & 114th St", 
+                        "address": "2905 Broadway", 
+                        "lat": 40.80622866268543, 
+                        "lng": -73.9650242195783
+                    }, 
+                    "venuePage": {
+                        "id": "45752374"
+                    }, 
+                    "stats": {
+                        "tipCount": 6, 
+                        "checkinsCount": 768, 
+                        "usersCount": 397
+                    }, 
+                    "id": "4a63840bf964a5203ac51fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Ice Cream Shops", 
+                            "primary": true, 
+                            "name": "Ice Cream Shop", 
+                            "shortName": "Ice Cream", 
+                            "id": "4bf58dd8d48988d1c9941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/icecream_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Laundromat & Dry Cleaning", 
+                    "contact": {
+                        "phone": "2127819200", 
+                        "formattedPhone": "(212) 781-9200"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10033", 
+                        "state": "NY", 
+                        "address": "725 W 181st St", 
+                        "lat": 40.850702, 
+                        "lng": -73.936928
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 192, 
+                        "usersCount": 50
+                    }, 
+                    "id": "4d06cf64dc45a0930ad7f5c6", 
+                    "categories": [
+                        {
+                            "pluralName": "Laundry Services", 
+                            "primary": true, 
+                            "name": "Laundry Service", 
+                            "shortName": "Laundry", 
+                            "id": "4bf58dd8d48988d1fc941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Chase Bank", 
+                    "url": "http://chase.com", 
+                    "storeId": "4155512039", 
+                    "contact": {
+                        "phone": "2128660293", 
+                        "formattedPhone": "(212) 866-0293"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "address": "2875 Broadway", 
+                        "lat": 40.805275142165534, 
+                        "lng": -73.96589090963002
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 546, 
+                        "usersCount": 233
+                    }, 
+                    "id": "4fb533887beb65c72e11e689", 
+                    "categories": [
+                        {
+                            "pluralName": "Banks", 
+                            "primary": true, 
+                            "name": "Bank", 
+                            "shortName": "Bank", 
+                            "id": "4bf58dd8d48988d10a951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/financial_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Riverside Drive", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.80628575878078, 
+                        "lng": -73.96360651288212
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 30, 
+                        "usersCount": 17
+                    }, 
+                    "id": "5292a049498ecbb0d52066dc", 
+                    "categories": [
+                        {
+                            "pluralName": "Parks", 
+                            "primary": true, 
+                            "name": "Park", 
+                            "shortName": "Park", 
+                            "id": "4bf58dd8d48988d163941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/park_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Columbus Square Courtyard", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "btw 97th St and 100th St", 
+                        "address": "Columbus Ave", 
+                        "lat": 40.794838231871346, 
+                        "lng": -73.96725654602051
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 471, 
+                        "usersCount": 84
+                    }, 
+                    "id": "4cc4aad642d1b60c6c131f13", 
+                    "categories": [
+                        {
+                            "pluralName": "Plazas", 
+                            "primary": true, 
+                            "name": "Plaza", 
+                            "shortName": "Plaza", 
+                            "id": "4bf58dd8d48988d164941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/plaza_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Pet Fashion By Carlos", 
+                    "contact": {
+                        "phone": "3477269409", 
+                        "formattedPhone": "(347) 726-9409"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10033", 
+                        "state": "NY", 
+                        "crossStreet": "at W. 181st St", 
+                        "address": "4263 Broadway", 
+                        "lat": 40.85017840997268, 
+                        "lng": -73.93605387113078
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 45, 
+                        "usersCount": 30
+                    }, 
+                    "id": "4bddd2aee75c0f4749c0c503", 
+                    "categories": [
+                        {
+                            "pluralName": "Pet Stores", 
+                            "primary": true, 
+                            "name": "Pet Store", 
+                            "shortName": "Pet Store", 
+                            "id": "4bf58dd8d48988d100951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/pet_store_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Promanade", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.772196445751355, 
+                        "cc": "US", 
+                        "lng": -73.94578958638968, 
+                        "state": "New York", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 407, 
+                        "usersCount": 120
+                    }, 
+                    "id": "4ddcf14afa766a6d79472374", 
+                    "categories": [
+                        {
+                            "pluralName": "Plazas", 
+                            "primary": true, 
+                            "name": "Plaza", 
+                            "shortName": "Plaza", 
+                            "id": "4bf58dd8d48988d164941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/plaza_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "University Hardware", 
+                    "contact": {
+                        "phone": "2126622150", 
+                        "formattedPhone": "(212) 662-2150"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "113th", 
+                        "address": "2905 Broadway", 
+                        "lat": 40.80632607758499, 
+                        "lng": -73.96511605447033
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 296, 
+                        "usersCount": 162
+                    }, 
+                    "id": "4ad4cb10f964a520cefb20e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Hardware Stores", 
+                            "primary": true, 
+                            "name": "Hardware Store", 
+                            "shortName": "Hardware", 
+                            "id": "4bf58dd8d48988d112951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/hardware_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

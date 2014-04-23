@@ -1,0 +1,78 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "The Foray", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.778991, 
+                        "lng": -73.978351
+                    }, 
+                    "venuePage": {
+                        "id": "60174564"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 131, 
+                        "usersCount": 8
+                    }, 
+                    "id": "51bd42b3498e61698381768e", 
+                    "categories": [
+                        {
+                            "pluralName": "Lounges", 
+                            "primary": true, 
+                            "name": "Lounge", 
+                            "shortName": "Lounge", 
+                            "id": "4bf58dd8d48988d121941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/lounge_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Huron Mountain Club", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Big Bay", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "MI", 
+                        "lat": 46.88777908757448, 
+                        "lng": -87.86498469279276
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4df4c1da14954f21cf329ce2", 
+                    "categories": [
+                        {
+                            "pluralName": "Resorts", 
+                            "primary": true, 
+                            "name": "Resort", 
+                            "shortName": "Resort", 
+                            "id": "4bf58dd8d48988d12f951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/resort_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

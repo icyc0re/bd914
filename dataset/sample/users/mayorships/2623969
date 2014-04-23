@@ -1,0 +1,440 @@
+{
+    "mayorships": {
+        "count": 12, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Gym @ 808 Columbus", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "at 98th St.", 
+                        "lat": 40.795037690175775, 
+                        "lng": -73.9662639869293
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 731, 
+                        "usersCount": 60
+                    }, 
+                    "id": "4c18446eed98ef3b9e8edd02", 
+                    "categories": [
+                        {
+                            "pluralName": "Gyms", 
+                            "primary": true, 
+                            "name": "Gym", 
+                            "shortName": "Gym", 
+                            "id": "4bf58dd8d48988d176941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/gym_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Yogurtland", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "98th", 
+                        "address": "795 Columbus Ave", 
+                        "lat": 40.794266611987815, 
+                        "lng": -73.96652227079038
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 134, 
+                        "usersCount": 62
+                    }, 
+                    "id": "52e448f711d200faddc06517", 
+                    "categories": [
+                        {
+                            "pluralName": "Yogurt", 
+                            "primary": true, 
+                            "name": "Frozen Yogurt", 
+                            "shortName": "Frozen Yogurt", 
+                            "id": "512e7cae91d4cbb4e5efe0af", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Gym at Courtyard Marriott", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "North Providence", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "RI", 
+                        "address": "636 George Washington Highway", 
+                        "lat": 41.93559144799488, 
+                        "lng": -71.47144357126044
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 41, 
+                        "usersCount": 5
+                    }, 
+                    "id": "519a91b9498efe158a05a53b", 
+                    "categories": [
+                        {
+                            "pluralName": "Gyms", 
+                            "primary": true, 
+                            "name": "Gym", 
+                            "shortName": "Gym", 
+                            "id": "4bf58dd8d48988d176941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/gym_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "DoubleTree by Hilton Hotel Atlanta - Roswell", 
+                    "url": "http://doubletree3.hilton.com/en/hotels/georgia/doubletree-by-hilton-hotel-atlanta-roswell-atlrsdt/index.html", 
+                    "storeId": "ATLRS", 
+                    "contact": {
+                        "phone": "7709929600", 
+                        "twitter": "doubletree", 
+                        "formattedPhone": "(770) 992-9600"
+                    }, 
+                    "location": {
+                        "city": "Roswell", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "30076", 
+                        "state": "GA", 
+                        "crossStreet": "at Dogwood Rd.", 
+                        "address": "1075 Holcomb Bridge Rd", 
+                        "lat": 34.02197886663317, 
+                        "lng": -84.32975606077268
+                    }, 
+                    "stats": {
+                        "tipCount": 11, 
+                        "checkinsCount": 3852, 
+                        "usersCount": 1040
+                    }, 
+                    "id": "4b59d691f964a520229b28e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Hotels", 
+                            "primary": true, 
+                            "name": "Hotel", 
+                            "shortName": "Hotel", 
+                            "id": "4bf58dd8d48988d1fa931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ember & Matt's Place", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Gahanna", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "OH", 
+                        "lat": 40.052522265293334, 
+                        "lng": -82.84790744052553
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 16, 
+                        "usersCount": 2
+                    }, 
+                    "id": "52a8d13711d2f8f510d4d1ca", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Original Kelly & Michael Show", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Orlando", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "FL", 
+                        "lat": 28.55491754241304, 
+                        "lng": -81.35644108777949
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 4
+                    }, 
+                    "id": "51ff3b1d498e098ed35ef965", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Renaissance Fitness Center /  Gym", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 42.090391, 
+                        "cc": "US", 
+                        "lng": -71.268223, 
+                        "state": "Massachusetts", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 2
+                    }, 
+                    "id": "51c97411498e0f3fd57be139", 
+                    "categories": [
+                        {
+                            "pluralName": "Gyms", 
+                            "primary": true, 
+                            "name": "Gym", 
+                            "shortName": "Gym", 
+                            "id": "4bf58dd8d48988d176941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/gym_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "ConQuest 44", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Kansas City", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "64133", 
+                        "state": "MO", 
+                        "address": "9103 EAST 39TH STREETS", 
+                        "lat": 39.05151688356249, 
+                        "lng": -94.47078535554257
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 20, 
+                        "usersCount": 14
+                    }, 
+                    "id": "519fc07e498ecaf76b0587a0", 
+                    "categories": [
+                        {
+                            "pluralName": "General Entertainment", 
+                            "primary": true, 
+                            "name": "General Entertainment", 
+                            "shortName": "Entertainment", 
+                            "id": "4bf58dd8d48988d1f1931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Tasseologic Corporate Headquarters", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Southlake", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "76092", 
+                        "state": "TX", 
+                        "crossStreet": "N Carroll Ave", 
+                        "address": "950 W State Highway 114", 
+                        "lat": 32.955127517255924, 
+                        "lng": -97.13563532493605
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "5249b65911d2a520764a1fc4", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Columbia Observatory", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "120th And Amsterdam", 
+                        "lat": 40.81016242477084, 
+                        "lng": -73.96140818593642
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 8
+                    }, 
+                    "id": "50809488e4b0211345541a2e", 
+                    "categories": [
+                        {
+                            "pluralName": "College Labs", 
+                            "primary": true, 
+                            "name": "College Lab", 
+                            "shortName": "Lab", 
+                            "id": "4bf58dd8d48988d1a5941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/lab_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Old Lieb Place", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Maineville", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "OH", 
+                        "lat": 39.31075148923382, 
+                        "lng": -84.29633919386588
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4cfc50607945224b97c28ae7", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Amtrak Train 86", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "NYC to BOS", 
+                        "lat": 40.7526384872486, 
+                        "lng": -73.91233250055706
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 259, 
+                        "usersCount": 242
+                    }, 
+                    "id": "4d49969f11a36ea8ba6e291c", 
+                    "categories": [
+                        {
+                            "pluralName": "Trains", 
+                            "primary": true, 
+                            "name": "Train", 
+                            "shortName": "Train", 
+                            "id": "4bf58dd8d48988d12a951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/trainstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "mayorships": {
+        "count": 14, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lawrence Hall", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New Haven", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "06511", 
+                        "state": "CT", 
+                        "address": "350-398 College St", 
+                        "lat": 41.30874033133034, 
+                        "lng": -72.92820930045976
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 48, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4c5041451886c9b62ec96228", 
+                    "categories": [
+                        {
+                            "pluralName": "Fraternity Houses", 
+                            "primary": true, 
+                            "name": "Fraternity House", 
+                            "shortName": "Frat House", 
+                            "id": "4bf58dd8d48988d1b0941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/frathouse_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "McClellan Hall - Yale", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New Haven", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CT", 
+                        "lat": 41.30843593837006, 
+                        "lng": -72.92905137540933
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 127, 
+                        "usersCount": 31
+                    }, 
+                    "id": "4c5d60956147be9a05c59109", 
+                    "categories": [
+                        {
+                            "pluralName": "College Residence Halls", 
+                            "primary": true, 
+                            "name": "College Residence Hall", 
+                            "shortName": "Residence Hall", 
+                            "id": "4bf58dd8d48988d1a3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/residencehall_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ruggles Residence Hall - Columbia University", 
+                    "url": "http://www.theblock.net", 
+                    "contact": {
+                        "twitter": "cutheblock"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "Amsterdam Avenue", 
+                        "address": "508 W 114th St", 
+                        "lat": 40.805895684484305, 
+                        "lng": -73.96255614047004
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2213, 
+                        "usersCount": 197
+                    }, 
+                    "id": "4a8e2073f964a520121220e3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Residence Halls", 
+                            "primary": true, 
+                            "name": "College Residence Hall", 
+                            "shortName": "Residence Hall", 
+                            "id": "4bf58dd8d48988d1a3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/residencehall_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Casa Carieri", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Calabasas", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 34.1650423066701, 
+                        "lng": -118.69064330945021
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 83, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4fc083abe4b0fddecab1351a", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Glicker- Milstein Theatre", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "3009 Broadway", 
+                        "lat": 40.80951123404911, 
+                        "lng": -73.96308419726118
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 208, 
+                        "usersCount": 46
+                    }, 
+                    "id": "4e94cd49e5fa809748b39531", 
+                    "categories": [
+                        {
+                            "pluralName": "College Theaters", 
+                            "primary": true, 
+                            "name": "College Theater", 
+                            "shortName": "Theater", 
+                            "id": "4bf58dd8d48988d1ac941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/collegetheater_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Roone Arledge Auditorium", 
+                    "contact": {
+                        "phone": "2128545800", 
+                        "formattedPhone": "(212) 854-5800"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Columbia University", 
+                        "address": "2920 Broadway", 
+                        "lat": 40.80717241486821, 
+                        "lng": -73.96402551230263
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 931, 
+                        "usersCount": 534
+                    }, 
+                    "id": "4bada17bf964a52014603be3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Auditoriums", 
+                            "primary": true, 
+                            "name": "College Auditorium", 
+                            "shortName": "Auditorium", 
+                            "id": "4bf58dd8d48988d1af941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/auditorium_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lydia And Tom: A New Musical At FringeNYC2013", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.731167, 
+                        "lng": -73.983149
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 1
+                    }, 
+                    "id": "52056c6e11d2714426eda764", 
+                    "categories": [
+                        {
+                            "pluralName": "Indie Theaters", 
+                            "primary": true, 
+                            "name": "Indie Theater", 
+                            "shortName": "Indie", 
+                            "id": "4bf58dd8d48988d135941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/performingarts_indieoffbroadway_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "1020 North", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.807236, 
+                        "lng": -73.959003
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 21, 
+                        "usersCount": 5
+                    }, 
+                    "id": "524b37ac498e44f9cdeba043", 
+                    "categories": [
+                        {
+                            "pluralName": "Speakeasies", 
+                            "primary": true, 
+                            "name": "Speakeasy", 
+                            "shortName": "Speakeasy", 
+                            "id": "4bf58dd8d48988d1d4941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/secretbar_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Kappa Alpha Theta", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "114th St btw Broadway and Amsterdam", 
+                        "address": "534 W 114th St", 
+                        "lat": 40.80575371550092, 
+                        "lng": -73.9633297920227
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 456, 
+                        "usersCount": 60
+                    }, 
+                    "id": "4bc1e1414cdfc9b696249521", 
+                    "categories": [
+                        {
+                            "pluralName": "Sorority Houses", 
+                            "primary": true, 
+                            "name": "Sorority House", 
+                            "shortName": "Sorority House", 
+                            "id": "4bf58dd8d48988d141941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/frathouse_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Staff Lounge - MacClellan Hall - Yale", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New Haven", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "06510", 
+                        "state": "CT", 
+                        "lat": 41.308336273968365, 
+                        "lng": -72.92925324225006
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 4
+                    }, 
+                    "id": "501e16b2e4b084fba629599f", 
+                    "categories": [
+                        {
+                            "pluralName": "Lounges", 
+                            "primary": true, 
+                            "name": "Lounge", 
+                            "shortName": "Lounge", 
+                            "id": "4bf58dd8d48988d121941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/lounge_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "501 Schermerhorn Hall", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "118th St.", 
+                        "address": "Amsterdam Ave.", 
+                        "lat": 40.808800181785536, 
+                        "lng": -73.96051277665782
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 156, 
+                        "usersCount": 35
+                    }, 
+                    "id": "4ed4e5ee8231c75edd9d5273", 
+                    "categories": [
+                        {
+                            "pluralName": "College Classrooms", 
+                            "primary": true, 
+                            "name": "College Classroom", 
+                            "shortName": "Classroom", 
+                            "id": "4bf58dd8d48988d1a0941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/classroom_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Shakespeare In The Park Line", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "Central Park", 
+                        "lat": 40.78163436709038, 
+                        "lng": -73.96884680996145
+                    }, 
+                    "stats": {
+                        "tipCount": 7, 
+                        "checkinsCount": 991, 
+                        "usersCount": 802
+                    }, 
+                    "id": "4c2f01ee213c2d7f452b305d", 
+                    "categories": [
+                        {
+                            "pluralName": "Theaters", 
+                            "primary": true, 
+                            "name": "Theater", 
+                            "shortName": "Theater", 
+                            "id": "4bf58dd8d48988d137941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/performingarts_theater_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Studio 6A NBC", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "30 Rock", 
+                        "lat": 40.75881127313562, 
+                        "lng": -73.97972872382876
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 21, 
+                        "usersCount": 20
+                    }, 
+                    "id": "4cec209964d78cfa2d02bc17", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lerner Hall - Package Center", 
+                    "contact": {
+                        "phone": "2128540100", 
+                        "formattedPhone": "(212) 854-0100"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "at 115th St", 
+                        "address": "2920 Broadway", 
+                        "lat": 40.80724702067263, 
+                        "lng": -73.96382462228311
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 390, 
+                        "usersCount": 93
+                    }, 
+                    "id": "4b7c2809f964a520c5802fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Administrative Buildings", 
+                            "primary": true, 
+                            "name": "College Administrative Building", 
+                            "shortName": "Administrative Building", 
+                            "id": "4bf58dd8d48988d197941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/administrativebuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

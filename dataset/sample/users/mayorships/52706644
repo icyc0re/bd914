@@ -1,0 +1,529 @@
+{
+    "mayorships": {
+        "count": 14, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "620 W 116 - Barnard College", 
+                    "storeId": "", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "at Claremont", 
+                        "address": "620 W 116th St", 
+                        "lat": 40.80841328047548, 
+                        "lng": -73.96515905857086
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 1446, 
+                        "usersCount": 157
+                    }, 
+                    "id": "4ba7819cf964a520ee9839e3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Residence Halls", 
+                            "primary": true, 
+                            "name": "College Residence Hall", 
+                            "shortName": "Residence Hall", 
+                            "id": "4bf58dd8d48988d1a3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/residencehall_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Barnard Hall", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "3009 Broadway", 
+                        "lat": 40.80894673963083, 
+                        "lng": -73.96358929370838
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 1265, 
+                        "usersCount": 354
+                    }, 
+                    "id": "4f3436bae4b08a696d744151", 
+                    "categories": [
+                        {
+                            "pluralName": "College Classrooms", 
+                            "primary": true, 
+                            "name": "College Classroom", 
+                            "shortName": "Classroom", 
+                            "id": "4bf58dd8d48988d1a0941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/classroom_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "59 Lafayette Road", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Sugar Hill", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NH", 
+                        "lat": 44.208057700512256, 
+                        "lng": -71.78239692827727
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 15, 
+                        "usersCount": 1
+                    }, 
+                    "id": "5207ac1d11d2a646beec36f9", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Morton Williams", 
+                    "contact": {
+                        "phone": "2128641904", 
+                        "formattedPhone": "(212) 864-1904"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "W 115th St.", 
+                        "address": "2941 Broadway", 
+                        "lat": 40.807521235088814, 
+                        "lng": -73.96428953886705
+                    }, 
+                    "stats": {
+                        "tipCount": 6, 
+                        "checkinsCount": 2772, 
+                        "usersCount": 764
+                    }, 
+                    "id": "4a6d34eff964a520acd21fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Grocery Stores", 
+                            "primary": true, 
+                            "name": "Grocery Store", 
+                            "shortName": "Grocery Store", 
+                            "id": "4bf58dd8d48988d118951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/food_grocery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Liz's Place at Barnard College", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "1st floor Diana Center 3009 Broadway", 
+                        "lat": 40.809667007842386, 
+                        "lng": -73.96305549855968
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 602, 
+                        "usersCount": 100
+                    }, 
+                    "id": "4cbca9edbac93704608df97c", 
+                    "categories": [
+                        {
+                            "pluralName": "Caf\u00e9s", 
+                            "primary": true, 
+                            "name": "Caf\u00e9", 
+                            "shortName": "Caf\u00e9", 
+                            "id": "4bf58dd8d48988d16d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cafe_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Pinkberry", 
+                    "url": "http://www.pinkberry.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/pinkberry/4a497420f964a5205cab1fe3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4a497420f964a5205cab1fe3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "2122220191", 
+                        "twitter": "pinkberry", 
+                        "formattedPhone": "(212) 222-0191"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "btw 111th & 112th St", 
+                        "address": "2873 Broadway", 
+                        "lat": 40.80537164483832, 
+                        "lng": -73.96620660843453
+                    }, 
+                    "stats": {
+                        "tipCount": 15, 
+                        "checkinsCount": 4321, 
+                        "usersCount": 2202
+                    }, 
+                    "id": "4a497420f964a5205cab1fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Ice Cream Shops", 
+                            "primary": true, 
+                            "name": "Ice Cream Shop", 
+                            "shortName": "Ice Cream", 
+                            "id": "4bf58dd8d48988d1c9941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/icecream_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Chapin School", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10028", 
+                        "state": "NY", 
+                        "crossStreet": "East 84th Street", 
+                        "address": "100 E End Ave", 
+                        "lat": 40.77396534752637, 
+                        "lng": -73.94616270252733
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 1973, 
+                        "usersCount": 163
+                    }, 
+                    "id": "4598d827f964a5207d401fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Schools", 
+                            "primary": true, 
+                            "name": "School", 
+                            "shortName": "School", 
+                            "id": "4bf58dd8d48988d13b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Brookford", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "lat": 40.789442106202415, 
+                        "lng": -73.96699292049158
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 10, 
+                        "usersCount": 5
+                    }, 
+                    "id": "50ad6fe9e4b05090c0a5495f", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Colorado", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "crossStreet": "between Broadway & West End Avenue", 
+                        "address": "235 W 76th St", 
+                        "lat": 40.78188195931085, 
+                        "lng": -73.98089378677447
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 74, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4e1e44598130f3a2268a74e9", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "St. Bernard's School", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10029", 
+                        "state": "NY", 
+                        "crossStreet": "btwn Madison & 5th", 
+                        "address": "4 E 98th St", 
+                        "lat": 40.788845729175485, 
+                        "lng": -73.95425319671631
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 187, 
+                        "usersCount": 47
+                    }, 
+                    "id": "4e125542cc3fd3018276e8eb", 
+                    "categories": [
+                        {
+                            "pluralName": "Student Centers", 
+                            "primary": true, 
+                            "name": "Student Center", 
+                            "shortName": "Student Center", 
+                            "id": "4bf58dd8d48988d1ab941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/studentcenter_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Mojo Headquarters", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Franconia", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "03580", 
+                        "state": "NH", 
+                        "address": "287 Main St", 
+                        "lat": 44.227764193103496, 
+                        "lng": -71.7489578042935
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 73, 
+                        "usersCount": 48
+                    }, 
+                    "id": "4dc02d1ef7b115b875da814d", 
+                    "categories": [
+                        {
+                            "pluralName": "Caf\u00e9s", 
+                            "primary": true, 
+                            "name": "Caf\u00e9", 
+                            "shortName": "Caf\u00e9", 
+                            "id": "4bf58dd8d48988d16d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cafe_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "34 West 89th Street", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.78729703563368, 
+                        "lng": -73.96704457709609
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 1
+                    }, 
+                    "id": "52fbd411498e4b0e32d69752", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dr Feinberg", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10021", 
+                        "state": "NY", 
+                        "lat": 40.773080046443425, 
+                        "lng": -73.96635582123068
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 5
+                    }, 
+                    "id": "500d5d20e4b0938454270b58", 
+                    "categories": [
+                        {
+                            "pluralName": "Dentist's Offices", 
+                            "primary": true, 
+                            "name": "Dentist's Office", 
+                            "shortName": "Dentist's Office", 
+                            "id": "4bf58dd8d48988d178941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_dentist_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Bloomingdale School Of Music", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10026", 
+                        "state": "NY", 
+                        "crossStreet": "at Broadway", 
+                        "address": "W 108th St", 
+                        "lat": 40.80310316975541, 
+                        "lng": -73.96826137310865
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 119, 
+                        "usersCount": 60
+                    }, 
+                    "id": "4aeb7fa7f964a520b9c221e3", 
+                    "categories": [
+                        {
+                            "pluralName": "General Colleges & Universities", 
+                            "primary": true, 
+                            "name": "General College & University", 
+                            "shortName": "Education", 
+                            "id": "4bf58dd8d48988d1a8941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/other_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

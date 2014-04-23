@@ -1,0 +1,43 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Teachers College Press", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "1234 Amsterdam Ave", 
+                        "lat": 40.81005, 
+                        "lng": -73.958909
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 28, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4c2a23acce3fc9288ed06f88", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

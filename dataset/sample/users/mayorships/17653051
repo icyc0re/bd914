@@ -1,0 +1,148 @@
+{
+    "mayorships": {
+        "count": 4, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Heyman Center for the Humanities", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "@ 116th", 
+                        "address": "2960 Broadway", 
+                        "lat": 40.807390493536715, 
+                        "lng": -73.95913521580741
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 53, 
+                        "usersCount": 22
+                    }, 
+                    "id": "4be2c57663609c741dcc1bff", 
+                    "categories": [
+                        {
+                            "pluralName": "College Academic Buildings", 
+                            "primary": true, 
+                            "name": "College Academic Building", 
+                            "shortName": "Academic Building", 
+                            "id": "4bf58dd8d48988d198941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/academicbuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Harris Pool & Oasis", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 42.521623, 
+                        "cc": "US", 
+                        "lng": -83.821569, 
+                        "state": "Michigan", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 3
+                    }, 
+                    "id": "51ae0363498edf8da1737b25", 
+                    "categories": [
+                        {
+                            "pluralName": "Pools", 
+                            "primary": true, 
+                            "name": "Pool", 
+                            "shortName": "Pool", 
+                            "id": "4bf58dd8d48988d15e941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/pool_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Lamont-Doherty Shuttle", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "lat": 40.81010128583974, 
+                        "lng": -73.96064479238957
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 2
+                    }, 
+                    "id": "5122b099e4b0ca119620be50", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Stations", 
+                            "primary": true, 
+                            "name": "Bus Station", 
+                            "shortName": "Bus Station", 
+                            "id": "4bf58dd8d48988d1fe931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Earth Institute - Millennium Villages Project", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "NY", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10115", 
+                        "state": "NY", 
+                        "address": "475 Riverside Drive", 
+                        "lat": 40.81112254943192, 
+                        "lng": -73.96375000593686
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 46, 
+                        "usersCount": 6
+                    }, 
+                    "id": "504e1309e4b0c9f2204e17e6", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

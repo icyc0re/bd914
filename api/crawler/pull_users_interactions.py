@@ -16,7 +16,7 @@ def main():
     interaction = sys.argv[1]
     
     if interaction not in ["badges", "mayorships", "tips", "photos"]:
-        print "interaction type must be \"badges\", \"mayorships\" or \"tips\""
+        print "interaction type must be \"badges\", \"mayorships\", \"photos\" or \"tips\""
         
     #retrieve credentials
     with open(sys.argv[2],'r') as login_file:
@@ -40,10 +40,11 @@ def main():
             user_interaction_path = os.path.join(output_directory, user_id)
             
             if not os.path.isfile(user_interaction_path):
-                user_tips = getattr(client.users, interaction)(user_id)
-                with open(user_interaction_path,'a') as outfile:
-                    json.dump(user_tips, outfile)#, indent=4) #    to make it human readable, but oc use more space
-                print 'user_tips '+user_id+' saved in '+ output_directory
+				user_tips = getattr(client.users, interaction)(user_id)
+				with open(user_interaction_path,'a') as outfile:
+					json.dump(user_tips, outfile)#, indent=4) #    to make it human readable, but oc use more space
+				print interaction+ ' of user '+user_id+' saved in '+ output_directory
+        
             else:
                 print user_interaction_path+' already exists'
             i += 1

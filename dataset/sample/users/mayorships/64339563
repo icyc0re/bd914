@@ -1,0 +1,42 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "\"The Witch's House\"", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Fox Point", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "WI", 
+                        "address": "7328 N Beach Road", 
+                        "lat": 43.1506812300558, 
+                        "lng": -87.89186600229213
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 173, 
+                        "usersCount": 108
+                    }, 
+                    "id": "4baf9e85f964a5208d103ce3", 
+                    "categories": [
+                        {
+                            "pluralName": "Art Galleries", 
+                            "primary": true, 
+                            "name": "Art Gallery", 
+                            "shortName": "Art Gallery", 
+                            "id": "4bf58dd8d48988d1e2931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/artgallery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

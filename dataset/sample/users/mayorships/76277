@@ -1,0 +1,118 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "500 W. 59th St. Playground", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "crossStreet": "Amsterdam Ave.", 
+                        "address": "507 W. 59th St.", 
+                        "lat": 40.77053189277649, 
+                        "lng": -73.98790419101715
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 155, 
+                        "usersCount": 112
+                    }, 
+                    "id": "4bbccfdd07809521fac9d991", 
+                    "categories": [
+                        {
+                            "pluralName": "Playgrounds", 
+                            "primary": true, 
+                            "name": "Playground", 
+                            "shortName": "Playground", 
+                            "id": "4bf58dd8d48988d1e7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/playground_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Seawall On Chittenden Avenue", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10033", 
+                        "state": "NY", 
+                        "crossStreet": "187th st", 
+                        "address": "Chittenden Ave", 
+                        "lat": 40.855772495269775, 
+                        "lng": -73.93877685070038
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 20, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4dd59808e4cd37c8937eed42", 
+                    "categories": [
+                        {
+                            "pluralName": "Scenic Lookouts", 
+                            "primary": true, 
+                            "name": "Scenic Lookout", 
+                            "shortName": "Scenic Lookout", 
+                            "id": "4bf58dd8d48988d165941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Muse Isle Arena in Second Life", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Second Life", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "crossStreet": "Muse Isle", 
+                        "address": "http://bit.ly/MuseIsleArenaSLURL", 
+                        "lat": 40.775101, 
+                        "lng": -73.981924
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 3, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4bbcd22ca0a0c9b638d71a0f", 
+                    "categories": [
+                        {
+                            "pluralName": "Concert Halls", 
+                            "primary": true, 
+                            "name": "Concert Hall", 
+                            "shortName": "Concert Hall", 
+                            "id": "5032792091d4c4b30a586d5c", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

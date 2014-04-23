@@ -1,0 +1,440 @@
+{
+    "mayorships": {
+        "count": 11, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Frederick Douglass Academy", 
+                    "url": "http://www.fda1.org", 
+                    "contact": {
+                        "phone": "2124914107", 
+                        "formattedPhone": "(212) 491-4107"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10039", 
+                        "state": "NY", 
+                        "address": "2581 Adam Clayton Powell Jr Blvd", 
+                        "lat": 40.80246527510093, 
+                        "lng": -73.95417017533974
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 94, 
+                        "usersCount": 24
+                    }, 
+                    "id": "4bc4c5d1abf49521fd8bc593", 
+                    "categories": [
+                        {
+                            "pluralName": "Schools", 
+                            "primary": true, 
+                            "name": "School", 
+                            "shortName": "School", 
+                            "id": "4bf58dd8d48988d13b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sweet Green", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.74483623376055, 
+                        "lng": -73.98891703333011
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 200, 
+                        "usersCount": 106
+                    }, 
+                    "id": "520055ea498e9c719654bedd", 
+                    "categories": [
+                        {
+                            "pluralName": "Salad Shop", 
+                            "primary": true, 
+                            "name": "Salad Place", 
+                            "shortName": "Salad", 
+                            "id": "4bf58dd8d48988d1bd941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/salad_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "ACC South Austin Campus Faculty Lounge", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Austin", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "TX", 
+                        "lat": 30.215533641001937, 
+                        "lng": -97.79698066283527
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 26, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4e5eb049fa768fe5f2cb54e2", 
+                    "categories": [
+                        {
+                            "pluralName": "College Academic Buildings", 
+                            "primary": true, 
+                            "name": "College Academic Building", 
+                            "shortName": "Academic Building", 
+                            "id": "4bf58dd8d48988d198941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/academicbuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Harlem Shambles", 
+                    "url": "http://www.harlemshambles.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/harlem-shambles/4eb9cdebd3e3afc036fdb678/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4eb9cdebd3e3afc036fdb678/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "6464764650", 
+                        "twitter": "harlemshambles", 
+                        "formattedPhone": "(646) 476-4650"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10026", 
+                        "state": "NY", 
+                        "crossStreet": "116th Street", 
+                        "address": "2141 Frederick Douglass Blvd", 
+                        "lat": 40.80416983569882, 
+                        "lng": -73.95553629169083
+                    }, 
+                    "stats": {
+                        "tipCount": 14, 
+                        "checkinsCount": 680, 
+                        "usersCount": 228
+                    }, 
+                    "id": "4eb9cdebd3e3afc036fdb678", 
+                    "categories": [
+                        {
+                            "pluralName": "Butchers", 
+                            "primary": true, 
+                            "name": "Butcher", 
+                            "shortName": "Butcher", 
+                            "id": "4bf58dd8d48988d11d951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/food_butcher_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "The Vitamin Shoppe", 
+                    "url": "http://www.vitaminshoppe.com", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2123164681", 
+                        "formattedPhone": "(212) 316-4681"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "at W 110th St.", 
+                        "address": "2841 Broadway", 
+                        "lat": 40.804245445501046, 
+                        "lng": -73.96659688606358
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 205, 
+                        "usersCount": 99
+                    }, 
+                    "id": "4ced2c1b840a9eb050af9f13", 
+                    "categories": [
+                        {
+                            "pluralName": "Health Food Stores", 
+                            "primary": true, 
+                            "name": "Health Food Store", 
+                            "shortName": "Health Food Store", 
+                            "id": "50aa9e744b90af0d42d5de0e", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/food_grocery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "lululemon athletica", 
+                    "contact": {
+                        "twitter": "lululemon"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10014", 
+                        "state": "NY", 
+                        "address": "408 W 14th St", 
+                        "lat": 40.74100629936964, 
+                        "lng": -74.00551341388324
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 361, 
+                        "usersCount": 249
+                    }, 
+                    "id": "512e5d9ae4b06ff9073dfd13", 
+                    "categories": [
+                        {
+                            "pluralName": "Clothing Stores", 
+                            "primary": true, 
+                            "name": "Clothing Store", 
+                            "shortName": "Apparel", 
+                            "id": "4bf58dd8d48988d103951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Local", 
+                    "url": "http://silverlakelocal.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/local/4b2d2664f964a52087cf24e3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4b2d2664f964a52087cf24e3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "3236624740", 
+                        "formattedPhone": "(323) 662-4740"
+                    }, 
+                    "location": {
+                        "city": "Los Angeles", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "90026", 
+                        "state": "CA", 
+                        "address": "2943 W Sunset Blvd", 
+                        "lat": 34.08370332743531, 
+                        "lng": -118.27386260032654
+                    }, 
+                    "stats": {
+                        "tipCount": 42, 
+                        "checkinsCount": 3048, 
+                        "usersCount": 1654
+                    }, 
+                    "id": "4b2d2664f964a52087cf24e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Breakfast Spots", 
+                            "primary": true, 
+                            "name": "Breakfast Spot", 
+                            "shortName": "Breakfast", 
+                            "id": "4bf58dd8d48988d143941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/breakfast_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Los Muchachos de Santana Barbershop", 
+                    "contact": {
+                        "phone": "2126668494", 
+                        "formattedPhone": "(212) 666-8494"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "Amsterdam And 108th", 
+                        "address": "983 Amsterdam Ave", 
+                        "lat": 40.80183970565136, 
+                        "lng": -73.96482907028744
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 12, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4f2ab9b3e4b0837d0ce850de", 
+                    "categories": [
+                        {
+                            "pluralName": "Salons / Barbershops", 
+                            "primary": true, 
+                            "name": "Salon / Barbershop", 
+                            "shortName": "Salon / Barbershop", 
+                            "id": "4bf58dd8d48988d110951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/salon_barber_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "The Vitamin Shoppe", 
+                    "url": "http://www.vitaminshoppe.com", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2125807620", 
+                        "formattedPhone": "(212) 580-7620"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "crossStreet": "72nd St.", 
+                        "address": "2086A Broadway", 
+                        "lat": 40.77843198194854, 
+                        "lng": -73.98193831996322
+                    }, 
+                    "stats": {
+                        "tipCount": 4, 
+                        "checkinsCount": 283, 
+                        "usersCount": 161
+                    }, 
+                    "id": "4bf1908452bda59308b3b1b7", 
+                    "categories": [
+                        {
+                            "pluralName": "Drugstores / Pharmacies", 
+                            "primary": true, 
+                            "name": "Drugstore / Pharmacy", 
+                            "shortName": "Pharmacy", 
+                            "id": "4bf58dd8d48988d10f951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/pharmacy_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "121st btwn Broadway and Amsterdam", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "lat": 40.810613, 
+                        "lng": -73.959552
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 31, 
+                        "usersCount": 5
+                    }, 
+                    "id": "504026d7e4b0f7ca2b6bc9dd", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Atelier Matamoros", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 30.231826, 
+                        "cc": "US", 
+                        "lng": -97.836566, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 10, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4d4b998557b2a1cdf01fe882", 
+                    "categories": [
+                        {
+                            "pluralName": "Art Galleries", 
+                            "primary": true, 
+                            "name": "Art Gallery", 
+                            "shortName": "Art Gallery", 
+                            "id": "4bf58dd8d48988d1e2931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/artgallery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

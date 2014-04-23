@@ -1,0 +1,87 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Alpha Workshops", 
+                    "contact": {
+                        "phone": "2125947320", 
+                        "formattedPhone": "(212) 594-7320"
+                    }, 
+                    "location": {
+                        "city": "NY", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10001", 
+                        "state": "NY", 
+                        "crossStreet": "7th and 8th", 
+                        "address": "245 West 29th Street", 
+                        "lat": 40.748616153896506, 
+                        "lng": -73.99462148390073
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 53, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4f73833ee4b05b6a692808b8", 
+                    "categories": [
+                        {
+                            "pluralName": "Design Studios", 
+                            "primary": true, 
+                            "name": "Design Studio", 
+                            "shortName": "Design", 
+                            "id": "4bf58dd8d48988d1f4941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/design_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Bites to Go", 
+                    "contact": {
+                        "phone": "6469195549", 
+                        "formattedPhone": "(646) 919-5549"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10029", 
+                        "state": "NY", 
+                        "crossStreet": "btw 106th & 107th streets", 
+                        "address": "1695 Lexington Ave", 
+                        "lat": 40.79253145649958, 
+                        "lng": -73.94597053527832
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 3
+                    }, 
+                    "id": "50e494fa52621298e8e49d5f", 
+                    "categories": [
+                        {
+                            "pluralName": "Caf\u00e9s", 
+                            "primary": true, 
+                            "name": "Caf\u00e9", 
+                            "shortName": "Caf\u00e9", 
+                            "id": "4bf58dd8d48988d16d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cafe_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

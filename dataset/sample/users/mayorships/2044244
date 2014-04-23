@@ -1,0 +1,112 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "P+N Chelsea", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.74277689101572, 
+                        "lng": -74.00063278107605
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 63, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4fc9a6b8e4b0ac96391fa938", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Panjiva Inc.", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10010", 
+                        "state": "NY", 
+                        "lat": 40.74124774015527, 
+                        "lng": -73.99137329642457
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 31, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4f022d990e618ea768dfd645", 
+                    "categories": [
+                        {
+                            "pluralName": "Tech Startups", 
+                            "primary": true, 
+                            "name": "Tech Startup", 
+                            "shortName": "Tech Startup", 
+                            "id": "4bf58dd8d48988d125941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/technology_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Pupin Observatory Domes", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "lat": 40.80959425530015, 
+                        "lng": -73.96195346519177
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 3
+                    }, 
+                    "id": "50a46844e4b0d334691441c7", 
+                    "categories": [
+                        {
+                            "pluralName": "College Labs", 
+                            "primary": true, 
+                            "name": "College Lab", 
+                            "shortName": "Lab", 
+                            "id": "4bf58dd8d48988d1a5941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/lab_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Preschool Research Group", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Tallahassee", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "32304", 
+                        "state": "FL", 
+                        "address": "1020 Levy Ave", 
+                        "lat": 30.43543533, 
+                        "lng": -84.29181529
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4d9db3bdc4b5370477d61b2e", 
+                    "categories": [
+                        {
+                            "pluralName": "College Administrative Buildings", 
+                            "primary": true, 
+                            "name": "College Administrative Building", 
+                            "shortName": "Administrative Building", 
+                            "id": "4bf58dd8d48988d197941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/administrativebuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "General Service Office of Alcoholics Anonymous", 
+                    "contact": {
+                        "phone": "2128703400", 
+                        "formattedPhone": "(212) 870-3400"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10115", 
+                        "state": "NY", 
+                        "address": "475 Riverside Dr", 
+                        "lat": 40.810207258135534, 
+                        "lng": -73.96406569028139
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 12
+                    }, 
+                    "id": "4c752e9ddb52b1f7ddf177dc", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,253 @@
+{
+    "mayorships": {
+        "count": 6, 
+        "items": [
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Dunkin' Donuts", 
+                    "url": "http://www.dunkindonuts.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/dunkin-donuts/4c76694ac219224bf014a528/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4c76694ac219224bf014a528/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "storeId": "303452", 
+                    "contact": {
+                        "phone": "7818439830", 
+                        "twitter": "dunkindonuts", 
+                        "facebook": "6979393237", 
+                        "formattedPhone": "(781) 843-9830"
+                    }, 
+                    "location": {
+                        "city": "Braintree", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "2184", 
+                        "state": "MA", 
+                        "address": "551 Granite St", 
+                        "lat": 42.211830022686065, 
+                        "lng": -71.02002362179276
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 657, 
+                        "usersCount": 305
+                    }, 
+                    "id": "4c76694ac219224bf014a528", 
+                    "categories": [
+                        {
+                            "pluralName": "Coffee Shops", 
+                            "primary": true, 
+                            "name": "Coffee Shop", 
+                            "shortName": "Coffee Shop", 
+                            "id": "4bf58dd8d48988d1e0931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Charlotte Rose Kelly Play Area", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Braintree", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "02184", 
+                        "state": "MA", 
+                        "address": "101A French Ave", 
+                        "lat": 42.205431, 
+                        "lng": -71.006746
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 1
+                    }, 
+                    "id": "5220f54211d2808dba6a3e8c", 
+                    "categories": [
+                        {
+                            "pluralName": "Playgrounds", 
+                            "primary": true, 
+                            "name": "Playground", 
+                            "shortName": "Playground", 
+                            "id": "4bf58dd8d48988d1e7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/playground_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Eastern Mountain Sports", 
+                    "contact": {
+                        "phone": "5085431350", 
+                        "formattedPhone": "(508) 543-1350"
+                    }, 
+                    "location": {
+                        "city": "Foxborough", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "02035", 
+                        "state": "MA", 
+                        "crossStreet": "at Washington St (US-1)", 
+                        "address": "246 Patriot Pl", 
+                        "lat": 42.09275830444555, 
+                        "lng": -71.26736660117707
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 369, 
+                        "usersCount": 299
+                    }, 
+                    "id": "4ad65270f964a520880621e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Sporting Goods Shops", 
+                            "primary": true, 
+                            "name": "Sporting Goods Shop", 
+                            "shortName": "Sporting Goods", 
+                            "id": "4bf58dd8d48988d1f2941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/sports_outdoors_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Thai Chili Basil", 
+                    "delivery": {
+                        "url": "http://www.grubhub.com/order_redir.jsp?custId=286269&affId=1131", 
+                        "provider": {
+                            "name": "grubhub"
+                        }
+                    }, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Braintree", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "02184", 
+                        "state": "MA", 
+                        "address": "Washington Street", 
+                        "lat": 42.219929, 
+                        "lng": -71.003726
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 5
+                    }, 
+                    "id": "5292878711d22867d443fa0e", 
+                    "categories": [
+                        {
+                            "pluralName": "Thai Restaurants", 
+                            "primary": true, 
+                            "name": "Thai Restaurant", 
+                            "shortName": "Thai", 
+                            "id": "4bf58dd8d48988d149941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/thai_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Fenwick Crab House", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/fenwick-crab-house/4c140970a5eb76b08a16c1b7/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4c140970a5eb76b08a16c1b7/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Fenwick Island", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "19944", 
+                        "state": "DE", 
+                        "address": "100 Coastal Hwy, Unit 7", 
+                        "lat": 38.45298599740927, 
+                        "lng": -75.05260722295061
+                    }, 
+                    "stats": {
+                        "tipCount": 15, 
+                        "checkinsCount": 444, 
+                        "usersCount": 367
+                    }, 
+                    "id": "4c140970a5eb76b08a16c1b7", 
+                    "categories": [
+                        {
+                            "pluralName": "Seafood Restaurants", 
+                            "primary": true, 
+                            "name": "Seafood Restaurant", 
+                            "shortName": "Seafood", 
+                            "id": "4bf58dd8d48988d1ce941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/seafood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Thayer Library", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Braintree", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "MA", 
+                        "address": "Washington st", 
+                        "lat": 42.20554130537744, 
+                        "lng": -71.00422482588428
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 60, 
+                        "usersCount": 15
+                    }, 
+                    "id": "4beb8908a9900f479cfe1740", 
+                    "categories": [
+                        {
+                            "pluralName": "College Libraries", 
+                            "primary": true, 
+                            "name": "College Library", 
+                            "shortName": "Library", 
+                            "id": "4bf58dd8d48988d1a7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

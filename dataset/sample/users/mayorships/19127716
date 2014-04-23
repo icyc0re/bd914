@@ -1,0 +1,76 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Russel Hall - Teachers College", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Amsterdam Avenue", 
+                        "address": "120th Street", 
+                        "lat": 40.809841, 
+                        "lng": -73.959892
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 266, 
+                        "usersCount": 37
+                    }, 
+                    "id": "4dd57efcae60680f14d77d89", 
+                    "categories": [
+                        {
+                            "pluralName": "College Academic Buildings", 
+                            "primary": true, 
+                            "name": "College Academic Building", 
+                            "shortName": "Academic Building", 
+                            "id": "4bf58dd8d48988d198941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/academicbuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "New York Wash", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.79134750366211, 
+                        "cc": "US", 
+                        "lng": -73.97220611572266, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 25, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4e8638b230f8ac3330104d70", 
+                    "categories": [
+                        {
+                            "pluralName": "Laundry Services", 
+                            "primary": true, 
+                            "name": "Laundry Service", 
+                            "shortName": "Laundry", 
+                            "id": "4bf58dd8d48988d1fc941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

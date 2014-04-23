@@ -1,0 +1,157 @@
+{
+    "mayorships": {
+        "count": 4, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Barnard Clay Collective", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "at W. 120th", 
+                        "address": "1235 Amsterdam", 
+                        "lat": 40.80970221121815, 
+                        "lng": -73.95891710110432
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 25, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4b4c917ef964a5205bb626e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Universities", 
+                            "primary": true, 
+                            "name": "University", 
+                            "shortName": "University", 
+                            "id": "4bf58dd8d48988d1ae941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA Bus Stop - Q60/QM18", 
+                    "contact": {
+                        "phone": "7183301234", 
+                        "twitter": "nyctbusstop", 
+                        "formattedPhone": "(718) 330-1234"
+                    }, 
+                    "location": {
+                        "city": "Forest Hills", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11375", 
+                        "state": "NY", 
+                        "crossStreet": "71st Avenue/Continental Avenue/108th Street", 
+                        "address": "Queens Boulevard", 
+                        "lat": 40.721502075213984, 
+                        "lng": -73.8440465927124
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 316, 
+                        "usersCount": 88
+                    }, 
+                    "id": "4d0e8146b4abb60ce98d417a", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Stations", 
+                            "primary": true, 
+                            "name": "Bus Station", 
+                            "shortName": "Bus Station", 
+                            "id": "4bf58dd8d48988d1fe931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "201 Sullivan St.", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.73289347485937, 
+                        "lng": -74.00063278107605
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 19, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4c1b3fe3b4e62d7fb20ed993", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Christ Assembly Of God Church", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Floral Park", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11001", 
+                        "state": "NY", 
+                        "crossStreet": "Cedar St.", 
+                        "address": "120 Floral Pkwy", 
+                        "lat": 40.71675397057369, 
+                        "lng": -73.70106798826815
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 16, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4ec942482c5b532d08c58b42", 
+                    "categories": [
+                        {
+                            "pluralName": "Churches", 
+                            "primary": true, 
+                            "name": "Church", 
+                            "shortName": "Church", 
+                            "id": "4bf58dd8d48988d132941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/religious_church_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

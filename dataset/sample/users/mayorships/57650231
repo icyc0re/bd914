@@ -1,0 +1,422 @@
+{
+    "mayorships": {
+        "count": 10, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "236 West 64th Street", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "address": "236 W 64th St", 
+                        "lat": 40.77421417994615, 
+                        "lng": -73.98700020804806
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 356, 
+                        "usersCount": 53
+                    }, 
+                    "id": "4b25a7c2f964a520057524e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Art Galleries", 
+                            "primary": true, 
+                            "name": "Art Gallery", 
+                            "shortName": "Art Gallery", 
+                            "id": "4bf58dd8d48988d1e2931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/artgallery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "EC H401", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.80698987096898, 
+                        "lng": -73.95905485778759
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 311, 
+                        "usersCount": 7
+                    }, 
+                    "id": "52249adb11d26e339d40b9ac", 
+                    "categories": [
+                        {
+                            "pluralName": "College Residence Halls", 
+                            "primary": true, 
+                            "name": "College Residence Hall", 
+                            "shortName": "Residence Hall", 
+                            "id": "4bf58dd8d48988d1a3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/residencehall_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "1020 Bar", 
+                    "contact": {
+                        "phone": "2129619224", 
+                        "formattedPhone": "(212) 961-9224"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "at W 110th St", 
+                        "address": "1020 Amsterdam Ave", 
+                        "lat": 40.803132, 
+                        "lng": -73.964
+                    }, 
+                    "stats": {
+                        "tipCount": 40, 
+                        "checkinsCount": 6691, 
+                        "usersCount": 2267
+                    }, 
+                    "id": "3fd66200f964a5205be81ee3", 
+                    "categories": [
+                        {
+                            "pluralName": "Bars", 
+                            "primary": true, 
+                            "name": "Bar", 
+                            "shortName": "Bar", 
+                            "id": "4bf58dd8d48988d116941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/bar_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Community Food & Juice", 
+                    "url": "http://www.communityrestaurant.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/community-food--juice/49c80121f964a520e1571fe3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/49c80121f964a520e1571fe3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "2126652800", 
+                        "formattedPhone": "(212) 665-2800"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "btwn 112th & 113th St", 
+                        "address": "2893 Broadway", 
+                        "lat": 40.80583492516936, 
+                        "lng": -73.96573305130005
+                    }, 
+                    "stats": {
+                        "tipCount": 85, 
+                        "checkinsCount": 8647, 
+                        "usersCount": 4756
+                    }, 
+                    "id": "49c80121f964a520e1571fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "American Restaurants", 
+                            "primary": true, 
+                            "name": "American Restaurant", 
+                            "shortName": "American", 
+                            "id": "4bf58dd8d48988d14e941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Reference Room", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "535 W 114th St", 
+                        "lat": 40.80691370088386, 
+                        "lng": -73.96276851130986
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 29, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4ee224d730f87dc0a6937f4f", 
+                    "categories": [
+                        {
+                            "pluralName": "College Classrooms", 
+                            "primary": true, 
+                            "name": "College Classroom", 
+                            "shortName": "Classroom", 
+                            "id": "4bf58dd8d48988d1a0941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/classroom_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Tanays Room", 
+                    "private": true, 
+                    "contact": {
+                        "twitter": "tanayj"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.80523481261089, 
+                        "lng": -73.95361626406626
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 25, 
+                        "usersCount": 4
+                    }, 
+                    "id": "5244d5db498e4ebe7a8ada6e", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "230 West 107th Street", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.801712, 
+                        "lng": -73.966732
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 26, 
+                        "usersCount": 6
+                    }, 
+                    "id": "519a335e498e2e8f2ab35e9d", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Deluxe", 
+                    "url": "http://www.deluxenyc.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/deluxe/4a2c868df964a5206d971fe3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4a2c868df964a5206d971fe3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "delivery": {
+                        "url": "http://www.grubhub.com/order_redir.jsp?custId=2422&affId=1131", 
+                        "provider": {
+                            "name": "grubhub"
+                        }
+                    }, 
+                    "contact": {
+                        "phone": "2126627900", 
+                        "twitter": "tourdefrancenyc", 
+                        "formattedPhone": "(212) 662-7900"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "btwn 112th & 113th St", 
+                        "address": "2896 Broadway", 
+                        "lat": 40.80595720545605, 
+                        "lng": -73.96553505061011
+                    }, 
+                    "venuePage": {
+                        "id": "70049649"
+                    }, 
+                    "stats": {
+                        "tipCount": 52, 
+                        "checkinsCount": 4962, 
+                        "usersCount": 2528
+                    }, 
+                    "id": "4a2c868df964a5206d971fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Diners", 
+                            "primary": true, 
+                            "name": "Diner", 
+                            "shortName": "Diner", 
+                            "id": "4bf58dd8d48988d147941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/diner_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Alice's Caf\u00e9", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Columbia University", 
+                        "address": "Inside SIPA Building", 
+                        "lat": 40.807351725009, 
+                        "lng": -73.95968624132769
+                    }, 
+                    "stats": {
+                        "tipCount": 4, 
+                        "checkinsCount": 203, 
+                        "usersCount": 41
+                    }, 
+                    "id": "4cd865862a805481b0d19b2c", 
+                    "categories": [
+                        {
+                            "pluralName": "Caf\u00e9s", 
+                            "primary": true, 
+                            "name": "Caf\u00e9", 
+                            "shortName": "Caf\u00e9", 
+                            "id": "4bf58dd8d48988d16d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cafe_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Saravana Bhavan", 
+                    "url": "http://savann.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/saravana-bhavan/4dc6ba8ffa76d685ce009138/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4dc6ba8ffa76d685ce009138/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "delivery": {
+                        "url": "http://www.seamless.com/food-delivery/restaurant.18717.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", 
+                        "provider": {
+                            "name": "seamless"
+                        }
+                    }, 
+                    "contact": {
+                        "phone": "2125800202", 
+                        "formattedPhone": "(212) 580-0202"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10024", 
+                        "state": "NY", 
+                        "crossStreet": "at 80th St", 
+                        "address": "414 Amsterdam Ave", 
+                        "lat": 40.783615, 
+                        "lng": -73.977968
+                    }, 
+                    "stats": {
+                        "tipCount": 21, 
+                        "checkinsCount": 1395, 
+                        "usersCount": 912
+                    }, 
+                    "id": "4dc6ba8ffa76d685ce009138", 
+                    "categories": [
+                        {
+                            "pluralName": "Indian Restaurants", 
+                            "primary": true, 
+                            "name": "Indian Restaurant", 
+                            "shortName": "Indian", 
+                            "id": "4bf58dd8d48988d10f941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/indian_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

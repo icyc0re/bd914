@@ -1,0 +1,141 @@
+{
+    "mayorships": {
+        "count": 4, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Popular Science Magazine", 
+                    "contact": {
+                        "phone": "2127795000", 
+                        "twitter": "popsci", 
+                        "formattedPhone": "(212) 779-5000"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10016", 
+                        "state": "NY", 
+                        "crossStreet": "32nd St", 
+                        "address": "2 Park Ave, Fl 9", 
+                        "lat": 40.74615152850815, 
+                        "lng": -73.98223400115967
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 29, 
+                        "usersCount": 5
+                    }, 
+                    "id": "514874dee41214bc7d3604c5", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "\u7a9d", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Evanston", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "60201", 
+                        "state": "IL", 
+                        "lat": 42.05294, 
+                        "lng": -87.681042
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 18, 
+                        "usersCount": 3
+                    }, 
+                    "id": "50839ed1e4b091f16ada8b02", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "John Evans Alumni Center", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Evanston", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "60208", 
+                        "state": "IL", 
+                        "address": "1800 Sheridan Rd", 
+                        "lat": 42.04927885181417, 
+                        "lng": -87.6772576044896
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 39, 
+                        "usersCount": 32
+                    }, 
+                    "id": "4ec2f0ff0e61c551f7ec15ed", 
+                    "categories": [
+                        {
+                            "pluralName": "College Administrative Buildings", 
+                            "primary": true, 
+                            "name": "College Administrative Building", 
+                            "shortName": "Administrative Building", 
+                            "id": "4bf58dd8d48988d197941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/administrativebuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Whitfield Gardens", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "London", 
+                        "cc": "GB", 
+                        "country": "United Kingdom", 
+                        "address": "Tottenham Court Rd", 
+                        "lat": 51.52265534647298, 
+                        "lng": -0.13763631502310125
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 20, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4bc2ff934cdfc9b650b59621", 
+                    "categories": [
+                        {
+                            "pluralName": "Plazas", 
+                            "primary": true, 
+                            "name": "Plaza", 
+                            "shortName": "Plaza", 
+                            "id": "4bf58dd8d48988d164941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/plaza_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

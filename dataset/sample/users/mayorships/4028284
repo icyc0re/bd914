@@ -1,0 +1,285 @@
+{
+    "mayorships": {
+        "count": 7, 
+        "items": [
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Westcott Building", 
+                    "url": "http://www.facebook.com/floridastate", 
+                    "contact": {
+                        "twitter": "floridastate", 
+                        "facebook": "66191235143"
+                    }, 
+                    "location": {
+                        "city": "Tallahassee", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "32306", 
+                        "state": "FL", 
+                        "address": "Florida State University", 
+                        "lat": 30.44089038460597, 
+                        "lng": -84.29148965226526
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 2560, 
+                        "usersCount": 495
+                    }, 
+                    "id": "4b6c3a97f964a520ba2a2ce3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Auditoriums", 
+                            "primary": true, 
+                            "name": "College Auditorium", 
+                            "shortName": "Auditorium", 
+                            "id": "4bf58dd8d48988d1af941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/auditorium_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "AFLV LeaderShape West", 
+                    "contact": {
+                        "twitter": "aflv"
+                    }, 
+                    "location": {
+                        "city": "Los Angeles", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "90024", 
+                        "state": "CA", 
+                        "address": "714 Hilgard Ave", 
+                        "lat": 34.06723627618082, 
+                        "lng": -118.4389042854309
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 40, 
+                        "usersCount": 6
+                    }, 
+                    "id": "500ba3b03950eb29dca6f6df", 
+                    "categories": [
+                        {
+                            "pluralName": "Event Spaces", 
+                            "primary": true, 
+                            "name": "Event Space", 
+                            "shortName": "Event Space", 
+                            "id": "4bf58dd8d48988d171941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/eventspace_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dean Auto Works", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Durham", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CT", 
+                        "lat": 41.486129, 
+                        "lng": -72.682989
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4e298ff38877f9158a805eaf", 
+                    "categories": [
+                        {
+                            "pluralName": "Automotive Shops", 
+                            "primary": true, 
+                            "name": "Automotive Shop", 
+                            "shortName": "Automotive", 
+                            "id": "4bf58dd8d48988d124951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/automotive_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Paisley Cafe", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/paisley-cafe/4e860576e5fab0fb114a67ce/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4e860576e5fab0fb114a67ce/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "8503857268", 
+                        "formattedPhone": "(850) 385-7268"
+                    }, 
+                    "location": {
+                        "city": "Tallahassee", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "FL", 
+                        "lat": 30.45502, 
+                        "lng": -84.27734196849937
+                    }, 
+                    "stats": {
+                        "tipCount": 24, 
+                        "checkinsCount": 694, 
+                        "usersCount": 348
+                    }, 
+                    "id": "4e860576e5fab0fb114a67ce", 
+                    "categories": [
+                        {
+                            "pluralName": "Bakeries", 
+                            "primary": true, 
+                            "name": "Bakery", 
+                            "shortName": "Bakery", 
+                            "id": "4bf58dd8d48988d16a941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/bakery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Metro Deli of Tallahassee", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/metro-deli-of-tallahassee/4b7ee9c1f964a520f00830e3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4b7ee9c1f964a520f00830e3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "8502246871", 
+                        "twitter": "yourmetrodeli", 
+                        "formattedPhone": "(850) 224-6871"
+                    }, 
+                    "location": {
+                        "city": "Tallahassee", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "32301-1530", 
+                        "state": "FL", 
+                        "crossStreet": "W Park Ave", 
+                        "address": "104 1/2 S Monroe St", 
+                        "lat": 30.441533072207314, 
+                        "lng": -84.28082227706909
+                    }, 
+                    "stats": {
+                        "tipCount": 7, 
+                        "checkinsCount": 691, 
+                        "usersCount": 233
+                    }, 
+                    "id": "4b7ee9c1f964a520f00830e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Sandwich Places", 
+                            "primary": true, 
+                            "name": "Sandwich Place", 
+                            "shortName": "Sandwiches", 
+                            "id": "4bf58dd8d48988d1c5941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/sandwiches_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "President's House", 
+                    "url": "http://www.facebook.com/floridastate", 
+                    "contact": {
+                        "twitter": "floridastate", 
+                        "facebook": "66191235143"
+                    }, 
+                    "location": {
+                        "city": "Tallahassee", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "32304", 
+                        "state": "FL", 
+                        "lat": 30.447903, 
+                        "lng": -84.298582
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 260, 
+                        "usersCount": 124
+                    }, 
+                    "id": "4bc067deabf495215b2dbf93", 
+                    "categories": [
+                        {
+                            "pluralName": "College Administrative Buildings", 
+                            "primary": true, 
+                            "name": "College Administrative Building", 
+                            "shortName": "Administrative Building", 
+                            "id": "4bf58dd8d48988d197941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/administrativebuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Ball Residence", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Durham", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CT", 
+                        "lat": 41.4444262048565, 
+                        "lng": -72.71562738313551
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 178, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4ccb5b7ec0378cfa92517e48", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

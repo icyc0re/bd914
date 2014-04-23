@@ -1,0 +1,120 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "CUNY School of Professional Studies", 
+                    "url": "http://www.facebook.com/cunysps", 
+                    "contact": {
+                        "twitter": "cunysps", 
+                        "facebook": "53879107680"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10001", 
+                        "state": "NY", 
+                        "crossStreet": "btwn 6th and 7th Ave.", 
+                        "address": "119 W 31st St", 
+                        "lat": 40.74854119427995, 
+                        "lng": -73.98995876312256
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 97, 
+                        "usersCount": 13
+                    }, 
+                    "id": "521e10167e4899d0d48c3566", 
+                    "categories": [
+                        {
+                            "pluralName": "Universities", 
+                            "primary": true, 
+                            "name": "University", 
+                            "shortName": "University", 
+                            "id": "4bf58dd8d48988d1ae941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "116 W32nd Street", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10001", 
+                        "state": "NY", 
+                        "crossStreet": "Between 6th and 7th Aves", 
+                        "address": "116 W 32nd St", 
+                        "lat": 40.7482005962021, 
+                        "lng": -73.99000169544253
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 562, 
+                        "usersCount": 27
+                    }, 
+                    "id": "4c2cc3dbae6820a16bd31943", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "SoHa", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10026", 
+                        "state": "NY", 
+                        "lat": 40.806041406951834, 
+                        "lng": -73.95418739535387
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4f53ed5be4b02cf6bf7c0a79", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

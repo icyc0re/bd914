@@ -1,0 +1,274 @@
+{
+    "mayorships": {
+        "count": 7, 
+        "items": [
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "The Burke Library at Union Theological Seminary", 
+                    "url": "http://library.columbia.edu/locations/burke.html", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2128515606", 
+                        "twitter": "burkelibraryuts", 
+                        "formattedPhone": "(212) 851-5606"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "120th St", 
+                        "address": "3041 Broadway", 
+                        "lat": 40.81097123477285, 
+                        "lng": -73.96223813295364
+                    }, 
+                    "venuePage": {
+                        "id": "36998144"
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 305, 
+                        "usersCount": 51
+                    }, 
+                    "id": "4e738b1e81dcfd7f1ac165ee", 
+                    "categories": [
+                        {
+                            "pluralName": "Libraries", 
+                            "primary": true, 
+                            "name": "Library", 
+                            "shortName": "Library", 
+                            "id": "4bf58dd8d48988d12f941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Bagel Tree", 
+                    "contact": {
+                        "phone": "6465598912", 
+                        "formattedPhone": "(646) 559-8912"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10035", 
+                        "state": "NY", 
+                        "crossStreet": "2nd Ave", 
+                        "address": "245 E 124th St", 
+                        "lat": 40.80208563783967, 
+                        "lng": -73.9344235502317
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 245, 
+                        "usersCount": 55
+                    }, 
+                    "id": "518cdec7498e5f4608efd45f", 
+                    "categories": [
+                        {
+                            "pluralName": "Bagel Shops", 
+                            "primary": true, 
+                            "name": "Bagel Shop", 
+                            "shortName": "Bagels", 
+                            "id": "4bf58dd8d48988d179941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/bagels_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Verge", 
+                    "contact": {
+                        "twitter": "verge"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "W 18th St", 
+                        "address": "126 5th Ave", 
+                        "lat": 40.738664, 
+                        "lng": -73.99214
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 333, 
+                        "usersCount": 49
+                    }, 
+                    "id": "4e25a5957d8bd4fd781f30a3", 
+                    "categories": [
+                        {
+                            "pluralName": "Tech Startups", 
+                            "primary": true, 
+                            "name": "Tech Startup", 
+                            "shortName": "Tech Startup", 
+                            "id": "4bf58dd8d48988d125941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/technology_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "El Rey Del Sabor", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10036", 
+                        "state": "NY", 
+                        "crossStreet": "at 6th Ave", 
+                        "address": "43rd St", 
+                        "lat": 40.755246430473385, 
+                        "lng": -73.98315668106079
+                    }, 
+                    "stats": {
+                        "tipCount": 14, 
+                        "checkinsCount": 818, 
+                        "usersCount": 250
+                    }, 
+                    "id": "4b031690f964a5208e4c22e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Mexican Restaurants", 
+                            "primary": true, 
+                            "name": "Mexican Restaurant", 
+                            "shortName": "Mexican", 
+                            "id": "4bf58dd8d48988d1c1941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/mexican_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "511 | Lifetime Screening Room", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "116th", 
+                        "address": "5th Floor, Dodge Hall, 2960 Broadway", 
+                        "lat": 40.80798694517239, 
+                        "lng": -73.96301329135895
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 91, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4e9e343fd22d38ff2b50b9aa", 
+                    "categories": [
+                        {
+                            "pluralName": "College Theaters", 
+                            "primary": true, 
+                            "name": "College Theater", 
+                            "shortName": "Theater", 
+                            "id": "4bf58dd8d48988d1ac941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/collegetheater_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cape cod Photo & Art", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Orleans", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "MA", 
+                        "lat": 41.787965722708535, 
+                        "lng": -69.99129759032225
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 77, 
+                        "usersCount": 32
+                    }, 
+                    "id": "4d4db847fe7fb1f78d9a5f42", 
+                    "categories": [
+                        {
+                            "pluralName": "Arts & Crafts Stores", 
+                            "primary": true, 
+                            "name": "Arts & Crafts Store", 
+                            "shortName": "Arts & Crafts", 
+                            "id": "4bf58dd8d48988d127951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/artstore_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Pizza", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10035", 
+                        "state": "NY", 
+                        "lat": 40.80287137043181, 
+                        "lng": -73.93379782483748
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 44, 
+                        "usersCount": 25
+                    }, 
+                    "id": "5079d245e4b0eb8b83e232f8", 
+                    "categories": [
+                        {
+                            "pluralName": "Pizza Places", 
+                            "primary": true, 
+                            "name": "Pizza Place", 
+                            "shortName": "Pizza", 
+                            "id": "4bf58dd8d48988d1ca941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/pizza_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

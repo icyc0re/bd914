@@ -1,0 +1,76 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cureatr", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10011", 
+                        "state": "NY", 
+                        "crossStreet": "10th Avenue", 
+                        "address": "515 W 20th St", 
+                        "lat": 40.74616047731283, 
+                        "lng": -74.00639713655546
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 30, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4ed650038b816659936f1f15", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "\ucd98\ucc9c \ub2ed\uac08\ube44", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 37.5571199943326, 
+                        "cc": "KR", 
+                        "lng": 126.93624974760688, 
+                        "country": "South Korea"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 87, 
+                        "usersCount": 75
+                    }, 
+                    "id": "4e4110f518a875a006a75896", 
+                    "categories": [
+                        {
+                            "pluralName": "Korean Restaurants", 
+                            "primary": true, 
+                            "name": "Korean Restaurant", 
+                            "shortName": "Korean", 
+                            "id": "4bf58dd8d48988d113941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/korean_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

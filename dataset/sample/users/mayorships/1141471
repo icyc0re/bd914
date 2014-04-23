@@ -1,0 +1,137 @@
+{
+    "mayorships": {
+        "count": 4, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Pi Land", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.732334, 
+                        "lng": -73.981739
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 112, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4dbf4d230cb6f21c12706f18", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Macy Art Gallery", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "525 W 120th St", 
+                        "lat": 40.81065614579437, 
+                        "lng": -73.95973216005001
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 62, 
+                        "usersCount": 55
+                    }, 
+                    "id": "4b6b2ebff964a52011f82be3", 
+                    "categories": [
+                        {
+                            "pluralName": "Art Galleries", 
+                            "primary": true, 
+                            "name": "Art Gallery", 
+                            "shortName": "Art Gallery", 
+                            "id": "4bf58dd8d48988d1e2931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/artgallery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Creativity, Play, and the Imagination across Disciplines Conference", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "525 W 120th St", 
+                        "lat": 40.809948, 
+                        "lng": -73.962525
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4ddece9088779c82becd31b5", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Neue Pi Land", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Raleigh", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "27603", 
+                        "state": "NC", 
+                        "address": "712 Tucker St", 
+                        "lat": 35.786805207610165, 
+                        "lng": -78.64902977773984
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 40, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4ff1a211e4b08abf25172c86", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Frisbee Bus", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "117 And Amsterdam", 
+                        "lat": 40.805019, 
+                        "lng": -73.962229
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 17, 
+                        "usersCount": 3
+                    }, 
+                    "id": "50809847e4b01d45a0afa651", 
+                    "categories": [
+                        {
+                            "pluralName": "Moving Targets", 
+                            "primary": true, 
+                            "name": "Moving Target", 
+                            "shortName": "Moving Target", 
+                            "id": "4f2a23984b9023bd5841ed2c", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/movingtarget_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Barnard Store", 
+                    "url": "http://www.thebarnardstore.com", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2128512929", 
+                        "facebook": "124938990876328", 
+                        "formattedPhone": "(212) 851-2929"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "117th Street", 
+                        "address": "3009 Broadway", 
+                        "lat": 40.80978159527817, 
+                        "lng": -73.96302938461304
+                    }, 
+                    "venuePage": {
+                        "id": "34438615"
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 45, 
+                        "usersCount": 22
+                    }, 
+                    "id": "4c59b9fbd3aee21eb8f26855", 
+                    "categories": [
+                        {
+                            "pluralName": "Boutiques", 
+                            "primary": true, 
+                            "name": "Boutique", 
+                            "shortName": "Boutique", 
+                            "id": "4bf58dd8d48988d104951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_boutique_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

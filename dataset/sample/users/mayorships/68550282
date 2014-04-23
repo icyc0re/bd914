@@ -1,0 +1,343 @@
+{
+    "mayorships": {
+        "count": 10, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Park Deli Grocery", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "1916 Park Ave", 
+                        "lat": 40.80816641269669, 
+                        "lng": -73.93587017368674
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 14, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4ba129a6f964a520c09d37e3", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Family's Cafe", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10468", 
+                        "state": "NY", 
+                        "address": "2378 Jerome Ave", 
+                        "lat": 40.86078165540714, 
+                        "lng": -73.9024286038858
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 68, 
+                        "usersCount": 23
+                    }, 
+                    "id": "4db84b7643a1a75c1f6fdb66", 
+                    "categories": [
+                        {
+                            "pluralName": "Mexican Restaurants", 
+                            "primary": true, 
+                            "name": "Mexican Restaurant", 
+                            "shortName": "Mexican", 
+                            "id": "4bf58dd8d48988d1c1941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/mexican_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "east 130th st", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.81343117375547, 
+                        "lng": -73.94186034276925
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 1
+                    }, 
+                    "id": "534ee395498e0a925d0c83c8", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "E.129 Street & Park Avenue", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10035", 
+                        "state": "NY", 
+                        "lat": 40.808265507699815, 
+                        "lng": -73.93623182786366
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 265, 
+                        "usersCount": 80
+                    }, 
+                    "id": "4f0d9712e4b0281b8c6cabc8", 
+                    "categories": [
+                        {
+                            "pluralName": "Other Great Outdoors", 
+                            "primary": true, 
+                            "name": "Other Great Outdoors", 
+                            "shortName": "Other Outdoors", 
+                            "id": "4bf58dd8d48988d162941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/outdoors_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Monroe College Jerome Hall & Campus Library", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10468", 
+                        "state": "NY", 
+                        "address": "2468 Jerome Ave", 
+                        "lat": 40.86294868, 
+                        "lng": -73.90056353
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 128, 
+                        "usersCount": 47
+                    }, 
+                    "id": "4c546b0a72cf0f47a9a687d4", 
+                    "categories": [
+                        {
+                            "pluralName": "General Colleges & Universities", 
+                            "primary": true, 
+                            "name": "General College & University", 
+                            "shortName": "Education", 
+                            "id": "4bf58dd8d48988d1a8941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/other_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "PS 133- Fred R Moore Academy", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10037", 
+                        "state": "NY", 
+                        "lat": 40.8099210479786, 
+                        "lng": -73.93959575342654
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 25, 
+                        "usersCount": 15
+                    }, 
+                    "id": "4cd096baf6378cfae634b6d6", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "El Encuentro Con Dios Iglesia De Dios", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.828046, 
+                        "lng": -73.949711
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 4
+                    }, 
+                    "id": "51bdf3e0498e46b03deb3a54", 
+                    "categories": [
+                        {
+                            "pluralName": "Churches", 
+                            "primary": true, 
+                            "name": "Church", 
+                            "shortName": "Church", 
+                            "id": "4bf58dd8d48988d132941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/religious_church_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA MaBSTOA Bus at W. 125th St. & Amsterdam Ave (MLK Blvd): (M11, Bx15, M60, M100, M101, M104)", 
+                    "contact": {
+                        "twitter": "nyctbusstop"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Amsterdam Avenue", 
+                        "address": "West 125th Street", 
+                        "lat": 40.81328954943149, 
+                        "lng": -73.95644187927246
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 340, 
+                        "usersCount": 138
+                    }, 
+                    "id": "4d983248b7bf2c0f05bbea2d", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Stations", 
+                            "primary": true, 
+                            "name": "Bus Station", 
+                            "shortName": "Bus Station", 
+                            "id": "4bf58dd8d48988d1fe931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Moore Playground", 
+                    "url": "http://nyc.gov/parks", 
+                    "contact": {
+                        "twitter": "nycparks"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10037", 
+                        "state": "NY", 
+                        "lat": 40.80939589, 
+                        "lng": -73.93828783
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 72, 
+                        "usersCount": 30
+                    }, 
+                    "id": "4bcd92ae511f952152c2b4c7", 
+                    "categories": [
+                        {
+                            "pluralName": "Playgrounds", 
+                            "primary": true, 
+                            "name": "Playground", 
+                            "shortName": "Playground", 
+                            "id": "4bf58dd8d48988d1e7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/playground_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dunkin' Donuts", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10468", 
+                        "state": "NY", 
+                        "crossStreet": "Jerome Avenue", 
+                        "address": "4 E Fordham Rd", 
+                        "lat": 40.86260986328125, 
+                        "lng": -73.90079498291016
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 6
+                    }, 
+                    "id": "5314b30a498e3f88ce9cdc51", 
+                    "categories": [
+                        {
+                            "pluralName": "Coffee Shops", 
+                            "primary": true, 
+                            "name": "Coffee Shop", 
+                            "shortName": "Coffee Shop", 
+                            "id": "4bf58dd8d48988d1e0931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

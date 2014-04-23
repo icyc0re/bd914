@@ -1,0 +1,1137 @@
+{
+    "mayorships": {
+        "count": 31, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Howard Park Apartments", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Seattle", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "WA", 
+                        "lat": 47.66000867640618, 
+                        "lng": -122.3425575310064
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 95, 
+                        "usersCount": 15
+                    }, 
+                    "id": "4bbff1dc920eb7136659182c", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Astor Row", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "lat": 40.81028506306003, 
+                        "lng": -73.94167900085449
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 79, 
+                        "usersCount": 30
+                    }, 
+                    "id": "4dc6d6107d8b14fb464ce0bf", 
+                    "categories": [
+                        {
+                            "pluralName": "Neighborhoods", 
+                            "primary": true, 
+                            "name": "Neighborhood", 
+                            "shortName": "Neighborhood", 
+                            "id": "4f2a25ac4b909258e854f55f", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "12 w 130th", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.81343117375547, 
+                        "lng": -73.94186034276925
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 46, 
+                        "usersCount": 1
+                    }, 
+                    "id": "515c2a8ee4b04ff769ec94b3", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lenati", 
+                    "contact": {
+                        "phone": "8008481449", 
+                        "twitter": "lenatillc", 
+                        "formattedPhone": "(800) 848-1449"
+                    }, 
+                    "location": {
+                        "city": "Seattle", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "98102", 
+                        "state": "WA", 
+                        "crossStreet": "Hamlin", 
+                        "address": "2825 Eastlake Ave E, #210", 
+                        "lat": 47.64887452125549, 
+                        "lng": -122.32352614402771
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 56, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4bc3549f461576b087777e32", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "17th Street Strip", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Washington", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "20036", 
+                        "state": "D.C.", 
+                        "lat": 38.9119799665647, 
+                        "lng": -77.0384931564331
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 2837, 
+                        "usersCount": 362
+                    }, 
+                    "id": "4c6d3b097bfe199c7695dace", 
+                    "categories": [
+                        {
+                            "pluralName": "Neighborhoods", 
+                            "primary": true, 
+                            "name": "Neighborhood", 
+                            "shortName": "Neighborhood", 
+                            "id": "4f2a25ac4b909258e854f55f", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Jay Suites Office Space Centers - Times Square", 
+                    "url": "http://www.jaysuites.com", 
+                    "contact": {
+                        "phone": "2124475770", 
+                        "formattedPhone": "(212) 447-5770"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10018", 
+                        "state": "NY", 
+                        "crossStreet": "5th floor", 
+                        "address": "1441 Broadway, 3rd & 5th Floors", 
+                        "lat": 40.754997253418, 
+                        "lng": -73.9871673583984
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 29, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4de7f85131519ec798851674", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Optimum Energy NY", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10018", 
+                        "state": "NY", 
+                        "crossStreet": "37th", 
+                        "address": "1370 Broadway", 
+                        "lat": 40.75174353688835, 
+                        "lng": -73.98735165596008
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 114, 
+                        "usersCount": 2
+                    }, 
+                    "id": "50a65922498e538a8ef71192", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Whyland Condominium", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Washington", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "20009", 
+                        "state": "D.C.", 
+                        "address": "1724 17th St NW", 
+                        "lat": 38.913300940000006, 
+                        "lng": -77.03857052
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 182, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4e4aef076284a0b024acfff4", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Howard Park Roof", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Seattle", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "WA", 
+                        "lat": 47.66000867640618, 
+                        "lng": -122.3425575310064
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4c423940a5c5ef3b7a71b06f", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Garment Worker Statue", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10018", 
+                        "state": "NY", 
+                        "crossStreet": "39th st", 
+                        "address": "555 7th Ave", 
+                        "lat": 40.75452162501821, 
+                        "lng": -73.98808488099294
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 741, 
+                        "usersCount": 206
+                    }, 
+                    "id": "4c4090f0e26920a197145de7", 
+                    "categories": [
+                        {
+                            "pluralName": "Sculpture Gardens", 
+                            "primary": true, 
+                            "name": "Sculpture Garden", 
+                            "shortName": "Sculpture", 
+                            "id": "4bf58dd8d48988d166941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/sculpture_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Optimum energy", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Seattle", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "98104", 
+                        "state": "WA", 
+                        "address": "411 1st Ave S", 
+                        "lat": 47.59830884902947, 
+                        "lng": -122.33450683695729
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 73, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4bf5d681bfeac928755f9336", 
+                    "categories": [
+                        {
+                            "pluralName": "Tech Startups", 
+                            "primary": true, 
+                            "name": "Tech Startup", 
+                            "shortName": "Tech Startup", 
+                            "id": "4bf58dd8d48988d125941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/technology_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "De Colores Community Yard Garden", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10002", 
+                        "state": "NY", 
+                        "crossStreet": "Ave B", 
+                        "address": "311 E 8th St", 
+                        "lat": 40.72541196076686, 
+                        "lng": -73.98012473123794
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 20, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4e074da78877394591e525d0", 
+                    "categories": [
+                        {
+                            "pluralName": "Gardens", 
+                            "primary": true, 
+                            "name": "Garden", 
+                            "shortName": "Garden", 
+                            "id": "4bf58dd8d48988d15a941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/garden_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "nooksack city park", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Everson", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "98247", 
+                        "state": "WA", 
+                        "lat": 48.9277788758904, 
+                        "lng": -122.32109757800504
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 21, 
+                        "usersCount": 5
+                    }, 
+                    "id": "505a295fe4b01b7ff6243f18", 
+                    "categories": [
+                        {
+                            "pluralName": "Playgrounds", 
+                            "primary": true, 
+                            "name": "Playground", 
+                            "shortName": "Playground", 
+                            "id": "4bf58dd8d48988d1e7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/playground_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Luquillo Sunrise Beach Inn", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 18.377762, 
+                        "cc": "PR", 
+                        "lng": -65.7161, 
+                        "country": "Puerto Rico"
+                    }, 
+                    "stats": {
+                        "tipCount": 4, 
+                        "checkinsCount": 95, 
+                        "usersCount": 54
+                    }, 
+                    "id": "4c81bd8747cc224b42b17f9f", 
+                    "categories": [
+                        {
+                            "pluralName": "Hotels", 
+                            "primary": true, 
+                            "name": "Hotel", 
+                            "shortName": "Hotel", 
+                            "id": "4bf58dd8d48988d1fa931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "631 Kenyon St", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Washington", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "D.C.", 
+                        "lat": 38.93101338251216, 
+                        "lng": -77.02766003686912
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 1
+                    }, 
+                    "id": "5004e938e4b041a5ceab588c", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Jimmy John's", 
+                    "url": "http://www.jimmyjohns.com", 
+                    "storeId": "690", 
+                    "contact": {
+                        "phone": "2066219500", 
+                        "twitter": "jimmyjohns", 
+                        "formattedPhone": "(206) 621-9500"
+                    }, 
+                    "location": {
+                        "city": "Seattle", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "98104", 
+                        "state": "WA", 
+                        "crossStreet": "at Yesler Way", 
+                        "address": "102 1st Ave S", 
+                        "lat": 47.601466, 
+                        "lng": -122.334087
+                    }, 
+                    "stats": {
+                        "tipCount": 9, 
+                        "checkinsCount": 1974, 
+                        "usersCount": 770
+                    }, 
+                    "id": "4a6fba8cf964a520e8d61fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Sandwich Places", 
+                            "primary": true, 
+                            "name": "Sandwich Place", 
+                            "shortName": "Sandwiches", 
+                            "id": "4bf58dd8d48988d1c5941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/sandwiches_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Shawj Mahal", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Everson", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "WA", 
+                        "lat": 48.94088374822858, 
+                        "lng": -122.29480424707992
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 15, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4c20302fd38ec9b605dd4d83", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Soapy Joe's", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Washington", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "20010", 
+                        "state": "D.C.", 
+                        "address": "3112 Georgia Ave NW", 
+                        "lat": 38.92944433292106, 
+                        "lng": -77.02338929363631
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 23, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4ddd7bdcfa769803ef7cb9be", 
+                    "categories": [
+                        {
+                            "pluralName": "Laundry Services", 
+                            "primary": true, 
+                            "name": "Laundry Service", 
+                            "shortName": "Laundry", 
+                            "id": "4bf58dd8d48988d1fc941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Bryant Park  - Chess in The Park", 
+                    "url": "http://www.facebook.com/bryantparknyc", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2127684242", 
+                        "twitter": "bryantparknyc", 
+                        "formattedPhone": "(212) 768-4242"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "South of 6th Ave Entrance", 
+                        "address": "Bryant Park", 
+                        "lat": 40.75375914553263, 
+                        "lng": -73.98442804813385
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 152, 
+                        "usersCount": 84
+                    }, 
+                    "id": "4c9cf5ac542b224bcb71e59f", 
+                    "categories": [
+                        {
+                            "pluralName": "General Entertainment", 
+                            "primary": true, 
+                            "name": "General Entertainment", 
+                            "shortName": "Entertainment", 
+                            "id": "4bf58dd8d48988d1f1931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Food Pavilion", 
+                    "contact": {
+                        "phone": "3603548080", 
+                        "formattedPhone": "(360) 354-8080"
+                    }, 
+                    "location": {
+                        "city": "Lynden", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "98264", 
+                        "state": "WA", 
+                        "crossStreet": "birch bay - lynden rd", 
+                        "address": "8130 Guide Meridian Rd", 
+                        "lat": 48.93620199228278, 
+                        "lng": -122.48408317565918
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 183, 
+                        "usersCount": 73
+                    }, 
+                    "id": "4bb12124f964a520d37c3ce3", 
+                    "categories": [
+                        {
+                            "pluralName": "Grocery Stores", 
+                            "primary": true, 
+                            "name": "Grocery Store", 
+                            "shortName": "Grocery Store", 
+                            "id": "4bf58dd8d48988d118951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/food_grocery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Metro Bus Stop #13721", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Seattle", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "98107", 
+                        "state": "WA", 
+                        "crossStreet": "West side of 15th Ave NW (Southbound)", 
+                        "address": "15th & NW Market St", 
+                        "lat": 47.66815917416473, 
+                        "lng": -122.3763620331375
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 472, 
+                        "usersCount": 109
+                    }, 
+                    "id": "4b743404f964a520d8cc2de3", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Stations", 
+                            "primary": true, 
+                            "name": "Bus Station", 
+                            "shortName": "Bus Station", 
+                            "id": "4bf58dd8d48988d1fe931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Nooksack Valley Drug", 
+                    "contact": {
+                        "phone": "3609663481", 
+                        "formattedPhone": "(360) 966-3481"
+                    }, 
+                    "location": {
+                        "city": "Everson", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "98247", 
+                        "state": "WA", 
+                        "crossStreet": "Kirch Dr", 
+                        "address": "208 E Main St", 
+                        "lat": 48.919497906619185, 
+                        "lng": -122.34040266100973
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 64, 
+                        "usersCount": 17
+                    }, 
+                    "id": "4d598f978a7aba7a053faf0d", 
+                    "categories": [
+                        {
+                            "pluralName": "Drugstores / Pharmacies", 
+                            "primary": true, 
+                            "name": "Drugstore / Pharmacy", 
+                            "shortName": "Pharmacy", 
+                            "id": "4bf58dd8d48988d10f951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/pharmacy_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Pop In", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Seattle", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "98104", 
+                        "state": "WA", 
+                        "crossStreet": "btwn Jackson and King", 
+                        "address": "411 1st Ave S", 
+                        "lat": 47.59876613679471, 
+                        "lng": -122.3343676328659
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 89, 
+                        "usersCount": 25
+                    }, 
+                    "id": "4bba5a65935e95214c0a2890", 
+                    "categories": [
+                        {
+                            "pluralName": "Grocery Stores", 
+                            "primary": true, 
+                            "name": "Grocery Store", 
+                            "shortName": "Grocery Store", 
+                            "id": "4bf58dd8d48988d118951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/food_grocery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Merrill Place", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Seattle", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "WA", 
+                        "lat": 47.5959540930625, 
+                        "lng": -122.33707341141346
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 93, 
+                        "usersCount": 22
+                    }, 
+                    "id": "4c37a7a518e72d7fd3f316f5", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ballard Commons Park", 
+                    "url": "http://seattle.gov/parks/park_detail.asp?ID=4278", 
+                    "contact": {
+                        "phone": "2066844075", 
+                        "twitter": "seattleparks", 
+                        "formattedPhone": "(206) 684-4075"
+                    }, 
+                    "location": {
+                        "city": "Seattle", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "98107", 
+                        "state": "WA", 
+                        "address": "5701 22nd Ave. NW", 
+                        "lat": 47.67036940088275, 
+                        "lng": -122.38516572588645
+                    }, 
+                    "stats": {
+                        "tipCount": 9, 
+                        "checkinsCount": 1144, 
+                        "usersCount": 449
+                    }, 
+                    "id": "4a18b0d3f964a520dc791fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Plazas", 
+                            "primary": true, 
+                            "name": "Plaza", 
+                            "shortName": "Plaza", 
+                            "id": "4bf58dd8d48988d164941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/plaza_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Humadi Deli", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "128th & Lenox", 
+                        "lat": 40.809426469613975, 
+                        "lng": -73.9442913743457
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4dc0de6cb0fb1c18ee56c521", 
+                    "categories": [
+                        {
+                            "pluralName": "Delis / Bodegas", 
+                            "primary": true, 
+                            "name": "Deli / Bodega", 
+                            "shortName": "Deli / Bodega", 
+                            "id": "4bf58dd8d48988d146941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/deli_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Masters Blend Coffee House", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 48.92030804, 
+                        "cc": "US", 
+                        "lng": -122.34173036, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 31, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4c019b78f99620a155db2404", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Methodist Cemetery (Tenleytown)", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Washington", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "20016", 
+                        "state": "D.C.", 
+                        "address": "4100 Murdock Mill Road NW", 
+                        "lat": 38.948162003951296, 
+                        "lng": -77.08185911178589
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 7, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4e41aa393151fbb810419d2b", 
+                    "categories": [
+                        {
+                            "pluralName": "Cemeteries", 
+                            "primary": true, 
+                            "name": "Cemetery", 
+                            "shortName": "Cemetery", 
+                            "id": "4bf58dd8d48988d15c941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/cemetery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Everson McBeath Library", 
+                    "contact": {
+                        "phone": "2069665100", 
+                        "formattedPhone": "(206) 966-5100"
+                    }, 
+                    "location": {
+                        "city": "Everson", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "98247", 
+                        "state": "WA", 
+                        "address": "104 Kirsch Drive", 
+                        "lat": 48.91955117329089, 
+                        "lng": -122.34124569096562
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 16, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4c215f8a99282d7f379165b0", 
+                    "categories": [
+                        {
+                            "pluralName": "Libraries", 
+                            "primary": true, 
+                            "name": "Library", 
+                            "shortName": "Library", 
+                            "id": "4bf58dd8d48988d12f941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "windfall farms", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10003", 
+                        "state": "NY", 
+                        "lat": 40.73628616333008, 
+                        "lng": -73.98988342285156
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 2
+                    }, 
+                    "id": "50635374498e1f5f3ae80307", 
+                    "categories": [
+                        {
+                            "pluralName": "Food Trucks", 
+                            "primary": true, 
+                            "name": "Food Truck", 
+                            "shortName": "Food Truck", 
+                            "id": "4bf58dd8d48988d1cb941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/streetfood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Baggage Claim 13", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "SeaTac", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "98158", 
+                        "state": "WA", 
+                        "crossStreet": "SeaTac Airport", 
+                        "address": "17801 International Blvd", 
+                        "lat": 47.443986, 
+                        "lng": -122.301086
+                    }, 
+                    "stats": {
+                        "tipCount": 6, 
+                        "checkinsCount": 828, 
+                        "usersCount": 577
+                    }, 
+                    "id": "4c41f622520fa593266ecaac", 
+                    "categories": [
+                        {
+                            "pluralName": "Airport Terminals", 
+                            "primary": true, 
+                            "name": "Airport Terminal", 
+                            "shortName": "Terminal", 
+                            "id": "4bf58dd8d48988d1eb931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/airport_terminal_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

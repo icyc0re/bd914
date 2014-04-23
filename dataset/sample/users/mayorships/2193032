@@ -1,0 +1,202 @@
+{
+    "mayorships": {
+        "count": 5, 
+        "items": [
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Raymour & Flanigan Furniture | 125th Street", 
+                    "url": "http://www.raymourflanigan.com/", 
+                    "contact": {
+                        "phone": "9173866808", 
+                        "twitter": "raymourflanigan", 
+                        "formattedPhone": "(917) 386-6808"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10035", 
+                        "state": "NY", 
+                        "crossStreet": "Lexington Ave.", 
+                        "address": "135 E 125th St", 
+                        "lat": 40.80465, 
+                        "lng": -73.937976
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 106, 
+                        "usersCount": 63
+                    }, 
+                    "id": "4bb0cf39f964a520f85e3ce3", 
+                    "categories": [
+                        {
+                            "pluralName": "Furniture / Home Stores", 
+                            "primary": true, 
+                            "name": "Furniture / Home Store", 
+                            "shortName": "Furniture / Home", 
+                            "id": "4bf58dd8d48988d1f8941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/furniture_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "RadioShack", 
+                    "url": "http://www.radioshack.com", 
+                    "storeId": "12821", 
+                    "contact": {
+                        "phone": "2123694567", 
+                        "twitter": "radioshack", 
+                        "formattedPhone": "(212) 369-4567"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10035", 
+                        "state": "NY", 
+                        "address": "161 E 125th St", 
+                        "lat": 40.80441554, 
+                        "lng": -73.93693791
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 109, 
+                        "usersCount": 46
+                    }, 
+                    "id": "4c6045d5c6a103bbb2ff675b", 
+                    "categories": [
+                        {
+                            "pluralName": "Electronics Stores", 
+                            "primary": true, 
+                            "name": "Electronics Store", 
+                            "shortName": "Electronics", 
+                            "id": "4bf58dd8d48988d122951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/technology_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "2063-71 Building", 
+                    "contact": {
+                        "phone": "6462408233", 
+                        "twitter": "xotemperancexo", 
+                        "formattedPhone": "(646) 240-8233"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10037", 
+                        "state": "NY", 
+                        "crossStreet": "131st St and Madison", 
+                        "address": "2063 Madison Ave", 
+                        "lat": 40.809714, 
+                        "lng": -73.938267
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 144, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4c4698b1e8f876b0b84f5d02", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Penthaus of GaGa", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.775615852364126, 
+                        "lng": -73.95361626406626
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 227, 
+                        "usersCount": 12
+                    }, 
+                    "id": "4a947c31f964a520c12120e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "6.33 New Haven Train", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10037", 
+                        "state": "NY", 
+                        "lat": 40.809557290258404, 
+                        "lng": -73.93494594328014
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 15, 
+                        "usersCount": 14
+                    }, 
+                    "id": "4bc2f76b74a9a593cddfd3f6", 
+                    "categories": [
+                        {
+                            "pluralName": "Trains", 
+                            "primary": true, 
+                            "name": "Train", 
+                            "shortName": "Train", 
+                            "id": "4bf58dd8d48988d12a951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/trainstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

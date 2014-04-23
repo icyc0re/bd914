@@ -1,0 +1,384 @@
+{
+    "mayorships": {
+        "count": 10, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Light Box", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.81343117375547, 
+                        "lng": -73.94186034276925
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 201, 
+                        "usersCount": 3
+                    }, 
+                    "id": "50762d0ee4b0eb0d8afe7e27", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Food Depot", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/food-depot/4a68a7ddf964a520c6ca1fe3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4a68a7ddf964a520c6ca1fe3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "2126270361", 
+                        "formattedPhone": "(212) 627-0361"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10011", 
+                        "state": "NY", 
+                        "crossStreet": "btwn 18th and 19th", 
+                        "address": "138 5th Ave", 
+                        "lat": 40.738910005228504, 
+                        "lng": -73.99141346869047
+                    }, 
+                    "stats": {
+                        "tipCount": 17, 
+                        "checkinsCount": 4175, 
+                        "usersCount": 766
+                    }, 
+                    "id": "4a68a7ddf964a520c6ca1fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Restaurants", 
+                            "primary": true, 
+                            "name": "Restaurant", 
+                            "shortName": "Restaurant", 
+                            "id": "4bf58dd8d48988d1c4941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Selectable Media", 
+                    "url": "http://selectablemedia.com", 
+                    "contact": {
+                        "twitter": "selectablemedia"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10010", 
+                        "state": "NY", 
+                        "crossStreet": "Btw 22nd and 21st", 
+                        "address": "168 5th Ave", 
+                        "lat": 40.74076726592825, 
+                        "lng": -73.9903115977771
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 322, 
+                        "usersCount": 14
+                    }, 
+                    "id": "4cfd110dfeec6dcb2e045036", 
+                    "categories": [
+                        {
+                            "pluralName": "Tech Startups", 
+                            "primary": true, 
+                            "name": "Tech Startup", 
+                            "shortName": "Tech Startup", 
+                            "id": "4bf58dd8d48988d125941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/technology_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Pascal's Eatery", 
+                    "contact": {
+                        "phone": "2128607777", 
+                        "twitter": "pascalseatery", 
+                        "formattedPhone": "(212) 860-7777"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "at 5th Ave", 
+                        "address": "2 W 129th St", 
+                        "lat": 40.80890779529231, 
+                        "lng": -73.94056014452093
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 580, 
+                        "usersCount": 144
+                    }, 
+                    "id": "4abe07f9f964a5208f8b20e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Delis / Bodegas", 
+                            "primary": true, 
+                            "name": "Deli / Bodega", 
+                            "shortName": "Deli / Bodega", 
+                            "id": "4bf58dd8d48988d146941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/deli_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Quecas Do\u00f1a Mary", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Ciudad de M\u00e9xico", 
+                        "cc": "MX", 
+                        "country": "M\u00e9xico", 
+                        "state": "Distrito Federal", 
+                        "address": "Tenorios", 
+                        "lat": 19.29677228758258, 
+                        "lng": -99.11709007943057
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 36, 
+                        "usersCount": 16
+                    }, 
+                    "id": "4e3e0a9245dd68e32742ab65", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Putete Hills", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Coapa", 
+                        "cc": "MX", 
+                        "country": "M\u00e9xico", 
+                        "state": "Distrito Federal", 
+                        "lat": 19.297615, 
+                        "lng": -99.117402
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 5, 
+                        "usersCount": 2
+                    }, 
+                    "id": "529a8bc311d2d131aea06dea", 
+                    "categories": [
+                        {
+                            "pluralName": "Gay Bars", 
+                            "primary": true, 
+                            "name": "Gay Bar", 
+                            "shortName": "Gay Bar", 
+                            "id": "4bf58dd8d48988d1d8941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/gaybar_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Mercado #391", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Ciudad de M\u00e9xico", 
+                        "cc": "MX", 
+                        "country": "M\u00e9xico", 
+                        "state": "Distrito Federal", 
+                        "crossStreet": "Cacahuatales", 
+                        "address": "Refugio", 
+                        "lat": 19.297797865176225, 
+                        "lng": -99.11834900397915
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 41, 
+                        "usersCount": 19
+                    }, 
+                    "id": "4ef61a57d3e354f0bc171d38", 
+                    "categories": [
+                        {
+                            "pluralName": "Flea Markets", 
+                            "primary": true, 
+                            "name": "Flea Market", 
+                            "shortName": "Flea Market", 
+                            "id": "4bf58dd8d48988d1f7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/fleamarket_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ocean Restaurant", 
+                    "contact": {
+                        "phone": "2122899293", 
+                        "formattedPhone": "(212) 289-9293"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "btw 129th & 130th", 
+                        "address": "393 Malcolm X Blvd", 
+                        "lat": 40.81072938518601, 
+                        "lng": -73.94324663724402
+                    }, 
+                    "stats": {
+                        "tipCount": 4, 
+                        "checkinsCount": 152, 
+                        "usersCount": 62
+                    }, 
+                    "id": "4c82f8eb309aef3b9d06c681", 
+                    "categories": [
+                        {
+                            "pluralName": "Japanese Restaurants", 
+                            "primary": true, 
+                            "name": "Japanese Restaurant", 
+                            "shortName": "Japanese", 
+                            "id": "4bf58dd8d48988d111941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/japanese_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Terrace 5", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/terrace-5/4abe42f5f964a520488c20e3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4abe42f5f964a520488c20e3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "twitter": "cafe2terrace5"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10019", 
+                        "state": "NY", 
+                        "crossStreet": "11 W 53rd St.", 
+                        "address": "MoMA", 
+                        "lat": 40.76157462241154, 
+                        "lng": -73.97642289102589
+                    }, 
+                    "venuePage": {
+                        "id": "55111615"
+                    }, 
+                    "stats": {
+                        "tipCount": 15, 
+                        "checkinsCount": 986, 
+                        "usersCount": 885
+                    }, 
+                    "id": "4abe42f5f964a520488c20e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Gastropubs", 
+                            "primary": true, 
+                            "name": "Gastropub", 
+                            "shortName": "Gastropub", 
+                            "id": "4bf58dd8d48988d155941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/gastropub_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Tienda de Adelita", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 19.296414, 
+                        "cc": "MX", 
+                        "lng": -99.117774, 
+                        "country": "Mexico"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "529ea10c11d2ca80b15680de", 
+                    "categories": [
+                        {
+                            "pluralName": "Delis / Bodegas", 
+                            "primary": true, 
+                            "name": "Deli / Bodega", 
+                            "shortName": "Deli / Bodega", 
+                            "id": "4bf58dd8d48988d146941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/deli_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

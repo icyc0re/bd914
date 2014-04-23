@@ -1,0 +1,293 @@
+{
+    "mayorships": {
+        "count": 8, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Drones Club", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.680116738194705, 
+                        "lng": -73.97712595918333
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 257, 
+                        "usersCount": 11
+                    }, 
+                    "id": "5203a538498e1ceda70f68bd", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "LDEO Cafe", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 41.004236380155504, 
+                        "cc": "US", 
+                        "lng": -73.90725717522677, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 85, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4d5d34dd5d15370474b57be7", 
+                    "categories": [
+                        {
+                            "pluralName": "Coffee Shops", 
+                            "primary": true, 
+                            "name": "Coffee Shop", 
+                            "shortName": "Coffee Shop", 
+                            "id": "4bf58dd8d48988d1e0931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "EC Gym", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "Floors 8 and 16 of East Campus's", 
+                        "lat": 40.80703476918147, 
+                        "lng": -73.95930741145152
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 1
+                    }, 
+                    "id": "511c5eb6e4b0868f97e95fc2", 
+                    "categories": [
+                        {
+                            "pluralName": "College Gyms", 
+                            "primary": true, 
+                            "name": "College Gym", 
+                            "shortName": "Gym", 
+                            "id": "4bf58dd8d48988d1b2941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/gym_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Music & Arts Library", 
+                    "contact": {
+                        "phone": "2128544711", 
+                        "twitter": "cumusic", 
+                        "formattedPhone": "(212) 854-4711"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "701 Dodge Hall", 
+                        "address": "2960 Broadway", 
+                        "lat": 40.80802078988014, 
+                        "lng": -73.96271685355954
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 16, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4f500f9ce4b0056bed96f7d5", 
+                    "categories": [
+                        {
+                            "pluralName": "College Libraries", 
+                            "primary": true, 
+                            "name": "College Library", 
+                            "shortName": "Library", 
+                            "id": "4bf58dd8d48988d1a7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "88th and lexington corner", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10128", 
+                        "state": "NY", 
+                        "lat": 40.781003141521914, 
+                        "lng": -73.95461215521657
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 151, 
+                        "usersCount": 18
+                    }, 
+                    "id": "4fdff211e4b062b31ce05abe", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Golden Fingers Hair Salon", 
+                    "contact": {
+                        "phone": "3472992824", 
+                        "formattedPhone": "(347) 299-2824"
+                    }, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11217", 
+                        "state": "NY", 
+                        "address": "349 Bergen", 
+                        "lat": 40.682885, 
+                        "lng": -73.980315
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 3, 
+                        "usersCount": 2
+                    }, 
+                    "id": "524b2b00498ef4827bd4ae3a", 
+                    "categories": [
+                        {
+                            "pluralName": "Salons / Barbershops", 
+                            "primary": true, 
+                            "name": "Salon / Barbershop", 
+                            "shortName": "Salon / Barbershop", 
+                            "id": "4bf58dd8d48988d110951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/salon_barber_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Liquor Store", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11201", 
+                        "state": "NY", 
+                        "lat": 40.68259750361157, 
+                        "lng": -73.97953358944307
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 20, 
+                        "usersCount": 14
+                    }, 
+                    "id": "4ed956ab77c8274efbdaa32d", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "internally happy inc", 
+                    "url": "http://internallyhappy.com", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "9173240465", 
+                        "formattedPhone": "(917) 324-0465"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10013", 
+                        "state": "NY", 
+                        "crossStreet": "Spring and 6th Avenue", 
+                        "address": "145 Avenue of the Americas", 
+                        "lat": 40.72519357072271, 
+                        "lng": -74.00465726852417
+                    }, 
+                    "venuePage": {
+                        "id": "33768370"
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 41, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4f9212c2e5e8bac92b7ec31e", 
+                    "categories": [
+                        {
+                            "pluralName": "Spas", 
+                            "primary": true, 
+                            "name": "Spa", 
+                            "shortName": "Spa", 
+                            "id": "4bf58dd8d48988d1ed941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/spa_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

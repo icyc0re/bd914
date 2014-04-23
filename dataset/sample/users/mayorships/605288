@@ -1,0 +1,208 @@
+{
+    "mayorships": {
+        "count": 5, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Broadacre Coffee", 
+                    "url": "http://broadacrecoffee.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/broadacre-coffee/4e878ad5f79057a8f2667e01/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4e878ad5f79057a8f2667e01/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "9164424141", 
+                        "twitter": "broadacrecoffee", 
+                        "formattedPhone": "(916) 442-4141"
+                    }, 
+                    "location": {
+                        "city": "Sacramento", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "95814", 
+                        "state": "CA", 
+                        "crossStreet": "at J St", 
+                        "address": "1014 10th St", 
+                        "lat": 38.57979392393717, 
+                        "lng": -121.49378621601761
+                    }, 
+                    "stats": {
+                        "tipCount": 19, 
+                        "checkinsCount": 1615, 
+                        "usersCount": 467
+                    }, 
+                    "id": "4e878ad5f79057a8f2667e01", 
+                    "categories": [
+                        {
+                            "pluralName": "Coffee Shops", 
+                            "primary": true, 
+                            "name": "Coffee Shop", 
+                            "shortName": "Coffee Shop", 
+                            "id": "4bf58dd8d48988d1e0931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Skitsko House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Rancho Cordova", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 38.57407433847633, 
+                        "lng": -121.29124632551728
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 38, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4c00ab989cf52d7fd73614e7", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Golden 1 Credit Union", 
+                    "url": "http://golden1.com", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "8774653361", 
+                        "twitter": "golden1cu", 
+                        "facebook": "90159666891", 
+                        "formattedPhone": "(877) 465-3361"
+                    }, 
+                    "location": {
+                        "city": "San Francisco", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "94102", 
+                        "state": "CA", 
+                        "crossStreet": "at Polk St", 
+                        "address": "500 Golden Gate Ave", 
+                        "lat": 37.781363, 
+                        "lng": -122.418896
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 318, 
+                        "usersCount": 89
+                    }, 
+                    "id": "4c1bf9d1b306c9284e1f63b7", 
+                    "categories": [
+                        {
+                            "pluralName": "Credit Unions", 
+                            "primary": true, 
+                            "name": "Credit Union", 
+                            "shortName": "Credit Union", 
+                            "id": "5032850891d4c4b30a586d62", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/financial_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hotel Chevalier", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "San Francisco", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 37.788917, 
+                        "lng": -122.414019
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 1
+                    }, 
+                    "id": "52f1b85b498e17078a80c055", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Pedal Hard", 
+                    "contact": {
+                        "phone": "9162816051", 
+                        "formattedPhone": "(916) 281-6051"
+                    }, 
+                    "location": {
+                        "city": "Sacramento", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "95818", 
+                        "state": "CA", 
+                        "address": "1703 T St", 
+                        "lat": 38.56660616162107, 
+                        "lng": -121.48857593536377
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 83, 
+                        "usersCount": 31
+                    }, 
+                    "id": "4cb901ef4495721e0716487a", 
+                    "categories": [
+                        {
+                            "pluralName": "Bike Shops", 
+                            "primary": true, 
+                            "name": "Bike Shop", 
+                            "shortName": "Bike shop", 
+                            "id": "4bf58dd8d48988d115951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/bikeshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

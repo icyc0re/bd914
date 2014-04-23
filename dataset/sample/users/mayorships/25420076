@@ -1,0 +1,334 @@
+{
+    "mayorships": {
+        "count": 8, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Market Fresh Food Court", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Sterling", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "20166", 
+                        "state": "VA", 
+                        "address": "45250 Catalina Ct", 
+                        "lat": 38.9785213401094, 
+                        "lng": -77.43597844272308
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 272, 
+                        "usersCount": 88
+                    }, 
+                    "id": "4b8d2636f964a5206fea32e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Food Courts", 
+                            "primary": true, 
+                            "name": "Food Court", 
+                            "shortName": "Food Court", 
+                            "id": "4bf58dd8d48988d120951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/food_foodcourt_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "500 W 122nd ST", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Amsterdam Avenue", 
+                        "address": "500 Seminary Row", 
+                        "lat": 40.810770314676176, 
+                        "lng": -73.95846939120464
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 94, 
+                        "usersCount": 12
+                    }, 
+                    "id": "5029039ce4b043587ad395d7", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Recharge Sports Injury Center", 
+                    "contact": {
+                        "phone": "7034814400", 
+                        "formattedPhone": "(703) 481-4400"
+                    }, 
+                    "location": {
+                        "city": "Sterling", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "20166", 
+                        "state": "VA", 
+                        "address": "45685 0akbrook Ct Suite 140", 
+                        "lat": 39.00954856, 
+                        "lng": -77.41822061
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4ce1b7b0f8cdb1f73e239e12", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Baltimore Vet Clinic", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Baltimore", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "43105", 
+                        "state": "OH", 
+                        "address": "8070 Lancaster-Newark Rd NE, Baltimore, OH 43105", 
+                        "lat": 39.84195509610678, 
+                        "lng": -82.56761862454023
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 44, 
+                        "usersCount": 19
+                    }, 
+                    "id": "4ec1772677c885a64f2b553e", 
+                    "categories": [
+                        {
+                            "pluralName": "Veterinarians", 
+                            "primary": true, 
+                            "name": "Veterinarian", 
+                            "shortName": "Veterinarians", 
+                            "id": "4d954af4a243a5684765b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_veterinarian_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Arby's", 
+                    "url": "http://www.Arbys.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/arbys/4b8706ddf964a52035ac31e3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4b8706ddf964a52035ac31e3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "storeId": "Unit: 0229", 
+                    "contact": {
+                        "phone": "6147511280", 
+                        "twitter": "arbys", 
+                        "facebook": "51500251811", 
+                        "formattedPhone": "(614) 751-1280"
+                    }, 
+                    "location": {
+                        "city": "Pickerington", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "43147", 
+                        "state": "OH", 
+                        "address": "1840 Winderly Ln", 
+                        "lat": 39.930947, 
+                        "lng": -82.78985008333333
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 431, 
+                        "usersCount": 244
+                    }, 
+                    "id": "4b8706ddf964a52035ac31e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Fast Food Restaurants", 
+                            "primary": true, 
+                            "name": "Fast Food Restaurant", 
+                            "shortName": "Fast Food", 
+                            "id": "4bf58dd8d48988d16e941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/fastfood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Goodwill", 
+                    "url": "http://www.goodwill.org", 
+                    "contact": {
+                        "phone": "6147513766", 
+                        "twitter": "goodwillint", 
+                        "formattedPhone": "(614) 751-3766"
+                    }, 
+                    "location": {
+                        "city": "Pickerington", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "43147", 
+                        "state": "OH", 
+                        "address": "1771 Hill Rd N", 
+                        "lat": 39.928256150983195, 
+                        "lng": -82.7896791321182
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 122, 
+                        "usersCount": 72
+                    }, 
+                    "id": "4e135a7efa769d21e9fe124f", 
+                    "categories": [
+                        {
+                            "pluralName": "Thrift / Vintage Stores", 
+                            "primary": true, 
+                            "name": "Thrift / Vintage Store", 
+                            "shortName": "Thrift / Vintage", 
+                            "id": "4bf58dd8d48988d101951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Romeo's Pizza", 
+                    "url": "http://www.romeospizza.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/romeos-pizza/4c2e8f0fed37a593fede6503/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4c2e8f0fed37a593fede6503/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "6148348315", 
+                        "twitter": "romeospizza", 
+                        "formattedPhone": "(614) 834-8315"
+                    }, 
+                    "location": {
+                        "city": "Pickerington", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "43147", 
+                        "state": "OH", 
+                        "address": "80 W Church St", 
+                        "lat": 39.885285, 
+                        "lng": -82.754696
+                    }, 
+                    "stats": {
+                        "tipCount": 8, 
+                        "checkinsCount": 202, 
+                        "usersCount": 131
+                    }, 
+                    "id": "4c2e8f0fed37a593fede6503", 
+                    "categories": [
+                        {
+                            "pluralName": "Pizza Places", 
+                            "primary": true, 
+                            "name": "Pizza Place", 
+                            "shortName": "Pizza", 
+                            "id": "4bf58dd8d48988d1ca941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/pizza_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Clinton Supply Co.", 
+                    "contact": {
+                        "phone": "2122228245", 
+                        "formattedPhone": "(212) 222-8245"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "at 122nd St", 
+                        "address": "1256 Amsterdam Ave", 
+                        "lat": 40.810548, 
+                        "lng": -73.958331
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 10, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4de52081d4c0704405ab8241", 
+                    "categories": [
+                        {
+                            "pluralName": "Hardware Stores", 
+                            "primary": true, 
+                            "name": "Hardware Store", 
+                            "shortName": "Hardware", 
+                            "id": "4bf58dd8d48988d112951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/hardware_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

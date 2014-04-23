@@ -1,0 +1,68 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "1220 Hudson Street", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Hoboken", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "07030", 
+                        "state": "NJ", 
+                        "address": "1220 Hudson St", 
+                        "lat": 40.75202562002888, 
+                        "lng": -74.02553389445428
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 832, 
+                        "usersCount": 48
+                    }, 
+                    "id": "4d2d3470aa5c6ea85d76ab04", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Heritage Woods Pool", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Old Bridge", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "08857", 
+                        "state": "NJ", 
+                        "crossStreet": "Trans Old Bridge", 
+                        "address": "Point 'O' Woods Dr", 
+                        "lat": 40.382321833333336, 
+                        "lng": -74.304184
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 49, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4c0be5a47e3fc928b7f6f582", 
+                    "categories": []
+                }
+            }
+        ]
+    }
+}

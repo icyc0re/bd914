@@ -1,0 +1,91 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Waldy\u2019s Wood Fired Pizza & Penne", 
+                    "url": "http://www.waldyspizza.com", 
+                    "storeId": "", 
+                    "delivery": {
+                        "url": "http://www.seamless.com/food-delivery/restaurant.4558.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", 
+                        "provider": {
+                            "name": "seamless"
+                        }
+                    }, 
+                    "contact": {
+                        "phone": "2122135042", 
+                        "twitter": "waldyspizza", 
+                        "formattedPhone": "(212) 213-5042"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10001", 
+                        "state": "NY", 
+                        "crossStreet": "at 27th St", 
+                        "address": "800 Avenue of the Americas", 
+                        "lat": 40.74571043315757, 
+                        "lng": -73.99087975075709
+                    }, 
+                    "venuePage": {
+                        "id": "45376240"
+                    }, 
+                    "stats": {
+                        "tipCount": 79, 
+                        "checkinsCount": 7648, 
+                        "usersCount": 3748
+                    }, 
+                    "id": "4b116915f964a520047c23e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Pizza Places", 
+                            "primary": true, 
+                            "name": "Pizza Place", 
+                            "shortName": "Pizza", 
+                            "id": "4bf58dd8d48988d1ca941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/pizza_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Bagno Dallara", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 44.256262338039605, 
+                        "cc": "IT", 
+                        "lng": 12.364115477025637, 
+                        "country": "Italy"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 2
+                    }, 
+                    "id": "51e15a82498e26cc985e4d10", 
+                    "categories": [
+                        {
+                            "pluralName": "Beaches", 
+                            "primary": true, 
+                            "name": "Beach", 
+                            "shortName": "Beach", 
+                            "id": "4bf58dd8d48988d1e2941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/beach_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

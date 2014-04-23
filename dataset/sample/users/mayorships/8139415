@@ -1,0 +1,411 @@
+{
+    "mayorships": {
+        "count": 11, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "ranman.org", 
+                    "contact": {
+                        "twitter": "jrhunt"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.72955814318108, 
+                        "lng": -73.97712595918333
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 184, 
+                        "usersCount": 3
+                    }, 
+                    "id": "523786ba498ea9502b824dd6", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Castle John Street", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10038", 
+                        "state": "NY", 
+                        "crossStreet": "Nassau", 
+                        "address": "39 John St", 
+                        "lat": 40.709625, 
+                        "lng": -74.008168
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 1024, 
+                        "usersCount": 30
+                    }, 
+                    "id": "4ec0318df790741160fa6223", 
+                    "categories": [
+                        {
+                            "pluralName": "Nightclubs", 
+                            "primary": true, 
+                            "name": "Nightclub", 
+                            "shortName": "Nightclub", 
+                            "id": "4bf58dd8d48988d11f941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/nightclub_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Locreep Secret Mountain HQ", 
+                    "contact": {
+                        "twitter": "lo_creep"
+                    }, 
+                    "location": {
+                        "city": "Cullowhee", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NC", 
+                        "lat": 35.29224408158301, 
+                        "lng": -83.1916936845334
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 42, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4ed0884a61af476c08c0da62", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Alpinea", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 45.372738, 
+                        "cc": "FR", 
+                        "lng": 6.574587, 
+                        "country": "France"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 19, 
+                        "usersCount": 2
+                    }, 
+                    "id": "5116a590e4b04d76f8706a16", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hane Sushi", 
+                    "url": "http://www.hanesushi.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/hane-sushi/49ecf7f1f964a520ba671fe3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/49ecf7f1f964a520ba671fe3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "delivery": {
+                        "url": "http://www.seamless.com/food-delivery/restaurant.29869.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", 
+                        "provider": {
+                            "name": "seamless"
+                        }
+                    }, 
+                    "contact": {
+                        "phone": "2125989889", 
+                        "formattedPhone": "(212) 598-9889"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10003", 
+                        "state": "NY", 
+                        "crossStreet": "at E 20th St.", 
+                        "address": "346 1st Ave", 
+                        "lat": 40.73496610102712, 
+                        "lng": -73.97965908050537
+                    }, 
+                    "stats": {
+                        "tipCount": 38, 
+                        "checkinsCount": 5720, 
+                        "usersCount": 2455
+                    }, 
+                    "id": "49ecf7f1f964a520ba671fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Sushi Restaurants", 
+                            "primary": true, 
+                            "name": "Sushi Restaurant", 
+                            "shortName": "Sushi", 
+                            "id": "4bf58dd8d48988d1d2941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/sushi_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dower Homestead", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Unicoi", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "TN", 
+                        "lat": 36.24929418260454, 
+                        "lng": -82.31805704983046
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 23, 
+                        "usersCount": 2
+                    }, 
+                    "id": "50adb92ae4b05083be48a1a6", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "LAHacks", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Los Angeles", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 34.06993218149185, 
+                        "lng": -118.44643182856831
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 7
+                    }, 
+                    "id": "5348d722498ea334a5284305", 
+                    "categories": [
+                        {
+                            "pluralName": "College Auditoriums", 
+                            "primary": true, 
+                            "name": "College Auditorium", 
+                            "shortName": "Auditorium", 
+                            "id": "4bf58dd8d48988d1af941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/auditorium_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Fox Apartment", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Cullowhee", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "28723", 
+                        "state": "NC", 
+                        "lat": 35.297181, 
+                        "lng": -83.186288
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 21, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4f6e8e58e4b0f577d3051825", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Taylor Made", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Emerald Isle", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "28594", 
+                        "state": "NC", 
+                        "address": "7901 Ocean Dr", 
+                        "lat": 34.661329, 
+                        "lng": -77.031075
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 2
+                    }, 
+                    "id": "5260509111d28d6681413a1c", 
+                    "categories": [
+                        {
+                            "pluralName": "Beaches", 
+                            "primary": true, 
+                            "name": "Beach", 
+                            "shortName": "Beach", 
+                            "id": "4bf58dd8d48988d1e2941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/beach_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Le New M\u00e9rib's", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 45.37370363198404, 
+                        "cc": "FR", 
+                        "lng": 6.57033548397973, 
+                        "country": "France"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 14, 
+                        "usersCount": 11
+                    }, 
+                    "id": "510d03bae4b0eaff74c8f659", 
+                    "categories": [
+                        {
+                            "pluralName": "Pizza Places", 
+                            "primary": true, 
+                            "name": "Pizza Place", 
+                            "shortName": "Pizza", 
+                            "id": "4bf58dd8d48988d1ca941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/pizza_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hunt Homestead", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Clinton", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NC", 
+                        "lat": 35.02139575893283, 
+                        "lng": -78.36715652070833
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 1
+                    }, 
+                    "id": "50d39016e4b0ecf0ebf603ee", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

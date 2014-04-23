@@ -1,0 +1,178 @@
+{
+    "mayorships": {
+        "count": 5, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Mi Gran Esquina", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.86354426792725, 
+                        "cc": "US", 
+                        "lng": -73.9293488016757, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 38, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4e5dd8477d8b67dc8fec0de1", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Slore Haus", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10040", 
+                        "state": "NY", 
+                        "address": "25 Dongan Pl", 
+                        "lat": 40.86339162214049, 
+                        "lng": -73.92875075340271
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 33, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4e4d44ee1fc7bd85f5ecd64a", 
+                    "categories": [
+                        {
+                            "pluralName": "Gay Bars", 
+                            "primary": true, 
+                            "name": "Gay Bar", 
+                            "shortName": "Gay Bar", 
+                            "id": "4bf58dd8d48988d1d8941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/gaybar_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Booms :)", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10040", 
+                        "state": "NY", 
+                        "address": "Manhattan, New York, NY", 
+                        "lat": 40.86348404104986, 
+                        "lng": -73.92933732019362
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4eaad2c6722efacf27806a02", 
+                    "categories": [
+                        {
+                            "pluralName": "Arcades", 
+                            "primary": true, 
+                            "name": "Arcade", 
+                            "shortName": "Arcade", 
+                            "id": "4bf58dd8d48988d1e1931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/arcade_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Grace Dodge Private Dinning Room", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.8098265596058, 
+                        "cc": "US", 
+                        "lng": -73.9596288429094, 
+                        "state": "New York", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 17, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4eb02f760aafcac7e5605b60", 
+                    "categories": [
+                        {
+                            "pluralName": "College Auditoriums", 
+                            "primary": true, 
+                            "name": "College Auditorium", 
+                            "shortName": "Auditorium", 
+                            "id": "4bf58dd8d48988d1af941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/auditorium_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "TC Whittier 1015", 
+                    "contact": {}, 
+                    "location": {
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "New York", 
+                        "lat": 40.80523481261089, 
+                        "lng": -73.95361626406626
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 6, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4ceaf9fdfe90a35d07a0500e", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

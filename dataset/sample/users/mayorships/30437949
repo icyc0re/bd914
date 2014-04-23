@@ -1,0 +1,150 @@
+{
+    "mayorships": {
+        "count": 4, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "FishNet Cafe", 
+                    "contact": {
+                        "phone": "3472208207", 
+                        "formattedPhone": "(347) 220-8207"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10455", 
+                        "state": "NY", 
+                        "address": "474 Willis Ave", 
+                        "lat": 40.81440196667909, 
+                        "lng": -73.91883147961417
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 10, 
+                        "usersCount": 7
+                    }, 
+                    "id": "51ba4774498e2388b1610970", 
+                    "categories": [
+                        {
+                            "pluralName": "Seafood Restaurants", 
+                            "primary": true, 
+                            "name": "Seafood Restaurant", 
+                            "shortName": "Seafood", 
+                            "id": "4bf58dd8d48988d1ce941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/seafood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Fort Independence Dog Run", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.88174770309189, 
+                        "cc": "US", 
+                        "lng": -73.89468886092644, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 48, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4e2c4fa9fa76bbf847e22d24", 
+                    "categories": [
+                        {
+                            "pluralName": "Dog Runs", 
+                            "primary": true, 
+                            "name": "Dog Run", 
+                            "shortName": "Dog Run", 
+                            "id": "4bf58dd8d48988d1e5941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/dogrun_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Mta Bx40/42", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10462", 
+                        "state": "NY", 
+                        "crossStreet": "Dogwood Dr", 
+                        "address": "Tremont Ave", 
+                        "lat": 40.83946593807244, 
+                        "lng": -73.83663678646
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 162, 
+                        "usersCount": 21
+                    }, 
+                    "id": "4f82e34ce4b0a6d0b85eb1fa", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Lines", 
+                            "primary": true, 
+                            "name": "Bus Line", 
+                            "shortName": "Bus", 
+                            "id": "4bf58dd8d48988d12b951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "700 lenox avenue", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10039", 
+                        "state": "NY", 
+                        "lat": 40.81985431989753, 
+                        "lng": -73.9329482128133
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4fae9914e4b0fc5eaafb24fa", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

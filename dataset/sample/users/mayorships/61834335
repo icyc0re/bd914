@@ -1,0 +1,44 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "NYIT", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "crossStreet": "Broadway", 
+                        "address": "16 W 61st St", 
+                        "lat": 40.76980457475533, 
+                        "lng": -73.98249501939839
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 134, 
+                        "usersCount": 26
+                    }, 
+                    "id": "4d6be0e387b95481d2cfc6dd", 
+                    "categories": [
+                        {
+                            "pluralName": "College Arts Buildings", 
+                            "primary": true, 
+                            "name": "College Arts Building", 
+                            "shortName": "Arts", 
+                            "id": "4bf58dd8d48988d199941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Arbor Gym", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10463", 
+                        "state": "NY", 
+                        "crossStreet": "235th", 
+                        "address": "3260 Henry Hudson Pkwy", 
+                        "lat": 40.885750037581836, 
+                        "lng": -73.9120856269327
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 18, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4d5bc907b9b2a143c7db6d8c", 
+                    "categories": [
+                        {
+                            "pluralName": "Gyms", 
+                            "primary": true, 
+                            "name": "Gym", 
+                            "shortName": "Gym", 
+                            "id": "4bf58dd8d48988d176941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/gym_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lam, Estrada, Pascua FamBam #SFGiants Brick", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "San Francisco", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "94107", 
+                        "state": "CA", 
+                        "address": "McCovey Cove", 
+                        "lat": 37.77737259916101, 
+                        "lng": -122.38993240385213
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 2
+                    }, 
+                    "id": "50300adbe4b060c1a5b9711b", 
+                    "categories": [
+                        {
+                            "pluralName": "Baseball Fields", 
+                            "primary": true, 
+                            "name": "Baseball Field", 
+                            "shortName": "Baseball Field", 
+                            "id": "4bf58dd8d48988d1e8941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/baseballfield_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

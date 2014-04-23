@@ -1,0 +1,77 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Casa de Guac", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Cincinnati", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "OH", 
+                        "lat": 39.140155, 
+                        "lng": -84.414745
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 1
+                    }, 
+                    "id": "515b9e67e4b0501ce4b4daae", 
+                    "categories": [
+                        {
+                            "pluralName": "Wineries", 
+                            "primary": true, 
+                            "name": "Winery", 
+                            "shortName": "Winery", 
+                            "id": "4bf58dd8d48988d14b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/winery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sharon Woods Innovation Center", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Blue Ash", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "45241", 
+                        "state": "OH", 
+                        "address": "11530 Reed Hartman Hwy", 
+                        "lat": 39.27626718314644, 
+                        "lng": -84.37213519967561
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 33, 
+                        "usersCount": 13
+                    }, 
+                    "id": "5023e98fe4b0d6327f86f947", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

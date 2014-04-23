@@ -1,0 +1,117 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Council on Foreign Relations", 
+                    "url": "http://www.cfr.org", 
+                    "contact": {
+                        "twitter": "cfr_org"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10065", 
+                        "state": "NY", 
+                        "crossStreet": "Park Ave", 
+                        "address": "58 E 68th St", 
+                        "lat": 40.76846397911152, 
+                        "lng": -73.96599422341596
+                    }, 
+                    "stats": {
+                        "tipCount": 4, 
+                        "checkinsCount": 1120, 
+                        "usersCount": 383
+                    }, 
+                    "id": "4b75af03f964a520c21c2ee3", 
+                    "categories": [
+                        {
+                            "pluralName": "Non-Profits", 
+                            "primary": true, 
+                            "name": "Non-Profit", 
+                            "shortName": "Non-Profit", 
+                            "id": "50328a8e91d4c4b30a586d6c", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hobbit House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.73455907400442, 
+                        "lng": -74.01238511084367
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 24, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4eb363cae30006eb113d9f5c", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hogwarts", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.73289347485937, 
+                        "lng": -74.00063278107605
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 55, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4ca6b953d971b1f7e56d03e1", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

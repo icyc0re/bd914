@@ -1,0 +1,391 @@
+{
+    "mayorships": {
+        "count": 10, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Gaslight Lounge", 
+                    "url": "http://gaslightnyc.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/gaslight-lounge-new-york-ny/4de0334681305a50777ff565/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4de0334681305a50777ff565/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2128078444", 
+                        "twitter": "gaslight400", 
+                        "formattedPhone": "(212) 807-8444"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10014", 
+                        "state": "NY", 
+                        "crossStreet": "at 9th Ave", 
+                        "address": "400 W 14th St", 
+                        "lat": 40.74079314994195, 
+                        "lng": -74.00532404420811
+                    }, 
+                    "stats": {
+                        "tipCount": 47, 
+                        "checkinsCount": 9637, 
+                        "usersCount": 7254
+                    }, 
+                    "id": "4de0334681305a50777ff565", 
+                    "categories": [
+                        {
+                            "pluralName": "Lounges", 
+                            "primary": true, 
+                            "name": "Lounge", 
+                            "shortName": "Lounge", 
+                            "id": "4bf58dd8d48988d121941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/lounge_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "509 East 78th Street", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10065", 
+                        "state": "NY", 
+                        "lat": 40.770581713950826, 
+                        "lng": -73.94999140653645
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 471, 
+                        "usersCount": 23
+                    }, 
+                    "id": "4e132f12d4c07597ff8fc746", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hotel Metr\u00f3pole", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Lisboa", 
+                        "cc": "PT", 
+                        "country": "Portugal", 
+                        "postalCode": "1100-200", 
+                        "address": "Pra\u00e7a Dom Pedro IV, 30", 
+                        "lat": 38.713411991668146, 
+                        "lng": -9.139429481504962
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 99, 
+                        "usersCount": 52
+                    }, 
+                    "id": "4b05889ef964a5203ed022e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Hotels", 
+                            "primary": true, 
+                            "name": "Hotel", 
+                            "shortName": "Hotel", 
+                            "id": "4bf58dd8d48988d1fa931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "SUBWAY", 
+                    "url": "http://www.subway.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/subway/4cb25b4edb32f04d399fcf4d/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4cb25b4edb32f04d399fcf4d/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "delivery": {
+                        "url": "http://www.seamless.com/food-delivery/restaurant.17340.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", 
+                        "provider": {
+                            "name": "seamless"
+                        }
+                    }, 
+                    "contact": {
+                        "phone": "2123960216", 
+                        "twitter": "subway", 
+                        "formattedPhone": "(212) 396-0216"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10028", 
+                        "state": "NY", 
+                        "address": "1523 York Ave", 
+                        "lat": 40.77249441606648, 
+                        "lng": -73.94960681750473
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 518, 
+                        "usersCount": 150
+                    }, 
+                    "id": "4cb25b4edb32f04d399fcf4d", 
+                    "categories": [
+                        {
+                            "pluralName": "Sandwich Places", 
+                            "primary": true, 
+                            "name": "Sandwich Place", 
+                            "shortName": "Sandwiches", 
+                            "id": "4bf58dd8d48988d1c5941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/sandwiches_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Subway", 
+                    "url": "http://www.subway.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/subway/4e4ce458bd413c4cc66d0156/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4e4ce458bd413c4cc66d0156/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "delivery": {
+                        "url": "http://www.grubhub.com/order_redir.jsp?custId=66069&affId=1131", 
+                        "provider": {
+                            "name": "grubhub"
+                        }
+                    }, 
+                    "contact": {
+                        "phone": "2122888856", 
+                        "twitter": "subwayfreshbuzz", 
+                        "formattedPhone": "(212) 288-8856"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10075", 
+                        "state": "NY", 
+                        "crossStreet": "at E 78th St.", 
+                        "address": "1510 1st Ave", 
+                        "lat": 40.77190918674488, 
+                        "lng": -73.95307383128001
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 198, 
+                        "usersCount": 93
+                    }, 
+                    "id": "4e4ce458bd413c4cc66d0156", 
+                    "categories": [
+                        {
+                            "pluralName": "Sandwich Places", 
+                            "primary": true, 
+                            "name": "Sandwich Place", 
+                            "shortName": "Sandwiches", 
+                            "id": "4bf58dd8d48988d1c5941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/sandwiches_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cookie's caboose", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Punxsutawney", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "15767", 
+                        "state": "PA", 
+                        "address": "232 findle st", 
+                        "lat": 40.94489316107852, 
+                        "lng": -78.97183326363262
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 18, 
+                        "usersCount": 15
+                    }, 
+                    "id": "4c7f25bed51ea143d3fd599f", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Crossway", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Delmar", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 42.61997650804008, 
+                        "lng": -73.81249842275241
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 1
+                    }, 
+                    "id": "50d61132e4b028bbcdf5f7a8", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Gate C134", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Newark", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "07114", 
+                        "state": "NJ", 
+                        "crossStreet": "EWR Airport", 
+                        "address": "Terminal C", 
+                        "lat": 40.69868994724167, 
+                        "lng": -74.17992353439331
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 945, 
+                        "usersCount": 837
+                    }, 
+                    "id": "4bd2de4241b9ef3baccbfee5", 
+                    "categories": [
+                        {
+                            "pluralName": "Airport Gates", 
+                            "primary": true, 
+                            "name": "Airport Gate", 
+                            "shortName": "Gate", 
+                            "id": "4bf58dd8d48988d1f0931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/airport_gate_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Subway Sandwiches", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10075", 
+                        "state": "NY", 
+                        "crossStreet": "78th Street", 
+                        "address": "1501 1st Ave", 
+                        "lat": 40.771863, 
+                        "lng": -73.953115
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 216, 
+                        "usersCount": 99
+                    }, 
+                    "id": "4bc3720bf8219c74201ab610", 
+                    "categories": [
+                        {
+                            "pluralName": "Sandwich Places", 
+                            "primary": true, 
+                            "name": "Sandwich Place", 
+                            "shortName": "Sandwiches", 
+                            "id": "4bf58dd8d48988d1c5941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/sandwiches_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Taxi 5Y39", 
+                    "contact": {}, 
+                    "location": {
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "New York", 
+                        "address": "Moving target", 
+                        "lat": 40.75388058185581, 
+                        "lng": -73.9642378815242
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4f5e0774e4b0090c0be7d3d5", 
+                    "categories": []
+                }
+            }
+        ]
+    }
+}

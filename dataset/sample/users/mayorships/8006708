@@ -1,0 +1,44 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Happy Healing Yoga", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Amsterdam", 
+                        "address": "525 West 120st", 
+                        "lat": 40.810740237243444, 
+                        "lng": -73.95968050148663
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 9, 
+                        "usersCount": 1
+                    }, 
+                    "id": "51113374e4b0e95e22d0f0c4", 
+                    "categories": [
+                        {
+                            "pluralName": "Yoga Studios", 
+                            "primary": true, 
+                            "name": "Yoga Studio", 
+                            "shortName": "Yoga Studio", 
+                            "id": "4bf58dd8d48988d102941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/gym_yogastudio_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

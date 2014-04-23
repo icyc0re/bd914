@@ -1,0 +1,112 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Tinney Compound", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Tamiment", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "PA", 
+                        "lat": 41.161892624669754, 
+                        "lng": -75.04359164882531
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 17, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4ec92751722e14379850cf37", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sitting By The Dock Of The Bay", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Delaware Water Gap", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "18327", 
+                        "state": "PA", 
+                        "lat": 40.98664, 
+                        "lng": -75.152545
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4ec83e5593ad41338dcc51fc", 
+                    "categories": [
+                        {
+                            "pluralName": "Mountains", 
+                            "primary": true, 
+                            "name": "Mountain", 
+                            "shortName": "Mountain", 
+                            "id": "4eb1d4d54b900d56c88a45fc", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/mountain_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "i be's where i's at!", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "lat": 40.77857932891168, 
+                        "lng": -73.97991237954025
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4f4b9392e4b04a41322c85e8", 
+                    "categories": [
+                        {
+                            "pluralName": "Water Parks", 
+                            "primary": true, 
+                            "name": "Water Park", 
+                            "shortName": "Water Park", 
+                            "id": "4bf58dd8d48988d193941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/waterpark_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

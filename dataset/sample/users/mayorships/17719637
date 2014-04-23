@@ -1,0 +1,991 @@
+{
+    "mayorships": {
+        "count": 27, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "425 Riverside Drive", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "lat": 40.80779061519576, 
+                        "lng": -73.965793335448
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 470, 
+                        "usersCount": 37
+                    }, 
+                    "id": "4c755dc9b474a1cd2f0fb9bf", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Barnard College", 
+                    "contact": {
+                        "phone": "2128545262", 
+                        "formattedPhone": "(212) 854-5262"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Broadway To Claremont Ave.", 
+                        "address": "W 120th St.", 
+                        "lat": 40.809602944501854, 
+                        "lng": -73.96350145339966
+                    }, 
+                    "stats": {
+                        "tipCount": 8, 
+                        "checkinsCount": 4869, 
+                        "usersCount": 1534
+                    }, 
+                    "id": "4a7d1f2af964a52086ee1fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Universities", 
+                            "primary": true, 
+                            "name": "University", 
+                            "shortName": "University", 
+                            "id": "4bf58dd8d48988d1ae941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Diana Center, Barnard", 
+                    "storeId": "", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "119th", 
+                        "address": "3009 Broadway", 
+                        "lat": 40.809554221479374, 
+                        "lng": -73.96326541900635
+                    }, 
+                    "stats": {
+                        "tipCount": 9, 
+                        "checkinsCount": 4579, 
+                        "usersCount": 978
+                    }, 
+                    "id": "4b574713f964a520e92e28e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Student Centers", 
+                            "primary": true, 
+                            "name": "Student Center", 
+                            "shortName": "Student Center", 
+                            "id": "4bf58dd8d48988d1ab941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/studentcenter_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "FCG Advisors", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Chatham", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 40.739015, 
+                        "lng": -74.372636
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 22, 
+                        "usersCount": 1
+                    }, 
+                    "id": "51e40a44498e5bd4fa0ea28f", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lehman Hall - Barnard College", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.80938610659805, 
+                        "cc": "US", 
+                        "lng": -73.96327934831807, 
+                        "state": "New York", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 385, 
+                        "usersCount": 91
+                    }, 
+                    "id": "4bb25f574019a593f3be36b8", 
+                    "categories": [
+                        {
+                            "pluralName": "College Libraries", 
+                            "primary": true, 
+                            "name": "College Library", 
+                            "shortName": "Library", 
+                            "id": "4bf58dd8d48988d1a7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "434 Riverside Drive", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "116th St.", 
+                        "address": "434 Riverside Dr", 
+                        "lat": 40.80774769619039, 
+                        "lng": -73.96594830618461
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 28, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4c51cc697f6e20a1b923b4ea", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Daleford Hall", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Cleveland", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "OH", 
+                        "lat": 41.476109834250366, 
+                        "lng": -81.56512700339249
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 71, 
+                        "usersCount": 1
+                    }, 
+                    "id": "50ae7e6e498ec34db362b8a7", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Robe And Slippers Chateau", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 24.84656534821976, 
+                        "cc": "XX", 
+                        "lng": -69.2578125, 
+                        "address": "Only The Silent Know."
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 41, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4ea4fcd44690104bb4a0d34e", 
+                    "categories": [
+                        {
+                            "pluralName": "Speakeasies", 
+                            "primary": true, 
+                            "name": "Speakeasy", 
+                            "shortName": "Speakeasy", 
+                            "id": "4bf58dd8d48988d1d4941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/secretbar_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "191 Dipsea", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Stinson Beach", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 37.90949522595371, 
+                        "lng": -122.66730179986507
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 1
+                    }, 
+                    "id": "51463805e4b086fe0b771cb6", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lehman Lawn - Barnard College", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "118th & Broadway", 
+                        "address": "Barnard College", 
+                        "lat": 40.80934308796857, 
+                        "lng": -73.96339416503906
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 165, 
+                        "usersCount": 97
+                    }, 
+                    "id": "4da710f2a86e21568171d4cd", 
+                    "categories": [
+                        {
+                            "pluralName": "Fields", 
+                            "primary": true, 
+                            "name": "Field", 
+                            "shortName": "Field", 
+                            "id": "4bf58dd8d48988d15f941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/field_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Fowler Cabin", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Glenford", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 42.00750534434413, 
+                        "lng": -74.16509908485864
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 10, 
+                        "usersCount": 1
+                    }, 
+                    "id": "51ebd5ac498e1e78ddce6d06", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Duane Reade", 
+                    "url": "http://www.duanereade.com", 
+                    "storeId": "14225", 
+                    "contact": {
+                        "phone": "2123165113", 
+                        "twitter": "duanereade", 
+                        "formattedPhone": "(212) 316-5113"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "at 111th St.", 
+                        "address": "2864 Broadway", 
+                        "lat": 40.80482528915967, 
+                        "lng": -73.96628694550876
+                    }, 
+                    "stats": {
+                        "tipCount": 7, 
+                        "checkinsCount": 2469, 
+                        "usersCount": 857
+                    }, 
+                    "id": "4ac23132f964a520239820e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Drugstores / Pharmacies", 
+                            "primary": true, 
+                            "name": "Drugstore / Pharmacy", 
+                            "shortName": "Pharmacy", 
+                            "id": "4bf58dd8d48988d10f951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/pharmacy_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Fowlers on Sherman Ave.", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Summit", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 40.72453546261529, 
+                        "lng": -74.3646122414788
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 1
+                    }, 
+                    "id": "51e36c1c498ed57c5b635f4a", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Diana Computer Lab", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.80952701465269, 
+                        "lng": -73.96333100591771
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 1
+                    }, 
+                    "id": "52531085498e802a74d64a6b", 
+                    "categories": [
+                        {
+                            "pluralName": "College Classrooms", 
+                            "primary": true, 
+                            "name": "College Classroom", 
+                            "shortName": "Classroom", 
+                            "id": "4bf58dd8d48988d1a0941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/classroom_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "115 East 61 Street", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10065", 
+                        "state": "NY", 
+                        "crossStreet": "btw Lexington Ave. & Park Ave.", 
+                        "address": "115 E. 61st St.", 
+                        "lat": 40.763945811716695, 
+                        "lng": -73.96810640423216
+                    }, 
+                    "stats": {
+                        "tipCount": 4, 
+                        "checkinsCount": 205, 
+                        "usersCount": 143
+                    }, 
+                    "id": "4c62bb1fedd320a11a8fad29", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Bergen County Equestrian Center", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2013363370", 
+                        "formattedPhone": "(201) 336-3370"
+                    }, 
+                    "location": {
+                        "city": "Leonia", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "07605", 
+                        "state": "NJ", 
+                        "crossStreet": "Overpeck Park Driveway", 
+                        "address": "40 Fort Lee Rd", 
+                        "lat": 40.863464956207835, 
+                        "lng": -73.99827706370102
+                    }, 
+                    "venuePage": {
+                        "id": "70657049"
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 255, 
+                        "usersCount": 47
+                    }, 
+                    "id": "5013dee9e4b0adaeb0cfba20", 
+                    "categories": [
+                        {
+                            "pluralName": "Stables", 
+                            "primary": true, 
+                            "name": "Stables", 
+                            "shortName": "Stables", 
+                            "id": "4eb1baf03b7b2c5b1d4306ca", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/stable_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Robert M. Rosencrans Reading Room", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.806753, 
+                        "lng": -73.962774
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 1
+                    }, 
+                    "id": "5276d4e2498e0d3d922698f9", 
+                    "categories": [
+                        {
+                            "pluralName": "College Libraries", 
+                            "primary": true, 
+                            "name": "College Library", 
+                            "shortName": "Library", 
+                            "id": "4bf58dd8d48988d1a7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "UH Pediatricenter", 
+                    "url": "http://www.pediatricenter.com", 
+                    "contact": {
+                        "phone": "4407203888", 
+                        "twitter": "uhhospitals", 
+                        "formattedPhone": "(440) 720-3888"
+                    }, 
+                    "location": {
+                        "city": "Mayfield Hts", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "44124", 
+                        "state": "OH", 
+                        "address": "6001 Landerhaven Dr #C", 
+                        "lat": 41.50400605774773, 
+                        "lng": -81.46276251915081
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 41, 
+                        "usersCount": 16
+                    }, 
+                    "id": "4d91d433033ba35d13d5770d", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "The UPS Store", 
+                    "url": "http://www.theupsstorelocal.com/1544/", 
+                    "storeId": "1544", 
+                    "contact": {
+                        "phone": "2169215500", 
+                        "twitter": "theupsstore", 
+                        "facebook": "225440140272", 
+                        "formattedPhone": "(216) 921-5500"
+                    }, 
+                    "location": {
+                        "city": "Shaker Heights", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "44120-3721", 
+                        "state": "OH", 
+                        "address": "16781 CHAGRIN BLVD", 
+                        "lat": 41.464876098872885, 
+                        "lng": -81.56190553461464
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 73, 
+                        "usersCount": 50
+                    }, 
+                    "id": "4bd9e39aa8d976b000690cb5", 
+                    "categories": [
+                        {
+                            "pluralName": "Post Offices", 
+                            "primary": true, 
+                            "name": "Post Office", 
+                            "shortName": "Post Office", 
+                            "id": "4bf58dd8d48988d172941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/postoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Khan's Gyro Cart", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "lat": 40.805181, 
+                        "lng": -73.966173
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 2
+                    }, 
+                    "id": "50539c03e4b012cb8194f8da", 
+                    "categories": [
+                        {
+                            "pluralName": "Food Trucks", 
+                            "primary": true, 
+                            "name": "Food Truck", 
+                            "shortName": "Food Truck", 
+                            "id": "4bf58dd8d48988d1cb941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/streetfood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cedar Heights Professional Bldg", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "University Heights", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "44118", 
+                        "state": "OH", 
+                        "address": "14055 Cedar Rd", 
+                        "lat": 41.501712758762444, 
+                        "lng": -81.5338088924532
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 24, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4f009df76c25c5ce81fb4a17", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Advanced Dermatology", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/advanced-dermatology/50f58a50e4b0411cf6c81614/menu", 
+                        "mobileUrl": "https://foursquare.com/v/50f58a50e4b0411cf6c81614/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "twitter": "getmegreatskin"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10024", 
+                        "state": "NY", 
+                        "address": "130 West 86th St", 
+                        "lat": 40.786995413726764, 
+                        "lng": -73.97338101551536
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 33, 
+                        "usersCount": 21
+                    }, 
+                    "id": "50f58a50e4b0411cf6c81614", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The UPS Store", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "address": "603 W 115th St", 
+                        "lat": 40.80757300081441, 
+                        "lng": -73.96462818110523
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 22, 
+                        "usersCount": 20
+                    }, 
+                    "id": "516acdd7498ee52d3a5d8ec7", 
+                    "categories": [
+                        {
+                            "pluralName": "Department Stores", 
+                            "primary": true, 
+                            "name": "Department Store", 
+                            "shortName": "Department Store", 
+                            "id": "4bf58dd8d48988d1f6941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/departmentstore_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "142 E 71st", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10021", 
+                        "state": "NY", 
+                        "lat": 40.76978596358293, 
+                        "lng": -73.96279147030556
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 38, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4f53bdcde4b0ac6d0d79ff7b", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Allen House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10021", 
+                        "state": "NY", 
+                        "crossStreet": "at 3rd", 
+                        "address": "201 E 71st St", 
+                        "lat": 40.76901370956514, 
+                        "lng": -73.96063331276432
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 15, 
+                        "usersCount": 8
+                    }, 
+                    "id": "442d6afff964a520d7311fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dipsea, Stinson Beach", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Stinson Beach", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "94970", 
+                        "state": "CA", 
+                        "lat": 37.90815440408718, 
+                        "lng": -122.67039977026188
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 18, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4ffd06e3e4b03a7892c57ffe", 
+                    "categories": [
+                        {
+                            "pluralName": "Beaches", 
+                            "primary": true, 
+                            "name": "Beach", 
+                            "shortName": "Beach", 
+                            "id": "4bf58dd8d48988d1e2941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/beach_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cuyahoga Chiropractic", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Cleveland", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "44118", 
+                        "state": "OH", 
+                        "lat": 41.500643700342515, 
+                        "lng": -81.53245334538357
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 2
+                    }, 
+                    "id": "500dc3e3e4b0081297f42813", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

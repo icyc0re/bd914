@@ -1,0 +1,184 @@
+{
+    "mayorships": {
+        "count": 5, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Haverlin Beach House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Avon-by-the-Sea", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 40.18839012045292, 
+                        "lng": -74.01238511084367
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4fde293ee4b06f698585cd9c", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Home :)", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Staten Island", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.500046039874505, 
+                        "lng": -74.24727794872852
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 190, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4dc6873cd164eb9ca009efc2", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Thursday's Child", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11228", 
+                        "state": "NY", 
+                        "crossStreet": "Btw 76 & 77 St", 
+                        "address": "7616 13th Ave", 
+                        "lat": 40.61942388121957, 
+                        "lng": -74.00858347185488
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 185, 
+                        "usersCount": 21
+                    }, 
+                    "id": "4bc8ce790ee49521e8615203", 
+                    "categories": [
+                        {
+                            "pluralName": "College Classrooms", 
+                            "primary": true, 
+                            "name": "College Classroom", 
+                            "shortName": "Classroom", 
+                            "id": "4bf58dd8d48988d1a0941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/classroom_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Baudhuin at Nova", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Davie", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "33328", 
+                        "state": "FL", 
+                        "lat": 26.076052164428006, 
+                        "lng": -80.24903112488416
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 95, 
+                        "usersCount": 18
+                    }, 
+                    "id": "4d026a4be5f16ea8d4e2aa28", 
+                    "categories": [
+                        {
+                            "pluralName": "General Colleges & Universities", 
+                            "primary": true, 
+                            "name": "General College & University", 
+                            "shortName": "Education", 
+                            "id": "4bf58dd8d48988d1a8941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/other_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Haverlin Castle", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Holmdel", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 40.397478230492275, 
+                        "lng": -74.15335626699198
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4f157758e4b0380206a49b8b", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

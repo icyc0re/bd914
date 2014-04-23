@@ -1,0 +1,509 @@
+{
+    "mayorships": {
+        "count": 14, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Royal Bank America", 
+                    "url": "http://www.royalbankamerica.com", 
+                    "contact": {
+                        "phone": "2157356200", 
+                        "twitter": "spurtheeconomy", 
+                        "formattedPhone": "(215) 735-6200"
+                    }, 
+                    "location": {
+                        "city": "Philadelphia", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "19107", 
+                        "state": "PA", 
+                        "crossStreet": "13th St.", 
+                        "address": "1230 Walnut St", 
+                        "lat": 39.9494423490876, 
+                        "lng": -75.16190000779366
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 1073, 
+                        "usersCount": 44
+                    }, 
+                    "id": "4be03ee3bef120a14df098d6", 
+                    "categories": [
+                        {
+                            "pluralName": "Banks", 
+                            "primary": true, 
+                            "name": "Bank", 
+                            "shortName": "Bank", 
+                            "id": "4bf58dd8d48988d10a951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/financial_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "TJ's Nest", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Philadelphia", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "PA", 
+                        "lat": 40.020381250312056, 
+                        "lng": -75.05527386450814
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 656, 
+                        "usersCount": 14
+                    }, 
+                    "id": "4c276c90136d20a1f9e4e661", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "420 Queens", 
+                    "contact": {}, 
+                    "location": {
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "North Carolina", 
+                        "lat": 35.21213647820674, 
+                        "lng": -80.82670638471264
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 51, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4d4d05d09ee1a35df03821df", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Wells Fargo - Myers Park", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Charlotte", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "28207", 
+                        "state": "NC", 
+                        "crossStreet": "Perrin Pl", 
+                        "address": "839 Providence Rd", 
+                        "lat": 35.19720177408314, 
+                        "lng": -80.82619543463831
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 29, 
+                        "usersCount": 4
+                    }, 
+                    "id": "5175736ee4b0d8599c59ad5f", 
+                    "categories": [
+                        {
+                            "pluralName": "Banks", 
+                            "primary": true, 
+                            "name": "Bank", 
+                            "shortName": "Bank", 
+                            "id": "4bf58dd8d48988d10a951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/financial_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Charlotte Mecklenburg Library Myers Park branch", 
+                    "url": "http://www.cmlibrary.org", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "7044165800", 
+                        "twitter": "cmlibrary", 
+                        "formattedPhone": "(704) 416-5800"
+                    }, 
+                    "location": {
+                        "city": "Charlotte", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "28207", 
+                        "state": "NC", 
+                        "address": "1361 Queens Rd", 
+                        "lat": 35.19645057725133, 
+                        "lng": -80.82732006119038
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 421, 
+                        "usersCount": 113
+                    }, 
+                    "id": "4bdc7407c79cc9281a9d86e9", 
+                    "categories": [
+                        {
+                            "pluralName": "Libraries", 
+                            "primary": true, 
+                            "name": "Library", 
+                            "shortName": "Library", 
+                            "id": "4bf58dd8d48988d12f941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Russell's", 
+                    "contact": {
+                        "phone": "7048147837", 
+                        "formattedPhone": "(704) 814-7837"
+                    }, 
+                    "location": {
+                        "city": "Charlotte", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "28270", 
+                        "state": "NC", 
+                        "crossStreet": "Monroe Rd", 
+                        "address": "1609 Sardis Rd N", 
+                        "lat": 35.14037441659676, 
+                        "lng": -80.73955737737745
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 65, 
+                        "usersCount": 31
+                    }, 
+                    "id": "51aaa7e1498e5d776f23b8a3", 
+                    "categories": [
+                        {
+                            "pluralName": "Bars", 
+                            "primary": true, 
+                            "name": "Bar", 
+                            "shortName": "Bar", 
+                            "id": "4bf58dd8d48988d116941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/bar_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Septa: 56 bus at Devereaux", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Philadelphia", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "19135", 
+                        "state": "PA", 
+                        "crossStreet": "Torresdale", 
+                        "lat": 40.01964, 
+                        "lng": -75.055653
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 228, 
+                        "usersCount": 24
+                    }, 
+                    "id": "4c594ce8b05c1b8d5356d5b1", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Lines", 
+                            "primary": true, 
+                            "name": "Bus Line", 
+                            "shortName": "Bus", 
+                            "id": "4bf58dd8d48988d12b951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Syna's Sanctuary", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10037", 
+                        "state": "NY", 
+                        "lat": 40.80963503597877, 
+                        "lng": -73.93735122937228
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 43, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4faeae06e4b05b8b55fe4a54", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Family Dollar", 
+                    "url": "http://familydollar.com", 
+                    "storeId": "7150", 
+                    "contact": {
+                        "twitter": "myfamilydollar", 
+                        "facebook": "106245416086016"
+                    }, 
+                    "location": {
+                        "city": "Philadelphia", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "19124", 
+                        "state": "PA", 
+                        "address": "1500 E Erie Ave", 
+                        "lat": 40.00587857600413, 
+                        "lng": -75.0971214623979
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 136, 
+                        "usersCount": 32
+                    }, 
+                    "id": "4ef65d53e5fa4f286a954a8a", 
+                    "categories": [
+                        {
+                            "pluralName": "Department Stores", 
+                            "primary": true, 
+                            "name": "Department Store", 
+                            "shortName": "Department Store", 
+                            "id": "4bf58dd8d48988d1f6941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/departmentstore_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dr Lincoln Stolber", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Philadelphia", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "19135", 
+                        "state": "PA", 
+                        "address": "6101 Torresdale Ave", 
+                        "lat": 40.0184432, 
+                        "lng": -75.05770115
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4cb31ef6cbab236ad972b573", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "13 and Walnut Lunch truck", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Philadelphia", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "19107", 
+                        "state": "PA", 
+                        "address": "13th and Walnut", 
+                        "lat": 39.948793, 
+                        "lng": -75.161903
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 18, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4d5c093f524fa35dca2e4535", 
+                    "categories": [
+                        {
+                            "pluralName": "Food Trucks", 
+                            "primary": true, 
+                            "name": "Food Truck", 
+                            "shortName": "Food Truck", 
+                            "id": "4bf58dd8d48988d1cb941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/streetfood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Royal Bank America - Narberth", 
+                    "contact": {
+                        "phone": "6106684700", 
+                        "twitter": "spurtheeconomy", 
+                        "formattedPhone": "(610) 668-4700"
+                    }, 
+                    "location": {
+                        "city": "Narberth", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "19072", 
+                        "state": "PA", 
+                        "crossStreet": "Montgomery @ Woodbine", 
+                        "address": "732 Montgomery Ave", 
+                        "lat": 40.01024209, 
+                        "lng": -75.25709792
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 11, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4c05184b3846b7135a5ed7a3", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "M Street Beauty", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Philadelphia", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "19124", 
+                        "state": "PA", 
+                        "address": "3901-29 M St", 
+                        "lat": 40.006865, 
+                        "lng": -75.1000556
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 18, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4c742168ff1fb60c96a7f2a7", 
+                    "categories": [
+                        {
+                            "pluralName": "Salons / Barbershops", 
+                            "primary": true, 
+                            "name": "Salon / Barbershop", 
+                            "shortName": "Salon / Barbershop", 
+                            "id": "4bf58dd8d48988d110951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/salon_barber_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Parentals casa", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Philadelphia", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "PA", 
+                        "lat": 39.9754163553859, 
+                        "lng": -75.17204881855378
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 32, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4ccc4e6c7c2ff04d0341987e", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

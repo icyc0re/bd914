@@ -1,0 +1,86 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Panther Branch Vineyard", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Vineland", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "08361", 
+                        "state": "NJ", 
+                        "address": "2601 Cornucopia Ave", 
+                        "lat": 39.44415536, 
+                        "lng": -74.93928421
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 33, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4d151845cc216ea8a23961d3", 
+                    "categories": [
+                        {
+                            "pluralName": "Wineries", 
+                            "primary": true, 
+                            "name": "Winery", 
+                            "shortName": "Winery", 
+                            "id": "4bf58dd8d48988d14b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/winery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Sherwin-Williams", 
+                    "url": "http://www.sherwin-williams.com", 
+                    "storeId": "Thousand Oaks #8630", 
+                    "contact": {
+                        "phone": "8054962394", 
+                        "twitter": "sherwinwilliams", 
+                        "facebook": "309180132920", 
+                        "formattedPhone": "(805) 496-2394"
+                    }, 
+                    "location": {
+                        "city": "Thousand Oaks", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "91362-3204", 
+                        "state": "CA", 
+                        "address": "2994 E Thousand Oaks Blvd", 
+                        "lat": 34.16993769765422, 
+                        "lng": -118.8374425084428
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 3
+                    }, 
+                    "id": "507c811d00ca3bfe2a844f9a", 
+                    "categories": [
+                        {
+                            "pluralName": "Hardware Stores", 
+                            "primary": true, 
+                            "name": "Hardware Store", 
+                            "shortName": "Hardware", 
+                            "id": "4bf58dd8d48988d112951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/hardware_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

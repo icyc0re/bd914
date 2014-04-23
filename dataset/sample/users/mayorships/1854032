@@ -1,0 +1,125 @@
+{
+    "mayorships": {
+        "count": 4, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Converse Court", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Burlington", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "05401", 
+                        "state": "VT", 
+                        "lat": 44.482708, 
+                        "lng": -73.208523
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 66, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4fcb66c2e4b0499e2bf27a12", 
+                    "categories": [
+                        {
+                            "pluralName": "Roads", 
+                            "primary": true, 
+                            "name": "Road", 
+                            "shortName": "Road", 
+                            "id": "4bf58dd8d48988d1f9931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/highway_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lerner Hall - 5th Floor Conference Room", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "114th and Broadway", 
+                        "address": "2920 Broadway", 
+                        "lat": 40.806744110817625, 
+                        "lng": -73.96472001618591
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 20, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4cf3d6f57e93f04dd6575a69", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Marlboro Free Public Library", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Marlboro", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "07746", 
+                        "state": "NJ", 
+                        "address": "Library Ct", 
+                        "lat": 40.340655226423586, 
+                        "lng": -74.25181975949101
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4e7deb2d8b81e4f0913eb7c7", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Chez Maz", 
+                    "contact": {}, 
+                    "location": {
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "New Jersey", 
+                        "lat": 40.3409300352526, 
+                        "lng": -74.24727794872852
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 64, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4e1fb02d628469a57403f5fb", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

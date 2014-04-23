@@ -1,0 +1,459 @@
+{
+    "mayorships": {
+        "count": 12, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sports PT", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "address": "117 72nd Street", 
+                        "lat": 40.777852, 
+                        "lng": -73.979197
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 22, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4c4f0bf5ea24c9b68878b216", 
+                    "categories": [
+                        {
+                            "pluralName": "Sports Bars", 
+                            "primary": true, 
+                            "name": "Sports Bar", 
+                            "shortName": "Sports Bar", 
+                            "id": "4bf58dd8d48988d11d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/sportsbar_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Premier Physical Therapy & Wellness", 
+                    "contact": {
+                        "phone": "2122492758", 
+                        "twitter": "premierptny", 
+                        "formattedPhone": "(212) 249-2758"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "Between Columbus & Amsterdam", 
+                        "address": "132 W 96th St, Ofc 1A", 
+                        "lat": 40.793343710490795, 
+                        "lng": -73.96901607513428
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 26, 
+                        "usersCount": 4
+                    }, 
+                    "id": "5162fb843950bc8dd699736c", 
+                    "categories": [
+                        {
+                            "pluralName": "Medical Centers", 
+                            "primary": true, 
+                            "name": "Medical Center", 
+                            "shortName": "Medical", 
+                            "id": "4bf58dd8d48988d104941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Eric Barbershop", 
+                    "contact": {
+                        "phone": "2126632370", 
+                        "formattedPhone": "(212) 663-2370"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "106th Street", 
+                        "address": "935-A Columbus Ave.", 
+                        "lat": 40.79912483427212, 
+                        "lng": -73.9629636626862
+                    }, 
+                    "stats": {
+                        "tipCount": 4, 
+                        "checkinsCount": 215, 
+                        "usersCount": 45
+                    }, 
+                    "id": "4e31ab57ae6085c3ad1d7d0f", 
+                    "categories": [
+                        {
+                            "pluralName": "Salons / Barbershops", 
+                            "primary": true, 
+                            "name": "Salon / Barbershop", 
+                            "shortName": "Salon / Barbershop", 
+                            "id": "4bf58dd8d48988d110951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/salon_barber_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Restaurante Ramos (Comida Salvadore\u00f1a)", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10026", 
+                        "state": "NY", 
+                        "address": "370 W 118th St", 
+                        "lat": 40.80675501369145, 
+                        "lng": -73.95710329560518
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 28, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4f627812e4b08b476d942b03", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Operation HOPE", 
+                    "contact": {
+                        "phone": "9174772800", 
+                        "formattedPhone": "(917) 477-2800"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10030", 
+                        "state": "NY", 
+                        "crossStreet": "134th", 
+                        "address": "2511 Frederick Douglass Blvd", 
+                        "lat": 40.8159233, 
+                        "lng": -73.946907
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 38, 
+                        "usersCount": 23
+                    }, 
+                    "id": "4c0ea61298102d7f4400e406", 
+                    "categories": [
+                        {
+                            "pluralName": "Event Spaces", 
+                            "primary": true, 
+                            "name": "Event Space", 
+                            "shortName": "Event Space", 
+                            "id": "4bf58dd8d48988d171941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/eventspace_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "39 Claremont Ave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "39 Claremont Ave", 
+                        "lat": 40.80993, 
+                        "lng": -73.963708
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 39, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4cedca4662ef6dcbfd10f559", 
+                    "categories": [
+                        {
+                            "pluralName": "Universities", 
+                            "primary": true, 
+                            "name": "University", 
+                            "shortName": "University", 
+                            "id": "4bf58dd8d48988d1ae941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Orange Peel", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/the-orange-peel/4ebeff59b803bca7dde8f541/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4ebeff59b803bca7dde8f541/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "delivery": {
+                        "url": "http://www.seamless.com/food-delivery/restaurant.20746.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", 
+                        "provider": {
+                            "name": "seamless"
+                        }
+                    }, 
+                    "contact": {
+                        "phone": "2125108444", 
+                        "formattedPhone": "(212) 510-8444"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10026", 
+                        "state": "NY", 
+                        "crossStreet": "116 & 117 St", 
+                        "address": "390 Manhattan Ave", 
+                        "lat": 40.805443, 
+                        "lng": -73.956584
+                    }, 
+                    "stats": {
+                        "tipCount": 4, 
+                        "checkinsCount": 122, 
+                        "usersCount": 78
+                    }, 
+                    "id": "4ebeff59b803bca7dde8f541", 
+                    "categories": [
+                        {
+                            "pluralName": "Restaurants", 
+                            "primary": true, 
+                            "name": "Restaurant", 
+                            "shortName": "Restaurant", 
+                            "id": "4bf58dd8d48988d1c4941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Jeremy's Cottage", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Wheatley", 
+                        "cc": "CA", 
+                        "country": "Canada", 
+                        "state": "ON", 
+                        "address": "Clark Line", 
+                        "lat": 42.121825, 
+                        "lng": -82.392082
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4e21f780483b041af1f2e130", 
+                    "categories": [
+                        {
+                            "pluralName": "Resorts", 
+                            "primary": true, 
+                            "name": "Resort", 
+                            "shortName": "Resort", 
+                            "id": "4bf58dd8d48988d12f951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/resort_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Laundromat", 
+                    "contact": {
+                        "phone": "2128664553", 
+                        "formattedPhone": "(212) 866-4553"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10026", 
+                        "state": "NY", 
+                        "address": "W 115th St, New York, NY", 
+                        "lat": 40.803396072630946, 
+                        "lng": -73.95600122824496
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 31, 
+                        "usersCount": 17
+                    }, 
+                    "id": "4f22c4d5e4b0020c2d00f6ea", 
+                    "categories": [
+                        {
+                            "pluralName": "Laundry Services", 
+                            "primary": true, 
+                            "name": "Laundry Service", 
+                            "shortName": "Laundry", 
+                            "id": "4bf58dd8d48988d1fc941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dr. Joseph Huang", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.8748473, 
+                        "cc": "US", 
+                        "lng": -73.9045445, 
+                        "state": "New York", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4e666f14b0fbcccec217238e", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Helen Court", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10026", 
+                        "state": "NY", 
+                        "crossStreet": "115th street", 
+                        "address": "14 Morningside Ave", 
+                        "lat": 40.805029, 
+                        "lng": -73.958045
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 241, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4cbe7acdca4aa1cd82a514b4", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Zipcar W 118 St", 
+                    "contact": {
+                        "twitter": "zipcar"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10026", 
+                        "state": "NY", 
+                        "address": "279 West 117th Street", 
+                        "lat": 40.805718739666396, 
+                        "lng": -73.95429071540643
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4bf0a3b31f17ef3bb9cf9bc8", 
+                    "categories": [
+                        {
+                            "pluralName": "General Travel", 
+                            "primary": true, 
+                            "name": "General Travel", 
+                            "shortName": "Travel", 
+                            "id": "4bf58dd8d48988d1f6931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

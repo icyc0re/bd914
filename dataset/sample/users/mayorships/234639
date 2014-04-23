@@ -1,0 +1,132 @@
+{
+    "mayorships": {
+        "count": 4, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Doc  Salyers's Pad", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Astoria", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.77226863280218, 
+                        "lng": -73.93010370763156
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 34, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4f419b2fe4b0f4e3fc5f469e", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Saigon River", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 10.775654651929553, 
+                        "cc": "VN", 
+                        "lng": 106.70695662639052, 
+                        "country": "Vietnam"
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 495, 
+                        "usersCount": 301
+                    }, 
+                    "id": "501df894e4b0efa1ec1c4d98", 
+                    "categories": [
+                        {
+                            "pluralName": "Rivers", 
+                            "primary": true, 
+                            "name": "River", 
+                            "shortName": "River", 
+                            "id": "4eb1d4dd4b900d56c88a45fd", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/river_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Camp Iroquois Springs", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Rock Hill", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 41.62696064682428, 
+                        "lng": -74.57650344407432
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 369, 
+                        "usersCount": 198
+                    }, 
+                    "id": "4e52b827d1643fe9163efc6d", 
+                    "categories": [
+                        {
+                            "pluralName": "Campgrounds", 
+                            "primary": true, 
+                            "name": "Campground", 
+                            "shortName": "Campground", 
+                            "id": "4bf58dd8d48988d1e4941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/campground_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Downtown Boathouse - 72nd Street", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "& Hudson River", 
+                        "address": "72nd Street", 
+                        "lat": 40.781253105649355, 
+                        "lng": -73.98434875949755
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 35, 
+                        "usersCount": 33
+                    }, 
+                    "id": "4abe2b4cf964a520d08b20e3", 
+                    "categories": []
+                }
+            }
+        ]
+    }
+}

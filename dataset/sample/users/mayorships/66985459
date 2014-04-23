@@ -1,0 +1,96 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Banana Republic", 
+                    "url": "http://t.co/wG8IDnRjt9", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2074519011", 
+                        "twitter": "bananarepublic", 
+                        "formattedPhone": "(207) 451-9011"
+                    }, 
+                    "location": {
+                        "city": "Kittery", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "03904", 
+                        "state": "ME", 
+                        "crossStreet": "KITTERY PREMIUM", 
+                        "address": "325 US Route 1", 
+                        "lat": 43.11407936406256, 
+                        "lng": -70.73259830474854
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 884, 
+                        "usersCount": 671
+                    }, 
+                    "id": "4b786dbef964a52089cd2ee3", 
+                    "categories": [
+                        {
+                            "pluralName": "Clothing Stores", 
+                            "primary": true, 
+                            "name": "Clothing Store", 
+                            "shortName": "Apparel", 
+                            "id": "4bf58dd8d48988d103951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ipswich Sports Bar & Grill", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/ipswich-sports-bar--grill/4b109ce8f964a520cf7323e3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4b109ce8f964a520cf7323e3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "9783567444", 
+                        "formattedPhone": "(978) 356-7444"
+                    }, 
+                    "location": {
+                        "city": "Ipswich", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "01938", 
+                        "state": "MA", 
+                        "address": "Hammatt St.", 
+                        "lat": 42.679333916666664, 
+                        "lng": -70.840684
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 458, 
+                        "usersCount": 152
+                    }, 
+                    "id": "4b109ce8f964a520cf7323e3", 
+                    "categories": [
+                        {
+                            "pluralName": "American Restaurants", 
+                            "primary": true, 
+                            "name": "American Restaurant", 
+                            "shortName": "American", 
+                            "id": "4bf58dd8d48988d14e941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Tierra Mia Coffee", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Lynwood", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "90262", 
+                        "state": "CA", 
+                        "address": "11004 Atlantic Ave", 
+                        "lat": 33.930171782717615, 
+                        "lng": -118.18341333664696
+                    }, 
+                    "stats": {
+                        "tipCount": 10, 
+                        "checkinsCount": 293, 
+                        "usersCount": 136
+                    }, 
+                    "id": "524b969a11d2c949b514bd2a", 
+                    "categories": [
+                        {
+                            "pluralName": "Coffee Shops", 
+                            "primary": true, 
+                            "name": "Coffee Shop", 
+                            "shortName": "Coffee Shop", 
+                            "id": "4bf58dd8d48988d1e0931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

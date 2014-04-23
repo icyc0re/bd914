@@ -1,0 +1,42 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Homme Barbershop", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Wilmington", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "DE", 
+                        "address": "223 Lower Market St.", 
+                        "lat": 39.73950846393006, 
+                        "lng": -75.55196366664312
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 10, 
+                        "usersCount": 5
+                    }, 
+                    "id": "514df599e4b0fb271409c95b", 
+                    "categories": [
+                        {
+                            "pluralName": "Salons / Barbershops", 
+                            "primary": true, 
+                            "name": "Salon / Barbershop", 
+                            "shortName": "Salon / Barbershop", 
+                            "id": "4bf58dd8d48988d110951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/salon_barber_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
