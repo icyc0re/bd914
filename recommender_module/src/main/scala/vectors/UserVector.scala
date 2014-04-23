@@ -68,5 +68,5 @@ class UserVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet])
  * User vector companion object, use it to specify global operations on user vectors
  */
 object UserVector {
-  def homeCity(city: String): BooleanFeature = BooleanFeature(Cons.HOME_CITY, city.toLowerCase == "new york")
+  def homeCity(city: String): BooleanFeature = BooleanFeature(Cons.HOME_CITY, city.toLowerCase == "new york" || city.toLowerCase == "ny")
 }
