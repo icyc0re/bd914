@@ -21,10 +21,15 @@ object RecommenderApp {
     // get venue features
     val v : Seq[VenueVector] = new VenueInputProcessor().processInDir("../dataset/sample/venues/")
     // get user features
-    val u : Seq[UserVector] = new UserInputProcessor().processInDir("../dataset/sample/users/")
+    //val u : Seq[UserVector] = new UserInputProcessor().processInDir("../dataset/sample/users/")
+    // get users
+    val users : Seq[User] = new UserInputProcessor().processUsersInDir("../dataset/sample/users/")
+    
+    val topKVenues = users(0).getTopKVenues(5, v)
     // apply venue features to user vector
-    val newUsers = u.map((x:UserVector) => x.applyVenues(v))
+    //val newUsers = u.map((x:UserVector) => x.applyVenues(v))
     println(v)
-    println(u)
+    //println(u)
+    println(topKVenues)
   }
 }

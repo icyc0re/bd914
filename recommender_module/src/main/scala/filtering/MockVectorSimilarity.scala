@@ -20,6 +20,18 @@ object MockVectorSimilarity extends VectorSimilarity {
       case (x, y) => calculateSimilarity(x, y)
     }
   }
+  
+  /**
+   * Get the similarity between a vector and a collection of vectors
+   * @param vec vector
+   * @param col collection of vectors
+   * @return list of similarities between vectors
+   */
+  def calculateSimilarity(vec: AbstractVector, col: Seq[AbstractVector]): Seq[Double] = {
+    col.map { 
+      s => calculateSimilarity(s, vec)
+    }
+  }
 
   /**
    * Get the similarity between two vectors

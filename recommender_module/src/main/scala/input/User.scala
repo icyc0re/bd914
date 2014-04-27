@@ -1,6 +1,7 @@
 package input
 
 import scala.util.parsing.json.JSON
+import collection.JavaConversions._
 import scala.collection.mutable.ListBuffer
 import vectors.UserVector
 import utils.Cons
@@ -9,6 +10,9 @@ import features.GenderFeature
 import features.TextFeature
 import java.nio.file.Files
 import java.nio.file.Paths
+import vectors.VenueVector
+import filtering.MockVectorSimilarity
+import scala.collection.mutable.HashSet
 
 case class Checkins(count: Double)
 
@@ -119,6 +123,31 @@ class User(jsonString: String) {
     })
     
     interactionsList.toList
+  }
+  
+  def getTopKVenues(k : Int, allVenueVectors: Seq[VenueVector]): Seq[String] = {
+    val interactedVenues : HashSet[String] = new HashSet[String]
+    interactedVenues ++= (readInteractions(id, "mayorships"))
+    interactedVenues ++= (readInteractions(id, "photos"))
+    interactedVenues ++= (readInteractions(id, "tips"))
+    
+    // TODO fix this
+    val userVenueVectors : Seq[VenueVector] = allVenueVectors.filter(x => interactedVenues.contains(x.getFeatureValue(Cons.VENUE_ID).get))
+    
+    val userVector : UserVector = User.featureVector(this)
+    userVector.applyVenues(userVenueVectors.toSeq)
+    
+    val similarities : Seq[Double]  = MockVectorSimilarity.calculateSimilarity(userVector, allVenueVectors)
+    
+    val seq = (userVenueVectors).zip(similarities)
+    
+    val sortedSeq : Seq[(VenueVector, Double)] = seq.sortWith((e1, e2) => (e1._2 compareTo e2._2) < 0)
+    
+    val topKVenueVectors : Seq[String] = sortedSeq.splitAt(k)._1.collect{
+        case (x : (VenueVector, Double)) => x._1.getFeatureValue(Cons.VENUE_ID).get
+    }
+    
+	return topKVenueVectors
   }
 }
 
