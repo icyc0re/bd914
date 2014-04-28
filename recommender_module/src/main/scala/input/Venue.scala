@@ -243,7 +243,7 @@ println(map)*/
     	JSvenue match {
 	  		case s: JsSuccess[VenueCompact] => s.get.asInstanceOf[VenueCompact]
 	 		case e: JsError => VenueCompact(None , "JsError", "JsError", None, VenueStats(-1,None,None), None, None, None, None,
-	 										None, List[Nothing](), None, None, None, None, None, None, None)
+        None, List[Nothing](), None, None, None, None, None, None, None, None)
 		}
 	}
 
@@ -327,22 +327,20 @@ object Venue{
    */
   def featureVector(v: Venue):VenueVector = {
     val features = List(
-      IntFeature(Cons.CHECKINS_COUNT, v.venue.stats.checkinsCount),
-      IntFeature(Cons.TIP_COUNT, v.venue.stats.tipCount.get),
-      IntFeature(Cons.USERS_COUNT, v.venue.stats.usersCount.get),
-      TextFeature(Cons.VENUE_ID, v.venue.id),
-      CoordinatesFeature(Cons.GPS_COORDINATES, (v.venue.location.get.lat.get, v.venue.location.get.lng.get))
+//      IntFeature(Cons.CHECKINS_COUNT, v.venue.stats.checkinsCount),
+//      IntFeature(Cons.TIP_COUNT, v.venue.stats.tipCount.get),
+//      IntFeature(Cons.USERS_COUNT, v.venue.stats.usersCount.get),
+//      TextFeature(Cons.VENUE_ID, v.venue.id),
+      IntFeature(Cons.POPULARITY, v.venue.stats.checkinsCount
+          + v.venue.stats.tipCount.get),
+        CoordinatesFeature(Cons.GPS_COORDINATES, (v.venue.location.get.lat.get, v.venue.location.get.lng.get))
     )
     new VenueVector(features, null)
   }
   
-  // Return a dummy test venue vector seq
-  def getDummyVenue():Seq[VenueVector] = {
-    return Seq(
-        new VenueVector(List(
-            CategoryFeature(Cons.CATEGORY, List(Context.categories(0))), // User selected that he only wants Food or Nightlife venues
-            PriceFeature(Cons.PRICE, new VenuePrice(Option(1), Option("Cheap food"), Option("USD"))) // user selected he wants cheap locations
-        ), null)
-    )
+  def compute_popularity(checkinsCount: Double, 
+      tipsCount: Double, usersCount: Double): Double = {
+    
+    checkinsCount + tipsCount + usersCount
   }
 }

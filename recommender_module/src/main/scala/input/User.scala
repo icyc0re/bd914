@@ -8,8 +8,8 @@ import utils.Cons
 import features.DoubleFeature
 import features.GenderFeature
 import features.TextFeature
-import java.nio.file.Files
-import java.nio.file.Paths
+//import java.nio.file.Files
+//import java.nio.file.Paths
 import vectors.VenueVector
 import filtering.MockVectorSimilarity
 import scala.collection.mutable.HashSet
@@ -168,6 +168,7 @@ class User(jsonString: String) {
     
 	return topKVenueVectors
   }
+
 }
 
 object User {

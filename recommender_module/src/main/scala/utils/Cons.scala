@@ -21,4 +21,8 @@ object Cons {
   val PRICE    = "venue.price"
   val GPS_COORDINATES = "gps_coordinates"
   val POPULARITY = "popularity"
+  
+  val FEATURE_RATING = "Rating"//Name given to the feature containing the rating of a venue. This feature is added during the similarity computation phase
 }
+
+
