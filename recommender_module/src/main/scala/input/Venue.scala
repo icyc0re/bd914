@@ -7,7 +7,8 @@ import play.api.libs.functional.syntax._
 import features.{TextFeature, IntFeature}
 import utils.Cons
 import vectors.VenueVector
-import features.CoordinatesFeature
+import features._
+import context.Context
 
 /**
  * @author Matteo Pagliardini
@@ -333,5 +334,15 @@ object Venue{
       CoordinatesFeature(Cons.GPS_COORDINATES, (v.venue.location.get.lat.get, v.venue.location.get.lng.get))
     )
     new VenueVector(features, null)
+  }
+  
+  // Return a dummy test venue vector seq
+  def getDummyVenue():Seq[VenueVector] = {
+    return Seq(
+        new VenueVector(List(
+            CategoryFeature(Cons.CATEGORY, List(Context.categories(0))), // User selected that he only wants Food or Nightlife venues
+            PriceFeature(Cons.PRICE, new VenuePrice(Option(1), Option("Cheap food"), Option("USD"))) // user selected he wants cheap locations
+        ), null)
+    )
   }
 }
