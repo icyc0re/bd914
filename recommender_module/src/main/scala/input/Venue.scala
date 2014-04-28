@@ -237,34 +237,47 @@ println(map)*/
       (JsPath \ "venue" \ "location").readNullable[VenueLocation]
     )(VenueCompact.apply _)
 
-  var venue: VenueCompact = jsonFile.validate[VenueCompact](venueCompactRead).get
+  val venue : VenueCompact  = {
+		var JSvenue: JsResult[VenueCompact] = jsonFile.validate[VenueCompact](venueCompactRead)
+    	JSvenue match {
+	  		case s: JsSuccess[VenueCompact] => s.get.asInstanceOf[VenueCompact]
+	 		case e: JsError => VenueCompact(None , "JsError", "JsError", None, VenueStats(-1,None,None), None, None, None, None,
+	 										None, List[Nothing](), None, None, None, None, None, None, None)
+		}
+	}
 
   /**
-   * Display the features in a nice form
-   */
-  /*
+  * Display the features in a nice form / Show some examples on how to access the data
+  */
   def displayFeatures() {
   	println("\n****************************************************")
   	println(  "VENUE : "+venue.id)
   	println(  "****************************************************\n")
 	println(  "\n-------------- Basic info : ")
 	println(  "name := "+venue.name)
-	println(  "url := "+venue.url)
-	println(  "likes := "+venue.likes)
-	println(  "rating := "+venue.rating)
-	println(  "verified := "+venue.verified)
+	venue.url match {	//A lot of the venue data is optional so the reader will not crash each time he doesn't find a feature 
+						//more on Option type here : http://danielwestheide.com/blog/2012/12/19/the-neophytes-guide-to-scala-part-5-the-option-type.html
+						//one way to access the data is using pattern matching : 
+		case Some(url) => println(  "url := "+ url)
+		case None => {}
+	}
+	venue.likes match { case Some(likes) => println(  "likes := "+ likes); case None => {}}
+	venue.rating match { case Some(rating) => println(  "rating := "+ rating); case None => {}}
+	venue.verified match { case Some(verified) => println(  "verified := "+ verified); case None => {}}
+	
 	println(  "\n-------------- Stats : ")
 	println(  "checkinsCount := "+venue.stats.checkinsCount)
-	println(  "tipCount := "+venue.stats.tipCount)
+	println(  "tipCount := "+venue.stats.tipCount.getOrElse("None")) //another simple way is to use getOrElse(default value) 
 	println(  "\n-------------- Price : ")
 	if(venue.price != None){
-		println(  "tier := "+venue.price.tier)
-		println(  "message := "+venue.price.message)
-		println(  "currency := "+venue.price.currency)
+		//val price = venue.price.getOrElse(Non)
+		//println(  "tier := "+venue.price.getOrElse("None").tier.getOrElse("None"))
+		//println(  "message := "+venue.price.message)
+		//println(  "currency := "+venue.price.currency)
 	} else{
 		println(  "None")
 	}
-	println(  "\n-------------- Reasons : ")
+	/*println(  "\n-------------- Reasons : ")
 	if(venue.reasons != None){
 		println(  "count := "+venue.reasons.count)
 		println(  "Wait ! There is more, look by yourself ...")
@@ -299,10 +312,10 @@ println(map)*/
 	} else{
 		println(  "None")
 	}
-	println(  "\nAnd even more stuff like hours / photos / tips / phrases ... !!! ")
+	println(  "\nAnd even more stuff like hours / photos / tips / phrases ... !!! ")*/
 	println("\n****************************************************")
   	println(  "****************************************************\n")
-  }*/
+  }
 }
 
 object Venue{
