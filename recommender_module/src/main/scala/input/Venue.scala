@@ -1,14 +1,13 @@
 package input
 
 import utils.Cons
-
-
 import play.api.libs.json._
 import play.api.libs.json.Reads._
 import play.api.libs.functional.syntax._
 import features.{TextFeature, IntFeature}
 import utils.Cons
 import vectors.VenueVector
+import features.CoordinatesFeature
 
 /**
  * @author Matteo Pagliardini
@@ -17,8 +16,8 @@ case class VenueContact(twitter: Option[String], facebook: Option[String], phone
 
 case class VenueStats(checkinsCount: Int, usersCount: Option[Int], tipCount: Option[Int])
 
-case class VenueLocation(address: Option[String], crossStreet: Option[String], city: Option[String],
-                         state: Option[String], postalCode: Option[String], lat: Option[Double], lng: Option[Double])
+case class VenueLocation(city: Option[String], cc: Option[String], state: Option[String],
+                          lat: Option[Double], lng: Option[Double])
 
 case class VenueCategory(id: Option[String], name: String, pluralName: Option[String], shortName: Option[String],
                          primary: Option[Boolean])
@@ -66,7 +65,7 @@ case class VenueCompact(categories: Option[List[VenueCategory]], id: String, nam
                         price: Option[VenuePrice], likes: Option[Int], rating: Option[Int], reasons: Option[VenueReasons],
                         mayor: Option[VenueMayor], tags: List[String], contact: Option[VenueContact], attributes: Option[VenueAttributes],
                         hours: Option[VenueHours], verified: Option[Boolean], photos: Option[VenuePhotos], tips: Option[VenueTips],
-                        phrases: Option[List[VenuePhrases]])
+                        phrases: Option[List[VenuePhrases]], location: Option[VenueLocation])
 
 class Venue(jsonString: String) {
   val jsonFile: JsValue = Json.parse(jsonString)
@@ -207,6 +206,14 @@ println(map)*/
     (__ \ "count").readNullable[Int] and
       (__ \ "items").readNullable[List[VenueReasonsItem]]
     )(VenueReasons.apply _)
+    
+   implicit val VenueLocationRead: Reads[VenueLocation] = (
+       (__ \ "city").readNullable[String] and
+       (__ \ "cc").readNullable[String] and
+       (__ \ "state").readNullable[String] and       
+       (__ \ "lat").readNullable[Double] and
+      (__ \ "lng").readNullable[Double]
+    )(VenueLocation.apply _)
 
   implicit val venueCompactRead: Reads[VenueCompact] = (
     (JsPath \ "venue" \ "categories").readNullable[List[VenueCategory]] and
@@ -226,37 +233,51 @@ println(map)*/
       (JsPath \ "venue" \ "verified").readNullable[Boolean] and
       (JsPath \ "venue" \ "photos").readNullable[VenuePhotos] and
       (JsPath \ "venue" \ "tips").readNullable[VenueTips] and
-      (JsPath \ "venue" \ "phrases").readNullable[List[VenuePhrases]]
+      (JsPath \ "venue" \ "phrases").readNullable[List[VenuePhrases]] and
+      (JsPath \ "venue" \ "location").readNullable[VenueLocation]
     )(VenueCompact.apply _)
 
-  var venue: VenueCompact = jsonFile.validate[VenueCompact](venueCompactRead).get
+  val venue : VenueCompact  = {
+		var JSvenue: JsResult[VenueCompact] = jsonFile.validate[VenueCompact](venueCompactRead)
+    	JSvenue match {
+	  		case s: JsSuccess[VenueCompact] => s.get.asInstanceOf[VenueCompact]
+	 		case e: JsError => VenueCompact(None , "JsError", "JsError", None, VenueStats(-1,None,None), None, None, None, None,
+	 										None, List[Nothing](), None, None, None, None, None, None, None)
+		}
+	}
 
   /**
-   * Display the features in a nice form
-   */
-  /*
+  * Display the features in a nice form / Show some examples on how to access the data
+  */
   def displayFeatures() {
   	println("\n****************************************************")
   	println(  "VENUE : "+venue.id)
   	println(  "****************************************************\n")
 	println(  "\n-------------- Basic info : ")
 	println(  "name := "+venue.name)
-	println(  "url := "+venue.url)
-	println(  "likes := "+venue.likes)
-	println(  "rating := "+venue.rating)
-	println(  "verified := "+venue.verified)
+	venue.url match {	//A lot of the venue data is optional so the reader will not crash each time he doesn't find a feature 
+						//more on Option type here : http://danielwestheide.com/blog/2012/12/19/the-neophytes-guide-to-scala-part-5-the-option-type.html
+						//one way to access the data is using pattern matching : 
+		case Some(url) => println(  "url := "+ url)
+		case None => {}
+	}
+	venue.likes match { case Some(likes) => println(  "likes := "+ likes); case None => {}}
+	venue.rating match { case Some(rating) => println(  "rating := "+ rating); case None => {}}
+	venue.verified match { case Some(verified) => println(  "verified := "+ verified); case None => {}}
+	
 	println(  "\n-------------- Stats : ")
 	println(  "checkinsCount := "+venue.stats.checkinsCount)
-	println(  "tipCount := "+venue.stats.tipCount)
+	println(  "tipCount := "+venue.stats.tipCount.getOrElse("None")) //another simple way is to use getOrElse(default value) 
 	println(  "\n-------------- Price : ")
 	if(venue.price != None){
-		println(  "tier := "+venue.price.tier)
-		println(  "message := "+venue.price.message)
-		println(  "currency := "+venue.price.currency)
+		//val price = venue.price.getOrElse(Non)
+		//println(  "tier := "+venue.price.getOrElse("None").tier.getOrElse("None"))
+		//println(  "message := "+venue.price.message)
+		//println(  "currency := "+venue.price.currency)
 	} else{
 		println(  "None")
 	}
-	println(  "\n-------------- Reasons : ")
+	/*println(  "\n-------------- Reasons : ")
 	if(venue.reasons != None){
 		println(  "count := "+venue.reasons.count)
 		println(  "Wait ! There is more, look by yourself ...")
@@ -291,10 +312,10 @@ println(map)*/
 	} else{
 		println(  "None")
 	}
-	println(  "\nAnd even more stuff like hours / photos / tips / phrases ... !!! ")
+	println(  "\nAnd even more stuff like hours / photos / tips / phrases ... !!! ")*/
 	println("\n****************************************************")
   	println(  "****************************************************\n")
-  }*/
+  }
 }
 
 object Venue{
@@ -308,7 +329,8 @@ object Venue{
       IntFeature(Cons.CHECKINS_COUNT, v.venue.stats.checkinsCount),
       IntFeature(Cons.TIP_COUNT, v.venue.stats.tipCount.get),
       IntFeature(Cons.USERS_COUNT, v.venue.stats.usersCount.get),
-      TextFeature(Cons.VENUE_ID, v.venue.id)
+      TextFeature(Cons.VENUE_ID, v.venue.id),
+      CoordinatesFeature(Cons.GPS_COORDINATES, (v.venue.location.get.lat.get, v.venue.location.get.lng.get))
     )
     new VenueVector(features, null)
   }

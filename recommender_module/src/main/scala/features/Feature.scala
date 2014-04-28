@@ -18,7 +18,7 @@ case class BooleanFeature(k:String, v:Boolean) extends Feature[String, Boolean](
 case class GenderFeature(k:String, v:Gender) extends Feature[String, Gender](k, v)
 case class CategoryFeature(k:String, v:List[VenueCategory]) extends Feature[String, List[VenueCategory]](k, v)
 case class PriceFeature(k:String, v:VenuePrice) extends Feature[String, VenuePrice](k, v)
-
+case class CoordinatesFeature(k:String, v:(Double, Double)) extends Feature[String, (Double, Double)](k, v)
 
 abstract class Feature[+K, +V](k:K, v:V){
   val key:K = k

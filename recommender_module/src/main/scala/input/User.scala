@@ -13,6 +13,7 @@ import java.nio.file.Paths
 import vectors.VenueVector
 import filtering.MockVectorSimilarity
 import scala.collection.mutable.HashSet
+import features.CoordinatesFeature
 
 case class Checkins(count: Double)
 
@@ -20,10 +21,14 @@ case class Contact(twitter: Option[String], facebook: Option[String], phone: Opt
 
 case class Interactions(count: Double, items: List[String])
 
+case class Friends(count: Double, items: List[String])
+
 object Gender extends Enumeration {
   type Gender = Value
   val male, female, none = Value
 }
+
+case class GPSCoordinates(lat : Double, lon: Double)
 
 class User(jsonString: String) {
 
@@ -44,25 +49,25 @@ class User(jsonString: String) {
   val checkins = Checkins(_checkins("count").asInstanceOf[Double])
 
   //social networks
-  val _contact: Map[String, String] = user("contact").asInstanceOf[Map[String, String]]
+  private val _contact: Map[String, String] = user("contact").asInstanceOf[Map[String, String]]
   val contact = Contact(_contact.get("twitter"), _contact.get("facebook"), _contact.get("phone"), _contact.get("email"))
 
   //partial list of friends
-  private val friends: Map[String, Any] = user("friends").asInstanceOf[Map[String, Any]]
-  private val groups: List[Any] = friends("groups").asInstanceOf[List[Any]]
+  private val _friends: Map[String, Any] = user("friends").asInstanceOf[Map[String, Any]]
+  private val groups: List[Any] = _friends("groups").asInstanceOf[List[Any]]
   var friendsList = new ListBuffer[String]
   var friendsCount: Double = 0
   
   //interactions
   	//mayorships
   private val _mayorships: Map[String, Any] = user("mayorships").asInstanceOf[Map[String, Any]]
-  val mayorships = Interactions (_mayorships("count").asInstanceOf[Double], readInteractions(id, "mayorships"))
+  val mayorships = Interactions (_mayorships("count").asInstanceOf[Double], readInteractions("mayorships"))
 	//photos
   private val _photos: Map[String, Any] = user("photos").asInstanceOf[Map[String, Any]]
-  val photos = Interactions (_photos("count").asInstanceOf[Double], readInteractions(id, "photos"))
+  val photos = Interactions (_photos("count").asInstanceOf[Double], readInteractions("photos"))
 	//tips
   private val _tips: Map[String, Any] = user("tips").asInstanceOf[Map[String, Any]]
-  val tips = Interactions (_tips("count").asInstanceOf[Double], readInteractions(id, "tips"))
+  val tips = Interactions (_tips("count").asInstanceOf[Double], readInteractions("tips"))
   	//all interactions
   val interactions = Interactions (mayorships.count+photos.count+tips.count, mayorships.items ++ photos.items ++ tips.items) 
 
@@ -72,7 +77,7 @@ class User(jsonString: String) {
 
   groups.foreach(group => {
     val grp: Map[String, Any] = group.asInstanceOf[Map[String, Any]]
-    friendsCount = grp("count").asInstanceOf[Double]
+    friendsCount += grp("count").asInstanceOf[Double]
     val items: List[Any] = grp("items").asInstanceOf[List[Any]]
     items.foreach(item => {
       val it: Map[String, Any] = item.asInstanceOf[Map[String, Any]]
@@ -81,6 +86,7 @@ class User(jsonString: String) {
     })
   })
 
+  val friends = Friends(friendsCount, friendsList.toList)
 
   def canEqual(other: Any): Boolean = other.isInstanceOf[User]
 
@@ -101,9 +107,9 @@ class User(jsonString: String) {
    * @param user user id
    * @return list of venues associated with the interaction
    */
-  def readInteractions(user: String, interaction_type: String): List[String] = {
+  def readInteractions(interaction_type: String): List[String] = {
     //TODO: change absolute path
-    val interaction_path : String = "../dataset/sample/users/"+interaction_type+"/"+user
+    val interaction_path : String = "../dataset/sample/users/"+interaction_type+"/"+id
     //check that interaction exists
     if(!new java.io.File(interaction_path).exists)
         return List.empty
@@ -125,14 +131,27 @@ class User(jsonString: String) {
     interactionsList.toList
   }
   
+  def getGPSCenter(): (Double, Double) = {
+
+    var lat: Double = 0
+    var lng: Double = 0
+    
+    for( interaction <- interactions.items){
+      //get venue gps location
+      val venue_path: String = "../dataset/sample/venues/"+interaction
+      val jsonString = scala.io.Source.fromFile(venue_path).mkString
+      val venue = new Venue(jsonString)
+      lat += venue.venue.location.get.lat.get
+      lng += venue.venue.location.get.lng.get
+    }
+    
+    (lat / interactions.count, lng / interactions.count)
+  }
+  
   def getTopKVenues(k : Int, allVenueVectors: Seq[VenueVector]): Seq[String] = {
-    val interactedVenues : HashSet[String] = new HashSet[String]
-    interactedVenues ++= (readInteractions(id, "mayorships"))
-    interactedVenues ++= (readInteractions(id, "photos"))
-    interactedVenues ++= (readInteractions(id, "tips"))
     
     // TODO fix this
-    val userVenueVectors : Seq[VenueVector] = allVenueVectors.filter(x => interactedVenues.contains(x.getFeatureValue(Cons.VENUE_ID).get))
+    val userVenueVectors : Seq[VenueVector] = allVenueVectors.filter(x => interactions.items.contains(x.getFeatureValue(Cons.VENUE_ID).get))
     
     val userVector : UserVector = User.featureVector(this)
     userVector.applyVenues(userVenueVectors.toSeq)
@@ -154,14 +173,22 @@ class User(jsonString: String) {
 object User {
   def featureVector(u: User): UserVector = {
     val features = List(
-      DoubleFeature(Cons.USER_CHECKINS, u.checkins.count),
-      DoubleFeature(Cons.TIP_COUNT, u.tips.count),
-      GenderFeature(Cons.GENDER, u.gender),
-      UserVector.homeCity(u.homeCity),
-      TextFeature(Cons.USER_ID, u.id)
+        //TODO: use some of commented features
+//      DoubleFeature(Cons.USER_CHECKINS, u.checkins.count),
+//      DoubleFeature(Cons.TIP_COUNT, u.tips.count),
+//      GenderFeature(Cons.GENDER, u.gender),
+//      UserVector.homeCity(u.homeCity),
+//      TextFeature(Cons.USER_ID, u.id),
+      CoordinatesFeature(Cons.GPS_COORDINATES, u.getGPSCenter()),
+      DoubleFeature(Cons.POPULARITY, compute_popularity(u.friends.count, u.interactions.count))
       //TODO: use different weights for the different types of interactions
     )
     new UserVector(features, null)
+  }
+  
+  def compute_popularity(friendsCount: Double, interactionsCount: Double): Double = {
+    
+    friendsCount + interactionsCount
   }
 }
 
