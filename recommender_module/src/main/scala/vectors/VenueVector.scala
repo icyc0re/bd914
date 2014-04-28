@@ -37,6 +37,7 @@ object VenueVector {
     vectors match {
       case Nil =>
         vectors = new VenueInputProcessor().processInDir(Cons.VENUES_PATH)
+      case _ => // nothing
     }
     vectors
   }

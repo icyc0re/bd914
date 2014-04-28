@@ -1,20 +1,16 @@
 package input
 
 import scala.util.parsing.json.JSON
-import collection.JavaConversions._
 import scala.collection.mutable.ListBuffer
 import vectors.UserVector
 import utils.Cons
 import features.DoubleFeature
-import features.GenderFeature
-import features.TextFeature
 
 //import java.nio.file.Files
 //import java.nio.file.Paths
 
 import vectors.VenueVector
 import filtering.MockVectorSimilarity
-import scala.collection.mutable.HashSet
 import features.CoordinatesFeature
 
 case class Checkins(count: Double)
@@ -107,7 +103,7 @@ class User(jsonString: String) {
    */
   def readInteractions(interaction_type: String): List[String] = {
     //TODO: change absolute path
-    val interaction_path: String = "../dataset/sample/users/" + interaction_type + "/" + id
+    val interaction_path: String = "../dataset/sample/" + interaction_type + "/" + id
     //check that interaction exists
     if (!new java.io.File(interaction_path).exists)
       return List.empty
@@ -135,10 +131,14 @@ class User(jsonString: String) {
     var lng: Double = 0
 
     for (interaction <- interactions.items) {
-      //get venue gps location
-      val (venueLat, venueLng) = VenueVector.getById(interaction).getFeatureValue[CoordinatesFeature](Cons.GPS_COORDINATES)
-      lat += venueLat
-      lng += venueLng
+      VenueVector.getById(interaction) match {
+        case x if x != null =>
+          //get venue gps location
+          val (venueLat, venueLng) = x.getFeatureValue[CoordinatesFeature](Cons.GPS_COORDINATES).get.v
+          lat += venueLat
+          lng += venueLng
+        case null => // ignore this one
+      }
     }
 
     (lat / interactions.count, lng / interactions.count)
@@ -183,7 +183,7 @@ object User {
   def featureVector(u: User): UserVector = {
     val features = List(
       TextFeature(Cons.USER_ID, u.id),
-      CoordinatesFeature(Cons.GPS_COORDINATES, u.getGPSCenter()),
+      CoordinatesFeature(Cons.GPS_COORDINATES, u.getGPSCenter),
       DoubleFeature(Cons.POPULARITY, compute_popularity(u.friends.count, u.interactions.count))
       //TODO: use different weights for the different types of interactions
     )
