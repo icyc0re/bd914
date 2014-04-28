@@ -25,6 +25,9 @@ object Cons {
   val USERS_PATH = "../dataset/sample/users/"
   val VENUES_PATH = "../dataset/sample/venues/"
 
+  val CATEGORIES_INPUT_PATH = "../dataset/sample/ordered_categories.txt"
+  val CATEGORIES_MATRIX_INPUT_PATH = "../dataset/sample/categories_similarity.txt"
+
   val FEATURE_RATING = "Rating"//Name given to the feature containing the rating of a venue. This feature is added during the similarity computation phase
 }
 

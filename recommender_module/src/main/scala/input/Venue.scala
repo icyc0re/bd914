@@ -343,34 +343,4 @@ object Venue{
     
     checkinsCount + tipsCount + usersCount
   }
-
-  def getCategoriesList(): List[String] = {
-    var categoriesList = List[String]()
-    //var simularityMatrix = List
-    val categoriesListPath: String = "../cluster/config/ordered_categories.txt"
-    for(line <- scala.io.Source.fromFile(categoriesListPath).getLines()) {
-      categoriesList +:= line
-    }
-    categoriesList
-  }
-
-
-  def getCategoriesSimilarity(category1 : String, category2 : String): Double = {
-
-    var matrix:Seq[Seq[Double]]()
-    val categoriesListPath: String = "../cluster/config/categories_similarity.txt"
-    for(line <- scala.io.Source.fromFile(categoriesListPath).getLines()) {
-      val values:Seq[Double] = line.split(" ").map(_.toDouble)
-
-      matrix +:= values
-    }
-    // read the file with the list of categories - order is important
-
-    // read the similarity matrix
-
-    // for the given category name get it's index from the list
-
-    // for give category index get the simularity row and return it
-    1.0
-  }
 }
