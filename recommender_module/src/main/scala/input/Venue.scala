@@ -1,14 +1,13 @@
 package input
 
 import utils.Cons
-
-
 import play.api.libs.json._
 import play.api.libs.json.Reads._
 import play.api.libs.functional.syntax._
 import features.{TextFeature, IntFeature}
 import utils.Cons
 import vectors.VenueVector
+import features.CoordinatesFeature
 
 /**
  * @author Matteo Pagliardini
@@ -17,8 +16,8 @@ case class VenueContact(twitter: Option[String], facebook: Option[String], phone
 
 case class VenueStats(checkinsCount: Int, usersCount: Option[Int], tipCount: Option[Int])
 
-case class VenueLocation(address: Option[String], crossStreet: Option[String], city: Option[String],
-                         state: Option[String], postalCode: Option[String], lat: Option[Double], lng: Option[Double])
+case class VenueLocation(city: Option[String], cc: Option[String], country: Option[String], address: Option[String], crossStreet: Option[String],
+                         state: Option[String], postalCode: Option[String], lat: Option[Double], lon: Option[Double])
 
 case class VenueCategory(id: Option[String], name: String, pluralName: Option[String], shortName: Option[String],
                          primary: Option[Boolean])
@@ -66,7 +65,7 @@ case class VenueCompact(categories: Option[List[VenueCategory]], id: String, nam
                         price: Option[VenuePrice], likes: Option[Int], rating: Option[Int], reasons: Option[VenueReasons],
                         mayor: Option[VenueMayor], tags: List[String], contact: Option[VenueContact], attributes: Option[VenueAttributes],
                         hours: Option[VenueHours], verified: Option[Boolean], photos: Option[VenuePhotos], tips: Option[VenueTips],
-                        phrases: Option[List[VenuePhrases]])
+                        phrases: Option[List[VenuePhrases]], location: Option[VenueLocation])
 
 class Venue(jsonString: String) {
   val jsonFile: JsValue = Json.parse(jsonString)
@@ -207,6 +206,18 @@ println(map)*/
     (__ \ "count").readNullable[Int] and
       (__ \ "items").readNullable[List[VenueReasonsItem]]
     )(VenueReasons.apply _)
+    
+   implicit val VenueLocationRead: Reads[VenueLocation] = (
+       (__ \ "city").readNullable[String] and
+       (__ \ "cc").readNullable[String] and
+       (__ \ "country").readNullable[String] and
+       (__ \ "postalCode").readNullable[String] and
+       (__ \ "state").readNullable[String] and
+       (__ \ "crossStreet").readNullable[String] and
+       (__ \ "address").readNullable[String] and
+       (__ \ "lat").readNullable[Double] and
+      (__ \ "lon").readNullable[Double]
+    )(VenueLocation.apply _)
 
   implicit val venueCompactRead: Reads[VenueCompact] = (
     (JsPath \ "venue" \ "categories").readNullable[List[VenueCategory]] and
@@ -226,7 +237,8 @@ println(map)*/
       (JsPath \ "venue" \ "verified").readNullable[Boolean] and
       (JsPath \ "venue" \ "photos").readNullable[VenuePhotos] and
       (JsPath \ "venue" \ "tips").readNullable[VenueTips] and
-      (JsPath \ "venue" \ "phrases").readNullable[List[VenuePhrases]]
+      (JsPath \ "venue" \ "phrases").readNullable[List[VenuePhrases]] and
+      (JsPath \ "venue" \ "location").readNullable[VenueLocation]
     )(VenueCompact.apply _)
 
   var venue: VenueCompact = jsonFile.validate[VenueCompact](venueCompactRead).get
@@ -308,7 +320,8 @@ object Venue{
       IntFeature(Cons.CHECKINS_COUNT, v.venue.stats.checkinsCount),
       IntFeature(Cons.TIP_COUNT, v.venue.stats.tipCount.get),
       IntFeature(Cons.USERS_COUNT, v.venue.stats.usersCount.get),
-      TextFeature(Cons.VENUE_ID, v.venue.id)
+      TextFeature(Cons.VENUE_ID, v.venue.id),
+      CoordinatesFeature(Cons.GPS_COORDINATES, (v.venue.location.get.lat.get, v.venue.location.get.lon.get))
     )
     new VenueVector(features, null)
   }
