@@ -41,6 +41,8 @@ object MockVectorSimilarity extends VectorSimilarity {
    */
   def calculateSimilarity(fst: AbstractVector, snd: AbstractVector): Double = {
 
+    //coordinates' similarities
+    
     // get (x0*y0 + x1*y1 + ... + x_n * y_n)
     val dotProd = (fst.getFeaturesTyped[IntFeature], snd.getFeaturesTyped[IntFeature]).zipped.foldRight(0) {
       (x: (IntFeature, IntFeature), b: Int) =>
