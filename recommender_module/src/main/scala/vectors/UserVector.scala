@@ -6,6 +6,7 @@ import utils.Cons
 import features.BooleanFeature
 import features.DoubleFeature
 import scala.Some
+import input.UserInputProcessor
 
 /**
  * * See [[input.User]] for the list of features that make the vector
@@ -33,12 +34,12 @@ class UserVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet])
    * Updates the feature vector according to the venues that user interacted with
    * @param venues collection of venues
    */
-  def applyVenues(venues: Seq[VenueVector]):UserVector = {
+  def applyVenues(venues: Seq[VenueVector]): UserVector = {
     val size = venues.size
     venues.foreach((x: VenueVector) =>
       x.features.foreach((f: Feature[_, _]) =>
         findFeature(f.key) match {
-          case Some(old:Feature[_,_]) => combineFeatures(old, f, 1 / size)
+          case Some(old: Feature[_, _]) => combineFeatures(old, f, 1 / size)
           case None => putFeature(f)
         }
       )
@@ -60,7 +61,7 @@ class UserVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet])
     }
 
     features = features diff List(old)
-    features = features :+ DoubleFeature(old.key.asInstanceOf[String], oldVal + weight*newVal)
+    features = features :+ DoubleFeature(old.key.asInstanceOf[String], oldVal + weight * newVal)
   }
 }
 
@@ -68,5 +69,22 @@ class UserVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet])
  * User vector companion object, use it to specify global operations on user vectors
  */
 object UserVector {
+  var vectors: Seq[UserVector] = Nil
+
+  def getAll: Seq[UserVector] = {
+    vectors match {
+      case Nil =>
+        vectors = new UserInputProcessor().processInDir(Cons.USERS_PATH)
+    }
+    vectors
+  }
+
+  def getById(id: String): UserVector = getAll.find((x: UserVector) =>
+    x.getFeatureValue[String](Cons.USER_ID) == id
+  ) match {
+    case Some(x) => x
+    case None => null
+  }
+
   def homeCity(city: String): BooleanFeature = BooleanFeature(Cons.HOME_CITY, city.toLowerCase == "new york" || city.toLowerCase == "ny")
 }

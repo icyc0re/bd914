@@ -4,6 +4,7 @@ import input._
 import filtering.MockVectorSimilarity
 import vectors.{UserVector, VenueVector, ContextVector}
 import context._
+import utils.Cons
 
 /**
  * This is the main class of the recommender system.
@@ -20,11 +21,11 @@ object RecommenderApp {
     println(MockVectorSimilarity.calculateSimilarity(vectors(0), vectors(1)))*/
     
     // get venue features
-    val v : Seq[VenueVector] = new VenueInputProcessor().processInDir("../dataset/sample/venues/")
+    val v : Seq[VenueVector] = VenueVector.getAll
     // get user features
-    //val u : Seq[UserVector] = new UserInputProcessor().processInDir("../dataset/sample/users/")
+    val u : Seq[UserVector] = UserVector.getAll
     // get users
-    val users : Seq[User] = new UserInputProcessor().processUsersInDir("../dataset/sample/users/")
+    val users : Seq[User] = new UserInputProcessor().processUsersInDir(Cons.USERS_PATH)
     
     // Pre Filtering:
 //    val dummyContext = Context.grab() 
