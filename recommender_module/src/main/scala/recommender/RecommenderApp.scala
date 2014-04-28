@@ -13,7 +13,6 @@ import scala.collection.mutable
  */
 object RecommenderApp {
   def main(args:Array[String]){
-    // todo
     /*val processor:MockAbstractInputProcessor = new MockAbstractInputProcessor
 
     val vectors = processor.processData(null)
@@ -41,14 +40,21 @@ object RecommenderApp {
       	    + (venue.getFeatureValue[String](Cons.VENUE_ID).get -> MockVectorSimilarity.calculateSimilarity(user, venue)))
       }
     }
-    	
+    
+    
+    //Sort by value
+    var topVenue = mutable.Map.empty[String, Map[Double, String]]
+    for ((user,values) <- similarities){
+    	val sorted = values.toSeq.sortBy(_._2)
+    	var sortedMap = Map.empty[String, Double]
+    	sorted.foreach(value => sortedMap += value._1 -> value._2)
+    	similarities += user -> sortedMap
+    }
+    
 
     
-    val topKVenues = users(0).getTopKVenues(5, v)
+    //val topKVenues = users(0).getTopKVenues(5, v)
     // apply venue features to user vector
     //val newUsers = u.map((x:UserVector) => x.applyVenues(v))
-    println(v)
-    //println(u)
-    println(topKVenues)
   }
 }

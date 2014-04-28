@@ -2,6 +2,9 @@ package filtering
 
 import vectors.AbstractVector
 import features.IntFeature
+import utils.{Cons, Haversine}
+import features.CoordinatesFeature
+
 
 /**
  * @author Ivan Gavrilović
@@ -43,16 +46,35 @@ object MockVectorSimilarity extends VectorSimilarity {
 
     //coordinates' similarities
     
-    // get (x0*y0 + x1*y1 + ... + x_n * y_n)
-    val dotProd = (fst.getFeaturesTyped[IntFeature], snd.getFeaturesTyped[IntFeature]).zipped.foldRight(0) {
-      (x: (IntFeature, IntFeature), b: Int) =>
-        b + x._1.value * x._2.value
-    }
+    val gps_distance = Haversine.getDistance(fst.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get, 
+    									 snd.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get)
+    
+    val user_coord = fst.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get
+    val user_pop = fst.getFeatureValue[Double](Cons.POPULARITY).get
 
-    // get ||x|| and ||y||
-    val intensityFst = Math.sqrt(fst.getFeaturesTyped[IntFeature].foldRight(0)((x:IntFeature, b:Int) => b + x.value*x.value))
-    val intensitySnd = Math.sqrt(snd.getFeaturesTyped[IntFeature].foldRight(0)((x:IntFeature, b:Int) => b + x.value*x.value))
+    val venue_coord = snd.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get								 
+    val venue_pop = snd.getFeatureValue[Double](Cons.POPULARITY).get
+    
+    val dotProduct = user_coord._1 * venue_coord._1 
+    				+ user_coord._2 * venue_coord._2
+    				+ user_pop * venue_pop
+    									 
+    val norm =  Math.sqrt(user_coord._1*user_coord._1+user_coord._2*user_coord._2
+    						+user_pop*user_pop) *
+    			Math.sqrt(venue_coord._1*venue_coord._1+venue_coord._2*venue_coord._2
+    						+venue_pop*venue_pop)
+    				
+    dotProduct / norm
+//    // get (x0*y0 + x1*y1 + ... + x_n * y_n)
+//    val dotProd = (fst.getFeaturesTyped[IntFeature], snd.getFeaturesTyped[IntFeature]).zipped.foldRight(0) {
+//      (x: (IntFeature, IntFeature), b: Int) =>
+//        b + x._1.value * x._2.value
+//    }
+//
+//    // get ||x|| and ||y||
+//    val intensityFst = Math.sqrt(fst.getFeaturesTyped[IntFeature].foldRight(0)((x:IntFeature, b:Int) => b + x.value*x.value))
+//    val intensitySnd = Math.sqrt(snd.getFeaturesTyped[IntFeature].foldRight(0)((x:IntFeature, b:Int) => b + x.value*x.value))
 
-    dotProd / (intensityFst * intensitySnd)
+    //dotProd / (intensityFst * intensitySnd)
   }
 }

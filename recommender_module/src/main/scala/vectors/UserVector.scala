@@ -1,12 +1,12 @@
 package vectors
 
-import features._
-import sets.AbstractVectorSet
-import utils.Cons
 import features.BooleanFeature
 import features.DoubleFeature
-import scala.Some
+import features.Feature
+import features.IntFeature
 import input.UserInputProcessor
+import sets.AbstractVectorSet
+import utils.Cons
 
 /**
  * * See [[input.User]] for the list of features that make the vector
