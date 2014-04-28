@@ -16,4 +16,6 @@ object Cons {
   val GENDER = "gender"
   val HOME_CITY = "homeCity"
   val USER_ID = "user.id"
+  val GPS_COORDINATES = "gps_coordinates"
+  val POPULARITY = "popularity"
 }
