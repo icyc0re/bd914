@@ -168,6 +168,7 @@ class User(jsonString: String) {
     
 	return topKVenueVectors
   }
+
 }
 
 object User {
