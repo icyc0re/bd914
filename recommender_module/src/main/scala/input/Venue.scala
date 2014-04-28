@@ -342,4 +342,14 @@ object Venue{
     
     checkinsCount + tipsCount + usersCount
   }
+
+  def getCategoriesList(): List[String] = {
+    var categoriesList = List[String]()
+    //var simularityMatrix = List
+    val categoriesListPath: String = "../cluster/config/ordered_categories.txt"
+    for(line <- scala.io.Source.fromFile(categoriesListPath).getLines()) {
+      categoriesList :+ line
+    }
+    categoriesList
+  }
 }
