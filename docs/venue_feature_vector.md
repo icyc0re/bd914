@@ -12,8 +12,13 @@ Vector (non-precomputable: np)
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Attribute | Type                 | Calculation 
 :------------| :--------------: 	|
+=======
+Attribute     | Type                 | Calculation  |
+:------------ | :--------------: 	| -------------
+>>>>>>> FETCH_HEAD
 =======
 Attribute     | Type                 | Calculation  |
 :------------ | :--------------: 	| -------------
