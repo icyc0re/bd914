@@ -26,7 +26,9 @@ object Context {
       CategoryFeature(Cons.CATEGORY, List(
           categories(0)
       )), // User selected that he only wants Food venues
-      PriceFeature(Cons.PRICE, new VenuePrice(Option(1), Option("Cheap food"), Option("USD"))) // user selected he wants cheap locations
+      PriceFeature(Cons.PRICE, new VenuePrice(Option(1), Option("Cheap food"), Option("USD"))), // user selected he wants cheap locations
+      //Current Location of the user
+      CoordinatesFeature(Cons.GPS_COORDINATES, (40.809976486485596, -73.96180629730225))
       // ... other context related features (i.e. current location)
     ), null)
   }
