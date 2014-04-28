@@ -23,7 +23,7 @@ object PreFilter {
 	// for each f: Filterable in the context vector, run f.compareTo on the corresponding feature in vectors
     // context.filter(Filterable).map(c: ContextVector => {vf: VenueVector.Filterable-Feature c.compareTo(vf)}) ... don't know how to scala lol
 
-      vectors.filter( (v:VenueVector) => passesCriteria(p, context))
+      vectors.filter( (v:VenueVector) => passesCriteria(v, context))
 
       vectors
 
