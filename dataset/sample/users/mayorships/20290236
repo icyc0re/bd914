@@ -1,0 +1,79 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Britannia Condo", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.80690660985966, 
+                        "lng": -73.96537147003376
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 81, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4b0623f3f964a5201be922e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Calypso St. Barth", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10013", 
+                        "state": "NY", 
+                        "crossStreet": "Duane St", 
+                        "address": "137 W Broadway", 
+                        "lat": 40.71685865528419, 
+                        "lng": -74.00826786069122
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 68, 
+                        "usersCount": 48
+                    }, 
+                    "id": "4d37619a9516236ad34e8c51", 
+                    "categories": [
+                        {
+                            "pluralName": "Boutiques", 
+                            "primary": true, 
+                            "name": "Boutique", 
+                            "shortName": "Boutique", 
+                            "id": "4bf58dd8d48988d104951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_boutique_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

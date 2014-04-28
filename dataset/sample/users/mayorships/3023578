@@ -1,0 +1,465 @@
+{
+    "mayorships": {
+        "count": 14, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Foreningen Nydansker", 
+                    "contact": {
+                        "phone": "+4533934383", 
+                        "formattedPhone": "+45 33 93 43 83"
+                    }, 
+                    "location": {
+                        "city": "K\u00f8behavn K", 
+                        "cc": "DK", 
+                        "country": "Danmark", 
+                        "postalCode": "1454", 
+                        "address": "Sankt Peders Str\u00e6de 28c, 4. sal", 
+                        "lat": 55.679116, 
+                        "lng": 12.567613
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 101, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4c123e3ca9c220a1c591539d", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "20 Highland Ave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "San Francisco", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "94110", 
+                        "state": "CA", 
+                        "address": "20 Highland Ave", 
+                        "lat": 37.737133, 
+                        "lng": -122.42508
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 15, 
+                        "usersCount": 4
+                    }, 
+                    "id": "5036daa6e4b0901d6af2f78a", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Fonden For Socialt Ansvar", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "K\u00f8benhavn", 
+                        "cc": "DK", 
+                        "country": "Danmark", 
+                        "address": "Pasteursvej 2", 
+                        "lat": 55.66688126678467, 
+                        "lng": 12.534407407803391
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 19, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4e89c5eadab45be472182e61", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Greg & Tara's", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Chicago", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "IL", 
+                        "lat": 41.94097855313881, 
+                        "lng": -87.6827676164469
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 12, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4e62ea3952b1260c135a0c1b", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "McElya's", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Lawrence", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "IN", 
+                        "lat": 39.90508232857018, 
+                        "lng": -85.93556480173177
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 14, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4e5c10bd183883e00c046870", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dansk Transport og Logistik", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "K\u00f8benhavn", 
+                        "cc": "DK", 
+                        "country": "Danmark", 
+                        "address": "Gr\u00f8nningen 17", 
+                        "lat": 55.689448, 
+                        "lng": 12.589686
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 157, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4cbffd1f9ca85481d9afb916", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Elses Hus", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "S\u00f8rvad", 
+                        "isFuzzed": true, 
+                        "cc": "DK", 
+                        "country": "Danmark", 
+                        "lat": 56.26521448182217, 
+                        "lng": 8.649961792219502
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 32, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4d027514eabea1cdce2d09cf", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Narut's", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Lake Geneva", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "WI", 
+                        "lat": 42.594481063731614, 
+                        "lng": -88.45492338534359
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4e657b9252b1260c146d9a0f", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "LMJ A/S", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Glostrup", 
+                        "cc": "DK", 
+                        "country": "Danmark", 
+                        "address": "Sydvestvej 70", 
+                        "lat": 55.669247, 
+                        "lng": 12.436437
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4d7895a7e215721eb9e013b0", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ann & Bo", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Sunds", 
+                        "isFuzzed": true, 
+                        "cc": "DK", 
+                        "country": "Danmark", 
+                        "lat": 56.206213731980824, 
+                        "lng": 9.001415500228722
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4d9f4b4853af236aaeb46c0c", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Mia & Dennis", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Valby", 
+                        "isFuzzed": true, 
+                        "cc": "DK", 
+                        "country": "Danmark", 
+                        "lat": 55.67159476441348, 
+                        "lng": 12.508211002914745
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4d8e3ea93bfef04d52069486", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hvals\u00f8vej 14", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 55.705179, 
+                        "cc": "DK", 
+                        "lng": 12.489653, 
+                        "country": "Danmark", 
+                        "city": "Br\u00f8nsh\u00f8j"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4de79e00d4c0086a950e48c0", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Helgolandsgade", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 54.91441, 
+                        "cc": "DK", 
+                        "lng": 9.786669, 
+                        "country": "Denmark"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 41, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4c9dcdf02fb1a14306f3e340", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Led & Korsgaard", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "K\u00f8benhavn", 
+                        "isFuzzed": true, 
+                        "cc": "DK", 
+                        "country": "Danmark", 
+                        "lat": 55.68978577050405, 
+                        "lng": 12.550528230660262
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4e90d1460aafb4070c1b5a53", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,501 @@
+{
+    "mayorships": {
+        "count": 13, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Le Ch\u00e2teau du Marque", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.84302968918218, 
+                        "lng": -73.94186034276925
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 257, 
+                        "usersCount": 4
+                    }, 
+                    "id": "52616d69498e67d6988acf08", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "College Walk - Columbia University", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "Broadway to Amsterdam Ave.", 
+                        "address": "W. 116th Street", 
+                        "lat": 40.80741037307224, 
+                        "lng": -73.96249294281006
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 6178, 
+                        "usersCount": 2060
+                    }, 
+                    "id": "4b15b4f9f964a520f3b223e3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Quads", 
+                            "primary": true, 
+                            "name": "College Quad", 
+                            "shortName": "Quad", 
+                            "id": "4bf58dd8d48988d1aa941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/quad_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Horace Mann Hall, Teachers College", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Amsterdam & Broadway", 
+                        "address": "525 W 120th St", 
+                        "lat": 40.81093455353548, 
+                        "lng": -73.96147132361331
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 1039, 
+                        "usersCount": 284
+                    }, 
+                    "id": "4d518acd07b1a09057a20b3c", 
+                    "categories": [
+                        {
+                            "pluralName": "College Academic Buildings", 
+                            "primary": true, 
+                            "name": "College Academic Building", 
+                            "shortName": "Academic Building", 
+                            "id": "4bf58dd8d48988d198941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/academicbuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Fine Fare", 
+                    "contact": {
+                        "phone": "2127814476", 
+                        "formattedPhone": "(212) 781-4476"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10032", 
+                        "state": "NY", 
+                        "crossStreet": "at W 172nd St.", 
+                        "address": "1239 Saint Nicholas Ave", 
+                        "lat": 40.84329274309382, 
+                        "lng": -73.93821230305568
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 771, 
+                        "usersCount": 190
+                    }, 
+                    "id": "4ac10f70f964a520a49520e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Supermarkets", 
+                            "primary": true, 
+                            "name": "Supermarket", 
+                            "shortName": "Supermarket", 
+                            "id": "52f2ab2ebcbc57f1066b8b46", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/food_grocery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Brasbytarlen Deli Corporation", 
+                    "contact": {
+                        "phone": "2126851230", 
+                        "formattedPhone": "(212) 685-1230"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10032", 
+                        "state": "NY", 
+                        "crossStreet": "btwn 171 & 172nd St.", 
+                        "address": "1230 Saint Nicholas Ave", 
+                        "lat": 40.84317740722214, 
+                        "lng": -73.93814915778225
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 108, 
+                        "usersCount": 21
+                    }, 
+                    "id": "4d3faec2255d8cfab4185e05", 
+                    "categories": [
+                        {
+                            "pluralName": "Delis / Bodegas", 
+                            "primary": true, 
+                            "name": "Deli / Bodega", 
+                            "shortName": "Deli / Bodega", 
+                            "id": "4bf58dd8d48988d146941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/deli_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "PS 173", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10033", 
+                        "state": "NY", 
+                        "address": "306 Fort Washington Ave", 
+                        "lat": 40.84564168343143, 
+                        "lng": -73.9399114772302
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 630, 
+                        "usersCount": 80
+                    }, 
+                    "id": "4caba22f44a8224bbf852f40", 
+                    "categories": [
+                        {
+                            "pluralName": "Schools", 
+                            "primary": true, 
+                            "name": "School", 
+                            "shortName": "School", 
+                            "id": "4bf58dd8d48988d13b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "JJ Hong Kong Cafe", 
+                    "contact": {
+                        "phone": "7184832983", 
+                        "formattedPhone": "(718) 483-2983"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10018", 
+                        "state": "NY", 
+                        "address": "995 6th Ave, New York, NY 10018", 
+                        "lat": 40.75155348551194, 
+                        "lng": -73.98649517305151
+                    }, 
+                    "stats": {
+                        "tipCount": 7, 
+                        "checkinsCount": 326, 
+                        "usersCount": 147
+                    }, 
+                    "id": "4f146b48e4b072565fa49571", 
+                    "categories": [
+                        {
+                            "pluralName": "Chinese Restaurants", 
+                            "primary": true, 
+                            "name": "Chinese Restaurant", 
+                            "shortName": "Chinese", 
+                            "id": "4bf58dd8d48988d145941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/chinese_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Teachers College Community School", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10037", 
+                        "state": "NY", 
+                        "lat": 40.812108447248534, 
+                        "lng": -73.95345841341255
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 19, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4f30348ae4b0b0d086bedc65", 
+                    "categories": [
+                        {
+                            "pluralName": "Schools", 
+                            "primary": true, 
+                            "name": "School", 
+                            "shortName": "School", 
+                            "id": "4bf58dd8d48988d13b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "The New School Tishman Auditorium", 
+                    "url": "http://www.newschool.edu/connect", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "8632571261", 
+                        "facebook": "9889734678", 
+                        "formattedPhone": "(863) 257-1261"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10003", 
+                        "state": "NY", 
+                        "crossStreet": "Corner of 5th Ave and 14th Street", 
+                        "address": "63 Fifth Avenue New York, NY", 
+                        "lat": 40.73549655713019, 
+                        "lng": -73.99355560541153
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 79, 
+                        "usersCount": 65
+                    }, 
+                    "id": "52e6cab311d250b035243cf7", 
+                    "categories": [
+                        {
+                            "pluralName": "College Auditoriums", 
+                            "primary": true, 
+                            "name": "College Auditorium", 
+                            "shortName": "Auditorium", 
+                            "id": "4bf58dd8d48988d1af941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/auditorium_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Everett Lounge", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "btw Broadway & Amsterdam", 
+                        "address": "525 W 120th St", 
+                        "lat": 40.80993711774761, 
+                        "lng": -73.96079976726375
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 185, 
+                        "usersCount": 57
+                    }, 
+                    "id": "4c34cf723ffc9521a1ff90f5", 
+                    "categories": [
+                        {
+                            "pluralName": "College Quads", 
+                            "primary": true, 
+                            "name": "College Quad", 
+                            "shortName": "Quad", 
+                            "id": "4bf58dd8d48988d1aa941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/quad_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Cullman Hall Of The Universe", 
+                    "url": "http://amnh.org/", 
+                    "storeId": "", 
+                    "contact": {
+                        "twitter": "amnh"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10024", 
+                        "state": "NY", 
+                        "address": "200 Central Park W", 
+                        "lat": 40.78183, 
+                        "lng": -73.973163
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 271, 
+                        "usersCount": 250
+                    }, 
+                    "id": "4c56ef59b7a31b8ddf0b4fda", 
+                    "categories": [
+                        {
+                            "pluralName": "History Museums", 
+                            "primary": true, 
+                            "name": "History Museum", 
+                            "shortName": "History Museum", 
+                            "id": "4bf58dd8d48988d190941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Gold Mine Cafe", 
+                    "contact": {
+                        "phone": "7185490622", 
+                        "formattedPhone": "(718) 549-0622"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10463", 
+                        "state": "NY", 
+                        "crossStreet": "231st Street", 
+                        "address": "5578 Broadway", 
+                        "lat": 40.87891980243431, 
+                        "lng": -73.90478836058722
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 128, 
+                        "usersCount": 76
+                    }, 
+                    "id": "50ccb177e4b00957ca13bdd0", 
+                    "categories": [
+                        {
+                            "pluralName": "Caf\u00e9s", 
+                            "primary": true, 
+                            "name": "Caf\u00e9", 
+                            "shortName": "Caf\u00e9", 
+                            "id": "4bf58dd8d48988d16d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cafe_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lehman College South Field", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10468", 
+                        "state": "NY", 
+                        "address": "250 Bedford Park Blvd W", 
+                        "lat": 40.87165665573979, 
+                        "lng": -73.8952515528784
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 54, 
+                        "usersCount": 15
+                    }, 
+                    "id": "5047afd1e4b0d83252be9349", 
+                    "categories": [
+                        {
+                            "pluralName": "College Stadiums", 
+                            "primary": true, 
+                            "name": "College Stadium", 
+                            "shortName": "Stadium", 
+                            "id": "4bf58dd8d48988d1b4941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/stadium_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

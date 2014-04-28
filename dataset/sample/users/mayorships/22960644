@@ -1,0 +1,360 @@
+{
+    "mayorships": {
+        "count": 10, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Casa Paterson", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 28.93066911589975, 
+                        "cc": "ES", 
+                        "lng": -13.665216182771942, 
+                        "isFuzzed": true, 
+                        "country": "Spain"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 1
+                    }, 
+                    "id": "516171f1498eebfeb1d41199", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Mercer", 
+                    "url": "http://www.themercer.co.uk", 
+                    "reservations": {
+                        "url": "http://www.toptable.co.uk/single.aspx?rid=18397&ref=9601"
+                    }, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "London", 
+                        "cc": "GB", 
+                        "country": "United Kingdom", 
+                        "postalCode": "EC2R 8AY", 
+                        "state": "Greater London", 
+                        "address": "34 Threadneedle St.", 
+                        "lat": 51.514363967185915, 
+                        "lng": -0.08478049140794325
+                    }, 
+                    "menu": {
+                        "url": "https://foursquare.com/v/the-mercer/4ba15068f964a520b9ab37e3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4ba15068f964a520b9ab37e3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 191, 
+                        "usersCount": 150
+                    }, 
+                    "id": "4ba15068f964a520b9ab37e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Restaurants", 
+                            "primary": true, 
+                            "name": "Restaurant", 
+                            "shortName": "Restaurant", 
+                            "id": "4bf58dd8d48988d1c4941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Loch Conn", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 53.986280696964485, 
+                        "cc": "IE", 
+                        "lng": -9.212657167948054, 
+                        "country": "Ireland"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 5
+                    }, 
+                    "id": "50a6eebde4b0c753d70f0a2f", 
+                    "categories": [
+                        {
+                            "pluralName": "Lakes", 
+                            "primary": true, 
+                            "name": "Lake", 
+                            "shortName": "Lake", 
+                            "id": "4bf58dd8d48988d161941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/lake_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Paperchase @A|wear", 
+                    "storeId": " Dublin - A|ware", 
+                    "contact": {
+                        "phone": "+35314724960", 
+                        "twitter": "frompaperchase", 
+                        "formattedPhone": "+353 1 472 4960"
+                    }, 
+                    "location": {
+                        "city": "Dublin", 
+                        "cc": "IE", 
+                        "country": "Ireland", 
+                        "postalCode": "2", 
+                        "address": "Grafton St", 
+                        "lat": 53.341599, 
+                        "lng": -6.260211
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4e741c7b6aa3630b0e667ef7", 
+                    "categories": [
+                        {
+                            "pluralName": "Paper / Office Supplies Stores", 
+                            "primary": true, 
+                            "name": "Paper / Office Supplies Store", 
+                            "shortName": "Office Supplies", 
+                            "id": "4bf58dd8d48988d121951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/papergoods_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Wilde", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Dublin", 
+                        "cc": "IE", 
+                        "country": "Ireland", 
+                        "address": "6-8 Wicklow Street", 
+                        "lat": 53.34287339327939, 
+                        "lng": -6.260329556942735
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 53, 
+                        "usersCount": 24
+                    }, 
+                    "id": "502be3eee4b07813aceb8140", 
+                    "categories": [
+                        {
+                            "pluralName": "Gay Bars", 
+                            "primary": true, 
+                            "name": "Gay Bar", 
+                            "shortName": "Gay Bar", 
+                            "id": "4bf58dd8d48988d1d8941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/gaybar_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Clogrennane Woods", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Carlow", 
+                        "cc": "IE", 
+                        "country": "Ireland", 
+                        "state": "Carlow", 
+                        "lat": 52.797433820354335, 
+                        "lng": -6.989977455476823
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 13, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4f084e8fe4b06fab19301f2d", 
+                    "categories": [
+                        {
+                            "pluralName": "Trails", 
+                            "primary": true, 
+                            "name": "Trail", 
+                            "shortName": "Trail", 
+                            "id": "4bf58dd8d48988d159941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/hikingtrail_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Oakley Rd", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Dublin", 
+                        "cc": "IE", 
+                        "country": "Ireland", 
+                        "postalCode": "6", 
+                        "address": "B\u00f3thar Oakley, Ranelagh", 
+                        "lat": 53.323245632807534, 
+                        "lng": -6.256223304541416
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 40, 
+                        "usersCount": 12
+                    }, 
+                    "id": "4ba2ac8bf964a520de0e38e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Roads", 
+                            "primary": true, 
+                            "name": "Road", 
+                            "shortName": "Road", 
+                            "id": "4bf58dd8d48988d1f9931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/highway_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Rhinestones", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 53.34370073333333, 
+                        "cc": "IE", 
+                        "lng": -6.2615568999999995, 
+                        "country": "Ireland"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 21, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4b6c5648f964a520b9312ce3", 
+                    "categories": [
+                        {
+                            "pluralName": "Jewelry Stores", 
+                            "primary": true, 
+                            "name": "Jewelry Store", 
+                            "shortName": "Jewelry", 
+                            "id": "4bf58dd8d48988d111951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/jewelry_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Monacurragh", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 52.828176160602744, 
+                        "cc": "IE", 
+                        "lng": -6.921984443669588, 
+                        "isFuzzed": true, 
+                        "country": "Ireland"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 20, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4f5ce7d9e4b070e0483f5851", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Anna Villa", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 53.31867872005861, 
+                        "cc": "IE", 
+                        "lng": -6.255170009861872, 
+                        "isFuzzed": true, 
+                        "country": "Ireland"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 200, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4c6d70d506ed6dcb4ee0a322", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

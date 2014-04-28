@@ -1,0 +1,76 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cathy's Crib", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.80985672507911, 
+                        "lng": -73.96443303141348
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 3
+                    }, 
+                    "id": "52053e2711d2b476435b892a", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "CBS House #1", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "East Hampton North", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.976877193188535, 
+                        "lng": -72.15938417915417
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 5
+                    }, 
+                    "id": "520bc369498e92d605e15aa1", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,2759 @@
+{
+    "defaultSetType": "foursquare", 
+    "badges": {
+        "4c4f08667a0803bbce202ab7": {
+            "description": "Waffles and tacos and dumplings and BBQ and... looks like you've found 3 of your city's legendary food trucks. Enjoy!", 
+            "hint": "mmmmm..... Meals on Wheels (and we don't mean the assisted living type) ", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4c4f08667a0803bbce202ab7", 
+            "id": "4c4f08667a0803bbce202ab7", 
+            "name": "Ziggy's Wagon"
+        }, 
+        "4dbae35b4159a4e20f525b96": {
+            "description": "Battered up! Soo much fried chicken! I believe the technical term for that is Poultry In Motion.", 
+            "hint": "Check-in. Chicken. Check-in. Chicken.", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4dbae35b4159a4e20f525b96", 
+            "id": "4dbae35b4159a4e20f525b96", 
+            "name": "Fried Check-in"
+        }, 
+        "4f2eff24e4b0ccb914799b15": {
+            "unlockMessage": "Francia unlocked the Super Swarm Sunday badge", 
+            "description": "Today isn\u2019t about Gronk\u2019s ankle, Eli topping Peyton, or Tom Brady\u2019s dreamy dream-face. It\u2019s about cars, beer, and talking babies giving questionable financial advice. Now get ready for some ruthless sacks, fingertip catches and... OMG! Puppy Bowl!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4f2eff24e4b0ccb914799afd", 
+                            "createdAt": 1328480036
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/X3QC3WH2TZQHC3UK.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Today isn\u2019t about Gronk\u2019s ankle, Eli topping Peyton, or Tom Brady\u2019s dreamy dream-face. It\u2019s about cars, beer, and talking babies giving questionable financial advice. Now get ready for some ruthless sacks, fingertip catches and... OMG! Puppy Bowl!", 
+            "badgeId": "4f2af1507beb249cb56727c1", 
+            "id": "4f2eff24e4b0ccb914799b15", 
+            "name": "Super Swarm Sunday"
+        }, 
+        "4c111565675403bb274b7d94": {
+            "unlockMessage": "Francia unlocked the Internet Week 2010 badge", 
+            "description": "Welcome to Internet Week 2010.  Show this badge & skip some lines!  Monday @ Onion Party, Tues @ #140conf Party, Wed @ Pop Everything and Thr @ Obliterati & SoundCtrl.", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "createdAt": 1276188004, 
+                            "private": true, 
+                            "visibility": "private", 
+                            "type": "checkin", 
+                            "id": "4c111564ce640f4775f33a52", 
+                            "timeZoneOffset": -240
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/iw2010_internetweek.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Welcome to Internet Week 2010.  Show this badge & skip some lines!  Monday @ Onion Party, Tues @ #140conf Party, Wed @ Pop Everything and Thr @ Obliterati & SoundCtrl.", 
+            "badgeId": "4c4f08677a0803bb3b212ab7", 
+            "id": "4c111565675403bb274b7d94", 
+            "name": "Internet Week 2010"
+        }, 
+        "4bb3f7f1675403bbcb945a94": {
+            "unlockMessage": "Francia unlocked the Far Far Away badge", 
+            "description": "Welcome to the world above 59th Street!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "createdAt": 1270085616, 
+                            "private": true, 
+                            "visibility": "private", 
+                            "type": "checkin", 
+                            "id": "4bb3f7f0a4de2f5e7b79acbc", 
+                            "timeZoneOffset": -240
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/farfaraway.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Welcome to the world above 59th Street!", 
+            "badgeId": "4c4f08667a0803bbb4202ab7", 
+            "id": "4bb3f7f1675403bbcb945a94", 
+            "name": "Far Far Away"
+        }, 
+        "4f8c19b4e4b0e67b8785b70e": {
+            "unlockMessage": "Francia unlocked the 4sqDay 2012 badge", 
+            "description": "In 2010, foursquare fans declared April 16 4sqDay (4/4^2 \u2013 nerds after our own heart!). Two years and two billion check-ins later, you\u2019re still why we get out of bed each day. Thanks to all 20 million of you for making us part of your lives. Happy 4sqDay!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4f8c19b4e4b0e67b8785b6ec", 
+                            "createdAt": 1334581684
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/4LLCEC0KNNQ2FODB.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "In 2010, foursquare fans declared April 16 4sqDay (4/4^2 \u2013 nerds after our own heart!). Two years and two billion check-ins later, you\u2019re still why we get out of bed each day. Thanks to all 20 million of you for making us part of your lives. Happy 4sqDay!", 
+            "badgeId": "4f86e24c7beb700ed355dce0", 
+            "id": "4f8c19b4e4b0e67b8785b70e", 
+            "name": "4sqDay 2012"
+        }, 
+        "5086bdd2011c9d54f4a18635": {
+            "description": "Daal-ing! You must seriously love your curry \u2013 and checking in at Indian restaurants. Better order some poppadoms and chutney before you Vinda-lose your chance...", 
+            "hint": "Hurry! Eat some curry!", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "5086bdd2011c9d54f4a18635", 
+            "id": "5086bdd2011c9d54f4a18635", 
+            "name": "Naan-Sense"
+        }, 
+        "5078b3e2e4b047ff2b5d4053": {
+            "unlockMessage": "Francia unlocked the Bento badge", 
+            "description": "Did you order the tako-wasa? How about tamago yaki to start? Ooh, and definitely get some ponzu on the side. Better yet, ditch the menu and go omakase like a pro. The chefs will definitely yell \u2018Arigatogozaimashita\u2019 when you leave.\n\nThat's 5 different Japanese spots! Treat yourself to some uni. You'll unlock Level 3 once you've visited 5 new places!", 
+            "level": 2, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "5078b3e2e4b047ff2b5d402a", 
+                            "createdAt": 1350087650
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/5Z1J5XEC5HDWRW2C_2.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Did you order the tako-wasa? How about tamago yaki to start? Ooh, and definitely get some ponzu on the side. Better yet, ditch the menu and go omakase like a pro. The chefs will definitely yell \u2018Arigatogozaimashita\u2019 when you leave.", 
+            "badgeId": "4ebb07357bebd6a83f116c24", 
+            "categorySummary": "Japanese Restaurants", 
+            "id": "5078b3e2e4b047ff2b5d4053", 
+            "levelText": "That's 5 different Japanese spots! Treat yourself to some uni. You'll unlock Level 3 once you've visited 5 new places!", 
+            "name": "Bento"
+        }, 
+        "4cf689c6b9792d43f8155595": {
+            "unlockMessage": "Francia unlocked the Super Swarm badge", 
+            "description": "50 person Foursquare swarms are soooo 2009.  We upped it to 250 for the Super Swarm and you still nailed it.  Well played!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "type": "checkin", 
+                            "id": "4cf688721cfea093572be039", 
+                            "createdAt": 1291225202
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/super_swarm.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "50 person Foursquare swarms are soooo 2009.  We upped it to 250 for the Super Swarm and you still nailed it.  Well played!", 
+            "badgeId": "4c4f08667a0803bb1c212ab7", 
+            "id": "4cf689c6b9792d43f8155595", 
+            "name": "Super Swarm"
+        }, 
+        "4ccf601148b837040faaebde": {
+            "unlockMessage": "Francia unlocked the Photogenic badge", 
+            "description": "You found 3 places with a photobooth!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "type": "checkin", 
+                            "id": "4ccf601048b8370408aaebde", 
+                            "createdAt": 1288658960
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/photogenic.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "You found 3 places with a photobooth!", 
+            "badgeId": "4c4f08667a0803bbb6202ab7", 
+            "id": "4ccf601148b837040faaebde", 
+            "name": "Photogenic"
+        }, 
+        "4e792826aeb79f7dab554dab": {
+            "unlockMessage": "Francia unlocked the Jobs badge", 
+            "description": "Here's to the crazy ones. \uf8ff #ThankYouSteve", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4e792826aeb79f7dab554d81", 
+                            "createdAt": 1316562982
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/apple.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Here's to the crazy ones. \uf8ff #ThankYouSteve", 
+            "badgeId": "4c4f08667a0803bbde202ab7", 
+            "id": "4e792826aeb79f7dab554dab", 
+            "name": "Jobs"
+        }, 
+        "4ba12a2e675403bb51925594": {
+            "unlockMessage": "Francia unlocked the Swarm badge", 
+            "description": "50+ people are also checked in here - it's a Foursquare flashmob!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "type": "checkin", 
+                            "id": "4ba12a2ea4de2f5e110d5ebc", 
+                            "createdAt": 1268853294
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/swarm.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "50+ people are also checked in here - it's a Foursquare flashmob!", 
+            "badgeId": "4c4f08667a0803bbe1202ab7", 
+            "id": "4ba12a2e675403bb51925594", 
+            "name": "Swarm"
+        }, 
+        "4f6a487e7beb7e5831d4d730": {
+            "description": "Birdies. Eagles. Albatrosses. Gophers. It\u2019s a wild world out there on the golf course. Now just stay out of those bunkers, check the wind, and get that backswing just right... you\u2019re an ace away from a Green Jacket!", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4f6a487e7beb7e5831d4d730", 
+            "id": "4f6a487e7beb7e5831d4d730", 
+            "name": "Birdie"
+        }, 
+        "4b964d9d675403bbe4155394": {
+            "unlockMessage": "Francia unlocked the Explorer badge", 
+            "description": "You've checked in at 25 different spots! Got any great recommendations (like the best time to visit or a great menu item)? Leave some tips with your wise words and keep on exploring!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "createdAt": 1268141469, 
+                            "private": true, 
+                            "visibility": "private", 
+                            "type": "checkin", 
+                            "id": "4b964d9da4de2f5eba4c37bc", 
+                            "timeZoneOffset": -300
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/explorer.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "You've checked in at 25 different spots! Got any great recommendations (like the best time to visit or a great menu item)? Leave some tips with your wise words and keep on exploring!", 
+            "badgeId": "4c4f08667a0803bbac202ab7", 
+            "id": "4b964d9d675403bbe4155394", 
+            "name": "Explorer"
+        }, 
+        "4ddbf6161520f579d65d87e0": {
+            "description": "\"You spin me right round, baby, right round. Like a record, baby, round round round round.\" Congrats on finding one of the last record stores in the world!", 
+            "hint": "Those records aren't going to buy themselves...", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4ddbf6161520f579d65d87e0", 
+            "id": "4ddbf6161520f579d65d87e0", 
+            "name": "Vinyl"
+        }, 
+        "4b9048e1675403bb0d355294": {
+            "unlockMessage": "Francia unlocked the Bender badge", 
+            "description": "That's 4+ nights in a row for you!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "createdAt": 1267747041, 
+                            "private": true, 
+                            "visibility": "private", 
+                            "type": "checkin", 
+                            "id": "4b9048e1a4de2f5e5cae26bc", 
+                            "timeZoneOffset": -300
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/bender.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "That's 4+ nights in a row for you!", 
+            "badgeId": "4c4f08667a0803bbae202ab7", 
+            "id": "4b9048e1675403bb0d355294", 
+            "name": "Bender"
+        }, 
+        "4e0562038877394591d954c7": {
+            "unlockMessage": "Francia unlocked the Epic Swarm badge", 
+            "description": "Wow! Over 1,000 people checked in at the same location?!? According to our math, the world should implode right about now.", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4e0562038877394591d954c4", 
+                            "createdAt": 1308975619
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/epic_swarm.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Wow! Over 1,000 people checked in at the same location?!? According to our math, the world should implode right about now.", 
+            "badgeId": "4c4f08677a0803bb4d212ab7", 
+            "id": "4e0562038877394591d954c7", 
+            "name": "Epic Swarm"
+        }, 
+        "4f4e44e6e4b088c4af304c3c": {
+            "unlockMessage": "Francia unlocked the Leap Day badge", 
+            "description": "February 29th! It only happens once every four years, except on century years that are not divisible by 400! Enjoy your extra day!\r\n\r\nP.S. Happy birthday, leap year babies!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4f4e44e6e4b088c4af304bde", 
+                            "createdAt": 1330529510
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/FSZUH4MYCTAH3BRP.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "February 29th! It only happens once every four years, except on century years that are not divisible by 400! Enjoy your extra day!\r\n\r\nP.S. Happy birthday, leap year babies!", 
+            "badgeId": "4f4cf4587beb1fbf470dd554", 
+            "id": "4f4e44e6e4b088c4af304c3c", 
+            "name": "Leap Day"
+        }, 
+        "51bb0f0b498e92f16fa9b8ae": {
+            "unlockMessage": "Francia unlocked the JetSetter badge", 
+            "description": "Hopping around the world one airport at a time... safe travels!\n\nThat's 10 different airports! Here's to hoping there's free wi-fi. Visit 5 more new ones and get a first class ticket to Level 4.", 
+            "level": 3, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": 120, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "51bb0f0a498e92f16fa9ade6", 
+                            "createdAt": 1371213578
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/jetsetter_3.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Hopping around the world one airport at a time... safe travels!", 
+            "badgeId": "4c4f08667a0803bbda202ab7", 
+            "categorySummary": "Airports", 
+            "id": "51bb0f0b498e92f16fa9b8ae", 
+            "levelText": "That's 10 different airports! Here's to hoping there's free wi-fi. Visit 5 more new ones and get a first class ticket to Level 4.", 
+            "name": "JetSetter"
+        }, 
+        "4d0925ed304460fc7117da63": {
+            "description": "You've shown your loyalty to the lanes, cooking up one hot turkey after the next. Now see if you can crash that 8-year-old's birthday party. That cake looks good!", 
+            "hint": "Hit the lanes and show us some XXX - and no, not that kind of XXX. Get your head out of the gutter!", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4d0925ed304460fc7117da63", 
+            "id": "4d0925ed304460fc7117da63", 
+            "name": "7-10 Split"
+        }, 
+        "4ee3bd170e61681b959380c4": {
+            "unlockMessage": "Francia unlocked the Campus Explorer badge", 
+            "description": "You've travelled far and wide to explore every corner of campus - all without getting scurvy. Magellan's got nothing on you!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4ee3bd170e61681b95938081", 
+                            "createdAt": 1323547927
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/college-explorer.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "You've travelled far and wide to explore every corner of campus - all without getting scurvy. Magellan's got nothing on you!", 
+            "badgeId": "4c61a7098c2103bbe646ff35", 
+            "id": "4ee3bd170e61681b959380c4", 
+            "name": "Campus Explorer"
+        }, 
+        "4c005eaf675403bbf4867494": {
+            "unlockMessage": "Francia unlocked the Overshare badge", 
+            "description": "10+ check-ins in 12 hours! Next up: tweeting that you unlocked this Overshare badge?", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "createdAt": 1275092655, 
+                            "private": true, 
+                            "visibility": "private", 
+                            "type": "checkin", 
+                            "id": "4c005eafa4de2f5e2bf27bbe", 
+                            "timeZoneOffset": -240
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/overshare.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "10+ check-ins in 12 hours! Next up: tweeting that you unlocked this Overshare badge?", 
+            "badgeId": "4c4f08667a0803bbc3202ab7", 
+            "id": "4c005eaf675403bbf4867494", 
+            "name": "Overshare"
+        }, 
+        "4db7ccb7f7b15ca52cdcabde": {
+            "unlockMessage": "Francia unlocked the School Night badge", 
+            "description": "Checking in after 3am on a school night? Well done!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4db7ccb7f7b15ca52cdcabd6", 
+                            "createdAt": 1303891127
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/schoolnight.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Checking in after 3am on a school night? Well done!", 
+            "badgeId": "4c4f08667a0803bbb3202ab7", 
+            "id": "4db7ccb7f7b15ca52cdcabde", 
+            "name": "School Night"
+        }, 
+        "4f6a48ae7beb7e5831d4dffe": {
+            "description": "You\u2019ve stayed up 'til the wee hours to watch matches at Billie Jean and Rod Laver Arena and perfected your Johnny Mac outbursts and Sharapova shriek. Now prepare to face the likes of Novak Djokovic, slice an ace down the line, and make it a love game!", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4f6a48ae7beb7e5831d4dffe", 
+            "id": "4f6a48ae7beb7e5831d4dffe", 
+            "name": "Ace"
+        }, 
+        "4fa4678be4b00cad887d40c5": {
+            "unlockMessage": "Francia unlocked the Mile High badge", 
+            "description": "Congrats, you\u2019ve just unlocked the Mile High badge! 500 miles per hour @ 30,000 feet and you\u2019re still connected with Gogo.  Happy travels!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4fa4678be4b00cad887d40bf", 
+                            "createdAt": 1336174475
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/aircell.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Congrats, you\u2019ve just unlocked the Mile High badge! 500 miles per hour @ 30,000 feet and you\u2019re still connected with Gogo.  Happy travels!", 
+            "badgeId": "4c4f08677a0803bb52212ab7", 
+            "id": "4fa4678be4b00cad887d40c5", 
+            "name": "Mile High"
+        }, 
+        "506cc3375d24d660861a4ad2": {
+            "unlockMessage": "Francia unlocked the Shutterbug badge", 
+            "description": "You\u2019re a regular Ansel Adams! Whether you\u2019re capturing the sun setting over the Siberian tundra, an adorable French Bulldog, or an artsy cappuccino foam shot (#nojudgements), your friends love your photo-worthy adventures. Keep snapping away!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "506cc335e4b0ad5742b4bf58", 
+                            "createdAt": 1349305141
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/2KKQ4FII01YK1TYK.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "You\u2019re a regular Ansel Adams! Whether you\u2019re capturing the sun setting over the Siberian tundra, an adorable French Bulldog, or an artsy cappuccino foam shot (#nojudgements), your friends love your photo-worthy adventures. Keep snapping away!", 
+            "badgeId": "502ae142011c88ba3d9bfe5b", 
+            "id": "506cc3375d24d660861a4ad2", 
+            "name": "Shutterbug"
+        }, 
+        "50ff6f90e4b02a94180ed4c7": {
+            "unlockMessage": "Francia unlocked the Great Outdoors badge", 
+            "description": "Welcome to the Great Outdoors!\n\nFresh air! You'll unlock Level 2 once you've been to 5 DIFFERENT outdoor spots.", 
+            "level": 1, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "50ff6f8fe4b02a94180ed15f", 
+                            "createdAt": 1358917519
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/greatoutdoors.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Welcome to the Great Outdoors!", 
+            "badgeId": "4c7d1deb978976b064cfe939", 
+            "categorySummary": "Outdoor Spots", 
+            "id": "50ff6f90e4b02a94180ed4c7", 
+            "levelText": "Fresh air! You'll unlock Level 2 once you've been to 5 DIFFERENT outdoor spots.", 
+            "name": "Great Outdoors"
+        }, 
+        "4deba4a6d164ef597d0a11cf": {
+            "unlockMessage": "Francia unlocked the Century Club badge", 
+            "description": "That's over 100 days you've checked in at the same place! You should have your photo hanging on the wall by now. Seriously, if they don't let you, just hang it up yourself.", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4deba4a6d164ef597d0a11c3", 
+                            "createdAt": 1307288742
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/century.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "That's over 100 days you've checked in at the same place! You should have your photo hanging on the wall by now. Seriously, if they don't let you, just hang it up yourself.", 
+            "badgeId": "4d5ac1585e7788bf97e98f9e", 
+            "id": "4deba4a6d164ef597d0a11cf", 
+            "name": "Century Club"
+        }, 
+        "4c4f08667a0803bbdb202ab7": {
+            "description": "Treat yourself to another cupcake - that's 5 birthday shoutouts from you!", 
+            "hint": "Good friends always remember birthdays. Great friends sing real loud!", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4c4f08667a0803bbdb202ab7", 
+            "id": "4c4f08667a0803bbdb202ab7", 
+            "name": "16 Candles"
+        }, 
+        "4c02a036c7dd1737209db088": {
+            "unlockMessage": "Francia unlocked the Pizzaiolo badge", 
+            "description": "No crust goes without proper inspection, no cheese-to-sauce ratio is left unquestioned, no distance is too far on the quest to find the perfect slice \u2013 it\u2019s connoisseurs like you that make the pizza wheel go \u2018round.\n\nSlice city! You'll unlock Level 2 once you've been to 5 DIFFERENT pizza joints. Garlic knots all around!", 
+            "level": 1, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "createdAt": 1275240502, 
+                            "private": true, 
+                            "visibility": "private", 
+                            "type": "checkin", 
+                            "id": "4c02a036a4de2f5eedf18ebe", 
+                            "timeZoneOffset": -240
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/pizza.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "No crust goes without proper inspection, no cheese-to-sauce ratio is left unquestioned, no distance is too far on the quest to find the perfect slice \u2013 it\u2019s connoisseurs like you that make the pizza wheel go \u2018round.", 
+            "badgeId": "4c4f08667a0803bbdd202ab7", 
+            "categorySummary": "Pizza Places", 
+            "id": "4c02a036c7dd1737209db088", 
+            "levelText": "Slice city! You'll unlock Level 2 once you've been to 5 DIFFERENT pizza joints. Garlic knots all around!", 
+            "name": "Pizzaiolo"
+        }, 
+        "4e988be87beb567e777d83e9": {
+            "description": "Sticky vinyl booths, bottomless mugs of joe, apple pie fresh out of the display case\u2026 Does that waitress have syrup on her hairnet? Sounds like diner heaven to us. Now, treat yourself to onion rings. Or a milkshake. We suggest both.", 
+            "hint": "Head over to some diners to get this greasy badge in your trophy case.", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4e988be87beb567e777d83e9", 
+            "id": "4e988be87beb567e777d83e9", 
+            "name": "Greasy Spoon"
+        }, 
+        "4e152fd4e4cded5611267a9c": {
+            "unlockMessage": "Francia unlocked the Bookworm Bender badge", 
+            "description": "Looks like you're throwing a late night bender at the library. Ain't no party like a Pythagorean Theorem party!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4e152fd4e4cded5611267a9a", 
+                            "createdAt": 1310011348
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/college-bookworm.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Looks like you're throwing a late night bender at the library. Ain't no party like a Pythagorean Theorem party!", 
+            "badgeId": "4c61a6fd8c2103bbe446ff35", 
+            "id": "4e152fd4e4cded5611267a9c", 
+            "name": "Bookworm Bender"
+        }, 
+        "4c4f08667a0803bbd0202ab7": {
+            "description": "10x trips in 30 days? Go reward yourself with a hot shower, a shot of wheatgrass (or a milkshake!), and some snazzy fitness wear with \"built-in technology.\" P.S. You look nice today!", 
+            "hint": "If you want this badge you have to work for it - do another 10 reps and we'll talk!", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4c4f08667a0803bbd0202ab7", 
+            "id": "4c4f08667a0803bbd0202ab7", 
+            "name": "Gym Rat"
+        }, 
+        "4f63c505e4b0c65cc3b2e711": {
+            "unlockMessage": "Francia unlocked the Flame Broiled badge", 
+            "description": "There\u2019s nothing like satisfying your craving with a bacon-infused, grass-fed Kobe beef burger nestled on a brioche bun. Or, you know, a good ol\u2019 Quarter Pounder with Cheese. Sorry, make that a Royale with Cheese. (Oh you fancy, huh?)\n\nHope you got cheese on that! Visit 5 DIFFERENT burger joints to unlock Level 2.", 
+            "level": 1, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4f63c504e4b0c65cc3b2e691", 
+                            "createdAt": 1331938564
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/M5KG1HZRM4WK0NUD.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "There\u2019s nothing like satisfying your craving with a bacon-infused, grass-fed Kobe beef burger nestled on a brioche bun. Or, you know, a good ol\u2019 Quarter Pounder with Cheese. Sorry, make that a Royale with Cheese. (Oh you fancy, huh?)", 
+            "badgeId": "4f0da0207bebfc145ffdad57", 
+            "categorySummary": "Burger Joints", 
+            "id": "4f63c505e4b0c65cc3b2e711", 
+            "levelText": "Hope you got cheese on that! Visit 5 DIFFERENT burger joints to unlock Level 2.", 
+            "name": "Flame Broiled"
+        }, 
+        "4cec5f0bf7ac8eecd229e51e": {
+            "description": "Looks like someone's been slaying the pow! Say, is it 1988 in here, or did someone just throw a sick Double Daffy!?", 
+            "hint": "Get your skis shined up. Grab a stick of Juicy Fruit! The taste is gonna move ya!", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4cec5f0bf7ac8eecd229e51e", 
+            "id": "4cec5f0bf7ac8eecd229e51e", 
+            "name": "Ski Bum"
+        }, 
+        "50491df1e4b0f94aab19678d": {
+            "unlockMessage": "Francia unlocked the Back to School badge", 
+            "description": "Stacks on stacks on stacks! Time to get your learning on. But before you lock yourself up in ye olde library, use foursquare to explore your campus. Find a sneaky study spot, or the best cup of coffee (fuel!) \u2013 then leave a tip to pay it forward. Boom!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "50491df1e4b0f94aab196759", 
+                            "createdAt": 1346969073
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/GEUB3RTIDOC2GLSC.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Stacks on stacks on stacks! Time to get your learning on. But before you lock yourself up in ye olde library, use foursquare to explore your campus. Find a sneaky study spot, or the best cup of coffee (fuel!) \u2013 then leave a tip to pay it forward. Boom!", 
+            "badgeId": "503552d6011c38107f4f08ec", 
+            "id": "50491df1e4b0f94aab19678d", 
+            "name": "Back to School"
+        }, 
+        "4e734d19aeb74f9f492f2dd8": {
+            "unlockMessage": "Francia unlocked the 9 to 5 badge", 
+            "description": "Looks like someone's filed 15 TPS reports in 30 days. Ummm... Yeeaahh... we're gonna need to go ahead and move you downstairs into Storage B.", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4e734d19aeb74f9f492f2db5", 
+                            "createdAt": 1316179225
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/9to5.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Looks like someone's filed 15 TPS reports in 30 days. Ummm... Yeeaahh... we're gonna need to go ahead and move you downstairs into Storage B.", 
+            "badgeId": "4caa535f30bd9eb05be32923", 
+            "id": "4e734d19aeb74f9f492f2dd8", 
+            "name": "9 to 5"
+        }, 
+        "4d3efab1ac038eec826d6cfc": {
+            "description": " Warm up the glue gun, sharpen your scissors and lay out some pipe cleaners - cause somebody's about to make something awesome! Sure hope it's a papier-m\u00e2ch\u00e9 dinosaur!", 
+            "hint": "Cut it out.", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4d3efab1ac038eec826d6cfc", 
+            "id": "4d3efab1ac038eec826d6cfc", 
+            "name": "Handmade Hero"
+        }, 
+        "4ec968e10e6158ba00da6c3f": {
+            "unlockMessage": "Francia unlocked the Fresh Brew badge", 
+            "description": "Look at you, Juan Valdez! That's a lot of coffee. Now that you've had your caffeine fix, get out there and conquer the day - one twitchy step at a time.\n\nCongrats, coffee lover! You'll unlock Level 2 once you've been to 5 DIFFERENT coffee shops.", 
+            "level": 1, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4ec968e00e6158ba00da6b9c", 
+                            "createdAt": 1321822432
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/coffee.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Look at you, Juan Valdez! That's a lot of coffee. Now that you've had your caffeine fix, get out there and conquer the day - one twitchy step at a time.", 
+            "badgeId": "4d24bfee668f60fc7b32b26f", 
+            "categorySummary": "Coffee Shops", 
+            "id": "4ec968e10e6158ba00da6c3f", 
+            "levelText": "Congrats, coffee lover! You'll unlock Level 2 once you've been to 5 DIFFERENT coffee shops.", 
+            "name": "Fresh Brew"
+        }, 
+        "50b64929011cb887b3335244": {
+            "description": "Bratwurst. Eisbein. Sauerkraut. Labskaus. And you can\u2019t resist a good Schnitzel. Now grab a Bier and enjoy the Gem\u00fctlichkeit at your Stammtisch. Guten Appetit!", 
+            "hint": "Have some Schnitzel! ", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "50b64929011cb887b3335244", 
+            "id": "50b64929011cb887b3335244", 
+            "name": "Schweinshaxen"
+        }, 
+        "5091d040e4b02b4644188c47": {
+            "unlockMessage": "Francia unlocked the Zombie Swarm badge", 
+            "description": "Ermagherd! This place is swarming! At least five Boy Scouts are in line for the bathroom (thanks a lot, Wes Anderson), there\u2019s a Gangnam Style flash mob coming your way, and\u2026 is that a slutty Big Bird making out with Bane in the corner? Shut it down.", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "5091d040e4b02b4644188c30", 
+                            "createdAt": 1351733312
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/QIACVSETLOCYI5GH.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Ermagherd! This place is swarming! At least five Boy Scouts are in line for the bathroom (thanks a lot, Wes Anderson), there\u2019s a Gangnam Style flash mob coming your way, and\u2026 is that a slutty Big Bird making out with Bane in the corner? Shut it down.", 
+            "badgeId": "50894eb2011cb5c41d776e0f", 
+            "id": "5091d040e4b02b4644188c47", 
+            "name": "Zombie Swarm"
+        }, 
+        "4c004e66675403bbce7b7494": {
+            "unlockMessage": "Francia unlocked the Superstar badge", 
+            "description": "You've checked in to 50 different places!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "createdAt": 1275088485, 
+                            "private": true, 
+                            "visibility": "private", 
+                            "type": "checkin", 
+                            "id": "4c004e65a4de2f5e643f7bbe", 
+                            "timeZoneOffset": -240
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/superstar.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "You've checked in to 50 different places!", 
+            "badgeId": "4c4f08667a0803bbad202ab7", 
+            "id": "4c004e66675403bbce7b7494", 
+            "name": "Superstar"
+        }, 
+        "502c3283e4b0d60ec7e8c252": {
+            "unlockMessage": "Francia unlocked the Triple Play badge", 
+            "description": "A handful of big-league stadium check-ins from 1 baseball fan who happens to have 2 thumbs? By our count, you're only a 4-bagger short of the foursquare cycle! We tried putting the badge in the Cracker Jack box. Didn't fit.\n\nHeyyy batter batter! You'll unlock Level 2 once you've been to 5 DIFFERENT baseball stadiums!", 
+            "level": 1, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "502c3283e4b0d60ec7e8c158", 
+                            "createdAt": 1345073795
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/5NYE0PW4EC0V321Z.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "A handful of big-league stadium check-ins from 1 baseball fan who happens to have 2 thumbs? By our count, you're only a 4-bagger short of the foursquare cycle! We tried putting the badge in the Cracker Jack box. Didn't fit.", 
+            "badgeId": "4dfbc8e5922e5ece12ea29ba", 
+            "categorySummary": "Baseball Stadiums", 
+            "id": "502c3283e4b0d60ec7e8c252", 
+            "levelText": "Heyyy batter batter! You'll unlock Level 2 once you've been to 5 DIFFERENT baseball stadiums!", 
+            "name": "Triple Play"
+        }, 
+        "4cdd818ec7dd1737209db0a4": {
+            "unlockMessage": "Francia unlocked the Mall Rat badge", 
+            "description": "Sharper Image. Gap. That guy selling bedazzled iPhone cases from a kiosk. It\u2019s always nice to see some familiar faces. Now, weave your way through that crazy crowd, grab an Orange Julius, and enjoy the fountain\u2019s soothing gurgles.\n\nCongrats, Mall Rat! You\u2019ll unlock Level 2 once you\u2019ve been to 5 DIFFERENT malls.", 
+            "level": 1, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "type": "checkin", 
+                            "id": "4cdd818ecea2224ba5ab914c", 
+                            "createdAt": 1289585038
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/VCNL1VD5FZAK5JBN.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Sharper Image. Gap. That guy selling bedazzled iPhone cases from a kiosk. It\u2019s always nice to see some familiar faces. Now, weave your way through that crazy crowd, grab an Orange Julius, and enjoy the fountain\u2019s soothing gurgles.", 
+            "badgeId": "4ecbdd9e7beb20ebed8da36d", 
+            "categorySummary": "Malls", 
+            "id": "4cdd818ec7dd1737209db0a4", 
+            "levelText": "Congrats, Mall Rat! You\u2019ll unlock Level 2 once you\u2019ve been to 5 DIFFERENT malls.", 
+            "name": "Mall Rat"
+        }, 
+        "4cccdf99ee23a143a84e22a8": {
+            "unlockMessage": "Francia unlocked the Halloween 2010 badge", 
+            "description": "Happy Halloween from foursquare! Here's to hoping you came up with a better costume than The Jersey Shore.", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "type": "checkin", 
+                            "id": "4cccdf99ee23a143a64e22a8", 
+                            "createdAt": 1288495001
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/halloween10.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Happy Halloween from foursquare! Here's to hoping you came up with a better costume than The Jersey Shore.", 
+            "badgeId": "4cc98d1fdbc376b0d867a4bc", 
+            "id": "4cccdf99ee23a143a84e22a8", 
+            "name": "Halloween 2010"
+        }, 
+        "52348b8611d2b0300f1312e9": {
+            "unlockMessage": "Francia unlocked the Porky badge", 
+            "description": "Brisket or ribs? Pulled pork or pork belly? What sides will you get? Whatever you choose, remember to bask in that contented, full-of-barbecue feeling before it turns into over-stuffed regret. And wipe that sauce off your face. You\u2019re making us hungry.\n\nYum! You\u2019ll unlock Level 2 once you\u2019ve been to 5 DIFFERENT BBQ spots. Don\u2019t forget the wet naps!", 
+            "level": 1, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "52348b8611d2b0300f130621", 
+                            "createdAt": 1379175302
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/O45WPF3MNHITXIW4.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Brisket or ribs? Pulled pork or pork belly? What sides will you get? Whatever you choose, remember to bask in that contented, full-of-barbecue feeling before it turns into over-stuffed regret. And wipe that sauce off your face. You\u2019re making us hungry.", 
+            "badgeId": "4f4d5fa07beb270824a95b7b", 
+            "categorySummary": "BBQ Joints", 
+            "id": "52348b8611d2b0300f1312e9", 
+            "levelText": "Yum! You\u2019ll unlock Level 2 once you\u2019ve been to 5 DIFFERENT BBQ spots. Don\u2019t forget the wet naps!", 
+            "name": "Porky"
+        }, 
+        "4b880fc0675403bba00b5194": {
+            "unlockMessage": "Francia unlocked the Adventurer badge", 
+            "description": "You've checked into 10 different places! Now, how about inviting some friends into the mix? You can share recommendations and check out new spots together!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "type": "checkin", 
+                            "id": "4b880fbfa4de2f5efc8511bc", 
+                            "createdAt": 1267208127
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/adventurer.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "You've checked into 10 different places! Now, how about inviting some friends into the mix? You can share recommendations and check out new spots together!", 
+            "badgeId": "4c4f08667a0803bbab202ab7", 
+            "id": "4b880fc0675403bba00b5194", 
+            "name": "Adventurer"
+        }, 
+        "51b9b56d498e91c3f1469230": {
+            "unlockMessage": "Francia unlocked the La Ville-Lumi\u00e8re badge", 
+            "description": "You\u2019ve picnicked avec un peu de vin by les quais de Seine, partied in R\u00e9publique, missed le dernier m\u00e9tro, and taken un velib instead. From la Rive Gauche to la Rive Droite, you\u2019ve seen it all (except Les Catacombes)! C\u2019est un truc de ouf.", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": 120, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "51b9b56d498e91c3f1468e31", 
+                            "createdAt": 1371125101
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/FL3IM550Y4ZRISJM.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "You\u2019ve picnicked avec un peu de vin by les quais de Seine, partied in R\u00e9publique, missed le dernier m\u00e9tro, and taken un velib instead. From la Rive Gauche to la Rive Droite, you\u2019ve seen it all (except Les Catacombes)! C\u2019est un truc de ouf.", 
+            "badgeId": "4ee2313e7beb7ce90259e8b3", 
+            "id": "51b9b56d498e91c3f1469230", 
+            "name": "La Ville-Lumi\u00e8re"
+        }, 
+        "4c7d1dd0978976b0c7cee939": {
+            "description": "Hey now! You sure like checking in near the water. Let's hope this isn't followed-up by unlocking our \"Unlucky Shark Attack\" badge. \t", 
+            "hint": "Only properly pruned hands can unlock this badge.", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4c7d1dd0978976b0c7cee939", 
+            "id": "4c7d1dd0978976b0c7cee939", 
+            "name": "Swimmies"
+        }, 
+        "4f69da87e4b069cce63ba7a2": {
+            "unlockMessage": "Francia unlocked the Warhol badge", 
+            "description": "That sure is a nice collection of art gallery check-ins!\n\nWine and cheese for everyone! You'll unlock Level 2 once you've been to 5 DIFFERENT art galleries.", 
+            "level": 1, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": 60, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4f69da87e4b069cce63ba755", 
+                            "createdAt": 1332337287
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/gallery.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "That sure is a nice collection of art gallery check-ins!", 
+            "badgeId": "4c4f08667a0803bbdf202ab7", 
+            "categorySummary": "Art Galleries", 
+            "id": "4f69da87e4b069cce63ba7a2", 
+            "levelText": "Wine and cheese for everyone! You'll unlock Level 2 once you've been to 5 DIFFERENT art galleries.", 
+            "name": "Warhol"
+        }, 
+        "4cccdf99c7dd1737209db0a2": {
+            "unlockMessage": "Francia unlocked the Wino badge", 
+            "description": "Quite the discerning wine palate. Let the tannins settle and savor the flavor profile - vanilla, butterscotch, used-chimney. Enjoy your next pinot, you oenophile you.\n\nPinot party! You'll need 5 visits at DIFFERENT wine spots to unlock Level 2. Get on it!", 
+            "level": 1, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "type": "checkin", 
+                            "id": "4cccdf99ee23a143a64e22a8", 
+                            "createdAt": 1288495001
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/G2LLAO2NYANJWMWH.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Quite the discerning wine palate. Let the tannins settle and savor the flavor profile - vanilla, butterscotch, used-chimney. Enjoy your next pinot, you oenophile you.", 
+            "badgeId": "4df23ba9922e8e1ea8903cca", 
+            "categorySummary": "Wine Spots", 
+            "id": "4cccdf99c7dd1737209db0a2", 
+            "levelText": "Pinot party! You'll need 5 visits at DIFFERENT wine spots to unlock Level 2. Get on it!", 
+            "name": "Wino"
+        }, 
+        "4da981ea5da3ba8a47727b4c": {
+            "unlockMessage": "Francia unlocked the 4sqDay 2011 badge", 
+            "description": "And we thought last year was huge! Happy 4/4^2 day! Thanks to all of you amazing people, for organizing over 1000 parties around the world for our little startup! We would give a speech, but we're just trying to hold back our tears.", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4da981e85da3ba8a47727b01", 
+                            "createdAt": 1302954472
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/4sqday2011.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "And we thought last year was huge! Happy 4/4^2 day! Thanks to all of you amazing people, for organizing over 1000 parties around the world for our little startup! We would give a speech, but we're just trying to hold back our tears.", 
+            "badgeId": "4d951c60c162530c255ceca3", 
+            "id": "4da981ea5da3ba8a47727b4c", 
+            "name": "4sqDay 2011"
+        }, 
+        "4d18fe666c8b54811f52f5cc": {
+            "unlockMessage": "Francia unlocked the Super Duper Swarm badge", 
+            "description": "That \"Super Swarm\" badge is for babies!  Welcome to the Super Duper Swarm Club - 500 people checked in at once!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4d18fe656c8b54811c52f5cc", 
+                            "createdAt": 1293483621
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/super_duper_swarm.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "That \"Super Swarm\" badge is for babies!  Welcome to the Super Duper Swarm Club - 500 people checked in at once!", 
+            "badgeId": "4c4f08677a0803bb4c212ab7", 
+            "id": "4d18fe666c8b54811f52f5cc", 
+            "name": "Super Duper Swarm"
+        }, 
+        "4b8d6fce675403bb95cc5194": {
+            "unlockMessage": "Francia unlocked the Local badge", 
+            "description": "Sometimes you want to go... where everybody knows your name... You\u2019ve checked in at the same place three days in one week!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "createdAt": 1267560397, 
+                            "private": true, 
+                            "visibility": "private", 
+                            "type": "checkin", 
+                            "id": "4b8d6fcda4de2f5e4f1a1fbc", 
+                            "timeZoneOffset": -300
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/local.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Sometimes you want to go... where everybody knows your name... You\u2019ve checked in at the same place three days in one week!", 
+            "badgeId": "4c4f08667a0803bbb0202ab7", 
+            "id": "4b8d6fce675403bb95cc5194", 
+            "name": "Local"
+        }, 
+        "5259a23111d2512ce6ea8d2c": {
+            "unlockMessage": "Francia unlocked the Don't Stop Believin' badge", 
+            "description": "Just a small town girl / Living in a lonely world / She took the midnight train going anywhere! Someone's really enjoying those karaoke field trips! Treat yourself by slaying a lil' Bon Jovi.\n\nSing-erffic! You'll unlock Level 2 once you've been to 5 DIFFERENT karaoke spots.", 
+            "level": 1, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "5259a23111d2512ce6ea845f", 
+                            "createdAt": 1381605937
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/karaoke.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Just a small town girl / Living in a lonely world / She took the midnight train going anywhere! Someone's really enjoying those karaoke field trips! Treat yourself by slaying a lil' Bon Jovi.", 
+            "badgeId": "4c4f08667a0803bbcf202ab7", 
+            "categorySummary": "Karaoke Spots", 
+            "id": "5259a23111d2512ce6ea8d2c", 
+            "levelText": "Sing-erffic! You'll unlock Level 2 once you've been to 5 DIFFERENT karaoke spots.", 
+            "name": "Don't Stop Believin'"
+        }, 
+        "4b86172c675403bb13c15094": {
+            "unlockMessage": "Francia unlocked the Newbie badge", 
+            "description": "Your first check-in! Foursquare keeps track of your adventures and milestones, like visiting five new sushi spots or galleries. And with every check-in, we learn about what you like and can give you better recommendations.", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "type": "checkin", 
+                            "id": "4b86172ca4de2f5ec2ac0cbc", 
+                            "createdAt": 1267078956
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/newbie.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Your first check-in! Foursquare keeps track of your adventures and milestones, like visiting five new sushi spots or galleries. And with every check-in, we learn about what you like and can give you better recommendations.", 
+            "badgeId": "4c4f08667a0803bbaa202ab7", 
+            "id": "4b86172c675403bb13c15094", 
+            "name": "Newbie"
+        }, 
+        "4d445459c7dd1737209db0ad": {
+            "unlockMessage": "Francia unlocked the Hot Tamale badge", 
+            "description": "Rice, beans, cheese, cilantro \u2013 why eat anything else when you can get all the important food groups wrapped into one delicious pound of foil? Now pass those nachos, will ya? It\u2019s time to guac and roll.\n\nThat's 5 different Mexican spots! Visit 5 new places to unlock Level 3. Slather on that green sauce!", 
+            "level": 2, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4d445459c3e5f04dba3b9920", 
+                            "createdAt": 1296323673
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/L2RRMCA2PGOBSFRN_2.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Rice, beans, cheese, cilantro \u2013 why eat anything else when you can get all the important food groups wrapped into one delicious pound of foil? Now pass those nachos, will ya? It\u2019s time to guac and roll.", 
+            "badgeId": "4ebb078f7bebd6a83f1176bd", 
+            "categorySummary": "Mexican Restaurants", 
+            "id": "4d445459c7dd1737209db0ad", 
+            "levelText": "That's 5 different Mexican spots! Visit 5 new places to unlock Level 3. Slather on that green sauce!", 
+            "name": "Hot Tamale"
+        }, 
+        "4cf69c72775576ebada8e8d0": {
+            "unlockMessage": "Francia unlocked the (RED) badge", 
+            "description": "December 1 is World AIDS Day. We're striving for an AIDS Free Generation by 2015. Thanks for unlocking the (RED) badge and helping make this possibility a reality!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "type": "checkin", 
+                            "id": "4cf68c2bdc40a35dc29a4854", 
+                            "createdAt": 1291226155
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/joinred.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "December 1 is World AIDS Day. We're striving for an AIDS Free Generation by 2015. Thanks for unlocking the (RED) badge and helping make this possibility a reality!", 
+            "badgeId": "4cf3f7a03e996a314d99ea8f", 
+            "id": "4cf69c72775576ebada8e8d0", 
+            "name": "(RED)"
+        }, 
+        "4c43b85c675403bb7e339a94": {
+            "unlockMessage": "Francia unlocked the Super Mayor badge", 
+            "description": "A special shoutout for holding down 10 mayorships at once!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "type": "checkin", 
+                            "id": "4c43b85cf0bdd13ad3b0c8cc", 
+                            "createdAt": 1279506524
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/supermayor.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "A special shoutout for holding down 10 mayorships at once!", 
+            "badgeId": "4c4f08667a0803bbe4202ab7", 
+            "id": "4c43b85c675403bb7e339a94", 
+            "name": "Super Mayor"
+        }, 
+        "506e4fc4e4b030d2b85a226b": {
+            "unlockMessage": "Francia unlocked the Zoetrope badge", 
+            "description": "That\u2019s a lot of movie theater check-ins! Now, can you pick us up a large popcorn while you're up?\n\nThat's 10 different movie theaters! You've got IMDB bookmarked, don't ya? Visit 5 new theaters to unlock Level 4.", 
+            "level": 3, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "506e4fc4e4b030d2b85a2232", 
+                            "createdAt": 1349406660
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/movie_3.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "That\u2019s a lot of movie theater check-ins! Now, can you pick us up a large popcorn while you're up?\t", 
+            "badgeId": "4c4f08667a0803bbdc202ab7", 
+            "categorySummary": "Movie Theaters", 
+            "id": "506e4fc4e4b030d2b85a226b", 
+            "levelText": "That's 10 different movie theaters! You've got IMDB bookmarked, don't ya? Visit 5 new theaters to unlock Level 4.", 
+            "name": "Zoetrope"
+        }, 
+        "4b861bbb675403bb83c15094": {
+            "unlockMessage": "Francia unlocked the Crunked badge", 
+            "description": "That's 4+ stops in one night for you!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "type": "checkin", 
+                            "id": "4b861bbba4de2f5e75b30cbc", 
+                            "createdAt": 1267080123
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/crunked.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "That's 4+ stops in one night for you!", 
+            "badgeId": "4c4f08667a0803bbaf202ab7", 
+            "id": "4b861bbb675403bb83c15094", 
+            "name": "Crunked"
+        }, 
+        "4ec925406da1d109308a7a15": {
+            "unlockMessage": "Francia unlocked the I'm on a boat badge", 
+            "description": "This ain't Seaworld, this is as real as it gets / I'm on a boat, MF'er, don't you ever forget!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4ec925406da1d109308a798d", 
+                            "createdAt": 1321805120
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/boat.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "This ain't Seaworld, this is as real as it gets / I'm on a boat, MF'er, don't you ever forget!", 
+            "badgeId": "4c4f08667a0803bbe5202ab7", 
+            "id": "4ec925406da1d109308a7a15", 
+            "name": "I'm on a boat"
+        }, 
+        "4c4f08667a0803bbb2202ab7": {
+            "description": "Look at you, out on the town and checking in with three of your hottie friends. Player, please!\r\n", 
+            "hint": "Don't hate the player. Hate the game!", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4c4f08667a0803bbb2202ab7", 
+            "id": "4c4f08667a0803bbb2202ab7", 
+            "name": "Player Please!"
+        }, 
+        "4fdcdd6de4b0627bb60d394c": {
+            "unlockMessage": "Francia unlocked the Trainspotter badge", 
+            "description": "From the MTA to the Tube, the Shinkansen to the Trans-Siberian, you\u2019ve ridden them all (or will someday)! Here\u2019s to the beauty of public transit, and to always giving up your seat for the pregnant, elderly, and backpackers who haven\u2019t showered in a week.\n\nThat\u2019s 25 different spots! Check in to 5 more to unlock Level 7. Have fun exploring!", 
+            "level": 6, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4fdcdd6ce4b0627bb60d391c", 
+                            "createdAt": 1339874668
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/QWUWU3B1435TFTEC_6.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "From the MTA to the Tube, the Shinkansen to the Trans-Siberian, you\u2019ve ridden them all (or will someday)! Here\u2019s to the beauty of public transit, and to always giving up your seat for the pregnant, elderly, and backpackers who haven\u2019t showered in a week.", 
+            "badgeId": "4f6a48fa7beb7e5831d4eb25", 
+            "categorySummary": "Stations", 
+            "id": "4fdcdd6de4b0627bb60d394c", 
+            "levelText": "That\u2019s 25 different spots! Check in to 5 more to unlock Level 7. Have fun exploring!", 
+            "name": "Trainspotter"
+        }, 
+        "4ecbdacb7beb20ebed8d3e6a": {
+            "description": "Hot stone massages. Treat yo self. Algae baths. Treat yo self. Carrot mulch scrubs. Treat yo self. Go ahead, splurge on the caviar wrap! And don\u2019t forget to snag a tub of that macadamia nut cream on your way out.  #treatyoself", 
+            "hint": "You need a mud bath. And a lavender foot scrub.", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4ecbdacb7beb20ebed8d3e6a", 
+            "id": "4ecbdacb7beb20ebed8d3e6a", 
+            "name": "Treat Yo Self!"
+        }, 
+        "4e224b2fc7dd1737209db0c9": {
+            "unlockMessage": "Francia unlocked the Baker's Dozen badge", 
+            "description": "You must really love the fresh-baked goodness of baguettes and beignets. Why not reward yourself by curling up with a nice croissant?\n\nYou've been to 5 different bakeries! Sweet! You'll need to get treats at 5 new bakeries to get to Level 3. Cupcakes, anyone?", 
+            "level": 2, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4e224b2faeb7026395399af0", 
+                            "createdAt": 1310870319
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/AEZQ4XA2JMKAE4D5_2.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "You must really love the fresh-baked goodness of baguettes and beignets. Why not reward yourself by curling up with a nice croissant?", 
+            "badgeId": "4e454b72922ee4def2921e93", 
+            "categorySummary": "Dessert Spots", 
+            "id": "4e224b2fc7dd1737209db0c9", 
+            "levelText": "You've been to 5 different bakeries! Sweet! You'll need to get treats at 5 new bakeries to get to Level 3. Cupcakes, anyone?", 
+            "name": "Baker's Dozen"
+        }, 
+        "4f609d15e4b02a87073f9f06": {
+            "unlockMessage": "Francia unlocked the Warm Up badge", 
+            "description": "Congratulations! That's 3 activities completed with RunKeeper. But don't stop now... You're just getting warmed up! Try tracking an upcoming race or some other activities with RunKeeper to earn more badges.", 
+            "unlocks": [
+                {
+                    "checkins": []
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/runkeeper-warmup.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Congratulations! That's 3 activities completed with RunKeeper. But don't stop now... You're just getting warmed up! Try tracking an upcoming race or some other activities with RunKeeper to earn more badges.", 
+            "badgeId": "4c922d95c4b9bfb7abb577f1", 
+            "id": "4f609d15e4b02a87073f9f06", 
+            "name": "Warm Up"
+        }, 
+        "4c57792a675403bb61c0a794": {
+            "unlockMessage": "Francia unlocked the Animal House badge", 
+            "description": "That's 3 check-ins at Fratastic bars. Welcome to foursquare's honorary fraternity, Omega Delta Sigma.", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "type": "checkin", 
+                            "id": "4c57792512f0d13a3a5e07ad", 
+                            "createdAt": 1280801061
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/animalhouse.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "That's 3 check-ins at Fratastic bars. Welcome to foursquare's honorary fraternity, Omega Delta Sigma.", 
+            "badgeId": "4c4f08667a0803bbb9202ab7", 
+            "id": "4c57792a675403bb61c0a794", 
+            "name": "Animal House"
+        }, 
+        "4d36211d2e4076ebeca814e6": {
+            "description": "Whether you're here for 1/4\" electro-galvanized roofing nails or that hammer-machine-saw-thingy, here's to getting stuff done!", 
+            "hint": "Stop! Hammertime!", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4d36211d2e4076ebeca814e6", 
+            "id": "4d36211d2e4076ebeca814e6", 
+            "name": "Fixer Upper"
+        }, 
+        "4d4f31d2a0b0a09350845583": {
+            "unlockMessage": "Francia unlocked the Steelers Super Bowl badge", 
+            "description": "Your devotion to the Steelers is as strong as their Steel Curtain defense. Enjoy the game... and grab us some nachos while you're up!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4d4f31c2a0b0a093f3835583", 
+                            "createdAt": 1297035714
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/superbowl-steelers.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Your devotion to the Steelers is as strong as their Steel Curtain defense. Enjoy the game... and grab us some nachos while you're up!", 
+            "badgeId": "4d47643a9ba95941dd0b4875", 
+            "id": "4d4f31d2a0b0a09350845583", 
+            "name": "Steelers Super Bowl"
+        }, 
+        "524f4c1e11d25eb192c1fb14": {
+            "unlockMessage": "Francia unlocked the The Life Aquatic badge", 
+            "description": "Who needs chicken when you can have chicken of the sea? It's a crustacean sensation!\n\nAy, ay captain! Visit 5 DIFFERENT seafood restaurants to unlock Level 2.", 
+            "level": 1, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "524f4c1e11d25eb192c1f6fd", 
+                            "createdAt": 1380928542
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/TRZRMVASJIFA2I1I.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Who needs chicken when you can have chicken of the sea? It's a crustacean sensation! ", 
+            "badgeId": "5177ec60011c776a8b70270f", 
+            "id": "524f4c1e11d25eb192c1fb14", 
+            "levelText": "Ay, ay captain! Visit 5 DIFFERENT seafood restaurants to unlock Level 2.", 
+            "name": "The Life Aquatic"
+        }, 
+        "4ebb04b27bebd6a83f111f11": {
+            "description": "No dilemma for you - it\u2019s veggies all the way. Now treat yourself to a Tofurky club and a shot of kombucha. After all, you\u2019ve joined the esteemed ranks of Brad Pitt and Pamela Anderson. And Gandhi.", 
+            "hint": "Eat some veggies!", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4ebb04b27bebd6a83f111f11", 
+            "id": "4ebb04b27bebd6a83f111f11", 
+            "name": "Herbivore"
+        }, 
+        "5079ba6ee4b03470531ae71f": {
+            "unlockMessage": "Francia unlocked the Comic Con 2012  badge", 
+            "description": "Good morning, meatbags. After you unlock all 3 variant editions of the Comic Con badge (just kidding, there\u2019s only one), go harass the cast of \u201cOnce Upon a Time,\u201d and get Doctor Who\u2019s autograph. Oh, and be sure to make time for some cosplay gawking.", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "5079ba6ee4b03470531ae5b7", 
+                            "createdAt": 1350154862
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/Z2ZM22YTRHUX2J2T.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Good morning, meatbags. After you unlock all 3 variant editions of the Comic Con badge (just kidding, there\u2019s only one), go harass the cast of \u201cOnce Upon a Time,\u201d and get Doctor Who\u2019s autograph. Oh, and be sure to make time for some cosplay gawking.", 
+            "badgeId": "5075fb7183025e379ad168b3", 
+            "id": "5079ba6ee4b03470531ae71f", 
+            "name": "Comic Con 2012 "
+        }, 
+        "4c55bed4675403bbdb97a694": {
+            "unlockMessage": "Francia unlocked the Monkey Bars badge", 
+            "description": "Forget those \"Bender\" and \"Crunked\" badges - you've conquered the playground circuit!\n\nFun! You'll unlock Level 2 once you've been to 5 DIFFERENT playgrounds.", 
+            "level": 1, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "type": "checkin", 
+                            "id": "4c55bed330f92d7fa27ea7bc", 
+                            "createdAt": 1280687827
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/playground.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Forget those \"Bender\" and \"Crunked\" badges - you've conquered the playground circuit!", 
+            "badgeId": "4c4f08667a0803bbe0202ab7", 
+            "categorySummary": "Playgrounds", 
+            "id": "4c55bed4675403bbdb97a694", 
+            "levelText": "Fun! You'll unlock Level 2 once you've been to 5 DIFFERENT playgrounds.", 
+            "name": "Monkey Bars"
+        }, 
+        "4e26614efa7682ed23014176": {
+            "unlockMessage": "Francia unlocked the Ten Hundred badge", 
+            "description": "Over 1000 check-ins!? Dayum. You're a powerful beast of exploration and discovery. You're what makes Foursquare awesome. We wish we could give you 1,000 hugs.", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -240, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "4e26614efa7682ed23014174", 
+                            "createdAt": 1311138126
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/YDXGSAX5CLUU15YB.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Over 1000 check-ins!? Dayum. You're a powerful beast of exploration and discovery. You're what makes Foursquare awesome. We wish we could give you 1,000 hugs.", 
+            "badgeId": "4e0b9719922ec2dafe5c06c2", 
+            "id": "4e26614efa7682ed23014176", 
+            "name": "Ten Hundred"
+        }, 
+        "4ecbdf417beb20ebed8ddfe4": {
+            "description": "Miles, Monk, Mingus, Max. Duke, Dizzy, Django. Benny and Bird. Louis and Lady Day... You could go on, but you\u2019re no high-hat. Now, don\u2019t be shy \u2013 grab your sax and jump on stage for a quick on-stage jam sesh! *snap* *snap*", 
+            "hint": "It don\u2019t mean a thing if it ain\u2019t got that swing!", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4ecbdf417beb20ebed8ddfe4", 
+            "id": "4ecbdf417beb20ebed8ddfe4", 
+            "name": "Blue Note"
+        }, 
+        "4c4f08677a0803bb4e212ab7": {
+            "description": "Woof! Woof woof woof woof woof! Woof! Woof woof!", 
+            "hint": "\"Bark Bark Woof!\" Somebody wants to play!", 
+            "unlocks": [], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/default_off.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeId": "4c4f08677a0803bb4e212ab7", 
+            "id": "4c4f08677a0803bb4e212ab7", 
+            "name": "Dog's Best Friend"
+        }, 
+        "509a017de4b05843e10468e7": {
+            "unlockMessage": "Francia unlocked the Players Club badge", 
+            "description": "Stranger danger! It\u2019s after midnight and this place is swarming. Make some new friends!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "timeZoneOffset": -300, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "type": "checkin", 
+                            "id": "509a017ce4b05843e10468c6", 
+                            "createdAt": 1352270204
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/YBOOA2FZ35D5E2QA.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "Stranger danger! It\u2019s after midnight and this place is swarming. Make some new friends!", 
+            "badgeId": "4f4585997beb15d09255d46e", 
+            "id": "509a017de4b05843e10468e7", 
+            "name": "Players Club"
+        }, 
+        "4c1bba6ac7dd1737209db08c": {
+            "unlockMessage": "Francia unlocked the Bookworm badge", 
+            "description": "NERD ALERT!\n\nYay books! You'll unlock Level 2 once you've hit up 5 DIFFERENT book spots.", 
+            "level": 1, 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "createdAt": 1276885610, 
+                            "private": true, 
+                            "visibility": "private", 
+                            "type": "checkin", 
+                            "id": "4c1bba6ab9f876b051bb7a46", 
+                            "timeZoneOffset": -240
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/bookworm.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "NERD ALERT!", 
+            "badgeId": "4cf5199da41a60fcf71d2fc0", 
+            "categorySummary": "Bookstores & Libraries", 
+            "id": "4c1bba6ac7dd1737209db08c", 
+            "levelText": "Yay books! You'll unlock Level 2 once you've hit up 5 DIFFERENT book spots.", 
+            "name": "Bookworm"
+        }, 
+        "4b907823675403bb93415294": {
+            "unlockMessage": "Francia unlocked the Super User badge", 
+            "description": "That's 30 check-ins in a month for you!", 
+            "unlocks": [
+                {
+                    "checkins": [
+                        {
+                            "createdAt": 1267759139, 
+                            "private": true, 
+                            "visibility": "private", 
+                            "type": "checkin", 
+                            "id": "4b907823a4de2f5e3a6527bc", 
+                            "timeZoneOffset": -300
+                        }
+                    ]
+                }
+            ], 
+            "image": {
+                "prefix": "https://playfoursquare.s3.amazonaws.com/badge/", 
+                "name": "/superuser.png", 
+                "sizes": [
+                    57, 
+                    114, 
+                    200, 
+                    300, 
+                    400
+                ]
+            }, 
+            "badgeText": "That's 30 check-ins in a month for you!", 
+            "badgeId": "4c4f08667a0803bbb1202ab7", 
+            "id": "4b907823675403bb93415294", 
+            "name": "Super User"
+        }
+    }, 
+    "sets": {
+        "groups": [
+            {
+                "items": [
+                    "5259a23111d2512ce6ea8d2c", 
+                    "524f4c1e11d25eb192c1fb14", 
+                    "52348b8611d2b0300f1312e9", 
+                    "51bb0f0b498e92f16fa9b8ae", 
+                    "51b9b56d498e91c3f1469230", 
+                    "50ff6f90e4b02a94180ed4c7", 
+                    "509a017de4b05843e10468e7", 
+                    "5091d040e4b02b4644188c47", 
+                    "5079ba6ee4b03470531ae71f", 
+                    "5078b3e2e4b047ff2b5d4053", 
+                    "506e4fc4e4b030d2b85a226b", 
+                    "506cc3375d24d660861a4ad2", 
+                    "50491df1e4b0f94aab19678d", 
+                    "502c3283e4b0d60ec7e8c252", 
+                    "4fdcdd6de4b0627bb60d394c", 
+                    "4fa4678be4b00cad887d40c5", 
+                    "4f8c19b4e4b0e67b8785b70e", 
+                    "4f69da87e4b069cce63ba7a2", 
+                    "4f63c505e4b0c65cc3b2e711", 
+                    "4f609d15e4b02a87073f9f06", 
+                    "4f4e44e6e4b088c4af304c3c", 
+                    "4f2eff24e4b0ccb914799b15", 
+                    "4ee3bd170e61681b959380c4", 
+                    "4ec968e10e6158ba00da6c3f", 
+                    "4ec925406da1d109308a7a15", 
+                    "4e792826aeb79f7dab554dab", 
+                    "4e734d19aeb74f9f492f2dd8", 
+                    "4e26614efa7682ed23014176", 
+                    "4e224b2fc7dd1737209db0c9", 
+                    "4e152fd4e4cded5611267a9c", 
+                    "4e0562038877394591d954c7", 
+                    "4deba4a6d164ef597d0a11cf", 
+                    "4db7ccb7f7b15ca52cdcabde", 
+                    "4da981ea5da3ba8a47727b4c", 
+                    "4d4f31d2a0b0a09350845583", 
+                    "4d445459c7dd1737209db0ad", 
+                    "4d18fe666c8b54811f52f5cc", 
+                    "4cf69c72775576ebada8e8d0", 
+                    "4cf689c6b9792d43f8155595", 
+                    "4cdd818ec7dd1737209db0a4", 
+                    "4ccf601148b837040faaebde", 
+                    "4cccdf99ee23a143a84e22a8", 
+                    "4cccdf99c7dd1737209db0a2", 
+                    "4c57792a675403bb61c0a794", 
+                    "4c55bed4675403bbdb97a694", 
+                    "4c43b85c675403bb7e339a94", 
+                    "4c1bba6ac7dd1737209db08c", 
+                    "4c111565675403bb274b7d94", 
+                    "4c02a036c7dd1737209db088", 
+                    "4c005eaf675403bbf4867494", 
+                    "4c004e66675403bbce7b7494", 
+                    "4bb3f7f1675403bbcb945a94", 
+                    "4ba12a2e675403bb51925594", 
+                    "4b964d9d675403bbe4155394", 
+                    "4b907823675403bb93415294", 
+                    "4b9048e1675403bb0d355294", 
+                    "4b8d6fce675403bb95cc5194", 
+                    "4b880fc0675403bba00b5194", 
+                    "4b861bbb675403bb83c15094", 
+                    "4b86172c675403bb13c15094"
+                ], 
+                "image": {
+                    "prefix": "https://foursquare.com/img/badge/", 
+                    "name": "/allbadges.png", 
+                    "sizes": [
+                        24, 
+                        32, 
+                        48, 
+                        64
+                    ]
+                }, 
+                "type": "all", 
+                "name": "All Badges", 
+                "groups": []
+            }, 
+            {
+                "items": [
+                    "4b86172c675403bb13c15094", 
+                    "4b880fc0675403bba00b5194", 
+                    "4b964d9d675403bbe4155394", 
+                    "4c004e66675403bbce7b7494", 
+                    "4b9048e1675403bb0d355294", 
+                    "4b861bbb675403bb83c15094", 
+                    "4b8d6fce675403bb95cc5194", 
+                    "4b907823675403bb93415294", 
+                    "4c4f08667a0803bbb2202ab7", 
+                    "4db7ccb7f7b15ca52cdcabde", 
+                    "4bb3f7f1675403bbcb945a94", 
+                    "506cc3375d24d660861a4ad2", 
+                    "4c57792a675403bb61c0a794", 
+                    "4c4f08667a0803bbce202ab7", 
+                    "4c4f08667a0803bbd0202ab7", 
+                    "4c005eaf675403bbf4867494", 
+                    "4c4f08667a0803bbdb202ab7", 
+                    "4e792826aeb79f7dab554dab", 
+                    "4ba12a2e675403bb51925594", 
+                    "4c43b85c675403bb7e339a94", 
+                    "4ec925406da1d109308a7a15", 
+                    "4cf689c6b9792d43f8155595", 
+                    "4d18fe666c8b54811f52f5cc", 
+                    "4e0562038877394591d954c7", 
+                    "4e152fd4e4cded5611267a9c", 
+                    "4ee3bd170e61681b959380c4", 
+                    "4e734d19aeb74f9f492f2dd8", 
+                    "4cccdf99ee23a143a84e22a8", 
+                    "4deba4a6d164ef597d0a11cf", 
+                    "4da981ea5da3ba8a47727b4c", 
+                    "4e26614efa7682ed23014176", 
+                    "51b9b56d498e91c3f1469230", 
+                    "4f2eff24e4b0ccb914799b15", 
+                    "4f4e44e6e4b088c4af304c3c", 
+                    "509a017de4b05843e10468e7", 
+                    "4f8c19b4e4b0e67b8785b70e", 
+                    "4ccf601148b837040faaebde", 
+                    "50491df1e4b0f94aab19678d", 
+                    "5079ba6ee4b03470531ae71f", 
+                    "5091d040e4b02b4644188c47"
+                ], 
+                "image": {
+                    "prefix": "https://foursquare.com/img/badge/", 
+                    "name": "/foursquare.png", 
+                    "sizes": [
+                        24, 
+                        32, 
+                        48, 
+                        64
+                    ]
+                }, 
+                "type": "foursquare", 
+                "name": "Foursquare", 
+                "groups": []
+            }, 
+            {
+                "items": [
+                    "5259a23111d2512ce6ea8d2c", 
+                    "51bb0f0b498e92f16fa9b8ae", 
+                    "506e4fc4e4b030d2b85a226b", 
+                    "4c02a036c7dd1737209db088", 
+                    "4f69da87e4b069cce63ba7a2", 
+                    "4c55bed4675403bbdb97a694", 
+                    "4c4f08677a0803bb4e212ab7", 
+                    "4c7d1dd0978976b0c7cee939", 
+                    "50ff6f90e4b02a94180ed4c7", 
+                    "4cec5f0bf7ac8eecd229e51e", 
+                    "4c1bba6ac7dd1737209db08c", 
+                    "4d0925ed304460fc7117da63", 
+                    "4ec968e10e6158ba00da6c3f", 
+                    "4d36211d2e4076ebeca814e6", 
+                    "4d3efab1ac038eec826d6cfc", 
+                    "4dbae35b4159a4e20f525b96", 
+                    "4ddbf6161520f579d65d87e0", 
+                    "4cccdf99c7dd1737209db0a2", 
+                    "502c3283e4b0d60ec7e8c252", 
+                    "4e224b2fc7dd1737209db0c9", 
+                    "4e988be87beb567e777d83e9", 
+                    "4ebb04b27bebd6a83f111f11", 
+                    "5078b3e2e4b047ff2b5d4053", 
+                    "4d445459c7dd1737209db0ad", 
+                    "4ecbdacb7beb20ebed8d3e6a", 
+                    "4cdd818ec7dd1737209db0a4", 
+                    "4ecbdf417beb20ebed8ddfe4", 
+                    "4f63c505e4b0c65cc3b2e711", 
+                    "52348b8611d2b0300f1312e9", 
+                    "4f6a487e7beb7e5831d4d730", 
+                    "4f6a48ae7beb7e5831d4dffe", 
+                    "4fdcdd6de4b0627bb60d394c", 
+                    "5086bdd2011c9d54f4a18635", 
+                    "50b64929011cb887b3335244", 
+                    "524f4c1e11d25eb192c1fb14"
+                ], 
+                "image": {
+                    "prefix": "https://foursquare.com/img/badge/", 
+                    "name": "/expertise.png", 
+                    "sizes": [
+                        24, 
+                        32, 
+                        48, 
+                        64
+                    ]
+                }, 
+                "type": "expertise", 
+                "name": "Expertise", 
+                "groups": []
+            }, 
+            {
+                "items": [
+                    "4c111565675403bb274b7d94", 
+                    "4fa4678be4b00cad887d40c5", 
+                    "4f609d15e4b02a87073f9f06", 
+                    "4cf69c72775576ebada8e8d0", 
+                    "4d4f31d2a0b0a09350845583"
+                ], 
+                "image": {
+                    "prefix": "https://foursquare.com/img/badge/", 
+                    "name": "/partner.png", 
+                    "sizes": [
+                        24, 
+                        32, 
+                        48, 
+                        64
+                    ]
+                }, 
+                "type": "partner", 
+                "name": "Partner", 
+                "groups": [
+                    {
+                        "items": [
+                            "4c111565675403bb274b7d94"
+                        ], 
+                        "image": {
+                            "prefix": "https://foursquare.com/img/badge/", 
+                            "name": "/.png", 
+                            "sizes": [
+                                24, 
+                                32, 
+                                48, 
+                                64
+                            ]
+                        }, 
+                        "type": "event", 
+                        "name": "Event", 
+                        "groups": []
+                    }, 
+                    {
+                        "items": [
+                            "4fa4678be4b00cad887d40c5"
+                        ], 
+                        "image": {
+                            "prefix": "https://foursquare.com/img/badge/", 
+                            "name": "/.png", 
+                            "sizes": [
+                                24, 
+                                32, 
+                                48, 
+                                64
+                            ]
+                        }, 
+                        "type": "aircell", 
+                        "name": "AirCell", 
+                        "groups": []
+                    }, 
+                    {
+                        "items": [
+                            "4f609d15e4b02a87073f9f06"
+                        ], 
+                        "image": {
+                            "prefix": "https://foursquare.com/img/badge/", 
+                            "name": "/.png", 
+                            "sizes": [
+                                24, 
+                                32, 
+                                48, 
+                                64
+                            ]
+                        }, 
+                        "type": "runkeeper", 
+                        "name": "RunKeeper", 
+                        "groups": []
+                    }, 
+                    {
+                        "items": [
+                            "4cf69c72775576ebada8e8d0"
+                        ], 
+                        "image": {
+                            "prefix": "https://foursquare.com/img/badge/", 
+                            "name": "/.png", 
+                            "sizes": [
+                                24, 
+                                32, 
+                                48, 
+                                64
+                            ]
+                        }, 
+                        "type": "joinred", 
+                        "name": "Join(RED)", 
+                        "groups": []
+                    }, 
+                    {
+                        "items": [
+                            "4d4f31d2a0b0a09350845583"
+                        ], 
+                        "image": {
+                            "prefix": "https://foursquare.com/img/badge/", 
+                            "name": "/.png", 
+                            "sizes": [
+                                24, 
+                                32, 
+                                48, 
+                                64
+                            ]
+                        }, 
+                        "type": "nfl", 
+                        "name": "NFL", 
+                        "groups": []
+                    }
+                ]
+            }
+        ]
+    }
+}

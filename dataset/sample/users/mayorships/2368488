@@ -1,0 +1,120 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "New York State Department of Labor", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10013", 
+                        "state": "NY", 
+                        "crossStreet": "at Watts St.", 
+                        "address": "75 Varick St", 
+                        "lat": 40.723672922611094, 
+                        "lng": -74.00547324457386
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 19, 
+                        "usersCount": 12
+                    }, 
+                    "id": "4fe4b12ae4b02e2335097be4", 
+                    "categories": [
+                        {
+                            "pluralName": "Government Buildings", 
+                            "primary": true, 
+                            "name": "Government Building", 
+                            "shortName": "Government", 
+                            "id": "4bf58dd8d48988d126941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/government_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Veterans Across America", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10016", 
+                        "state": "NY", 
+                        "address": "152 Madison Ave", 
+                        "lat": 40.74517727096333, 
+                        "lng": -73.9766926399289
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4f6b71c1e4b07325782e900d", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Grace Institute", 
+                    "contact": {
+                        "phone": "2128327605", 
+                        "formattedPhone": "(212) 832-7605"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10065", 
+                        "state": "NY", 
+                        "crossStreet": "64th Street", 
+                        "address": "1233 2nd Ave", 
+                        "lat": 40.76416804587168, 
+                        "lng": -73.96202234246174
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 162, 
+                        "usersCount": 38
+                    }, 
+                    "id": "4b605f21f964a5203fe229e3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Academic Buildings", 
+                            "primary": true, 
+                            "name": "College Academic Building", 
+                            "shortName": "Academic Building", 
+                            "id": "4bf58dd8d48988d198941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/academicbuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

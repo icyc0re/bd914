@@ -1,0 +1,370 @@
+{
+    "mayorships": {
+        "count": 10, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Rix Mansion", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 49.42125647163321, 
+                        "cc": "DE", 
+                        "lng": 8.683629637642314, 
+                        "isFuzzed": true, 
+                        "country": "Germany"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 27, 
+                        "usersCount": 4
+                    }, 
+                    "id": "51d58d2d498ec498f9c687e5", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "SAMSI", 
+                    "url": "http://www.samsi.info", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "9196859350", 
+                        "twitter": "nisssamsi", 
+                        "formattedPhone": "(919) 685-9350"
+                    }, 
+                    "location": {
+                        "city": "Research Triangle Park", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "27709", 
+                        "state": "NC", 
+                        "address": "19 Tw Alexander Dr", 
+                        "lat": 35.922393260355186, 
+                        "lng": -78.86931809213976
+                    }, 
+                    "venuePage": {
+                        "id": "36162615"
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 35, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4d87adaf40a7a35de8e54cbe", 
+                    "categories": [
+                        {
+                            "pluralName": "College Science Buildings", 
+                            "primary": true, 
+                            "name": "College Science Building", 
+                            "shortName": "Science", 
+                            "id": "4bf58dd8d48988d19b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/collegeacademicbuildings_science_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Hogg's Office", 
+                    "url": "http://cosmo.nyu.edu/hogg/", 
+                    "storeId": "", 
+                    "contact": {
+                        "twitter": "davidwhogg"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10003", 
+                        "state": "NY", 
+                        "crossStreet": "Mercer", 
+                        "address": "4 Washington Pl, Fl 5", 
+                        "lat": 40.7290474687069, 
+                        "lng": -73.99422883987427
+                    }, 
+                    "venuePage": {
+                        "id": "46702975"
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 121, 
+                        "usersCount": 13
+                    }, 
+                    "id": "50fdc130e4b063a3a615c62e", 
+                    "categories": [
+                        {
+                            "pluralName": "College Labs", 
+                            "primary": true, 
+                            "name": "College Lab", 
+                            "shortName": "Lab", 
+                            "id": "4bf58dd8d48988d1a5941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/lab_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Max-Planck-Institut f\u00fcr Astronomie", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Heidelberg", 
+                        "cc": "DE", 
+                        "country": "Deutschland", 
+                        "postalCode": "D-69117", 
+                        "address": "K\u00f6nigstuhl 17", 
+                        "lat": 49.396601, 
+                        "lng": 8.723122
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 15, 
+                        "usersCount": 7
+                    }, 
+                    "id": "51e69d09498e7f5416afc080", 
+                    "categories": [
+                        {
+                            "pluralName": "College Science Buildings", 
+                            "primary": true, 
+                            "name": "College Science Building", 
+                            "shortName": "Science", 
+                            "id": "4bf58dd8d48988d19b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/collegeacademicbuildings_science_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "CSMR Lounge", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10003", 
+                        "state": "NY", 
+                        "address": "4 Washington Pl", 
+                        "lat": 40.72936248779297, 
+                        "lng": -73.9943618774414
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 46, 
+                        "usersCount": 9
+                    }, 
+                    "id": "5150adf1e4b08debfa1f7d5f", 
+                    "categories": [
+                        {
+                            "pluralName": "College Auditoriums", 
+                            "primary": true, 
+                            "name": "College Auditorium", 
+                            "shortName": "Auditorium", 
+                            "id": "4bf58dd8d48988d1af941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/auditorium_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Marklkofen", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 48.550884598763375, 
+                        "cc": "DE", 
+                        "lng": 12.553610487810518, 
+                        "country": "Germany"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 16, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4f52b108e4b0d3a8f504b2db", 
+                    "categories": [
+                        {
+                            "pluralName": "Neighborhoods", 
+                            "primary": true, 
+                            "name": "Neighborhood", 
+                            "shortName": "Neighborhood", 
+                            "id": "4f2a25ac4b909258e854f55f", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "VT Chalet", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Wilmington", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "VT", 
+                        "lat": 42.88221531104005, 
+                        "lng": -72.89290004477898
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 2
+                    }, 
+                    "id": "51285229e4b07aedc06e12a9", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Coop's Broom Closet", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "Broadway Ave.", 
+                        "address": "4 Washington Pl", 
+                        "lat": 40.72924798925274, 
+                        "lng": -73.9939557821161
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 1
+                    }, 
+                    "id": "51758194e4b010ebded82aa8", 
+                    "categories": [
+                        {
+                            "pluralName": "Fraternity Houses", 
+                            "primary": true, 
+                            "name": "Fraternity House", 
+                            "shortName": "Frat House", 
+                            "id": "4bf58dd8d48988d1b0941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/frathouse_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "PyCon Canada 2013", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Toronto", 
+                        "cc": "CA", 
+                        "country": "Canada", 
+                        "state": "ON", 
+                        "address": "89 Chestnut", 
+                        "lat": 43.66333291266431, 
+                        "lng": -79.34034813372952
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 13, 
+                        "usersCount": 11
+                    }, 
+                    "id": "52056f9311d2d5244f37282d", 
+                    "categories": [
+                        {
+                            "pluralName": "Event Spaces", 
+                            "primary": true, 
+                            "name": "Event Space", 
+                            "shortName": "Event Space", 
+                            "id": "4bf58dd8d48988d171941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/eventspace_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hurst street", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 51.74468875204849, 
+                        "cc": "GB", 
+                        "lng": -1.2362321406169454, 
+                        "country": "United Kingdom"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 14, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4f32936fe4b08cb90d35d8b4", 
+                    "categories": [
+                        {
+                            "pluralName": "Housing Developments", 
+                            "primary": true, 
+                            "name": "Housing Development", 
+                            "shortName": "Housing Development", 
+                            "id": "4f2a210c4b9023bd5841ed28", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/housingdevelopment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

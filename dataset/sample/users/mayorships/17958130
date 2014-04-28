@@ -1,0 +1,75 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hippy Love Commune", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.73122649796362, 
+                        "lng": -73.98887973002674
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 52, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4f0897dbe4b0e624d7476c5b", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "B.F.E", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 42.631245, 
+                        "cc": "US", 
+                        "lng": -82.645089, 
+                        "state": "Michigan", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 6, 
+                        "usersCount": 1
+                    }, 
+                    "id": "51b0d132498ee7e610fd2978", 
+                    "categories": [
+                        {
+                            "pluralName": "Islands", 
+                            "primary": true, 
+                            "name": "Island", 
+                            "shortName": "Island", 
+                            "id": "50aaa4314b90af0d42d5de10", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

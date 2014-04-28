@@ -1,0 +1,44 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Whittier Hall", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Columbia University Teachers College", 
+                        "address": "1230 Amsterdam Ave", 
+                        "lat": 40.80984338772794, 
+                        "lng": -73.95938202951623
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 3353, 
+                        "usersCount": 230
+                    }, 
+                    "id": "4cf99545c51fa1cd9d8bdb2b", 
+                    "categories": [
+                        {
+                            "pluralName": "College Residence Halls", 
+                            "primary": true, 
+                            "name": "College Residence Hall", 
+                            "shortName": "Residence Hall", 
+                            "id": "4bf58dd8d48988d1a3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/residencehall_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

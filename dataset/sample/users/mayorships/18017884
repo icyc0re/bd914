@@ -1,0 +1,168 @@
+{
+    "mayorships": {
+        "count": 5, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "129th & Lenox Apartments", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.81343117375547, 
+                        "lng": -73.94186034276925
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 42, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4bee143a4daaa59381c28f61", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Bank of America", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Utica", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "13501", 
+                        "state": "NY", 
+                        "address": "Mohawk St", 
+                        "lat": 43.092010740438006, 
+                        "lng": -75.22212774267614
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 49, 
+                        "usersCount": 22
+                    }, 
+                    "id": "4c13c3b277cea593665ecf60", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Beverly Rd", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Yonkers", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.96576753006973, 
+                        "lng": -73.86614447599084
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 257, 
+                        "usersCount": 27
+                    }, 
+                    "id": "4df52e5a6284fefe8fc852e6", 
+                    "categories": [
+                        {
+                            "pluralName": "Roads", 
+                            "primary": true, 
+                            "name": "Road", 
+                            "shortName": "Road", 
+                            "id": "4bf58dd8d48988d1f9931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/highway_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "119 And adam clayton powell", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10026", 
+                        "state": "NY", 
+                        "lat": 40.80535990392027, 
+                        "lng": -73.95050227735064
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 50, 
+                        "usersCount": 21
+                    }, 
+                    "id": "4f30c422e4b073114679d59e", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "My Home", 
+                    "private": true, 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 42.34972140496627, 
+                        "cc": "US", 
+                        "lng": -71.11381722027731, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4e1e6843a809eb325ff038c3", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

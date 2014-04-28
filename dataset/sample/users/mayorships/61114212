@@ -1,0 +1,91 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "BEST WESTERN PLUS Mountain View Inn", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "6509629912", 
+                        "formattedPhone": "(650) 962-9912"
+                    }, 
+                    "location": {
+                        "city": "Mountain View", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "94040", 
+                        "state": "CA", 
+                        "address": "2300 W El Camino Real", 
+                        "lat": 37.39772163218136, 
+                        "lng": -122.1053158063694
+                    }, 
+                    "stats": {
+                        "tipCount": 6, 
+                        "checkinsCount": 1430, 
+                        "usersCount": 240
+                    }, 
+                    "id": "4bccb4c9e5b5eee14e80697b", 
+                    "categories": [
+                        {
+                            "pluralName": "Hotels", 
+                            "primary": true, 
+                            "name": "Hotel", 
+                            "shortName": "Hotel", 
+                            "id": "4bf58dd8d48988d1fa931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Larry H. Miller FIAT Tucson", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "8666755356", 
+                        "twitter": "lhmfiattucson", 
+                        "formattedPhone": "(866) 675-5356"
+                    }, 
+                    "location": {
+                        "city": "Tucson", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "85705", 
+                        "state": "AZ", 
+                        "address": "1000 W. Wetmore Rd", 
+                        "lat": 32.28689277099994, 
+                        "lng": -110.98970389398258
+                    }, 
+                    "venuePage": {
+                        "id": "59450785"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 21, 
+                        "usersCount": 14
+                    }, 
+                    "id": "5010bad0e4b0e28d97b8c3c2", 
+                    "categories": [
+                        {
+                            "pluralName": "Car Dealerships", 
+                            "primary": true, 
+                            "name": "Car Dealership", 
+                            "shortName": "Car Dealer", 
+                            "id": "4eb1c1623b7b52c0e1adc2ec", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/automotive_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

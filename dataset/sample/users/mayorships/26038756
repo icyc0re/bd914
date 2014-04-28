@@ -1,0 +1,180 @@
+{
+    "mayorships": {
+        "count": 5, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Internet", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Livingston", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "07039", 
+                        "state": "NJ", 
+                        "lat": 40.774525, 
+                        "lng": -74.362772
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 27, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4f96a41be4b0d1d5d4c88e45", 
+                    "categories": [
+                        {
+                            "pluralName": "Post Offices", 
+                            "primary": true, 
+                            "name": "Post Office", 
+                            "shortName": "Post Office", 
+                            "id": "4bf58dd8d48988d172941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/postoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Alidina Home 3", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Hoboken", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 40.7559887911798, 
+                        "lng": -74.02413671784228
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 33, 
+                        "usersCount": 2
+                    }, 
+                    "id": "504b6663e4b0838e304fc8a9", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Alidina Home 4.0", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.79703521995679, 
+                        "lng": -73.96537147003376
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 1
+                    }, 
+                    "id": "5269d3e211d20042f1ce1ea2", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Alidina Home", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 51.61453946576745, 
+                        "cc": "GB", 
+                        "lng": -0.31296787993248115, 
+                        "isFuzzed": true, 
+                        "country": "United Kingdom"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 57, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4f911364e4b01406eb8c2977", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Alidina Home 2", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Minneapolis", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "MN", 
+                        "lat": 44.98576365646249, 
+                        "lng": -93.2771765773082
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 23, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4fb62e58e4b05ee27dfc8f65", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,389 @@
+{
+    "mayorships": {
+        "count": 11, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Chez Bibo \u00e0 Paris", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 48.8725420736696, 
+                        "cc": "FR", 
+                        "lng": 2.2839891454797625, 
+                        "isFuzzed": true, 
+                        "country": "France"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4f283ff3e4b0b45ff3373bd4", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Soci\u00e9t\u00e9 des Amis des Universit\u00e9s de Paris - CCFS", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Paris", 
+                        "cc": "FR", 
+                        "country": "France", 
+                        "postalCode": "75005", 
+                        "address": "6 Rue de Fouarre", 
+                        "lat": 48.85311750429052, 
+                        "lng": 2.347063757467687
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 12, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4f352fcbe4b03d9aaaebb656", 
+                    "categories": [
+                        {
+                            "pluralName": "College Academic Buildings", 
+                            "primary": true, 
+                            "name": "College Academic Building", 
+                            "shortName": "Academic Building", 
+                            "id": "4bf58dd8d48988d198941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/academicbuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Violet Hill", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Santa Monica", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 34.045265, 
+                        "lng": -118.474554
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 102, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4df99608ae60f95f82242663", 
+                    "categories": [
+                        {
+                            "pluralName": "Scenic Lookouts", 
+                            "primary": true, 
+                            "name": "Scenic Lookout", 
+                            "shortName": "Scenic Lookout", 
+                            "id": "4bf58dd8d48988d165941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Abercrombie Office", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.6599153, 
+                        "cc": "US", 
+                        "lng": -74.170669, 
+                        "state": "New Jersey", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 59, 
+                        "usersCount": 22
+                    }, 
+                    "id": "4e3183ce7d8b9b256bcc2693", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Chez Reihanian", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Strasbourg", 
+                        "isFuzzed": true, 
+                        "cc": "FR", 
+                        "country": "France", 
+                        "lat": 48.582204296294954, 
+                        "lng": 7.77807298279984
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4f25de3de4b067a328453e7c", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Chez Poosti", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Encino", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 34.15694974560434, 
+                        "lng": -118.48055692365541
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "50e39f4be4b028f672896f0e", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "1 Small Room Full of Bad Bitchez", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.73122649796362, 
+                        "lng": -73.98887973002674
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 2
+                    }, 
+                    "id": "5126eb39e4120f5f78acae76", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hamed's Halal Food", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10009", 
+                        "state": "NY", 
+                        "crossStreet": "Ave A", 
+                        "address": "14th St", 
+                        "lat": 40.730258979192335, 
+                        "lng": -73.98034856115183
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 90, 
+                        "usersCount": 55
+                    }, 
+                    "id": "4aff8409f964a520363922e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Food Trucks", 
+                            "primary": true, 
+                            "name": "Food Truck", 
+                            "shortName": "Food Truck", 
+                            "id": "4bf58dd8d48988d1cb941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/streetfood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Robin Drive Lookout", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Los Angeles", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "90069", 
+                        "state": "CA", 
+                        "address": "Robin Dr", 
+                        "lat": 34.102886811864025, 
+                        "lng": -118.38875088124948
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 12, 
+                        "usersCount": 8
+                    }, 
+                    "id": "50da7357e4b01e0c7faa79d9", 
+                    "categories": [
+                        {
+                            "pluralName": "Scenic Lookouts", 
+                            "primary": true, 
+                            "name": "Scenic Lookout", 
+                            "shortName": "Scenic Lookout", 
+                            "id": "4bf58dd8d48988d165941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Chez Bibo", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Los Angeles", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 34.04445552908206, 
+                        "lng": -118.48055692365541
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 354, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4df6fe3362e141c907635bd3", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sevoolik", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Los Angeles", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "address": "Moving Target", 
+                        "lat": 34.045954, 
+                        "lng": -118.471081
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 18, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4e3652191838f85189b0263c", 
+                    "categories": [
+                        {
+                            "pluralName": "Taxis", 
+                            "primary": true, 
+                            "name": "Taxi", 
+                            "shortName": "Taxi", 
+                            "id": "4bf58dd8d48988d130951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/taxi_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

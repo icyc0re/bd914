@@ -1,0 +1,495 @@
+{
+    "mayorships": {
+        "count": 14, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cass de Clyde", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Ocean City", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 39.23603212346189, 
+                        "lng": -74.62247553655205
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4ff87b91e4b02ca33cbfe901", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "New Home Of National Telecomm Inc Berlin AT&T", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "West Berlin", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "08091", 
+                        "state": "NJ", 
+                        "address": "330 N Route 73", 
+                        "lat": 39.81018485793309, 
+                        "lng": -74.93104130501442
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 31, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4e3abd5145dd8baba001e707", 
+                    "categories": [
+                        {
+                            "pluralName": "Electronics Stores", 
+                            "primary": true, 
+                            "name": "Electronics Store", 
+                            "shortName": "Electronics", 
+                            "id": "4bf58dd8d48988d122951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/technology_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Home", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Berlin", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 39.78532886118883, 
+                        "lng": -74.95010335932585
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 514, 
+                        "usersCount": 22
+                    }, 
+                    "id": "4b5fa489f964a52002c629e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Team Clyde", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Berlin", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 39.789341, 
+                        "lng": -74.950795
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "522683b811d24b23d7b509a4", 
+                    "categories": [
+                        {
+                            "pluralName": "Real Estate Offices", 
+                            "primary": true, 
+                            "name": "Real Estate Office", 
+                            "shortName": "Real Estate", 
+                            "id": "5032885091d4c4b30a586d66", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Braddock Preserve", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Berlin", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "08009", 
+                        "state": "NJ", 
+                        "address": "345 Bittlewood Ave", 
+                        "lat": 39.76613852728382, 
+                        "lng": -74.96206345044993
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 23, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4d29faf6068e8cfa7d3fd54c", 
+                    "categories": [
+                        {
+                            "pluralName": "Housing Developments", 
+                            "primary": true, 
+                            "name": "Housing Development", 
+                            "shortName": "Housing Development", 
+                            "id": "4f2a210c4b9023bd5841ed28", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/housingdevelopment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sturbridge Woods", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Voorhees", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 39.82250788994068, 
+                        "lng": -74.92672285045667
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4f13320ce4b0297e58099970", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "26 Westminster", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Voorhees", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "08043", 
+                        "state": "NJ", 
+                        "lat": 39.853295, 
+                        "lng": -74.975124
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4cf50b1bc9af6dcb8c70af7f", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "AT&T Wireless (N.T.I.)", 
+                    "contact": {
+                        "phone": "8567679095", 
+                        "formattedPhone": "(856) 767-9095"
+                    }, 
+                    "location": {
+                        "city": "Berlin", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "08009", 
+                        "state": "NJ", 
+                        "address": "2 S Route 73", 
+                        "lat": 39.800075, 
+                        "lng": -74.93143828333334
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 25, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4c51b55a0ef3a593f68b757c", 
+                    "categories": [
+                        {
+                            "pluralName": "Electronics Stores", 
+                            "primary": true, 
+                            "name": "Electronics Store", 
+                            "shortName": "Electronics", 
+                            "id": "4bf58dd8d48988d122951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/technology_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Nesting", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Stone Harbor", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "08247", 
+                        "state": "NJ", 
+                        "lat": 39.054968, 
+                        "lng": -74.760155
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 16, 
+                        "usersCount": 15
+                    }, 
+                    "id": "4faeb12de4b0ec828940cb2f", 
+                    "categories": [
+                        {
+                            "pluralName": "Kids Stores", 
+                            "primary": true, 
+                            "name": "Kids Store", 
+                            "shortName": "Kids Store", 
+                            "id": "4bf58dd8d48988d105951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_kids_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Meineke Car Care Center", 
+                    "url": "http://www.meineke.com/store/berlin-174/?src=yxt&sid=174", 
+                    "contact": {
+                        "phone": "8567682100", 
+                        "twitter": "meinekecarcare", 
+                        "formattedPhone": "(856) 768-2100"
+                    }, 
+                    "location": {
+                        "city": "Berlin", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "08009", 
+                        "state": "NJ", 
+                        "address": "19 South White Horse Pike", 
+                        "lat": 39.79674, 
+                        "lng": -74.93286
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 29, 
+                        "usersCount": 22
+                    }, 
+                    "id": "4bc4972babf49521113bc593", 
+                    "categories": [
+                        {
+                            "pluralName": "Automotive Shops", 
+                            "primary": true, 
+                            "name": "Automotive Shop", 
+                            "shortName": "Automotive", 
+                            "id": "4bf58dd8d48988d124951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/automotive_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Alicia Rose Victorious foundation", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Gibbsboro", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "08026", 
+                        "state": "NJ", 
+                        "lat": 39.837424, 
+                        "lng": -74.963901
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4b630059f964a520195d2ae3", 
+                    "categories": [
+                        {
+                            "pluralName": "Non-Profits", 
+                            "primary": true, 
+                            "name": "Non-Profit", 
+                            "shortName": "Non-Profit", 
+                            "id": "50328a8e91d4c4b30a586d6c", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "High Quality Cleaners", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "West Berlin", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 39.806508, 
+                        "lng": -74.933668
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 28, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4dea2a6dd164ef597ce2c1ff", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "RE/MAX Connection", 
+                    "contact": {
+                        "phone": "8569881800", 
+                        "formattedPhone": "(856) 988-1800"
+                    }, 
+                    "location": {
+                        "city": "Marlton", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "08053", 
+                        "state": "NJ", 
+                        "crossStreet": "Greentree", 
+                        "address": "1000 Lincoln Dr E", 
+                        "lat": 39.909516, 
+                        "lng": -74.937272
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 394, 
+                        "usersCount": 19
+                    }, 
+                    "id": "4b687181f964a520f0782be3", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Little Cafe", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/the-little-cafe/4b64d5f9f964a520cad32ae3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4b64d5f9f964a520cad32ae3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Voorhees", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "08043", 
+                        "state": "NJ", 
+                        "lat": 39.84125492076905, 
+                        "lng": -74.9970111935965
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 28, 
+                        "usersCount": 24
+                    }, 
+                    "id": "4b64d5f9f964a520cad32ae3", 
+                    "categories": [
+                        {
+                            "pluralName": "Chinese Restaurants", 
+                            "primary": true, 
+                            "name": "Chinese Restaurant", 
+                            "shortName": "Chinese", 
+                            "id": "4bf58dd8d48988d145941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/chinese_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

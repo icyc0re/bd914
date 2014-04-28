@@ -1,0 +1,157 @@
+{
+    "mayorships": {
+        "count": 4, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Millennium Challenge Corporation", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Washington", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "20005", 
+                        "state": "D.C.", 
+                        "crossStreet": "I St", 
+                        "address": "875 15th St NW", 
+                        "lat": 38.90114629522871, 
+                        "lng": -77.03347126702235
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 147, 
+                        "usersCount": 43
+                    }, 
+                    "id": "4b4eabd9f964a520cbf326e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Northern Manhattan Democrats for Change", 
+                    "contact": {
+                        "phone": "6464764979", 
+                        "twitter": "adrianoe2012", 
+                        "formattedPhone": "(646) 476-4979"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10034", 
+                        "state": "NY", 
+                        "crossStreet": "207th Street", 
+                        "address": "210 Sherman Ave, Ste B", 
+                        "lat": 40.86561074059915, 
+                        "lng": -73.92080068588257
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 2
+                    }, 
+                    "id": "50379311011c85c2aec949bb", 
+                    "categories": [
+                        {
+                            "pluralName": "Campaign Offices", 
+                            "primary": true, 
+                            "name": "Campaign Office", 
+                            "shortName": "Campaign", 
+                            "id": "5032764e91d4c4b30a586d5a", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cannon Rotunda", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Washington", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "20024", 
+                        "state": "D.C.", 
+                        "address": "349-399 Independence Ave SW", 
+                        "lat": 38.887389806515124, 
+                        "lng": -77.00781765919497
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 276, 
+                        "usersCount": 160
+                    }, 
+                    "id": "4d08f9c005216dcb0c221eb6", 
+                    "categories": [
+                        {
+                            "pluralName": "Monuments / Landmarks", 
+                            "primary": true, 
+                            "name": "Monument / Landmark", 
+                            "shortName": "Landmark", 
+                            "id": "4bf58dd8d48988d12d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/government_monument_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Jack Morton Auditorium", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Washington", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "20052", 
+                        "state": "D.C.", 
+                        "address": "805 21st St NW", 
+                        "lat": 38.89986, 
+                        "lng": -77.046525
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 308, 
+                        "usersCount": 232
+                    }, 
+                    "id": "4b1c5d05f964a5208e0624e3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Auditoriums", 
+                            "primary": true, 
+                            "name": "College Auditorium", 
+                            "shortName": "Auditorium", 
+                            "id": "4bf58dd8d48988d1af941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/auditorium_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

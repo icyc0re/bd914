@@ -1,0 +1,113 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Cage", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Plattsburgh", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "12901", 
+                        "state": "NY", 
+                        "lat": 44.69454390352498, 
+                        "lng": -73.46695426929038
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 115, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4ec94a830aaf9c3cce7b7263", 
+                    "categories": [
+                        {
+                            "pluralName": "College Classrooms", 
+                            "primary": true, 
+                            "name": "College Classroom", 
+                            "shortName": "Classroom", 
+                            "id": "4bf58dd8d48988d1a0941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/classroom_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Studio B", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Plattsburgh", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 44.69621957723568, 
+                        "lng": -73.46712737748216
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 2
+                    }, 
+                    "id": "51636fc0e4b0b66af89f625e", 
+                    "categories": [
+                        {
+                            "pluralName": "College Theaters", 
+                            "primary": true, 
+                            "name": "College Theater", 
+                            "shortName": "Theater", 
+                            "id": "4bf58dd8d48988d1ac941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/collegetheater_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "TRCo Marketing", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10013", 
+                        "state": "NY", 
+                        "crossStreet": "Canal Street", 
+                        "address": "285 W Broadway", 
+                        "lat": 40.72152646902809, 
+                        "lng": -74.00376677513123
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 81, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4ec124b3c2ee23891e760daf", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

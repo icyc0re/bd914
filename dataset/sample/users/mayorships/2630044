@@ -1,0 +1,813 @@
+{
+    "mayorships": {
+        "count": 21, 
+        "items": [
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Dunkin' Donuts", 
+                    "url": "http://www.dunkindonuts.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/dunkin-donuts/4a91768cf964a520441a20e3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4a91768cf964a520441a20e3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "storeId": "342968", 
+                    "contact": {
+                        "phone": "2124207031", 
+                        "twitter": "dunkindonuts", 
+                        "facebook": "6979393237", 
+                        "formattedPhone": "(212) 420-7031"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10009", 
+                        "state": "NY", 
+                        "crossStreet": "at E 6th St.", 
+                        "address": "100 1st Ave", 
+                        "lat": 40.72620615570406, 
+                        "lng": -73.9861623083502
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 1589, 
+                        "usersCount": 606
+                    }, 
+                    "id": "4a91768cf964a520441a20e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Coffee Shops", 
+                            "primary": true, 
+                            "name": "Coffee Shop", 
+                            "shortName": "Coffee Shop", 
+                            "id": "4bf58dd8d48988d1e0931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "280 Park Ave South", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10010", 
+                        "state": "NY", 
+                        "crossStreet": "22nd st", 
+                        "address": "280 Park Ave S", 
+                        "lat": 40.739486020568506, 
+                        "lng": -73.98738384246826
+                    }, 
+                    "venuePage": {
+                        "id": "61980683"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 759, 
+                        "usersCount": 134
+                    }, 
+                    "id": "4bde00aeffdec9280053e7a1", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Weston, CT", 
+                    "contact": {}, 
+                    "location": {
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "06883", 
+                        "state": "Connecticut", 
+                        "lat": 41.21068840283448, 
+                        "lng": -73.39485168457031
+                    }, 
+                    "stats": {
+                        "tipCount": 7, 
+                        "checkinsCount": 2843, 
+                        "usersCount": 389
+                    }, 
+                    "id": "4c0e27f4336220a1b1b0cb77", 
+                    "categories": [
+                        {
+                            "pluralName": "Cities", 
+                            "primary": true, 
+                            "name": "City", 
+                            "shortName": "City", 
+                            "id": "50aa9e094b90af0d42d5de0d", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hotel San Cristobal", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 12.437196767076507, 
+                        "cc": "NI", 
+                        "lng": -86.86309141116905, 
+                        "country": "Nicaragua"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 30, 
+                        "usersCount": 12
+                    }, 
+                    "id": "4f776fabe4b04368dcbe713b", 
+                    "categories": [
+                        {
+                            "pluralName": "Hotel Pools", 
+                            "primary": true, 
+                            "name": "Hotel Pool", 
+                            "shortName": "Pool", 
+                            "id": "4bf58dd8d48988d132951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/pool_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "414 East 11th Street", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10009", 
+                        "state": "NY", 
+                        "crossStreet": "11th Between 1st And A", 
+                        "address": "414 E 11th St", 
+                        "lat": 40.729209676912156, 
+                        "lng": -73.98301728235063
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 18, 
+                        "usersCount": 4
+                    }, 
+                    "id": "52aa9d9e498e39127dd20915", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "7-Eleven", 
+                    "url": "https://www.7-eleven.com", 
+                    "contact": {
+                        "twitter": "7eleven"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "11th St and Ave A", 
+                        "lat": 40.72825237649099, 
+                        "lng": -73.9817775350863
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 58, 
+                        "usersCount": 34
+                    }, 
+                    "id": "5287e0dd11d2dcdd0de26dc0", 
+                    "categories": [
+                        {
+                            "pluralName": "Convenience Stores", 
+                            "primary": true, 
+                            "name": "Convenience Store", 
+                            "shortName": "Convenience Stores", 
+                            "id": "4d954b0ea243a5684a65b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/conveniencestore_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "CT Coffee & Grill", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2032107171", 
+                        "twitter": "ctcoffeengrill", 
+                        "formattedPhone": "(203) 210-7171"
+                    }, 
+                    "location": {
+                        "city": "Wilton", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "06897", 
+                        "state": "CT", 
+                        "address": "16 Center St", 
+                        "lat": 41.19503240327556, 
+                        "lng": -73.4326171875
+                    }, 
+                    "venuePage": {
+                        "id": "63539363"
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 408, 
+                        "usersCount": 90
+                    }, 
+                    "id": "4c349a45ed37a5936d1d6f03", 
+                    "categories": [
+                        {
+                            "pluralName": "Coffee Shops", 
+                            "primary": true, 
+                            "name": "Coffee Shop", 
+                            "shortName": "Coffee Shop", 
+                            "id": "4bf58dd8d48988d1e0931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Knight Island", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "North Hero", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "05474", 
+                        "state": "VT", 
+                        "lat": 44.810251394571424, 
+                        "lng": -73.25773364493071
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 17, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4c5c384b85a1e21e06f75511", 
+                    "categories": [
+                        {
+                            "pluralName": "Campgrounds", 
+                            "primary": true, 
+                            "name": "Campground", 
+                            "shortName": "Campground", 
+                            "id": "4bf58dd8d48988d1e4941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/campground_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hero's Welcome Dock", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "North Hero", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "VT", 
+                        "lat": 44.81634790111468, 
+                        "lng": -73.28818961358598
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 3
+                    }, 
+                    "id": "51e09c69498e74d12e0d70f9", 
+                    "categories": [
+                        {
+                            "pluralName": "Pier", 
+                            "primary": true, 
+                            "name": "Pier", 
+                            "shortName": "Pier", 
+                            "id": "4e74f6cabd41c4836eac4c31", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/ferry_pier_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Dunkin' Donuts", 
+                    "url": "http://www.dunkindonuts.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/dunkin-donuts/4b4a07d3f964a520757826e3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4b4a07d3f964a520757826e3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "storeId": "340728", 
+                    "contact": {
+                        "phone": "2124755928", 
+                        "twitter": "dunkindonuts", 
+                        "facebook": "6979393237", 
+                        "formattedPhone": "(212) 475-5928"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10003", 
+                        "state": "NY", 
+                        "crossStreet": "13th St", 
+                        "address": "215 1st Ave", 
+                        "lat": 40.73058665609531, 
+                        "lng": -73.98314928265228
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 1070, 
+                        "usersCount": 467
+                    }, 
+                    "id": "4b4a07d3f964a520757826e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Coffee Shops", 
+                            "primary": true, 
+                            "name": "Coffee Shop", 
+                            "shortName": "Coffee Shop", 
+                            "id": "4bf58dd8d48988d1e0931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Oceanside Beach Resort", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Montauk", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11954", 
+                        "state": "NY", 
+                        "address": "626 Montauk Hwy", 
+                        "lat": 41.03062, 
+                        "lng": -71.95222646
+                    }, 
+                    "stats": {
+                        "tipCount": 6, 
+                        "checkinsCount": 232, 
+                        "usersCount": 123
+                    }, 
+                    "id": "4c012c30de3376b0c55df9a4", 
+                    "categories": [
+                        {
+                            "pluralName": "Hotels", 
+                            "primary": true, 
+                            "name": "Hotel", 
+                            "shortName": "Hotel", 
+                            "id": "4bf58dd8d48988d1fa931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "CitiBike Station: W 46th & 11th Ave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.76331811094812, 
+                        "lng": -73.99676204379885
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 4
+                    }, 
+                    "id": "521a590e11d242c074f3f365", 
+                    "categories": [
+                        {
+                            "pluralName": "Other Great Outdoors", 
+                            "primary": true, 
+                            "name": "Other Great Outdoors", 
+                            "shortName": "Other Outdoors", 
+                            "id": "4bf58dd8d48988d162941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/outdoors_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "MakerBot Store", 
+                    "url": "http://www.makerbot.com/retail-store/", 
+                    "contact": {
+                        "phone": "3474575758", 
+                        "formattedPhone": "(347) 457-5758"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10012", 
+                        "state": "NY", 
+                        "crossStreet": "btwn Bleecker & Houston", 
+                        "address": "298 Mulberry St", 
+                        "lat": 40.725294802091895, 
+                        "lng": -73.9949141624021
+                    }, 
+                    "venuePage": {
+                        "id": "49782811"
+                    }, 
+                    "stats": {
+                        "tipCount": 15, 
+                        "checkinsCount": 2064, 
+                        "usersCount": 1419
+                    }, 
+                    "id": "4d56c92158856dcb5fba5c6d", 
+                    "categories": [
+                        {
+                            "pluralName": "Hobby Shops", 
+                            "primary": true, 
+                            "name": "Hobby Shop", 
+                            "shortName": "Hobbies", 
+                            "id": "4bf58dd8d48988d1fb941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/hobbyshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Brookstone", 
+                    "url": "http://www.brookstone.com", 
+                    "storeId": "254", 
+                    "contact": {
+                        "phone": "2037924085", 
+                        "twitter": "brookstone", 
+                        "formattedPhone": "(203) 792-4085"
+                    }, 
+                    "location": {
+                        "city": "Danbury", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "06810", 
+                        "state": "CT", 
+                        "crossStreet": "7 Backus Ave", 
+                        "address": "Danbury Fair Mall", 
+                        "lat": 41.380537, 
+                        "lng": -73.479951
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 322, 
+                        "usersCount": 231
+                    }, 
+                    "id": "4cb896e2035d236ace55ce4e", 
+                    "categories": [
+                        {
+                            "pluralName": "Electronics Stores", 
+                            "primary": true, 
+                            "name": "Electronics Store", 
+                            "shortName": "Electronics", 
+                            "id": "4bf58dd8d48988d122951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/technology_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Trohilo", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Trohilo", 
+                        "cc": "NI", 
+                        "country": "Rep\u00fablica de Nicaragua", 
+                        "state": "Le\u00f3n", 
+                        "lat": 12.45145357136358, 
+                        "lng": -86.97627067565918
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 1
+                    }, 
+                    "id": "513f4e2b011cf68bdb4302f3", 
+                    "categories": [
+                        {
+                            "pluralName": "Neighborhoods", 
+                            "primary": true, 
+                            "name": "Neighborhood", 
+                            "shortName": "Neighborhood", 
+                            "id": "4f2a25ac4b909258e854f55f", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Lafayette Smoke Shop", 
+                    "contact": {
+                        "phone": "2122263475", 
+                        "formattedPhone": "(212) 226-3475"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10012", 
+                        "state": "NY", 
+                        "crossStreet": "at Lafayette St.", 
+                        "address": "63 Spring St", 
+                        "lat": 40.722310990152096, 
+                        "lng": -73.99718670967665
+                    }, 
+                    "venuePage": {
+                        "id": "73076715"
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 409, 
+                        "usersCount": 151
+                    }, 
+                    "id": "4b12e985f964a520b39023e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Newsstands", 
+                            "primary": true, 
+                            "name": "Newsstand", 
+                            "shortName": "Newsstand", 
+                            "id": "4f04ad622fb6e1c99f3db0b9", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/newsstand_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Basic Plus Dollar Store", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.72875287232472, 
+                        "lng": -73.978609568045
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 12, 
+                        "usersCount": 9
+                    }, 
+                    "id": "515ee4f5e4b03ca0466ca00e", 
+                    "categories": [
+                        {
+                            "pluralName": "Hardware Stores", 
+                            "primary": true, 
+                            "name": "Hardware Store", 
+                            "shortName": "Hardware", 
+                            "id": "4bf58dd8d48988d112951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/hardware_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Langner-Marshall Field", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Weston", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "06883", 
+                        "state": "CT", 
+                        "crossStreet": "Langner Lane", 
+                        "lat": 41.21992122434233, 
+                        "lng": -73.40446472167969
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 374, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4ece9f3d02d5feaa1a3bbfab", 
+                    "categories": [
+                        {
+                            "pluralName": "Fields", 
+                            "primary": true, 
+                            "name": "Field", 
+                            "shortName": "Field", 
+                            "id": "4bf58dd8d48988d15f941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/field_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Prince Street Flea Market", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.723252875390386, 
+                        "lng": -73.99532735481978
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 3, 
+                        "usersCount": 2
+                    }, 
+                    "id": "5169ab89e4b0ad0b58c3e75d", 
+                    "categories": [
+                        {
+                            "pluralName": "Flea Markets", 
+                            "primary": true, 
+                            "name": "Flea Market", 
+                            "shortName": "Flea Market", 
+                            "id": "4bf58dd8d48988d1f7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/fleamarket_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Knight Island - Ranger Station", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 44.810304, 
+                        "cc": "US", 
+                        "lng": -73.257435, 
+                        "state": "Vermont", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 4, 
+                        "usersCount": 3
+                    }, 
+                    "id": "51e2ca82498e7782ffd715a1", 
+                    "categories": [
+                        {
+                            "pluralName": "Campgrounds", 
+                            "primary": true, 
+                            "name": "Campground", 
+                            "shortName": "Campground", 
+                            "id": "4bf58dd8d48988d1e4941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/campground_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ace Body Work", 
+                    "contact": {
+                        "phone": "2122282098", 
+                        "formattedPhone": "(212) 228-2098"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "First Ave", 
+                        "address": "331 14th Street", 
+                        "lat": 40.73194803, 
+                        "lng": -73.983659
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 95, 
+                        "usersCount": 49
+                    }, 
+                    "id": "4c37d909dfb0e21ec5a5ada8", 
+                    "categories": [
+                        {
+                            "pluralName": "Massage Studios", 
+                            "primary": true, 
+                            "name": "Massage Studio", 
+                            "shortName": "Massage Studio", 
+                            "id": "52f2ab2ebcbc57f1066b8b3c", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/spa_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

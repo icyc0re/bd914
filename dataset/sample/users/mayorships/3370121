@@ -1,0 +1,578 @@
+{
+    "mayorships": {
+        "count": 16, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Jersey Score", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Washington", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "D.C.", 
+                        "lat": 38.90917573185279, 
+                        "lng": -77.01614358689305
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 314, 
+                        "usersCount": 28
+                    }, 
+                    "id": "4c9e85878afca093fdd90116", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Support the Bottom", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Rehoboth Beach", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "DE", 
+                        "lat": 38.71509593704605, 
+                        "lng": -75.07863573282911
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 22, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4de04e87d4c040523ea21b90", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Jin's Lanai", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Washington", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "20001", 
+                        "state": "D.C.", 
+                        "address": "437 New York Ave NW, Apt 1108", 
+                        "lat": 38.904877, 
+                        "lng": -77.016655
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 57, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4da39dcf7aee548123fbedfe", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Film Sprout", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10010", 
+                        "state": "NY", 
+                        "address": "25 E. 25th Street", 
+                        "lat": 40.739284, 
+                        "lng": -73.987669
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4eaee11861af352e5db92d65", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Zumwalt Destroyer", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Lake Wallenpaupack", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "PA", 
+                        "address": "Penwood Drive", 
+                        "lat": 41.3708185766265, 
+                        "lng": -75.25952875614166
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 14, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4e628fe8b3ad629a3a75983c", 
+                    "categories": [
+                        {
+                            "pluralName": "Boats or Ferries", 
+                            "primary": true, 
+                            "name": "Boat or Ferry", 
+                            "shortName": "Boat / Ferry", 
+                            "id": "4bf58dd8d48988d12d951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/boat_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cottage at 217", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Atherton", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 37.44772822874031, 
+                        "lng": -122.21433234943196
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4dae8b236a23e6c9348c180a", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "EDGAR Bar & Kitchen", 
+                    "url": "http://www.edgarbarandkitchen.com", 
+                    "reservations": {
+                        "url": "http://www.opentable.com/single.aspx?rid=101110&ref=9601"
+                    }, 
+                    "storeId": "", 
+                    "venuePage": {
+                        "id": "43547051"
+                    }, 
+                    "contact": {
+                        "phone": "2023472233", 
+                        "twitter": "edgardc", 
+                        "formattedPhone": "(202) 347-2233"
+                    }, 
+                    "location": {
+                        "city": "Washington", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "20036", 
+                        "state": "D.C.", 
+                        "address": "1127 Connecticut Ave NW", 
+                        "lat": 38.90443443140186, 
+                        "lng": -77.04064965248108
+                    }, 
+                    "menu": {
+                        "url": "https://foursquare.com/v/edgar-bar--kitchen/50cf3264582f83aafc061838/menu", 
+                        "mobileUrl": "https://foursquare.com/v/50cf3264582f83aafc061838/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 228, 
+                        "usersCount": 149
+                    }, 
+                    "id": "50cf3264582f83aafc061838", 
+                    "categories": [
+                        {
+                            "pluralName": "Restaurants", 
+                            "primary": true, 
+                            "name": "Restaurant", 
+                            "shortName": "Restaurant", 
+                            "id": "4bf58dd8d48988d1c4941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Zumwalt Lake House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Greentown", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "PA", 
+                        "lat": 41.35437977220307, 
+                        "lng": -75.31206400458815
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4e615c99ae60e9edf54923ba", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Harvey Milk's House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "San Francisco", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 37.764162691416885, 
+                        "lng": -122.42973690096966
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 173, 
+                        "usersCount": 100
+                    }, 
+                    "id": "4bbe33c91416a5933ecff33c", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Crawley's", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Washington", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "D.C.", 
+                        "lat": 38.90917573185279, 
+                        "lng": -77.01614358689305
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 4
+                    }, 
+                    "id": "5067304ce4b0c7c051c91ab2", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Zumwalt Tree House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Chappaqua", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 41.16360931779335, 
+                        "lng": -73.77720316925277
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 31, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4ca6889d97c8a1cdba8871a5", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "OMG", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Washington", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "D.C.", 
+                        "lat": 38.92203996760155, 
+                        "lng": -77.03917539121838
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 14, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4c9e369c46978cfa75539f7f", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "217 Polhemus Ave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Atherton", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 37.44772822874031, 
+                        "lng": -122.21433234943196
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 10, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4d2b51a4068e8cfafef0e14c", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "DanPams", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Washington", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "D.C.", 
+                        "lat": 38.88733066312389, 
+                        "lng": -77.0046260426734
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4e21968aaeb7026395310dea", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Crossroads Campaign Solutions", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Washington", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "20002", 
+                        "state": "D.C.", 
+                        "address": "1050 17th Street, 4th Floor", 
+                        "lat": 38.90351502087257, 
+                        "lng": -77.03850100114704
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4edf9bb3f79009df32465086", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lobstah's", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.775615852364126, 
+                        "lng": -73.95361626406626
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4dc88986ae60385d110829ad", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

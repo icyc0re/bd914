@@ -1,0 +1,400 @@
+{
+    "mayorships": {
+        "count": 11, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Rocky's Vacation House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Syracuse", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 43.04423958132921, 
+                        "lng": -76.12619689046856
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 29, 
+                        "usersCount": 2
+                    }, 
+                    "id": "501dc37ce4b071e49770fe4b", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Haus Of YOLO", 
+                    "private": true, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "lat": 40.81955954482063, 
+                        "lng": -73.95698275729403
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 91, 
+                        "usersCount": 21
+                    }, 
+                    "id": "4fcb1481e4b02fed0e327ead", 
+                    "categories": [
+                        {
+                            "pluralName": "Historic Sites", 
+                            "primary": true, 
+                            "name": "Historic Site", 
+                            "shortName": "Historic Site", 
+                            "id": "4deefb944765f83613cdba6e", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/historicsite_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The House of O", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.86107855194721, 
+                        "lng": -73.93010370763155
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 111, 
+                        "usersCount": 8
+                    }, 
+                    "id": "50f1a4ace4b0a470225cf3bf", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "ACUI Battle Of The Regions", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 42.346854680586375, 
+                        "cc": "US", 
+                        "lng": -71.07811180374745, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 44, 
+                        "usersCount": 41
+                    }, 
+                    "id": "4f64c270e4b03be1035eaf40", 
+                    "categories": [
+                        {
+                            "pluralName": "Event Spaces", 
+                            "primary": true, 
+                            "name": "Event Space", 
+                            "shortName": "Event Space", 
+                            "id": "4bf58dd8d48988d171941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/eventspace_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "ACUI 100th Anniversary Museum", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Williamsburg", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "FL", 
+                        "lat": 28.403244018554688, 
+                        "lng": -81.42877197265625
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 8
+                    }, 
+                    "id": "5342ea7e498e3c13adbd2f88", 
+                    "categories": [
+                        {
+                            "pluralName": "History Museums", 
+                            "primary": true, 
+                            "name": "History Museum", 
+                            "shortName": "History Museum", 
+                            "id": "4bf58dd8d48988d190941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Tipico Dominicano Restaurant", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/tipico-dominicano-restaurant/4b6e9280f964a52087c22ce3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4b6e9280f964a52087c22ce3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "2127813900", 
+                        "formattedPhone": "(212) 781-3900"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10033", 
+                        "state": "NY", 
+                        "crossStreet": "Broadway", 
+                        "address": "4172 Broadway", 
+                        "lat": 40.847519, 
+                        "lng": -73.938131
+                    }, 
+                    "stats": {
+                        "tipCount": 14, 
+                        "checkinsCount": 700, 
+                        "usersCount": 452
+                    }, 
+                    "id": "4b6e9280f964a52087c22ce3", 
+                    "categories": [
+                        {
+                            "pluralName": "Breakfast Spots", 
+                            "primary": true, 
+                            "name": "Breakfast Spot", 
+                            "shortName": "Breakfast", 
+                            "id": "4bf58dd8d48988d143941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/breakfast_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Events Management", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "lat": 40.809939652283596, 
+                        "lng": -73.9631071562193
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 1
+                    }, 
+                    "id": "50fff667e4b0d2961c87e636", 
+                    "categories": [
+                        {
+                            "pluralName": "General Colleges & Universities", 
+                            "primary": true, 
+                            "name": "General College & University", 
+                            "shortName": "Education", 
+                            "id": "4bf58dd8d48988d1a8941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/other_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "League of Awesome Safehouse", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.81269911158093, 
+                        "cc": "US", 
+                        "lng": -73.96040945993518, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 391, 
+                        "usersCount": 20
+                    }, 
+                    "id": "4e7589e8aeb780be0a46db9b", 
+                    "categories": [
+                        {
+                            "pluralName": "College Residence Halls", 
+                            "primary": true, 
+                            "name": "College Residence Hall", 
+                            "shortName": "Residence Hall", 
+                            "id": "4bf58dd8d48988d1a3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/residencehall_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Schine Info desk", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Syracuse", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "13210", 
+                        "state": "NY", 
+                        "address": "303 University Pl", 
+                        "lat": 43.04014811977979, 
+                        "lng": -76.1339743240856
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 244, 
+                        "usersCount": 22
+                    }, 
+                    "id": "4da5b6570cb6d75e29fd55fc", 
+                    "categories": [
+                        {
+                            "pluralName": "College Administrative Buildings", 
+                            "primary": true, 
+                            "name": "College Administrative Building", 
+                            "shortName": "Administrative Building", 
+                            "id": "4bf58dd8d48988d197941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/administrativebuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Wu-Tang Financial", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10033", 
+                        "state": "NY", 
+                        "address": "Broadway", 
+                        "lat": 40.849110886970024, 
+                        "lng": -73.93596202243053
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 125, 
+                        "usersCount": 15
+                    }, 
+                    "id": "4ecae172f790bc9a8096c744", 
+                    "categories": [
+                        {
+                            "pluralName": "Banks", 
+                            "primary": true, 
+                            "name": "Bank", 
+                            "shortName": "Bank", 
+                            "id": "4bf58dd8d48988d10a951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/financial_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Broadway  Heights", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10033", 
+                        "state": "NY", 
+                        "lat": 40.83985952821494, 
+                        "lng": -73.9408816071519
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 21, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4f3350a4e4b0747f3f796d90", 
+                    "categories": [
+                        {
+                            "pluralName": "Cemeteries", 
+                            "primary": true, 
+                            "name": "Cemetery", 
+                            "shortName": "Cemetery", 
+                            "id": "4bf58dd8d48988d15c941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/cemetery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

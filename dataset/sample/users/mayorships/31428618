@@ -1,0 +1,49 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Cole Haan", 
+                    "url": "http://www.colehaan.com", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2128239420", 
+                        "formattedPhone": "(212) 823-9420"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10019", 
+                        "state": "NY", 
+                        "crossStreet": "59th Street", 
+                        "address": "10 Columbus Circle", 
+                        "lat": 40.76828922528404, 
+                        "lng": -73.98201942443848
+                    }, 
+                    "stats": {
+                        "tipCount": 7, 
+                        "checkinsCount": 993, 
+                        "usersCount": 704
+                    }, 
+                    "id": "4ae0e01bf964a520418321e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Shoe Stores", 
+                            "primary": true, 
+                            "name": "Shoe Store", 
+                            "shortName": "Shoes", 
+                            "id": "4bf58dd8d48988d107951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_shoestore_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

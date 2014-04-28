@@ -1,0 +1,74 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "the beck bed", 
+                    "contact": {}, 
+                    "location": {
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "New York", 
+                        "lat": 40.58284815653645, 
+                        "lng": -74.12986841096105
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 132, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4e2f843f6284021061f0bac3", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dr Vitolo", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.59273919557807, 
+                        "cc": "US", 
+                        "lng": -74.1005761381378, 
+                        "state": "New York", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 12, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4eaef82c49010398c86525e1", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

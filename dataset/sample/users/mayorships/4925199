@@ -1,0 +1,78 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Depa de Davidcito", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.79201594612432, 
+                        "lng": -73.93010370763156
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4da0b2a8bf22a143b99189f8", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Walk In", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10014", 
+                        "state": "NY", 
+                        "address": "11 Carmine St", 
+                        "lat": 40.7304381, 
+                        "lng": -74.00204400000001
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 20, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4e29fbb5227197a112c9caca", 
+                    "categories": [
+                        {
+                            "pluralName": "Embassies / Consulates", 
+                            "primary": true, 
+                            "name": "Embassy / Consulate", 
+                            "shortName": "Embassy", 
+                            "id": "4bf58dd8d48988d12c951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/embassy_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

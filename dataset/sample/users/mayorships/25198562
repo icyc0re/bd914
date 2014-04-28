@@ -1,0 +1,388 @@
+{
+    "mayorships": {
+        "count": 11, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Kraus Apt", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Hackensack", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "07601", 
+                        "state": "NJ", 
+                        "address": "895 Main St", 
+                        "lat": 40.907527923583984, 
+                        "lng": -74.0421142578125
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 56, 
+                        "usersCount": 5
+                    }, 
+                    "id": "513dafcfe4b0db88848897e9", 
+                    "categories": [
+                        {
+                            "pluralName": "Housing Developments", 
+                            "primary": true, 
+                            "name": "Housing Development", 
+                            "shortName": "Housing Development", 
+                            "id": "4f2a210c4b9023bd5841ed28", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/housingdevelopment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Breakfast & Lunch  Spot", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Hackensack", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "07601", 
+                        "state": "NJ", 
+                        "crossStreet": "Zaberski St", 
+                        "address": "Main St", 
+                        "lat": 40.907668080744145, 
+                        "lng": -74.04209840640968
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 12, 
+                        "usersCount": 5
+                    }, 
+                    "id": "51a60dc6498e2744fcd981c0", 
+                    "categories": [
+                        {
+                            "pluralName": "Sandwich Places", 
+                            "primary": true, 
+                            "name": "Sandwich Place", 
+                            "shortName": "Sandwiches", 
+                            "id": "4bf58dd8d48988d1c5941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/sandwiches_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "165 Bus  At Main St & Wilson St Hackensack", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Hackensack", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 40.90713517312303, 
+                        "lng": -74.04175990120476
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 14, 
+                        "usersCount": 3
+                    }, 
+                    "id": "529399c211d2c233f5165b85", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Lines", 
+                            "primary": true, 
+                            "name": "Bus Line", 
+                            "shortName": "Bus", 
+                            "id": "4bf58dd8d48988d12b951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Watching TV", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Hackensack", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 40.90734259491925, 
+                        "lng": -74.04763775758458
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 1271, 
+                        "usersCount": 22
+                    }, 
+                    "id": "504629a4e4b0e0a4afa02c9a", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Nancy A & Tom DINNER Time.", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Hackensack", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "07601", 
+                        "state": "NJ", 
+                        "lat": 40.90770495581667, 
+                        "lng": -74.04208693166684
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 2
+                    }, 
+                    "id": "50e5a1dbe4b063b271d12c11", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Critchley's Candies", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/critchleys-candies/4c1cd577b9f876b0777b7c46/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4c1cd577b9f876b0777b7c46/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "River Edge", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "07661", 
+                        "state": "NJ", 
+                        "crossStreet": "Lincoln Ave", 
+                        "address": "812 Kinderkamack Rd", 
+                        "lat": 40.9356492, 
+                        "lng": -74.03111514
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 41, 
+                        "usersCount": 26
+                    }, 
+                    "id": "4c1cd577b9f876b0777b7c46", 
+                    "categories": [
+                        {
+                            "pluralName": "Candy Stores", 
+                            "primary": true, 
+                            "name": "Candy Store", 
+                            "shortName": "Candy Store", 
+                            "id": "4bf58dd8d48988d117951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/candystore_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dolly want's her Mommy only<3", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Hackensack", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 40.90734259491925, 
+                        "lng": -74.04763775758458
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 16, 
+                        "usersCount": 2
+                    }, 
+                    "id": "50855835e4b01d45a39edebd", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Highwood Auto Service", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Englewood", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "07631", 
+                        "state": "NJ", 
+                        "lat": 40.909934244375165, 
+                        "lng": -73.96971348282013
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4f076346e4b0e624d604513a", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "YCS George Washington School", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Hackensack", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 40.86643944209926, 
+                        "lng": -74.03932723589676
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 135, 
+                        "usersCount": 16
+                    }, 
+                    "id": "4e6763878877dfcf3022c5a1", 
+                    "categories": [
+                        {
+                            "pluralName": "Schools", 
+                            "primary": true, 
+                            "name": "School", 
+                            "shortName": "School", 
+                            "id": "4bf58dd8d48988d13b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Jazz Club", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Maywood", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "07607", 
+                        "state": "NJ", 
+                        "address": "4 SV Ave.", 
+                        "lat": 40.91131451795595, 
+                        "lng": -74.0563437647999
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 21, 
+                        "usersCount": 17
+                    }, 
+                    "id": "4eda0c0b722e1da301ca7eea", 
+                    "categories": [
+                        {
+                            "pluralName": "Jazz Clubs", 
+                            "primary": true, 
+                            "name": "Jazz Club", 
+                            "shortName": "Jazz Club", 
+                            "id": "4bf58dd8d48988d1e7931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_jazzclub_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "NJ Transit Bus 165P", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.89263312005703, 
+                        "cc": "US", 
+                        "lng": -74.0397288573148, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 38, 
+                        "usersCount": 17
+                    }, 
+                    "id": "4dd25bf4e4cd7f7178c699c9", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Lines", 
+                            "primary": true, 
+                            "name": "Bus Line", 
+                            "shortName": "Bus", 
+                            "id": "4bf58dd8d48988d12b951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

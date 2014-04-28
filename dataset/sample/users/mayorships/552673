@@ -1,0 +1,282 @@
+{
+    "mayorships": {
+        "count": 8, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Consultatiebureau", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 52.36453112218855, 
+                        "cc": "NL", 
+                        "lng": 4.947187248587943, 
+                        "country": "The Netherlands", 
+                        "address": "Indische Buurt"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 10, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4f2f8a66e4b067066f4ed9f7", 
+                    "categories": [
+                        {
+                            "pluralName": "Medical Centers", 
+                            "primary": true, 
+                            "name": "Medical Center", 
+                            "shortName": "Medical", 
+                            "id": "4bf58dd8d48988d104941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hout- en Meubileringscollege", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 52.386362260540984, 
+                        "cc": "NL", 
+                        "lng": 4.840445817900255, 
+                        "country": "The Netherlands"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 193, 
+                        "usersCount": 47
+                    }, 
+                    "id": "4c179aecf256a5930acfec3e", 
+                    "categories": [
+                        {
+                            "pluralName": "General Colleges & Universities", 
+                            "primary": true, 
+                            "name": "General College & University", 
+                            "shortName": "Education", 
+                            "id": "4bf58dd8d48988d1a8941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/other_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Pool @ Hilton Hongqiao", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "\u4e0a\u6d77", 
+                        "cc": "CN", 
+                        "country": "\u4e2d\u56fd", 
+                        "state": "\u4e0a\u6d77", 
+                        "lat": 31.189425086207315, 
+                        "lng": 121.38975387193919
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 19, 
+                        "usersCount": 16
+                    }, 
+                    "id": "4ecd16116da1d506e95b306c", 
+                    "categories": [
+                        {
+                            "pluralName": "Pools", 
+                            "primary": true, 
+                            "name": "Pool", 
+                            "shortName": "Pool", 
+                            "id": "4bf58dd8d48988d15e941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/pool_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cambridge Hall", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.809893, 
+                        "lng": -73.964372
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4db2e1b84b226b343d6b477a", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Toko Wongkee", 
+                    "contact": {
+                        "phone": "+3214713763", 
+                        "formattedPhone": "+32 14 71 37 63"
+                    }, 
+                    "location": {
+                        "city": "Westerlo", 
+                        "cc": "BE", 
+                        "country": "Belgi\u00eb", 
+                        "address": "Bistplein 12", 
+                        "lat": 51.0923707419464, 
+                        "lng": 4.921597867942649
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 325, 
+                        "usersCount": 21
+                    }, 
+                    "id": "4be96ba0947820a1aaf6b5db", 
+                    "categories": [
+                        {
+                            "pluralName": "Grocery Stores", 
+                            "primary": true, 
+                            "name": "Grocery Store", 
+                            "shortName": "Grocery Store", 
+                            "id": "4bf58dd8d48988d118951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/food_grocery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hand Made Heaven", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Amsterdam", 
+                        "cc": "NL", 
+                        "country": "Nederland", 
+                        "address": "Kastanjeplein 2", 
+                        "lat": 52.35905049144596, 
+                        "lng": 4.923530974875246
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 39, 
+                        "usersCount": 21
+                    }, 
+                    "id": "4e3a8d12483b3f951fc7672f", 
+                    "categories": [
+                        {
+                            "pluralName": "Hobby Shops", 
+                            "primary": true, 
+                            "name": "Hobby Shop", 
+                            "shortName": "Hobbies", 
+                            "id": "4bf58dd8d48988d1fb941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/hobbyshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Banketbakkerij Kwekkeboom", 
+                    "url": "http://kwekkeboom.net", 
+                    "contact": {
+                        "phone": "+31206650443", 
+                        "formattedPhone": "+31 20 665 0443"
+                    }, 
+                    "location": {
+                        "city": "Amsterdam", 
+                        "cc": "NL", 
+                        "country": "Nederland", 
+                        "postalCode": "1092 CN", 
+                        "address": "Linnaeusstraat 86", 
+                        "lat": 52.35641415293354, 
+                        "lng": 4.927363764908677
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 62, 
+                        "usersCount": 43
+                    }, 
+                    "id": "4a27db5af964a52056931fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Bakeries", 
+                            "primary": true, 
+                            "name": "Bakery", 
+                            "shortName": "Bakery", 
+                            "id": "4bf58dd8d48988d16a941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/bakery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Shorna", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 51.913956, 
+                        "cc": "NL", 
+                        "lng": 4.464315, 
+                        "country": "The Netherlands"
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 13, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4fc9e19de4b0ba2d5886f76b", 
+                    "categories": [
+                        {
+                            "pluralName": "Zoos", 
+                            "primary": true, 
+                            "name": "Zoo", 
+                            "shortName": "Zoo", 
+                            "id": "4bf58dd8d48988d17b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/zoo_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

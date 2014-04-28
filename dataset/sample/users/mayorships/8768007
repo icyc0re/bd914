@@ -1,0 +1,102 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sam Gores", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "151 st", 
+                        "address": "1844 Amsterdam Ave", 
+                        "lat": 40.829310985363946, 
+                        "lng": -73.94516389771303
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 53, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4ba54351f964a5204df338e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Salons / Barbershops", 
+                            "primary": true, 
+                            "name": "Salon / Barbershop", 
+                            "shortName": "Salon / Barbershop", 
+                            "id": "4bf58dd8d48988d110951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/salon_barber_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Jen's Court / Basic Housing Harlem Office", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10037", 
+                        "state": "NY", 
+                        "address": "27 E 131st St", 
+                        "lat": 40.809651, 
+                        "lng": -73.938034
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 52, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4daeda2c93a0096fbaa81315", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Rody's Place", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.80523481261089, 
+                        "lng": -73.95361626406626
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 25, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4db567920cb6729b6aa43a06", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Quesadillas", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 20.627571939736935, 
+                        "cc": "MX", 
+                        "lng": -87.06973607665935, 
+                        "country": "Mexico"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 18, 
+                        "usersCount": 17
+                    }, 
+                    "id": "4d8b8a31d85f3704c95a17dc", 
+                    "categories": [
+                        {
+                            "pluralName": "Mexican Restaurants", 
+                            "primary": true, 
+                            "name": "Mexican Restaurant", 
+                            "shortName": "Mexican", 
+                            "id": "4bf58dd8d48988d1c1941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/mexican_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Urban Kayaks", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Chicago", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "60611", 
+                        "state": "IL", 
+                        "address": "270 Chicago Riverwalk", 
+                        "lat": 41.88788588774146, 
+                        "lng": -87.61734008789062
+                    }, 
+                    "stats": {
+                        "tipCount": 12, 
+                        "checkinsCount": 283, 
+                        "usersCount": 265
+                    }, 
+                    "id": "4e4d59b41fc7bd85f5ece568", 
+                    "categories": [
+                        {
+                            "pluralName": "Harbors / Marinas", 
+                            "primary": true, 
+                            "name": "Harbor / Marina", 
+                            "shortName": "Harbor / Marina", 
+                            "id": "4bf58dd8d48988d1e0941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/harbor_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

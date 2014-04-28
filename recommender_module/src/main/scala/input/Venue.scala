@@ -1,254 +1,315 @@
 package input
 
-import scala.io.BufferedSource
-import vectors.{VenueVector, AbstractVector}
-import features.IntFeature
-//import com.fasterxml.jackson.databind.ObjectMapper
-//import com.fasterxml.jackson.module.scala.DefaultScalaModule
-//import com.fasterxml.jackson.module.scala.experimental.ScalaObjectMapper
+import utils.Cons
+
+
 import play.api.libs.json._
 import play.api.libs.json.Reads._
-import play.api.libs.functional.syntax._ 
-import play.api.data.validation.ValidationError
-import scala.util.parsing.json.JSON
-import scala.collection.mutable.ListBuffer
-
-
-case class VenueStats(checkinsCount: Option[Int], usersCount: Option[Int], tipCount: Option[Int])
-
-case class VenueLocation(address: Option[String], crossStreet: Option[String],  city: Option[String], 
-						 state: Option[String], postalCode: Option[String], lat: Option[Double], lng: Option[Double])
-
-case class VenueCategory(id: Option[String], name: Option[String], pluralName: Option[String], shortName: Option[String],
-                                  icon : Option[VenueIcon], primary: Option[Boolean])
-
-case class VenueCategories(categories : List[VenueCategory])
-
-case class VenueMayor(count: Option[Int], id: Option[String], firstName: Option[String], lastName: Option[String],
-                      gender: Option[String], homeCity: Option[String], relationship: Option[String])
-
-case class VenueTips(count: Int, groups: List[VenueTipGroup])
-
-case class VenueTipGroup(`type`: String, name: String, count: Int, items: List[TipForList])
-
-case class TipForList(id: String, createdAt: Long, text: Option[String], url: Option[String], status: Option[String])
-
-case class VenuePhotoGroup(`type`: String, name: String, count: Int, items: List[PhotoForList])
-
-case class VenuePhotos(count: Int, groups: List[VenuePhotoGroup])
-
-case class PhotoForList(id: String, createdAt: Long, url: String, visibility: String)
-
-case class CompactEvent(id: String, name: Option[String])
-
-case class VenueListed(count: Int, items: Option[List[String]])
-
-case class VenueIcon(prefix : Option[String], suffix: Option[String])
-
+import play.api.libs.functional.syntax._
+import features.{TextFeature, IntFeature}
+import utils.Cons
+import vectors.VenueVector
 
 /**
  * @author Matteo Pagliardini
  */
-class Venue(filePath : String) {
+case class VenueContact(twitter: Option[String], facebook: Option[String], phone: Option[String])
 
-	val jsonString = scala.io.Source.fromFile(filePath).mkString
-  	val jsonFile: JsValue = Json.parse(jsonString)
+case class VenueStats(checkinsCount: Int, usersCount: Option[Int], tipCount: Option[Int])
 
-  	/*val mapper = new ObjectMapper() with ScalaObjectMapper
-	mapper.registerModule(DefaultScalaModule)
-	val obj = mapper.readValue[Map[String, Map[String, Object]]](jsonString)
-	
-	val map = mapper.readValue[Map[String, Any]](obj.get("venue").get("stats"))
-	println(map)*/
+case class VenueLocation(address: Option[String], crossStreet: Option[String], city: Option[String],
+                         state: Option[String], postalCode: Option[String], lat: Option[Double], lng: Option[Double])
 
-	/*implicit val iconFormat: Format[VenueIcon] = (
-			(__ \ "prefix").format[Option[String]] and
-			(__ \ "suffix").format[Option[String]]
-		)(VenueIcon.apply, unlift(VenueIcon.unapply))*/
+case class VenueCategory(id: Option[String], name: String, pluralName: Option[String], shortName: Option[String],
+                         primary: Option[Boolean])
 
-	implicit val iconRead: Reads[VenueIcon] = (
-			(JsPath \ "venue" \ "categories" \ "icon" \ "prefix").read[Option[String]] and
-			(JsPath \ "venue" \ "categories" \ "icon" \ "suffix").read[Option[String]]
-		)(VenueIcon.apply _)
+case class VenuePrice(tier: Option[Int], message: Option[String], currency: Option[String])
 
-	/*implicit val categoryFormat: Format[VenueCategory] = (
-    		(__ \ "id").format[Option[String]] and 
-  			(__ \ "name").format[Option[String]] and
-  			(__ \ "pluralName").format[Option[String]] and
-  			(__ \ "shortName").format[Option[String]] and
-  			(__ \ "icon").format[Option[VenueIcon]] and
-  			(__ \ "primary").format[Option[Boolean]] 
-		)(VenueCategory.apply, unlift(VenueCategory.unapply))*/
+case class VenueReasonsItem(summary: Option[String], tyype: Option[String], reasonName: Option[String])
 
-	implicit val categoryRead: Reads[VenueCategory] = (
-  			(JsPath \ "venue" \ "categories" \ "id").read[Option[String]] and
-  			(JsPath \ "venue" \ "categories" \ "name").read[Option[String]] and
-  			(JsPath \ "venue" \ "categories" \ "pluralName").read[Option[String]] and
-  			(JsPath \ "venue" \ "categories" \ "shortName").read[Option[String]] and 
-  			(JsPath \ "venue" \ "categories" \ "icon").read[Option[VenueIcon]] and
-  			(JsPath \ "venue" \ "categories" \ "primary").read[Option[Boolean]]
-		)(VenueCategory.apply _)
+case class VenueReasons(count: Option[Int], items: Option[List[VenueReasonsItem]])
 
-	implicit val categoriesRead: Reads[VenueCategories] = (JsPath \ "venue" \ "categories").read(list[VenueCategory](categoryRead)).map(VenueCategories.apply _)
+case class VenueMayor(count: Option[Int], id: Option[String], firstName: Option[String], lastName: Option[String],
+                      gender: Option[String], homeCity: Option[String], relationship: Option[String])
 
-	val id: String = filePath 								
-    val name = (jsonFile \ "venue" \ "name" ).as[Option[String]]
-    val likes = (jsonFile \ "venue" \ "likes" \ "count").as[Option[Int]]
-    val rating = (jsonFile \ "venue" \ "rating").as[Option[Int]]
-    val twitter	 = (jsonFile \ "venue" \ "contact" \ "twitter").as[Option[String]]
-    val facebook = (jsonFile \ "venue" \ "contact" \ "facebook").as[Option[String]]
-    val location = VenueLocation( (jsonFile \ "venue" \ "location" \ "address").as[Option[String]], 
-    							(  jsonFile \ "venue" \ "location" \ "crossStreet").as[Option[String]],  
-    						    (  jsonFile \ "venue" \ "location" \ "city").as[Option[String]], 
-			    				(  jsonFile \ "venue" \ "location" \ "state").as[Option[String]], 
-						 		(  jsonFile \ "venue" \ "location" \ "postalCode").as[Option[String]], 
-                         	    (  jsonFile \ "venue" \ "location" \ "lat").as[Option[Double]], 
-                         		(  jsonFile \ "venue" \ "location" \ "lng").as[Option[Double]])
-    val foursquareURL = (jsonFile \ "venue" \ "canonicalUrl" ).as[Option[String]]
-    //val categories: List[VenueCategoryCompact] 			= ???
-    //var categories: JsResult[VenueCategories] = jsonFile.validate[VenueCategories](categoriesRead)
+case class VenueAttributeItem(displayName: Option[String], displayValue: Option[String], priceTier: Option[Int])
 
+case class VenueAttribute(tyype: Option[String], name: Option[String], summary: Option[String],
+                          count: Option[Int], items: Option[List[VenueAttributeItem]])
 
-  	private val json:Option[Any] = JSON.parseFull(jsonString)
-  	private val map:Map[String,Any] = json.get.asInstanceOf[Map[String, Any]]
-  	private val venue:Map[String,Any] = map.get("venue").get.asInstanceOf[Map[String,Any]]
-  	private val categoriesList:List[Any] = venue.get("categories").get.asInstanceOf[List[Any]]
-	var categories  = new ListBuffer[(String,String,Boolean)]//(String, String, Boolean)]
-	categoriesList.foreach( c => {
-		val cat: Map[String,Any] = c.asInstanceOf[Map[String,Any]]
-		var id : String =
-	    if(cat.contains("id")) {
-			cat.get("id").get.asInstanceOf[String]
-		} else {
-			""
-		}
-		val name: String = cat.get("name").get.asInstanceOf[String]
-		val primary : Boolean = 
-		if(cat.contains("primary")) {
-			cat.get("primary").get.asInstanceOf[Boolean]
-		} else {
-			false
-		}
+case class VenueAttributes(groups: Option[List[VenueAttribute]], dummy: Option[Int])
 
-		val t : (String,String,Boolean) = (id, name, primary)
-		categories += t
-	})
-    //var categories = (Json.parse(jsonString) \ "venue" \ "categories").as[List[VenueCategory]]
-    val verified = (jsonFile \ "venue" \ "verified").as[Option[Boolean]]
-    val stats = VenueStats((jsonFile \ "venue" \ "stats" \ "checkinsCount").as[Option[Int]], 
-    	   				   (jsonFile \ "venue" \ "stats" \ "usersCount").as[Option[Int]],
-    	   				   (jsonFile \ "venue" \ "stats" \ "tipCount").as[Option[Int]])
-    val url = (jsonFile \ "venue" \ "url").as[Option[String]]		
-    val mayor = VenueMayor ((jsonFile \ "venue" \ "mayor" \ "count").as[Option[Int]],
-    			 		   (jsonFile \ "venue" \ "mayor" \ "user" \ "id").as[Option[String]],
-    			 		   (jsonFile \ "venue" \ "mayor" \ "user" \ "firstName").as[Option[String]],
-    			 		   (jsonFile \ "venue" \ "mayor" \ "user" \ "lastName").as[Option[String]],
-    			 		   (jsonFile \ "venue" \ "mayor" \ "user" \ "gender").as[Option[String]],
-    			   		   (jsonFile \ "venue" \ "mayor" \ "user" \ "homeCity").as[Option[String]],
-    			 		   (jsonFile \ "venue" \ "mayor" \ "user" \ "relationship").as[Option[String]])
-    //val tips: VenueTips 								= ???
-    val tags = (jsonFile \ "venue" \ "tags" ).as[Option[List[String]]] 
+case class VenueHoursRenderedTime(renderedTime: Option[String], dummy: Option[Int])
 
-    val timeZone = (jsonFile \ "venue" \ "timeZone" ).as[Option[String]]
-    //val photos: Option[VenuePhotos]	 					= ???
-    val description = (jsonFile \ "venue" \ "description" ).as[Option[String]]
-    //val events: Option[List[CompactEvent]]	 			= ???
-    //val listed: Option[VenueListed] 					= ???
+case class VenueHoursTimeFrames(days: Option[String], open: Option[List[VenueHoursRenderedTime]])
 
- 
- /**
-  * Getters
-  */
-  def address(): Option[String] = {
-  	location.address
-  }
-  def crossStreet(): Option[String] = {
-  	location.crossStreet
-  }
-  def city(): Option[String] = {
-  	location.city
-  }
-  def state(): Option[String] = {
-  	location.state
-  }
-  def postalCode(): Option[String] = {
-  	location.postalCode
-  }
-  def latitude(): Option[Double] = {
-  	location.lat
-  }
-  def longitude(): Option[Double] = {
-  	location.lng
-  }
-  def checkinsCount(): Option[Int] = {
-  	stats.checkinsCount
-  }
-  def usersCount(): Option[Int] = {
-  	stats.usersCount
-  }
-  def tipCount(): Option[Int] = {
-  	stats.tipCount
-  }
-  def mayorCount() : Option[Int] = {
-  	mayor.count
-  }
-  def mayorId():Option[String] = {
-  	mayor.id
-  }
-  def mayorFirstName():Option[String] = {
-  	mayor.firstName
-  }
-  def mayorLastName():Option[String] = {
-  	mayor.lastName
-  }
-  def mayorGender():Option[String] = {
-  	mayor.gender
-  }
-  def mayorHomeCity():Option[String] = {
-  	mayor.homeCity
-  }
-  def mayorRelationship():Option[String] = {
-  	mayor.relationship
-  }
+case class VenueHours(dummy: Option[Int], timeframes: Option[List[VenueHoursTimeFrames]])
 
- /**
-  * Display the features in a nice form
-  */
+case class VenuePhotosGroupItemUser(id: Option[String], firstName: Option[String], lastName: Option[String], gender: Option[String])
+
+case class VenuePhotosGroupItem(id: Option[String], visibility: Option[String], user: Option[VenuePhotosGroupItemUser])
+
+case class VenuePhotosGroup(tyype: Option[String], count: Option[Int], items: Option[List[VenuePhotosGroupItem]])
+
+case class VenuePhotos(count: Option[Int], groups: Option[List[VenuePhotosGroup]])
+
+case class VenueTipsGroupItem(id: Option[String], text: Option[String], likes: Option[Int])
+
+case class VenueTipsGroup(user: Option[VenuePhotosGroupItemUser], tyype: Option[String], count: Option[Int],
+                          items: Option[List[VenueTipsGroupItem]])
+
+case class VenueTips(count: Option[Int], groups: Option[List[VenueTipsGroup]])
+
+case class VenuePhrases(phrase: Option[String], count: Option[Int])
+
+case class VenueCompact(categories: Option[List[VenueCategory]], id: String, name: String, url: Option[String], stats: VenueStats,
+                        price: Option[VenuePrice], likes: Option[Int], rating: Option[Int], reasons: Option[VenueReasons],
+                        mayor: Option[VenueMayor], tags: List[String], contact: Option[VenueContact], attributes: Option[VenueAttributes],
+                        hours: Option[VenueHours], verified: Option[Boolean], photos: Option[VenuePhotos], tips: Option[VenueTips],
+                        phrases: Option[List[VenuePhrases]])
+
+class Venue(jsonString: String) {
+  val jsonFile: JsValue = Json.parse(jsonString)
+
+  //Jackson way :
+  /*val mapper = new ObjectMapper() with ScalaObjectMapper
+mapper.registerModule(DefaultScalaModule)
+val obj = mapper.readValue[Map[String, Map[String, Object]]](jsonString)
+
+val map = mapper.readValue[Map[String, Any]](obj.get("venue").get("stats"))
+println(map)*/
+
+  //Play way :
+  implicit val venuePhrasesRead: Reads[VenuePhrases] = (
+    (__ \ "phrase").readNullable[String] and
+      (__ \ "count").readNullable[Int]
+    )(VenuePhrases.apply _)
+
+  implicit val venueTipsGroupItemRead: Reads[VenueTipsGroupItem] = (
+    (__ \ "id").readNullable[String] and
+      (__ \ "text").readNullable[String] and
+      (__ \ "likes" \ "count").readNullable[Int]
+    )(VenueTipsGroupItem.apply _)
+
+  implicit val venueTipsGroupRead: Reads[VenueTipsGroup] = (
+    (__ \ "user").readNullable[VenuePhotosGroupItemUser] and
+      (__ \ "type").readNullable[String] and
+      (__ \ "count").readNullable[Int] and
+      (__ \ "items").readNullable[List[VenueTipsGroupItem]]
+    )(VenueTipsGroup.apply _)
+
+  implicit val venueTipsRead: Reads[VenueTips] = (
+    (__ \ "count").readNullable[Int] and
+      (__ \ "groups").readNullable[List[VenueTipsGroup]]
+    )(VenueTips.apply _)
+
+  implicit val venuePhotosGroupItemUserRead: Reads[VenuePhotosGroupItemUser] = (
+    (__ \ "id").readNullable[String] and
+      (__ \ "firstName").readNullable[String] and
+      (__ \ "lastName").readNullable[String] and
+      (__ \ "gender").readNullable[String]
+    )(VenuePhotosGroupItemUser.apply _)
+
+  implicit val venuePhotosGroupItemRead: Reads[VenuePhotosGroupItem] = (
+    (__ \ "id").readNullable[String] and
+      (__ \ "visibility").readNullable[String] and
+      (__ \ "user").readNullable[VenuePhotosGroupItemUser]
+    )(VenuePhotosGroupItem.apply _)
+
+  implicit val venuePhotosGroupRead: Reads[VenuePhotosGroup] = (
+    (__ \ "type").readNullable[String] and
+      (__ \ "count").readNullable[Int] and
+      (__ \ "items").readNullable[List[VenuePhotosGroupItem]]
+    )(VenuePhotosGroup.apply _)
+
+  implicit val venuePhotosRead: Reads[VenuePhotos] = (
+    (__ \ "count").readNullable[Int] and
+      (__ \ "groups").readNullable[List[VenuePhotosGroup]]
+    )(VenuePhotos.apply _)
+
+  implicit val venueHoursRenderedTimeRead: Reads[VenueHoursRenderedTime] = (
+    (__ \ "renderedTime").readNullable[String] and
+      (__ \ "ignoreThis").readNullable[Int]
+    )(VenueHoursRenderedTime.apply _)
+
+  implicit val venueHoursTimeFramesRead: Reads[VenueHoursTimeFrames] = (
+    (__ \ "days").readNullable[String] and
+      (__ \ "open").readNullable[List[VenueHoursRenderedTime]]
+    )(VenueHoursTimeFrames.apply _)
+
+  implicit val venueHoursRead: Reads[VenueHours] = (
+    (__ \ "dummy").readNullable[Int] and
+      (__ \ "timeframes").readNullable[List[VenueHoursTimeFrames]]
+    )(VenueHours.apply _)
+
+  implicit val venueAttributeItemRead: Reads[VenueAttributeItem] = (
+    (__ \ "displayName").readNullable[String] and
+      (__ \ "displayValue").readNullable[String] and
+      (__ \ "priceTier").readNullable[Int]
+    )(VenueAttributeItem.apply _)
+
+  implicit val venueAttributeRead: Reads[VenueAttribute] = (
+    (__ \ "type").readNullable[String] and
+      (__ \ "name").readNullable[String] and
+      (__ \ "summary").readNullable[String] and
+      (__ \ "count").readNullable[Int] and
+      (__ \ "items").readNullable[List[VenueAttributeItem]]
+    )(VenueAttribute.apply _)
+
+  implicit val venueAttributesRead: Reads[VenueAttributes] = (
+    (__ \ "groups").readNullable[List[VenueAttribute]] and
+      (__ \ "ignoreThis").readNullable[Int]
+    )(VenueAttributes.apply _)
+
+  implicit val venueContactRead: Reads[VenueContact] = (
+    (__ \ "twitter").readNullable[String] and
+      (__ \ "facebook").readNullable[String] and
+      (__ \ "phone").readNullable[String]
+    )(VenueContact.apply _)
+
+  implicit val venueMayorRead: Reads[VenueMayor] = (
+    (__ \ "count").readNullable[Int] and
+      (__ \ "id").readNullable[String] and
+      (__ \ "firstName").readNullable[String] and
+      (__ \ "lastName").readNullable[String] and
+      (__ \ "gender").readNullable[String] and
+      (__ \ "homeCity").readNullable[String] and
+      (__ \ "relationship").readNullable[String]
+    )(VenueMayor.apply _)
+
+  implicit val categoryRead: Reads[VenueCategory] = (
+    (__ \ "id").readNullable[String] and
+      (__ \ "name").read[String] and
+      (__ \ "pluralName").readNullable[String] and
+      (__ \ "shortName").readNullable[String] and
+      (__ \ "primary").readNullable[Boolean]
+    )(VenueCategory.apply _)
+
+  implicit val venueStatRead: Reads[VenueStats] = (
+    (__ \ "checkinsCount").read[Int] and
+      (__ \ "usersCount").readNullable[Int] and
+      (__ \ "tipCount").readNullable[Int]
+    )(VenueStats.apply _)
+
+  implicit val venuePriceRead: Reads[VenuePrice] = (
+    (__ \ "tier").readNullable[Int] and
+      (__ \ "message").readNullable[String] and
+      (__ \ "currency").readNullable[String]
+    )(VenuePrice.apply _)
+
+  implicit val venueReasonsItemRead: Reads[VenueReasonsItem] = (
+    (__ \ "summary").readNullable[String] and
+      (__ \ "type").readNullable[String] and
+      (__ \ "reasonName").readNullable[String]
+    )(VenueReasonsItem.apply _)
+
+  implicit val venueReasonsRead: Reads[VenueReasons] = (
+    (__ \ "count").readNullable[Int] and
+      (__ \ "items").readNullable[List[VenueReasonsItem]]
+    )(VenueReasons.apply _)
+
+  implicit val venueCompactRead: Reads[VenueCompact] = (
+    (JsPath \ "venue" \ "categories").readNullable[List[VenueCategory]] and
+      (JsPath \ "venue" \ "id").read[String] and
+      (JsPath \ "venue" \ "name").read[String] and
+      (JsPath \ "venue" \ "url").readNullable[String] and
+      (JsPath \ "venue" \ "stats").read[VenueStats] and
+      (JsPath \ "venue" \ "price").readNullable[VenuePrice] and
+      (JsPath \ "venue" \ "likes" \ "count").readNullable[Int] and
+      (JsPath \ "venue" \ "rating").readNullable[Int] and
+      (JsPath \ "venue" \ "reasons").readNullable[VenueReasons] and
+      (JsPath \ "venue" \ "mayor").readNullable[VenueMayor] and
+      (JsPath \ "venue" \ "tags").read[List[String]] and
+      (JsPath \ "venue" \ "contact").readNullable[VenueContact] and
+      (JsPath \ "venue" \ "attributes").readNullable[VenueAttributes] and
+      (JsPath \ "venue" \ "hours").readNullable[VenueHours] and
+      (JsPath \ "venue" \ "verified").readNullable[Boolean] and
+      (JsPath \ "venue" \ "photos").readNullable[VenuePhotos] and
+      (JsPath \ "venue" \ "tips").readNullable[VenueTips] and
+      (JsPath \ "venue" \ "phrases").readNullable[List[VenuePhrases]]
+    )(VenueCompact.apply _)
+
+  var venue: VenueCompact = jsonFile.validate[VenueCompact](venueCompactRead).get
+
+  /**
+   * Display the features in a nice form
+   */
+  /*
   def displayFeatures() {
   	println("\n****************************************************")
-  	println(  "VENUE : "+id)
+  	println(  "VENUE : "+venue.id)
   	println(  "****************************************************\n")
-	println(  "name   := "+name)
-	println(  "likes  := "+likes)
-	println(  "rating := "+rating)
-	println(  "twitter := "+twitter)
-	println(  "facebook := "+facebook)
-	println(  "address := "+location.address)
-	println(  "crossStreet := "+location.crossStreet)
-	println(  "city := "+location.city)
-	println(  "state := "+location.state)
-	println(  "postalCode := "+location.postalCode)
-	println(  "latitude := "+location.lat)
-	println(  "longitude := "+location.lng)
-  	println(  "foursquareURL := "+foursquareURL)
-	println(  "verified := "+verified)
-	println(  "checkinsCount := "+stats.checkinsCount)
-	println(  "usersCount := "+stats.usersCount)
-	println(  "tipCount := "+stats.tipCount)
-	println(  "url := "+url)
-	println(  "mayorCount := "+mayor.count)
-	println(  "mayorId := "+mayor.id)
-	println(  "mayorFirstName := "+mayor.firstName)
-	println(  "mayorLastName := "+mayor.lastName)
-	println(  "mayorGender := "+mayor.gender)
-	println(  "mayorHomeCity := "+mayor.homeCity)
-	println(  "mayorRelationship := "+mayor.relationship)
-	println(  "tags := "+tags)
-	println(  "timeZone := "+timeZone)
-	println(  "description := "+description)
+	println(  "\n-------------- Basic info : ")
+	println(  "name := "+venue.name)
+	println(  "url := "+venue.url)
+	println(  "likes := "+venue.likes)
+	println(  "rating := "+venue.rating)
+	println(  "verified := "+venue.verified)
+	println(  "\n-------------- Stats : ")
+	println(  "checkinsCount := "+venue.stats.checkinsCount)
+	println(  "tipCount := "+venue.stats.tipCount)
+	println(  "\n-------------- Price : ")
+	if(venue.price != None){
+		println(  "tier := "+venue.price.tier)
+		println(  "message := "+venue.price.message)
+		println(  "currency := "+venue.price.currency)
+	} else{
+		println(  "None")
+	}
+	println(  "\n-------------- Reasons : ")
+	if(venue.reasons != None){
+		println(  "count := "+venue.reasons.count)
+		println(  "Wait ! There is more, look by yourself ...")
+	} else{
+		println(  "None")
+	}
+	println(  "\n-------------- Mayor : ")
+	if(venue.mayor != None){
+		println(  "count := "+venue.mayor.count)
+		println(  "id := "+venue.mayor.id)
+		println(  "firstName := "+venue.mayor.firstName)
+		println(  "lastName := "+venue.mayor.lastName)
+		println(  "gender := "+venue.mayor.gender)
+		println(  "homeCity := "+venue.mayor.homeCity)
+		println(  "relationship := "+venue.mayor.relationship)
+	} else{
+		println(  "None")
+	}
+	println(  "\n-------------- Tags : ")
+	println(  "Tags := "+venue.tags)
+	println(  "\n-------------- Contact : ")
+	if(venue.contact != None){
+		println(  "twitter := "+venue.contact.twitter)
+		println(  "facebook := "+venue.contact.facebook)
+		println(  "phone := "+venue.contact.phone)
+	} else{
+		println(  "None")
+	}
+	println(  "\n-------------- Attributes : ")
+	if(venue.contact != None){
+		println(  "groups := "+venue.attributes.groups)
+	} else{
+		println(  "None")
+	}
+	println(  "\nAnd even more stuff like hours / photos / tips / phrases ... !!! ")
 	println("\n****************************************************")
   	println(  "****************************************************\n")
-  }
+  }*/
 }
 
-
+object Venue{
+  /**
+   * Create venue feature vector from the parsed [[Venue]] object
+   * @param v parsed venue
+   * @return venue feature vector
+   */
+  def featureVector(v: Venue):VenueVector = {
+    val features = List(
+      IntFeature(Cons.CHECKINS_COUNT, v.venue.stats.checkinsCount),
+      IntFeature(Cons.TIP_COUNT, v.venue.stats.tipCount.get),
+      IntFeature(Cons.USERS_COUNT, v.venue.stats.usersCount.get),
+      TextFeature(Cons.VENUE_ID, v.venue.id)
+    )
+    new VenueVector(features, null)
+  }
+}

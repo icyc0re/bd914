@@ -1,0 +1,102 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "TC New Residents Hall", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.80523481261089, 
+                        "lng": -73.95361626406626
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 17, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4bb0f87af964a520f46e3ce3", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Thorndike, Teachers College, The Fishbowl", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "The Fishbowl", 
+                        "lat": 40.80976361153127, 
+                        "lng": -73.96012820857659
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4d9a30937fedb60c5c3ceb46", 
+                    "categories": [
+                        {
+                            "pluralName": "College Classrooms", 
+                            "primary": true, 
+                            "name": "College Classroom", 
+                            "shortName": "Classroom", 
+                            "id": "4bf58dd8d48988d1a0941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/classroom_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "River of Life Christian Church", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Flushing", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11354", 
+                        "state": "NY", 
+                        "crossStreet": "40th road", 
+                        "address": "131-02", 
+                        "lat": 40.75631351686642, 
+                        "lng": -73.83763040255666
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4e45e472183849317e6f8d32", 
+                    "categories": []
+                }
+            }
+        ]
+    }
+}

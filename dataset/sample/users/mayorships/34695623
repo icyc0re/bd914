@@ -1,0 +1,76 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Rohr Chabad House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Palo Alto", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 37.42062727798579, 
+                        "lng": -122.15287564114759
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "53085127498e41c14041fdfb", 
+                    "categories": [
+                        {
+                            "pluralName": "Community Centers", 
+                            "primary": true, 
+                            "name": "Community Center", 
+                            "shortName": "Community Center", 
+                            "id": "52e81612bcbc57f1066b7a34", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Meta Labs", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "lat": 40.81002583899475, 
+                        "lng": -73.95912373609235
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 2
+                    }, 
+                    "id": "50a9d5fce4b0b2e8c0a5e79a", 
+                    "categories": [
+                        {
+                            "pluralName": "Tech Startups", 
+                            "primary": true, 
+                            "name": "Tech Startup", 
+                            "shortName": "Tech Startup", 
+                            "id": "4bf58dd8d48988d125941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/technology_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

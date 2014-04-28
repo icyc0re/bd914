@@ -1,0 +1,148 @@
+{
+    "mayorships": {
+        "count": 4, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "UPS Package Warehouse", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10036", 
+                        "state": "NY", 
+                        "address": "524 W 42nd St", 
+                        "lat": 40.75986718697575, 
+                        "lng": -73.99671613391786
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 934, 
+                        "usersCount": 53
+                    }, 
+                    "id": "4bb3dcfb715eef3bb6f486bb", 
+                    "categories": [
+                        {
+                            "pluralName": "Post Offices", 
+                            "primary": true, 
+                            "name": "Post Office", 
+                            "shortName": "Post Office", 
+                            "id": "4bf58dd8d48988d172941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/postoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Community Health Academy Of Washington Heights", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10032", 
+                        "state": "NY", 
+                        "crossStreet": "Amsterdam Avenue", 
+                        "address": "504 West 158th Street", 
+                        "lat": 40.835436733995635, 
+                        "lng": -73.94440043998176
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 115, 
+                        "usersCount": 17
+                    }, 
+                    "id": "4e0b54c3d4c091ae45daba24", 
+                    "categories": [
+                        {
+                            "pluralName": "High Schools", 
+                            "primary": true, 
+                            "name": "High School", 
+                            "shortName": "High School", 
+                            "id": "4bf58dd8d48988d13d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "PS 152", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.859633, 
+                        "lng": -73.927466
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 142, 
+                        "usersCount": 31
+                    }, 
+                    "id": "4c0816b0340720a18d948293", 
+                    "categories": [
+                        {
+                            "pluralName": "Schools", 
+                            "primary": true, 
+                            "name": "School", 
+                            "shortName": "School", 
+                            "id": "4bf58dd8d48988d13b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cosa Nostra GGC", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.834842246557294, 
+                        "lng": -73.94500891029698
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 87, 
+                        "usersCount": 26
+                    }, 
+                    "id": "4dfd5ffbc65b31579b31d8f5", 
+                    "categories": [
+                        {
+                            "pluralName": "Spas", 
+                            "primary": true, 
+                            "name": "Spa", 
+                            "shortName": "Spa", 
+                            "id": "4bf58dd8d48988d1ed941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/spa_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

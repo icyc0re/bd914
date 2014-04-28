@@ -1,0 +1,148 @@
+{
+    "mayorships": {
+        "count": 4, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Cinema School", 
+                    "contact": {
+                        "phone": "7186202560", 
+                        "formattedPhone": "(718) 620-2560"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10472", 
+                        "state": "NY", 
+                        "address": "1551 E 172nd St", 
+                        "lat": 40.8318980926546, 
+                        "lng": -73.87816429138184
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 256, 
+                        "usersCount": 27
+                    }, 
+                    "id": "4c851218dc018cfaca38e56c", 
+                    "categories": [
+                        {
+                            "pluralName": "High Schools", 
+                            "primary": true, 
+                            "name": "High School", 
+                            "shortName": "High School", 
+                            "id": "4bf58dd8d48988d13d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dream Dragon's Lair", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.58298153333333, 
+                        "lng": -73.96263751666667
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4e57020ed164bced5f81c45a", 
+                    "categories": [
+                        {
+                            "pluralName": "Other Nightlife", 
+                            "primary": true, 
+                            "name": "Other Nightlife", 
+                            "shortName": "Nightlife", 
+                            "id": "4bf58dd8d48988d11a941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "GGRD Crash Pad", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.714660147121606, 
+                        "cc": "US", 
+                        "lng": -73.94186034276925, 
+                        "isFuzzed": true, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 87, 
+                        "usersCount": 35
+                    }, 
+                    "id": "4ea42cf68231f6dc6abe8189", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ampersand's Place", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.6817846581621, 
+                        "lng": -73.98887973002674
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 30, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4c5c18fb2815c928a203b167", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

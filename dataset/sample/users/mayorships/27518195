@@ -1,0 +1,148 @@
+{
+    "mayorships": {
+        "count": 4, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "360 Riverside Drive", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "btwn W. 108th & W. 109th Sts.", 
+                        "address": "360 Riverside Dr", 
+                        "lat": 40.804015804778246, 
+                        "lng": -73.96872639656067
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 93, 
+                        "usersCount": 14
+                    }, 
+                    "id": "4da1e4d9b521224b320afeed", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Halal Food Cart", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "116th St", 
+                        "address": "Broadway", 
+                        "lat": 40.808665905216436, 
+                        "lng": -73.96203382200433
+                    }, 
+                    "stats": {
+                        "tipCount": 4, 
+                        "checkinsCount": 452, 
+                        "usersCount": 93
+                    }, 
+                    "id": "4bd21182046076b0eb267371", 
+                    "categories": [
+                        {
+                            "pluralName": "Food Trucks", 
+                            "primary": true, 
+                            "name": "Food Truck", 
+                            "shortName": "Food Truck", 
+                            "id": "4bf58dd8d48988d1cb941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/streetfood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "510A Computer Dungeon", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "lat": 40.80749907198158, 
+                        "lng": -73.95931889115565
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 2
+                    }, 
+                    "id": "51070f3ae4b0e55b5ee75dbf", 
+                    "categories": [
+                        {
+                            "pluralName": "College Classrooms", 
+                            "primary": true, 
+                            "name": "College Classroom", 
+                            "shortName": "Classroom", 
+                            "id": "4bf58dd8d48988d1a0941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/classroom_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lilys Garden Cafe", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 32.753657392761134, 
+                        "postalCode": "92104", 
+                        "lng": -117.11516052012526, 
+                        "cc": "US", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 12, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4ed995be0aaf49e028a0c2c4", 
+                    "categories": [
+                        {
+                            "pluralName": "Caf\u00e9s", 
+                            "primary": true, 
+                            "name": "Caf\u00e9", 
+                            "shortName": "Caf\u00e9", 
+                            "id": "4bf58dd8d48988d16d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cafe_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,297 @@
+{
+    "mayorships": {
+        "count": 8, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "John Jay Residence Hall - Columbia University", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "at Amsterdam Avenue", 
+                        "address": "519 W 114th St", 
+                        "lat": 40.80595666249738, 
+                        "lng": -73.96225767294855
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 2223, 
+                        "usersCount": 404
+                    }, 
+                    "id": "4b15b53cf964a520f9b223e3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Residence Halls", 
+                            "primary": true, 
+                            "name": "College Residence Hall", 
+                            "shortName": "Residence Hall", 
+                            "id": "4bf58dd8d48988d1a3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/residencehall_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Libey House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Fairview", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "TX", 
+                        "lat": 33.14507649547849, 
+                        "lng": -96.61571919979986
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 22, 
+                        "usersCount": 1
+                    }, 
+                    "id": "52b4e7fd11d29ca98a37b52e", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sulzberger Hall", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "116th", 
+                        "address": "3009 Broadway", 
+                        "lat": 40.80867046311595, 
+                        "lng": -73.96376148537664
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 870, 
+                        "usersCount": 146
+                    }, 
+                    "id": "4b730412f964a52003962de3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Residence Halls", 
+                            "primary": true, 
+                            "name": "College Residence Hall", 
+                            "shortName": "Residence Hall", 
+                            "id": "4bf58dd8d48988d1a3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/residencehall_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Carlton Lounge", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "Seeley Mudd Hall", 
+                        "lat": 40.809135635121365, 
+                        "lng": -73.96089734397252
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 2
+                    }, 
+                    "id": "52efdb20498e4df16bcfb9b5", 
+                    "categories": [
+                        {
+                            "pluralName": "College Cafeterias", 
+                            "primary": true, 
+                            "name": "College Cafeteria", 
+                            "shortName": "Cafeteria", 
+                            "id": "4bf58dd8d48988d1a1941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/cafeteria_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Barnard Library", 
+                    "contact": {
+                        "phone": "2128543953", 
+                        "twitter": "barnlib", 
+                        "formattedPhone": "(212) 854-3953"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "at W 117 St", 
+                        "address": "3009 Broadway", 
+                        "lat": 40.80948110642261, 
+                        "lng": -73.96318177281431
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 298, 
+                        "usersCount": 144
+                    }, 
+                    "id": "4bc8e3110687ef3b01d5d8cc", 
+                    "categories": [
+                        {
+                            "pluralName": "College Libraries", 
+                            "primary": true, 
+                            "name": "College Library", 
+                            "shortName": "Library", 
+                            "id": "4bf58dd8d48988d1a7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Days Inn Boulder", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Boulder", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "80303", 
+                        "state": "CO", 
+                        "address": "5397 S Boulder Rd", 
+                        "lat": 39.986505, 
+                        "lng": -105.22792585
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 278, 
+                        "usersCount": 148
+                    }, 
+                    "id": "4bc3ec51dce4eee1f9d0719d", 
+                    "categories": [
+                        {
+                            "pluralName": "Hotels", 
+                            "primary": true, 
+                            "name": "Hotel", 
+                            "shortName": "Hotel", 
+                            "id": "4bf58dd8d48988d1fa931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lakehouse", 
+                    "contact": {}, 
+                    "location": {
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "Alabama", 
+                        "lat": 34.623124220612034, 
+                        "lng": -87.07741070484687
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "52c10645498ee6049cfef0c5", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dr. Marco Cueva, Periodontic Excellence", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Allen", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "75013", 
+                        "state": "TX", 
+                        "address": "1511 W McDermott Dr, #200", 
+                        "lat": 33.100449, 
+                        "lng": -96.707153
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 18, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4e662b38b61cd7808a231fd2", 
+                    "categories": [
+                        {
+                            "pluralName": "Dentist's Offices", 
+                            "primary": true, 
+                            "name": "Dentist's Office", 
+                            "shortName": "Dentist's Office", 
+                            "id": "4bf58dd8d48988d178941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_dentist_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

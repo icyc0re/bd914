@@ -1,0 +1,206 @@
+{
+    "mayorships": {
+        "count": 5, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Wild NYC", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/wild-nyc/51516200e4b0ab38c78ec946/menu", 
+                        "mobileUrl": "https://foursquare.com/v/51516200e4b0ab38c78ec946/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "delivery": {
+                        "url": "http://www.seamless.com/food-delivery/restaurant.29506.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", 
+                        "provider": {
+                            "name": "seamless"
+                        }
+                    }, 
+                    "contact": {
+                        "phone": "2129292920", 
+                        "twitter": "eatdrinkwild", 
+                        "formattedPhone": "(212) 929-2920"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10014", 
+                        "state": "NY", 
+                        "crossStreet": "Perry & Charles", 
+                        "address": "535 Hudson St", 
+                        "lat": 40.734626312174626, 
+                        "lng": -74.0060757833288
+                    }, 
+                    "stats": {
+                        "tipCount": 21, 
+                        "checkinsCount": 867, 
+                        "usersCount": 681
+                    }, 
+                    "id": "51516200e4b0ab38c78ec946", 
+                    "categories": [
+                        {
+                            "pluralName": "Gluten-free Restaurants", 
+                            "primary": true, 
+                            "name": "Gluten-free Restaurant", 
+                            "shortName": "Gluten-free", 
+                            "id": "4c2cd86ed066bed06c3c5209", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/glutenfree_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ashebrooke Subdivision", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Ashebrook", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "GA", 
+                        "lat": 33.97426341980309, 
+                        "lng": -84.46929223759452
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 316, 
+                        "usersCount": 46
+                    }, 
+                    "id": "4d5570a0c6edf04d17c7c4a2", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hudsonview Laundry Room", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10019", 
+                        "state": "NY", 
+                        "crossStreet": "51st", 
+                        "address": "747 10th Ave", 
+                        "lat": 40.764874187886846, 
+                        "lng": -73.99100026783957
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 69, 
+                        "usersCount": 6
+                    }, 
+                    "id": "503a5d17e4b0d21891cd4e03", 
+                    "categories": [
+                        {
+                            "pluralName": "Laundry Services", 
+                            "primary": true, 
+                            "name": "Laundry Service", 
+                            "shortName": "Laundry", 
+                            "id": "4bf58dd8d48988d1fc941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "J Crew Sample Sale", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10001", 
+                        "state": "NY", 
+                        "crossStreet": "28th St", 
+                        "address": "260 5th Ave", 
+                        "lat": 40.744933904911235, 
+                        "lng": -73.9869141226312
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 273, 
+                        "usersCount": 247
+                    }, 
+                    "id": "50b4f8d1e4b000ea49a5b270", 
+                    "categories": [
+                        {
+                            "pluralName": "Clothing Stores", 
+                            "primary": true, 
+                            "name": "Clothing Store", 
+                            "shortName": "Apparel", 
+                            "id": "4bf58dd8d48988d103951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hudson River Skate Park", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10014", 
+                        "state": "NY", 
+                        "crossStreet": "at Vestry", 
+                        "address": "West Side Highway (Pier 26)", 
+                        "lat": 40.735915, 
+                        "lng": -74.0104079246521
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 193, 
+                        "usersCount": 159
+                    }, 
+                    "id": "410ae100f964a520a50b1fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Skate Parks", 
+                            "primary": true, 
+                            "name": "Skate Park", 
+                            "shortName": "Skate Park", 
+                            "id": "4bf58dd8d48988d167941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/skate_park_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

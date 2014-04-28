@@ -1,0 +1,115 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Verizon Summer Intern Kickoff", 
+                    "contact": {
+                        "twitter": "careersatvzw"
+                    }, 
+                    "location": {
+                        "city": "Basking Ridge", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "07920", 
+                        "state": "NJ", 
+                        "address": "1 Verizon Way", 
+                        "lat": 40.72538871016195, 
+                        "lng": -74.5343828201294
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 7, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4fce27d7bb3d8c0c10914336", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "75 N Birch Road", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Fort Lauderdale", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "FL", 
+                        "address": "75 N Birch Road", 
+                        "lat": 26.123352721190237, 
+                        "lng": -80.1054438046708
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 2
+                    }, 
+                    "id": "51491354e4b031046a4ab6cb", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "House of (Tristan's) Love", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Tenafly", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 40.92690335260048, 
+                        "lng": -73.97712595918333
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 210, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4fb1533ae4b0fd09aa167712", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

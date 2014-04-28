@@ -1,0 +1,793 @@
+{
+    "mayorships": {
+        "count": 21, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Elizabeth's beauty salon", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10454", 
+                        "state": "NY", 
+                        "lat": 40.80736538158625, 
+                        "lng": -73.91729861277493
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 39, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4f11c859e4b019e991885caa", 
+                    "categories": [
+                        {
+                            "pluralName": "Salons / Barbershops", 
+                            "primary": true, 
+                            "name": "Salon / Barbershop", 
+                            "shortName": "Salon / Barbershop", 
+                            "id": "4bf58dd8d48988d110951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/salon_barber_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA MaBSTOA Bus at 161st / 163rd Streets & Amsterdam Ave (St. Nicholas Ave): (M3, M100, M101)", 
+                    "contact": {
+                        "twitter": "nyctbusstop"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10032", 
+                        "state": "NY", 
+                        "crossStreet": "Amsterdam Avenue and St. Nicholas Ave", 
+                        "address": "West 163rd Street", 
+                        "lat": 40.83595685426248, 
+                        "lng": -73.93996238708496
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 94, 
+                        "usersCount": 32
+                    }, 
+                    "id": "4d983250b7bf2c0f50bbea2d", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Stations", 
+                            "primary": true, 
+                            "name": "Bus Station", 
+                            "shortName": "Bus Station", 
+                            "id": "4bf58dd8d48988d1fe931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA MaBSTOA Bus at W. 145th St.  Lenox Ave (Malcolm X Blvd): (M1, M7, Bx19, M102)", 
+                    "contact": {
+                        "twitter": "nyctbusstop"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10039", 
+                        "state": "NY", 
+                        "crossStreet": "Lenox / 6th Avenue (Malcolm X Blvd)", 
+                        "address": "West 145th Street", 
+                        "lat": 40.82041856991062, 
+                        "lng": -73.93627166748045
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 109, 
+                        "usersCount": 88
+                    }, 
+                    "id": "4fc1d78cbb3dbdc35673ee8f", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Stations", 
+                            "primary": true, 
+                            "name": "Bus Station", 
+                            "shortName": "Bus Station", 
+                            "id": "4bf58dd8d48988d1fe931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Smacked City \ud83c\udf41\ud83d\udca8\ud83d\udc8b", 
+                    "private": true, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.81175653308352, 
+                        "lng": -73.93010370763156
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 6, 
+                        "usersCount": 1
+                    }, 
+                    "id": "533cc2f3498e871bea1a823b", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Gourmet deli", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10032", 
+                        "state": "NY", 
+                        "address": "3920 Broadway", 
+                        "lat": 40.83708011776029, 
+                        "lng": -73.93811471489715
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 14, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4e6a273a7d8b143eb6f81b8f", 
+                    "categories": [
+                        {
+                            "pluralName": "Delis / Bodegas", 
+                            "primary": true, 
+                            "name": "Deli / Bodega", 
+                            "shortName": "Deli / Bodega", 
+                            "id": "4bf58dd8d48988d146941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/deli_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "135th & Harlem River Drive", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10037", 
+                        "state": "NY", 
+                        "lat": 40.812073708954976, 
+                        "lng": -73.93586443313882
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 14, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4f8b3440e4b002b90ce776f4", 
+                    "categories": [
+                        {
+                            "pluralName": "Roads", 
+                            "primary": true, 
+                            "name": "Road", 
+                            "shortName": "Road", 
+                            "id": "4bf58dd8d48988d1f9931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/highway_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Department Of Neurological Surgery", 
+                    "contact": {
+                        "phone": "2123051115", 
+                        "formattedPhone": "(212) 305-1115"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10032", 
+                        "state": "NY", 
+                        "crossStreet": "Ft Washigton", 
+                        "address": "710 W 168th St", 
+                        "lat": 40.842379749324124, 
+                        "lng": -73.9423167016738
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 33, 
+                        "usersCount": 15
+                    }, 
+                    "id": "4e6f50218998fd5c5690fe15", 
+                    "categories": [
+                        {
+                            "pluralName": "Medical Centers", 
+                            "primary": true, 
+                            "name": "Medical Center", 
+                            "shortName": "Medical", 
+                            "id": "4bf58dd8d48988d104941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Saint Anns Liquor Depot", 
+                    "contact": {
+                        "phone": "7184013497", 
+                        "formattedPhone": "(718) 401-3497"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "210 Saint Anns Ave", 
+                        "lat": 40.806116, 
+                        "lng": -73.91796
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 15, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4f3212b419833175d60dd6ce", 
+                    "categories": [
+                        {
+                            "pluralName": "Wine Bars", 
+                            "primary": true, 
+                            "name": "Wine Bar", 
+                            "shortName": "Wine Bar", 
+                            "id": "4bf58dd8d48988d123941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/wine_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "My Hubbys House \u2665M&Y", 
+                    "private": true, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.86758347096488, 
+                        "lng": -73.90658830179062
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 1
+                    }, 
+                    "id": "531258fe11d2df5dbaf90e3e", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Halal Cart", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10030", 
+                        "state": "NY", 
+                        "crossStreet": "Frederick Douglass Blvd (8th Avenue)", 
+                        "address": "145th Street in front of Pathmark", 
+                        "lat": 40.82401717556899, 
+                        "lng": -73.9424544701883
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 38, 
+                        "usersCount": 22
+                    }, 
+                    "id": "4eae1dc3775bad292fb4669e", 
+                    "categories": [
+                        {
+                            "pluralName": "Food Trucks", 
+                            "primary": true, 
+                            "name": "Food Truck", 
+                            "shortName": "Food Truck", 
+                            "id": "4bf58dd8d48988d1cb941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/streetfood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Subway", 
+                    "contact": {
+                        "phone": "7182939700", 
+                        "twitter": "subway", 
+                        "formattedPhone": "(718) 293-9700"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10451", 
+                        "state": "NY", 
+                        "address": "500 E 161st St", 
+                        "lat": 40.83591436730514, 
+                        "lng": -73.93999758363277
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 17, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4e4ce4d1bd413c4cc66d0562", 
+                    "categories": [
+                        {
+                            "pluralName": "Sandwich Places", 
+                            "primary": true, 
+                            "name": "Sandwich Place", 
+                            "shortName": "Sandwiches", 
+                            "id": "4bf58dd8d48988d1c5941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/sandwiches_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Zipcode NYC", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/zipcode-nyc/4ed145cd30f81894af624390/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4ed145cd30f81894af624390/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10032", 
+                        "state": "NY", 
+                        "lat": 40.836461, 
+                        "lng": -73.939741
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4ed145cd30f81894af624390", 
+                    "categories": [
+                        {
+                            "pluralName": "Shoe Stores", 
+                            "primary": true, 
+                            "name": "Shoe Store", 
+                            "shortName": "Shoes", 
+                            "id": "4bf58dd8d48988d107951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_shoestore_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Fruit Stand", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10455", 
+                        "state": "NY", 
+                        "lat": 40.80423891476517, 
+                        "lng": -73.92136326691985
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4f85987be4b06b49f4f05eab", 
+                    "categories": [
+                        {
+                            "pluralName": "Snack Places", 
+                            "primary": true, 
+                            "name": "Snack Place", 
+                            "shortName": "Snacks", 
+                            "id": "4bf58dd8d48988d1c7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/snacks_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Revolution Boutique", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10455", 
+                        "state": "NY", 
+                        "address": "2882 3rd Ave", 
+                        "lat": 40.81674308533537, 
+                        "lng": -73.91638003509756
+                    }, 
+                    "venuePage": {
+                        "id": "43771053"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 19, 
+                        "usersCount": 12
+                    }, 
+                    "id": "4dd301a97d8ba0f1bdf1415d", 
+                    "categories": [
+                        {
+                            "pluralName": "Women's Stores", 
+                            "primary": true, 
+                            "name": "Women's Store", 
+                            "shortName": "Women's Store", 
+                            "id": "4bf58dd8d48988d108951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_women_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "club morraco", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10455", 
+                        "state": "NY", 
+                        "lat": 40.817339759190695, 
+                        "lng": -73.89877695330992
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4f7fe3d0e4b01cf821ed0f10", 
+                    "categories": [
+                        {
+                            "pluralName": "Nightclubs", 
+                            "primary": true, 
+                            "name": "Nightclub", 
+                            "shortName": "Nightclub", 
+                            "id": "4bf58dd8d48988d11f941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/nightclub_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA MaBSTOA Bus at W. 145th Street & Convent Avenue: (Bx19)", 
+                    "contact": {
+                        "twitter": "nyctbusstop"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10030", 
+                        "state": "NY", 
+                        "crossStreet": "145th Street", 
+                        "address": "Convent Avenue", 
+                        "lat": 40.82467288222341, 
+                        "lng": -73.94617438316345
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 49, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4e5c75641520cd7bd6452195", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Stations", 
+                            "primary": true, 
+                            "name": "Bus Station", 
+                            "shortName": "Bus Station", 
+                            "id": "4bf58dd8d48988d1fe931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Yazzys Playhouse \ud83d\udc8b\ud83d\udc8b", 
+                    "private": true, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.81175653308352, 
+                        "lng": -73.93010370763156
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "5345fafa498ee0770d81d4d6", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "7-Eleven", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10454", 
+                        "state": "NY", 
+                        "lat": 40.80690708743046, 
+                        "lng": -73.92270090993728
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 28, 
+                        "usersCount": 16
+                    }, 
+                    "id": "4fdc157ae4b09d54173d9dd5", 
+                    "categories": [
+                        {
+                            "pluralName": "Convenience Stores", 
+                            "primary": true, 
+                            "name": "Convenience Store", 
+                            "shortName": "Convenience Stores", 
+                            "id": "4d954b0ea243a5684a65b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/conveniencestore_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Bruno's Bakery", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.828716, 
+                        "lng": -73.947622
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 15, 
+                        "usersCount": 12
+                    }, 
+                    "id": "4dfa866052b1a82364e6e9be", 
+                    "categories": [
+                        {
+                            "pluralName": "Bakeries", 
+                            "primary": true, 
+                            "name": "Bakery", 
+                            "shortName": "Bakery", 
+                            "id": "4bf58dd8d48988d16a941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/bakery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Tuck It Away Self Storage", 
+                    "contact": {
+                        "phone": "7182929410", 
+                        "formattedPhone": "(718) 292-9410"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10454", 
+                        "state": "NY", 
+                        "crossStreet": "St. Anns And Cypress Avenue", 
+                        "address": "601 E 137th St", 
+                        "lat": 40.80593101553201, 
+                        "lng": -73.91750529215452
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 20, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4e418901c65b03682adfbf03", 
+                    "categories": [
+                        {
+                            "pluralName": "Miscellaneous Shops", 
+                            "primary": true, 
+                            "name": "Miscellaneous Shop", 
+                            "shortName": "Shop", 
+                            "id": "4bf58dd8d48988d1ff941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ray's Pizza Restaurant", 
+                    "contact": {
+                        "phone": "7182927855", 
+                        "formattedPhone": "(718) 292-7855"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10454", 
+                        "state": "NY", 
+                        "crossStreet": "St.Ann", 
+                        "address": "553 E 138th St", 
+                        "lat": 40.80813724730369, 
+                        "lng": -73.9165293042653
+                    }, 
+                    "stats": {
+                        "tipCount": 6, 
+                        "checkinsCount": 130, 
+                        "usersCount": 30
+                    }, 
+                    "id": "4d308191a62d721ef0089b7d", 
+                    "categories": [
+                        {
+                            "pluralName": "Pizza Places", 
+                            "primary": true, 
+                            "name": "Pizza Place", 
+                            "shortName": "Pizza", 
+                            "id": "4bf58dd8d48988d1ca941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/pizza_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

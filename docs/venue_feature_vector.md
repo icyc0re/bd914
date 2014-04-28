@@ -11,8 +11,13 @@ This means that they cannot be precomputed before having the user input, so we  
 Vector (non-precomputable: np)
 
 
-Attribute     | Type                 | Calculation 
-:------------ | :--------------: 	|
+<<<<<<< HEAD
+Attribute | Type                 | Calculation 
+:------------| :--------------: 	|
+=======
+Attribute     | Type                 | Calculation  |
+:------------ | :--------------: 	| -------------
+>>>>>>> FETCH_HEAD
 latitude	  |	Numerical			|
 longitude 	  | Numerical			|
 (Distance (np)) | Numerical      		| See below
@@ -66,10 +71,10 @@ Tier 3: 9 < check-ins < 12; //Medieum - high
 Tier 4: 12 < check-int < 500; High
 Tier 5: 500 < check-ins < max; Very high
 
-Value = tier % number of tiers
+Value = tier / number of tiers
 ```
 
-And then calculate the value as tier % number of of tiers. 
+And then calculate the value as tier / number of of tiers. 
 The user could either predefine his choice but it might be better to set it to the middle tier (or slightly above) such as tier 3 or 4. 
 
 The number of users follows quite closely the number of check-ins, therefore it might be unecessary to use both of these features. 

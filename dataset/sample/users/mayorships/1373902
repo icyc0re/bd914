@@ -1,0 +1,113 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Abr service station", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10456", 
+                        "state": "NY", 
+                        "address": "1029 washington ave bronx ny", 
+                        "lat": 40.82699543431531, 
+                        "lng": -73.90762853333334
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 20, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4c76ea21a5676dcb760d1721", 
+                    "categories": [
+                        {
+                            "pluralName": "Gas Stations / Garages", 
+                            "primary": true, 
+                            "name": "Gas Station / Garage", 
+                            "shortName": "Gas Station / Garage", 
+                            "id": "4bf58dd8d48988d113951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/gas_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "room fitness", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "154th Stree", 
+                        "lat": 40.830997, 
+                        "lng": -73.941652
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4d2f96b955716a319f7b3a28", 
+                    "categories": [
+                        {
+                            "pluralName": "College Gyms", 
+                            "primary": true, 
+                            "name": "College Gym", 
+                            "shortName": "Gym", 
+                            "id": "4bf58dd8d48988d1b2941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/gym_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Mi Casa II", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.828136631066634, 
+                        "lng": -73.90658830179062
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 26, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4cd0beab3e63721ec819a0cc", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,582 @@
+{
+    "mayorships": {
+        "count": 14, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Seth Low", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "106 Morningside Drive", 
+                        "lat": 40.809397541683076, 
+                        "lng": -73.95776338502209
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 195, 
+                        "usersCount": 8
+                    }, 
+                    "id": "51e67cf6498eaed3e13012d4", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Teachers College", 
+                    "contact": {
+                        "twitter": "teacherscollege"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Columbia University", 
+                        "address": "525 W 120th St", 
+                        "lat": 40.80991152281341, 
+                        "lng": -73.96077632904053
+                    }, 
+                    "stats": {
+                        "tipCount": 21, 
+                        "checkinsCount": 15169, 
+                        "usersCount": 2098
+                    }, 
+                    "id": "4a9fb11cf964a520343d20e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Universities", 
+                            "primary": true, 
+                            "name": "University", 
+                            "shortName": "University", 
+                            "id": "4bf58dd8d48988d1ae941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Apple Tree Supermarket", 
+                    "url": "http://www.theappletreemarket.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/apple-tree-supermarket/4b27c75af964a520c78924e3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4b27c75af964a520c78924e3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "2128658840", 
+                        "formattedPhone": "(212) 865-8840"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "at 120th St", 
+                        "address": "1225 Amsterdam Ave", 
+                        "lat": 40.80947691537479, 
+                        "lng": -73.9591409556647
+                    }, 
+                    "stats": {
+                        "tipCount": 22, 
+                        "checkinsCount": 4519, 
+                        "usersCount": 871
+                    }, 
+                    "id": "4b27c75af964a520c78924e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Supermarkets", 
+                            "primary": true, 
+                            "name": "Supermarket", 
+                            "shortName": "Supermarket", 
+                            "id": "52f2ab2ebcbc57f1066b8b46", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/food_grocery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Woorijip", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/woorijip/49becfd3f964a520e0541fe3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/49becfd3f964a520e0541fe3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "2122441115", 
+                        "formattedPhone": "(212) 244-1115"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10001", 
+                        "state": "NY", 
+                        "crossStreet": "btwn Broadway & 5th Ave", 
+                        "address": "12 W 32nd St", 
+                        "lat": 40.74768966143616, 
+                        "lng": -73.98639760931952
+                    }, 
+                    "stats": {
+                        "tipCount": 138, 
+                        "checkinsCount": 21844, 
+                        "usersCount": 8753
+                    }, 
+                    "id": "49becfd3f964a520e0541fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Korean Restaurants", 
+                            "primary": true, 
+                            "name": "Korean Restaurant", 
+                            "shortName": "Korean", 
+                            "id": "4bf58dd8d48988d113941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/korean_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "286 5th Ave 30th Street", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.74619281404057, 
+                        "lng": -73.9862828283949
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 159, 
+                        "usersCount": 29
+                    }, 
+                    "id": "4e67cead45dde0f9e295c384", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Morningside Playground", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "West 122 Street", 
+                        "address": "91 Morningside Ave", 
+                        "lat": 40.8100725298005, 
+                        "lng": -73.95582282
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 265, 
+                        "usersCount": 158
+                    }, 
+                    "id": "4d4d926280cb6dcb4ae01101", 
+                    "categories": [
+                        {
+                            "pluralName": "Playgrounds", 
+                            "primary": true, 
+                            "name": "Playground", 
+                            "shortName": "Playground", 
+                            "id": "4bf58dd8d48988d1e7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/playground_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Capital One", 
+                    "contact": {
+                        "phone": "2126852295", 
+                        "formattedPhone": "(212) 685-2295"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10016", 
+                        "state": "NY", 
+                        "crossStreet": "btw 5th & Madison", 
+                        "address": "10 E 34th St", 
+                        "lat": 40.74826506742471, 
+                        "lng": -73.98390110872793
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 261, 
+                        "usersCount": 89
+                    }, 
+                    "id": "4bd871cddc4b952109287988", 
+                    "categories": [
+                        {
+                            "pluralName": "Banks", 
+                            "primary": true, 
+                            "name": "Bank", 
+                            "shortName": "Bank", 
+                            "id": "4bf58dd8d48988d10a951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/financial_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Panino Sportivo Roma", 
+                    "url": "http://paninosportivo.com", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2126622066", 
+                        "formattedPhone": "(212) 662-2066"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "at 121st St", 
+                        "address": "1231 Amsterdam Ave", 
+                        "lat": 40.80972370073475, 
+                        "lng": -73.95905485778759
+                    }, 
+                    "stats": {
+                        "tipCount": 19, 
+                        "checkinsCount": 817, 
+                        "usersCount": 303
+                    }, 
+                    "id": "4a92f60df964a520521e20e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Italian Restaurants", 
+                            "primary": true, 
+                            "name": "Italian Restaurant", 
+                            "shortName": "Italian", 
+                            "id": "4bf58dd8d48988d110941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/italian_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Grace Cleaners", 
+                    "contact": {
+                        "phone": "2122227879", 
+                        "formattedPhone": "(212) 222-7879"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "St. Nicholas & 124th", 
+                        "address": "270 Saint Nicholas Ave", 
+                        "lat": 40.810011346401275, 
+                        "lng": -73.95297051057662
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 133, 
+                        "usersCount": 46
+                    }, 
+                    "id": "4c8949d01052370491a1c7f1", 
+                    "categories": [
+                        {
+                            "pluralName": "Laundry Services", 
+                            "primary": true, 
+                            "name": "Laundry Service", 
+                            "shortName": "Laundry", 
+                            "id": "4bf58dd8d48988d1fc941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ye Olde Cleaning & Tailoring", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "120th Street", 
+                        "address": "1211 Amsterdam Ave", 
+                        "lat": 40.80925, 
+                        "lng": -73.959433
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 173, 
+                        "usersCount": 36
+                    }, 
+                    "id": "4c06aff2b4aa0f470a806462", 
+                    "categories": [
+                        {
+                            "pluralName": "Laundry Services", 
+                            "primary": true, 
+                            "name": "Laundry Service", 
+                            "shortName": "Laundry", 
+                            "id": "4bf58dd8d48988d1fc941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "West Place", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/west-place-new-york-ny/4b8c0c64f964a520b9ba32e3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4b8c0c64f964a520b9ba32e3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "2129329390", 
+                        "formattedPhone": "(212) 932-9390"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "btwn W. 123rd & W. 124th St.", 
+                        "address": "1288 Amsterdam Ave", 
+                        "lat": 40.81141562834539, 
+                        "lng": -73.95757396828989
+                    }, 
+                    "stats": {
+                        "tipCount": 6, 
+                        "checkinsCount": 511, 
+                        "usersCount": 158
+                    }, 
+                    "id": "4b8c0c64f964a520b9ba32e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Chinese Restaurants", 
+                            "primary": true, 
+                            "name": "Chinese Restaurant", 
+                            "shortName": "Chinese", 
+                            "id": "4bf58dd8d48988d145941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/chinese_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Panini D'Parma", 
+                    "url": "http://paninidparma.com", 
+                    "delivery": {
+                        "url": "http://www.grubhub.com/order_redir.jsp?custId=271868&affId=1131", 
+                        "provider": {
+                            "name": "grubhub"
+                        }
+                    }, 
+                    "contact": {
+                        "phone": "2126622066", 
+                        "formattedPhone": "(212) 662-2066"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "1231 Amsterdam Ave", 
+                        "lat": 40.809772867539664, 
+                        "lng": -73.95890562137627
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 287, 
+                        "usersCount": 159
+                    }, 
+                    "id": "4ff33b02e4b0cdc6b6981432", 
+                    "categories": [
+                        {
+                            "pluralName": "Italian Restaurants", 
+                            "primary": true, 
+                            "name": "Italian Restaurant", 
+                            "shortName": "Italian", 
+                            "id": "4bf58dd8d48988d110941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/italian_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Payless Car Rental - San Francisco (SFO)", 
+                    "url": "http://www.paylesscar.com", 
+                    "contact": {
+                        "phone": "6505396400", 
+                        "twitter": "paylesscar", 
+                        "formattedPhone": "(650) 539-6400"
+                    }, 
+                    "location": {
+                        "city": "Burlingame", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "94010", 
+                        "state": "CA", 
+                        "crossStreet": "Broadway", 
+                        "address": "1409 Rollins Rd", 
+                        "lat": 37.5912611458269, 
+                        "lng": -122.3678734609636
+                    }, 
+                    "stats": {
+                        "tipCount": 27, 
+                        "checkinsCount": 470, 
+                        "usersCount": 372
+                    }, 
+                    "id": "4dde97d0fa769803ef956d0f", 
+                    "categories": [
+                        {
+                            "pluralName": "Rental Car Locations", 
+                            "primary": true, 
+                            "name": "Rental Car Location", 
+                            "shortName": "Rental Car", 
+                            "id": "4bf58dd8d48988d1ef941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/airport_rentalcar_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Bespoke Surgical", 
+                    "url": "http://www.bespokesurgical.com", 
+                    "contact": {
+                        "phone": "2122061501", 
+                        "formattedPhone": "(212) 206-1501"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10014", 
+                        "state": "NY", 
+                        "address": "160 7th Ave S", 
+                        "lat": 40.73691717931316, 
+                        "lng": -73.9905009822907
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 19, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4dadad1ff7b1e810c1348626", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

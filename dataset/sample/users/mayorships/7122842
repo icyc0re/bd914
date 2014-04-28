@@ -1,0 +1,42 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Fooshnikins' Lair", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Astoria", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11106", 
+                        "state": "NY", 
+                        "lat": 40.75649707669511, 
+                        "lng": -73.92892398638652
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "50e83f27e4b0a168ab3e6eff", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

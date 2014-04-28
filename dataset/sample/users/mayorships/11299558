@@ -1,0 +1,844 @@
+{
+    "mayorships": {
+        "count": 24, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "560 Riverside Drive", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "125th street", 
+                        "address": "560 Riverside Dr", 
+                        "lat": 40.817154552137794, 
+                        "lng": -73.96037502101534
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 3093, 
+                        "usersCount": 135
+                    }, 
+                    "id": "4dcddf78fa7664b7c69a8075", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Redlands", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Palestine", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "75801", 
+                        "state": "TX", 
+                        "lat": 31.762849624584604, 
+                        "lng": -95.63420458745485
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 85, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4fe6a5dae4b0d55eff51aa29", 
+                    "categories": [
+                        {
+                            "pluralName": "Hotels", 
+                            "primary": true, 
+                            "name": "Hotel", 
+                            "shortName": "Hotel", 
+                            "id": "4bf58dd8d48988d1fa931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Pupin Hall", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Broadway & 120th St", 
+                        "address": "Columbia University", 
+                        "lat": 40.80998978802392, 
+                        "lng": -73.96150002255052
+                    }, 
+                    "stats": {
+                        "tipCount": 7, 
+                        "checkinsCount": 4033, 
+                        "usersCount": 652
+                    }, 
+                    "id": "4b56509af964a520ce0a28e3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Science Buildings", 
+                            "primary": true, 
+                            "name": "College Science Building", 
+                            "shortName": "Science", 
+                            "id": "4bf58dd8d48988d19b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/collegeacademicbuildings_science_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "NASA Long Duration Balloon (LDB) Launch Facility", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": -77.86109989745371, 
+                        "cc": "AQ", 
+                        "lng": 167.0288597829788, 
+                        "country": "Antarctica"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 29, 
+                        "usersCount": 2
+                    }, 
+                    "id": "50947abde4b09d8b5e211dd6", 
+                    "categories": [
+                        {
+                            "pluralName": "College Labs", 
+                            "primary": true, 
+                            "name": "College Lab", 
+                            "shortName": "Lab", 
+                            "id": "4bf58dd8d48988d1a5941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/lab_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Broadway Au Lait", 
+                    "contact": {
+                        "phone": "2128658429", 
+                        "formattedPhone": "(212) 865-8429"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "at W. 122nd St.", 
+                        "address": "3070 Broadway", 
+                        "lat": 40.81145439284581, 
+                        "lng": -73.96154880523682
+                    }, 
+                    "stats": {
+                        "tipCount": 9, 
+                        "checkinsCount": 871, 
+                        "usersCount": 254
+                    }, 
+                    "id": "4b267682f964a520de7b24e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Coffee Shops", 
+                            "primary": true, 
+                            "name": "Coffee Shop", 
+                            "shortName": "Coffee Shop", 
+                            "id": "4bf58dd8d48988d1e0931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Fairway Market", 
+                    "url": "http://www.fairwaymarket.com", 
+                    "contact": {
+                        "phone": "2122812504", 
+                        "twitter": "fairwaymarket", 
+                        "formattedPhone": "(212) 281-2504"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "at 132nd St", 
+                        "address": "2328 12th Ave", 
+                        "lat": 40.819518258609875, 
+                        "lng": -73.95983547713533
+                    }, 
+                    "stats": {
+                        "tipCount": 66, 
+                        "checkinsCount": 9422, 
+                        "usersCount": 3621
+                    }, 
+                    "id": "4a48080ff964a52075aa1fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Supermarkets", 
+                            "primary": true, 
+                            "name": "Supermarket", 
+                            "shortName": "Supermarket", 
+                            "id": "52f2ab2ebcbc57f1066b8b46", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/food_grocery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Olive Tree Deli", 
+                    "contact": {
+                        "phone": "2127494200", 
+                        "formattedPhone": "(212) 749-4200"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "at W 121st St.", 
+                        "address": "3060 Broadway", 
+                        "lat": 40.81118985718531, 
+                        "lng": -73.9615975989051
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 476, 
+                        "usersCount": 162
+                    }, 
+                    "id": "4b8ac59ef964a520f47f32e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Delis / Bodegas", 
+                            "primary": true, 
+                            "name": "Deli / Bodega", 
+                            "shortName": "Deli / Bodega", 
+                            "id": "4bf58dd8d48988d146941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/deli_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dorm 208", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": -77.84609371530576, 
+                        "cc": "AQ", 
+                        "lng": 166.6626047009579, 
+                        "country": "Antarctica", 
+                        "address": "208 Main St"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 93, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4f543707e4b0bf6b5f222bf1", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Denby's", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Palestine", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "75803", 
+                        "state": "TX", 
+                        "lat": 31.763060225076874, 
+                        "lng": -95.63265936194483
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 58, 
+                        "usersCount": 25
+                    }, 
+                    "id": "4f3c4a72e4b0b0c4349c348c", 
+                    "categories": [
+                        {
+                            "pluralName": "Steakhouses", 
+                            "primary": true, 
+                            "name": "Steakhouse", 
+                            "shortName": "Steakhouse", 
+                            "id": "4bf58dd8d48988d1cc941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/steakhouse_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Via Maroncelli 12", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Milano", 
+                        "isFuzzed": true, 
+                        "cc": "IT", 
+                        "country": "Italia", 
+                        "state": "Lombardia", 
+                        "lat": 45.48222257969915, 
+                        "lng": 9.183679683593311
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 14, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4ecfe345490168f8cf30e769", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Building 155 Galley", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "McMurdo Station", 
+                        "cc": "AQ", 
+                        "country": "Antarctica", 
+                        "address": "Building 155", 
+                        "lat": -77.84667333257256, 
+                        "lng": 166.6688632965088
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 147, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4efa34760039deea019448a4", 
+                    "categories": [
+                        {
+                            "pluralName": "Cafeterias", 
+                            "primary": true, 
+                            "name": "Cafeteria", 
+                            "shortName": "Cafeteria", 
+                            "id": "4bf58dd8d48988d128941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cafeteria_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Building 155 Store", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": -77.84606749313242, 
+                        "cc": "AQ", 
+                        "lng": 166.6662143752602, 
+                        "country": "Antarctica", 
+                        "city": "McMurdo Station"
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 102, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4eee205693add02fcceb2265", 
+                    "categories": [
+                        {
+                            "pluralName": "Gift Shops", 
+                            "primary": true, 
+                            "name": "Gift Shop", 
+                            "shortName": "Gift Shop", 
+                            "id": "4bf58dd8d48988d128951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/giftshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Via Marciano 9", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Milano", 
+                        "isFuzzed": true, 
+                        "cc": "IT", 
+                        "country": "Italia", 
+                        "state": "Lombardia", 
+                        "lat": 45.46836437506832, 
+                        "lng": 9.237459353328768
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 43, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4ed3e7e92c5bc3505b0d7233", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Albert P. Crary Science and Engineering Research Center", 
+                    "url": "http://www.nsf.gov/od/opp/support/crarylab.jsp", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": -77.84800720214844, 
+                        "cc": "AQ", 
+                        "lng": 166.6695556640625, 
+                        "country": "Antarctica", 
+                        "city": "McMurdo Station"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 81, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4ec833212c5b532d079005bd", 
+                    "categories": [
+                        {
+                            "pluralName": "Laboratories", 
+                            "primary": true, 
+                            "name": "Laboratory", 
+                            "shortName": "Lab", 
+                            "id": "4f4531b14b9074f6e4fb0103", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_laboratory_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Daniel Birnbaum, DDS", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Westbury", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11590", 
+                        "state": "NY", 
+                        "lat": 40.76946087731875, 
+                        "lng": -73.98642056549622
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 10, 
+                        "usersCount": 2
+                    }, 
+                    "id": "50f99b29e4b07787c6ab92eb", 
+                    "categories": [
+                        {
+                            "pluralName": "Dentist's Offices", 
+                            "primary": true, 
+                            "name": "Dentist's Office", 
+                            "shortName": "Dentist's Office", 
+                            "id": "4bf58dd8d48988d178941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_dentist_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Super 8", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Palestine", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "75801", 
+                        "state": "TX", 
+                        "address": "2300 W Oak St", 
+                        "lat": 31.743897281073828, 
+                        "lng": -95.6550408475248
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4e08a54062e100e58176dda4", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Magnolia Health System", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Palestine", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "75801", 
+                        "state": "TX", 
+                        "lat": 31.736722946166992, 
+                        "lng": -95.63140106201172
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 16, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4f31502fe4b0951ff48ba1fc", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dr. Mark Durtzman", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10021", 
+                        "state": "NY", 
+                        "address": "799 Park Ave", 
+                        "lat": 40.77278179691642, 
+                        "lng": -73.96252744168997
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 17, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4d9a03af942ba093039da88c", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Manhattan Endodontic Group", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "1414 6th Ave.", 
+                        "lat": 40.76494129230792, 
+                        "lng": -73.97668116125988
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 12, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4c484fe6417b20a15675e0a9", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hugo de Grootstraat", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 52.142674, 
+                        "cc": "NL", 
+                        "lng": 4.397766, 
+                        "country": "The Netherlands"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 72, 
+                        "usersCount": 17
+                    }, 
+                    "id": "4d7ce86479c4b1f7054203f3", 
+                    "categories": [
+                        {
+                            "pluralName": "Other Great Outdoors", 
+                            "primary": true, 
+                            "name": "Other Great Outdoors", 
+                            "shortName": "Other Outdoors", 
+                            "id": "4bf58dd8d48988d162941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/outdoors_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "USAP Clothing Distribution Center", 
+                    "contact": {
+                        "phone": "+6433588139", 
+                        "formattedPhone": "+64 3-358 8139"
+                    }, 
+                    "location": {
+                        "city": "Christchurch", 
+                        "cc": "NZ", 
+                        "country": "New Zealand", 
+                        "address": "38 Orchard Rd", 
+                        "lat": -43.48833435258032, 
+                        "lng": 172.5480595763495
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 15, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4f1b58c4e4b0d1a655a13f5c", 
+                    "categories": [
+                        {
+                            "pluralName": "Government Buildings", 
+                            "primary": true, 
+                            "name": "Government Building", 
+                            "shortName": "Government", 
+                            "id": "4bf58dd8d48988d126941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/government_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "La Terrazza", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Santo Stefano al Mare", 
+                        "cc": "IT", 
+                        "country": "Italia", 
+                        "state": "Liguria", 
+                        "crossStreet": "Marina degli Aregai", 
+                        "address": "Via G Cozzi", 
+                        "lat": 43.838723, 
+                        "lng": 7.910539
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 93, 
+                        "usersCount": 40
+                    }, 
+                    "id": "4dc12f2ed16455f8322247ae", 
+                    "categories": [
+                        {
+                            "pluralName": "Italian Restaurants", 
+                            "primary": true, 
+                            "name": "Italian Restaurant", 
+                            "shortName": "Italian", 
+                            "id": "4bf58dd8d48988d110941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/italian_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "International Antarctic Centre", 
+                    "url": "http://www.iceberg.co.nz", 
+                    "contact": {
+                        "twitter": "antarcticcentre"
+                    }, 
+                    "location": {
+                        "city": "Christchurch", 
+                        "cc": "NZ", 
+                        "country": "New Zealand", 
+                        "postalCode": "8053", 
+                        "address": "38 Orchard Rd.", 
+                        "lat": -43.48841883622644, 
+                        "lng": 172.54717207717266
+                    }, 
+                    "stats": {
+                        "tipCount": 7, 
+                        "checkinsCount": 497, 
+                        "usersCount": 419
+                    }, 
+                    "id": "4d4710537e2e5481600b7a8f", 
+                    "categories": [
+                        {
+                            "pluralName": "Science Museums", 
+                            "primary": true, 
+                            "name": "Science Museum", 
+                            "shortName": "Science Museum", 
+                            "id": "4bf58dd8d48988d191941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_science_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Eye Surgeon, PC", 
+                    "contact": {
+                        "phone": "2127536464", 
+                        "formattedPhone": "(212) 753-6464"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10022", 
+                        "state": "NY", 
+                        "address": "485 Park Ave", 
+                        "lat": 40.76190623, 
+                        "lng": -73.96983936
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 17, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4ea803dbb8034ce4bd0e4af5", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

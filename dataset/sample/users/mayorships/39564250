@@ -1,0 +1,144 @@
+{
+    "mayorships": {
+        "count": 4, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Millennium Falcon", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Ridgewood", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.71131120722155, 
+                        "lng": -73.91834636014222
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 142, 
+                        "usersCount": 2
+                    }, 
+                    "id": "5122717ee4b09e78a499ee91", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Cougar's Den", 
+                    "contact": {}, 
+                    "location": {
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "New York", 
+                        "lat": 41.25772172292629, 
+                        "lng": -73.68305211218862
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 1
+                    }, 
+                    "id": "51bd6662498e013b2693eba8", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Mtk Staffing", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "250 Park Ave", 
+                        "lat": 40.755551, 
+                        "lng": -73.975883
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "51dec2b9498ee295e8f34d1e", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dama a Caballo V - by Manolo Valdes", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.775861, 
+                        "cc": "US", 
+                        "lng": -73.960861, 
+                        "state": "New York", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4eb2b300490126a57056c9b5", 
+                    "categories": [
+                        {
+                            "pluralName": "Sculpture Gardens", 
+                            "primary": true, 
+                            "name": "Sculpture Garden", 
+                            "shortName": "Sculpture", 
+                            "id": "4bf58dd8d48988d166941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/sculpture_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

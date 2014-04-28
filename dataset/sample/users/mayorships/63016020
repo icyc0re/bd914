@@ -1,0 +1,208 @@
+{
+    "mayorships": {
+        "count": 5, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Greenhouse", 
+                    "url": "http://www.greenhouseusa.com", 
+                    "contact": {
+                        "phone": "2128077000", 
+                        "twitter": "greenhousenyc", 
+                        "formattedPhone": "(212) 807-7000"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10013", 
+                        "state": "NY", 
+                        "crossStreet": "at Vandam St", 
+                        "address": "150 Varick St", 
+                        "lat": 40.72640488526175, 
+                        "lng": -74.00551341388324
+                    }, 
+                    "stats": {
+                        "tipCount": 163, 
+                        "checkinsCount": 15834, 
+                        "usersCount": 9664
+                    }, 
+                    "id": "49c180edf964a520af551fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Nightclubs", 
+                            "primary": true, 
+                            "name": "Nightclub", 
+                            "shortName": "Nightclub", 
+                            "id": "4bf58dd8d48988d11f941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/nightclub_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "PH-D Rooftop", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/phd-rooftop/4e3101b818380c94aca6aa0d/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4e3101b818380c94aca6aa0d/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "twitter": "phdrooftopny"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10011", 
+                        "state": "NY", 
+                        "address": "355 W 16th St", 
+                        "lat": 40.7422835160851, 
+                        "lng": -74.00312619457237
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 354, 
+                        "usersCount": 275
+                    }, 
+                    "id": "4e3101b818380c94aca6aa0d", 
+                    "categories": [
+                        {
+                            "pluralName": "Roof Decks", 
+                            "primary": true, 
+                            "name": "Roof Deck", 
+                            "shortName": "Roof Deck", 
+                            "id": "4bf58dd8d48988d133951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_roofdeck_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "WIP", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Lyndhurst", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.719673219904124, 
+                        "lng": -73.97712595918333
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 35, 
+                        "usersCount": 16
+                    }, 
+                    "id": "4f414cb9e4b0f9f81a514147", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "GNC", 
+                    "url": "http://www.gnc.com", 
+                    "storeId": "GATEWAY CENTER @ BRONX TE", 
+                    "contact": {
+                        "phone": "7185373573", 
+                        "twitter": "gnclivewell", 
+                        "formattedPhone": "(718) 537-3573"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10451", 
+                        "state": "NY", 
+                        "crossStreet": "161st. Street and Sheridan", 
+                        "address": "651 River Ave", 
+                        "lat": 40.80829832315799, 
+                        "lng": -73.94639805233636
+                    }, 
+                    "stats": {
+                        "tipCount": 10, 
+                        "checkinsCount": 266, 
+                        "usersCount": 118
+                    }, 
+                    "id": "4b804c98f964a520a76530e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Drugstores / Pharmacies", 
+                            "primary": true, 
+                            "name": "Drugstore / Pharmacy", 
+                            "shortName": "Pharmacy", 
+                            "id": "4bf58dd8d48988d10f951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/pharmacy_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Kelly Temple Church of God In Christ", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10037", 
+                        "state": "NY", 
+                        "address": "8-10-12 E 130th St", 
+                        "lat": 40.80962506730728, 
+                        "lng": -73.93961871517507
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 32, 
+                        "usersCount": 21
+                    }, 
+                    "id": "4c8d00fa55fba093d35464ab", 
+                    "categories": [
+                        {
+                            "pluralName": "Churches", 
+                            "primary": true, 
+                            "name": "Church", 
+                            "shortName": "Church", 
+                            "id": "4bf58dd8d48988d132941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/religious_church_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

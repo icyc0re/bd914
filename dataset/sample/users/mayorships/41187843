@@ -1,0 +1,674 @@
+{
+    "mayorships": {
+        "count": 17, 
+        "items": [
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Gristedes Supermarkets #098", 
+                    "url": "http://www.gristedes.com", 
+                    "storeId": "098", 
+                    "contact": {
+                        "phone": "2123480890", 
+                        "twitter": "gristedes", 
+                        "facebook": "196546700375619", 
+                        "formattedPhone": "(212) 348-0890"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10128", 
+                        "state": "NY", 
+                        "crossStreet": "btw 2nd & 3rd Ave", 
+                        "address": "202 E 96th St", 
+                        "lat": 40.78504799350777, 
+                        "lng": -73.94902132228604
+                    }, 
+                    "stats": {
+                        "tipCount": 22, 
+                        "checkinsCount": 1589, 
+                        "usersCount": 478
+                    }, 
+                    "id": "4a907b5ff964a520231820e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Supermarkets", 
+                            "primary": true, 
+                            "name": "Supermarket", 
+                            "shortName": "Supermarket", 
+                            "id": "52f2ab2ebcbc57f1066b8b46", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/food_grocery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Visco Disco", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.78549052086682, 
+                        "lng": -73.95361626406626
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 27, 
+                        "usersCount": 1
+                    }, 
+                    "id": "51cf8b07498efa5294794c2e", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA MaBSTOA Bus at W. 96th St. & Broadway: (M96, M104, M106)", 
+                    "contact": {
+                        "phone": "7183301234", 
+                        "formattedPhone": "(718) 330-1234"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "Broadway", 
+                        "address": "96th Street", 
+                        "lat": 40.79459456220256, 
+                        "lng": -73.97188067436218
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 760, 
+                        "usersCount": 395
+                    }, 
+                    "id": "4e6094681850e238d67a2276", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Stations", 
+                            "primary": true, 
+                            "name": "Bus Station", 
+                            "shortName": "Bus Station", 
+                            "id": "4bf58dd8d48988d1fe931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Participant Inc. Gallery", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "253 E Houston St", 
+                        "lat": 40.721964, 
+                        "lng": -73.985305
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 120, 
+                        "usersCount": 90
+                    }, 
+                    "id": "4af76bf4f964a520350922e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Art Galleries", 
+                            "primary": true, 
+                            "name": "Art Gallery", 
+                            "shortName": "Art Gallery", 
+                            "id": "4bf58dd8d48988d1e2931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/artgallery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Goodwill", 
+                    "contact": {
+                        "phone": "2128311830", 
+                        "formattedPhone": "(212) 831-1830"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10028", 
+                        "state": "NY", 
+                        "crossStreet": "btwn 88th St. & 89th St.", 
+                        "address": "1704 2nd Ave", 
+                        "lat": 40.77938289662477, 
+                        "lng": -73.95059411915157
+                    }, 
+                    "stats": {
+                        "tipCount": 6, 
+                        "checkinsCount": 965, 
+                        "usersCount": 564
+                    }, 
+                    "id": "4b381386f964a520524b25e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Thrift / Vintage Stores", 
+                            "primary": true, 
+                            "name": "Thrift / Vintage Store", 
+                            "shortName": "Thrift / Vintage", 
+                            "id": "4bf58dd8d48988d101951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Bistro Ten 18", 
+                    "url": "http://www.bistroten18.com", 
+                    "reservations": {
+                        "url": "http://www.opentable.com/single.aspx?rid=23848&ref=9601"
+                    }, 
+                    "delivery": {
+                        "url": "http://www.seamless.com/food-delivery/restaurant.8779.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", 
+                        "provider": {
+                            "name": "seamless"
+                        }
+                    }, 
+                    "venuePage": {
+                        "id": "75481438"
+                    }, 
+                    "contact": {
+                        "phone": "2126627600", 
+                        "formattedPhone": "(212) 662-7600"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "110th St.", 
+                        "address": "1018 Amsterdam Ave", 
+                        "lat": 40.80292487512775, 
+                        "lng": -73.96392793717642
+                    }, 
+                    "menu": {
+                        "url": "https://foursquare.com/v/bistro-ten-18/4abaad6cf964a5206d8220e3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4abaad6cf964a5206d8220e3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "stats": {
+                        "tipCount": 29, 
+                        "checkinsCount": 1772, 
+                        "usersCount": 1194
+                    }, 
+                    "id": "4abaad6cf964a5206d8220e3", 
+                    "categories": [
+                        {
+                            "pluralName": "American Restaurants", 
+                            "primary": true, 
+                            "name": "American Restaurant", 
+                            "shortName": "American", 
+                            "id": "4bf58dd8d48988d14e941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Pyramid Club", 
+                    "url": "http://www.thepyramidclub.com", 
+                    "contact": {
+                        "phone": "2124737184", 
+                        "formattedPhone": "(212) 473-7184"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10009", 
+                        "state": "NY", 
+                        "crossStreet": "btwn 6th & 7th St.", 
+                        "address": "101 Avenue A", 
+                        "lat": 40.725749679320074, 
+                        "lng": -73.98376336981971
+                    }, 
+                    "stats": {
+                        "tipCount": 27, 
+                        "checkinsCount": 3069, 
+                        "usersCount": 2120
+                    }, 
+                    "id": "3fd66200f964a5204ae91ee3", 
+                    "categories": [
+                        {
+                            "pluralName": "Nightclubs", 
+                            "primary": true, 
+                            "name": "Nightclub", 
+                            "shortName": "Nightclub", 
+                            "id": "4bf58dd8d48988d11f941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/nightclub_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Vandam", 
+                    "contact": {
+                        "phone": "2123529090", 
+                        "formattedPhone": "(212) 352-9090"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10013", 
+                        "state": "NY", 
+                        "crossStreet": "Vandam St", 
+                        "address": "150 Varick St", 
+                        "lat": 40.726429, 
+                        "lng": -74.005598
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 120, 
+                        "usersCount": 107
+                    }, 
+                    "id": "3fd66200f964a52088e61ee3", 
+                    "categories": [
+                        {
+                            "pluralName": "Nightclubs", 
+                            "primary": true, 
+                            "name": "Nightclub", 
+                            "shortName": "Nightclub", 
+                            "id": "4bf58dd8d48988d11f941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/nightclub_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "the toy box", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.75633239746094, 
+                        "lng": -73.99105072021484
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 3, 
+                        "usersCount": 2
+                    }, 
+                    "id": "5217c5ed11d2e439bc54e6b6", 
+                    "categories": [
+                        {
+                            "pluralName": "Miscellaneous Shops", 
+                            "primary": true, 
+                            "name": "Miscellaneous Shop", 
+                            "shortName": "Shop", 
+                            "id": "4bf58dd8d48988d1ff941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Salon No. 15", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "Houston", 
+                        "address": "15 Clinton St.", 
+                        "lat": 40.720762, 
+                        "lng": -73.984249
+                    }, 
+                    "stats": {
+                        "tipCount": 6, 
+                        "checkinsCount": 31, 
+                        "usersCount": 21
+                    }, 
+                    "id": "4d8e49aaca75b60c9de2fba8", 
+                    "categories": [
+                        {
+                            "pluralName": "Salons / Barbershops", 
+                            "primary": true, 
+                            "name": "Salon / Barbershop", 
+                            "shortName": "Salon / Barbershop", 
+                            "id": "4bf58dd8d48988d110951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/salon_barber_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Deutsches Haus, Columbia University", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "Amsterdam", 
+                        "address": "420 W 116th St", 
+                        "lat": 40.80641255119231, 
+                        "lng": -73.96040945993518
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 57, 
+                        "usersCount": 26
+                    }, 
+                    "id": "4f399a19e4b06ff1023e294f", 
+                    "categories": [
+                        {
+                            "pluralName": "College Academic Buildings", 
+                            "primary": true, 
+                            "name": "College Academic Building", 
+                            "shortName": "Academic Building", 
+                            "id": "4bf58dd8d48988d198941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/academicbuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Yorkville Endoscopy", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10128", 
+                        "state": "NY", 
+                        "address": "201 E 93rd St", 
+                        "lat": 40.78320661921118, 
+                        "lng": -73.95052523780495
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 31, 
+                        "usersCount": 29
+                    }, 
+                    "id": "51322416e4b0835c63036a26", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "711", 
+                    "url": "https://www.7-eleven.com", 
+                    "contact": {
+                        "twitter": "7eleven"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "96th Street", 
+                        "address": "Second Avenue", 
+                        "lat": 40.78425490936474, 
+                        "lng": -73.94627176710857
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 7, 
+                        "usersCount": 5
+                    }, 
+                    "id": "520c4c8011d215e9e43b96be", 
+                    "categories": [
+                        {
+                            "pluralName": "Convenience Stores", 
+                            "primary": true, 
+                            "name": "Convenience Store", 
+                            "shortName": "Convenience Stores", 
+                            "id": "4d954b0ea243a5684a65b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/conveniencestore_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Strange Loop - A Live Gallery", 
+                    "url": "http://www.strangeloopgallery.com", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "3479633881", 
+                        "twitter": "strangeloopglry", 
+                        "formattedPhone": "(347) 963-3881"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10002", 
+                        "state": "NY", 
+                        "crossStreet": "Canal And Hester", 
+                        "address": "27 Orchard St", 
+                        "lat": 40.715296123032864, 
+                        "lng": -73.99153972432849
+                    }, 
+                    "venuePage": {
+                        "id": "39574736"
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 81, 
+                        "usersCount": 70
+                    }, 
+                    "id": "4ee79cbd722e0a32854274eb", 
+                    "categories": [
+                        {
+                            "pluralName": "Art Galleries", 
+                            "primary": true, 
+                            "name": "Art Gallery", 
+                            "shortName": "Art Gallery", 
+                            "id": "4bf58dd8d48988d1e2931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/artgallery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Citibank (63rd St and Broadway)", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.771399906552055, 
+                        "lng": -73.98263849837286
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 5
+                    }, 
+                    "id": "51520967e4b049c630dcc588", 
+                    "categories": [
+                        {
+                            "pluralName": "Banks", 
+                            "primary": true, 
+                            "name": "Bank", 
+                            "shortName": "Bank", 
+                            "id": "4bf58dd8d48988d10a951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/financial_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Unique Boutique Thrift Shop", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.783871, 
+                        "lng": -73.95013868808746
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 69, 
+                        "usersCount": 46
+                    }, 
+                    "id": "4c716912b5a5236ad9f65252", 
+                    "categories": [
+                        {
+                            "pluralName": "Thrift / Vintage Stores", 
+                            "primary": true, 
+                            "name": "Thrift / Vintage Store", 
+                            "shortName": "Thrift / Vintage", 
+                            "id": "4bf58dd8d48988d101951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Miriam & Ira D. Wallach Art Gallery", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "535 W 116th St", 
+                        "lat": 40.808088935146216, 
+                        "lng": -73.96118433400639
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 20, 
+                        "usersCount": 18
+                    }, 
+                    "id": "4d9b8aeb913a236aadb9a108", 
+                    "categories": [
+                        {
+                            "pluralName": "Art Galleries", 
+                            "primary": true, 
+                            "name": "Art Gallery", 
+                            "shortName": "Art Gallery", 
+                            "id": "4bf58dd8d48988d1e2931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/artgallery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

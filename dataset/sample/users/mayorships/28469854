@@ -1,0 +1,43 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Nail Plaza", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Copiague", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "Great Neck Road", 
+                        "address": "Montauk Highway", 
+                        "lat": 40.66855738899123, 
+                        "lng": -73.39365522552086
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 44, 
+                        "usersCount": 16
+                    }, 
+                    "id": "4c0be672ffb8c9b6d1ed6d61", 
+                    "categories": [
+                        {
+                            "pluralName": "Cosmetics Shops", 
+                            "primary": true, 
+                            "name": "Cosmetics Shop", 
+                            "shortName": "Cosmetics", 
+                            "id": "4bf58dd8d48988d10c951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/beauty_cosmetic_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

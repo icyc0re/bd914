@@ -1,0 +1,123 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "E2 Productions Cell", 
+                    "contact": {
+                        "twitter": "e2santana"
+                    }, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11237", 
+                        "state": "NY", 
+                        "crossStreet": "Putnam & Irving", 
+                        "address": "432 Irving Ave", 
+                        "lat": 40.69657826381121, 
+                        "lng": -73.90996709389353
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 19, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4fd5e8ede4b0d45a9653b4d6", 
+                    "categories": [
+                        {
+                            "pluralName": "Historic Sites", 
+                            "primary": true, 
+                            "name": "Historic Site", 
+                            "shortName": "Historic Site", 
+                            "id": "4deefb944765f83613cdba6e", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/historicsite_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Linda Cummings Studio", 
+                    "contact": {
+                        "phone": "2123881274", 
+                        "formattedPhone": "(212) 388-1274"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10003", 
+                        "state": "NY", 
+                        "crossStreet": "16th St. & Park Ave. South", 
+                        "address": "32 Union Sq E", 
+                        "lat": 40.735692067047765, 
+                        "lng": -73.98948519043932
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 30, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4fe20db7e4b0bc93300d0261", 
+                    "categories": [
+                        {
+                            "pluralName": "Art Galleries", 
+                            "primary": true, 
+                            "name": "Art Gallery", 
+                            "shortName": "Art Gallery", 
+                            "id": "4bf58dd8d48988d1e2931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/artgallery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Watson Hall", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "Broadway", 
+                        "address": "612 W 115th St", 
+                        "lat": 40.80765365511825, 
+                        "lng": -73.96550635227342
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 302, 
+                        "usersCount": 42
+                    }, 
+                    "id": "4b43826bf964a52008e225e3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Residence Halls", 
+                            "primary": true, 
+                            "name": "College Residence Hall", 
+                            "shortName": "Residence Hall", 
+                            "id": "4bf58dd8d48988d1a3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/residencehall_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

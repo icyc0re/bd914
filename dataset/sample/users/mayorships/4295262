@@ -1,0 +1,49 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ragged Point Trail", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/ragged-point-trail/4ced63b0d7268cfa770dc34e/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4ced63b0d7268cfa770dc34e/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "San Simeon", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "93452", 
+                        "state": "CA", 
+                        "lat": 35.781209, 
+                        "lng": -121.330029
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 195, 
+                        "usersCount": 191
+                    }, 
+                    "id": "4ced63b0d7268cfa770dc34e", 
+                    "categories": [
+                        {
+                            "pluralName": "Trails", 
+                            "primary": true, 
+                            "name": "Trail", 
+                            "shortName": "Trail", 
+                            "id": "4bf58dd8d48988d159941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/hikingtrail_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

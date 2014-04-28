@@ -1,0 +1,42 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Avitto", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10012", 
+                        "state": "NY", 
+                        "lat": 40.72514469563901, 
+                        "lng": -74.00120377276397
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 40, 
+                        "usersCount": 38
+                    }, 
+                    "id": "4bd487d74e32d13a764dbf80", 
+                    "categories": [
+                        {
+                            "pluralName": "Shoe Stores", 
+                            "primary": true, 
+                            "name": "Shoe Store", 
+                            "shortName": "Shoes", 
+                            "id": "4bf58dd8d48988d107951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_shoestore_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

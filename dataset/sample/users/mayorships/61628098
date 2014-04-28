@@ -1,0 +1,301 @@
+{
+    "mayorships": {
+        "count": 7, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "West Side", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10026", 
+                        "state": "NY", 
+                        "crossStreet": "W 117 St", 
+                        "address": "411 Manhattan Ave", 
+                        "lat": 40.80590124529196, 
+                        "lng": -73.95617916662997
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 129, 
+                        "usersCount": 25
+                    }, 
+                    "id": "4c01d4b91747a593e8345eca", 
+                    "categories": [
+                        {
+                            "pluralName": "Delis / Bodegas", 
+                            "primary": true, 
+                            "name": "Deli / Bodega", 
+                            "shortName": "Deli / Bodega", 
+                            "id": "4bf58dd8d48988d146941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/deli_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Joanne Trattoria", 
+                    "url": "http://www.joannenyc.com", 
+                    "reservations": {
+                        "url": "http://www.opentable.com/single.aspx?rid=103105&ref=9601"
+                    }, 
+                    "delivery": {
+                        "url": "http://www.seamless.com/food-delivery/restaurant.29588.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink", 
+                        "provider": {
+                            "name": "seamless"
+                        }
+                    }, 
+                    "contact": {
+                        "phone": "2127210068", 
+                        "twitter": "joannetrattoria", 
+                        "formattedPhone": "(212) 721-0068"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "crossStreet": "at Columbus Ave", 
+                        "address": "70 W 68th St", 
+                        "lat": 40.77462335879429, 
+                        "lng": -73.98042891028811
+                    }, 
+                    "menu": {
+                        "url": "https://foursquare.com/v/joanne-trattoria/4ee6366b77c8e89319c7e4b8/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4ee6366b77c8e89319c7e4b8/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "stats": {
+                        "tipCount": 25, 
+                        "checkinsCount": 1147, 
+                        "usersCount": 747
+                    }, 
+                    "id": "4ee6366b77c8e89319c7e4b8", 
+                    "categories": [
+                        {
+                            "pluralName": "Italian Restaurants", 
+                            "primary": true, 
+                            "name": "Italian Restaurant", 
+                            "shortName": "Italian", 
+                            "id": "4bf58dd8d48988d110941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/italian_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Four Freedoms Park", 
+                    "url": "http://www.fdrfourfreedomspark.org", 
+                    "contact": {
+                        "phone": "2122048831", 
+                        "twitter": "4freedomspark", 
+                        "formattedPhone": "(212) 204-8831"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10044", 
+                        "state": "NY", 
+                        "crossStreet": "Roosevelt Island", 
+                        "address": "1 FDR Four Freedoms Park", 
+                        "lat": 40.750524389101265, 
+                        "lng": -73.96054029464722
+                    }, 
+                    "stats": {
+                        "tipCount": 31, 
+                        "checkinsCount": 1626, 
+                        "usersCount": 1423
+                    }, 
+                    "id": "4e99af2c49015647ab51119f", 
+                    "categories": [
+                        {
+                            "pluralName": "Parks", 
+                            "primary": true, 
+                            "name": "Park", 
+                            "shortName": "Park", 
+                            "id": "4bf58dd8d48988d163941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/park_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Consulate General of Venezuela", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10022", 
+                        "state": "NY", 
+                        "address": "7 E 51st ST", 
+                        "lat": 40.758509702700074, 
+                        "lng": -73.97581451977096
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 314, 
+                        "usersCount": 186
+                    }, 
+                    "id": "4c0501ee9a7920a176f6d179", 
+                    "categories": [
+                        {
+                            "pluralName": "Government Buildings", 
+                            "primary": true, 
+                            "name": "Government Building", 
+                            "shortName": "Government", 
+                            "id": "4bf58dd8d48988d126941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/government_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Statue Cruises Liberty Island Terminal", 
+                    "url": "http://www.statuecruises.com", 
+                    "contact": {
+                        "phone": "2016042800", 
+                        "twitter": "statuecruises", 
+                        "formattedPhone": "(201) 604-2800"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "Liberty Island", 
+                        "lat": 40.68968493541094, 
+                        "lng": -74.04360294342041
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 782, 
+                        "usersCount": 762
+                    }, 
+                    "id": "4d3a0ea9325ff04d4a491845", 
+                    "categories": [
+                        {
+                            "pluralName": "Boats or Ferries", 
+                            "primary": true, 
+                            "name": "Boat or Ferry", 
+                            "shortName": "Boat / Ferry", 
+                            "id": "4bf58dd8d48988d12d951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/boat_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Soho Square", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10036", 
+                        "state": "NY", 
+                        "address": "636 11th Ave", 
+                        "lat": 40.76594754616485, 
+                        "lng": -73.98608770066558
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 51, 
+                        "usersCount": 48
+                    }, 
+                    "id": "4f0c4f30e4b0dfc435049cef", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Lower East Side Tenement Museum", 
+                    "url": "http://www.tenement.org", 
+                    "contact": {
+                        "phone": "2129828420", 
+                        "twitter": "tenementmuseum", 
+                        "formattedPhone": "(212) 982-8420"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10002", 
+                        "state": "NY", 
+                        "crossStreet": "at Delancey St", 
+                        "address": "103 Orchard St", 
+                        "lat": 40.71883986964477, 
+                        "lng": -73.98985822196998
+                    }, 
+                    "venuePage": {
+                        "id": "70424318"
+                    }, 
+                    "stats": {
+                        "tipCount": 63, 
+                        "checkinsCount": 5854, 
+                        "usersCount": 4722
+                    }, 
+                    "id": "4ab2c893f964a520566c20e3", 
+                    "categories": [
+                        {
+                            "pluralName": "History Museums", 
+                            "primary": true, 
+                            "name": "History Museum", 
+                            "shortName": "History Museum", 
+                            "id": "4bf58dd8d48988d190941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,862 @@
+{
+    "mayorships": {
+        "count": 25, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "248 W 105th St", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Manhattan", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.79703521995679, 
+                        "lng": -73.96537147003376
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 263, 
+                        "usersCount": 12
+                    }, 
+                    "id": "4e754486b0fb96803321750a", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Syd And Phoebs' Room Of Requirement", 
+                    "contact": {}, 
+                    "location": {
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "New York", 
+                        "crossStreet": "Ave C", 
+                        "address": "641 East 9th St.", 
+                        "lat": 40.72581339206186, 
+                        "lng": -73.97842017180636
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 156, 
+                        "usersCount": 21
+                    }, 
+                    "id": "4e3ef92718a83d5b28596953", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Home Sweet Home @Prachachuen 33", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 13.840497, 
+                        "cc": "TH", 
+                        "lng": 100.534991, 
+                        "country": "Thailand"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 41, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4d0bad83f608721edf313d0f", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Kingsak Castle", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Garland", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "TX", 
+                        "lat": 32.95115225898914, 
+                        "lng": -96.67985095548718
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 71, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4d0fc521e2365481c1b973ea", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "XploreAsia", 
+                    "url": "http://xploreasia.org", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Hua Hin", 
+                        "cc": "TH", 
+                        "country": "Thailand", 
+                        "state": "Prachaup Khiri Khan", 
+                        "address": "123/56", 
+                        "lat": 12.533644238591062, 
+                        "lng": 99.96595147393656
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 6
+                    }, 
+                    "id": "504f0053e4b04947aa2d2aa9", 
+                    "categories": [
+                        {
+                            "pluralName": "Non-Profits", 
+                            "primary": true, 
+                            "name": "Non-Profit", 
+                            "shortName": "Non-Profit", 
+                            "id": "50328a8e91d4c4b30a586d6c", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "627 Big Blue", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Los Angeles", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "crossStreet": "Bellevue", 
+                        "address": "627 Maltman", 
+                        "lat": 34.080940549128385, 
+                        "lng": -118.28291014726821
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 1
+                    }, 
+                    "id": "517b218ee4b0a0046e56ff04", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "PB Prachachuen", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "\u0e08\u0e15\u0e38\u0e08\u0e31\u0e01\u0e23", 
+                        "cc": "TH", 
+                        "country": "\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22", 
+                        "state": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23", 
+                        "lat": 13.830234, 
+                        "lng": 100.539452
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 112, 
+                        "usersCount": 16
+                    }, 
+                    "id": "4cd1999c01eaf04dfd3ebf5d", 
+                    "categories": [
+                        {
+                            "pluralName": "Roads", 
+                            "primary": true, 
+                            "name": "Road", 
+                            "shortName": "Road", 
+                            "id": "4bf58dd8d48988d1f9931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/highway_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ryan's Apartment", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.73122649796362, 
+                        "lng": -73.98887973002674
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4d3c9a2305b8721ea9e18d37", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Jessica's House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Richardson", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "TX", 
+                        "lat": 32.93821569373355, 
+                        "lng": -96.7119408553403
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 15, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4d0eed295584f04dcd8a4f16", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Leah's House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Garland", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "TX", 
+                        "lat": 32.88780178827991, 
+                        "lng": -96.60503681352935
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4d17f32c401db60c7bc5efa4", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "C Unit", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.719673219904124, 
+                        "lng": -73.97712595918333
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 28, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4e18cb62c65b6bfb5912cb12", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "James' Man Cave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Manhattan", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.73944138679658, 
+                        "lng": -73.97712595918333
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4e61c330aeb7360314a17c71", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Marcus' Digs", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "320 Bedford Ave", 
+                        "lat": 40.713501, 
+                        "lng": -73.962122
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4e1e9548a809eb325ff17936", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Brent's Apartment", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.688338991150644, 
+                        "lng": -73.96537147003376
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4d3a652acc48224b14053d4f", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "83 2nd Avenue", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10003", 
+                        "state": "NY", 
+                        "address": "83 2nd Ave", 
+                        "lat": 40.726672, 
+                        "lng": -73.989079
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4cde1ffd70bba1cd7d9a5ec4", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Mann Cave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bellaire", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "TX", 
+                        "lat": 29.705507361343567, 
+                        "lng": -95.46205452218895
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4f938822e4b0aed81fb9c374", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "242 W 109 St", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "lat": 40.80302903555734, 
+                        "lng": -73.96641895728749
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 69, 
+                        "usersCount": 14
+                    }, 
+                    "id": "4f4043c6e4b01e824d6cd161", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Centennial Park", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "\u0e2b\u0e19\u0e2d\u0e07\u0e41\u0e01", 
+                        "cc": "TH", 
+                        "country": "Thailand", 
+                        "postalCode": "77110", 
+                        "state": "\u0e08.\u0e1b\u0e23\u0e30\u0e08\u0e27\u0e1a\u0e04\u0e35\u0e23\u0e35\u0e02\u0e31\u0e19\u0e18\u0e4c", 
+                        "lat": 12.534192680526823, 
+                        "lng": 99.96326592257313
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 15, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4da83d7a5da3ef8bf158eada", 
+                    "categories": [
+                        {
+                            "pluralName": "Parks", 
+                            "primary": true, 
+                            "name": "Park", 
+                            "shortName": "Park", 
+                            "id": "4bf58dd8d48988d163941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/park_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Nika's Apartment", 
+                    "contact": {}, 
+                    "location": {
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "New York", 
+                        "lat": 40.75753284199823, 
+                        "lng": -73.96537147003376
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4cc4d4c291413704959dc555", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Pam's Cozy Den", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.6817846581621, 
+                        "lng": -73.98887973002674
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4ef75dee6da1f7b660fb8cf3", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Madre's Family Baan", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 13.713917410492208, 
+                        "cc": "TH", 
+                        "lng": 100.61402496588443, 
+                        "isFuzzed": true, 
+                        "country": "Thailand"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "507005b4e4b04d6052d54d78", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ryan's Fancy Shindig", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.719673219904124, 
+                        "lng": -73.97712595918333
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4e72d42aa8095a7c4207a854", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Melissa Mimosa Apt.", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 32.84555256681667, 
+                        "cc": "US", 
+                        "lng": -96.7654595156629, 
+                        "isFuzzed": true, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4d12d80f40e654814f38931a", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Diana's Apartment", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 32.84555256681667, 
+                        "cc": "US", 
+                        "lng": -96.7654595156629, 
+                        "isFuzzed": true, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4d117d8d0c786ea8913cd1ab", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sai Gon Asian Supermarket", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Garland", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "75044", 
+                        "state": "TX", 
+                        "lat": 32.947268, 
+                        "lng": -96.681176
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 90, 
+                        "usersCount": 38
+                    }, 
+                    "id": "4c7ae06e2d3ba14306c392d0", 
+                    "categories": [
+                        {
+                            "pluralName": "Vietnamese Restaurants", 
+                            "primary": true, 
+                            "name": "Vietnamese Restaurant", 
+                            "shortName": "Vietnamese", 
+                            "id": "4bf58dd8d48988d14a941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Tri-yoga", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Calgary", 
+                        "cc": "CA", 
+                        "country": "Canada", 
+                        "state": "AB", 
+                        "address": "1138 10 Ave SW", 
+                        "lat": 51.04458263377257, 
+                        "lng": -114.08812829706474
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 156, 
+                        "usersCount": 24
+                    }, 
+                    "id": "4d4c804c32a3236ac11a0cea", 
+                    "categories": [
+                        {
+                            "pluralName": "Yoga Studios", 
+                            "primary": true, 
+                            "name": "Yoga Studio", 
+                            "shortName": "Yoga Studio", 
+                            "id": "4bf58dd8d48988d102941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/gym_yogastudio_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

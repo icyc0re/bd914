@@ -1,0 +1,147 @@
+{
+    "mayorships": {
+        "count": 4, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "World House Medicine", 
+                    "contact": {
+                        "twitter": "worldhousemd"
+                    }, 
+                    "location": {
+                        "city": "Queens", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.704141, 
+                        "lng": -73.761655
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 102, 
+                        "usersCount": 1
+                    }, 
+                    "id": "5149a3cde4b0d146fef62204", 
+                    "categories": [
+                        {
+                            "pluralName": "Laboratories", 
+                            "primary": true, 
+                            "name": "Laboratory", 
+                            "shortName": "Lab", 
+                            "id": "4f4531b14b9074f6e4fb0103", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_laboratory_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cave Canem", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11201", 
+                        "state": "NY", 
+                        "address": "20 Jay St, Ste 310", 
+                        "lat": 40.70407272636055, 
+                        "lng": -73.76171069452175
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4ba2b6a5f964a520c21238e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Art Galleries", 
+                            "primary": true, 
+                            "name": "Art Gallery", 
+                            "shortName": "Art Gallery", 
+                            "id": "4bf58dd8d48988d1e2931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/artgallery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "PS 118", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Saint Albans", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11412", 
+                        "state": "NY", 
+                        "lat": 40.70377734037118, 
+                        "lng": -73.76560044398869
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 125, 
+                        "usersCount": 33
+                    }, 
+                    "id": "4e009a2c7d8beaa1649ce44e", 
+                    "categories": [
+                        {
+                            "pluralName": "Schools", 
+                            "primary": true, 
+                            "name": "School", 
+                            "shortName": "School", 
+                            "id": "4bf58dd8d48988d13b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Daniel M O'Connell Playground", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.69961902634227, 
+                        "cc": "US", 
+                        "lng": -73.75872294793918, 
+                        "state": "New York", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 62, 
+                        "usersCount": 20
+                    }, 
+                    "id": "4e469122a809fb2fa3ec3e25", 
+                    "categories": [
+                        {
+                            "pluralName": "Basketball Courts", 
+                            "primary": true, 
+                            "name": "Basketball Court", 
+                            "shortName": "Basketball Court", 
+                            "id": "4bf58dd8d48988d1e1941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/basketballcourt_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

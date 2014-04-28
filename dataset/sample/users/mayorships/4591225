@@ -1,0 +1,218 @@
+{
+    "mayorships": {
+        "count": 6, 
+        "items": [
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Science & Engineering Library at Columbia University", 
+                    "url": "http://library.columbia.edu/locations/science-library.html", 
+                    "contact": {
+                        "phone": "2128512950", 
+                        "twitter": "cu_sel", 
+                        "formattedPhone": "(212) 851-2950"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Broadway & 120th St", 
+                        "address": "550 W 120th St", 
+                        "lat": 40.80967703799292, 
+                        "lng": -73.9617353536746
+                    }, 
+                    "venuePage": {
+                        "id": "67590287"
+                    }, 
+                    "stats": {
+                        "tipCount": 6, 
+                        "checkinsCount": 2529, 
+                        "usersCount": 533
+                    }, 
+                    "id": "4d363854eba45481874205f5", 
+                    "categories": [
+                        {
+                            "pluralName": "College Libraries", 
+                            "primary": true, 
+                            "name": "College Library", 
+                            "shortName": "Library", 
+                            "id": "4bf58dd8d48988d1a7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Park Slope Rooftop", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.674468, 
+                        "cc": "US", 
+                        "lng": -73.971671, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 42, 
+                        "usersCount": 15
+                    }, 
+                    "id": "4d72803f27ddb60cb0d6ce1b", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Juva skin center", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10022", 
+                        "state": "NY", 
+                        "crossStreet": "Between park and madison", 
+                        "address": "60 E 56th St", 
+                        "lat": 40.76158140643103, 
+                        "lng": -73.97209537820379
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 226, 
+                        "usersCount": 114
+                    }, 
+                    "id": "4b79d8d4f964a520e5152fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Spas", 
+                            "primary": true, 
+                            "name": "Spa", 
+                            "shortName": "Spa", 
+                            "id": "4bf58dd8d48988d1ed941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/spa_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Riverside Orthopaedic and Sports Medicine", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10019", 
+                        "state": "NY", 
+                        "address": "1790 Broadway, Fl 10", 
+                        "lat": 40.769109099274516, 
+                        "lng": -73.98388963048936
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 156, 
+                        "usersCount": 69
+                    }, 
+                    "id": "4bf12f9521072d7feaa5208b", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Jojocee's", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11215", 
+                        "state": "NY", 
+                        "crossStreet": "PPW", 
+                        "address": "938 President St", 
+                        "lat": 40.67267965749691, 
+                        "lng": -73.97154438815623
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4d8e8f71c479a35d11ab4997", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Magic Coffee Machine", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "Uris Hall", 
+                        "lat": 40.808743326575545, 
+                        "lng": -73.96145984403724
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 26, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4f208b54e4b0e479d329b4ff", 
+                    "categories": [
+                        {
+                            "pluralName": "Caf\u00e9s", 
+                            "primary": true, 
+                            "name": "Caf\u00e9", 
+                            "shortName": "Caf\u00e9", 
+                            "id": "4bf58dd8d48988d16d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cafe_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

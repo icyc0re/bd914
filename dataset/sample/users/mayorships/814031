@@ -1,0 +1,105 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ruth NY", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "Broome St", 
+                        "address": "250 Hudson St", 
+                        "lat": 40.72461640372055, 
+                        "lng": -74.00743005398476
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 113, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4d53fffcbbbf3704ec633b78", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ruinart Afternoon Tea @ The Crosby Street Hotel", 
+                    "contact": {
+                        "twitter": "domruinart"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10012", 
+                        "state": "NY", 
+                        "crossStreet": "BTW Prince and Spring", 
+                        "address": "79 Crosby St", 
+                        "lat": 40.722987466322294, 
+                        "lng": -73.99835166664431
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 14, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4d9cbf94ab00dcb3b718873f", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "In the Outskirts of New City", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New City", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 41.13025184018516, 
+                        "lng": -74.02413671784228
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 78, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4f8aed0be4b04a075ff4f1a0", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

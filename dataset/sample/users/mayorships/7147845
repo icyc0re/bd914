@@ -1,0 +1,227 @@
+{
+    "mayorships": {
+        "count": 6, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "BJ Hazorim CSA", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.788656106773814, 
+                        "lng": -73.97325474794536
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 1
+                    }, 
+                    "id": "51c0e7aa498ecb94e74cdd26", 
+                    "categories": [
+                        {
+                            "pluralName": "Farms", 
+                            "primary": true, 
+                            "name": "Farm", 
+                            "shortName": "Farm", 
+                            "id": "4bf58dd8d48988d15b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/farm_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Wades Point Inn On The Bay", 
+                    "url": "http://wadespoint.com", 
+                    "contact": {
+                        "phone": "4107452500", 
+                        "formattedPhone": "(410) 745-2500"
+                    }, 
+                    "location": {
+                        "city": "Saint Michaels", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "21663", 
+                        "state": "MD", 
+                        "address": "10090 Wades Point Rd", 
+                        "lat": 38.82757113133668, 
+                        "lng": -76.2973187915024
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 77, 
+                        "usersCount": 44
+                    }, 
+                    "id": "4bc3ff77dce4eee12fdd719d", 
+                    "categories": [
+                        {
+                            "pluralName": "Bed & Breakfasts", 
+                            "primary": true, 
+                            "name": "Bed & Breakfast", 
+                            "shortName": "B & B", 
+                            "id": "4bf58dd8d48988d1f8931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/bedandbreakfast_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "BJ Offices", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "crossStreet": "73rd", 
+                        "address": "2109 Broadway", 
+                        "lat": 40.780235, 
+                        "lng": -73.981634
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 181, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4bc350c1461576b005717e32", 
+                    "categories": [
+                        {
+                            "pluralName": "Synagogues", 
+                            "primary": true, 
+                            "name": "Synagogue", 
+                            "shortName": "Synagogue", 
+                            "id": "4bf58dd8d48988d139941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/religious_synagogue_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Shemkoville", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "West Hartford", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CT", 
+                        "lat": 41.7969091405673, 
+                        "lng": -72.73927109836653
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4dadf3bd93a0096fba961f32", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "St. James Court", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11238", 
+                        "state": "NY", 
+                        "crossStreet": "Saint James Place", 
+                        "address": "92 Gates Ave", 
+                        "lat": 40.684430198937925, 
+                        "lng": -73.96439285351123
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 16, 
+                        "usersCount": 4
+                    }, 
+                    "id": "50b26017e4b0df4371891082", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Rivera Court", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11238", 
+                        "state": "NY", 
+                        "crossStreet": "Underhill Ave", 
+                        "address": "338 Prospect Pl", 
+                        "lat": 40.676712, 
+                        "lng": -73.965499
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4d741c6aed838cfa9142096b", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

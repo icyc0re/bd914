@@ -1,0 +1,452 @@
+{
+    "mayorships": {
+        "count": 14, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Skyeways", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "iKapa", 
+                        "isFuzzed": true, 
+                        "cc": "ZA", 
+                        "country": "iNingizimu Afrika", 
+                        "lat": -33.91217531032658, 
+                        "lng": 18.4098014267102
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 65, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4be896a7947820a1dc1bb5db", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "St. Germain Cafe", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10029", 
+                        "state": "NY", 
+                        "lat": 40.792523714285714, 
+                        "lng": -73.945916
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 38, 
+                        "usersCount": 23
+                    }, 
+                    "id": "4bd09ce241b9ef3b0e72fae5", 
+                    "categories": [
+                        {
+                            "pluralName": "Caf\u00e9s", 
+                            "primary": true, 
+                            "name": "Caf\u00e9", 
+                            "shortName": "Caf\u00e9", 
+                            "id": "4bf58dd8d48988d16d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cafe_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Piketberg Padwerke", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": -32.90751012060531, 
+                        "cc": "ZA", 
+                        "lng": 18.764722504172497, 
+                        "country": "South Africa"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4da6dac9cda1480291c2629c", 
+                    "categories": [
+                        {
+                            "pluralName": "Parking", 
+                            "primary": true, 
+                            "name": "Parking", 
+                            "shortName": "Parking", 
+                            "id": "4c38df4de52ce0d596b336e1", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/parking_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Makadas", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": -33.497286, 
+                        "cc": "ZA", 
+                        "lng": 21.26676, 
+                        "country": "South Africa"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 10, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4d998904a2c65481f5af0954", 
+                    "categories": [
+                        {
+                            "pluralName": "Coffee Shops", 
+                            "primary": true, 
+                            "name": "Coffee Shop", 
+                            "shortName": "Coffee Shop", 
+                            "id": "4bf58dd8d48988d1e0931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Shelbourne", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "iKapa", 
+                        "isFuzzed": true, 
+                        "cc": "ZA", 
+                        "country": "iNingizimu Afrika", 
+                        "lat": -33.90322904327404, 
+                        "lng": 18.397933100648807
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 16, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4d48e3c1782f37040f796637", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Virginia Voortrekkerweg", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Virginia", 
+                        "cc": "ZA", 
+                        "country": "iNingizimu Afrika", 
+                        "postalCode": "9430", 
+                        "address": "Voortrekkerweg Spa Victoria", 
+                        "lat": -28.12012373810094, 
+                        "lng": 26.836318327589773
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4db96c995da3b5fa68d4424b", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Carnarvon Hotel", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": -30.965763, 
+                        "cc": "ZA", 
+                        "lng": 22.128138, 
+                        "country": "South Africa"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4da4ad5eb3e7236a0dd14b79", 
+                    "categories": [
+                        {
+                            "pluralName": "Motels", 
+                            "primary": true, 
+                            "name": "Motel", 
+                            "shortName": "Motel", 
+                            "id": "4bf58dd8d48988d1fb931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cafe Chic", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "iKapa", 
+                        "cc": "ZA", 
+                        "country": "iNingizimu Afrika", 
+                        "address": "7 Breda Street", 
+                        "lat": -33.934606, 
+                        "lng": 18.416216
+                    }, 
+                    "stats": {
+                        "tipCount": 7, 
+                        "checkinsCount": 147, 
+                        "usersCount": 109
+                    }, 
+                    "id": "4b668fbff964a52042242be3", 
+                    "categories": [
+                        {
+                            "pluralName": "French Restaurants", 
+                            "primary": true, 
+                            "name": "French Restaurant", 
+                            "shortName": "French", 
+                            "id": "4bf58dd8d48988d10c941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/french_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Beau and I, B & B, Graaf-Reinet", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": -32.25742894586418, 
+                        "cc": "ZA", 
+                        "lng": 24.53709768010062, 
+                        "country": "South Africa"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 12, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4d791b110ddba35dd07b4b76", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Greenwall Productions", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "iKapa", 
+                        "cc": "ZA", 
+                        "country": "iNingizimu Afrika", 
+                        "crossStreet": "Park Road", 
+                        "address": "Darters Road", 
+                        "lat": -33.928923, 
+                        "lng": 18.411731
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4c569bf130d82d7feeddd762", 
+                    "categories": [
+                        {
+                            "pluralName": "Coworking Spaces", 
+                            "primary": true, 
+                            "name": "Coworking Space", 
+                            "shortName": "Coworking Space", 
+                            "id": "4bf58dd8d48988d174941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/office_coworkingspace_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ladismith Eyes", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": -33.497122, 
+                        "cc": "ZA", 
+                        "lng": 21.265056, 
+                        "country": "iNingizimu Afrika", 
+                        "city": "Ladismith"
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 10, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4d258aab10a7721e09fe1504", 
+                    "categories": [
+                        {
+                            "pluralName": "Art Galleries", 
+                            "primary": true, 
+                            "name": "Art Gallery", 
+                            "shortName": "Art Gallery", 
+                            "id": "4bf58dd8d48988d1e2931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/artgallery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "District 6 cafe", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "iKapa", 
+                        "cc": "ZA", 
+                        "country": "iNingizimu Afrika", 
+                        "address": "106 darling street", 
+                        "lat": -33.927668, 
+                        "lng": 18.427454
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 23, 
+                        "usersCount": 16
+                    }, 
+                    "id": "4c111e69ce57c92880f582d2", 
+                    "categories": [
+                        {
+                            "pluralName": "Caf\u00e9s", 
+                            "primary": true, 
+                            "name": "Caf\u00e9", 
+                            "shortName": "Caf\u00e9", 
+                            "id": "4bf58dd8d48988d16d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cafe_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Stellenbosch Magistrate's Court", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Stellenbosch", 
+                        "cc": "ZA", 
+                        "country": "iNingizimu Afrika", 
+                        "postalCode": "7600", 
+                        "address": "Alexander Street", 
+                        "lat": -33.93653502469267, 
+                        "lng": 18.857199486550037
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4cb6a9e4f6616dcb1cdbe008", 
+                    "categories": [
+                        {
+                            "pluralName": "Courthouses", 
+                            "primary": true, 
+                            "name": "Courthouse", 
+                            "shortName": "Courthouse", 
+                            "id": "4bf58dd8d48988d12b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/government_courthouse_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "SAPS, Sutherland", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": -32.393989, 
+                        "cc": "ZA", 
+                        "lng": 20.659879, 
+                        "country": "South Africa"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4ccc4e372dc43704a84fc608", 
+                    "categories": [
+                        {
+                            "pluralName": "Police Stations", 
+                            "primary": true, 
+                            "name": "Police Station", 
+                            "shortName": "Police Station", 
+                            "id": "4bf58dd8d48988d12e941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/government_policestation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

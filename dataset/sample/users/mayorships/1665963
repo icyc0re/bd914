@@ -1,0 +1,647 @@
+{
+    "mayorships": {
+        "count": 18, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Harlem Gems", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Harlem", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10026", 
+                        "state": "NY", 
+                        "crossStreet": "Lenox Ave", 
+                        "address": "60 West 117th Street", 
+                        "lat": 40.80944589288761, 
+                        "lng": -73.9423167016738
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 260, 
+                        "usersCount": 7
+                    }, 
+                    "id": "512904b1e4b017345b7d2a65", 
+                    "categories": [
+                        {
+                            "pluralName": "Nursery Schools", 
+                            "primary": true, 
+                            "name": "Nursery School", 
+                            "shortName": "Nursery School", 
+                            "id": "4f4533814b9074f6e4fb0107", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sara's Home", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.81343117375547, 
+                        "lng": -73.94186034276925
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 426, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4c17bdc0fe5a76b04d010115", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Kidberry", 
+                    "contact": {
+                        "phone": "2128665437", 
+                        "twitter": "kidberrynyc", 
+                        "formattedPhone": "(212) 866-5437"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Btwn 122nd & 123rd St.", 
+                        "address": "2046 Adam Clayton Powell Jr Blvd", 
+                        "lat": 40.80810009481269, 
+                        "lng": -73.94952645552087
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 47, 
+                        "usersCount": 19
+                    }, 
+                    "id": "4f062d000e0199f87c9a0cc2", 
+                    "categories": [
+                        {
+                            "pluralName": "Performing Arts Venues", 
+                            "primary": true, 
+                            "name": "Performing Arts Venue", 
+                            "shortName": "Performing Arts", 
+                            "id": "4bf58dd8d48988d1f2931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Wee Bop", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10026", 
+                        "state": "NY", 
+                        "crossStreet": "Between Fifth Ave & Lenox Ace", 
+                        "address": "41 W 117th St", 
+                        "lat": 40.80940996218186, 
+                        "lng": -73.94240280700684
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 30, 
+                        "usersCount": 1
+                    }, 
+                    "id": "523480d711d2cc03d3041936", 
+                    "categories": [
+                        {
+                            "pluralName": "Dance Studios", 
+                            "primary": true, 
+                            "name": "Dance Studio", 
+                            "shortName": "Dance Studio", 
+                            "id": "4bf58dd8d48988d134941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/performingarts_dancestudio_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sara's Paleo Kitchen", 
+                    "private": true, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.809434, 
+                        "lng": -73.942206
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 6, 
+                        "usersCount": 1
+                    }, 
+                    "id": "5330b3d411d25e379a0c9e89", 
+                    "categories": [
+                        {
+                            "pluralName": "Gluten-free Restaurants", 
+                            "primary": true, 
+                            "name": "Gluten-free Restaurant", 
+                            "shortName": "Gluten-free", 
+                            "id": "4c2cd86ed066bed06c3c5209", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/glutenfree_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sara's Koffee Korner", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "lat": 40.809404, 
+                        "lng": -73.942307
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 52, 
+                        "usersCount": 2
+                    }, 
+                    "id": "511b949ee4b06f0b949a2a7e", 
+                    "categories": [
+                        {
+                            "pluralName": "Caf\u00e9s", 
+                            "primary": true, 
+                            "name": "Caf\u00e9", 
+                            "shortName": "Caf\u00e9", 
+                            "id": "4bf58dd8d48988d16d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cafe_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Walk It Out NY", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "Central Park", 
+                        "lat": 40.80928776655641, 
+                        "lng": -73.94217319270027
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 12, 
+                        "usersCount": 7
+                    }, 
+                    "id": "502cee12e4b0c65b4995077f", 
+                    "categories": [
+                        {
+                            "pluralName": "Trails", 
+                            "primary": true, 
+                            "name": "Trail", 
+                            "shortName": "Trail", 
+                            "id": "4bf58dd8d48988d159941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/hikingtrail_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "NYC Administration for Children's Services", 
+                    "url": "http://www.nyc.gov/acs", 
+                    "contact": {
+                        "phone": "2123410900", 
+                        "formattedPhone": "(212) 341-0900"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10038", 
+                        "state": "NY", 
+                        "crossStreet": "Fulton Street", 
+                        "address": "150 William St", 
+                        "lat": 40.70965066124383, 
+                        "lng": -74.00579459881264
+                    }, 
+                    "stats": {
+                        "tipCount": 4, 
+                        "checkinsCount": 786, 
+                        "usersCount": 153
+                    }, 
+                    "id": "4be1aae40f299c74f3cd7ebf", 
+                    "categories": [
+                        {
+                            "pluralName": "Government Buildings", 
+                            "primary": true, 
+                            "name": "Government Building", 
+                            "shortName": "Government", 
+                            "id": "4bf58dd8d48988d126941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/government_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Harlem Fit", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "117th Street (between 5th And Lenox Ave)", 
+                        "lat": 40.809406353521176, 
+                        "lng": -73.94224207702084
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 1
+                    }, 
+                    "id": "5336f886498e5cbf5b42eaf6", 
+                    "categories": [
+                        {
+                            "pluralName": "Other Events", 
+                            "primary": true, 
+                            "name": "Other Event", 
+                            "shortName": "Other Event", 
+                            "id": "5267e4d9e4b0ec79466e48c8", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/event/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "singleton center", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "lat": 40.80819826624316, 
+                        "lng": -73.94298258191897
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 18, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4fa3cf2ce4b0d607b7d228c6", 
+                    "categories": [
+                        {
+                            "pluralName": "Nursery Schools", 
+                            "primary": true, 
+                            "name": "Nursery School", 
+                            "shortName": "Nursery School", 
+                            "id": "4f4533814b9074f6e4fb0107", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Masker Orchards", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Sloatsburg", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10954", 
+                        "state": "NY", 
+                        "address": "Ball Road", 
+                        "lat": 40.931421681489084, 
+                        "lng": -73.94225929809714
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 16, 
+                        "usersCount": 14
+                    }, 
+                    "id": "4cbb25d09552b60c2740de8b", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sara Kitson's WAE", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "lat": 40.809379, 
+                        "lng": -73.942401
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4fea5988e4b07afd3d20f773", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Green Meadows Farm", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.4257261103733, 
+                        "cc": "US", 
+                        "lng": -74.16188536489179, 
+                        "state": "New Jersey", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 3
+                    }, 
+                    "id": "5183f3aa498ed90325740902", 
+                    "categories": [
+                        {
+                            "pluralName": "Theme Parks", 
+                            "primary": true, 
+                            "name": "Theme Park", 
+                            "shortName": "Theme Park", 
+                            "id": "4bf58dd8d48988d182941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/themepark_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Baby College", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10030", 
+                        "state": "NY", 
+                        "crossStreet": "133 Street & 8th Ave", 
+                        "address": "2491 Frederick Douglass Blvd", 
+                        "lat": 40.809449, 
+                        "lng": -73.942457
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 46, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4e579b97d16491e0ae4b1f5c", 
+                    "categories": [
+                        {
+                            "pluralName": "Schools", 
+                            "primary": true, 
+                            "name": "School", 
+                            "shortName": "School", 
+                            "id": "4bf58dd8d48988d13b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Baby College", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "btwn 5th Ave. & Lenox", 
+                        "address": "23 W 124th St", 
+                        "lat": 40.80622473019448, 
+                        "lng": -73.94384622573853
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 22, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4ec32380d5fb255ab3faa104", 
+                    "categories": [
+                        {
+                            "pluralName": "Schools", 
+                            "primary": true, 
+                            "name": "School", 
+                            "shortName": "School", 
+                            "id": "4bf58dd8d48988d13b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sara's Vegan Kitchen", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.809441, 
+                        "lng": -73.942228
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 1
+                    }, 
+                    "id": "525afaf311d2962653a57657", 
+                    "categories": [
+                        {
+                            "pluralName": "Vegetarian / Vegan Restaurants", 
+                            "primary": true, 
+                            "name": "Vegetarian / Vegan Restaurant", 
+                            "shortName": "Vegetarian / Vegan", 
+                            "id": "4bf58dd8d48988d1d3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/vegetarian_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Little Aiden's Place", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "129th Street (Between 5th & Lenox Avenue)", 
+                        "lat": 40.809231, 
+                        "lng": -73.942409
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 10, 
+                        "usersCount": 1
+                    }, 
+                    "id": "506a124ae4b0c5eb9e8f9fc6", 
+                    "categories": [
+                        {
+                            "pluralName": "Nursery Schools", 
+                            "primary": true, 
+                            "name": "Nursery School", 
+                            "shortName": "Nursery School", 
+                            "id": "4f4533814b9074f6e4fb0107", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "UA NY Harbor School", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Manhattan", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Maritime Building, Slip 7", 
+                        "address": "10 South Street", 
+                        "lat": 40.809231, 
+                        "lng": -73.942454
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4e94648ef790d94d0f6e9dea", 
+                    "categories": [
+                        {
+                            "pluralName": "Schools", 
+                            "primary": true, 
+                            "name": "School", 
+                            "shortName": "School", 
+                            "id": "4bf58dd8d48988d13b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

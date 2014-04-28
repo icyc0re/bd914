@@ -1,0 +1,562 @@
+{
+    "mayorships": {
+        "count": 16, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Updata Partners NJ Office", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Edison", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "08837", 
+                        "state": "NJ", 
+                        "address": "379 Thornall St", 
+                        "lat": 40.561959, 
+                        "lng": -74.334736
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 39, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4ba2889af964a520b80138e3", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Columbia Department of Statistics", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "122nd", 
+                        "address": "1255 Amsterdam Ave", 
+                        "lat": 40.80974489750272, 
+                        "lng": -73.95931889115565
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 39, 
+                        "usersCount": 12
+                    }, 
+                    "id": "4b202df2f964a520522e24e3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Math Buildings", 
+                            "primary": true, 
+                            "name": "College Math Building", 
+                            "shortName": "Math", 
+                            "id": "4bf58dd8d48988d19c941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/collegeacademicbuildings_math_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "154 Rogers Ave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "154 Rogers Ave", 
+                        "lat": 40.67128529671515, 
+                        "lng": -73.95357895392338
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 5
+                    }, 
+                    "id": "51c54e4b498e024d8bafdbc6", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Saint Paul's Chapel", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "1160 Amsterdam", 
+                        "lat": 40.807831093847064, 
+                        "lng": -73.96125895134526
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 134, 
+                        "usersCount": 102
+                    }, 
+                    "id": "4d2fa7fcf25560fc87db7ae5", 
+                    "categories": [
+                        {
+                            "pluralName": "Churches", 
+                            "primary": true, 
+                            "name": "Church", 
+                            "shortName": "Church", 
+                            "id": "4bf58dd8d48988d132941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/religious_church_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Pixie's Place", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "address": "Ruggles 402-1", 
+                        "lat": 40.80569184242753, 
+                        "lng": -73.9631071562193
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4ec495eee5fa74ea53014f9e", 
+                    "categories": [
+                        {
+                            "pluralName": "Indie Movie Theaters", 
+                            "primary": true, 
+                            "name": "Indie Movie Theater", 
+                            "shortName": "Indie Theater", 
+                            "id": "4bf58dd8d48988d17e941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/movietheater_indietheater_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Flats Laundromat", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11216", 
+                        "state": "NY", 
+                        "crossStreet": "Rogers and Nostrand", 
+                        "address": "783 Saint Johns Pl", 
+                        "lat": 40.672025, 
+                        "lng": -73.952067
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 70, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4e39c0c7e4cd799aaef4d073", 
+                    "categories": [
+                        {
+                            "pluralName": "Laundry Services", 
+                            "primary": true, 
+                            "name": "Laundry Service", 
+                            "shortName": "Laundry", 
+                            "id": "4bf58dd8d48988d1fc941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Butler Stacks", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "lat": 40.806550886036916, 
+                        "lng": -73.96200512314654
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 50, 
+                        "usersCount": 20
+                    }, 
+                    "id": "4eefbb0b61afc4dca69c5c81", 
+                    "categories": [
+                        {
+                            "pluralName": "College Libraries", 
+                            "primary": true, 
+                            "name": "College Library", 
+                            "shortName": "Library", 
+                            "id": "4bf58dd8d48988d1a7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hartley Laundry Room", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.806197154997065, 
+                        "cc": "US", 
+                        "lng": -73.96168369564757, 
+                        "state": "New York", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4ea9443c0aaff9d3d567e2c8", 
+                    "categories": [
+                        {
+                            "pluralName": "College Residence Halls", 
+                            "primary": true, 
+                            "name": "College Residence Hall", 
+                            "shortName": "Residence Hall", 
+                            "id": "4bf58dd8d48988d1a3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/residencehall_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Nick's Shaft", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10009", 
+                        "state": "NY", 
+                        "crossStreet": "Btw Avenue A And B", 
+                        "address": "172 E 7th St", 
+                        "lat": 40.7249442227748, 
+                        "lng": -73.98197849420325
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 12, 
+                        "usersCount": 6
+                    }, 
+                    "id": "51d5f7fe498e8230fda47756", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Columbia Sociology Department", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "Knox Hall", 
+                        "lat": 40.81270887631601, 
+                        "lng": -73.96081124687912
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "52291ce911d26c437ca00194", 
+                    "categories": [
+                        {
+                            "pluralName": "College Academic Buildings", 
+                            "primary": true, 
+                            "name": "College Academic Building", 
+                            "shortName": "Academic Building", 
+                            "id": "4bf58dd8d48988d198941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/academicbuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Tunxis Village", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Farmington", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CT", 
+                        "lat": 41.743804104830396, 
+                        "lng": -72.83382341291562
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4c3f4bf4e26920a19c3b5be7", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "50 Bayard St.", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.71312160268307, 
+                        "lng": -74.00063278107605
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 16, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4cc738b494e1a093cc6f908b", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "College Residence", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.80690660985966, 
+                        "lng": -73.96537147003376
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 366, 
+                        "usersCount": 25
+                    }, 
+                    "id": "4ad81d06f964a520c11021e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Pixie's Place", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "417 E57th", 
+                        "lat": 40.75987571649368, 
+                        "lng": -73.96043241921166
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 3
+                    }, 
+                    "id": "52c2384411d2f4b053eac4d9", 
+                    "categories": [
+                        {
+                            "pluralName": "Indie Movie Theaters", 
+                            "primary": true, 
+                            "name": "Indie Movie Theater", 
+                            "shortName": "Indie Theater", 
+                            "id": "4bf58dd8d48988d17e941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/movietheater_indietheater_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Casa Media Latina", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11225", 
+                        "state": "NY", 
+                        "address": "1597 Bedford Ave", 
+                        "lat": 40.667811, 
+                        "lng": -73.955839
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 2
+                    }, 
+                    "id": "520b07d711d289e56cbbabe2", 
+                    "categories": [
+                        {
+                            "pluralName": "Sculpture Gardens", 
+                            "primary": true, 
+                            "name": "Sculpture Garden", 
+                            "shortName": "Sculpture", 
+                            "id": "4bf58dd8d48988d166941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/sculpture_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Grandma Discenza's House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Windsor", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CT", 
+                        "lat": 41.869123436405665, 
+                        "lng": -72.64468290336423
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4ecea62e99114b488625276c", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

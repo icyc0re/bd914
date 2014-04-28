@@ -24,7 +24,7 @@ def main():
         print 'usage: users_interactions.py <users_dir> <output_raw_stats> <output_stats_file'
         sys.exit (1)
         
-    users_paths = [os.path.join(sys.argv[1],f) for f in os.listdir(sys.argv[1])]# if os.path.isfile(f)]
+    users_paths = [os.path.join(sys.argv[1],f) for f in os.listdir(sys.argv[1]) if os.path.isfile(os.path.join(sys.argv[1],f))]
     
     user_interactions = dict()
             
@@ -32,6 +32,11 @@ def main():
     interactions_count = dict.fromkeys(interactions+["all"])
     
     counter=0
+    
+    interactions_files=dict()
+    for interaction in interactions:
+        interactions_files[interaction] = open("users_to_pull/users_with_"+interaction,'a')
+
     
     if not os.path.isfile(sys.argv[2]):
     
@@ -42,6 +47,8 @@ def main():
                 except ValueError:
                     print "ValueError: No JSON object could be decoded from "+user_path
                     continue
+                except IOError:
+                    print "IOError, skip "+user_path
             
             #print os.path.basename(user_path)
             
@@ -49,6 +56,9 @@ def main():
             
             for interaction in interactions:
                 interactions_count[interaction] = user["user"][interaction]["count"]
+                
+                if interactions_count[interaction] > 0:
+                    interactions_files[interaction].write(os.path.basename(user_path)+'\n')
                 #sys.stdout.write(interaction +"\t"+ str(interactions_count[interaction])+"\t")
                 interactions_count["all"] += interactions_count[interaction]
             

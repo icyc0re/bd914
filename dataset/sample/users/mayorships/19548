@@ -1,0 +1,558 @@
+{
+    "mayorships": {
+        "count": 15, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Schoeben HQ - Palo Alto", 
+                    "contact": {
+                        "twitter": "netspencer"
+                    }, 
+                    "location": {
+                        "city": "Palo Alto", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 37.4300590168671, 
+                        "lng": -122.14621930255866
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 323, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4b971da6f964a520b9f834e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "David Lake, M.D.", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Palo Alto", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "94301", 
+                        "state": "CA", 
+                        "lat": 37.4482272802239, 
+                        "lng": -122.15670125560003
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 43, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4c2d12b14e132d7fefce9bdf", 
+                    "categories": [
+                        {
+                            "pluralName": "Medical Centers", 
+                            "primary": true, 
+                            "name": "Medical Center", 
+                            "shortName": "Medical", 
+                            "id": "4bf58dd8d48988d104941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Schoeben HQ - Menlo Park", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Menlo Park", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 37.44159262748069, 
+                        "lng": -122.20298317605149
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 18, 
+                        "usersCount": 2
+                    }, 
+                    "id": "51902529498ed1b8e6415036", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Richardson House, Tufts University", 
+                    "url": "http://www.tufts.edu", 
+                    "contact": {
+                        "twitter": "tuftsuniversity", 
+                        "facebook": "9594588036"
+                    }, 
+                    "location": {
+                        "city": "Medford", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "MA", 
+                        "address": "28 Professors Row", 
+                        "lat": 42.40563030879113, 
+                        "lng": -71.11930070714442
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 56, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4c9f6c7e0e9bb1f7492df05f", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Monkey Town", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "San Francisco", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 37.764162691416885, 
+                        "lng": -122.42973690096966
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 18, 
+                        "usersCount": 5
+                    }, 
+                    "id": "527dfdfe11d28164863bac13", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Jumbo Express", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Medford", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "02155", 
+                        "state": "MA", 
+                        "crossStreet": "Tufts University", 
+                        "address": "Talbot Ave", 
+                        "lat": 42.40528075586691, 
+                        "lng": -71.12025813366964
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 62, 
+                        "usersCount": 25
+                    }, 
+                    "id": "4c856e7ed8086dcb84139252", 
+                    "categories": [
+                        {
+                            "pluralName": "Snack Places", 
+                            "primary": true, 
+                            "name": "Snack Place", 
+                            "shortName": "Snacks", 
+                            "id": "4bf58dd8d48988d1c7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/snacks_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Schoeben HQ - Manhattan Beach", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Manhattan Beach", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 33.88791227731644, 
+                        "lng": -118.41046843177514
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 91, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4bf75f66508c0f478c8e3d31", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Abbey Catalyst", 
+                    "contact": {
+                        "twitter": "teddy"
+                    }, 
+                    "location": {
+                        "city": "San Francisco", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 37.764162691416885, 
+                        "lng": -122.42973690096966
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 43, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4fce1ceac2ee04dbc398fd29", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Gelato Lounge", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Manhattan Beach", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "90266", 
+                        "state": "CA", 
+                        "address": "Manhatten Beach Blvd", 
+                        "lat": 33.885192, 
+                        "lng": -118.409387
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 12, 
+                        "usersCount": 9
+                    }, 
+                    "id": "531b9a40498e18f9f209c589", 
+                    "categories": [
+                        {
+                            "pluralName": "Ice Cream Shops", 
+                            "primary": true, 
+                            "name": "Ice Cream Shop", 
+                            "shortName": "Ice Cream", 
+                            "id": "4bf58dd8d48988d1c9941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/icecream_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Latino Center", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Medford", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "02155", 
+                        "state": "MA", 
+                        "address": "bolles house", 
+                        "lat": 42.40500358906153, 
+                        "lng": -71.11763535979999
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4d9784d6e07ea35df7e4db02", 
+                    "categories": [
+                        {
+                            "pluralName": "College Rec Centers", 
+                            "primary": true, 
+                            "name": "College Rec Center", 
+                            "shortName": "Rec Center", 
+                            "id": "4bf58dd8d48988d1a9941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/reccenter_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Papakipos Home", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Palo Alto", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 37.44309520199969, 
+                        "lng": -122.13486293391273
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 52, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4bb7d3a53db7b713e3a0209a", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Palo Alto Club", 
+                    "contact": {
+                        "phone": "6503252506", 
+                        "formattedPhone": "(650) 325-2506"
+                    }, 
+                    "location": {
+                        "city": "Palo Alto", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "address": "567 Melville Ave", 
+                        "lat": 37.443078, 
+                        "lng": -122.14827
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4f32bb7d19836c91c7f46ffa", 
+                    "categories": [
+                        {
+                            "pluralName": "Nightlife Spots", 
+                            "primary": true, 
+                            "name": "Nightlife Spot", 
+                            "shortName": "Nightlife", 
+                            "id": "4d4b7105d754a06376d81259", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Tea Time", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/tea-time/4c322e0c213c2d7f7706355d/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4c322e0c213c2d7f7706355d/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "6503282877", 
+                        "formattedPhone": "(650) 328-2877"
+                    }, 
+                    "location": {
+                        "city": "Palo Alto", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "94301", 
+                        "state": "CA", 
+                        "crossStreet": "btwn University & Hamilton Ave.", 
+                        "address": "542 Ramona St", 
+                        "lat": 37.44472390693785, 
+                        "lng": -122.16144150231405
+                    }, 
+                    "stats": {
+                        "tipCount": 12, 
+                        "checkinsCount": 565, 
+                        "usersCount": 421
+                    }, 
+                    "id": "4c322e0c213c2d7f7706355d", 
+                    "categories": [
+                        {
+                            "pluralName": "Tea Rooms", 
+                            "primary": true, 
+                            "name": "Tea Room", 
+                            "shortName": "Tea Room", 
+                            "id": "4bf58dd8d48988d1dc931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/tearoom_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Snibbe Interactive", 
+                    "url": "http://snibbeinteractive.com", 
+                    "contact": {
+                        "phone": "4152340808", 
+                        "twitter": "snibbeinteract", 
+                        "formattedPhone": "(415) 234-0808"
+                    }, 
+                    "location": {
+                        "city": "San Francisco", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "94103", 
+                        "state": "CA", 
+                        "address": "1073 Howard Street", 
+                        "lat": 37.778302, 
+                        "lng": -122.408642
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 94, 
+                        "usersCount": 24
+                    }, 
+                    "id": "4c0699e1b4aa0f47205c6462", 
+                    "categories": [
+                        {
+                            "pluralName": "Tech Startups", 
+                            "primary": true, 
+                            "name": "Tech Startup", 
+                            "shortName": "Tech Startup", 
+                            "id": "4bf58dd8d48988d125941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/technology_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Wren Hall, Tufts University", 
+                    "url": "http://www.tufts.edu", 
+                    "contact": {
+                        "twitter": "tuftsuniversity", 
+                        "facebook": "9594588036"
+                    }, 
+                    "location": {
+                        "city": "Medford", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "02155", 
+                        "state": "MA", 
+                        "address": "11 Winthrop Street", 
+                        "lat": 42.409060900675556, 
+                        "lng": -71.12267199887138
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 57, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4c8c70d2f87e224be34f3505", 
+                    "categories": [
+                        {
+                            "pluralName": "College Academic Buildings", 
+                            "primary": true, 
+                            "name": "College Academic Building", 
+                            "shortName": "Academic Building", 
+                            "id": "4bf58dd8d48988d198941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/academicbuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

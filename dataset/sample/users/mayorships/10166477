@@ -1,0 +1,42 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "John St", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Warwick", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 41.25650723320035, 
+                        "lng": -74.3646122414788
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 15, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4e69b4141f6e1e74e3e6f0b7", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

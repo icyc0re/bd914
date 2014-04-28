@@ -1,0 +1,2857 @@
+{
+    "mayorships": {
+        "count": 78, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "583 Riverside Dr", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "crossStreet": "135 St", 
+                        "address": "583 Riverside Dr", 
+                        "lat": 40.82103234096092, 
+                        "lng": -73.95699423713643
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 209, 
+                        "usersCount": 26
+                    }, 
+                    "id": "507c8b16e4b0ff65727dff26", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hollywood Silver Lake Hotel", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Los Angeles", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "90004", 
+                        "state": "CA", 
+                        "crossStreet": "W Temple St", 
+                        "address": "250 Silver Lake Blvd", 
+                        "lat": 34.076139, 
+                        "lng": -118.285376
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 59, 
+                        "usersCount": 20
+                    }, 
+                    "id": "4bc3b110dce4eee168b6719d", 
+                    "categories": [
+                        {
+                            "pluralName": "Hotels", 
+                            "primary": true, 
+                            "name": "Hotel", 
+                            "shortName": "Hotel", 
+                            "id": "4bf58dd8d48988d1fa931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Elaine Estate", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.82083690774708, 
+                        "lng": -73.95697701737258
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 243, 
+                        "usersCount": 4
+                    }, 
+                    "id": "513848e6e4b0ed2517e68d54", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Quality Inn & Suites", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Los Angeles", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "90004", 
+                        "state": "CA", 
+                        "address": "250 Silver Lake Blvd", 
+                        "lat": 34.07599898874723, 
+                        "lng": -118.2853023389698
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 328, 
+                        "usersCount": 154
+                    }, 
+                    "id": "4dc57874c65b89d3ca6f03bc", 
+                    "categories": [
+                        {
+                            "pluralName": "Motels", 
+                            "primary": true, 
+                            "name": "Motel", 
+                            "shortName": "Motel", 
+                            "id": "4bf58dd8d48988d1fb931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "M0851", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10022", 
+                        "state": "NY", 
+                        "crossStreet": "59th Street", 
+                        "address": "635 Madison Ave", 
+                        "lat": 40.76426186686636, 
+                        "lng": -73.97144681683764
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 36, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4bb7a8c0cf2fc9b6b2949e02", 
+                    "categories": [
+                        {
+                            "pluralName": "Clothing Stores", 
+                            "primary": true, 
+                            "name": "Clothing Store", 
+                            "shortName": "Apparel", 
+                            "id": "4bf58dd8d48988d103951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Bus Stop Diner", 
+                    "contact": {
+                        "phone": "2126902150", 
+                        "formattedPhone": "(212) 690-2150"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "crossStreet": "W 135th St", 
+                        "address": "Broadway", 
+                        "lat": 40.82066034334083, 
+                        "lng": -73.95559369132599
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 82, 
+                        "usersCount": 24
+                    }, 
+                    "id": "4f86ff58e4b082043396359b", 
+                    "categories": [
+                        {
+                            "pluralName": "Diners", 
+                            "primary": true, 
+                            "name": "Diner", 
+                            "shortName": "Diner", 
+                            "id": "4bf58dd8d48988d147941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/diner_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Office", 
+                    "private": true, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "address": "W 135th Street And Broadway", 
+                        "lat": 40.82071295023367, 
+                        "lng": -73.9569597976072
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 535, 
+                        "usersCount": 66
+                    }, 
+                    "id": "4f5646b8e4b0ca5223ff0b62", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Plush Pad", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bremerton", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "WA", 
+                        "lat": 47.62601699124062, 
+                        "lng": -122.62297477354615
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 16, 
+                        "usersCount": 1
+                    }, 
+                    "id": "5030f464e4b0c65b4b8918cd", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Nadal Gourmet deli", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "address": "3379 broadway", 
+                        "lat": 40.820930259291494, 
+                        "lng": -73.95690239837813
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 99, 
+                        "usersCount": 20
+                    }, 
+                    "id": "4e6a32bd7d8b143eb6fdd259", 
+                    "categories": [
+                        {
+                            "pluralName": "Delis / Bodegas", 
+                            "primary": true, 
+                            "name": "Deli / Bodega", 
+                            "shortName": "Deli / Bodega", 
+                            "id": "4bf58dd8d48988d146941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/deli_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Fordham Urban Law Journal", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "lat": 40.77186325661741, 
+                        "lng": -73.98450945439116
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 3
+                    }, 
+                    "id": "501d9cd8e4b03b87a2236825", 
+                    "categories": [
+                        {
+                            "pluralName": "Law Schools", 
+                            "primary": true, 
+                            "name": "Law School", 
+                            "shortName": "Law School", 
+                            "id": "4bf58dd8d48988d1a6941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/lawschool_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Madison Ave 2 Madison County", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York/Cazenovia", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "13035", 
+                        "state": "NY", 
+                        "address": "Moving Target", 
+                        "lat": 42.93160475625497, 
+                        "lng": -75.85445880889893
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 17, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4e5b0e94091a1023bdfef2ed", 
+                    "categories": [
+                        {
+                            "pluralName": "Roads", 
+                            "primary": true, 
+                            "name": "Road", 
+                            "shortName": "Road", 
+                            "id": "4bf58dd8d48988d1f9931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/highway_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Tea & Things Of That Kind", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10030", 
+                        "state": "NY", 
+                        "crossStreet": "Adam Clayton Powell Jr. Blvd.", 
+                        "address": "West 137th Street", 
+                        "lat": 40.81668823595224, 
+                        "lng": -73.94343032769247
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 21, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4c39f6460a71c9b64a4d43c9", 
+                    "categories": [
+                        {
+                            "pluralName": "Tea Rooms", 
+                            "primary": true, 
+                            "name": "Tea Room", 
+                            "shortName": "Tea Room", 
+                            "id": "4bf58dd8d48988d1dc931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/tearoom_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Jerome C. Daniel Overlook", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Los Angeles", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 34.07607772349366, 
+                        "lng": -118.28566202121345
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 3
+                    }, 
+                    "id": "52d8f86011d259222eb78938", 
+                    "categories": [
+                        {
+                            "pluralName": "Scenic Lookouts", 
+                            "primary": true, 
+                            "name": "Scenic Lookout", 
+                            "shortName": "Scenic Lookout", 
+                            "id": "4bf58dd8d48988d165941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Pent", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.676614712365854, 
+                        "lng": -73.88307005845945
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 111, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4caebc6b9cba95210faf91d9", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cypress Creek Apts", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Chillum", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "20782", 
+                        "state": "MD", 
+                        "address": "1501-1561 Timber Ridge Ln", 
+                        "lat": 38.95792677922595, 
+                        "lng": -76.97956542467722
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 413, 
+                        "usersCount": 66
+                    }, 
+                    "id": "4dc0788da86e6b02dfc85674", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Mad Men Midtown", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Manhattan", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10022", 
+                        "state": "NY", 
+                        "address": "1-700 Madison Ave", 
+                        "lat": 40.76412211960124, 
+                        "lng": -73.97260619048508
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 277, 
+                        "usersCount": 39
+                    }, 
+                    "id": "4de28b0bae60e7f3abf203fe", 
+                    "categories": [
+                        {
+                            "pluralName": "Monuments / Landmarks", 
+                            "primary": true, 
+                            "name": "Monument / Landmark", 
+                            "shortName": "Landmark", 
+                            "id": "4bf58dd8d48988d12d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/government_monument_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Comfort Inn & Suites San Francisco Airport North", 
+                    "url": "http://www.eugeneuniversityhotel.com", 
+                    "storeId": "CA801", 
+                    "contact": {
+                        "phone": "6505897100", 
+                        "formattedPhone": "(650) 589-7100"
+                    }, 
+                    "location": {
+                        "city": "South San Francisco", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "94080", 
+                        "state": "CA", 
+                        "address": "121 E Grand Ave", 
+                        "lat": 37.65479654409331, 
+                        "lng": -122.40474089536602
+                    }, 
+                    "stats": {
+                        "tipCount": 20, 
+                        "checkinsCount": 1005, 
+                        "usersCount": 516
+                    }, 
+                    "id": "4bc35a9cdce4eee11390719d", 
+                    "categories": [
+                        {
+                            "pluralName": "Hotels", 
+                            "primary": true, 
+                            "name": "Hotel", 
+                            "shortName": "Hotel", 
+                            "id": "4bf58dd8d48988d1fa931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Theradynamics Physical Rehab, P.C", 
+                    "contact": {
+                        "phone": "2126782200", 
+                        "formattedPhone": "(212) 678-2200"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "2235 Frederick Douglass Blvd, New York, NY 10027", 
+                        "lat": 40.80705017175665, 
+                        "lng": -73.9521496830257
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 32, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4eaefa27722e4efd61503824", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Brooklyn Navy Yard - Sands St Gate", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11205", 
+                        "state": "NY", 
+                        "crossStreet": "at Sands Street", 
+                        "address": "63 Flushing Ave", 
+                        "lat": 40.69965789322665, 
+                        "lng": -73.98023843765259
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 101, 
+                        "usersCount": 90
+                    }, 
+                    "id": "4fef0d3ae889b5f731918a83", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "NYC Taxi 5H98", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "Moving Target!", 
+                        "lat": 40.81759, 
+                        "lng": -73.94451
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4bf4201ee5eba59311481f90", 
+                    "categories": [
+                        {
+                            "pluralName": "Taxis", 
+                            "primary": true, 
+                            "name": "Taxi", 
+                            "shortName": "Taxi", 
+                            "id": "4bf58dd8d48988d130951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/taxi_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Recovering at the ROW", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.81343117375547, 
+                        "lng": -73.94186034276925
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 82, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4f2fcdbae4b047964bb51ea9", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "3357 Laundry", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "address": "3357 Broadway", 
+                        "lat": 40.82062302627509, 
+                        "lng": -73.95472197737284
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 230, 
+                        "usersCount": 58
+                    }, 
+                    "id": "4ed6be0177c86e4f2ab8486b", 
+                    "categories": [
+                        {
+                            "pluralName": "Laundry Services", 
+                            "primary": true, 
+                            "name": "Laundry Service", 
+                            "shortName": "Laundry", 
+                            "id": "4bf58dd8d48988d1fc941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Comfort Inn Hotel", 
+                    "contact": {
+                        "phone": "6172879200", 
+                        "formattedPhone": "(617) 287-9200"
+                    }, 
+                    "location": {
+                        "city": "Boston", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "02122", 
+                        "state": "MA", 
+                        "crossStreet": "at Conley St.", 
+                        "address": "900 William T Morrissey Blvd", 
+                        "lat": 42.29260685183578, 
+                        "lng": -71.0472957355595
+                    }, 
+                    "stats": {
+                        "tipCount": 9, 
+                        "checkinsCount": 688, 
+                        "usersCount": 314
+                    }, 
+                    "id": "4beae08ba9900f47ff0d1740", 
+                    "categories": [
+                        {
+                            "pluralName": "Hotels", 
+                            "primary": true, 
+                            "name": "Hotel", 
+                            "shortName": "Hotel", 
+                            "id": "4bf58dd8d48988d1fa931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Max Mara USA Inc.", 
+                    "url": "http://maxmara.com", 
+                    "contact": {
+                        "phone": "2127300743", 
+                        "twitter": "maxmara", 
+                        "formattedPhone": "(212) 730-0743"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10018", 
+                        "state": "NY", 
+                        "address": "530 Fashion Ave", 
+                        "lat": 40.754340736798035, 
+                        "lng": -73.98899737888202
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 88, 
+                        "usersCount": 30
+                    }, 
+                    "id": "4bf6f77eb182c9b68eda745a", 
+                    "categories": [
+                        {
+                            "pluralName": "Women's Stores", 
+                            "primary": true, 
+                            "name": "Women's Store", 
+                            "shortName": "Women's Store", 
+                            "id": "4bf58dd8d48988d108951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_women_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Studio A", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Syracuse", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "415 W. Fayette St.", 
+                        "lat": 43.04702419881421, 
+                        "lng": -76.16140555219053
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 10, 
+                        "usersCount": 2
+                    }, 
+                    "id": "51730b7fe4b0debe8d0ec905", 
+                    "categories": [
+                        {
+                            "pluralName": "General Entertainment", 
+                            "primary": true, 
+                            "name": "General Entertainment", 
+                            "shortName": "Entertainment", 
+                            "id": "4bf58dd8d48988d1f1931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Princeville", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Lawrence", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "MA", 
+                        "lat": 42.721249010837525, 
+                        "lng": -71.13891008565209
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 38, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4d2b087d342d6dcbc61612cb", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Blue Lounge", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "lat": 40.816773825, 
+                        "lng": -73.953348425
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 35, 
+                        "usersCount": 12
+                    }, 
+                    "id": "4eb8875fb8030fb5842ddf10", 
+                    "categories": [
+                        {
+                            "pluralName": "Rock Clubs", 
+                            "primary": true, 
+                            "name": "Rock Club", 
+                            "shortName": "Rock Club", 
+                            "id": "4bf58dd8d48988d1e9931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_rockclub_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Tijera Barbershop", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11207", 
+                        "state": "NY", 
+                        "crossStreet": "Hendrix Ave And Van Siclen Ave", 
+                        "address": "Pitkin Ave", 
+                        "lat": 40.67280468020021, 
+                        "lng": -73.8898025596207
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 171, 
+                        "usersCount": 20
+                    }, 
+                    "id": "4d333718eefa8cfa4fc13eb3", 
+                    "categories": [
+                        {
+                            "pluralName": "Salons / Barbershops", 
+                            "primary": true, 
+                            "name": "Salon / Barbershop", 
+                            "shortName": "Salon / Barbershop", 
+                            "id": "4bf58dd8d48988d110951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/salon_barber_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lakeside Park-The Getaway", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Cazenovia", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "13035", 
+                        "state": "NY", 
+                        "address": "90 Forman Street", 
+                        "lat": 42.93916109404273, 
+                        "lng": -75.86111068725586
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 17, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4e5e9e9a922ec2c0701c9b55", 
+                    "categories": [
+                        {
+                            "pluralName": "Beaches", 
+                            "primary": true, 
+                            "name": "Beach", 
+                            "shortName": "Beach", 
+                            "id": "4bf58dd8d48988d1e2941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/beach_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Central Park - Heckscher Playground", 
+                    "url": "http://www.centralparknyc.org", 
+                    "contact": {
+                        "twitter": "centralparknyc", 
+                        "facebook": "37965424481"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10019", 
+                        "state": "NY", 
+                        "crossStreet": "at 59th Street", 
+                        "address": "Central Park", 
+                        "lat": 40.76835422968893, 
+                        "lng": -73.9802598953247
+                    }, 
+                    "stats": {
+                        "tipCount": 17, 
+                        "checkinsCount": 3996, 
+                        "usersCount": 3184
+                    }, 
+                    "id": "4aec827af964a5200cc821e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Playgrounds", 
+                            "primary": true, 
+                            "name": "Playground", 
+                            "shortName": "Playground", 
+                            "id": "4bf58dd8d48988d1e7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/playground_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "King Gourmet Deli", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10030", 
+                        "state": "NY", 
+                        "crossStreet": "141st St.", 
+                        "address": "622 Saint Nicholas Ave", 
+                        "lat": 40.82114861972248, 
+                        "lng": -73.94593883293109
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 684, 
+                        "usersCount": 78
+                    }, 
+                    "id": "4c1470faa5eb76b087dbc1b7", 
+                    "categories": [
+                        {
+                            "pluralName": "Delis / Bodegas", 
+                            "primary": true, 
+                            "name": "Deli / Bodega", 
+                            "shortName": "Deli / Bodega", 
+                            "id": "4bf58dd8d48988d146941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/deli_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Prince of Peace Universal Tabernacle Inc.", 
+                    "contact": {
+                        "phone": "2127959189", 
+                        "formattedPhone": "(212) 795-9189"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10033", 
+                        "state": "NY", 
+                        "address": "555 W 182nd St", 
+                        "lat": 40.84958205890484, 
+                        "lng": -73.93239711113175
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4e2c427f1f6ebe54425baec5", 
+                    "categories": [
+                        {
+                            "pluralName": "Churches", 
+                            "primary": true, 
+                            "name": "Church", 
+                            "shortName": "Church", 
+                            "id": "4bf58dd8d48988d132941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/religious_church_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Calvin Klein Collection Special Services Office", 
+                    "contact": {
+                        "phone": "2129499000", 
+                        "formattedPhone": "(212) 949-9000"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "654 Madison Ave. (3rd Floor)", 
+                        "lat": 40.764297, 
+                        "lng": -73.971057
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 142, 
+                        "usersCount": 17
+                    }, 
+                    "id": "4e3aeba0e4cdcd106846f4eb", 
+                    "categories": [
+                        {
+                            "pluralName": "Coworking Spaces", 
+                            "primary": true, 
+                            "name": "Coworking Space", 
+                            "shortName": "Coworking Space", 
+                            "id": "4bf58dd8d48988d174941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/office_coworkingspace_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "St. Johns The Baptist School", 
+                    "contact": {
+                        "phone": "7184531000", 
+                        "formattedPhone": "(718) 453-1000"
+                    }, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11207", 
+                        "state": "NY", 
+                        "address": "82 Lewis Ave", 
+                        "lat": 40.82094250700338, 
+                        "lng": -73.9570401564992
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 2
+                    }, 
+                    "id": "51548141e4b0e5a8f2dccf98", 
+                    "categories": [
+                        {
+                            "pluralName": "Elementary Schools", 
+                            "primary": true, 
+                            "name": "Elementary School", 
+                            "shortName": "Elementary School", 
+                            "id": "4f4533804b9074f6e4fb0105", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Silver Cloud Stadium Rooftop", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Seattle", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "98134", 
+                        "state": "WA", 
+                        "crossStreet": "Royal Brougham", 
+                        "address": "1046 1st Ave S", 
+                        "lat": 47.592616, 
+                        "lng": -122.333916
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 65, 
+                        "usersCount": 36
+                    }, 
+                    "id": "4cb5ff9a1b0af04df870cd25", 
+                    "categories": [
+                        {
+                            "pluralName": "Scenic Lookouts", 
+                            "primary": true, 
+                            "name": "Scenic Lookout", 
+                            "shortName": "Scenic Lookout", 
+                            "id": "4bf58dd8d48988d165941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "608 St. Nicholas Ave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10030", 
+                        "state": "NY", 
+                        "crossStreet": "btw 140th & 141st", 
+                        "address": "608 Saint Nicholas Avenue", 
+                        "lat": 40.8207556742054, 
+                        "lng": -73.94597901467257
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 29, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4cd4adb089eb6dcb9be1231e", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Humidapocalypse", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10019", 
+                        "state": "NY", 
+                        "lat": 40.768112540245056, 
+                        "lng": -73.98119866847992
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 21, 
+                        "usersCount": 20
+                    }, 
+                    "id": "4c5acfb0b05c1b8de714d9b1", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Utica Greyhound Bus Terminal", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 43.103796261312276, 
+                        "cc": "US", 
+                        "lng": -75.22335849884854, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 131, 
+                        "usersCount": 80
+                    }, 
+                    "id": "4d149247401db60c6240d9a4", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Stations", 
+                            "primary": true, 
+                            "name": "Bus Station", 
+                            "shortName": "Bus Station", 
+                            "id": "4bf58dd8d48988d1fe931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The R.o.W", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.81343117375547, 
+                        "lng": -73.94186034276925
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 535, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4dccbac7e4cd130e163d8c4e", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Kaarta Imprints", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Adam Clayton Powell Jr. Boulevard", 
+                        "address": "121 West 125th Street", 
+                        "lat": 40.80831, 
+                        "lng": -73.94626
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 7, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4c19c8e74ff90f4793821049", 
+                    "categories": [
+                        {
+                            "pluralName": "Boutiques", 
+                            "primary": true, 
+                            "name": "Boutique", 
+                            "shortName": "Boutique", 
+                            "id": "4bf58dd8d48988d104951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_boutique_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Flea Market Vintage Mall", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bremer", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "98310", 
+                        "state": "WA", 
+                        "address": "1025 11th Av", 
+                        "lat": 47.57323472023277, 
+                        "lng": -122.61749814678683
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 3
+                    }, 
+                    "id": "512d0dcde4b0aa0ac73a8abd", 
+                    "categories": [
+                        {
+                            "pluralName": "Flea Markets", 
+                            "primary": true, 
+                            "name": "Flea Market", 
+                            "shortName": "Flea Market", 
+                            "id": "4bf58dd8d48988d1f7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/fleamarket_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Soigne K", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.76633062139277, 
+                        "lng": -73.96943224503508
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 23, 
+                        "usersCount": 21
+                    }, 
+                    "id": "4db48aa84df05e5aaae20b59", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Gym For Dat Body For Me", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Chillum", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "MD", 
+                        "lat": 38.957699, 
+                        "lng": -76.979874
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 3
+                    }, 
+                    "id": "519df7ad498eb3ec7f6baa23", 
+                    "categories": [
+                        {
+                            "pluralName": "Athletics & Sports", 
+                            "primary": true, 
+                            "name": "Athletics & Sports", 
+                            "shortName": "Athletics & Sports", 
+                            "id": "4f4528bc4b90abdf24c9de85", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/sports_outdoors_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Row", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.81343117375547, 
+                        "lng": -73.94186034276925
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 313, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4dcc1a5e7d8b84bcd563c39b", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cazenovia College- HEOP Office", 
+                    "contact": {
+                        "phone": "3156557289", 
+                        "formattedPhone": "(315) 655-7289"
+                    }, 
+                    "location": {
+                        "city": "Cazenovia", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "13035", 
+                        "state": "NY", 
+                        "address": "43 Lincklaen Street", 
+                        "lat": 42.93243741273342, 
+                        "lng": -75.85304260253906
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 24, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4e5e4e8ab3adecd8804bb0a7", 
+                    "categories": [
+                        {
+                            "pluralName": "College Administrative Buildings", 
+                            "primary": true, 
+                            "name": "College Administrative Building", 
+                            "shortName": "Administrative Building", 
+                            "id": "4bf58dd8d48988d197941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/administrativebuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Convent Castle", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.8151044350618, 
+                        "lng": -73.95361626406626
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 273, 
+                        "usersCount": 9
+                    }, 
+                    "id": "4f9f3d8de4b0aa6a188e501c", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Willson Cummer Photography", 
+                    "url": "http://www.centralnewyorkphotography.com", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "3158633487", 
+                        "formattedPhone": "(315) 863-3487"
+                    }, 
+                    "location": {
+                        "city": "Syracuse", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "13204", 
+                        "state": "NY", 
+                        "address": "501 West Fayette Street, Studio 217", 
+                        "lat": 43.047894630007974, 
+                        "lng": -76.16108894348145
+                    }, 
+                    "venuePage": {
+                        "id": "38290353"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 39, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4edcfcf60039e227b80131de", 
+                    "categories": [
+                        {
+                            "pluralName": "Art Galleries", 
+                            "primary": true, 
+                            "name": "Art Gallery", 
+                            "shortName": "Art Gallery", 
+                            "id": "4bf58dd8d48988d1e2931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/artgallery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Ann Taylor", 
+                    "storeId": "S0599 ", 
+                    "contact": {
+                        "phone": "2129490008", 
+                        "formattedPhone": "(212) 949-0008"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10017", 
+                        "state": "NY", 
+                        "crossStreet": "Madison Avenue and 43rd St", 
+                        "address": "330 Madison Avenue", 
+                        "lat": 40.75322273952158, 
+                        "lng": -73.97902607917786
+                    }, 
+                    "stats": {
+                        "tipCount": 4, 
+                        "checkinsCount": 938, 
+                        "usersCount": 596
+                    }, 
+                    "id": "4bfd68b455539c744da9bcf3", 
+                    "categories": [
+                        {
+                            "pluralName": "Women's Stores", 
+                            "primary": true, 
+                            "name": "Women's Store", 
+                            "shortName": "Women's Store", 
+                            "id": "4bf58dd8d48988d108951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_women_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Lee & Marie's Cakery Company", 
+                    "url": "http://www.leeandmaries.com", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2129964900", 
+                        "twitter": "leeandmaries", 
+                        "formattedPhone": "(212) 996-4900"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10029", 
+                        "state": "NY", 
+                        "crossStreet": "between 1st and Pleasant Ave", 
+                        "address": "451 E 116th St", 
+                        "lat": 40.7952, 
+                        "lng": -73.9337
+                    }, 
+                    "venuePage": {
+                        "id": "50067773"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 20, 
+                        "usersCount": 15
+                    }, 
+                    "id": "511978fde4b05931f1e1487f", 
+                    "categories": [
+                        {
+                            "pluralName": "Bakeries", 
+                            "primary": true, 
+                            "name": "Bakery", 
+                            "shortName": "Bakery", 
+                            "id": "4bf58dd8d48988d16a941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/bakery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "BatCave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Lawrence", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "01841", 
+                        "state": "MA", 
+                        "lat": 42.721370697021484, 
+                        "lng": -71.14324188232422
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 41, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4ef1366ce5faee87cb20f54d", 
+                    "categories": [
+                        {
+                            "pluralName": "Comedy Clubs", 
+                            "primary": true, 
+                            "name": "Comedy Club", 
+                            "shortName": "Comedy Club", 
+                            "id": "4bf58dd8d48988d18e941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/comedyclub_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Myk'd Entertainment", 
+                    "contact": {
+                        "twitter": "mykdent"
+                    }, 
+                    "location": {
+                        "city": "Rochester", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "14608", 
+                        "state": "NY", 
+                        "address": "429 State St", 
+                        "lat": 43.16165835284515, 
+                        "lng": -77.6212279934225
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4ee7c70c99113f1d25b26d04", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Mami's House :)", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.676614712365854, 
+                        "cc": "US", 
+                        "lng": -73.88307005845945, 
+                        "isFuzzed": true, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4ece9c914690a03b5b4e4a95", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Flounce Vintage", 
+                    "url": "http://www.flouncevintage.com", 
+                    "contact": {
+                        "phone": "2134811975", 
+                        "formattedPhone": "(213) 481-1975"
+                    }, 
+                    "location": {
+                        "city": "Los Angeles", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "90026", 
+                        "state": "CA", 
+                        "crossStreet": "at Morton Ave", 
+                        "address": "1555 Echo Park Ave", 
+                        "lat": 34.081381, 
+                        "lng": -118.254608
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 34, 
+                        "usersCount": 28
+                    }, 
+                    "id": "4b70926ff964a520bd222de3", 
+                    "categories": [
+                        {
+                            "pluralName": "Thrift / Vintage Stores", 
+                            "primary": true, 
+                            "name": "Thrift / Vintage Store", 
+                            "shortName": "Thrift / Vintage", 
+                            "id": "4bf58dd8d48988d101951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Jonas Lake House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Cazenovia", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 42.95816864875208, 
+                        "lng": -75.89405921541561
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4e12336852b1655efa4cc902", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Welcome to My Crib", 
+                    "private": true, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "100 Convent Ave", 
+                        "lat": 40.81659467309652, 
+                        "lng": -73.95296477053593
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 72, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4f5432ffe4b006151690d4f9", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Bella Sera Ristorante", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/bella-sera-ristorante/4c81aa3cd4e237041b766088/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4c81aa3cd4e237041b766088/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "8472330011", 
+                        "formattedPhone": "(847) 233-0011"
+                    }, 
+                    "location": {
+                        "city": "Schiller Park", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "IL", 
+                        "address": "3801 Mannheim Rd", 
+                        "lat": 41.9479170687711, 
+                        "lng": -87.88504674261034
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 300, 
+                        "usersCount": 145
+                    }, 
+                    "id": "4c81aa3cd4e237041b766088", 
+                    "categories": [
+                        {
+                            "pluralName": "Italian Restaurants", 
+                            "primary": true, 
+                            "name": "Italian Restaurant", 
+                            "shortName": "Italian", 
+                            "id": "4bf58dd8d48988d110941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/italian_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Avondale Park", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Chillum", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "20782", 
+                        "state": "MD", 
+                        "address": "4900-4928 Lasalle Rd", 
+                        "lat": 38.950637038230234, 
+                        "lng": -76.97781034116659
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 34, 
+                        "usersCount": 19
+                    }, 
+                    "id": "4e18a6cfd4c062b044ea7068", 
+                    "categories": [
+                        {
+                            "pluralName": "Parks", 
+                            "primary": true, 
+                            "name": "Park", 
+                            "shortName": "Park", 
+                            "id": "4bf58dd8d48988d163941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/park_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "She Takes The Cake ~ Nonpareils", 
+                    "url": "http://www.nonpareilscake.com", 
+                    "contact": {
+                        "phone": "3156924515", 
+                        "twitter": "nonpareilscake", 
+                        "formattedPhone": "(315) 692-4515"
+                    }, 
+                    "location": {
+                        "city": "Manlius", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "13104-9631", 
+                        "state": "NY", 
+                        "crossStreet": "btw Pompey Ctr & Enders Rd", 
+                        "address": "8195 Cazenovia Rd", 
+                        "lat": 42.993744, 
+                        "lng": -75.95905
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 147, 
+                        "usersCount": 23
+                    }, 
+                    "id": "4ba3e0fdf964a520776938e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Cupcake Shops", 
+                            "primary": true, 
+                            "name": "Cupcake Shop", 
+                            "shortName": "Cupcakes", 
+                            "id": "4bf58dd8d48988d1bc941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cupcakes_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Heckscher Field 6", 
+                    "contact": {}, 
+                    "location": {
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "New York", 
+                        "address": "Central Park", 
+                        "lat": 40.770559, 
+                        "lng": -73.97659
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 61, 
+                        "usersCount": 49
+                    }, 
+                    "id": "4e286a5245ddfe8f9df1b791", 
+                    "categories": [
+                        {
+                            "pluralName": "Baseball Fields", 
+                            "primary": true, 
+                            "name": "Baseball Field", 
+                            "shortName": "Baseball Field", 
+                            "id": "4bf58dd8d48988d1e8941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/baseballfield_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Saratoga Ave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11233", 
+                        "state": "NY", 
+                        "lat": 40.68034897399545, 
+                        "lng": -73.91810236468415
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 40, 
+                        "usersCount": 20
+                    }, 
+                    "id": "5162af9ae4b02bf7e0192481", 
+                    "categories": [
+                        {
+                            "pluralName": "Moving Targets", 
+                            "primary": true, 
+                            "name": "Moving Target", 
+                            "shortName": "Moving Target", 
+                            "id": "4f2a23984b9023bd5841ed2c", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/movingtarget_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Wall", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Los Angeles", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "crossStreet": "52nd St", 
+                        "address": "Crenshaw Blvd", 
+                        "lat": 33.99773018733513, 
+                        "lng": -118.330759001804
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 18, 
+                        "usersCount": 12
+                    }, 
+                    "id": "4e74fbf152b1c8e5193fb9fa", 
+                    "categories": [
+                        {
+                            "pluralName": "Scenic Lookouts", 
+                            "primary": true, 
+                            "name": "Scenic Lookout", 
+                            "shortName": "Scenic Lookout", 
+                            "id": "4bf58dd8d48988d165941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Vintage Clothing", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 33.9879709482193, 
+                        "cc": "US", 
+                        "lng": -118.47228705883026, 
+                        "state": "California", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 12, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4e272780b61ce3fb0555e47b", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dr. Loretta M. Logan", 
+                    "contact": {
+                        "phone": "2126942392", 
+                        "formattedPhone": "(212) 694-2392"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10030", 
+                        "state": "NY", 
+                        "crossStreet": "Frederick Douglass Blvd and Adam Clayton Powell Jr", 
+                        "address": "241 W 138th St", 
+                        "lat": 40.817756227002526, 
+                        "lng": -73.94348773092186
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4f761510e4b084cb81a0e1da", 
+                    "categories": [
+                        {
+                            "pluralName": "Medical Centers", 
+                            "primary": true, 
+                            "name": "Medical Center", 
+                            "shortName": "Medical", 
+                            "id": "4bf58dd8d48988d104941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Hot Spot In The Library", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 42.389628, 
+                        "cc": "US", 
+                        "lng": -72.527997, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4e6964d2d4c01ce0171ea77d", 
+                    "categories": [
+                        {
+                            "pluralName": "College Libraries", 
+                            "primary": true, 
+                            "name": "College Library", 
+                            "shortName": "Library", 
+                            "id": "4bf58dd8d48988d1a7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Disappointment", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Foxborough", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "MA", 
+                        "lat": 42.294039, 
+                        "lng": -71.046299
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 23, 
+                        "usersCount": 17
+                    }, 
+                    "id": "4d33922572a8b1f79b0da9d0", 
+                    "categories": [
+                        {
+                            "pluralName": "Football Stadiums", 
+                            "primary": true, 
+                            "name": "Football Stadium", 
+                            "shortName": "Football", 
+                            "id": "4bf58dd8d48988d189941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/stadium_football_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Harlem Hospital-11th Fl. Room 119", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10037", 
+                        "state": "NY", 
+                        "address": "506 Malcolm X Blvd", 
+                        "lat": 40.81416853958684, 
+                        "lng": -73.93969908127347
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 17, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4f1dd2e1e4b095bc482ce78c", 
+                    "categories": [
+                        {
+                            "pluralName": "Hospitals", 
+                            "primary": true, 
+                            "name": "Hospital", 
+                            "shortName": "Hospital", 
+                            "id": "4bf58dd8d48988d196941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_hospital_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "APO Office- UMass", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Amherst", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "01003", 
+                        "state": "MA", 
+                        "address": "41 Campus Center Way", 
+                        "lat": 42.39069908279034, 
+                        "lng": -72.52841741175675
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 21, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4eb898fe0aaf1abee0a6121b", 
+                    "categories": [
+                        {
+                            "pluralName": "Fraternity Houses", 
+                            "primary": true, 
+                            "name": "Fraternity House", 
+                            "shortName": "Frat House", 
+                            "id": "4bf58dd8d48988d1b0941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/frathouse_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA Bus - M2 (Downtown) - ACP @ 119th", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "btw W 119 St & W 120 St", 
+                        "address": "Adam Clayton Powell Jr Blvd", 
+                        "lat": 40.813254, 
+                        "lng": -73.945685
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 27, 
+                        "usersCount": 13
+                    }, 
+                    "id": "4c0e756975f99c74cd72ecc4", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Lines", 
+                            "primary": true, 
+                            "name": "Bus Line", 
+                            "shortName": "Bus", 
+                            "id": "4bf58dd8d48988d12b951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Grad Pad", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Flushing", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11367", 
+                        "state": "NY", 
+                        "address": "147-28 Union Tpke", 
+                        "lat": 40.718228816986084, 
+                        "lng": -73.81401658058167
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 99, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4d25289a3574a143b7d14bd1", 
+                    "categories": [
+                        {
+                            "pluralName": "College Quads", 
+                            "primary": true, 
+                            "name": "College Quad", 
+                            "shortName": "Quad", 
+                            "id": "4bf58dd8d48988d1aa941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/quad_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cazenovia College dorm", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Cazenovia", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "Sullivan ave", 
+                        "address": "Nickerson ave", 
+                        "lat": 42.93199644783077, 
+                        "lng": -75.85411881529173
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 48, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4c0a24696071a593f612df32", 
+                    "categories": [
+                        {
+                            "pluralName": "College Residence Halls", 
+                            "primary": true, 
+                            "name": "College Residence Hall", 
+                            "shortName": "Residence Hall", 
+                            "id": "4bf58dd8d48988d1a3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/residencehall_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Convent View", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "lat": 40.816732531511825, 
+                        "lng": -73.95246538634254
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 271, 
+                        "usersCount": 17
+                    }, 
+                    "id": "4f624286e4b011d85153e285", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cazenovia College- Academic Learning Center", 
+                    "contact": {
+                        "phone": "3156557161", 
+                        "formattedPhone": "(315) 655-7161"
+                    }, 
+                    "location": {
+                        "city": "Cazenovia", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "13035", 
+                        "state": "NY", 
+                        "address": "41 Lincklaen Street", 
+                        "lat": 42.93220175638168, 
+                        "lng": -75.85314989089966
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 19, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4e5e523ab3adecd8804bb4c9", 
+                    "categories": [
+                        {
+                            "pluralName": "College Academic Buildings", 
+                            "primary": true, 
+                            "name": "College Academic Building", 
+                            "shortName": "Academic Building", 
+                            "id": "4bf58dd8d48988d198941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/academicbuilding_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Pheph's Palace", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.81343117375547, 
+                        "lng": -73.94186034276925
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 9, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4f9f4569e4b08ae3f6a3e7c3", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Quick Bite", 
+                    "url": "http://www.quickbitenyc.com", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2122344844", 
+                        "twitter": "quickbitenyc", 
+                        "formattedPhone": "(212) 234-4844"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "at W 133 St", 
+                        "address": "1469 Amsterdam Ave", 
+                        "lat": 40.81732015546871, 
+                        "lng": -73.95361913407693
+                    }, 
+                    "venuePage": {
+                        "id": "38555230"
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 57, 
+                        "usersCount": 39
+                    }, 
+                    "id": "4f662556e4b03be104a5e5d9", 
+                    "categories": [
+                        {
+                            "pluralName": "Burger Joints", 
+                            "primary": true, 
+                            "name": "Burger Joint", 
+                            "shortName": "Burgers", 
+                            "id": "4bf58dd8d48988d16c941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "3333 Broadway A Tower Laundry Room", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "crossStreet": "135th st", 
+                        "address": "3333 Broadway", 
+                        "lat": 40.82043433035447, 
+                        "lng": -73.95706885609539
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 65, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4fa04cf9e4b0829ddeffe194", 
+                    "categories": [
+                        {
+                            "pluralName": "Laundry Services", 
+                            "primary": true, 
+                            "name": "Laundry Service", 
+                            "shortName": "Laundry", 
+                            "id": "4bf58dd8d48988d1fc941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "NYCHA - Manhattanville Community Center", 
+                    "url": "http://www.nyc.gov/NYCHA", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2124913377", 
+                        "twitter": "nycha", 
+                        "facebook": "192990720863", 
+                        "formattedPhone": "(212) 491-3377"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "btwn Amsterdam & Broadway", 
+                        "address": "530 W 133rd St", 
+                        "lat": 40.817514116440755, 
+                        "lng": -73.95474417498362
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 90, 
+                        "usersCount": 45
+                    }, 
+                    "id": "4b942cf1f964a520d86c34e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Community Centers", 
+                            "primary": true, 
+                            "name": "Community Center", 
+                            "shortName": "Community Center", 
+                            "id": "52e81612bcbc57f1066b7a34", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "NYS Manhattanville Community Medicaid Office", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "crossStreet": "Amsterdam & Broadway", 
+                        "address": "135th St", 
+                        "lat": 40.8201028447519, 
+                        "lng": -73.95513449376709
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 27, 
+                        "usersCount": 14
+                    }, 
+                    "id": "4dd2b00a52b15d0acc841c4b", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Caz Country", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Cazenovia", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "13035", 
+                        "state": "NY", 
+                        "address": "Albany Street", 
+                        "lat": 42.93515525081908, 
+                        "lng": -75.85428714752197
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 12, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4e5b0cd3091a1023bdfef1fa", 
+                    "categories": [
+                        {
+                            "pluralName": "Strip Clubs", 
+                            "primary": true, 
+                            "name": "Strip Club", 
+                            "shortName": "Strip Club", 
+                            "id": "4bf58dd8d48988d1d6941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/stripclub_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

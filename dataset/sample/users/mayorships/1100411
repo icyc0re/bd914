@@ -1,0 +1,765 @@
+{
+    "mayorships": {
+        "count": 21, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "736 Riverside", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "crossStreet": "btwn 150th street and 151th street", 
+                        "address": "736 Riverside Dr", 
+                        "lat": 40.8308508918368, 
+                        "lng": -73.94940376281738
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 324, 
+                        "usersCount": 23
+                    }, 
+                    "id": "503a2c4cb0ed397ec7413519", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "BlackMackNYC's Domicile", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.83483863115033, 
+                        "lng": -73.95361626406626
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 354, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4bdcb0b0c79cc928f8b087e9", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA Bus Stop - Broadway & W. 145th St (Bx19, M4, M5)", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "crossStreet": "W. 145th St", 
+                        "address": "Broadway", 
+                        "lat": 40.824229721151674, 
+                        "lng": -73.94452672643094
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 31, 
+                        "usersCount": 16
+                    }, 
+                    "id": "50299adfe4b07d6743b577db", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Stations", 
+                            "primary": true, 
+                            "name": "Bus Station", 
+                            "shortName": "Bus Station", 
+                            "id": "4bf58dd8d48988d1fe931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Big Jake & Miss Riley's Curb-side Hydrant", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Washington", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "D.C.", 
+                        "lat": 38.84621799265139, 
+                        "lng": -77.0046260426734
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 18, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4c21183b9085d13a924284cc", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Felix Supply Hardware", 
+                    "contact": {
+                        "phone": "2122831988", 
+                        "formattedPhone": "(212) 283-1988"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "address": "3650 Broadway", 
+                        "lat": 40.83002130141648, 
+                        "lng": -73.9478445863373
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 44, 
+                        "usersCount": 36
+                    }, 
+                    "id": "4e847d205c5c9240de876b78", 
+                    "categories": [
+                        {
+                            "pluralName": "Hardware Stores", 
+                            "primary": true, 
+                            "name": "Hardware Store", 
+                            "shortName": "Hardware", 
+                            "id": "4bf58dd8d48988d112951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/hardware_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Remesas Quisqueyana, Inc.", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "crossStreet": "Between W 141st & W 142nd on the downtown side", 
+                        "address": "3469 Broadway", 
+                        "lat": 40.82434, 
+                        "lng": -73.95234
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4bf421e3cad2c928e18e9b99", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Roy Wilkins Mid-Manhattan Center of the NAACP", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "Between Broadway & West End Ave.", 
+                        "address": "270 W 96th St", 
+                        "lat": 40.79527222057048, 
+                        "lng": -73.97255453537215
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 2
+                    }, 
+                    "id": "523c9607498ed9c5d4f078de", 
+                    "categories": [
+                        {
+                            "pluralName": "Non-Profits", 
+                            "primary": true, 
+                            "name": "Non-Profit", 
+                            "shortName": "Non-Profit", 
+                            "id": "50328a8e91d4c4b30a586d6c", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cafe Latte", 
+                    "contact": {
+                        "phone": "2122340202", 
+                        "formattedPhone": "(212) 234-0202"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "crossStreet": "Between Amsterdam Ave & Convent Ave", 
+                        "address": "458 W 145th St", 
+                        "lat": 40.829993141325474, 
+                        "lng": -73.94909020416848
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 46, 
+                        "usersCount": 9
+                    }, 
+                    "id": "52446f26498e4c899519d06f", 
+                    "categories": [
+                        {
+                            "pluralName": "Caf\u00e9s", 
+                            "primary": true, 
+                            "name": "Caf\u00e9", 
+                            "shortName": "Caf\u00e9", 
+                            "id": "4bf58dd8d48988d16d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cafe_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Salvation Army Thrift Store", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "btw Broadway and West End Ave", 
+                        "address": "268 W 96th St", 
+                        "lat": 40.794838, 
+                        "lng": -73.972771
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 158, 
+                        "usersCount": 108
+                    }, 
+                    "id": "4b50df09f964a5204c3627e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Clothing Stores", 
+                            "primary": true, 
+                            "name": "Clothing Store", 
+                            "shortName": "Apparel", 
+                            "id": "4bf58dd8d48988d103951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Hispanic Society Of America", 
+                    "url": "http://www.hispanicsociety.org", 
+                    "contact": {
+                        "phone": "2129262234", 
+                        "formattedPhone": "(212) 926-2234"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10032", 
+                        "state": "NY", 
+                        "crossStreet": "at Broadway", 
+                        "address": "613 W 155th St", 
+                        "lat": 40.833323554951214, 
+                        "lng": -73.9464324937478
+                    }, 
+                    "stats": {
+                        "tipCount": 12, 
+                        "checkinsCount": 323, 
+                        "usersCount": 279
+                    }, 
+                    "id": "4bae6226f964a5201fab3be3", 
+                    "categories": [
+                        {
+                            "pluralName": "Art Museums", 
+                            "primary": true, 
+                            "name": "Art Museum", 
+                            "shortName": "Art Museum", 
+                            "id": "4bf58dd8d48988d18f941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_art_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Heritage HealthCare Housing Center HHHNYC", 
+                    "url": "http://heritagenyc.org", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "crossStreet": "West 145th Street", 
+                        "address": "1727 Amsterdam Ave", 
+                        "lat": 40.83079685844034, 
+                        "lng": -73.94913038525526
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 19, 
+                        "usersCount": 1
+                    }, 
+                    "id": "52404a85498ed8dfcb1101c1", 
+                    "categories": [
+                        {
+                            "pluralName": "Medical Centers", 
+                            "primary": true, 
+                            "name": "Medical Center", 
+                            "shortName": "Medical", 
+                            "id": "4bf58dd8d48988d104941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ten Mile River Playground", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "lat": 40.829890099115275, 
+                        "lng": -73.95235632525502
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 131, 
+                        "usersCount": 88
+                    }, 
+                    "id": "4c58982bd3aee21ed5356655", 
+                    "categories": [
+                        {
+                            "pluralName": "Playgrounds", 
+                            "primary": true, 
+                            "name": "Playground", 
+                            "shortName": "Playground", 
+                            "id": "4bf58dd8d48988d1e7941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/playground_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Emergency Public Assistance NYPD 911 Call Box HRW 7731", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "lat": 40.82669940595447, 
+                        "lng": -73.95006028807329
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4f342da4e4b0230a3b25c4f0", 
+                    "categories": [
+                        {
+                            "pluralName": "Trails", 
+                            "primary": true, 
+                            "name": "Trail", 
+                            "shortName": "Trail", 
+                            "id": "4bf58dd8d48988d159941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/hikingtrail_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Joint Base Anacostia-Bolling 11th CES", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bolling AFB", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "20032", 
+                        "state": "D.C.", 
+                        "address": "370-371 Brookley Blvd", 
+                        "lat": 38.84514315652872, 
+                        "lng": -77.00921238331922
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 323, 
+                        "usersCount": 146
+                    }, 
+                    "id": "4cc5a658d43ba143f7e86ef8", 
+                    "categories": [
+                        {
+                            "pluralName": "Government Buildings", 
+                            "primary": true, 
+                            "name": "Government Building", 
+                            "shortName": "Government", 
+                            "id": "4bf58dd8d48988d126941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/government_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Donnellan Square", 
+                    "url": "http://nyc.gov/parks", 
+                    "contact": {
+                        "twitter": "nycparks"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "crossStreet": "St. Nicholas Avenue", 
+                        "address": "150th & 149th Street", 
+                        "lat": 40.82774146047797, 
+                        "lng": -73.9414499058546
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 218, 
+                        "usersCount": 31
+                    }, 
+                    "id": "4c4ebe709932e21ef8ab3ace", 
+                    "categories": [
+                        {
+                            "pluralName": "Parks", 
+                            "primary": true, 
+                            "name": "Park", 
+                            "shortName": "Park", 
+                            "id": "4bf58dd8d48988d163941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/park_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "El Mundo", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "address": "3560 Broadway", 
+                        "lat": 40.82726706685804, 
+                        "lng": -73.94954367594879
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 162, 
+                        "usersCount": 77
+                    }, 
+                    "id": "4c02a021f56c2d7f05ac1b66", 
+                    "categories": [
+                        {
+                            "pluralName": "Department Stores", 
+                            "primary": true, 
+                            "name": "Department Store", 
+                            "shortName": "Department Store", 
+                            "id": "4bf58dd8d48988d1f6941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/departmentstore_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Madeline Beauty Supply", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "crossStreet": "Between 146th & 147th on the uptown side", 
+                        "address": "3576 Broadway", 
+                        "lat": 40.82785018997512, 
+                        "lng": -73.94914186556423
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 18, 
+                        "usersCount": 12
+                    }, 
+                    "id": "4bec826075b2c9b6c69a438d", 
+                    "categories": [
+                        {
+                            "pluralName": "Cosmetics Shops", 
+                            "primary": true, 
+                            "name": "Cosmetics Shop", 
+                            "shortName": "Cosmetics", 
+                            "id": "4bf58dd8d48988d10c951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/beauty_cosmetic_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Y-3", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10011", 
+                        "state": "NY", 
+                        "crossStreet": "Gansevoort", 
+                        "address": "317 W. 13th Street", 
+                        "lat": 40.73935695828395, 
+                        "lng": -74.00400992826947
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 245, 
+                        "usersCount": 185
+                    }, 
+                    "id": "4b4e435af964a52052e726e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Sporting Goods Shops", 
+                            "primary": true, 
+                            "name": "Sporting Goods Shop", 
+                            "shortName": "Sporting Goods", 
+                            "id": "4bf58dd8d48988d1f2941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/sports_outdoors_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Black Men's Xchange New York", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "crossStreet": "@ 150th Street, Suite 9E", 
+                        "address": "730 Riverside Dr", 
+                        "lat": 40.83079, 
+                        "lng": -73.94901
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 10, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4bdccb73afe8c9b6ad185185", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Malcolm X & Dr. Betty Shabaz Memorial, Educational And Cultural Center", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "at W 165th St.", 
+                        "address": "3940 Broadway", 
+                        "lat": 40.83939063389979, 
+                        "lng": -73.94099641510505
+                    }, 
+                    "stats": {
+                        "tipCount": 7, 
+                        "checkinsCount": 499, 
+                        "usersCount": 298
+                    }, 
+                    "id": "4bf56562e5eba59376b62090", 
+                    "categories": [
+                        {
+                            "pluralName": "History Museums", 
+                            "primary": true, 
+                            "name": "History Museum", 
+                            "shortName": "History Museum", 
+                            "id": "4bf58dd8d48988d190941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Centro Civico Cultural Domincano, Inc", 
+                    "contact": {
+                        "phone": "2122349577", 
+                        "formattedPhone": "(212) 234-9577"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "crossStreet": "Between Broadway & Riverside Drive", 
+                        "address": "619 W 145th St", 
+                        "lat": 40.82685, 
+                        "lng": -73.951687
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 1
+                    }, 
+                    "id": "503fcf62e4b08ae7c91c153e", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

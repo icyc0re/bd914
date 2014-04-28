@@ -1,0 +1,938 @@
+{
+    "mayorships": {
+        "count": 25, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Amherst-Cortland", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "Broadway", 
+                        "address": "504 W 110th St", 
+                        "lat": 40.8037911702557, 
+                        "lng": -73.96459374293866
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 495, 
+                        "usersCount": 37
+                    }, 
+                    "id": "4c50e160991c20a16fb6db86", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA Subway - 231st St (1)", 
+                    "url": "http://www.mta.info", 
+                    "contact": {
+                        "twitter": "nyctsubwayscoop"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10463", 
+                        "state": "NY", 
+                        "crossStreet": "at Broadway", 
+                        "address": "W 231st St", 
+                        "lat": 40.87886710569573, 
+                        "lng": -73.90481472015381
+                    }, 
+                    "stats": {
+                        "tipCount": 10, 
+                        "checkinsCount": 5417, 
+                        "usersCount": 706
+                    }, 
+                    "id": "4aeae658f964a52081bc21e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Subways", 
+                            "primary": true, 
+                            "name": "Subway", 
+                            "shortName": "Subway", 
+                            "id": "4bf58dd8d48988d1fd931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/subway_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA MaBSTOA Bus at W. 231st Street & Broadway: (Bx1, Bx7, Bx9, Bx10, Bx20)", 
+                    "contact": {
+                        "twitter": "nyctbusstop"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10463", 
+                        "state": "NY", 
+                        "crossStreet": "Broadway (US 9)", 
+                        "address": "231st Street", 
+                        "lat": 40.87891577778794, 
+                        "lng": -73.90473961830139
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 463, 
+                        "usersCount": 126
+                    }, 
+                    "id": "4e9aa3c4754aab1ca9cb840d", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Stations", 
+                            "primary": true, 
+                            "name": "Bus Station", 
+                            "shortName": "Bus Station", 
+                            "id": "4bf58dd8d48988d1fe931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hebrew Institute of Riverdale", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10463", 
+                        "state": "NY", 
+                        "crossStreet": "W 237th St", 
+                        "address": "3700 Henry Hudson Pkwy", 
+                        "lat": 40.88793530150387, 
+                        "lng": -73.91071346317632
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 164, 
+                        "usersCount": 42
+                    }, 
+                    "id": "4c21579711de20a1223e83ce", 
+                    "categories": [
+                        {
+                            "pluralName": "Synagogues", 
+                            "primary": true, 
+                            "name": "Synagogue", 
+                            "shortName": "Synagogue", 
+                            "id": "4bf58dd8d48988d139941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/religious_synagogue_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA Subway - 1 Train", 
+                    "url": "http://www.mta.info", 
+                    "contact": {
+                        "twitter": "nyctsubwayscoop"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10463", 
+                        "state": "NY", 
+                        "address": "Moving Target!", 
+                        "lat": 40.87471328913587, 
+                        "lng": -73.9099096807533
+                    }, 
+                    "stats": {
+                        "tipCount": 4, 
+                        "checkinsCount": 3640, 
+                        "usersCount": 556
+                    }, 
+                    "id": "4e84b7b530f84cdd79adfed0", 
+                    "categories": [
+                        {
+                            "pluralName": "Trains", 
+                            "primary": true, 
+                            "name": "Train", 
+                            "shortName": "Train", 
+                            "id": "4bf58dd8d48988d12a951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/trainstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Goldsmith", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "Broadway", 
+                        "address": "537 W 121st St", 
+                        "lat": 40.81103628160371, 
+                        "lng": -73.96034632191078
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 2629, 
+                        "usersCount": 96
+                    }, 
+                    "id": "4b847786f964a5203a3731e3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Residence Halls", 
+                            "primary": true, 
+                            "name": "College Residence Hall", 
+                            "shortName": "Residence Hall", 
+                            "id": "4bf58dd8d48988d1a3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/residencehall_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Congregation Ramath Orah", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.80373030935717, 
+                        "cc": "US", 
+                        "lng": -73.96490942590171, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 174, 
+                        "usersCount": 27
+                    }, 
+                    "id": "4c0bd42bbbc676b035144cd5", 
+                    "categories": [
+                        {
+                            "pluralName": "Synagogues", 
+                            "primary": true, 
+                            "name": "Synagogue", 
+                            "shortName": "Synagogue", 
+                            "id": "4bf58dd8d48988d139941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/religious_synagogue_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Mta bus BX10", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10463", 
+                        "state": "NY", 
+                        "lat": 40.88001565026457, 
+                        "lng": -73.90590794319382
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 242, 
+                        "usersCount": 35
+                    }, 
+                    "id": "4cc5dad8be40a35df5e4864c", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Lines", 
+                            "primary": true, 
+                            "name": "Bus Line", 
+                            "shortName": "Bus", 
+                            "id": "4bf58dd8d48988d12b951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA - Bx7 Bus", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "address": "Moving Target!", 
+                        "lat": 40.87602674897057, 
+                        "lng": -73.9091288603663
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 577, 
+                        "usersCount": 93
+                    }, 
+                    "id": "4c0ac15e32daef3bacb44b50", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Lines", 
+                            "primary": true, 
+                            "name": "Bus Line", 
+                            "shortName": "Bus", 
+                            "id": "4bf58dd8d48988d12b951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "M4", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10031", 
+                        "state": "NY", 
+                        "lat": 40.776641814871475, 
+                        "lng": -73.96206826062804
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 59, 
+                        "usersCount": 20
+                    }, 
+                    "id": "504ea39de4b0deb86cce8979", 
+                    "categories": [
+                        {
+                            "pluralName": "Moving Targets", 
+                            "primary": true, 
+                            "name": "Moving Target", 
+                            "shortName": "Moving Target", 
+                            "id": "4f2a23984b9023bd5841ed2c", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/movingtarget_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Stairs at 238th", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10463", 
+                        "state": "NY", 
+                        "crossStreet": "at Waldo Ave", 
+                        "address": "W 238th St", 
+                        "lat": 40.88682600929376, 
+                        "lng": -73.90351949252783
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 440, 
+                        "usersCount": 99
+                    }, 
+                    "id": "4cf39fefc9af6dcbdb10a77f", 
+                    "categories": [
+                        {
+                            "pluralName": "Trails", 
+                            "primary": true, 
+                            "name": "Trail", 
+                            "shortName": "Trail", 
+                            "id": "4bf58dd8d48988d159941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/hikingtrail_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Mother's Bake Shop", 
+                    "contact": {
+                        "phone": "7187965676", 
+                        "twitter": "mothersbakeshop", 
+                        "formattedPhone": "(718) 796-5676"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10463", 
+                        "state": "NY", 
+                        "address": "548 W 235th St", 
+                        "lat": 40.885544, 
+                        "lng": -73.90954104
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 213, 
+                        "usersCount": 101
+                    }, 
+                    "id": "4c84164dd92ea0936d325a72", 
+                    "categories": [
+                        {
+                            "pluralName": "Bakeries", 
+                            "primary": true, 
+                            "name": "Bakery", 
+                            "shortName": "Bakery", 
+                            "id": "4bf58dd8d48988d16a941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/bakery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Bx20", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.869149, 
+                        "lng": -73.917256
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 12, 
+                        "usersCount": 2
+                    }, 
+                    "id": "51cf2645498e0f41f1b17276", 
+                    "categories": [
+                        {
+                            "pluralName": "Moving Targets", 
+                            "primary": true, 
+                            "name": "Moving Target", 
+                            "shortName": "Moving Target", 
+                            "id": "4f2a23984b9023bd5841ed2c", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/movingtarget_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA Bx10 Bus", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.879595, 
+                        "lng": -73.911933
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 23, 
+                        "usersCount": 7
+                    }, 
+                    "id": "51ac0950498e902db26750a7", 
+                    "categories": [
+                        {
+                            "pluralName": "Moving Targets", 
+                            "primary": true, 
+                            "name": "Moving Target", 
+                            "shortName": "Moving Target", 
+                            "id": "4f2a23984b9023bd5841ed2c", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/movingtarget_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Drisha Institute", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "crossStreet": "at Columbus Ave", 
+                        "address": "37 W 65th St, Fl 5", 
+                        "lat": 40.7728639, 
+                        "lng": -73.981546
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 132, 
+                        "usersCount": 33
+                    }, 
+                    "id": "4b26470cf964a520c27924e3", 
+                    "categories": [
+                        {
+                            "pluralName": "General Colleges & Universities", 
+                            "primary": true, 
+                            "name": "General College & University", 
+                            "shortName": "Education", 
+                            "id": "4bf58dd8d48988d1a8941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/other_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Ginger Grill", 
+                    "url": "http://www.gingergrill.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/ginger-grill/4b74b026f964a5207cec2de3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4b74b026f964a5207cec2de3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "delivery": {
+                        "url": "http://www.grubhub.com/order_redir.jsp?custId=23045&affId=1131", 
+                        "provider": {
+                            "name": "grubhub"
+                        }
+                    }, 
+                    "contact": {
+                        "phone": "7186017763", 
+                        "formattedPhone": "(718) 601-7763"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10463", 
+                        "state": "NY", 
+                        "address": "3717 Riverdale Ave", 
+                        "lat": 40.887298, 
+                        "lng": -73.907227
+                    }, 
+                    "venuePage": {
+                        "id": "50396878"
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 191, 
+                        "usersCount": 42
+                    }, 
+                    "id": "4b74b026f964a5207cec2de3", 
+                    "categories": [
+                        {
+                            "pluralName": "Chinese Restaurants", 
+                            "primary": true, 
+                            "name": "Chinese Restaurant", 
+                            "shortName": "Chinese", 
+                            "id": "4bf58dd8d48988d145941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/chinese_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Second Helping", 
+                    "url": "http://www.2ndhelping.com", 
+                    "contact": {
+                        "phone": "7185481818", 
+                        "formattedPhone": "(718) 548-1818"
+                    }, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10463", 
+                        "state": "NY", 
+                        "address": "3532B Johnson Ave", 
+                        "lat": 40.8860337190352, 
+                        "lng": -73.90974318255097
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 86, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4bacf56bf964a520371e3be3", 
+                    "categories": [
+                        {
+                            "pluralName": "Restaurants", 
+                            "primary": true, 
+                            "name": "Restaurant", 
+                            "shortName": "Restaurant", 
+                            "id": "4bf58dd8d48988d1c4941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ha-makolet", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.887262, 
+                        "lng": -73.907089
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 10, 
+                        "usersCount": 4
+                    }, 
+                    "id": "51ebf627498ec219cafa9d08", 
+                    "categories": [
+                        {
+                            "pluralName": "Delis / Bodegas", 
+                            "primary": true, 
+                            "name": "Deli / Bodega", 
+                            "shortName": "Deli / Bodega", 
+                            "id": "4bf58dd8d48988d146941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/deli_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Babad Shtiebl", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "West End", 
+                        "address": "321 W 100th St", 
+                        "lat": 40.798121640696316, 
+                        "lng": -73.97149273275843
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "523a0948498ec1be8a62c1ec", 
+                    "categories": [
+                        {
+                            "pluralName": "Synagogues", 
+                            "primary": true, 
+                            "name": "Synagogue", 
+                            "shortName": "Synagogue", 
+                            "id": "4bf58dd8d48988d139941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/religious_synagogue_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "MTA M10 Bus", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.81182747682433, 
+                        "lng": -73.94986512365517
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 147, 
+                        "usersCount": 49
+                    }, 
+                    "id": "4bd20ecccaff95218ef6d1f0", 
+                    "categories": [
+                        {
+                            "pluralName": "Bus Lines", 
+                            "primary": true, 
+                            "name": "Bus Line", 
+                            "shortName": "Bus", 
+                            "id": "4bf58dd8d48988d12b951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Freedom inn of Sun City West", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Surprise", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "85374", 
+                        "state": "AZ", 
+                        "lat": 33.65692628611756, 
+                        "lng": -112.3593516169152
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 18, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4f8f24cee4b002318a1ad43a", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Congregation Shaare Zedek", 
+                    "contact": {
+                        "phone": "2128747005", 
+                        "formattedPhone": "(212) 874-7005"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "address": "212 W 93rd St", 
+                        "lat": 40.79235885124629, 
+                        "lng": -73.97258341312408
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 64, 
+                        "usersCount": 31
+                    }, 
+                    "id": "4b6ef89cf964a520f1d32ce3", 
+                    "categories": [
+                        {
+                            "pluralName": "Synagogues", 
+                            "primary": true, 
+                            "name": "Synagogue", 
+                            "shortName": "Synagogue", 
+                            "id": "4bf58dd8d48988d139941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/religious_synagogue_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Wells Fargo Bank", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Bronx", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10463", 
+                        "state": "NY", 
+                        "address": "3709 Riverdale Ave", 
+                        "lat": 40.88705128812472, 
+                        "lng": -73.90730310636562
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 56, 
+                        "usersCount": 34
+                    }, 
+                    "id": "4dd2e221c65b47384cebae45", 
+                    "categories": [
+                        {
+                            "pluralName": "Banks", 
+                            "primary": true, 
+                            "name": "Bank", 
+                            "shortName": "Bank", 
+                            "id": "4bf58dd8d48988d10a951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/financial_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lehman Lawn", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.80987679958728, 
+                        "lng": -73.96329656751949
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 3
+                    }, 
+                    "id": "522653c211d28e35f5f7ca1f", 
+                    "categories": [
+                        {
+                            "pluralName": "College Quads", 
+                            "primary": true, 
+                            "name": "College Quad", 
+                            "shortName": "Quad", 
+                            "id": "4bf58dd8d48988d1aa941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/quad_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lincoln Square Synagogue", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "crossStreet": "68th", 
+                        "address": "180 Amsterdam Ave", 
+                        "lat": 40.77646260175301, 
+                        "lng": -73.9829082385548
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 260, 
+                        "usersCount": 95
+                    }, 
+                    "id": "4b1db2cdf964a520191424e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Synagogues", 
+                            "primary": true, 
+                            "name": "Synagogue", 
+                            "shortName": "Synagogue", 
+                            "id": "4bf58dd8d48988d139941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/religious_synagogue_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

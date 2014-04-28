@@ -1,0 +1,111 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "\u4e3d\u6c34\u5bb6\u56ed", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 39.613840567047056, 
+                        "cc": "CN", 
+                        "lng": 116.3308477607768, 
+                        "isFuzzed": true, 
+                        "country": "China"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 2
+                    }, 
+                    "id": "51c5640c498eee491c800edc", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Consulate General of Peru", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10022", 
+                        "state": "NY", 
+                        "address": "241 E 49th St", 
+                        "lat": 40.754693501214106, 
+                        "lng": -73.96954703601735
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 151, 
+                        "usersCount": 84
+                    }, 
+                    "id": "4b9bcaf6f964a520bf2536e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Embassies / Consulates", 
+                            "primary": true, 
+                            "name": "Embassy / Consulate", 
+                            "shortName": "Embassy", 
+                            "id": "4bf58dd8d48988d12c951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/embassy_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "\u9e2d\u7eff\u6c5f Yalu River", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "\u4e39\u4e1c", 
+                        "cc": "CN", 
+                        "country": "\u4e2d\u56fd", 
+                        "state": "\u8fbd\u5b81", 
+                        "address": "\u4e5d\u7eac\u8def87\u53f7", 
+                        "lat": 40.11620022203523, 
+                        "lng": 124.38691213099621
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 68, 
+                        "usersCount": 53
+                    }, 
+                    "id": "4d0749581446a0909e50dacf", 
+                    "categories": [
+                        {
+                            "pluralName": "Rivers", 
+                            "primary": true, 
+                            "name": "River", 
+                            "shortName": "River", 
+                            "id": "4eb1d4dd4b900d56c88a45fd", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/river_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

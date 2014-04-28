@@ -1,0 +1,74 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Hotel Castillo", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 11.564544, 
+                        "cc": "NI", 
+                        "lng": -85.57886, 
+                        "country": "Nicaragua"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 9
+                    }, 
+                    "id": "504e4c28e4b0deb86cac41d0", 
+                    "categories": [
+                        {
+                            "pluralName": "Hotels", 
+                            "primary": true, 
+                            "name": "Hotel", 
+                            "shortName": "Hotel", 
+                            "id": "4bf58dd8d48988d1fa931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "PS 176", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10034", 
+                        "state": "NY", 
+                        "lat": 40.866252, 
+                        "lng": -73.923677
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 6
+                    }, 
+                    "id": "509900bee4b031e7dd668baf", 
+                    "categories": [
+                        {
+                            "pluralName": "Elementary Schools", 
+                            "primary": true, 
+                            "name": "Elementary School", 
+                            "shortName": "Elementary School", 
+                            "id": "4f4533804b9074f6e4fb0105", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

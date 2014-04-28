@@ -1,0 +1,180 @@
+{
+    "mayorships": {
+        "count": 5, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "SWAG", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.80690660985966, 
+                        "lng": -73.96537147003376
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 66, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4fc7726de4b02472306ffdb2", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Convent", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "Riverside", 
+                        "address": "619 W 113th St", 
+                        "lat": 40.80686106465046, 
+                        "lng": -73.96641321764682
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 479, 
+                        "usersCount": 33
+                    }, 
+                    "id": "521ed95711d227dca81a6504", 
+                    "categories": [
+                        {
+                            "pluralName": "College Residence Halls", 
+                            "primary": true, 
+                            "name": "College Residence Hall", 
+                            "shortName": "Residence Hall", 
+                            "id": "4bf58dd8d48988d1a3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/residencehall_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Madame Kimchi's Palace", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Tenafly", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "lat": 40.92523193168361, 
+                        "lng": -73.96537147003376
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 340, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4d1683e8bb64224b528cba65", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "hotel porto alegre", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 20.606735229492188, 
+                        "cc": "MX", 
+                        "lng": -105.23606872558594, 
+                        "country": "Mexico"
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 16, 
+                        "usersCount": 8
+                    }, 
+                    "id": "50bb71d4e4b01cb32be88be9", 
+                    "categories": [
+                        {
+                            "pluralName": "Bed & Breakfasts", 
+                            "primary": true, 
+                            "name": "Bed & Breakfast", 
+                            "shortName": "B & B", 
+                            "id": "4bf58dd8d48988d1f8931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/bedandbreakfast_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sernanders v\u00e4g 11", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Uppsala", 
+                        "cc": "SE", 
+                        "country": "Sverige", 
+                        "postalCode": "752 62", 
+                        "address": "Sernanders v\u00e4g 11", 
+                        "lat": 59.85030221625313, 
+                        "lng": 17.594709993171787
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4f7f1afee4b00dcb6a25a72b", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

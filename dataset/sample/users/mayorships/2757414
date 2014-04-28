@@ -1,0 +1,972 @@
+{
+    "mayorships": {
+        "count": 27, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "233 Norman Ave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "233 Norman Ave", 
+                        "lat": 40.727722, 
+                        "lng": -73.94451
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 113, 
+                        "usersCount": 16
+                    }, 
+                    "id": "4cf438747e0da1cddeffa097", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "823 Park Ave.", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10021", 
+                        "state": "NY", 
+                        "lat": 40.77374612608151, 
+                        "lng": -73.96207400039806
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 39, 
+                        "usersCount": 17
+                    }, 
+                    "id": "4ba27833f964a520dcfb37e3", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Galleria Condominium", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "117 East 57th Street", 
+                        "lat": 40.76139108053493, 
+                        "lng": -73.96978235731711
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 489, 
+                        "usersCount": 98
+                    }, 
+                    "id": "4e10c780aeb74afe60b78bd8", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Maurice Badler Fine Jewelry", 
+                    "url": "http://www.badler.com", 
+                    "contact": {
+                        "phone": "8006223537", 
+                        "formattedPhone": "(800) 622-3537"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10022", 
+                        "state": "NY", 
+                        "crossStreet": "Btwn 58th & 59th", 
+                        "address": "485 Park Ave", 
+                        "lat": 40.762230446806726, 
+                        "lng": -73.97018412472542
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 14, 
+                        "usersCount": 2
+                    }, 
+                    "id": "52532dab11d2efed020053d6", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "263 9th Ave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10001", 
+                        "state": "NY", 
+                        "crossStreet": "26th St", 
+                        "address": "263 9th Ave", 
+                        "lat": 40.74813064482294, 
+                        "lng": -74.00007326495646
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 40, 
+                        "usersCount": 7
+                    }, 
+                    "id": "50f471e3e4b0e23d91f1e08c", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "New York Towers", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.73944138679658, 
+                        "lng": -73.97712595918333
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 1575, 
+                        "usersCount": 45
+                    }, 
+                    "id": "4c465034884aef3bc087ee81", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "1027 Grand St", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11211", 
+                        "state": "NY", 
+                        "crossStreet": "btwn Morgan & Vandervoort", 
+                        "address": "1027 Grand St", 
+                        "lat": 40.71303948924202, 
+                        "lng": -73.9351468633086
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 12, 
+                        "usersCount": 4
+                    }, 
+                    "id": "5227544611d27dfdaa39c09a", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "60 Collister St", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.721887231837464, 
+                        "lng": -74.00910566372713
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 56, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4dc045916a23e5a549e7fa0a", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "140 Franklin St", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10013", 
+                        "state": "NY", 
+                        "crossStreet": "at Varick St", 
+                        "address": "140 Franklin St", 
+                        "lat": 40.71895155322586, 
+                        "lng": -74.00715460988235
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 67, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4fa1ba2ae4b0198e0887109f", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Big Pine House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Tahoe City", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "CA", 
+                        "lat": 39.147966463283424, 
+                        "lng": -120.16470360287008
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 48, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4d2c82223c795481f6a5f19b", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "east 86th st", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10028", 
+                        "state": "NY", 
+                        "lat": 40.77542074730969, 
+                        "lng": -73.94639805233636
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 2
+                    }, 
+                    "id": "5123e7abe4b05c0c2b9407fc", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Rowell Compound Beach House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Kennebunkport", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "ME", 
+                        "lat": 43.39916328760489, 
+                        "lng": -70.40519682286833
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 14, 
+                        "usersCount": 4
+                    }, 
+                    "id": "506678b6e4b0fbec565e85f8", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Course of Emotions: a mini-golf experience", 
+                    "contact": {
+                        "twitter": "risapuno"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10154", 
+                        "state": "NY", 
+                        "address": "NE corner of 51st St & Park Ave", 
+                        "lat": 40.757898604374, 
+                        "lng": -73.97378277541424
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 27, 
+                        "usersCount": 23
+                    }, 
+                    "id": "51fbb6a9498eecbf6a0721ff", 
+                    "categories": [
+                        {
+                            "pluralName": "Public Art", 
+                            "primary": true, 
+                            "name": "Public Art", 
+                            "shortName": "Public Art", 
+                            "id": "507c8c4091d498d9fc8c67a9", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "302 Morgan Ave", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11211", 
+                        "state": "NY", 
+                        "crossStreet": "Btwn Grand & Metropolitan", 
+                        "address": "302 Morgan Ave", 
+                        "lat": 40.7139479726323, 
+                        "lng": -73.94269556485277
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 2
+                    }, 
+                    "id": "530779e0498e2db8ac960524", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dr. Raymond G. Cavaliere", 
+                    "contact": {
+                        "phone": "2124810064", 
+                        "formattedPhone": "(212) 481-0064"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "Third Ave", 
+                        "address": "201 East 28th Street, #1A", 
+                        "lat": 40.741919, 
+                        "lng": -73.980401
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4d35fd05dfb1721e9a8279ef", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "SIGNARAMA", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10010", 
+                        "state": "NY", 
+                        "address": "425 2nd Ave", 
+                        "lat": 40.73846225308442, 
+                        "lng": -73.98005012120872
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4c7d3208d6543704b197bfa2", 
+                    "categories": [
+                        {
+                            "pluralName": "Design Studios", 
+                            "primary": true, 
+                            "name": "Design Studio", 
+                            "shortName": "Design", 
+                            "id": "4bf58dd8d48988d1f4941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/design_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "The Wongs' Beach House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Lavallette", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "08735", 
+                        "state": "NJ", 
+                        "address": "12 Ortley Ave", 
+                        "lat": 39.977689, 
+                        "lng": -74.065983
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4de07673d22d2a7955700690", 
+                    "categories": [
+                        {
+                            "pluralName": "Bed & Breakfasts", 
+                            "primary": true, 
+                            "name": "Bed & Breakfast", 
+                            "shortName": "B & B", 
+                            "id": "4bf58dd8d48988d1f8931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/bedandbreakfast_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "205 Allen St", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Hudson", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 42.254286563400015, 
+                        "lng": -73.80073403370818
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "50fafce3e4b0937c76a63f3b", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Whisk", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2124778680", 
+                        "formattedPhone": "(212) 477-8680"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10010", 
+                        "state": "NY", 
+                        "crossStreet": "21st and 22nd Street", 
+                        "address": "933 Broadway", 
+                        "lat": 40.740409879691086, 
+                        "lng": -73.98941058404617
+                    }, 
+                    "stats": {
+                        "tipCount": 10, 
+                        "checkinsCount": 1450, 
+                        "usersCount": 977
+                    }, 
+                    "id": "4fe24ab1e4b0391ded0f26e5", 
+                    "categories": [
+                        {
+                            "pluralName": "Furniture / Home Stores", 
+                            "primary": true, 
+                            "name": "Furniture / Home Store", 
+                            "shortName": "Furniture / Home", 
+                            "id": "4bf58dd8d48988d1f8941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/furniture_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Camp Puno", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Prospect", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "KY", 
+                        "lat": 38.386002272079004, 
+                        "lng": -85.57664656670408
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 36, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4ceb471f948f224b671c005e", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Fine Food Deli & Convenience Store", 
+                    "contact": {
+                        "phone": "2126834699", 
+                        "formattedPhone": "(212) 683-4699"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10010", 
+                        "state": "NY", 
+                        "crossStreet": "Btwn 23rd & 24th St.", 
+                        "address": "411 2nd Ave", 
+                        "lat": 40.73843669429592, 
+                        "lng": -73.98046334562196
+                    }, 
+                    "stats": {
+                        "tipCount": 6, 
+                        "checkinsCount": 305, 
+                        "usersCount": 62
+                    }, 
+                    "id": "4b637938f964a5209f7c2ae3", 
+                    "categories": [
+                        {
+                            "pluralName": "Delis / Bodegas", 
+                            "primary": true, 
+                            "name": "Deli / Bodega", 
+                            "shortName": "Deli / Bodega", 
+                            "id": "4bf58dd8d48988d146941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/deli_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Halpern Pharmacy", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10010", 
+                        "state": "NY", 
+                        "address": "331 East 23rd Street", 
+                        "lat": 40.737495565363666, 
+                        "lng": -73.97929254081083
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 15, 
+                        "usersCount": 6
+                    }, 
+                    "id": "515b0c35e4b07e39b7e7f6d1", 
+                    "categories": [
+                        {
+                            "pluralName": "Drugstores / Pharmacies", 
+                            "primary": true, 
+                            "name": "Drugstore / Pharmacy", 
+                            "shortName": "Pharmacy", 
+                            "id": "4bf58dd8d48988d10f951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/pharmacy_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "David Dies' House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Chicago", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "IL", 
+                        "lat": 41.910226173037195, 
+                        "lng": -87.63344507776253
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 33, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4b9d0acdf964a520b58a36e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Cabin Fever", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Tahoe City", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "96145", 
+                        "state": "CA", 
+                        "lat": 39.171589, 
+                        "lng": -120.140334
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 41, 
+                        "usersCount": 35
+                    }, 
+                    "id": "4c12b4e8a5eb76b031aebeb7", 
+                    "categories": [
+                        {
+                            "pluralName": "Furniture / Home Stores", 
+                            "primary": true, 
+                            "name": "Furniture / Home Store", 
+                            "shortName": "Furniture / Home", 
+                            "id": "4bf58dd8d48988d1f8941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/furniture_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Therapeutic Touch", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Louisville", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "40207", 
+                        "state": "KY", 
+                        "lat": 38.2648073920506, 
+                        "lng": -85.66876885129909
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 26, 
+                        "usersCount": 16
+                    }, 
+                    "id": "4bae5d42f964a52050a83be3", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Janovic Paint & Decorating", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2127773030", 
+                        "formattedPhone": "(212) 777-3030"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10010", 
+                        "state": "NY", 
+                        "crossStreet": "btwn E 22nd & 23rd", 
+                        "address": "292 3rd Ave.", 
+                        "lat": 40.73859181625057, 
+                        "lng": -73.98330688476562
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 140, 
+                        "usersCount": 120
+                    }, 
+                    "id": "4c83f16447cc224b61dd939f", 
+                    "categories": [
+                        {
+                            "pluralName": "Hardware Stores", 
+                            "primary": true, 
+                            "name": "Hardware Store", 
+                            "shortName": "Hardware", 
+                            "id": "4bf58dd8d48988d112951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/hardware_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dr Nathaniel Brownlow, MD", 
+                    "contact": {
+                        "phone": "2125332099", 
+                        "formattedPhone": "(212) 533-2099"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10010", 
+                        "state": "NY", 
+                        "address": "247 3rd Ave", 
+                        "lat": 40.73741616858022, 
+                        "lng": -73.98434875949755
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 7, 
+                        "usersCount": 4
+                    }, 
+                    "id": "502eaa07e4b0bde7260d8d5a", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

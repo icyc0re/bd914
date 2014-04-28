@@ -1,0 +1,39 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "African Dance", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.79419150993009, 
+                        "cc": "US", 
+                        "lng": -73.97211259661736, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 22, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4e9369a22c5b7223b9da2bfa", 
+                    "categories": [
+                        {
+                            "pluralName": "Arts & Entertainment", 
+                            "primary": true, 
+                            "name": "Arts & Entertainment", 
+                            "shortName": "Arts & Entertainment", 
+                            "id": "4d4b7104d754a06370d81259", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

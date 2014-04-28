@@ -1,0 +1,39 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "\u6d77\u5357\u7f8a\u5e84", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 23.130858858700666, 
+                        "cc": "CN", 
+                        "lng": 113.2186336865252, 
+                        "country": "China"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 3
+                    }, 
+                    "id": "525133ee498ef72610ebad0d", 
+                    "categories": [
+                        {
+                            "pluralName": "Asian Restaurants", 
+                            "primary": true, 
+                            "name": "Asian Restaurant", 
+                            "shortName": "Asian", 
+                            "id": "4bf58dd8d48988d142941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/asian_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

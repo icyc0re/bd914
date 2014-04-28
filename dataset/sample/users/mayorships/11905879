@@ -1,0 +1,43 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Kaye Scholer LLP", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10022", 
+                        "state": "NY", 
+                        "address": "425 Park Ave", 
+                        "lat": 40.76057040889967, 
+                        "lng": -73.97136072445666
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 160, 
+                        "usersCount": 62
+                    }, 
+                    "id": "4ba24544f964a5209ce837e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

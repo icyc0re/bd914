@@ -1,0 +1,324 @@
+{
+    "mayorships": {
+        "count": 10, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "\ub180\ud1a0", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 37.52914461748986, 
+                        "cc": "KR", 
+                        "lng": 127.08256959915161, 
+                        "country": "South Korea"
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 17, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4b78d3a6f964a520d1e32ee3", 
+                    "categories": []
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "\uc11c\uc6b8OK\uce58\uacfc", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 37.653967, 
+                        "cc": "KR", 
+                        "lng": 127.243915, 
+                        "country": "South Korea"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4e8fbc8949013919da8fd3d8", 
+                    "categories": [
+                        {
+                            "pluralName": "Dentist's Offices", 
+                            "primary": true, 
+                            "name": "Dentist's Office", 
+                            "shortName": "Dentist's Office", 
+                            "id": "4bf58dd8d48988d178941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_dentist_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "\ub17c\ud6042\ub3d9 \ud55c\uac00\ub78c\uc544\ud30c\ud2b8", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 37.518789, 
+                        "cc": "KR", 
+                        "lng": 127.037152, 
+                        "country": "South Korea"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4d1552ffbb64224b34bbb365", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "\ub3d9\ubd80\uc13c\ud2b8\ub808\ube4c", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 37.49219519074059, 
+                        "cc": "KR", 
+                        "lng": 126.9917124929081, 
+                        "isFuzzed": true, 
+                        "country": "South Korea"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 25, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4ef43dcf722e31c64778172b", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "\ub3d9\ubd80\uc13c\ud2b8\ub808\ube4c 103\ub3d9", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 37.496436463554986, 
+                        "cc": "KR", 
+                        "lng": 127.05613388502383, 
+                        "isFuzzed": true, 
+                        "country": "South Korea"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 40, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4c33e155ed37a59323276e03", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "\uad11\uc591\uace0\ub4f1\ud559\uad50", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc", 
+                        "cc": "KR", 
+                        "country": "\ub300\ud55c\ubbfc\uad6d", 
+                        "address": "\uad11\uc9c4\uad6c \uc790\uc591\ub3d9", 
+                        "lat": 37.529211453438585, 
+                        "lng": 127.0852510406678
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 10, 
+                        "usersCount": 8
+                    }, 
+                    "id": "4cc3c0f1806246883685322f", 
+                    "categories": [
+                        {
+                            "pluralName": "High Schools", 
+                            "primary": true, 
+                            "name": "High School", 
+                            "shortName": "High School", 
+                            "id": "4bf58dd8d48988d13d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "\uac15\ubcc0 corner594 \uce74\ud398", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 37.5356666, 
+                        "cc": "KR", 
+                        "lng": 127.092182, 
+                        "country": "South Korea"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 9, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4c7f67f71009a0936149474e", 
+                    "categories": [
+                        {
+                            "pluralName": "Caf\u00e9s", 
+                            "primary": true, 
+                            "name": "Caf\u00e9", 
+                            "shortName": "Caf\u00e9", 
+                            "id": "4bf58dd8d48988d16d941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cafe_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "\uc120\uc6b0\ud074\ub9ac\ub2c9", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 37.519849, 
+                        "cc": "KR", 
+                        "lng": 127.050458, 
+                        "country": "South Korea", 
+                        "address": "\uccad\ub2f4\ub3d9"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4f2a1d70e4b0e2cf5de4ce19", 
+                    "categories": [
+                        {
+                            "pluralName": "Medical Centers", 
+                            "primary": true, 
+                            "name": "Medical Center", 
+                            "shortName": "Medical", 
+                            "id": "4bf58dd8d48988d104941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Gut Haus", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 37.531433, 
+                        "cc": "KR", 
+                        "lng": 127.087172, 
+                        "country": "\ub300\ud55c\ubbfc\uad6d", 
+                        "city": "Chayang-dong"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 6, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4f28c914e4b0c56e6e2dc900", 
+                    "categories": [
+                        {
+                            "pluralName": "Coffee Shops", 
+                            "primary": true, 
+                            "name": "Coffee Shop", 
+                            "shortName": "Coffee Shop", 
+                            "id": "4bf58dd8d48988d1e0931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "\ud638\ud3c9 \ub300\uc8fc \ud30c\ud06c\ube4c\uc544\ud30c\ud2b8", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "\uc591\uace1", 
+                        "cc": "KR", 
+                        "country": "\ub300\ud55c\ubbfc\uad6d", 
+                        "postalCode": "472-120", 
+                        "state": "\uacbd\uae30\ub3c4", 
+                        "lat": 37.661741795032064, 
+                        "lng": 127.24419689827126
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 18, 
+                        "usersCount": 4
+                    }, 
+                    "id": "4c7695ef1b30a0932479f209", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

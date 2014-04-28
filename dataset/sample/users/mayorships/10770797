@@ -1,0 +1,46 @@
+{
+    "mayorships": {
+        "count": 1, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Kabul Grill", 
+                    "contact": {
+                        "phone": "5169338999", 
+                        "formattedPhone": "(516) 933-8999"
+                    }, 
+                    "location": {
+                        "city": "Hicksville", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11801", 
+                        "state": "NY", 
+                        "address": "129 N Broadway", 
+                        "lat": 40.772108, 
+                        "lng": -73.52713705
+                    }, 
+                    "stats": {
+                        "tipCount": 7, 
+                        "checkinsCount": 154, 
+                        "usersCount": 112
+                    }, 
+                    "id": "4c21449399282d7f985a65b0", 
+                    "categories": [
+                        {
+                            "pluralName": "Middle Eastern Restaurants", 
+                            "primary": true, 
+                            "name": "Middle Eastern Restaurant", 
+                            "shortName": "Middle Eastern", 
+                            "id": "4bf58dd8d48988d115941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

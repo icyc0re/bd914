@@ -1,0 +1,300 @@
+{
+    "mayorships": {
+        "count": 7, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Carnegie Towers", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10128", 
+                        "state": "NY", 
+                        "address": "40 E 94th St", 
+                        "lat": 40.785370132309886, 
+                        "lng": -73.95492211452685
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 118, 
+                        "usersCount": 14
+                    }, 
+                    "id": "4f8f5b69e4b0324e96e6a087", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lerner Black Box Theatre", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "114th", 
+                        "address": "2920 Broadway", 
+                        "lat": 40.80712997998323, 
+                        "lng": -73.96379018397306
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 182, 
+                        "usersCount": 55
+                    }, 
+                    "id": "4d69697a30a7236ad94b75ac", 
+                    "categories": [
+                        {
+                            "pluralName": "College Theaters", 
+                            "primary": true, 
+                            "name": "College Theater", 
+                            "shortName": "Theater", 
+                            "id": "4bf58dd8d48988d1ac941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/collegetheater_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Golden Nails", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/golden-nails/4be8213388ed2d7ffd75cb1d/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4be8213388ed2d7ffd75cb1d/device_menu", 
+                        "type": "Services", 
+                        "anchor": "View Services", 
+                        "label": "Services"
+                    }, 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "lat": 40.806183, 
+                        "lng": -73.965297
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 347, 
+                        "usersCount": 162
+                    }, 
+                    "id": "4be8213388ed2d7ffd75cb1d", 
+                    "categories": [
+                        {
+                            "pluralName": "Cosmetics Shops", 
+                            "primary": true, 
+                            "name": "Cosmetics Shop", 
+                            "shortName": "Cosmetics", 
+                            "id": "4bf58dd8d48988d10c951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/beauty_cosmetic_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Paola's Restaurant", 
+                    "url": "http://www.paolasrestaurant.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/paolas-restaurant/4b38f360f964a520e55225e3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4b38f360f964a520e55225e3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "2127941890", 
+                        "twitter": "paolasrestauran", 
+                        "facebook": "1423329804", 
+                        "formattedPhone": "(212) 794-1890"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10128", 
+                        "state": "NY", 
+                        "crossStreet": "92nd St", 
+                        "address": "1295 MADISON AVENUE", 
+                        "lat": 40.784654658028686, 
+                        "lng": -73.95586922764777
+                    }, 
+                    "venuePage": {
+                        "id": "76353048"
+                    }, 
+                    "stats": {
+                        "tipCount": 17, 
+                        "checkinsCount": 780, 
+                        "usersCount": 569
+                    }, 
+                    "id": "4b38f360f964a520e55225e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Restaurants", 
+                            "primary": true, 
+                            "name": "Restaurant", 
+                            "shortName": "Restaurant", 
+                            "id": "4bf58dd8d48988d1c4941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Potluck House", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "Broadway", 
+                        "address": "606 W 114th St", 
+                        "lat": 40.806871, 
+                        "lng": -73.965783
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 21, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4b7615e2f964a520b03b2ee3", 
+                    "categories": [
+                        {
+                            "pluralName": "College Residence Halls", 
+                            "primary": true, 
+                            "name": "College Residence Hall", 
+                            "shortName": "Residence Hall", 
+                            "id": "4bf58dd8d48988d1a3941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/education/residencehall_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Pink Lemon Park Nail Studio", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/pink-lemon-park-nail-studio/4bb52cb51344b713eef69b04/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4bb52cb51344b713eef69b04/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "2123488890", 
+                        "formattedPhone": "(212) 348-8890"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10128", 
+                        "state": "NY", 
+                        "crossStreet": "93rd & 94th", 
+                        "address": "1335 Madison Ave", 
+                        "lat": 40.78572635642781, 
+                        "lng": -73.95494507445598
+                    }, 
+                    "stats": {
+                        "tipCount": 4, 
+                        "checkinsCount": 363, 
+                        "usersCount": 123
+                    }, 
+                    "id": "4bb52cb51344b713eef69b04", 
+                    "categories": [
+                        {
+                            "pluralName": "Cosmetics Shops", 
+                            "primary": true, 
+                            "name": "Cosmetics Shop", 
+                            "shortName": "Cosmetics", 
+                            "id": "4bf58dd8d48988d10c951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/beauty_cosmetic_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Bon French Cleaners", 
+                    "contact": {
+                        "phone": "2126622194", 
+                        "formattedPhone": "(212) 662-2194"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "crossStreet": "btw 112th and 113th St", 
+                        "address": "2881 Broadway", 
+                        "lat": 40.805612, 
+                        "lng": -73.965613
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 98, 
+                        "usersCount": 34
+                    }, 
+                    "id": "4b80817bf964a520547830e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Laundry Services", 
+                            "primary": true, 
+                            "name": "Laundry Service", 
+                            "shortName": "Laundry", 
+                            "id": "4bf58dd8d48988d1fc941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

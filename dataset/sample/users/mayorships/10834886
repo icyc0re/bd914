@@ -1,0 +1,115 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Labia Lounge", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.80356163623484, 
+                        "cc": "US", 
+                        "lng": -73.94186034276925, 
+                        "isFuzzed": true, 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 15, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4e829a6a6c25fc3c322dc5e0", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Mi Casa, Home Sweet Home", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.80356163623484, 
+                        "lng": -73.94186034276925
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 4, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4e5a3c3ffa76d2b00c17c10b", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Lounge/Party Rental", 
+                    "contact": {
+                        "phone": "6467520130", 
+                        "formattedPhone": "(646) 752-0130"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10035", 
+                        "state": "NY", 
+                        "crossStreet": "Btw 118 & 119", 
+                        "address": "1469 5th Ave", 
+                        "lat": 40.801066302690955, 
+                        "lng": -73.94540849953228
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 2, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4e88b59293ad57c45fd7d5f2", 
+                    "categories": [
+                        {
+                            "pluralName": "Lounges", 
+                            "primary": true, 
+                            "name": "Lounge", 
+                            "shortName": "Lounge", 
+                            "id": "4bf58dd8d48988d121941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/lounge_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

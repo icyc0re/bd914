@@ -1,0 +1,466 @@
+{
+    "mayorships": {
+        "count": 12, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Eli Zabar's", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10017", 
+                        "state": "NY", 
+                        "address": "Grand Central Market", 
+                        "lat": 40.75209475295446, 
+                        "lng": -73.97538980662252
+                    }, 
+                    "stats": {
+                        "tipCount": 4, 
+                        "checkinsCount": 327, 
+                        "usersCount": 114
+                    }, 
+                    "id": "4f28029be4b0927facda5e46", 
+                    "categories": [
+                        {
+                            "pluralName": "Bakeries", 
+                            "primary": true, 
+                            "name": "Bakery", 
+                            "shortName": "Bakery", 
+                            "id": "4bf58dd8d48988d16a941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/bakery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Stationview Deli", 
+                    "contact": {
+                        "phone": "9147381367", 
+                        "formattedPhone": "(914) 738-1367"
+                    }, 
+                    "location": {
+                        "city": "Pelham", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10803", 
+                        "state": "NY", 
+                        "address": "3 5th ave", 
+                        "lat": 40.91072460231225, 
+                        "lng": -73.81000256934952
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 8, 
+                        "usersCount": 5
+                    }, 
+                    "id": "4c6ef079d7fab1f742e259c9", 
+                    "categories": [
+                        {
+                            "pluralName": "Delis / Bodegas", 
+                            "primary": true, 
+                            "name": "Deli / Bodega", 
+                            "shortName": "Deli / Bodega", 
+                            "id": "4bf58dd8d48988d146941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/deli_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Crumbs Bake Shop", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/crumbs-bake-shop/4a29eda5f964a520f5951fe3/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4a29eda5f964a520f5951fe3/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "2122211500", 
+                        "formattedPhone": "(212) 221-1500"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10036", 
+                        "state": "NY", 
+                        "crossStreet": "at 6th Ave", 
+                        "address": "43 W 42nd St", 
+                        "lat": 40.75402553608945, 
+                        "lng": -73.98357397865966
+                    }, 
+                    "stats": {
+                        "tipCount": 33, 
+                        "checkinsCount": 4243, 
+                        "usersCount": 2190
+                    }, 
+                    "id": "4a29eda5f964a520f5951fe3", 
+                    "categories": [
+                        {
+                            "pluralName": "Cupcake Shops", 
+                            "primary": true, 
+                            "name": "Cupcake Shop", 
+                            "shortName": "Cupcakes", 
+                            "id": "4bf58dd8d48988d1bc941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cupcakes_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Revlon Run/Walk for Women - New York", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "Times Square", 
+                        "lat": 40.75588278311168, 
+                        "lng": -73.9868152141571
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 385, 
+                        "usersCount": 324
+                    }, 
+                    "id": "4bdc141a3904a5933fc84c9e", 
+                    "categories": [
+                        {
+                            "pluralName": "Other Great Outdoors", 
+                            "primary": true, 
+                            "name": "Other Great Outdoors", 
+                            "shortName": "Other Outdoors", 
+                            "id": "4bf58dd8d48988d162941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/outdoors_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Craffles", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "address": "Moving Target", 
+                        "lat": 40.76794771303659, 
+                        "lng": -73.9639394166056
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 21, 
+                        "usersCount": 18
+                    }, 
+                    "id": "51c49672498eb080ac3e7356", 
+                    "categories": [
+                        {
+                            "pluralName": "Food Trucks", 
+                            "primary": true, 
+                            "name": "Food Truck", 
+                            "shortName": "Food Truck", 
+                            "id": "4bf58dd8d48988d1cb941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/streetfood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Harbor Towers Gym", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "West New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "07093", 
+                        "state": "NJ", 
+                        "lat": 40.78853601860392, 
+                        "lng": -74.00328687372989
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 33, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4c6326aeec94a593841a2bca", 
+                    "categories": [
+                        {
+                            "pluralName": "Gyms", 
+                            "primary": true, 
+                            "name": "Gym", 
+                            "shortName": "Gym", 
+                            "id": "4bf58dd8d48988d176941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/gym_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Great Peking", 
+                    "contact": {
+                        "phone": "9147386002", 
+                        "formattedPhone": "(914) 738-6002"
+                    }, 
+                    "location": {
+                        "city": "Pelham", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10803", 
+                        "state": "NY", 
+                        "address": "317 Fifth Ave", 
+                        "lat": 40.9158458464949, 
+                        "lng": -73.80750381241563
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 49, 
+                        "usersCount": 19
+                    }, 
+                    "id": "4d8d37add265236adfcbed16", 
+                    "categories": [
+                        {
+                            "pluralName": "Chinese Restaurants", 
+                            "primary": true, 
+                            "name": "Chinese Restaurant", 
+                            "shortName": "Chinese", 
+                            "id": "4bf58dd8d48988d145941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/chinese_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Starbucks Coffee", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/starbucks-coffee/4e4dcb0ebd41b76bef9333bf/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4e4dcb0ebd41b76bef9333bf/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "2123169401", 
+                        "formattedPhone": "(212) 316-9401"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "address": "2600 Broadway", 
+                        "lat": 40.79464139804249, 
+                        "lng": -73.97142385887315
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 183, 
+                        "usersCount": 106
+                    }, 
+                    "id": "4e4dcb0ebd41b76bef9333bf", 
+                    "categories": [
+                        {
+                            "pluralName": "Coffee Shops", 
+                            "primary": true, 
+                            "name": "Coffee Shop", 
+                            "shortName": "Coffee Shop", 
+                            "id": "4bf58dd8d48988d1e0931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Craffles", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.76803561877991, 
+                        "lng": -73.9820760601798
+                    }, 
+                    "stats": {
+                        "tipCount": 5, 
+                        "checkinsCount": 38, 
+                        "usersCount": 34
+                    }, 
+                    "id": "514e426ce4b05bcb261d910e", 
+                    "categories": [
+                        {
+                            "pluralName": "Food Trucks", 
+                            "primary": true, 
+                            "name": "Food Truck", 
+                            "shortName": "Food Truck", 
+                            "id": "4bf58dd8d48988d1cb941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/streetfood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Alicias bakery", 
+                    "contact": {
+                        "phone": "2017589112", 
+                        "formattedPhone": "(201) 758-9112"
+                    }, 
+                    "location": {
+                        "city": "North Bergen", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "07047", 
+                        "state": "NJ", 
+                        "address": "8625 Bergenline Ave", 
+                        "lat": 40.806294, 
+                        "lng": -74.003364
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 73, 
+                        "usersCount": 41
+                    }, 
+                    "id": "4d8f8b9e1d06b1f783c6613b", 
+                    "categories": [
+                        {
+                            "pluralName": "South American Restaurants", 
+                            "primary": true, 
+                            "name": "South American Restaurant", 
+                            "shortName": "South American", 
+                            "id": "4bf58dd8d48988d1cd941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Eli Zabar's Farm to Table", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10017", 
+                        "state": "NY", 
+                        "crossStreet": "43rd St", 
+                        "address": "Grand Central Market, Lexington Ave", 
+                        "lat": 40.752231878824944, 
+                        "lng": -73.97534963100587
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 38, 
+                        "usersCount": 25
+                    }, 
+                    "id": "5140f3f8e4b0772d2bd31578", 
+                    "categories": [
+                        {
+                            "pluralName": "Markets", 
+                            "primary": true, 
+                            "name": "Market", 
+                            "shortName": "Market", 
+                            "id": "50be8ee891d4fa8dcc7199a7", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Ceriello", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10174", 
+                        "state": "NY", 
+                        "crossStreet": "Grand Central Terminal", 
+                        "address": "308 Grand Central Terminal", 
+                        "lat": 40.752034615599676, 
+                        "lng": -73.97542998223076
+                    }, 
+                    "stats": {
+                        "tipCount": 6, 
+                        "checkinsCount": 90, 
+                        "usersCount": 61
+                    }, 
+                    "id": "4ac12dedf964a5201d9620e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Butchers", 
+                            "primary": true, 
+                            "name": "Butcher", 
+                            "shortName": "Butcher", 
+                            "id": "4bf58dd8d48988d11d951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/food_butcher_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

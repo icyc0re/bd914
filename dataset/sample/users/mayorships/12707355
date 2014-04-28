@@ -1,0 +1,371 @@
+{
+    "mayorships": {
+        "count": 10, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Morningside Heights", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10025", 
+                        "state": "NY", 
+                        "lat": 40.80984655907758, 
+                        "lng": -73.96245002746582
+                    }, 
+                    "stats": {
+                        "tipCount": 10, 
+                        "checkinsCount": 5962, 
+                        "usersCount": 1077
+                    }, 
+                    "id": "4d4d70c9b887a1cd88cabba0", 
+                    "categories": [
+                        {
+                            "pluralName": "Neighborhoods", 
+                            "primary": true, 
+                            "name": "Neighborhood", 
+                            "shortName": "Neighborhood", 
+                            "id": "4f2a25ac4b909258e854f55f", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Morgan Stanley", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10004", 
+                        "state": "NY", 
+                        "crossStreet": "Broad St", 
+                        "address": "1 New York Plz", 
+                        "lat": 40.70235527930501, 
+                        "lng": -74.01253717483038
+                    }, 
+                    "stats": {
+                        "tipCount": 4, 
+                        "checkinsCount": 8129, 
+                        "usersCount": 613
+                    }, 
+                    "id": "4b5ea8a4f964a520319529e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Offices", 
+                            "primary": true, 
+                            "name": "Office", 
+                            "shortName": "Office", 
+                            "id": "4bf58dd8d48988d124941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "House of Ham", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Chapel Hill", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NC", 
+                        "lat": 35.90138518695383, 
+                        "lng": -78.97972709012171
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 58, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4e2c9bd6d22d3f83c89ba478", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Haus of HAM", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "119th St", 
+                        "address": "Frederick Douglass Blvd", 
+                        "lat": 40.806831089538214, 
+                        "lng": -73.9533780530302
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 91, 
+                        "usersCount": 5
+                    }, 
+                    "id": "5278e70011d260b652875715", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "125th St.", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "address": "St. Nicholas - Lexington Ave", 
+                        "lat": 40.808482305933545, 
+                        "lng": -73.94777297973631
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 196, 
+                        "usersCount": 110
+                    }, 
+                    "id": "4e62800b1495676d55c60246", 
+                    "categories": [
+                        {
+                            "pluralName": "Roads", 
+                            "primary": true, 
+                            "name": "Road", 
+                            "shortName": "Road", 
+                            "id": "4bf58dd8d48988d1f9931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/highway_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Culture Trendz", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "126th St.", 
+                        "address": "Amsterdam", 
+                        "lat": 40.81386363457829, 
+                        "lng": -73.95590364906097
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 163, 
+                        "usersCount": 54
+                    }, 
+                    "id": "4bc0993af8219c741fc7b110", 
+                    "categories": [
+                        {
+                            "pluralName": "Salons / Barbershops", 
+                            "primary": true, 
+                            "name": "Salon / Barbershop", 
+                            "shortName": "Salon / Barbershop", 
+                            "id": "4bf58dd8d48988d110951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/salon_barber_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": true, 
+                    "name": "Richard B. Harrison Community Library", 
+                    "url": "http://www.wakegov.com/libraries", 
+                    "storeId": "", 
+                    "contact": {
+                        "phone": "9198565720", 
+                        "twitter": "wcplonline", 
+                        "formattedPhone": "(919) 856-5720"
+                    }, 
+                    "location": {
+                        "city": "Raleigh", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "27610", 
+                        "state": "NC", 
+                        "address": "1313 New Bern Ave", 
+                        "lat": 35.780267, 
+                        "lng": -78.618593
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 77, 
+                        "usersCount": 43
+                    }, 
+                    "id": "4c914c2e490376b0984bde36", 
+                    "categories": [
+                        {
+                            "pluralName": "Libraries", 
+                            "primary": true, 
+                            "name": "Library", 
+                            "shortName": "Library", 
+                            "id": "4bf58dd8d48988d12f941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Sandwich Line @ The Caf", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10004", 
+                        "state": "NY", 
+                        "lat": 40.70170010829268, 
+                        "lng": -74.0120838516447
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 6
+                    }, 
+                    "id": "4be8326ac5220f47cc6aa9ca", 
+                    "categories": [
+                        {
+                            "pluralName": "Sandwich Places", 
+                            "primary": true, 
+                            "name": "Sandwich Place", 
+                            "shortName": "Sandwiches", 
+                            "id": "4bf58dd8d48988d1c5941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/sandwiches_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Vintage Harlem", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "121", 
+                        "address": "2235 Frederick Douglass Blvd", 
+                        "lat": 40.80741898650285, 
+                        "lng": -73.95316567185884
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 115, 
+                        "usersCount": 66
+                    }, 
+                    "id": "517af366e4b0f03468c26dfa", 
+                    "categories": [
+                        {
+                            "pluralName": "Wineries", 
+                            "primary": true, 
+                            "name": "Winery", 
+                            "shortName": "Winery", 
+                            "id": "4bf58dd8d48988d14b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/winery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "El Manantial Bakery", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10032", 
+                        "state": "NY", 
+                        "address": "1220 Saint Nicholas Ave", 
+                        "lat": 40.84297606128973, 
+                        "lng": -73.9383500744899
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 223, 
+                        "usersCount": 72
+                    }, 
+                    "id": "4bf479ace5eba593e3bb1f90", 
+                    "categories": [
+                        {
+                            "pluralName": "Bakeries", 
+                            "primary": true, 
+                            "name": "Bakery", 
+                            "shortName": "Bakery", 
+                            "id": "4bf58dd8d48988d16a941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/bakery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "mayorships": {
+        "count": 3, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Chez RAR", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Astoria", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "11105", 
+                        "state": "NY", 
+                        "lat": 40.77381896972656, 
+                        "lng": -73.90679931640625
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 77, 
+                        "usersCount": 3
+                    }, 
+                    "id": "51182fb2e4b05a0eb9ac13a9", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "L, J & A's Apt", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.84302968918218, 
+                        "lng": -73.94186034276925
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 15, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4c9ed9ac031337049f616dd5", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Helen B Atkinson Health Center", 
+                    "url": "http://www.chnnyc.org", 
+                    "contact": {
+                        "phone": "2124260088", 
+                        "formattedPhone": "(212) 426-0088"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10026", 
+                        "state": "NY", 
+                        "crossStreet": "Lennox Ave", 
+                        "address": "81 W 115th St", 
+                        "lat": 40.801186982699726, 
+                        "lng": -73.94960681750473
+                    }, 
+                    "stats": {
+                        "tipCount": 3, 
+                        "checkinsCount": 55, 
+                        "usersCount": 25
+                    }, 
+                    "id": "4c41d26fcc410f475dbbab61", 
+                    "categories": [
+                        {
+                            "pluralName": "Non-Profits", 
+                            "primary": true, 
+                            "name": "Non-Profit", 
+                            "shortName": "Non-Profit", 
+                            "id": "50328a8e91d4c4b30a586d6c", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

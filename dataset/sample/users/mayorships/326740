@@ -1,0 +1,331 @@
+{
+    "mayorships": {
+        "count": 9, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Chets Creek Elementary School", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Jacksonville", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "32224", 
+                        "state": "FL", 
+                        "address": "13200 Chets Creek Blvd", 
+                        "lat": 30.26714777676383, 
+                        "lng": -81.46787166595459
+                    }, 
+                    "stats": {
+                        "tipCount": 6, 
+                        "checkinsCount": 2075, 
+                        "usersCount": 117
+                    }, 
+                    "id": "4b66d0bbf964a520e72b2be3", 
+                    "categories": [
+                        {
+                            "pluralName": "Schools", 
+                            "primary": true, 
+                            "name": "School", 
+                            "shortName": "School", 
+                            "id": "4bf58dd8d48988d13b941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/school_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Scott Jones School of Dance", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Jacksonville", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "32277", 
+                        "state": "FL", 
+                        "lat": 30.3667693636213, 
+                        "lng": -81.5886585357626
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 480, 
+                        "usersCount": 28
+                    }, 
+                    "id": "4b69e9c8f964a520c3bb2be3", 
+                    "categories": [
+                        {
+                            "pluralName": "Dance Studios", 
+                            "primary": true, 
+                            "name": "Dance Studio", 
+                            "shortName": "Dance Studio", 
+                            "id": "4bf58dd8d48988d134941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/performingarts_dancestudio_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dr. Joseph Mavek", 
+                    "contact": {
+                        "phone": "9042735770", 
+                        "formattedPhone": "(904) 273-5770"
+                    }, 
+                    "location": {
+                        "city": "Ponte Vedra Beach", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "32082", 
+                        "state": "FL", 
+                        "address": "822 A1a N, Ste 314", 
+                        "lat": 30.199260221797584, 
+                        "lng": -81.38118656759634
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 11, 
+                        "usersCount": 7
+                    }, 
+                    "id": "4da46dc49aa4721e486b371a", 
+                    "categories": [
+                        {
+                            "pluralName": "Dentist's Offices", 
+                            "primary": true, 
+                            "name": "Dentist's Office", 
+                            "shortName": "Dentist's Office", 
+                            "id": "4bf58dd8d48988d178941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_dentist_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dr. David Carden", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Jacksonville Beach", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "32250", 
+                        "state": "FL", 
+                        "address": "3540 3rd St S", 
+                        "lat": 30.261605, 
+                        "lng": -81.387605
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 57, 
+                        "usersCount": 15
+                    }, 
+                    "id": "4b69762af964a52045a32be3", 
+                    "categories": [
+                        {
+                            "pluralName": "Dentist's Offices", 
+                            "primary": true, 
+                            "name": "Dentist's Office", 
+                            "shortName": "Dentist's Office", 
+                            "id": "4bf58dd8d48988d178941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_dentist_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Guest Laundry Room", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Lake Buena Vista", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "32836", 
+                        "state": "FL", 
+                        "crossStreet": "Walt Disney World", 
+                        "address": "Saratoga Springs Resort", 
+                        "lat": 28.37633812794486, 
+                        "lng": -81.52286201781092
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 57, 
+                        "usersCount": 49
+                    }, 
+                    "id": "50e05944e4b0c73e72d023ae", 
+                    "categories": [
+                        {
+                            "pluralName": "Laundry Services", 
+                            "primary": true, 
+                            "name": "Laundry Service", 
+                            "shortName": "Laundry", 
+                            "id": "4bf58dd8d48988d1fc941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Spray N Glo", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Jacksonville", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "32246", 
+                        "state": "FL", 
+                        "lat": 30.31561448458907, 
+                        "lng": -81.46556726140422
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 5, 
+                        "usersCount": 2
+                    }, 
+                    "id": "50b69d65e4b0748ab34912e7", 
+                    "categories": [
+                        {
+                            "pluralName": "Spas", 
+                            "primary": true, 
+                            "name": "Spa", 
+                            "shortName": "Spa", 
+                            "id": "4bf58dd8d48988d1ed941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/spa_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Regalia Magnificent Apparel", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Orlando", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "FL", 
+                        "address": "813 E Washington Street", 
+                        "lat": 28.543776266927335, 
+                        "lng": -81.36686163908487
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 13, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4e0e0e1b14956c6284f66a08", 
+                    "categories": [
+                        {
+                            "pluralName": "Boutiques", 
+                            "primary": true, 
+                            "name": "Boutique", 
+                            "shortName": "Boutique", 
+                            "id": "4bf58dd8d48988d104951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_boutique_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Family Allergy & Asthma Consultants", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Jacksonville Beach", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "32250", 
+                        "state": "FL", 
+                        "lat": 30.287134051322937, 
+                        "lng": -81.40284419059753
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 3, 
+                        "usersCount": 2
+                    }, 
+                    "id": "4bd6e2744e32d13acb3dc380", 
+                    "categories": [
+                        {
+                            "pluralName": "Doctor's Offices", 
+                            "primary": true, 
+                            "name": "Doctor's Office", 
+                            "shortName": "Doctor's Office", 
+                            "id": "4bf58dd8d48988d177941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "T-N Nails", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Jacksonville", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "32225", 
+                        "state": "FL", 
+                        "address": "2771 Monument Rd", 
+                        "lat": 30.360988368494812, 
+                        "lng": -81.50167103197978
+                    }, 
+                    "stats": {
+                        "tipCount": 2, 
+                        "checkinsCount": 89, 
+                        "usersCount": 36
+                    }, 
+                    "id": "4b8ab407f964a520f07a32e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Spas", 
+                            "primary": true, 
+                            "name": "Spa", 
+                            "shortName": "Spa", 
+                            "id": "4bf58dd8d48988d1ed941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/spa_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

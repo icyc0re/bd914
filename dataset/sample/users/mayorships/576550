@@ -1,0 +1,378 @@
+{
+    "mayorships": {
+        "count": 10, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dusty's Doghouse", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Brooklyn", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.6619961743528, 
+                        "lng": -73.98887973002674
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 21, 
+                        "usersCount": 1
+                    }, 
+                    "id": "4bda425ec79cc9286e4d7ee9", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Park Savoy", 
+                    "url": "http://www.theparksavoy.com", 
+                    "menu": {
+                        "url": "https://foursquare.com/v/park-savoy/4bdcc49f2a3a0f474559b4b6/menu", 
+                        "mobileUrl": "https://foursquare.com/v/4bdcc49f2a3a0f474559b4b6/device_menu", 
+                        "type": "Menu", 
+                        "anchor": "View Menu", 
+                        "label": "Menu"
+                    }, 
+                    "contact": {
+                        "phone": "9733777100", 
+                        "formattedPhone": "(973) 377-7100"
+                    }, 
+                    "location": {
+                        "city": "Florham Park", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NJ", 
+                        "address": "236 Ridgedale Ave", 
+                        "lat": 40.792772, 
+                        "lng": -74.388584
+                    }, 
+                    "stats": {
+                        "tipCount": 6, 
+                        "checkinsCount": 775, 
+                        "usersCount": 655
+                    }, 
+                    "id": "4bdcc49f2a3a0f474559b4b6", 
+                    "categories": [
+                        {
+                            "pluralName": "Gardens", 
+                            "primary": true, 
+                            "name": "Garden", 
+                            "shortName": "Garden", 
+                            "id": "4bf58dd8d48988d15a941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/garden_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Commute Hell On The 126", 
+                    "contact": {}, 
+                    "location": {
+                        "lat": 40.76229558016251, 
+                        "cc": "US", 
+                        "lng": -74.01503330221823, 
+                        "state": "New Jersey", 
+                        "country": "United States"
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 10, 
+                        "usersCount": 3
+                    }, 
+                    "id": "51af2d4c498eb27a4d32a72b", 
+                    "categories": [
+                        {
+                            "pluralName": "Moving Targets", 
+                            "primary": true, 
+                            "name": "Moving Target", 
+                            "shortName": "Moving Target", 
+                            "id": "4f2a23984b9023bd5841ed2c", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/movingtarget_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Harrison Ford's apt", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "isFuzzed": true, 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "lat": 40.741109827901944, 
+                        "lng": -73.98887973002674
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 23, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4cc1137022ce468855843b47", 
+                    "categories": [
+                        {
+                            "pluralName": "Homes (private)", 
+                            "primary": true, 
+                            "name": "Home (private)", 
+                            "shortName": "Home", 
+                            "id": "4bf58dd8d48988d103941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Aunty Sandy's Banana Bread", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "Hawaii", 
+                        "lat": 20.863219, 
+                        "lng": -156.147366
+                    }, 
+                    "stats": {
+                        "tipCount": 14, 
+                        "checkinsCount": 458, 
+                        "usersCount": 447
+                    }, 
+                    "id": "4c33beef452620a1551f240f", 
+                    "categories": [
+                        {
+                            "pluralName": "Bakeries", 
+                            "primary": true, 
+                            "name": "Bakery", 
+                            "shortName": "Bakery", 
+                            "id": "4bf58dd8d48988d16a941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/food/bakery_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Chung King Studios", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10018", 
+                        "state": "NY", 
+                        "crossStreet": "between 5th & 6th", 
+                        "address": "36 W 37th St, Fl 3", 
+                        "lat": 40.75102935552131, 
+                        "lng": -73.98495136465534
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 76, 
+                        "usersCount": 60
+                    }, 
+                    "id": "50500fd3e4b056062100afd8", 
+                    "categories": [
+                        {
+                            "pluralName": "Music Venues", 
+                            "primary": true, 
+                            "name": "Music Venue", 
+                            "shortName": "Music Venue", 
+                            "id": "4bf58dd8d48988d1e5931735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Michael Bacon Music", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "crossStreet": "70th Street", 
+                        "address": "230 W End Ave", 
+                        "lat": 40.795538, 
+                        "lng": -73.973044
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 4, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4bc5fa306c26b7131112ecf3", 
+                    "categories": [
+                        {
+                            "pluralName": "Buildings", 
+                            "primary": true, 
+                            "name": "Building", 
+                            "shortName": "Building", 
+                            "id": "4bf58dd8d48988d130941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Kalalau Trail", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "Hanalei", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "96714", 
+                        "state": "HI", 
+                        "address": "End of Highway 56", 
+                        "lat": 22.220224428303837, 
+                        "lng": -159.5826816558838
+                    }, 
+                    "stats": {
+                        "tipCount": 14, 
+                        "checkinsCount": 431, 
+                        "usersCount": 414
+                    }, 
+                    "id": "4bda42b73904a59378ed459e", 
+                    "categories": [
+                        {
+                            "pluralName": "Trails", 
+                            "primary": true, 
+                            "name": "Trail", 
+                            "shortName": "Trail", 
+                            "id": "4bf58dd8d48988d159941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/hikingtrail_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Dusty's Doghouse", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "state": "NY", 
+                        "crossStreet": "Columbus Avenue", 
+                        "address": "56 West 76th Street", 
+                        "lat": 40.779742, 
+                        "lng": -73.976504
+                    }, 
+                    "stats": {
+                        "tipCount": 1, 
+                        "checkinsCount": 82, 
+                        "usersCount": 3
+                    }, 
+                    "id": "4e2c3987b0fbc2edac29a3b6", 
+                    "categories": [
+                        {
+                            "pluralName": "Residential Buildings (Apartments / Condos)", 
+                            "primary": true, 
+                            "name": "Residential Building (Apartment / Condo)", 
+                            "shortName": "Residential", 
+                            "id": "4d954b06a243a5684965b473", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Bang & Olufsen", 
+                    "url": "http://www.bang-olufsen.com", 
+                    "contact": {
+                        "phone": "2125010926", 
+                        "twitter": "bangolufsen", 
+                        "formattedPhone": "(212) 501-0926"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "crossStreet": "btwn 75th & 76th", 
+                        "address": "330 Columbus Ave", 
+                        "lat": 40.77962126333151, 
+                        "lng": -73.97703126035678
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 54, 
+                        "usersCount": 41
+                    }, 
+                    "id": "4b5b76c4f964a5200c0029e3", 
+                    "categories": [
+                        {
+                            "pluralName": "Electronics Stores", 
+                            "primary": true, 
+                            "name": "Electronics Store", 
+                            "shortName": "Electronics", 
+                            "id": "4bf58dd8d48988d122951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/technology_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

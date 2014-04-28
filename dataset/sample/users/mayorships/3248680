@@ -1,0 +1,82 @@
+{
+    "mayorships": {
+        "count": 2, 
+        "items": [
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "New 2000 Auto & Electric", 
+                    "contact": {
+                        "phone": "2122349770", 
+                        "formattedPhone": "(212) 234-9770"
+                    }, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10027", 
+                        "state": "NY", 
+                        "crossStreet": "132nd street", 
+                        "address": "2315 12th Ave", 
+                        "lat": 40.81942856311798, 
+                        "lng": -73.95927965641022
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 21, 
+                        "usersCount": 10
+                    }, 
+                    "id": "4cb61e991b0af04dd542ce25", 
+                    "categories": [
+                        {
+                            "pluralName": "Automotive Shops", 
+                            "primary": true, 
+                            "name": "Automotive Shop", 
+                            "shortName": "Automotive", 
+                            "id": "4bf58dd8d48988d124951735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/automotive_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }, 
+            {
+                "venue": {
+                    "verified": false, 
+                    "name": "Topal Orthodontics", 
+                    "contact": {}, 
+                    "location": {
+                        "city": "New York", 
+                        "cc": "US", 
+                        "country": "United States", 
+                        "postalCode": "10023", 
+                        "state": "NY", 
+                        "lat": 40.78028335310314, 
+                        "lng": -73.9820645818322
+                    }, 
+                    "stats": {
+                        "tipCount": 0, 
+                        "checkinsCount": 92, 
+                        "usersCount": 11
+                    }, 
+                    "id": "4b6c273bf964a52078262ce3", 
+                    "categories": [
+                        {
+                            "pluralName": "Medical Centers", 
+                            "primary": true, 
+                            "name": "Medical Center", 
+                            "shortName": "Medical", 
+                            "id": "4bf58dd8d48988d104941735", 
+                            "icon": {
+                                "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_", 
+                                "suffix": ".png"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
