@@ -27,9 +27,10 @@ object RecommenderApp {
     val users : Seq[User] = new UserInputProcessor().processUsersInDir("../dataset/sample/users/")
     
     // Pre Filtering:
-    val context = Context.grab()
-    PreFilter.apply(v, context)
-    if (1==1) return
+//    val dummyContext = Context.grab() 
+//    val dummyVenues  = Venue.getDummyVector()
+//    PreFilter.apply(dummyVenues, dummyContext)
+//    if (1==1) return
     
     val topKVenues = users(0).getTopKVenues(5, v)
     // apply venue features to user vector

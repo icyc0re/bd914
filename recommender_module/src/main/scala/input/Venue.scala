@@ -7,7 +7,8 @@ import play.api.libs.functional.syntax._
 import features.{TextFeature, IntFeature}
 import utils.Cons
 import vectors.VenueVector
-import features.CoordinatesFeature
+import features._
+import context.Context
 
 /**
  * @author Matteo Pagliardini
