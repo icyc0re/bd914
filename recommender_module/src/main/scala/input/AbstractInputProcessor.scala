@@ -28,7 +28,7 @@ trait AbstractInputProcessor {
     if (!dir.isDirectory){
       throw new Exception("Directory expected")
     }
-    //ignore hidden files
+    //ignore hidden files and check file is file
     dir.listFiles.filter(!_.getName.startsWith(".")).filter(_.isFile()).map(x => processData(scala.io.Source.fromFile(x)))
   }
 }

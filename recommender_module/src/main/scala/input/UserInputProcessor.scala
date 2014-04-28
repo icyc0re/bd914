@@ -24,7 +24,7 @@ class UserInputProcessor extends AbstractInputProcessor{
     if (!dir.isDirectory){
       throw new Exception("Directory expected")
     }
-    //ignore hidden files
+    //ignore hidden files and check file is files
     dir.listFiles.filter(!_.getName.startsWith(".")).filter(_.isFile()).map(x => new User(scala.io.Source.fromFile(x).mkString))
   }
 }
