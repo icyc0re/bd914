@@ -17,6 +17,7 @@ object Category {
   def getAll: Seq[String] = {
     categories match {
       case Nil => init(Cons.CATEGORIES_INPUT_PATH)
+      case _ => //nothing
     }
     categories
   }
@@ -56,6 +57,7 @@ object Category {
   def getCategoriesSimilarity(category1: String, category2: String): Double = {
     similarity match {
       case x if similarity.isEmpty => initMatrix(Cons.CATEGORIES_MATRIX_INPUT_PATH)
+      case _ => // nothing
     }
 
     similarity(category1)(category2)

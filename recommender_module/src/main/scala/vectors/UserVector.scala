@@ -75,6 +75,7 @@ object UserVector {
     vectors match {
       case Nil =>
         vectors = new UserInputProcessor().processInDir(Cons.USERS_PATH)
+      case _ => // nothing
     }
     vectors
   }
