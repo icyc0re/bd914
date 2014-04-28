@@ -134,7 +134,7 @@ class User(jsonString: String) {
   def getGPSCenter(): (Double, Double) = {
 
     var lat: Double = 0
-    var lon: Double = 0
+    var lng: Double = 0
     
     for( interaction <- interactions.items){
       //get venue gps location
@@ -142,10 +142,10 @@ class User(jsonString: String) {
       val jsonString = scala.io.Source.fromFile(venue_path).mkString
       val venue = new Venue(jsonString)
       lat += venue.venue.location.get.lat.get
-      lon += venue.venue.location.get.lon.get
+      lng += venue.venue.location.get.lng.get
     }
     
-    (lat / interactions.count, lon / interactions.count)
+    (lat / interactions.count, lng / interactions.count)
   }
   
   def getTopKVenues(k : Int, allVenueVectors: Seq[VenueVector]): Seq[String] = {

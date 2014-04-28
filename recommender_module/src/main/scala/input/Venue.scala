@@ -16,8 +16,8 @@ case class VenueContact(twitter: Option[String], facebook: Option[String], phone
 
 case class VenueStats(checkinsCount: Int, usersCount: Option[Int], tipCount: Option[Int])
 
-case class VenueLocation(city: Option[String], cc: Option[String], country: Option[String], address: Option[String], crossStreet: Option[String],
-                         state: Option[String], postalCode: Option[String], lat: Option[Double], lon: Option[Double])
+case class VenueLocation(city: Option[String], cc: Option[String], state: Option[String],
+                          lat: Option[Double], lng: Option[Double])
 
 case class VenueCategory(id: Option[String], name: String, pluralName: Option[String], shortName: Option[String],
                          primary: Option[Boolean])
@@ -210,13 +210,9 @@ println(map)*/
    implicit val VenueLocationRead: Reads[VenueLocation] = (
        (__ \ "city").readNullable[String] and
        (__ \ "cc").readNullable[String] and
-       (__ \ "country").readNullable[String] and
-       (__ \ "postalCode").readNullable[String] and
-       (__ \ "state").readNullable[String] and
-       (__ \ "crossStreet").readNullable[String] and
-       (__ \ "address").readNullable[String] and
+       (__ \ "state").readNullable[String] and       
        (__ \ "lat").readNullable[Double] and
-      (__ \ "lon").readNullable[Double]
+      (__ \ "lng").readNullable[Double]
     )(VenueLocation.apply _)
 
   implicit val venueCompactRead: Reads[VenueCompact] = (
@@ -321,7 +317,7 @@ object Venue{
       IntFeature(Cons.TIP_COUNT, v.venue.stats.tipCount.get),
       IntFeature(Cons.USERS_COUNT, v.venue.stats.usersCount.get),
       TextFeature(Cons.VENUE_ID, v.venue.id),
-      CoordinatesFeature(Cons.GPS_COORDINATES, (v.venue.location.get.lat.get, v.venue.location.get.lon.get))
+      CoordinatesFeature(Cons.GPS_COORDINATES, (v.venue.location.get.lat.get, v.venue.location.get.lng.get))
     )
     new VenueVector(features, null)
   }
