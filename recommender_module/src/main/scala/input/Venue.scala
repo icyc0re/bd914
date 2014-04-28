@@ -242,11 +242,7 @@ println(map)*/
     	JSvenue match {
 	  		case s: JsSuccess[VenueCompact] => s.get.asInstanceOf[VenueCompact]
 	 		case e: JsError => VenueCompact(None , "JsError", "JsError", None, VenueStats(-1,None,None), None, None, None, None,
-<<<<<<< HEAD
         None, List[Nothing](), None, None, None, None, None, None, None, None)
-=======
-	 										None, List[Nothing](), None, None, None, None, None, None, None, None)
->>>>>>> 54d7fad1d9181e515c6a73799cf653859ea32abf
 		}
 	}
 
