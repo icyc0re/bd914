@@ -26,7 +26,7 @@ object Category {
    * @param path path to file
    */
   private def init(path: String) = {
-    categories = Array.empty
+    categories = Array.empty[String]
     for (line <- scala.io.Source.fromFile(path).getLines()) {
       categories :+= line
     }
@@ -42,7 +42,7 @@ object Category {
       val values: Seq[Double] = line.split(" ").map(_.toDouble)
 
       for ((v, i) <- values.zipWithIndex){
-        similarity += categories(index) -> (categories(i) -> v)
+        similarity += categories(index) -> (similarity.getOrElse(categories(index), Map.empty) + (categories(i) -> v))
       }
     }
   }
@@ -55,7 +55,7 @@ object Category {
    */
   def getCategoriesSimilarity(category1: String, category2: String): Double = {
     similarity match {
-      case Nil => initMatrix(Cons.CATEGORIES_MATRIX_INPUT_PATH)
+      case x if similarity.isEmpty => initMatrix(Cons.CATEGORIES_MATRIX_INPUT_PATH)
     }
 
     similarity(category1)(category2)
