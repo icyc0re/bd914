@@ -182,12 +182,7 @@ class User(jsonString: String) {
 object User {
   def featureVector(u: User): UserVector = {
     val features = List(
-      //TODO: use some of commented features
-      //      DoubleFeature(Cons.USER_CHECKINS, u.checkins.count),
-      //      DoubleFeature(Cons.TIP_COUNT, u.tips.count),
-      //      GenderFeature(Cons.GENDER, u.gender),
-      //      UserVector.homeCity(u.homeCity),
-      //      TextFeature(Cons.USER_ID, u.id),
+      TextFeature(Cons.USER_ID, u.id),
       CoordinatesFeature(Cons.GPS_COORDINATES, u.getGPSCenter()),
       DoubleFeature(Cons.POPULARITY, compute_popularity(u.friends.count, u.interactions.count))
       //TODO: use different weights for the different types of interactions

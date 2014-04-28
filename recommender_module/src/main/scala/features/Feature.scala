@@ -30,5 +30,5 @@ abstract class Feature[+K, +V](k:K, v:V){
 trait NumericFeature
 trait Filterable { 
 	// Used in Filtering components to check compatibility
-  	def compareTo(feat: Feature[_,_]): Boolean = true
+  	def compareTo(feat: Feature[_,_]): Boolean= true
 }

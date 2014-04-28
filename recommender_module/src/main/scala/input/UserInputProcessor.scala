@@ -17,14 +17,4 @@ class UserInputProcessor extends AbstractInputProcessor{
   override def processData(input: BufferedSource): T = {
     User.featureVector(new User(input.mkString))
   }
-  
-  // for testing purposes, maybe refactor processing to return Users instead of Vectors
-  def processUsersInDir(dirName: String): Seq[User] = {
-    val dir = new File(dirName)
-    if (!dir.isDirectory){
-      throw new Exception("Directory expected")
-    }
-    //ignore hidden files and check file is files
-    dir.listFiles.filter(!_.getName.startsWith(".")).filter(_.isFile()).map(x => new User(scala.io.Source.fromFile(x).mkString))
-  }
 }
