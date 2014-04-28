@@ -129,18 +129,16 @@ class User(jsonString: String) {
     interactionsList.toList
   }
 
-  def getGPSCenter(): (Double, Double) = {
 
+  def getGPSCenter: (Double, Double) = {
     var lat: Double = 0
     var lng: Double = 0
 
     for (interaction <- interactions.items) {
       //get venue gps location
-      val venue_path: String = "../dataset/sample/venues/" + interaction
-      val jsonString = scala.io.Source.fromFile(venue_path).mkString
-      val venue = new Venue(jsonString)
-      lat += venue.venue.location.get.lat.get
-      lng += venue.venue.location.get.lng.get
+      val (venueLat, venueLng) = VenueVector.getById(interaction).getFeatureValue[CoordinatesFeature](Cons.GPS_COORDINATES)
+      lat += venueLat
+      lng += venueLng
     }
 
     (lat / interactions.count, lng / interactions.count)
