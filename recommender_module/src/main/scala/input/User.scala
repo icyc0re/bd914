@@ -73,10 +73,6 @@ class User(jsonString: String) {
   //all interactions
   val interactions = Interactions(mayorships.count + photos.count + tips.count, mayorships.items ++ photos.items ++ tips.items)
 
-
-  //TODO get the list of venues for this user i.e. id of venues that this user interacted with
-  val venues: List[String] = List.empty
-
   groups.foreach(group => {
     val grp: Map[String, Any] = group.asInstanceOf[Map[String, Any]]
     friendsCount += grp("count").asInstanceOf[Double]
@@ -169,6 +165,18 @@ class User(jsonString: String) {
     }
 
     return topKVenueVectors
+  }
+
+  /**
+   * @return return a list of all the categories associated to all the venues the user interacted with
+   */
+  def getCategoriesList() : Set[String] = {
+    var categoriesList: ListBuffer[String] = new ListBuffer[String]
+    for(venueId <- interactions.items) {
+      categoriesList += VenueVector.getById(venueId).getFeatureValue[VenueCategory](Cons.CATEGORY).get.name
+    }
+    //categoriesList.flatten.toList
+    categoriesList.toSet
   }
 
 }

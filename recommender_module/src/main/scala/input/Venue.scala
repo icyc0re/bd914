@@ -333,7 +333,8 @@ object Venue{
 //      TextFeature(Cons.VENUE_ID, v.venue.id),
       IntFeature(Cons.POPULARITY, v.venue.stats.checkinsCount
           + v.venue.stats.tipCount.get),
-        CoordinatesFeature(Cons.GPS_COORDINATES, (v.venue.location.get.lat.get, v.venue.location.get.lng.get))
+        CoordinatesFeature(Cons.GPS_COORDINATES, (v.venue.location.get.lat.get, v.venue.location.get.lng.get)),
+        CategoryFeature(Cons.CATEGORY, v.venue.categories.get)
     )
     new VenueVector(features, null)
   }
