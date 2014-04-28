@@ -6,6 +6,7 @@ import vectors.ContextVector
 import scala.math
 import features.DoubleFeature
 import utils.Cons
+import utils.Haversine
 
 object PostFilter {
 
@@ -34,7 +35,8 @@ object PostFilter {
     //Etc
 
     //Add the location component
-    val distance = math.sqrt( math.pow(venue.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get._1 - context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get._1 , 2)  +  math.pow(venue.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get._2 - context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get._2 , 2)   )//Distance between the user and the venue
+    //val distance = math.sqrt( math.pow(venue.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get._1 - context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get._1 , 2)  +  math.pow(venue.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get._2 - context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get._2 , 2)   )//Distance between the user and the venue
+    val distance = Haversine.getDistance(venue.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get, context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get);
 
     sum -= weights.getFeatureValue[Double]("Location").get * distance;
 
