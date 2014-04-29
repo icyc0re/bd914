@@ -1,9 +1,9 @@
 package filtering
 
 import vectors.AbstractVector
-import features.IntFeature
+import features.{DoubleFeature, IntFeature, CoordinatesFeature}
 import utils.{Cons, Haversine}
-import features.CoordinatesFeature
+import input.Category
 
 
 /**
@@ -44,27 +44,32 @@ object MockVectorSimilarity extends VectorSimilarity {
    */
   def calculateSimilarity(fst: AbstractVector, snd: AbstractVector): Double = {
 
+    // categories similarity
+    val userCategories = fst.getFeatureValue[Seq[String]](Cons.CATEGORY).get
+    val venuesCategories = snd.getFeatureValue[Seq[String]](Cons.CATEGORY).get
+    var catSim = .0
+    userCategories.foreach(cat1=>
+      venuesCategories.foreach(cat2=>
+        catSim += Category.getCategoriesSimilarity(cat1, cat2)
+      )
+    )
+
+    if (userCategories.size * venuesCategories.size == 0) catSim = 0
+    else catSim /= userCategories.size * venuesCategories.size
+
     //coordinates' similarities
-    
-    val gps_distance = Haversine.getDistance(fst.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get, 
-    									 snd.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get)
-    
     val user_coord = fst.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get
     val user_pop = fst.getFeatureValue[Double](Cons.POPULARITY).get
 
-    val venue_coord = snd.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get								 
+    val venue_coord = snd.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get
     val venue_pop = snd.getFeatureValue[Double](Cons.POPULARITY).get
-    
-    val dotProduct = user_coord._1 * venue_coord._1 
-    				+ user_coord._2 * venue_coord._2
-    				+ user_pop * venue_pop
-    									 
-    val norm =  Math.sqrt(user_coord._1*user_coord._1+user_coord._2*user_coord._2
-    						+user_pop*user_pop) *
-    			Math.sqrt(venue_coord._1*venue_coord._1+venue_coord._2*venue_coord._2
-    						+venue_pop*venue_pop)
-    				
-    dotProduct / norm
+
+    val dotProduct = user_coord._1 * venue_coord._1 + user_coord._2 * venue_coord._2 + user_pop * venue_pop
+
+    val norm =  Math.sqrt(user_coord._1*user_coord._1+user_coord._2*user_coord._2 +user_pop*user_pop) * Math.sqrt(venue_coord._1*venue_coord._1+venue_coord._2*venue_coord._2 +venue_pop*venue_pop)
+
+
+    dotProduct/norm + catSim
 //    // get (x0*y0 + x1*y1 + ... + x_n * y_n)
 //    val dotProd = (fst.getFeaturesTyped[IntFeature], snd.getFeaturesTyped[IntFeature]).zipped.foldRight(0) {
 //      (x: (IntFeature, IntFeature), b: Int) =>

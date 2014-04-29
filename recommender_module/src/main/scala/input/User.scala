@@ -4,14 +4,13 @@ import scala.util.parsing.json.JSON
 import scala.collection.mutable.ListBuffer
 import vectors.UserVector
 import utils.Cons
-import features.DoubleFeature
+import features.{CategoryFeature, TextFeature, DoubleFeature, CoordinatesFeature}
 
 //import java.nio.file.Files
 //import java.nio.file.Paths
 
 import vectors.VenueVector
 import filtering.MockVectorSimilarity
-import features.CoordinatesFeature
 
 case class Checkins(count: Double)
 
@@ -140,8 +139,8 @@ class User(jsonString: String) {
         case null => // ignore this one
       }
     }
-
-    (lat / interactions.count, lng / interactions.count)
+    if (interactions.count == 0) (40.7056308,-73.9780035)
+    else (lat / interactions.count, lng / interactions.count)
   }
 
   def getTopKVenues(k: Int, allVenueVectors: Seq[VenueVector]): Seq[String] = {
@@ -168,13 +167,12 @@ class User(jsonString: String) {
   /**
    * @return return a list of all the categories associated to all the venues the user interacted with
    */
-  def getCategoriesList() : Set[String] = {
-    var categoriesList: ListBuffer[String] = new ListBuffer[String]
-    for(venueId <- interactions.items) {
-      categoriesList += VenueVector.getById(venueId).getFeatureValue[VenueCategory](Cons.CATEGORY).get.name
+  def getCategoriesList: Seq[String] = {
+    var categoriesList: Seq[String] = List.empty[String]
+    for (venueId <- interactions.items) {
+      categoriesList :+= VenueVector.getById(venueId).getFeatureValue[VenueCategory](Cons.CATEGORY).get.name
     }
-    //categoriesList.flatten.toList
-    categoriesList.toSet
+    categoriesList
   }
 
 }
@@ -184,7 +182,8 @@ object User {
     val features = List(
       TextFeature(Cons.USER_ID, u.id),
       CoordinatesFeature(Cons.GPS_COORDINATES, u.getGPSCenter),
-      DoubleFeature(Cons.POPULARITY, compute_popularity(u.friends.count, u.interactions.count))
+      DoubleFeature(Cons.POPULARITY, compute_popularity(u.friends.count, u.interactions.count)),
+      CategoryFeature(Cons.CATEGORY, u.getCategoriesList)
       //TODO: use different weights for the different types of interactions
     )
     new UserVector(features, null)

@@ -328,9 +328,9 @@ object Venue{
   def featureVector(v: Venue):VenueVector = {
     val features = List(
       TextFeature(Cons.VENUE_ID, v.venue.id),
-      IntFeature(Cons.POPULARITY, v.venue.stats.checkinsCount + v.venue.stats.tipCount.get),
+      DoubleFeature(Cons.POPULARITY, compute_popularity(v.venue.stats.checkinsCount, v.venue.stats.tipCount.get, v.venue.stats.usersCount.get)),
         CoordinatesFeature(Cons.GPS_COORDINATES, (v.venue.location.get.lat.get, v.venue.location.get.lng.get)),
-        CategoryFeature(Cons.CATEGORY, v.venue.categories.get)
+        CategoryFeature(Cons.CATEGORY, v.venue.categories.get.map(_.name))
     )
     new VenueVector(features, null)
   }
