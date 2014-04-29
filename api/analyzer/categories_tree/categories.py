@@ -59,11 +59,6 @@ class Node(object):
 			if c is not exception:
 				c.compute(similarity * DOWNSCALE_K, self)
 
-	def clean_similarity(self):
-		self.similarity = 0.0
-		for c in self.children:
-			c.clean_similarity()
-
 
 
 class Tree(object):
@@ -84,9 +79,6 @@ class Tree(object):
 
 	def print_structure(self):
 		self.root.print_subtree()
-
-	def clean_similarities(self):
-		self.root.clean_similarity()
 
 
 def parse_forest(filename):
