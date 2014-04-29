@@ -22,22 +22,8 @@ object RecommenderApp {
     //    PreFilter.apply(dummyVenues, dummyContext)
     //    if (1==1) return
 
-    var similarities = mutable.Map.empty[String, Seq[(String, Double)]]
-    for (user <- u) {
-      for (venue <- v) {
-        val user_id = user.getFeatureValue[String](Cons.USER_ID).get
-        similarities += user_id -> (similarities.getOrElse(user_id, List.empty)
-          :+ (venue.getFeatureValue[String](Cons.VENUE_ID).get -> MockVectorSimilarity.calculateSimilarity(user, venue)))
-      }
-    }
-
-    //Sort by value
-    for ((user, values) <- similarities) {
-      similarities += user -> values.toSeq.sortBy(-_._2)
-    }
-
-    for ((user, values) <- similarities) {
-      println("user - value [0, 1, 2] " + user + " " + values(0)._2 + " " + values(1)._2 + " " + values(2)._2)
-    }
+    var similarities : mutable.Map[String, Seq[(String, Double)]] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v);
+    MockVectorSimilarity.sortUserVenueSimilarities(similarities);
+    MockVectorSimilarity.printTopKSimilarities(similarities, 5);
   }
 }

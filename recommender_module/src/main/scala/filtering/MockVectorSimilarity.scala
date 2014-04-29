@@ -1,9 +1,10 @@
 package filtering
 
-import vectors.AbstractVector
+import vectors.{VenueVector, UserVector, AbstractVector}
 import features.{DoubleFeature, IntFeature, CoordinatesFeature}
 import utils.{Cons, Haversine}
 import input.Category
+import scala.collection.mutable
 
 
 /**
@@ -21,6 +22,46 @@ object MockVectorSimilarity extends VectorSimilarity {
 
     (fst, snd).zipped.map {
       case (x, y) => calculateSimilarity(x, y)
+    }
+  }
+
+  /**
+   * Get the similarity between two collections of vectors
+   * @param users collection of user vectors
+   * @param venues collection of  vectors
+   * @return map - key = userId, value = (venueId, similarity to the user vector)
+   */
+  def calculateSimilaritiesBetweenUsersAndVenues(users: Seq[UserVector], venues: Seq[VenueVector]): mutable.Map[String, Seq[(String, Double)]] = {
+    var similarities = mutable.Map.empty[String, Seq[(String, Double)]]
+    for (user <- users) {
+      for (venue <- venues) {
+        val user_id = user.getFeatureValue[String](Cons.USER_ID).get
+        similarities += user_id -> (similarities.getOrElse(user_id, List.empty)
+          :+ (venue.getFeatureValue[String](Cons.VENUE_ID).get -> MockVectorSimilarity.calculateSimilarity(user, venue)))
+      }
+    }
+    similarities
+  }
+
+  def sortUserVenueSimilarities(similarities : mutable.Map[String, Seq[(String, Double)]]) = {
+    //Sort by value
+    for ((user, values) <- similarities) {
+      similarities += user -> values.toSeq.sortBy(-_._2)
+    }
+  }
+
+  def printTopKSimilarities(similarities : mutable.Map[String, Seq[(String, Double)]], k: Int) = {
+    for ((user, values) <- similarities) {
+      print("user - top similarities [ ")
+      for(i <- 0 to k-1) {
+        print(i + " ")
+      }
+      print("] " + f"$user%-10s")
+      for(i <- 0 to k-1) {
+        var value : Double = values(i)._2;
+        print(" " + f"$value%-17.15f")
+      }
+      println()
     }
   }
   

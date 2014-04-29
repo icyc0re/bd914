@@ -143,26 +143,26 @@ class User(jsonString: String) {
     else (lat / interactions.count, lng / interactions.count)
   }
 
-  def getTopKVenues(k: Int, allVenueVectors: Seq[VenueVector]): Seq[String] = {
-
-    // TODO fix this
-    val userVenueVectors: Seq[VenueVector] = allVenueVectors.filter(x => interactions.items.contains(x.getFeatureValue(Cons.VENUE_ID).get))
-
-    val userVector: UserVector = User.featureVector(this)
-    userVector.applyVenues(userVenueVectors.toSeq)
-
-    val similarities: Seq[Double] = MockVectorSimilarity.calculateSimilarity(userVector, allVenueVectors)
-
-    val seq = (userVenueVectors).zip(similarities)
-
-    val sortedSeq: Seq[(VenueVector, Double)] = seq.sortWith((e1, e2) => (e1._2 compareTo e2._2) < 0)
-
-    val topKVenueVectors: Seq[String] = sortedSeq.splitAt(k)._1.collect {
-      case (x: (VenueVector, Double)) => x._1.getFeatureValue(Cons.VENUE_ID).get
-    }
-
-    return topKVenueVectors
-  }
+//  def getTopKVenues(k: Int, allVenueVectors: Seq[VenueVector]): Seq[String] = {
+//
+//    // TODO fix this
+//    val userVenueVectors: Seq[VenueVector] = allVenueVectors.filter(x => interactions.items.contains(x.getFeatureValue[String](Cons.VENUE_ID).get))
+//
+//    val userVector: UserVector = UserVector.getById(id);
+//    userVector.applyVenues(userVenueVectors.toSeq)
+//
+//    val similarities: Seq[Double] = MockVectorSimilarity.calculateSimilarity(userVector, allVenueVectors)
+//
+//    val seq = (userVenueVectors).zip(similarities)
+//
+//    val sortedSeq: Seq[(VenueVector, Double)] = seq.sortWith((e1, e2) => (e1._2 compareTo e2._2) < 0)
+//
+//    val topKVenueVectors: Seq[String] = sortedSeq.splitAt(k)._1.collect {
+//      case (x: (VenueVector, Double)) => x._1.getFeatureValue(Cons.VENUE_ID).get
+//    }
+//
+//    return topKVenueVectors
+//  }
 
   /**
    * @return return a list of all the categories associated to all the venues the user interacted with
