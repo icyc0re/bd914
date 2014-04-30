@@ -43,7 +43,7 @@ object VenueVector {
   }
 
   def getById(id:String):VenueVector = getAll.find((x:VenueVector)=>
-    x.getFeatureValue[String](Cons.VENUE_ID) == id
+    x.getFeatureValue[String](Cons.VENUE_ID).get == id
   ) match{
     case Some(x) => x
     case None => null
