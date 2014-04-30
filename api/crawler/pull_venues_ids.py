@@ -41,8 +41,8 @@ def main():
     square_size=50.0 #square size to search in meters
     
     manhattan_brooklin={'n':40.913515,'e':-73.689612,'s':40.534680,'w':-74.039802}
-    staten_island={'n':40.647827,'e':-73.702659,'s':40.526851,'w': -74.271888}
-    full_New_York={'s':40.487693,'n':40.917923,'w':40.494484,'e':-74.040488}
+    staten_island={'n':40.647827,'e':-73.702659,'s':40.526851,'w':-74.271888}
+    full_New_York={'n':40.913515,'e':-73.689612,'s':40.526851,'w':-74.271888}
     
     #start point at north east
     latitude = staten_island['n']

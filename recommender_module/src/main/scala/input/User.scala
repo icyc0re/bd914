@@ -102,7 +102,7 @@ class User(jsonString: String) {
    */
   def readInteractions(interaction_type: String): List[String] = {
     //TODO: change absolute path
-    val interaction_path: String = "../dataset/sample/" + interaction_type + "/" + id
+    val interaction_path: String = Cons.USERS_PATH + interaction_type + "/" + id
     //check that interaction exists
     if (!new java.io.File(interaction_path).exists)
       return List.empty
@@ -125,20 +125,34 @@ class User(jsonString: String) {
   }
 
 
+  /**
+   * compute the average of gps coordinates of the user interactions
+   * @return average of gps coordinates of the user interactions
+   */
   def getGPSCenter: (Double, Double) = {
     var lat: Double = 0
     var lng: Double = 0
+    
+    def isInNY(venueLat:Double, venueLng:Double): Boolean = {
+      ((Cons.NY_AREA("s") <= venueLat && venueLat <= Cons.NY_AREA("n")) && 
+      ( Cons.NY_AREA("w") <= venueLng && venueLng <= Cons.NY_AREA("e")))
+    }
 
     for (interaction <- interactions.items) {
       VenueVector.getById(interaction) match {
         case x if x != null =>
-          //get venue gps location
+          //get venue gps location, check it is in NY area
           val (venueLat, venueLng) = x.getFeatureValue[CoordinatesFeature](Cons.GPS_COORDINATES).get.v
-          lat += venueLat
-          lng += venueLng
+          if (isInNY(venueLat, venueLng)){
+	          lat += venueLat
+	          lng += venueLng
+          }else{
+            println("not in NY" + venueLat + " " + venueLng)
+          }
         case null => // ignore this one
       }
     }
+    
     if (interactions.count == 0) (40.7056308,-73.9780035)
     else (lat / interactions.count, lng / interactions.count)
   }
