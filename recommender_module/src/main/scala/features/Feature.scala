@@ -16,7 +16,7 @@ case class IntFeature(k:String, v:Int) extends Feature[String, Int](k, v) with N
 case class TextFeature(k:String, v:String) extends Feature[String, String](k, v)
 case class BooleanFeature(k:String, v:Boolean) extends Feature[String, Boolean](k, v)
 case class GenderFeature(k:String, v:Gender) extends Feature[String, Gender](k, v)
-case class CategoryFeature(k:String, v:List[VenueCategory]) extends Feature[String, List[VenueCategory]](k, v) with Filterable
+case class CategoryFeature(k:String, v:Seq[String]) extends Feature[String, Seq[String]](k, v) with Filterable
 case class PriceFeature(k:String, v:VenuePrice) extends Feature[String, VenuePrice](k, v) with Filterable
 case class CoordinatesFeature(k:String, v:(Double, Double)) extends Feature[String, (Double, Double)](k, v) with Filterable
 
@@ -30,5 +30,5 @@ abstract class Feature[+K, +V](k:K, v:V){
 trait NumericFeature
 trait Filterable { 
 	// Used in Filtering components to check compatibility
-  	def compareTo(feat: Feature[_,_]): Boolean
+  	def compareTo(feat: Feature[_,_]): Boolean= true
 }

@@ -16,7 +16,7 @@ trait AbstractInputProcessor {
    * @param input input source to read
    * @return feature vector
    */
-  def processData(input: BufferedSource):T
+  def processData(input: BufferedSource): T
 
   /**
    * Parse all files in a directory
@@ -25,10 +25,12 @@ trait AbstractInputProcessor {
    */
   def processInDir(dirName: String): Seq[T] = {
     val dir = new File(dirName)
-    if (!dir.isDirectory){
+    if (!dir.isDirectory) {
       throw new Exception("Directory expected")
     }
     //ignore hidden files and check file is file
-    dir.listFiles.filter(!_.getName.startsWith(".")).filter(_.isFile()).map(x => processData(scala.io.Source.fromFile(x)))
+    dir.listFiles.filter((x: File) => !x.getName.startsWith(".") && !x.isDirectory).filter(_.isFile()).map(
+      x => processData(scala.io.Source.fromFile(x))
+    )
   }
 }

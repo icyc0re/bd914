@@ -327,13 +327,10 @@ object Venue{
    */
   def featureVector(v: Venue):VenueVector = {
     val features = List(
-//      IntFeature(Cons.CHECKINS_COUNT, v.venue.stats.checkinsCount),
-//      IntFeature(Cons.TIP_COUNT, v.venue.stats.tipCount.get),
-//      IntFeature(Cons.USERS_COUNT, v.venue.stats.usersCount.get),
-//      TextFeature(Cons.VENUE_ID, v.venue.id),
-      IntFeature(Cons.POPULARITY, v.venue.stats.checkinsCount
-          + v.venue.stats.tipCount.get),
-        CoordinatesFeature(Cons.GPS_COORDINATES, (v.venue.location.get.lat.get, v.venue.location.get.lng.get))
+      TextFeature(Cons.VENUE_ID, v.venue.id),
+      DoubleFeature(Cons.POPULARITY, compute_popularity(v.venue.stats.checkinsCount, v.venue.stats.tipCount.get, v.venue.stats.usersCount.get)),
+        CoordinatesFeature(Cons.GPS_COORDINATES, (v.venue.location.get.lat.get, v.venue.location.get.lng.get)),
+        CategoryFeature(Cons.CATEGORY, v.venue.categories.get.map(_.name))
     )
     new VenueVector(features, null)
   }
@@ -342,15 +339,5 @@ object Venue{
       tipsCount: Double, usersCount: Double): Double = {
     
     checkinsCount + tipsCount + usersCount
-  }
-
-  def getCategoriesList(): List[String] = {
-    var categoriesList = List[String]()
-    //var simularityMatrix = List
-    val categoriesListPath: String = "../cluster/config/ordered_categories.txt"
-    for(line <- scala.io.Source.fromFile(categoriesListPath).getLines()) {
-      categoriesList :+ line
-    }
-    categoriesList
   }
 }
