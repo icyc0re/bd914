@@ -184,7 +184,10 @@ class User(jsonString: String) {
   def getCategoriesList: Seq[String] = {
     var categoriesList: Seq[String] = List.empty[String]
     for (venueId <- interactions.items) {
-      categoriesList :+= VenueVector.getById(venueId).getFeatureValue[VenueCategory](Cons.CATEGORY).get.name
+      VenueVector.getById(venueId).getFeatureValue[VenueCategory](Cons.CATEGORY) match {
+        case Some(x) => categoriesList :+= x.name
+        case None => //
+      }
     }
     categoriesList
   }

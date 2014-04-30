@@ -81,7 +81,7 @@ object UserVector {
   }
 
   def getById(id: String): UserVector = getAll.find((x: UserVector) =>
-    x.getFeatureValue[String](Cons.USER_ID) == id
+    x.getFeatureValue[String](Cons.USER_ID).get == id
   ) match {
     case Some(x) => x
     case None => null
