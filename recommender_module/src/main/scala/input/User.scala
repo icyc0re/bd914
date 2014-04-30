@@ -10,7 +10,6 @@ import features.{CategoryFeature, TextFeature, DoubleFeature, CoordinatesFeature
 //import java.nio.file.Paths
 
 import vectors.VenueVector
-import filtering.MockVectorSimilarity
 
 case class Checkins(count: Double)
 
@@ -132,10 +131,10 @@ class User(jsonString: String) {
   def getGPSCenter: (Double, Double) = {
     var lat: Double = 0
     var lng: Double = 0
-    
-    def isInNY(venueLat:Double, venueLng:Double): Boolean = {
-      ((Cons.NY_AREA("s") <= venueLat && venueLat <= Cons.NY_AREA("n")) && 
-      ( Cons.NY_AREA("w") <= venueLng && venueLng <= Cons.NY_AREA("e")))
+
+    def isInNY(venueLat: Double, venueLng: Double): Boolean = {
+      ((Cons.NY_AREA("s") <= venueLat && venueLat <= Cons.NY_AREA("n")) &&
+        (Cons.NY_AREA("w") <= venueLng && venueLng <= Cons.NY_AREA("e")))
     }
 
     for (interaction <- interactions.items) {
@@ -143,40 +142,40 @@ class User(jsonString: String) {
         case x if x != null =>
           //get venue gps location, check it is in NY area
           val (venueLat, venueLng) = x.getFeatureValue[CoordinatesFeature](Cons.GPS_COORDINATES).get.v
-          if (isInNY(venueLat, venueLng)){
-	          lat += venueLat
-	          lng += venueLng
-          }else{
+          if (isInNY(venueLat, venueLng)) {
+            lat += venueLat
+            lng += venueLng
+          } else {
             println("not in NY" + venueLat + " " + venueLng)
           }
         case null => // ignore this one
       }
     }
-    
-    if (interactions.count == 0) (40.7056308,-73.9780035)
+
+    if (interactions.count == 0) (40.7056308, -73.9780035)
     else (lat / interactions.count, lng / interactions.count)
   }
 
-//  def getTopKVenues(k: Int, allVenueVectors: Seq[VenueVector]): Seq[String] = {
-//
-//    // TODO fix this
-//    val userVenueVectors: Seq[VenueVector] = allVenueVectors.filter(x => interactions.items.contains(x.getFeatureValue[String](Cons.VENUE_ID).get))
-//
-//    val userVector: UserVector = UserVector.getById(id);
-//    userVector.applyVenues(userVenueVectors.toSeq)
-//
-//    val similarities: Seq[Double] = MockVectorSimilarity.calculateSimilarity(userVector, allVenueVectors)
-//
-//    val seq = (userVenueVectors).zip(similarities)
-//
-//    val sortedSeq: Seq[(VenueVector, Double)] = seq.sortWith((e1, e2) => (e1._2 compareTo e2._2) < 0)
-//
-//    val topKVenueVectors: Seq[String] = sortedSeq.splitAt(k)._1.collect {
-//      case (x: (VenueVector, Double)) => x._1.getFeatureValue(Cons.VENUE_ID).get
-//    }
-//
-//    return topKVenueVectors
-//  }
+  //  def getTopKVenues(k: Int, allVenueVectors: Seq[VenueVector]): Seq[String] = {
+  //
+  //    // TODO fix this
+  //    val userVenueVectors: Seq[VenueVector] = allVenueVectors.filter(x => interactions.items.contains(x.getFeatureValue[String](Cons.VENUE_ID).get))
+  //
+  //    val userVector: UserVector = UserVector.getById(id);
+  //    userVector.applyVenues(userVenueVectors.toSeq)
+  //
+  //    val similarities: Seq[Double] = MockVectorSimilarity.calculateSimilarity(userVector, allVenueVectors)
+  //
+  //    val seq = (userVenueVectors).zip(similarities)
+  //
+  //    val sortedSeq: Seq[(VenueVector, Double)] = seq.sortWith((e1, e2) => (e1._2 compareTo e2._2) < 0)
+  //
+  //    val topKVenueVectors: Seq[String] = sortedSeq.splitAt(k)._1.collect {
+  //      case (x: (VenueVector, Double)) => x._1.getFeatureValue(Cons.VENUE_ID).get
+  //    }
+  //
+  //    return topKVenueVectors
+  //  }
 
   /**
    * @return return a list of all the categories associated to all the venues the user interacted with
@@ -184,9 +183,12 @@ class User(jsonString: String) {
   def getCategoriesList: Seq[String] = {
     var categoriesList: Seq[String] = List.empty[String]
     for (venueId <- interactions.items) {
-      VenueVector.getById(venueId).getFeatureValue[VenueCategory](Cons.CATEGORY) match {
-        case Some(x) => categoriesList :+= x.name
-        case None => //
+      VenueVector.getById(venueId) match {
+        case null => //
+        case t => t.getFeatureValue[VenueCategory](Cons.CATEGORY) match {
+          case Some(x) => categoriesList :+= x.name
+          case None => //
+        }
       }
     }
     categoriesList
