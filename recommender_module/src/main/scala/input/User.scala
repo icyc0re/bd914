@@ -141,7 +141,7 @@ class User(jsonString: String) {
       VenueVector.getById(interaction) match {
         case x if x != null =>
           //get venue gps location, check it is in NY area
-          val (venueLat, venueLng) = x.getFeatureValue[CoordinatesFeature](Cons.GPS_COORDINATES).get.v
+          val (venueLat, venueLng) = x.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get
           if (isInNY(venueLat, venueLng)) {
             lat += venueLat
             lng += venueLng
@@ -181,13 +181,13 @@ class User(jsonString: String) {
    * @return return a list of all the categories associated to all the venues the user interacted with
    */
   def getCategoriesList: Seq[String] = {
-    var categoriesList: Seq[String] = List.empty[String]
+    var categoriesList: Seq[String] = Nil
     for (venueId <- interactions.items) {
       VenueVector.getById(venueId) match {
         case null => //
-        case t => t.getFeatureValue[VenueCategory](Cons.CATEGORY) match {
-          case Some(x) => categoriesList :+= x.name
-          case None => //
+        case t => t.getFeatureValue[Seq[String]](Cons.CATEGORY) match {
+          case Some(x:Seq[String]) => categoriesList = categoriesList ++ x
+          case None => //""
         }
       }
     }

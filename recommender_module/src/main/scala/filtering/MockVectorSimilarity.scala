@@ -34,11 +34,13 @@ object MockVectorSimilarity extends VectorSimilarity {
   def calculateSimilaritiesBetweenUsersAndVenues(users: Seq[UserVector], venues: Seq[VenueVector]): mutable.Map[String, Seq[(String, Double)]] = {
     var similarities = mutable.Map.empty[String, Seq[(String, Double)]]
     for (user <- users) {
+      val start = System.currentTimeMillis
       for (venue <- venues) {
         val user_id = user.getFeatureValue[String](Cons.USER_ID).get
         similarities += user_id -> (similarities.getOrElse(user_id, List.empty)
-          :+ (venue.getFeatureValue[String](Cons.VENUE_ID).get -> MockVectorSimilarity.calculateSimilarity(user, venue)))
+          :+ (venue.getFeatureValue[String](Cons.VENUE_ID).get, MockVectorSimilarity.calculateSimilarity(user, venue)))
       }
+      println("Id = "+user.getFeatureValue[String](Cons.USER_ID).get+"; took ms = "+ (System.currentTimeMillis() - start)+"; size ven = "+venues.size)
     }
     similarities
   }
@@ -48,6 +50,7 @@ object MockVectorSimilarity extends VectorSimilarity {
     for ((user, values) <- similarities) {
       similarities += user -> values.toSeq.sortBy(-_._2)
     }
+    println("sorted similarities")
   }
 
   def printTopKSimilarities(similarities : mutable.Map[String, Seq[(String, Double)]], k: Int) = {
@@ -84,14 +87,18 @@ object MockVectorSimilarity extends VectorSimilarity {
    * @return similarity expressed as { @code double}
    */
   def calculateSimilarity(fst: AbstractVector, snd: AbstractVector): Double = {
-
     // categories similarity
     val userCategories = fst.getFeatureValue[Seq[String]](Cons.CATEGORY).get
     val venuesCategories = snd.getFeatureValue[Seq[String]](Cons.CATEGORY).get
     var catSim = .0
     userCategories.foreach(cat1=>
       venuesCategories.foreach(cat2=>
-        catSim += Category.getCategoriesSimilarity(cat1, cat2)
+        try {
+          catSim += Category.getCategoriesSimilarity(cat1, cat2)
+        }
+        catch {
+          case e:Exception => //println(e.getMessage)
+        }
       )
     )
 
