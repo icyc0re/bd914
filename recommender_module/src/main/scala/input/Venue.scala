@@ -69,14 +69,14 @@ case class VenueCompact(categories: Option[List[VenueCategory]], id: String, nam
                         phrases: Option[List[VenuePhrases]], location: Option[VenueLocation])
 
 class Venue(jsonString: String) {
-  
+
   var jsonFile: JsValue = Json.parse("{\"venue\":\"default\"}")
   try {
 	  jsonFile = Json.parse(jsonString)
   } catch {
      case ex: Exception =>{
     	println(jsonString)
-        println("Malformed JSON: Got a sequence of JsValue outside an array or an object.")    
+        println("Malformed JSON: Got a sequence of JsValue outside an array or an object.")
      }
   }
 
@@ -216,11 +216,11 @@ println(map)*/
     (__ \ "count").readNullable[Int] and
       (__ \ "items").readNullable[List[VenueReasonsItem]]
     )(VenueReasons.apply _)
-    
+
    implicit val VenueLocationRead: Reads[VenueLocation] = (
        (__ \ "city").readNullable[String] and
        (__ \ "cc").readNullable[String] and
-       (__ \ "state").readNullable[String] and       
+       (__ \ "state").readNullable[String] and
        (__ \ "lat").readNullable[Double] and
       (__ \ "lng").readNullable[Double]
     )(VenueLocation.apply _)
@@ -265,19 +265,19 @@ println(map)*/
   	println(  "****************************************************\n")
 	println(  "\n-------------- Basic info : ")
 	println(  "name := "+venue.name)
-	venue.url match {	//A lot of the venue data is optional so the reader will not crash each time he doesn't find a feature 
+	venue.url match {	//A lot of the venue data is optional so the reader will not crash each time he doesn't find a feature
 						//more on Option type here : http://danielwestheide.com/blog/2012/12/19/the-neophytes-guide-to-scala-part-5-the-option-type.html
-						//one way to access the data is using pattern matching : 
+						//one way to access the data is using pattern matching :
 		case Some(url) => println(  "url := "+ url)
 		case None => {}
 	}
 	venue.likes match { case Some(likes) => println(  "likes := "+ likes); case None => {}}
 	venue.rating match { case Some(rating) => println(  "rating := "+ rating); case None => {}}
 	venue.verified match { case Some(verified) => println(  "verified := "+ verified); case None => {}}
-	
+
 	println(  "\n-------------- Stats : ")
 	println(  "checkinsCount := "+venue.stats.checkinsCount)
-	println(  "tipCount := "+venue.stats.tipCount.getOrElse("None")) //another simple way is to use getOrElse(default value) 
+	println(  "tipCount := "+venue.stats.tipCount.getOrElse("None")) //another simple way is to use getOrElse(default value)
 	println(  "\n-------------- Price : ")
 	if(venue.price != None){
 		//val price = venue.price.getOrElse(Non)
@@ -343,10 +343,10 @@ object Venue{
     )
     new VenueVector(features, null)
   }
-  
-  def compute_popularity(checkinsCount: Double, 
+
+  def compute_popularity(checkinsCount: Double,
       tipsCount: Double, usersCount: Double): Double = {
-    
+
     checkinsCount + tipsCount + usersCount
   }
 }

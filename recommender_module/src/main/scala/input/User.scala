@@ -11,7 +11,7 @@ import features.{CategoryFeature, TextFeature, DoubleFeature, CoordinatesFeature
 
 import vectors.VenueVector
 
-case class Checkins(count: Double)
+case class CheckinsCount(count: Double)
 
 case class Contact(twitter: Option[String], facebook: Option[String], phone: Option[String], email: Option[String])
 
@@ -42,7 +42,7 @@ class User(jsonString: String) {
 
   //checkins count
   private val _checkins: Map[String, Any] = user("checkins").asInstanceOf[Map[String, Any]]
-  val checkins = Checkins(_checkins("count").asInstanceOf[Double])
+  val checkinsCount = CheckinsCount(_checkins("count").asInstanceOf[Double])
 
   //social networks
   private val _contact: Map[String, String] = user("contact").asInstanceOf[Map[String, String]]
