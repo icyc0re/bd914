@@ -1,1 +1,106 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4d9802cc2bd6f04d232d5f50", "createdAt": 1301807820, "stats": {"checkinsCount": 26, "tipCount": 0, "usersCount": 6}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 3, "user": {"lastName": "L.", "gender": "female", "id": "580158", "firstName": "Felice", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/IV0VLTAF1M4X0NSQ.jpg"}}}, "shortUrl": "http://4sq.com/h9r1kj", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Seattle", "cc": "US", "country": "United States", "lat": 47.648586822802024, "state": "WA", "crossStreet": "btw SR 99 & Fremont Ave N", "address": "N 35th St", "postalCode": "98103", "lng": -122.34931914969202}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/u-park/4d9802cc2bd6f04d232d5f50", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/Los_Angeles", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Parking", "primary": true, "name": "Parking", "shortName": "Parking", "id": "4c38df4de52ce0d596b336e1", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/parking_", "suffix": ".png"}}], "name": "U Park", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 3, 
+            "user": {
+                "lastName": "L.", 
+                "photo": {
+                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                    "suffix": "/IV0VLTAF1M4X0NSQ.jpg"
+                }, 
+                "id": "580158", 
+                "firstName": "Felice", 
+                "gender": "female"
+            }
+        }, 
+        "createdAt": 1301807820, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4d9802cc2bd6f04d232d5f50", 
+        "shortUrl": "http://4sq.com/h9r1kj", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Seattle", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "98103", 
+            "state": "WA", 
+            "crossStreet": "btw SR 99 & Fremont Ave N", 
+            "address": "N 35th St", 
+            "lat": 47.648586822802024, 
+            "lng": -122.34931914969202
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/u-park/4d9802cc2bd6f04d232d5f50", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 26, 
+            "usersCount": 6
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Parking", 
+                "primary": true, 
+                "name": "Parking", 
+                "shortName": "Parking", 
+                "id": "4c38df4de52ce0d596b336e1", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/parking_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "U Park", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/Los_Angeles"
+    }
+}

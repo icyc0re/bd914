@@ -1,1 +1,138 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4e6bc0ce7d8b143eb7ad11f1", "createdAt": 1315684558, "stats": {"checkinsCount": 55, "tipCount": 1, "usersCount": 5}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 4, "user": {"lastName": "O.", "gender": "female", "id": "5121499", "firstName": "Isabel", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/WIB2UJ5ASS1KVNWF.jpg"}}}, "shortUrl": "http://4sq.com/nqpHjk", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "isFuzzed": true, "cc": "US", "country": "United States", "state": "NY", "lat": 40.79703521995679, "lng": -73.96537147003376}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/mexipad-depa-de-jordi-y-jinich/4e6bc0ce7d8b143eb7ad11f1", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 1, "groups": [{"count": 1, "items": [{"lang": "en", "canonicalUrl": "https://foursquare.com/item/4f3f034ae4b0c47356a19806", "text": "They have the best snacks!", "saves": {}, "logView": true, "likes": {"count": 1, "groups": [{"count": 1, "items": [], "type": "others"}], "summary": "1 like"}, "todo": {"count": 0}, "id": "4f3f034ae4b0c47356a19806", "createdAt": 1329529674, "user": {"lastName": "s.", "gender": "female", "id": "4925199", "firstName": "bridget", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/LSPZ2YNLPGO0HGES.jpg"}}}], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Homes (private)", "primary": true, "name": "Home (private)", "shortName": "Home", "id": "4bf58dd8d48988d103941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", "suffix": ".png"}}], "name": "Mexipad (Depa de Jordi y Jinich)", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 4, 
+            "user": {
+                "lastName": "O.", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/WIB2UJ5ASS1KVNWF.jpg"
+                }, 
+                "id": "5121499", 
+                "firstName": "Isabel", 
+                "gender": "female"
+            }
+        }, 
+        "createdAt": 1315684558, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4e6bc0ce7d8b143eb7ad11f1", 
+        "shortUrl": "http://4sq.com/nqpHjk", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/4f3f034ae4b0c47356a19806", 
+                            "text": "They have the best snacks!", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 1, 
+                                "groups": [
+                                    {
+                                        "count": 1, 
+                                        "items": [], 
+                                        "type": "others"
+                                    }
+                                ], 
+                                "summary": "1 like"
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "4f3f034ae4b0c47356a19806", 
+                            "createdAt": 1329529674, 
+                            "user": {
+                                "lastName": "s.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/LSPZ2YNLPGO0HGES.jpg"
+                                }, 
+                                "id": "4925199", 
+                                "firstName": "bridget", 
+                                "gender": "female"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "isFuzzed": true, 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "NY", 
+            "lat": 40.79703521995679, 
+            "lng": -73.96537147003376
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/mexipad-depa-de-jordi-y-jinich/4e6bc0ce7d8b143eb7ad11f1", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 55, 
+            "usersCount": 5
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Homes (private)", 
+                "primary": true, 
+                "name": "Home (private)", 
+                "shortName": "Home", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Mexipad (Depa de Jordi y Jinich)", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

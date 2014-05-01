@@ -1,1 +1,122 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4e418901c65b03682adfbf03", "createdAt": 1312917761, "stats": {"checkinsCount": 20, "tipCount": 0, "usersCount": 7}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 1, "user": {"lastName": "D.", "gender": "female", "id": "11561307", "firstName": "Yazzy", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/11561307-HPENTYOZNMWPDOJS.jpg"}}}, "shortUrl": "http://4sq.com/qwRHmM", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Bronx", "cc": "US", "country": "United States", "lat": 40.80593101553201, "state": "NY", "crossStreet": "St. Anns And Cypress Avenue", "address": "601 E 137th St", "postalCode": "10454", "lng": -73.91750529215452}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/tuck-it-away-self-storage/4e418901c65b03682adfbf03", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Miscellaneous Shops", "primary": true, "name": "Miscellaneous Shop", "shortName": "Shop", "id": "4bf58dd8d48988d1ff941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/shops/default_", "suffix": ".png"}}], "name": "Tuck It Away Self Storage", "specials": {"count": 0, "items": []}, "contact": {"phone": "7182929410", "formattedPhone": "(718) 292-9410"}, "attributes": {"groups": [{"count": 6, "items": [{"displayValue": "Yes (incl. American Express)", "displayName": "Credit Cards"}], "type": "payments", "name": "Credit Cards", "summary": "Credit Cards"}]}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 1, 
+            "user": {
+                "lastName": "D.", 
+                "photo": {
+                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                    "suffix": "/11561307-HPENTYOZNMWPDOJS.jpg"
+                }, 
+                "id": "11561307", 
+                "firstName": "Yazzy", 
+                "gender": "female"
+            }
+        }, 
+        "createdAt": 1312917761, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4e418901c65b03682adfbf03", 
+        "shortUrl": "http://4sq.com/qwRHmM", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Bronx", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10454", 
+            "state": "NY", 
+            "crossStreet": "St. Anns And Cypress Avenue", 
+            "address": "601 E 137th St", 
+            "lat": 40.80593101553201, 
+            "lng": -73.91750529215452
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/tuck-it-away-self-storage/4e418901c65b03682adfbf03", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": [
+                {
+                    "count": 6, 
+                    "items": [
+                        {
+                            "displayValue": "Yes (incl. American Express)", 
+                            "displayName": "Credit Cards"
+                        }
+                    ], 
+                    "type": "payments", 
+                    "name": "Credit Cards", 
+                    "summary": "Credit Cards"
+                }
+            ]
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 20, 
+            "usersCount": 7
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Miscellaneous Shops", 
+                "primary": true, 
+                "name": "Miscellaneous Shop", 
+                "shortName": "Shop", 
+                "id": "4bf58dd8d48988d1ff941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/default_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Tuck It Away Self Storage", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {
+            "phone": "7182929410", 
+            "formattedPhone": "(718) 292-9410"
+        }, 
+        "timeZone": "America/New_York"
+    }
+}

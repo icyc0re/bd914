@@ -1,1 +1,133 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 2, "groups": [{"count": 2, "items": [{"lastName": "F.", "gender": "male", "id": "45462744", "firstName": "Dan", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/0WQSC1MEWTZ1BF1A.jpg"}}, {"lastName": "R.", "gender": "male", "id": "53816164", "firstName": "Geoffrey", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/XJCSHZ2B51AYREIV.jpg"}}], "type": "others"}], "summary": "2 likes"}, "id": "5150adf1e4b08debfa1f7d5f", "createdAt": 1364241905, "stats": {"checkinsCount": 46, "tipCount": 0, "usersCount": 9}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 5, "user": {"lastName": "F.", "gender": "male", "id": "45462744", "firstName": "Dan", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/0WQSC1MEWTZ1BF1A.jpg"}}}, "shortUrl": "http://4sq.com/11DUl2f", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "lat": 40.72936248779297, "state": "NY", "address": "4 Washington Pl", "postalCode": "10003", "lng": -73.9943618774414}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/csmr-lounge-new-york-ny/5150adf1e4b08debfa1f7d5f", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "College Auditoriums", "primary": true, "name": "College Auditorium", "shortName": "Auditorium", "id": "4bf58dd8d48988d1af941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/auditorium_", "suffix": ".png"}}], "name": "CSMR Lounge", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 2, 
+            "groups": [
+                {
+                    "count": 2, 
+                    "items": [
+                        {
+                            "lastName": "F.", 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/0WQSC1MEWTZ1BF1A.jpg"
+                            }, 
+                            "id": "45462744", 
+                            "firstName": "Dan", 
+                            "gender": "male"
+                        }, 
+                        {
+                            "lastName": "R.", 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/XJCSHZ2B51AYREIV.jpg"
+                            }, 
+                            "id": "53816164", 
+                            "firstName": "Geoffrey", 
+                            "gender": "male"
+                        }
+                    ], 
+                    "type": "others"
+                }
+            ], 
+            "summary": "2 likes"
+        }, 
+        "mayor": {
+            "count": 5, 
+            "user": {
+                "lastName": "F.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/0WQSC1MEWTZ1BF1A.jpg"
+                }, 
+                "id": "45462744", 
+                "firstName": "Dan", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1364241905, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "5150adf1e4b08debfa1f7d5f", 
+        "shortUrl": "http://4sq.com/11DUl2f", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10003", 
+            "state": "NY", 
+            "address": "4 Washington Pl", 
+            "lat": 40.72936248779297, 
+            "lng": -73.9943618774414
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/csmr-lounge-new-york-ny/5150adf1e4b08debfa1f7d5f", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 46, 
+            "usersCount": 9
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "College Auditoriums", 
+                "primary": true, 
+                "name": "College Auditorium", 
+                "shortName": "Auditorium", 
+                "id": "4bf58dd8d48988d1af941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/auditorium_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "CSMR Lounge", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

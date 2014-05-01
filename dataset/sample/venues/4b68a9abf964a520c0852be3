@@ -1,1 +1,115 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4b68a9abf964a520c0852be3", "createdAt": 1265150379, "stats": {"checkinsCount": 58, "tipCount": 0, "usersCount": 20}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 30, "user": {"gender": "male", "id": "5197764", "firstName": "Edwin", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/5197764-DYWML15S1DVB11AY.jpg"}}}, "shortUrl": "http://4sq.com/9mXIEs", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "lat": 40.809002024724286, "state": "NY", "crossStreet": "120th", "address": "Amsterdam Ave", "postalCode": "10027", "lng": -73.95901679992676}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/mta-bus--m11-uptown--amsterdam-ave--120th-st/4b68a9abf964a520c0852be3", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Bus Lines", "primary": true, "name": "Bus Line", "shortName": "Bus", "id": "4bf58dd8d48988d12b951735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", "suffix": ".png"}}, {"shortName": "Bus Station", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", "suffix": ".png"}, "pluralName": "Bus Stations", "name": "Bus Station", "id": "4bf58dd8d48988d1fe931735"}], "name": "MTA Bus - M11 (Uptown) - Amsterdam Ave @ 120th St.", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 30, 
+            "user": {
+                "gender": "male", 
+                "id": "5197764", 
+                "firstName": "Edwin", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/5197764-DYWML15S1DVB11AY.jpg"
+                }
+            }
+        }, 
+        "createdAt": 1265150379, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4b68a9abf964a520c0852be3", 
+        "shortUrl": "http://4sq.com/9mXIEs", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10027", 
+            "state": "NY", 
+            "crossStreet": "120th", 
+            "address": "Amsterdam Ave", 
+            "lat": 40.809002024724286, 
+            "lng": -73.95901679992676
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/mta-bus--m11-uptown--amsterdam-ave--120th-st/4b68a9abf964a520c0852be3", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 58, 
+            "usersCount": 20
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Bus Lines", 
+                "primary": true, 
+                "name": "Bus Line", 
+                "shortName": "Bus", 
+                "id": "4bf58dd8d48988d12b951735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                    "suffix": ".png"
+                }
+            }, 
+            {
+                "shortName": "Bus Station", 
+                "pluralName": "Bus Stations", 
+                "id": "4bf58dd8d48988d1fe931735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                    "suffix": ".png"
+                }, 
+                "name": "Bus Station"
+            }
+        ], 
+        "name": "MTA Bus - M11 (Uptown) - Amsterdam Ave @ 120th St.", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

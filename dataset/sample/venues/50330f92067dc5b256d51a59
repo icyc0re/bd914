@@ -1,1 +1,103 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "50330f92067dc5b256d51a59", "createdAt": 1345523602, "stats": {"checkinsCount": 8, "tipCount": 0, "usersCount": 2}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 1, "user": {"gender": "female", "id": "348315", "firstName": "Francia", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/53TK2CDQCZ14KZI4.jpg"}}}, "shortUrl": "http://4sq.com/RaE4vI", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "isFuzzed": true, "cc": "US", "country": "United States", "state": "NY", "lat": 40.7953635077476, "lng": -73.95361626406626}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/maison-de-la-france/50330f92067dc5b256d51a59", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Homes (private)", "primary": true, "name": "Home (private)", "shortName": "Home", "id": "4bf58dd8d48988d103941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", "suffix": ".png"}}], "name": "Maison de la France", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 1, 
+            "user": {
+                "gender": "female", 
+                "id": "348315", 
+                "firstName": "Francia", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/53TK2CDQCZ14KZI4.jpg"
+                }
+            }
+        }, 
+        "createdAt": 1345523602, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "50330f92067dc5b256d51a59", 
+        "shortUrl": "http://4sq.com/RaE4vI", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "isFuzzed": true, 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "NY", 
+            "lat": 40.7953635077476, 
+            "lng": -73.95361626406626
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/maison-de-la-france/50330f92067dc5b256d51a59", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 8, 
+            "usersCount": 2
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Homes (private)", 
+                "primary": true, 
+                "name": "Home (private)", 
+                "shortName": "Home", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Maison de la France", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

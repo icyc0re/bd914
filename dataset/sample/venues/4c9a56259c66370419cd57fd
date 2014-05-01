@@ -1,1 +1,222 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 4, "groups": [{"count": 4, "items": [{"lastName": "C.", "gender": "male", "id": "128688", "firstName": "Richard", "photo": {"default": true, "prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/blank_boy.png"}}, {"lastName": "R.", "gender": "male", "id": "38321450", "firstName": "Adam", "photo": {"prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/DUMEN30JQFABT5R4.jpg"}}, {"lastName": "H.", "gender": "male", "id": "11088", "firstName": "Chris", "photo": {"prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/QU4CW3M4YTOVF4JY.jpg"}}, {"lastName": "Z.", "gender": "male", "id": "3743599", "firstName": "LuisAlfredo", "photo": {"prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/P04UED5EICB1DH33.jpg"}}], "type": "others"}], "summary": "4 likes"}, "id": "4c9a56259c66370419cd57fd", "createdAt": 1285183013, "stats": {"checkinsCount": 121, "tipCount": 1, "usersCount": 58}, "menu": {"url": "https://foursquare.com/v/columbia-barber-shop/4c9a56259c66370419cd57fd/menu", "mobileUrl": "https://foursquare.com/v/4c9a56259c66370419cd57fd/device_menu", "type": "Menu", "anchor": "View Menu", "label": "Menu"}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 2, "user": {"gender": "male", "id": "48476", "firstName": "Joshua", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/4aba2f9991469.jpg"}}}, "shortUrl": "http://4sq.com/9T81hm", "pageUpdates": {"count": 0, "items": []}, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "dislike": false, "location": {"city": "New York", "cc": "US", "country": "United States", "lat": 40.81146435148113, "state": "NY", "crossStreet": "btwn 121st & 122nd St", "address": "3066 Broadway", "postalCode": "10027", "lng": -73.96146558382536}, "canonicalUrl": "https://foursquare.com/v/columbia-barber-shop/4c9a56259c66370419cd57fd", "tags": [], "photos": {"count": 1, "groups": [{"count": 1, "items": [{"suffix": "/48476_QP9aSgXiXAeAAol-zp8ccJZgj3wiZfVBuExfhzNvsHE.jpg", "width": 960, "visibility": "public", "height": 720, "source": {"url": "https://foursquare.com/download/#/iphone", "name": "foursquare for iPhone"}, "prefix": "https://irs1.4sqi.net/img/general/", "user": {"gender": "male", "id": "48476", "firstName": "Joshua", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/4aba2f9991469.jpg"}}, "id": "51b76b76498e156dd3b6d730", "createdAt": 1370975094}], "type": "venue", "name": "Venue photos"}]}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 1, "groups": [{"count": 1, "items": [{"lang": "en", "canonicalUrl": "https://foursquare.com/item/5089bd1fe4b0661bf368397f", "text": "Show your Columbia ID for a 2$ discount", "saves": {}, "logView": true, "likes": {"count": 0, "groups": []}, "todo": {"count": 0}, "id": "5089bd1fe4b0661bf368397f", "createdAt": 1351204127, "user": {"lastName": "T.", "gender": "male", "id": "38407200", "firstName": "Gianluca", "photo": {"prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/ESSX1FPPTPWIAAQD.jpg"}}}], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Salons / Barbershops", "primary": true, "name": "Salon / Barbershop", "shortName": "Salon / Barbershop", "id": "4bf58dd8d48988d110951735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/shops/salon_barber_", "suffix": ".png"}}], "name": "Columbia Barber Shop", "url": "http://www.columbiabarbershop.com", "specials": {"count": 0, "items": []}, "contact": {"phone": "2122229060", "formattedPhone": "(212) 222-9060"}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 4, 
+            "groups": [
+                {
+                    "count": 4, 
+                    "items": [
+                        {
+                            "lastName": "C.", 
+                            "photo": {
+                                "default": true, 
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/blank_boy.png"
+                            }, 
+                            "id": "128688", 
+                            "firstName": "Richard", 
+                            "gender": "male"
+                        }, 
+                        {
+                            "lastName": "R.", 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/DUMEN30JQFABT5R4.jpg"
+                            }, 
+                            "id": "38321450", 
+                            "firstName": "Adam", 
+                            "gender": "male"
+                        }, 
+                        {
+                            "lastName": "H.", 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/QU4CW3M4YTOVF4JY.jpg"
+                            }, 
+                            "id": "11088", 
+                            "firstName": "Chris", 
+                            "gender": "male"
+                        }, 
+                        {
+                            "lastName": "Z.", 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/P04UED5EICB1DH33.jpg"
+                            }, 
+                            "id": "3743599", 
+                            "firstName": "LuisAlfredo", 
+                            "gender": "male"
+                        }
+                    ], 
+                    "type": "others"
+                }
+            ], 
+            "summary": "4 likes"
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "gender": "male", 
+                "id": "48476", 
+                "firstName": "Joshua", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/4aba2f9991469.jpg"
+                }
+            }
+        }, 
+        "createdAt": 1285183013, 
+        "verified": false, 
+        "menu": {
+            "url": "https://foursquare.com/v/columbia-barber-shop/4c9a56259c66370419cd57fd/menu", 
+            "mobileUrl": "https://foursquare.com/v/4c9a56259c66370419cd57fd/device_menu", 
+            "type": "Menu", 
+            "anchor": "View Menu", 
+            "label": "Menu"
+        }, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4c9a56259c66370419cd57fd", 
+        "shortUrl": "http://4sq.com/9T81hm", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10027", 
+            "state": "NY", 
+            "crossStreet": "btwn 121st & 122nd St", 
+            "address": "3066 Broadway", 
+            "lat": 40.81146435148113, 
+            "lng": -73.96146558382536
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/5089bd1fe4b0661bf368397f", 
+                            "text": "Show your Columbia ID for a 2$ discount", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "5089bd1fe4b0661bf368397f", 
+                            "createdAt": 1351204127, 
+                            "user": {
+                                "lastName": "T.", 
+                                "photo": {
+                                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                                    "suffix": "/ESSX1FPPTPWIAAQD.jpg"
+                                }, 
+                                "id": "38407200", 
+                                "firstName": "Gianluca", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/columbia-barber-shop/4c9a56259c66370419cd57fd", 
+        "tags": [], 
+        "photos": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "suffix": "/48476_QP9aSgXiXAeAAol-zp8ccJZgj3wiZfVBuExfhzNvsHE.jpg", 
+                            "width": 960, 
+                            "visibility": "public", 
+                            "height": 720, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/iphone", 
+                                "name": "foursquare for iPhone"
+                            }, 
+                            "prefix": "https://irs1.4sqi.net/img/general/", 
+                            "user": {
+                                "gender": "male", 
+                                "id": "48476", 
+                                "firstName": "Joshua", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/4aba2f9991469.jpg"
+                                }
+                            }, 
+                            "id": "51b76b76498e156dd3b6d730", 
+                            "createdAt": 1370975094
+                        }
+                    ], 
+                    "type": "venue", 
+                    "name": "Venue photos"
+                }
+            ]
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 121, 
+            "usersCount": 58
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Salons / Barbershops", 
+                "primary": true, 
+                "name": "Salon / Barbershop", 
+                "shortName": "Salon / Barbershop", 
+                "id": "4bf58dd8d48988d110951735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/salon_barber_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Columbia Barber Shop", 
+        "url": "http://www.columbiabarbershop.com", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {
+            "phone": "2122229060", 
+            "formattedPhone": "(212) 222-9060"
+        }, 
+        "timeZone": "America/New_York"
+    }
+}

@@ -1,1 +1,131 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4c4dc651ea24c9b60750a114", "createdAt": 1280165457, "stats": {"checkinsCount": 102, "tipCount": 1, "usersCount": 8}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 3, "user": {"lastName": "S.", "gender": "male", "id": "195492", "firstName": "Nick", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/4KEYGGWB3JXVZ1LR.jpg"}}}, "shortUrl": "http://4sq.com/bSID8Y", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "", "isFuzzed": true, "cc": "US", "country": "United States", "state": "New York", "lat": 40.79870555327759, "lng": -73.97712595918333}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/680-west-end-ave/4c4dc651ea24c9b60750a114", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 1, "groups": [{"count": 1, "items": [{"lang": "en", "canonicalUrl": "https://foursquare.com/item/4c4dc6b251c2c92847545c9d", "text": "Great Apts.!!!!", "saves": {}, "logView": true, "likes": {"count": 0, "groups": []}, "todo": {"count": 0}, "id": "4c4dc6b251c2c92847545c9d", "createdAt": 1280165554, "user": {"lastName": "D.", "gender": "male", "id": "1968165", "firstName": "Bob", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/HPUCCZ2VIHGSX5V5.jpg"}}}], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Homes (private)", "primary": true, "name": "Home (private)", "shortName": "Home", "id": "4bf58dd8d48988d103941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", "suffix": ".png"}}], "name": "680 West End Ave", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 3, 
+            "user": {
+                "lastName": "S.", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/4KEYGGWB3JXVZ1LR.jpg"
+                }, 
+                "id": "195492", 
+                "firstName": "Nick", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1280165457, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4c4dc651ea24c9b60750a114", 
+        "shortUrl": "http://4sq.com/bSID8Y", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/4c4dc6b251c2c92847545c9d", 
+                            "text": "Great Apts.!!!!", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "4c4dc6b251c2c92847545c9d", 
+                            "createdAt": 1280165554, 
+                            "user": {
+                                "lastName": "D.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/HPUCCZ2VIHGSX5V5.jpg"
+                                }, 
+                                "id": "1968165", 
+                                "firstName": "Bob", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "", 
+            "isFuzzed": true, 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "New York", 
+            "lat": 40.79870555327759, 
+            "lng": -73.97712595918333
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/680-west-end-ave/4c4dc651ea24c9b60750a114", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 102, 
+            "usersCount": 8
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Homes (private)", 
+                "primary": true, 
+                "name": "Home (private)", 
+                "shortName": "Home", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "680 West End Ave", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

@@ -1,1 +1,131 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4ccb5b7ec0378cfa92517e48", "createdAt": 1288395646, "stats": {"checkinsCount": 178, "tipCount": 1, "usersCount": 3}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 1, "user": {"lastName": "B.", "gender": "female", "id": "4028284", "firstName": "Vanessa", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/4028284-OQLY5FZQ4MJAQPA5.jpg"}}}, "shortUrl": "http://4sq.com/dAHO7z", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Durham", "isFuzzed": true, "cc": "US", "country": "United States", "state": "CT", "lat": 41.4444262048565, "lng": -72.71562738313551}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/the-ball-residence/4ccb5b7ec0378cfa92517e48", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 1, "groups": [{"count": 1, "items": [{"lang": "en", "canonicalUrl": "https://foursquare.com/item/531f5f60498e5f40edd341f2", "text": "Ballerrrrr", "saves": {}, "logView": true, "likes": {"count": 0, "groups": []}, "todo": {"count": 0}, "id": "531f5f60498e5f40edd341f2", "createdAt": 1394564960, "user": {"lastName": "P.", "gender": "female", "id": "46675792", "firstName": "Khushbu", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/46675792-V3PROPXNDTVS1MH2.jpg"}}}], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Homes (private)", "primary": true, "name": "Home (private)", "shortName": "Home", "id": "4bf58dd8d48988d103941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", "suffix": ".png"}}], "name": "The Ball Residence", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 1, 
+            "user": {
+                "lastName": "B.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/4028284-OQLY5FZQ4MJAQPA5.jpg"
+                }, 
+                "id": "4028284", 
+                "firstName": "Vanessa", 
+                "gender": "female"
+            }
+        }, 
+        "createdAt": 1288395646, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4ccb5b7ec0378cfa92517e48", 
+        "shortUrl": "http://4sq.com/dAHO7z", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/531f5f60498e5f40edd341f2", 
+                            "text": "Ballerrrrr", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "531f5f60498e5f40edd341f2", 
+                            "createdAt": 1394564960, 
+                            "user": {
+                                "lastName": "P.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/46675792-V3PROPXNDTVS1MH2.jpg"
+                                }, 
+                                "id": "46675792", 
+                                "firstName": "Khushbu", 
+                                "gender": "female"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Durham", 
+            "isFuzzed": true, 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "CT", 
+            "lat": 41.4444262048565, 
+            "lng": -72.71562738313551
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/the-ball-residence/4ccb5b7ec0378cfa92517e48", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 178, 
+            "usersCount": 3
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Homes (private)", 
+                "primary": true, 
+                "name": "Home (private)", 
+                "shortName": "Home", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "The Ball Residence", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

@@ -1,1 +1,113 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "52ad1bfa11d2bf55887d0619", "createdAt": 1387076602, "stats": {"checkinsCount": 3, "tipCount": 0, "usersCount": 1}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 2, "user": {"lastName": "S.", "gender": "male", "id": "13410046", "firstName": "Jake", "photo": {"prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/UGLUB5JRU5VSNL5U.jpg"}}}, "shortUrl": "http://4sq.com/IWG1h0", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "state": "NY", "lat": 40.761776, "lng": -73.967997}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/jakes-secret/52ad1bfa11d2bf55887d0619", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Offices", "primary": true, "name": "Office", "shortName": "Office", "id": "4bf58dd8d48988d124941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", "suffix": ".png"}}, {"shortName": "Home", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", "suffix": ".png"}, "pluralName": "Homes (private)", "name": "Home (private)", "id": "4bf58dd8d48988d103941735"}], "name": "Jake's Secret", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "lastName": "S.", 
+                "photo": {
+                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                    "suffix": "/UGLUB5JRU5VSNL5U.jpg"
+                }, 
+                "id": "13410046", 
+                "firstName": "Jake", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1387076602, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "52ad1bfa11d2bf55887d0619", 
+        "shortUrl": "http://4sq.com/IWG1h0", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "NY", 
+            "lat": 40.761776, 
+            "lng": -73.967997
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/jakes-secret/52ad1bfa11d2bf55887d0619", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 3, 
+            "usersCount": 1
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Offices", 
+                "primary": true, 
+                "name": "Office", 
+                "shortName": "Office", 
+                "id": "4bf58dd8d48988d124941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                    "suffix": ".png"
+                }
+            }, 
+            {
+                "shortName": "Home", 
+                "pluralName": "Homes (private)", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }, 
+                "name": "Home (private)"
+            }
+        ], 
+        "name": "Jake's Secret", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

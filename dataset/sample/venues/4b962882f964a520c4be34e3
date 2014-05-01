@@ -1,1 +1,246 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 1, "groups": [{"count": 1, "items": [{"lastName": "C.", "gender": "male", "id": "62041594", "firstName": "Lucas", "photo": {"prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/YGATQ2B3JM2H0W2P.jpg"}}], "type": "others"}], "summary": "1 like"}, "id": "4b962882f964a520c4be34e3", "createdAt": 1268131970, "stats": {"checkinsCount": 39, "tipCount": 2, "usersCount": 19}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 4, "user": {"gender": "male", "id": "56376715", "firstName": "iSteve", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/56376715-XFVNXI1YXO5EFZIR.jpg"}}}, "shortUrl": "http://4sq.com/bgcHtS", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Dublin", "cc": "IE", "country": "Ireland", "lat": 53.35080679291015, "address": "Parnell St", "postalCode": "1", "lng": -6.265182968513577}, "dislike": false, "listed": {"count": 1, "groups": [{"count": 1, "items": [{"description": "", "collaborative": false, "url": "/araujogabi/list/transport-dublin", "name": "transport dublin", "editable": false, "listItems": {"count": 11, "items": [{"id": "v4b962882f964a520c4be34e3", "createdAt": 1344450630}]}, "id": "5022ac70e4b0464790dab9bd", "followers": {"count": 0}, "user": {"lastName": "A.", "gender": "female", "id": "19624082", "firstName": "Gabriela", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/KJGFZYDR2QW5UTGC.jpg"}}, "updatedAt": 1369737448, "type": "others", "public": true, "createdAt": 1344449648, "canonicalUrl": "https://foursquare.com/araujogabi/list/transport-dublin"}], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/dublinbikes-station-31/4b962882f964a520c4be34e3", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "Europe/Dublin", "verified": false, "tips": {"count": 2, "groups": [{"count": 2, "items": [{"lang": "en", "canonicalUrl": "https://foursquare.com/item/50434eaee4b02607d136dd9f", "text": "If the station is full/empty try http://dublinbikes2go.com/station/31 to find the nearest stations.", "saves": {}, "logView": true, "entities": [{"indices": [33, 69], "object": {"url": "http://dublinbikes2go.com/station/31"}, "type": "url"}], "likes": {"count": 0, "groups": []}, "todo": {"count": 0}, "id": "50434eaee4b02607d136dd9f", "createdAt": 1346588334, "user": {"lastName": "O.", "gender": "male", "id": "3858208", "firstName": "Paddy", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/SSTTYD3ZSPNMVBBJ.jpg"}}}, {"lang": "en", "canonicalUrl": "https://foursquare.com/item/4bf11f2770c603bbdcd69bb4", "text": "It is great , wild thing!", "saves": {}, "logView": true, "likes": {"count": 0, "groups": []}, "todo": {"count": 0}, "id": "4bf11f2770c603bbdcd69bb4", "createdAt": 1274093351, "user": {"lastName": "R.", "gender": "male", "id": "1270385", "firstName": "Marcin", "photo": {"default": true, "prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/blank_boy.png"}}}], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Bike Shops", "primary": true, "name": "Bike Shop", "shortName": "Bike shop", "id": "4bf58dd8d48988d115951735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/shops/bikeshop_", "suffix": ".png"}}, {"shortName": "Bike", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/shops/bikeshop_", "suffix": ".png"}, "pluralName": "Bike Rentals / Bike Shares", "name": "Bike Rental / Bike Share", "id": "4e4c9077bd41f78e849722f9"}], "name": "DublinBikes Station 31", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": [{"count": 4, "items": [{"displayValue": "Yes", "displayName": "Credit Cards"}], "type": "payments", "name": "Credit Cards", "summary": "Credit Cards"}]}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lastName": "C.", 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/YGATQ2B3JM2H0W2P.jpg"
+                            }, 
+                            "id": "62041594", 
+                            "firstName": "Lucas", 
+                            "gender": "male"
+                        }
+                    ], 
+                    "type": "others"
+                }
+            ], 
+            "summary": "1 like"
+        }, 
+        "mayor": {
+            "count": 4, 
+            "user": {
+                "gender": "male", 
+                "id": "56376715", 
+                "firstName": "iSteve", 
+                "photo": {
+                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                    "suffix": "/56376715-XFVNXI1YXO5EFZIR.jpg"
+                }
+            }
+        }, 
+        "createdAt": 1268131970, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4b962882f964a520c4be34e3", 
+        "shortUrl": "http://4sq.com/bgcHtS", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "description": "", 
+                            "collaborative": false, 
+                            "url": "/araujogabi/list/transport-dublin", 
+                            "editable": false, 
+                            "listItems": {
+                                "count": 11, 
+                                "items": [
+                                    {
+                                        "id": "v4b962882f964a520c4be34e3", 
+                                        "createdAt": 1344450630
+                                    }
+                                ]
+                            }, 
+                            "createdAt": 1344449648, 
+                            "public": true, 
+                            "followers": {
+                                "count": 0
+                            }, 
+                            "user": {
+                                "lastName": "A.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/KJGFZYDR2QW5UTGC.jpg"
+                                }, 
+                                "id": "19624082", 
+                                "firstName": "Gabriela", 
+                                "gender": "female"
+                            }, 
+                            "updatedAt": 1369737448, 
+                            "type": "others", 
+                            "id": "5022ac70e4b0464790dab9bd", 
+                            "canonicalUrl": "https://foursquare.com/araujogabi/list/transport-dublin", 
+                            "name": "transport dublin"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 2, 
+            "groups": [
+                {
+                    "count": 2, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/50434eaee4b02607d136dd9f", 
+                            "text": "If the station is full/empty try http://dublinbikes2go.com/station/31 to find the nearest stations.", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "entities": [
+                                {
+                                    "indices": [
+                                        33, 
+                                        69
+                                    ], 
+                                    "object": {
+                                        "url": "http://dublinbikes2go.com/station/31"
+                                    }, 
+                                    "type": "url"
+                                }
+                            ], 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "50434eaee4b02607d136dd9f", 
+                            "createdAt": 1346588334, 
+                            "user": {
+                                "lastName": "O.", 
+                                "photo": {
+                                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                                    "suffix": "/SSTTYD3ZSPNMVBBJ.jpg"
+                                }, 
+                                "id": "3858208", 
+                                "firstName": "Paddy", 
+                                "gender": "male"
+                            }
+                        }, 
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/4bf11f2770c603bbdcd69bb4", 
+                            "text": "It is great , wild thing!", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "4bf11f2770c603bbdcd69bb4", 
+                            "createdAt": 1274093351, 
+                            "user": {
+                                "lastName": "R.", 
+                                "photo": {
+                                    "default": true, 
+                                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                                    "suffix": "/blank_boy.png"
+                                }, 
+                                "id": "1270385", 
+                                "firstName": "Marcin", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Dublin", 
+            "cc": "IE", 
+            "country": "Ireland", 
+            "postalCode": "1", 
+            "address": "Parnell St", 
+            "lat": 53.35080679291015, 
+            "lng": -6.265182968513577
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/dublinbikes-station-31/4b962882f964a520c4be34e3", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": [
+                {
+                    "count": 4, 
+                    "items": [
+                        {
+                            "displayValue": "Yes", 
+                            "displayName": "Credit Cards"
+                        }
+                    ], 
+                    "type": "payments", 
+                    "name": "Credit Cards", 
+                    "summary": "Credit Cards"
+                }
+            ]
+        }, 
+        "stats": {
+            "tipCount": 2, 
+            "checkinsCount": 39, 
+            "usersCount": 19
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Bike Shops", 
+                "primary": true, 
+                "name": "Bike Shop", 
+                "shortName": "Bike shop", 
+                "id": "4bf58dd8d48988d115951735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/bikeshop_", 
+                    "suffix": ".png"
+                }
+            }, 
+            {
+                "shortName": "Bike", 
+                "pluralName": "Bike Rentals / Bike Shares", 
+                "id": "4e4c9077bd41f78e849722f9", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/bikeshop_", 
+                    "suffix": ".png"
+                }, 
+                "name": "Bike Rental / Bike Share"
+            }
+        ], 
+        "name": "DublinBikes Station 31", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "Europe/Dublin"
+    }
+}

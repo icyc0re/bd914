@@ -1,1 +1,101 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "5055f34ee4b0e7a978422291", "createdAt": 1347810126, "stats": {"checkinsCount": 30, "tipCount": 0, "usersCount": 1}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 3, "user": {"gender": "female", "id": "33333158", "firstName": "Elisa", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/33333158-0V4OKEZLSKKJEC33.jpg"}}}, "shortUrl": "http://4sq.com/U0xkWc", "pageUpdates": {"count": 0, "items": []}, "location": {"lat": 44.50944672692098, "cc": "IT", "lng": 11.390807251701698, "isFuzzed": true, "country": "Italia"}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/lucas-house/5055f34ee4b0e7a978422291", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "Europe/Rome", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Homes (private)", "primary": true, "name": "Home (private)", "shortName": "Home", "id": "4bf58dd8d48988d103941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", "suffix": ".png"}}], "name": "Luca's House", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 3, 
+            "user": {
+                "gender": "female", 
+                "id": "33333158", 
+                "firstName": "Elisa", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/33333158-0V4OKEZLSKKJEC33.jpg"
+                }
+            }
+        }, 
+        "createdAt": 1347810126, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "5055f34ee4b0e7a978422291", 
+        "shortUrl": "http://4sq.com/U0xkWc", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "lat": 44.50944672692098, 
+            "cc": "IT", 
+            "lng": 11.390807251701698, 
+            "isFuzzed": true, 
+            "country": "Italia"
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/lucas-house/5055f34ee4b0e7a978422291", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 30, 
+            "usersCount": 1
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Homes (private)", 
+                "primary": true, 
+                "name": "Home (private)", 
+                "shortName": "Home", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Luca's House", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "Europe/Rome"
+    }
+}

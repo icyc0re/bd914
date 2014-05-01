@@ -1,1 +1,105 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4edf9bb3f79009df32465086", "createdAt": 1323277235, "stats": {"checkinsCount": 6, "tipCount": 0, "usersCount": 1}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 1, "user": {"lastName": "Z.", "gender": "male", "id": "3370121", "firstName": "Scott", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/3370121-SLXBU3KSWSE2S4OX.jpg"}}}, "shortUrl": "http://4sq.com/w2X8Uw", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Washington", "cc": "US", "country": "United States", "lat": 38.90351502087257, "state": "D.C.", "address": "1050 17th Street, 4th Floor", "postalCode": "20002", "lng": -77.03850100114704}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/crossroads-campaign-solutions/4edf9bb3f79009df32465086", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Offices", "primary": true, "name": "Office", "shortName": "Office", "id": "4bf58dd8d48988d124941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", "suffix": ".png"}}], "name": "Crossroads Campaign Solutions", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 1, 
+            "user": {
+                "lastName": "Z.", 
+                "photo": {
+                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                    "suffix": "/3370121-SLXBU3KSWSE2S4OX.jpg"
+                }, 
+                "id": "3370121", 
+                "firstName": "Scott", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1323277235, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4edf9bb3f79009df32465086", 
+        "shortUrl": "http://4sq.com/w2X8Uw", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Washington", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "20002", 
+            "state": "D.C.", 
+            "address": "1050 17th Street, 4th Floor", 
+            "lat": 38.90351502087257, 
+            "lng": -77.03850100114704
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/crossroads-campaign-solutions/4edf9bb3f79009df32465086", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 6, 
+            "usersCount": 1
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Offices", 
+                "primary": true, 
+                "name": "Office", 
+                "shortName": "Office", 
+                "id": "4bf58dd8d48988d124941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Crossroads Campaign Solutions", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

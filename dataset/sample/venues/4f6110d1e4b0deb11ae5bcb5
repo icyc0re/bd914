@@ -1,1 +1,102 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4f6110d1e4b0deb11ae5bcb5", "createdAt": 1331761361, "stats": {"checkinsCount": 5, "tipCount": 0, "usersCount": 1}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 5, "user": {"lastName": "P.", "gender": "female", "id": "1803392", "firstName": "Kimia", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/ZZHQ2KMZEVYDZO5W.jpg"}}}, "shortUrl": "http://4sq.com/zSHm3y", "pageUpdates": {"count": 0, "items": []}, "location": {"lat": 34.238675, "cc": "US", "lng": -118.530905, "state": "California", "country": "United States"}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/plunks-lab/4f6110d1e4b0deb11ae5bcb5", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/Los_Angeles", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Nightclubs", "primary": true, "name": "Nightclub", "shortName": "Nightclub", "id": "4bf58dd8d48988d11f941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/nightclub_", "suffix": ".png"}}], "name": "Plunk's Lab", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 5, 
+            "user": {
+                "lastName": "P.", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/ZZHQ2KMZEVYDZO5W.jpg"
+                }, 
+                "id": "1803392", 
+                "firstName": "Kimia", 
+                "gender": "female"
+            }
+        }, 
+        "createdAt": 1331761361, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4f6110d1e4b0deb11ae5bcb5", 
+        "shortUrl": "http://4sq.com/zSHm3y", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "lat": 34.238675, 
+            "cc": "US", 
+            "lng": -118.530905, 
+            "state": "California", 
+            "country": "United States"
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/plunks-lab/4f6110d1e4b0deb11ae5bcb5", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 5, 
+            "usersCount": 1
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Nightclubs", 
+                "primary": true, 
+                "name": "Nightclub", 
+                "shortName": "Nightclub", 
+                "id": "4bf58dd8d48988d11f941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/nightclub_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Plunk's Lab", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/Los_Angeles"
+    }
+}

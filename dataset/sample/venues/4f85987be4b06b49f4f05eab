@@ -1,1 +1,135 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4f85987be4b06b49f4f05eab", "createdAt": 1334155387, "stats": {"checkinsCount": 9, "tipCount": 0, "usersCount": 6}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 2, "user": {"lastName": "D.", "gender": "female", "id": "11561307", "firstName": "Yazzy", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/11561307-HPENTYOZNMWPDOJS.jpg"}}}, "shortUrl": "http://4sq.com/HKXGR3", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Bronx", "cc": "US", "country": "United States", "lat": 40.80423891476517, "state": "NY", "postalCode": "10455", "lng": -73.92136326691985}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/fruit-stand/4f85987be4b06b49f4f05eab", "tags": [], "photos": {"count": 1, "groups": [{"count": 1, "items": [{"suffix": "/5095664_3ofH9xqZGqhgFDzhANwItD9YYY7lQRsmQWJe33fsySw.jpg", "width": 540, "visibility": "public", "height": 720, "source": {"url": "https://foursquare.com/download/#/android", "name": "foursquare for Android"}, "prefix": "https://irs2.4sqi.net/img/general/", "user": {"lastName": "M.", "gender": "female", "id": "5095664", "firstName": "Denisha", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/5095664-5O4EYVG2LJMEFCZ3.jpg"}}, "id": "5074439ae4b0fed1bfdcdd90", "createdAt": 1349796762}], "type": "venue", "name": "Venue photos"}]}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Snack Places", "primary": true, "name": "Snack Place", "shortName": "Snacks", "id": "4bf58dd8d48988d1c7941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/food/snacks_", "suffix": ".png"}}], "name": "Fruit Stand", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "lastName": "D.", 
+                "photo": {
+                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                    "suffix": "/11561307-HPENTYOZNMWPDOJS.jpg"
+                }, 
+                "id": "11561307", 
+                "firstName": "Yazzy", 
+                "gender": "female"
+            }
+        }, 
+        "createdAt": 1334155387, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4f85987be4b06b49f4f05eab", 
+        "shortUrl": "http://4sq.com/HKXGR3", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Bronx", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10455", 
+            "state": "NY", 
+            "lat": 40.80423891476517, 
+            "lng": -73.92136326691985
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/fruit-stand/4f85987be4b06b49f4f05eab", 
+        "tags": [], 
+        "photos": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "suffix": "/5095664_3ofH9xqZGqhgFDzhANwItD9YYY7lQRsmQWJe33fsySw.jpg", 
+                            "width": 540, 
+                            "visibility": "public", 
+                            "height": 720, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "prefix": "https://irs2.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "M.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/5095664-5O4EYVG2LJMEFCZ3.jpg"
+                                }, 
+                                "id": "5095664", 
+                                "firstName": "Denisha", 
+                                "gender": "female"
+                            }, 
+                            "id": "5074439ae4b0fed1bfdcdd90", 
+                            "createdAt": 1349796762
+                        }
+                    ], 
+                    "type": "venue", 
+                    "name": "Venue photos"
+                }
+            ]
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 9, 
+            "usersCount": 6
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Snack Places", 
+                "primary": true, 
+                "name": "Snack Place", 
+                "shortName": "Snacks", 
+                "id": "4bf58dd8d48988d1c7941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/food/snacks_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Fruit Stand", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

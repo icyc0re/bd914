@@ -1,1 +1,105 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4f627812e4b08b476d942b03", "createdAt": 1331853330, "stats": {"checkinsCount": 28, "tipCount": 0, "usersCount": 2}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 4, "user": {"lastName": "B.", "gender": "male", "id": "10430995", "firstName": "Anthony", "photo": {"prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/TSCWPQ0NVQEIHTLL.jpg"}}}, "shortUrl": "http://4sq.com/wcewD8", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "lat": 40.80675501369145, "state": "NY", "address": "370 W 118th St", "postalCode": "10026", "lng": -73.95710329560518}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/restaurante-ramos-comida-salvadore%C3%B1a/4f627812e4b08b476d942b03", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Residential Buildings (Apartments / Condos)", "primary": true, "name": "Residential Building (Apartment / Condo)", "shortName": "Residential", "id": "4d954b06a243a5684965b473", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", "suffix": ".png"}}], "name": "Restaurante Ramos (Comida Salvadore\u00f1a)", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 4, 
+            "user": {
+                "lastName": "B.", 
+                "photo": {
+                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                    "suffix": "/TSCWPQ0NVQEIHTLL.jpg"
+                }, 
+                "id": "10430995", 
+                "firstName": "Anthony", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1331853330, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4f627812e4b08b476d942b03", 
+        "shortUrl": "http://4sq.com/wcewD8", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10026", 
+            "state": "NY", 
+            "address": "370 W 118th St", 
+            "lat": 40.80675501369145, 
+            "lng": -73.95710329560518
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/restaurante-ramos-comida-salvadore%C3%B1a/4f627812e4b08b476d942b03", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 28, 
+            "usersCount": 2
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Residential Buildings (Apartments / Condos)", 
+                "primary": true, 
+                "name": "Residential Building (Apartment / Condo)", 
+                "shortName": "Residential", 
+                "id": "4d954b06a243a5684965b473", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Restaurante Ramos (Comida Salvadore\u00f1a)", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

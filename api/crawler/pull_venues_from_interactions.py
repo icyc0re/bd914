@@ -53,8 +53,8 @@ def main():
                         continue
                     # pull venue
                     venue = client.venues(venue_id);
-                    with open(os.path.join(output_directory, venue_id),'a') as outfile:
-                        json.dump(venue, outfile)#, indent=4) #    to make it human readable, but oc use more space
+                    with open(os.path.join(output_directory, venue_id),'w') as outfile:
+                        json.dump(venue, outfile, indent=4) #    to make it human readable, but oc use more space
                     
                     print 'saved '+venue_id+' from user '+os.path.basename(interaction_file)+'\'s '+interaction_type
                     i += 1

@@ -1,1 +1,104 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4c900c775fdf6dcb54932d91", "createdAt": 1284508791, "stats": {"checkinsCount": 4, "tipCount": 0, "usersCount": 2}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 8, "user": {"lastName": "K.", "gender": "female", "id": "3137468", "firstName": "Nbeul", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/BWQZI3MNBKW4TKAR.jpg"}}}, "shortUrl": "http://4sq.com/bf74jY", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc", "cc": "KR", "country": "\ub300\ud55c\ubbfc\uad6d", "lat": 37.56001609, "address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc911\uad6c \ub0a8\ub300\ubb38\ub85c 5 \uac00 267\ubc88\uc9c0", "postalCode": "100-802", "lng": 126.96453564}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/sk%EB%82%A8%EC%82%B0%EA%B7%B8%EB%A6%B0%EB%B9%8C%EB%94%A9-%ED%9B%84%EB%8B%88%EB%93%9C/4c900c775fdf6dcb54932d91", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "Asia/Seoul", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Offices", "primary": true, "name": "Office", "shortName": "Office", "id": "4bf58dd8d48988d124941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", "suffix": ".png"}}], "name": "SK\ub0a8\uc0b0\uadf8\ub9b0\ube4c\ub529 \ud6c4\ub2c8\ub4dc", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 8, 
+            "user": {
+                "lastName": "K.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/BWQZI3MNBKW4TKAR.jpg"
+                }, 
+                "id": "3137468", 
+                "firstName": "Nbeul", 
+                "gender": "female"
+            }
+        }, 
+        "createdAt": 1284508791, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4c900c775fdf6dcb54932d91", 
+        "shortUrl": "http://4sq.com/bf74jY", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc", 
+            "cc": "KR", 
+            "country": "\ub300\ud55c\ubbfc\uad6d", 
+            "postalCode": "100-802", 
+            "address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc911\uad6c \ub0a8\ub300\ubb38\ub85c 5 \uac00 267\ubc88\uc9c0", 
+            "lat": 37.56001609, 
+            "lng": 126.96453564
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/sk%EB%82%A8%EC%82%B0%EA%B7%B8%EB%A6%B0%EB%B9%8C%EB%94%A9-%ED%9B%84%EB%8B%88%EB%93%9C/4c900c775fdf6dcb54932d91", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 4, 
+            "usersCount": 2
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Offices", 
+                "primary": true, 
+                "name": "Office", 
+                "shortName": "Office", 
+                "id": "4bf58dd8d48988d124941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "SK\ub0a8\uc0b0\uadf8\ub9b0\ube4c\ub529 \ud6c4\ub2c8\ub4dc", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "Asia/Seoul"
+    }
+}

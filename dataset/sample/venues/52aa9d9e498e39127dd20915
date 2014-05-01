@@ -1,1 +1,106 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "52aa9d9e498e39127dd20915", "createdAt": 1386913182, "stats": {"checkinsCount": 18, "tipCount": 0, "usersCount": 4}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 6, "user": {"lastName": "S.", "gender": "male", "id": "2630044", "firstName": "Max", "photo": {"prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/UTCAA3NRYO3D4XTO.jpg"}}}, "shortUrl": "http://4sq.com/1b1fmGv", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "lat": 40.729209676912156, "state": "NY", "crossStreet": "11th Between 1st And A", "address": "414 E 11th St", "postalCode": "10009", "lng": -73.98301728235063}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/414-east-11th-street/52aa9d9e498e39127dd20915", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Residential Buildings (Apartments / Condos)", "primary": true, "name": "Residential Building (Apartment / Condo)", "shortName": "Residential", "id": "4d954b06a243a5684965b473", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", "suffix": ".png"}}], "name": "414 East 11th Street", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 6, 
+            "user": {
+                "lastName": "S.", 
+                "photo": {
+                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                    "suffix": "/UTCAA3NRYO3D4XTO.jpg"
+                }, 
+                "id": "2630044", 
+                "firstName": "Max", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1386913182, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "52aa9d9e498e39127dd20915", 
+        "shortUrl": "http://4sq.com/1b1fmGv", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10009", 
+            "state": "NY", 
+            "crossStreet": "11th Between 1st And A", 
+            "address": "414 E 11th St", 
+            "lat": 40.729209676912156, 
+            "lng": -73.98301728235063
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/414-east-11th-street/52aa9d9e498e39127dd20915", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 18, 
+            "usersCount": 4
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Residential Buildings (Apartments / Condos)", 
+                "primary": true, 
+                "name": "Residential Building (Apartment / Condo)", 
+                "shortName": "Residential", 
+                "id": "4d954b06a243a5684965b473", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "414 East 11th Street", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

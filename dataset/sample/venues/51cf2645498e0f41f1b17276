@@ -1,1 +1,103 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "51cf2645498e0f41f1b17276", "createdAt": 1372530245, "stats": {"checkinsCount": 12, "tipCount": 0, "usersCount": 2}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 5, "user": {"lastName": "S.", "gender": "male", "id": "1958658", "firstName": "Gabriel", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/LOTZ251XKJTNSIJP.jpg"}}}, "shortUrl": "http://4sq.com/1cAetGj", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "state": "NY", "lat": 40.869149, "lng": -73.917256}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/bx20/51cf2645498e0f41f1b17276", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Moving Targets", "primary": true, "name": "Moving Target", "shortName": "Moving Target", "id": "4f2a23984b9023bd5841ed2c", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/travel/movingtarget_", "suffix": ".png"}}], "name": "Bx20", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 5, 
+            "user": {
+                "lastName": "S.", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/LOTZ251XKJTNSIJP.jpg"
+                }, 
+                "id": "1958658", 
+                "firstName": "Gabriel", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1372530245, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "51cf2645498e0f41f1b17276", 
+        "shortUrl": "http://4sq.com/1cAetGj", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "NY", 
+            "lat": 40.869149, 
+            "lng": -73.917256
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/bx20/51cf2645498e0f41f1b17276", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 12, 
+            "usersCount": 2
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Moving Targets", 
+                "primary": true, 
+                "name": "Moving Target", 
+                "shortName": "Moving Target", 
+                "id": "4f2a23984b9023bd5841ed2c", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/movingtarget_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Bx20", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

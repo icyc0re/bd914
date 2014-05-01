@@ -1,1 +1,120 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4b1cd00af964a520e60924e3", "createdAt": 1260179466, "stats": {"checkinsCount": 20, "tipCount": 0, "usersCount": 9}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 10, "user": {"gender": "male", "id": "26845", "firstName": "@joeljet", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/LTXAWL1U5HMX3JBY.jpg"}}}, "shortUrl": "http://4sq.com/amtwxV", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "lat": 40.80673378316219, "state": "NY", "crossStreet": "at 114th St.", "address": "2920 Broadway", "postalCode": "10025", "lng": -73.96441007261322}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/breakfast-cart/4b1cd00af964a520e60924e3", "tags": ["breakfast", "cart", "coffee", "donuts"], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Food Trucks", "primary": true, "name": "Food Truck", "shortName": "Food Truck", "id": "4bf58dd8d48988d1cb941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/food/streetfood_", "suffix": ".png"}}, {"shortName": "Breakfast", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/food/breakfast_", "suffix": ".png"}, "pluralName": "Breakfast Spots", "name": "Breakfast Spot", "id": "4bf58dd8d48988d143941735"}], "name": "Breakfast Cart", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 10, 
+            "user": {
+                "gender": "male", 
+                "id": "26845", 
+                "firstName": "@joeljet", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/LTXAWL1U5HMX3JBY.jpg"
+                }
+            }
+        }, 
+        "createdAt": 1260179466, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4b1cd00af964a520e60924e3", 
+        "shortUrl": "http://4sq.com/amtwxV", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10025", 
+            "state": "NY", 
+            "crossStreet": "at 114th St.", 
+            "address": "2920 Broadway", 
+            "lat": 40.80673378316219, 
+            "lng": -73.96441007261322
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/breakfast-cart/4b1cd00af964a520e60924e3", 
+        "tags": [
+            "breakfast", 
+            "cart", 
+            "coffee", 
+            "donuts"
+        ], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 20, 
+            "usersCount": 9
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Food Trucks", 
+                "primary": true, 
+                "name": "Food Truck", 
+                "shortName": "Food Truck", 
+                "id": "4bf58dd8d48988d1cb941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/food/streetfood_", 
+                    "suffix": ".png"
+                }
+            }, 
+            {
+                "shortName": "Breakfast", 
+                "pluralName": "Breakfast Spots", 
+                "id": "4bf58dd8d48988d143941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/food/breakfast_", 
+                    "suffix": ".png"
+                }, 
+                "name": "Breakfast Spot"
+            }
+        ], 
+        "name": "Breakfast Cart", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

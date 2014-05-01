@@ -1,1 +1,105 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4e46ff23d164155c0dedca9b", "createdAt": 1313275683, "stats": {"checkinsCount": 221, "tipCount": 0, "usersCount": 10}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 6, "user": {"lastName": "G.", "gender": "male", "id": "518291", "firstName": "Robbie", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/EI5S1UWJ020QJS24.jpg"}}}, "shortUrl": "http://4sq.com/oqBYOn", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "lat": 40.80246128386792, "state": "NY", "address": "16-18 W 119th St", "postalCode": "10026", "lng": -73.94874005434465}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/1618-w-119th-st/4e46ff23d164155c0dedca9b", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Residential Buildings (Apartments / Condos)", "primary": true, "name": "Residential Building (Apartment / Condo)", "shortName": "Residential", "id": "4d954b06a243a5684965b473", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", "suffix": ".png"}}], "name": "16-18 W 119th St", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 6, 
+            "user": {
+                "lastName": "G.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/EI5S1UWJ020QJS24.jpg"
+                }, 
+                "id": "518291", 
+                "firstName": "Robbie", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1313275683, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4e46ff23d164155c0dedca9b", 
+        "shortUrl": "http://4sq.com/oqBYOn", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10026", 
+            "state": "NY", 
+            "address": "16-18 W 119th St", 
+            "lat": 40.80246128386792, 
+            "lng": -73.94874005434465
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/1618-w-119th-st/4e46ff23d164155c0dedca9b", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 221, 
+            "usersCount": 10
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Residential Buildings (Apartments / Condos)", 
+                "primary": true, 
+                "name": "Residential Building (Apartment / Condo)", 
+                "shortName": "Residential", 
+                "id": "4d954b06a243a5684965b473", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "16-18 W 119th St", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

@@ -1,1 +1,140 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4c0569d4d3842d7fa426be41", "createdAt": 1275423188, "stats": {"checkinsCount": 15, "tipCount": 1, "usersCount": 4}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 2, "user": {"lastName": "G.", "gender": "male", "id": "518291", "firstName": "Robbie", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/EI5S1UWJ020QJS24.jpg"}}}, "shortUrl": "http://4sq.com/cbexU9", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "lat": 40.7587, "state": "NY", "crossStreet": "3rd Avenue", "address": "227 E 56th St", "postalCode": "10022", "lng": -73.96741}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/east-side-sauna/4c0569d4d3842d7fa426be41", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 1, "groups": [{"count": 1, "items": [{"lang": "en", "canonicalUrl": "https://foursquare.com/item/4c4276b07beab713b9d89555", "text": "Private Mens Club 24/7", "saves": {}, "logView": true, "likes": {"count": 1, "groups": [{"count": 1, "items": [], "type": "others"}], "summary": "1 like"}, "todo": {"count": 0}, "id": "4c4276b07beab713b9d89555", "createdAt": 1279424176, "user": {"lastName": "G.", "gender": "male", "id": "518291", "firstName": "Robbie", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/EI5S1UWJ020QJS24.jpg"}}}], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Bath Houses", "primary": true, "name": "Bath House", "shortName": "Bath House", "id": "52e81612bcbc57f1066b7a27", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/default_", "suffix": ".png"}}], "name": "East Side Sauna", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "lastName": "G.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/EI5S1UWJ020QJS24.jpg"
+                }, 
+                "id": "518291", 
+                "firstName": "Robbie", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1275423188, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4c0569d4d3842d7fa426be41", 
+        "shortUrl": "http://4sq.com/cbexU9", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/4c4276b07beab713b9d89555", 
+                            "text": "Private Mens Club 24/7", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 1, 
+                                "groups": [
+                                    {
+                                        "count": 1, 
+                                        "items": [], 
+                                        "type": "others"
+                                    }
+                                ], 
+                                "summary": "1 like"
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "4c4276b07beab713b9d89555", 
+                            "createdAt": 1279424176, 
+                            "user": {
+                                "lastName": "G.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/EI5S1UWJ020QJS24.jpg"
+                                }, 
+                                "id": "518291", 
+                                "firstName": "Robbie", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10022", 
+            "state": "NY", 
+            "crossStreet": "3rd Avenue", 
+            "address": "227 E 56th St", 
+            "lat": 40.7587, 
+            "lng": -73.96741
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/east-side-sauna/4c0569d4d3842d7fa426be41", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 15, 
+            "usersCount": 4
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Bath Houses", 
+                "primary": true, 
+                "name": "Bath House", 
+                "shortName": "Bath House", 
+                "id": "52e81612bcbc57f1066b7a27", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/default_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "East Side Sauna", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

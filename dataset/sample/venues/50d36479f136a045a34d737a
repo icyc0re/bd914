@@ -1,1 +1,131 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "50d36479f136a045a34d737a", "createdAt": 1356031097, "stats": {"checkinsCount": 5, "tipCount": 1, "usersCount": 1}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 5, "user": {"lastName": "C.", "gender": "male", "id": "472209", "firstName": "Richmond", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/LVLLNSSNRG4ZPCQU.jpg"}}}, "shortUrl": "http://4sq.com/Wx2Ehp", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Taos", "isFuzzed": true, "cc": "US", "country": "United States", "state": "NM", "lat": 36.371102627175276, "lng": -105.56502391610668}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/weimer-diner/50d36479f136a045a34d737a", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/Denver", "verified": false, "tips": {"count": 1, "groups": [{"count": 1, "items": [{"lang": "en", "canonicalUrl": "https://foursquare.com/item/50d36516e4b07c38e9d61053", "text": "The Hospitality here can't be beat! Every visit is such a treat!", "saves": {}, "logView": true, "likes": {"count": 0, "groups": []}, "todo": {"count": 0}, "id": "50d36516e4b07c38e9d61053", "createdAt": 1356031254, "user": {"lastName": "C.", "gender": "male", "id": "472209", "firstName": "Richmond", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/LVLLNSSNRG4ZPCQU.jpg"}}}], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Homes (private)", "primary": true, "name": "Home (private)", "shortName": "Home", "id": "4bf58dd8d48988d103941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", "suffix": ".png"}}], "name": "Weimer Diner", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 5, 
+            "user": {
+                "lastName": "C.", 
+                "photo": {
+                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                    "suffix": "/LVLLNSSNRG4ZPCQU.jpg"
+                }, 
+                "id": "472209", 
+                "firstName": "Richmond", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1356031097, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "50d36479f136a045a34d737a", 
+        "shortUrl": "http://4sq.com/Wx2Ehp", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/50d36516e4b07c38e9d61053", 
+                            "text": "The Hospitality here can't be beat! Every visit is such a treat!", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "50d36516e4b07c38e9d61053", 
+                            "createdAt": 1356031254, 
+                            "user": {
+                                "lastName": "C.", 
+                                "photo": {
+                                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                                    "suffix": "/LVLLNSSNRG4ZPCQU.jpg"
+                                }, 
+                                "id": "472209", 
+                                "firstName": "Richmond", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Taos", 
+            "isFuzzed": true, 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "NM", 
+            "lat": 36.371102627175276, 
+            "lng": -105.56502391610668
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/weimer-diner/50d36479f136a045a34d737a", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 5, 
+            "usersCount": 1
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Homes (private)", 
+                "primary": true, 
+                "name": "Home (private)", 
+                "shortName": "Home", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Weimer Diner", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/Denver"
+    }
+}

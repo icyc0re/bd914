@@ -1,1 +1,105 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4dc408b17d8b14fb4605ee84", "createdAt": 1304692913, "stats": {"checkinsCount": 19, "tipCount": 0, "usersCount": 3}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 1, "user": {"lastName": "Q.", "gender": "male", "id": "8061465", "firstName": "Alden", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/4LGSNEK3ZN3UK22X.jpg"}}}, "shortUrl": "http://4sq.com/lFWreA", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "lat": 40.72801091752903, "state": "NY", "address": "47 Macdougal St", "postalCode": "10012", "lng": -74.00256381645889}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/47-macdougal-st/4dc408b17d8b14fb4605ee84", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Residential Buildings (Apartments / Condos)", "primary": true, "name": "Residential Building (Apartment / Condo)", "shortName": "Residential", "id": "4d954b06a243a5684965b473", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", "suffix": ".png"}}], "name": "47 Macdougal St.", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 1, 
+            "user": {
+                "lastName": "Q.", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/4LGSNEK3ZN3UK22X.jpg"
+                }, 
+                "id": "8061465", 
+                "firstName": "Alden", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1304692913, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4dc408b17d8b14fb4605ee84", 
+        "shortUrl": "http://4sq.com/lFWreA", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10012", 
+            "state": "NY", 
+            "address": "47 Macdougal St", 
+            "lat": 40.72801091752903, 
+            "lng": -74.00256381645889
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/47-macdougal-st/4dc408b17d8b14fb4605ee84", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 19, 
+            "usersCount": 3
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Residential Buildings (Apartments / Condos)", 
+                "primary": true, 
+                "name": "Residential Building (Apartment / Condo)", 
+                "shortName": "Residential", 
+                "id": "4d954b06a243a5684965b473", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "47 Macdougal St.", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

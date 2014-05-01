@@ -1,1 +1,133 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4c1a623f3b2ab7137df73225", "createdAt": 1276797503, "stats": {"checkinsCount": 555, "tipCount": 1, "usersCount": 11}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 2, "user": {"lastName": "L.", "gender": "female", "id": "1689063", "firstName": "Tiff", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/1689063-CLTWDATIRN4S2QI2.jpg"}}}, "shortUrl": "http://4sq.com/c2tpwm", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Dallas", "isFuzzed": true, "cc": "US", "country": "United States", "state": "TX", "lat": 32.68418389705072, "lng": -96.84045996437054}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/glen-oaks-dallas-tx/4c1a623f3b2ab7137df73225", "tags": ["neighborhood"], "photos": {"count": 0, "groups": []}, "timeZone": "America/Chicago", "verified": false, "tips": {"count": 1, "groups": [{"count": 1, "items": [{"lang": "en", "canonicalUrl": "https://foursquare.com/item/50208beee4b06f019215339e", "text": "Tiff is always popping bottles.", "saves": {}, "logView": true, "likes": {"count": 0, "groups": []}, "todo": {"count": 0}, "id": "50208beee4b06f019215339e", "createdAt": 1344310254, "user": {"lastName": "W.", "gender": "none", "id": "13985726", "firstName": "Branden", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/113LCUQVBORFWYSB.jpg"}}}], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Homes (private)", "primary": true, "name": "Home (private)", "shortName": "Home", "id": "4bf58dd8d48988d103941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", "suffix": ".png"}}], "name": "Glen Oaks", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "lastName": "L.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/1689063-CLTWDATIRN4S2QI2.jpg"
+                }, 
+                "id": "1689063", 
+                "firstName": "Tiff", 
+                "gender": "female"
+            }
+        }, 
+        "createdAt": 1276797503, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4c1a623f3b2ab7137df73225", 
+        "shortUrl": "http://4sq.com/c2tpwm", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/50208beee4b06f019215339e", 
+                            "text": "Tiff is always popping bottles.", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "50208beee4b06f019215339e", 
+                            "createdAt": 1344310254, 
+                            "user": {
+                                "lastName": "W.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/113LCUQVBORFWYSB.jpg"
+                                }, 
+                                "id": "13985726", 
+                                "firstName": "Branden", 
+                                "gender": "none"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Dallas", 
+            "isFuzzed": true, 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "TX", 
+            "lat": 32.68418389705072, 
+            "lng": -96.84045996437054
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/glen-oaks-dallas-tx/4c1a623f3b2ab7137df73225", 
+        "tags": [
+            "neighborhood"
+        ], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 555, 
+            "usersCount": 11
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Homes (private)", 
+                "primary": true, 
+                "name": "Home (private)", 
+                "shortName": "Home", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Glen Oaks", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/Chicago"
+    }
+}

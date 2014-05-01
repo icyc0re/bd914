@@ -1,1 +1,158 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4e99810202d57894de1b404c", "createdAt": 1318682882, "stats": {"checkinsCount": 208, "tipCount": 0, "usersCount": 64}, "hereNow": {"count": 1, "groups": [{"count": 1, "items": [], "type": "others", "name": "Other people here"}], "summary": "1 person here"}, "mayor": {"count": 13, "user": {"lastName": "H.", "gender": "female", "id": "23049380", "firstName": "Kai'Cee", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/VCPKMXYVYXBBY4E2.jpg"}}}, "shortUrl": "http://4sq.com/pGFxEG", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Brooklyn", "cc": "US", "country": "United States", "state": "NY", "address": "Franklin Av & Fulton St", "lat": 40.68043444640118, "lng": -73.95554203165511}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/mta-bus-b48-franklin-av-fulton-st-brooklyn-ny/4e99810202d57894de1b404c", "tags": [], "photos": {"count": 2, "groups": [{"count": 2, "items": [{"suffix": "/UwLWeKg9BjMbo-hHQoyo72xTeXe3ksuw4wqJipGXxlo.jpg", "width": 612, "visibility": "public", "height": 612, "source": {"url": "http://instagram.com", "name": "Instagram"}, "prefix": "https://irs0.4sqi.net/img/general/", "user": {"lastName": "P.", "gender": "male", "id": "3117042", "firstName": "Olivier", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/CFSJLYR1VIKQGPS2.jpg"}}, "id": "4fe3b132e4b0ec765da96c2e", "createdAt": 1340322098}, {"suffix": "/48763833_OwD47fagdyqlqJd9gMRbbhzWMnZPr5TK-fgMhzmmdB8.jpg", "width": 720, "visibility": "public", "height": 960, "source": {"url": "https://foursquare.com/download/#/iphone", "name": "foursquare for iPhone"}, "prefix": "https://irs0.4sqi.net/img/general/", "user": {"lastName": "F.", "gender": "female", "id": "48763833", "firstName": "Phersoix", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/2BN3MLOJBJ2BCDL2.jpg"}}, "id": "51dd772c498ebd008bcb6b75", "createdAt": 1373468460}], "type": "venue", "name": "Venue photos"}]}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Bus Lines", "primary": true, "name": "Bus Line", "shortName": "Bus", "id": "4bf58dd8d48988d12b951735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", "suffix": ".png"}}], "name": "MTA Bus - B48 - Franklin Av & Fulton St", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 13, 
+            "user": {
+                "lastName": "H.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/VCPKMXYVYXBBY4E2.jpg"
+                }, 
+                "id": "23049380", 
+                "firstName": "Kai'Cee", 
+                "gender": "female"
+            }
+        }, 
+        "createdAt": 1318682882, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4e99810202d57894de1b404c", 
+        "shortUrl": "http://4sq.com/pGFxEG", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Brooklyn", 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "NY", 
+            "address": "Franklin Av & Fulton St", 
+            "lat": 40.68043444640118, 
+            "lng": -73.95554203165511
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/mta-bus-b48-franklin-av-fulton-st-brooklyn-ny/4e99810202d57894de1b404c", 
+        "tags": [], 
+        "photos": {
+            "count": 2, 
+            "groups": [
+                {
+                    "count": 2, 
+                    "items": [
+                        {
+                            "suffix": "/UwLWeKg9BjMbo-hHQoyo72xTeXe3ksuw4wqJipGXxlo.jpg", 
+                            "width": 612, 
+                            "visibility": "public", 
+                            "height": 612, 
+                            "source": {
+                                "url": "http://instagram.com", 
+                                "name": "Instagram"
+                            }, 
+                            "prefix": "https://irs0.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "P.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/CFSJLYR1VIKQGPS2.jpg"
+                                }, 
+                                "id": "3117042", 
+                                "firstName": "Olivier", 
+                                "gender": "male"
+                            }, 
+                            "id": "4fe3b132e4b0ec765da96c2e", 
+                            "createdAt": 1340322098
+                        }, 
+                        {
+                            "suffix": "/48763833_OwD47fagdyqlqJd9gMRbbhzWMnZPr5TK-fgMhzmmdB8.jpg", 
+                            "width": 720, 
+                            "visibility": "public", 
+                            "height": 960, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/iphone", 
+                                "name": "foursquare for iPhone"
+                            }, 
+                            "prefix": "https://irs0.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "F.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/2BN3MLOJBJ2BCDL2.jpg"
+                                }, 
+                                "id": "48763833", 
+                                "firstName": "Phersoix", 
+                                "gender": "female"
+                            }, 
+                            "id": "51dd772c498ebd008bcb6b75", 
+                            "createdAt": 1373468460
+                        }
+                    ], 
+                    "type": "venue", 
+                    "name": "Venue photos"
+                }
+            ]
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 208, 
+            "usersCount": 64
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Bus Lines", 
+                "primary": true, 
+                "name": "Bus Line", 
+                "shortName": "Bus", 
+                "id": "4bf58dd8d48988d12b951735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "MTA Bus - B48 - Franklin Av & Fulton St", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

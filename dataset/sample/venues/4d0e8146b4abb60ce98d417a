@@ -1,1 +1,234 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 1, "groups": [{"count": 1, "items": [{"lastName": "P.", "gender": "male", "id": "65096456", "firstName": "Jorge", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/QWFDV3B2LODLNQFB.jpg"}}], "type": "others"}], "summary": "1 like"}, "id": "4d0e8146b4abb60ce98d417a", "createdAt": 1292796230, "stats": {"checkinsCount": 316, "tipCount": 1, "usersCount": 88}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 5, "user": {"lastName": "B.", "gender": "female", "id": "51329792", "firstName": "Nicollette", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/GYKRROHBTMCW0TYJ.jpg"}}}, "shortUrl": "http://4sq.com/gBtwz2", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Forest Hills", "cc": "US", "country": "United States", "lat": 40.721502075213984, "state": "NY", "crossStreet": "71st Avenue/Continental Avenue/108th Street", "address": "Queens Boulevard", "postalCode": "11375", "lng": -73.8440465927124}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/mta-bus-stop--q60qm18/4d0e8146b4abb60ce98d417a", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 1, "groups": [{"count": 1, "items": [{"lang": "en", "canonicalUrl": "https://foursquare.com/item/4ea5d24f775b1e72ed618607", "text": "Rush hour flow", "saves": {}, "logView": true, "likes": {"count": 0, "groups": []}, "todo": {"count": 0}, "id": "4ea5d24f775b1e72ed618607", "createdAt": 1319490127, "user": {"lastName": "B.", "gender": "male", "id": "14734786", "firstName": "Dovan", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/PCWLOEYO1ZBE1PFJ.jpg"}}}], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Bus Stations", "primary": true, "name": "Bus Station", "shortName": "Bus Station", "id": "4bf58dd8d48988d1fe931735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", "suffix": ".png"}}], "name": "MTA Bus Stop - Q60/QM18", "specials": {"count": 0, "items": []}, "contact": {"phone": "7183301234", "twitter": "nyctbusstop", "formattedPhone": "(718) 330-1234"}, "popular": {"status": "Likely open", "timeframes": [{"segments": [], "open": [{"renderedTime": "Noon\u20139:00 PM"}], "days": "Today", "includesToday": true}, {"segments": [], "open": [{"renderedTime": "2:00 AM\u20133:00 AM"}], "days": "Thu"}, {"segments": [], "open": [{"renderedTime": "2:00 PM\u2013Midnight"}], "days": "Fri"}, {"segments": [], "open": [{"renderedTime": "8:00 AM\u20139:00 AM"}, {"renderedTime": "1:00 PM\u20136:00 PM"}, {"renderedTime": "8:00 PM\u201310:00 PM"}], "days": "Sat"}, {"segments": [], "open": [{"renderedTime": "24 Hours"}], "days": "Sun"}, {"segments": [], "open": [{"renderedTime": "Noon\u20136:00 PM"}, {"renderedTime": "9:00 PM\u201310:00 PM"}], "days": "Mon"}, {"segments": [], "open": [{"renderedTime": "24 Hours"}], "days": "Tue"}], "isOpen": true}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lastName": "P.", 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/QWFDV3B2LODLNQFB.jpg"
+                            }, 
+                            "id": "65096456", 
+                            "firstName": "Jorge", 
+                            "gender": "male"
+                        }
+                    ], 
+                    "type": "others"
+                }
+            ], 
+            "summary": "1 like"
+        }, 
+        "mayor": {
+            "count": 5, 
+            "user": {
+                "lastName": "B.", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/GYKRROHBTMCW0TYJ.jpg"
+                }, 
+                "id": "51329792", 
+                "firstName": "Nicollette", 
+                "gender": "female"
+            }
+        }, 
+        "createdAt": 1292796230, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4d0e8146b4abb60ce98d417a", 
+        "shortUrl": "http://4sq.com/gBtwz2", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/4ea5d24f775b1e72ed618607", 
+                            "text": "Rush hour flow", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "4ea5d24f775b1e72ed618607", 
+                            "createdAt": 1319490127, 
+                            "user": {
+                                "lastName": "B.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/PCWLOEYO1ZBE1PFJ.jpg"
+                                }, 
+                                "id": "14734786", 
+                                "firstName": "Dovan", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Forest Hills", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "11375", 
+            "state": "NY", 
+            "crossStreet": "71st Avenue/Continental Avenue/108th Street", 
+            "address": "Queens Boulevard", 
+            "lat": 40.721502075213984, 
+            "lng": -73.8440465927124
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/mta-bus-stop--q60qm18/4d0e8146b4abb60ce98d417a", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 316, 
+            "usersCount": 88
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Bus Stations", 
+                "primary": true, 
+                "name": "Bus Station", 
+                "shortName": "Bus Station", 
+                "id": "4bf58dd8d48988d1fe931735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "MTA Bus Stop - Q60/QM18", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {
+            "phone": "7183301234", 
+            "twitter": "nyctbusstop", 
+            "formattedPhone": "(718) 330-1234"
+        }, 
+        "popular": {
+            "status": "Likely open", 
+            "timeframes": [
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "2:00 AM\u20133:00 AM"
+                        }
+                    ], 
+                    "days": "Today", 
+                    "includesToday": true
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "2:00 PM\u2013Midnight"
+                        }
+                    ], 
+                    "days": "Fri"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "8:00 AM\u20139:00 AM"
+                        }, 
+                        {
+                            "renderedTime": "1:00 PM\u20136:00 PM"
+                        }, 
+                        {
+                            "renderedTime": "8:00 PM\u201310:00 PM"
+                        }
+                    ], 
+                    "days": "Sat"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "24 Hours"
+                        }
+                    ], 
+                    "days": "Sun"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "Noon\u20136:00 PM"
+                        }, 
+                        {
+                            "renderedTime": "9:00 PM\u201310:00 PM"
+                        }
+                    ], 
+                    "days": "Mon"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "24 Hours"
+                        }
+                    ], 
+                    "days": "Tue"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "Noon\u20139:00 PM"
+                        }
+                    ], 
+                    "days": "Wed"
+                }
+            ], 
+            "isOpen": true
+        }, 
+        "timeZone": "America/New_York"
+    }
+}

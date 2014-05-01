@@ -1,1 +1,105 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4fa1ba2ae4b0198e0887109f", "createdAt": 1335999018, "stats": {"checkinsCount": 67, "tipCount": 0, "usersCount": 10}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 7, "user": {"gender": "female", "id": "2757414", "firstName": "Risa", "photo": {"prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/UVT3WUTDSHXRMSRD.jpg"}}}, "shortUrl": "http://4sq.com/Jfx7G4", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "lat": 40.71895155322586, "state": "NY", "crossStreet": "at Varick St", "address": "140 Franklin St", "postalCode": "10013", "lng": -74.00715460988235}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/140-franklin-st/4fa1ba2ae4b0198e0887109f", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Residential Buildings (Apartments / Condos)", "primary": true, "name": "Residential Building (Apartment / Condo)", "shortName": "Residential", "id": "4d954b06a243a5684965b473", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", "suffix": ".png"}}], "name": "140 Franklin St", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 7, 
+            "user": {
+                "gender": "female", 
+                "id": "2757414", 
+                "firstName": "Risa", 
+                "photo": {
+                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                    "suffix": "/UVT3WUTDSHXRMSRD.jpg"
+                }
+            }
+        }, 
+        "createdAt": 1335999018, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4fa1ba2ae4b0198e0887109f", 
+        "shortUrl": "http://4sq.com/Jfx7G4", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10013", 
+            "state": "NY", 
+            "crossStreet": "at Varick St", 
+            "address": "140 Franklin St", 
+            "lat": 40.71895155322586, 
+            "lng": -74.00715460988235
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/140-franklin-st/4fa1ba2ae4b0198e0887109f", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 67, 
+            "usersCount": 10
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Residential Buildings (Apartments / Condos)", 
+                "primary": true, 
+                "name": "Residential Building (Apartment / Condo)", 
+                "shortName": "Residential", 
+                "id": "4d954b06a243a5684965b473", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "140 Franklin St", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

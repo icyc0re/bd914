@@ -1,1 +1,131 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4b7c831cf964a520ee972fe3", "createdAt": 1266451228, "stats": {"checkinsCount": 63, "tipCount": 1, "usersCount": 23}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 2, "user": {"lastName": "T.", "gender": "male", "id": "1759481", "firstName": "Aaron", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/X3FPLVU2SEBHVSIK.jpg"}}}, "shortUrl": "http://4sq.com/cngycq", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Washington", "cc": "US", "country": "United States", "lat": 38.92974016705139, "state": "D.C.", "postalCode": "20010", "lng": -77.0109838847962}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/va-medical-center-er/4b7c831cf964a520ee972fe3", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 1, "groups": [{"count": 1, "items": [{"lang": "en", "canonicalUrl": "https://foursquare.com/item/51ab939e498e247abf56dfe5", "text": "Bring a book.1", "saves": {}, "logView": true, "likes": {"count": 0, "groups": []}, "todo": {"count": 0}, "id": "51ab939e498e247abf56dfe5", "createdAt": 1370198942, "user": {"lastName": "S.", "gender": "male", "id": "25420076", "firstName": "Scott", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/LF05KMD5XSL51NVO.jpg"}}}], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Emergency Rooms", "primary": true, "name": "Emergency Room", "shortName": "Emergency Room", "id": "4bf58dd8d48988d194941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_ems_", "suffix": ".png"}}], "name": "VA Medical Center ER", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "lastName": "T.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/X3FPLVU2SEBHVSIK.jpg"
+                }, 
+                "id": "1759481", 
+                "firstName": "Aaron", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1266451228, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4b7c831cf964a520ee972fe3", 
+        "shortUrl": "http://4sq.com/cngycq", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/51ab939e498e247abf56dfe5", 
+                            "text": "Bring a book.1", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "51ab939e498e247abf56dfe5", 
+                            "createdAt": 1370198942, 
+                            "user": {
+                                "lastName": "S.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/LF05KMD5XSL51NVO.jpg"
+                                }, 
+                                "id": "25420076", 
+                                "firstName": "Scott", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Washington", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "20010", 
+            "state": "D.C.", 
+            "lat": 38.92974016705139, 
+            "lng": -77.0109838847962
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/va-medical-center-er/4b7c831cf964a520ee972fe3", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 63, 
+            "usersCount": 23
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Emergency Rooms", 
+                "primary": true, 
+                "name": "Emergency Room", 
+                "shortName": "Emergency Room", 
+                "id": "4bf58dd8d48988d194941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_ems_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "VA Medical Center ER", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

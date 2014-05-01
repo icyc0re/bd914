@@ -69,7 +69,16 @@ case class VenueCompact(categories: Option[List[VenueCategory]], id: String, nam
                         phrases: Option[List[VenuePhrases]], location: Option[VenueLocation])
 
 class Venue(jsonString: String) {
-  val jsonFile: JsValue = Json.parse(jsonString)
+  
+  var jsonFile: JsValue = Json.parse("{\"venue\":\"default\"}")
+  try {
+	  jsonFile = Json.parse(jsonString)
+  } catch {
+     case ex: Exception =>{
+    	println(jsonString)
+        println("Malformed JSON: Got a sequence of JsValue outside an array or an object.")    
+     }
+  }
 
   //Jackson way :
   /*val mapper = new ObjectMapper() with ScalaObjectMapper

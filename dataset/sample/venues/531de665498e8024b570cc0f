@@ -1,1 +1,103 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "531de665498e8024b570cc0f", "createdAt": 1394468453, "stats": {"checkinsCount": 3, "tipCount": 0, "usersCount": 2}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 2, "user": {"lastName": "H.", "gender": "female", "id": "23049380", "firstName": "Kai'Cee", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/VCPKMXYVYXBBY4E2.jpg"}}}, "shortUrl": "http://4sq.com/1gl5hY4", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "state": "NY", "lat": 40.798648834228516, "lng": -73.94180297851562}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/mta-bus--m116--east-116th-st--lexington-ave/531de665498e8024b570cc0f", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Bus Stops", "primary": true, "name": "Bus Stop", "shortName": "Bus Stop", "id": "52f2ab2ebcbc57f1066b8b4f", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", "suffix": ".png"}}], "name": "MTA Bus - M116 - East 116th St & Lexington Ave", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "lastName": "H.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/VCPKMXYVYXBBY4E2.jpg"
+                }, 
+                "id": "23049380", 
+                "firstName": "Kai'Cee", 
+                "gender": "female"
+            }
+        }, 
+        "createdAt": 1394468453, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "531de665498e8024b570cc0f", 
+        "shortUrl": "http://4sq.com/1gl5hY4", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "NY", 
+            "lat": 40.798648834228516, 
+            "lng": -73.94180297851562
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/mta-bus--m116--east-116th-st--lexington-ave/531de665498e8024b570cc0f", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 3, 
+            "usersCount": 2
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Bus Stops", 
+                "primary": true, 
+                "name": "Bus Stop", 
+                "shortName": "Bus Stop", 
+                "id": "52f2ab2ebcbc57f1066b8b4f", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "MTA Bus - M116 - East 116th St & Lexington Ave", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

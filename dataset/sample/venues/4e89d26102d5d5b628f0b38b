@@ -1,1 +1,108 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4e89d26102d5d5b628f0b38b", "createdAt": 1317655137, "stats": {"checkinsCount": 3, "tipCount": 0, "usersCount": 1}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 1, "user": {"lastName": "C.", "gender": "male", "id": "13776942", "firstName": "GerMichael", "photo": {"prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/DEKQRIRQJJP3TRXO.jpg"}}}, "shortUrl": "http://4sq.com/qeQALZ", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Bronx", "cc": "US", "country": "United States", "lat": 40.83680851, "state": "NY", "address": "1500 White Plains Rd", "postalCode": "10462", "lng": -73.86316142}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/krislen-management-corp/4e89d26102d5d5b628f0b38b", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Buildings", "primary": true, "name": "Building", "shortName": "Building", "id": "4bf58dd8d48988d130941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", "suffix": ".png"}}], "name": "Krislen Management Corp.", "specials": {"count": 0, "items": []}, "contact": {"phone": "7188928888", "formattedPhone": "(718) 892-8888"}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 1, 
+            "user": {
+                "lastName": "C.", 
+                "photo": {
+                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                    "suffix": "/DEKQRIRQJJP3TRXO.jpg"
+                }, 
+                "id": "13776942", 
+                "firstName": "GerMichael", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1317655137, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4e89d26102d5d5b628f0b38b", 
+        "shortUrl": "http://4sq.com/qeQALZ", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Bronx", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10462", 
+            "state": "NY", 
+            "address": "1500 White Plains Rd", 
+            "lat": 40.83680851, 
+            "lng": -73.86316142
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/krislen-management-corp/4e89d26102d5d5b628f0b38b", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 3, 
+            "usersCount": 1
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Buildings", 
+                "primary": true, 
+                "name": "Building", 
+                "shortName": "Building", 
+                "id": "4bf58dd8d48988d130941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Krislen Management Corp.", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {
+            "phone": "7188928888", 
+            "formattedPhone": "(718) 892-8888"
+        }, 
+        "timeZone": "America/New_York"
+    }
+}

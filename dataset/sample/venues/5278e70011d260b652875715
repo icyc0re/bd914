@@ -1,1 +1,105 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "5278e70011d260b652875715", "createdAt": 1383655168, "stats": {"checkinsCount": 91, "tipCount": 0, "usersCount": 5}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 15, "user": {"lastName": "W.", "gender": "male", "id": "12707355", "firstName": "James", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/CYJQV330CHGGHDLF.jpg"}}}, "shortUrl": "http://4sq.com/185QDAh", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "state": "NY", "crossStreet": "119th St", "address": "Frederick Douglass Blvd", "lat": 40.806831089538214, "lng": -73.9533780530302}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/haus-of-ham-new-york-ny/5278e70011d260b652875715", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Residential Buildings (Apartments / Condos)", "primary": true, "name": "Residential Building (Apartment / Condo)", "shortName": "Residential", "id": "4d954b06a243a5684965b473", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", "suffix": ".png"}}], "name": "Haus of HAM", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 15, 
+            "user": {
+                "lastName": "W.", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/CYJQV330CHGGHDLF.jpg"
+                }, 
+                "id": "12707355", 
+                "firstName": "James", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1383655168, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "5278e70011d260b652875715", 
+        "shortUrl": "http://4sq.com/185QDAh", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "NY", 
+            "crossStreet": "119th St", 
+            "address": "Frederick Douglass Blvd", 
+            "lat": 40.806831089538214, 
+            "lng": -73.9533780530302
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/haus-of-ham-new-york-ny/5278e70011d260b652875715", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 91, 
+            "usersCount": 5
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Residential Buildings (Apartments / Condos)", 
+                "primary": true, 
+                "name": "Residential Building (Apartment / Condo)", 
+                "shortName": "Residential", 
+                "id": "4d954b06a243a5684965b473", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Haus of HAM", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

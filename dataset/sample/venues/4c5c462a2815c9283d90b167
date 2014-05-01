@@ -1,1 +1,118 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4c5c462a2815c9283d90b167", "createdAt": 1281115690, "stats": {"checkinsCount": 136, "tipCount": 1, "usersCount": 33}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 2, "user": {"gender": "female", "id": "7737385", "firstName": "PHOckOff", "photo": {"prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/JGK5OAZ4NXJMCQ3J.jpg"}}}, "shortUrl": "http://4sq.com/aTTAVY", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Houston", "cc": "US", "country": "United States", "lat": 29.77709028, "state": "TX", "postalCode": "77007", "lng": -95.4098116}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/walk-of-shame-houston-tx/4c5c462a2815c9283d90b167", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/Chicago", "verified": false, "tips": {"count": 1, "groups": [{"count": 1, "items": [{"lang": "en", "canonicalUrl": "https://foursquare.com/item/4f8da743e4b0194668d07dd8", "text": "You're Walking? Why is that?", "saves": {}, "logView": true, "likes": {"count": 0, "groups": []}, "todo": {"count": 0}, "id": "4f8da743e4b0194668d07dd8", "createdAt": 1334683459, "user": {"lastName": "P.", "gender": "male", "id": "156625", "firstName": "Jeffrey", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/2TZKE5KO5PYHICB5.jpg"}}}], "type": "others", "name": "Tips from others"}]}, "categories": [], "name": "Walk Of Shame", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "gender": "female", 
+                "id": "7737385", 
+                "firstName": "PHOckOff", 
+                "photo": {
+                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                    "suffix": "/JGK5OAZ4NXJMCQ3J.jpg"
+                }
+            }
+        }, 
+        "createdAt": 1281115690, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4c5c462a2815c9283d90b167", 
+        "shortUrl": "http://4sq.com/aTTAVY", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/4f8da743e4b0194668d07dd8", 
+                            "text": "You're Walking? Why is that?", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "4f8da743e4b0194668d07dd8", 
+                            "createdAt": 1334683459, 
+                            "user": {
+                                "lastName": "P.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/2TZKE5KO5PYHICB5.jpg"
+                                }, 
+                                "id": "156625", 
+                                "firstName": "Jeffrey", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Houston", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "77007", 
+            "state": "TX", 
+            "lat": 29.77709028, 
+            "lng": -95.4098116
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/walk-of-shame-houston-tx/4c5c462a2815c9283d90b167", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 136, 
+            "usersCount": 33
+        }, 
+        "dislike": false, 
+        "categories": [], 
+        "name": "Walk Of Shame", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/Chicago"
+    }
+}

@@ -1,1 +1,108 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "516335f6e4b02b2e3efc77b2", "createdAt": 1365456374, "stats": {"checkinsCount": 6, "tipCount": 0, "usersCount": 2}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 1, "user": {"lastName": "M.", "gender": "male", "id": "44750729", "firstName": "Robert", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/QNTEBGC1DDU2AAHQ.jpg"}}}, "shortUrl": "http://4sq.com/10O3BhW", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Eastchester", "cc": "US", "country": "United States", "lat": 40.96973, "state": "NY", "address": "688 White Plains road", "postalCode": "10583", "lng": -73.805998}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/dr-james-w-gulotta-dds/516335f6e4b02b2e3efc77b2", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Dentist's Offices", "primary": true, "name": "Dentist's Office", "shortName": "Dentist's Office", "id": "4bf58dd8d48988d178941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_dentist_", "suffix": ".png"}}], "name": "Dr. James W. Gulotta, D.D.S.", "specials": {"count": 0, "items": []}, "contact": {"phone": "9147231760", "formattedPhone": "(914) 723-1760"}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 1, 
+            "user": {
+                "lastName": "M.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/QNTEBGC1DDU2AAHQ.jpg"
+                }, 
+                "id": "44750729", 
+                "firstName": "Robert", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1365456374, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "516335f6e4b02b2e3efc77b2", 
+        "shortUrl": "http://4sq.com/10O3BhW", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Eastchester", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10583", 
+            "state": "NY", 
+            "address": "688 White Plains road", 
+            "lat": 40.96973, 
+            "lng": -73.805998
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/dr-james-w-gulotta-dds/516335f6e4b02b2e3efc77b2", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 6, 
+            "usersCount": 2
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Dentist's Offices", 
+                "primary": true, 
+                "name": "Dentist's Office", 
+                "shortName": "Dentist's Office", 
+                "id": "4bf58dd8d48988d178941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_dentist_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Dr. James W. Gulotta, D.D.S.", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {
+            "phone": "9147231760", 
+            "formattedPhone": "(914) 723-1760"
+        }, 
+        "timeZone": "America/New_York"
+    }
+}

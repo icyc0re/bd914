@@ -1,1 +1,104 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "5336f886498e5cbf5b42eaf6", "createdAt": 1396111494, "stats": {"checkinsCount": 3, "tipCount": 0, "usersCount": 1}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 3, "user": {"lastName": "K.", "gender": "female", "id": "1665963", "firstName": "Sara", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/4EOR4DQR0JWYMWST.jpg"}}}, "shortUrl": "http://4sq.com/1gauzYh", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "state": "NY", "crossStreet": "117th Street (between 5th And Lenox Ave)", "lat": 40.809406353521176, "lng": -73.94224207702084}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/harlem-fit/5336f886498e5cbf5b42eaf6", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Other Events", "primary": true, "name": "Other Event", "shortName": "Other Event", "id": "5267e4d9e4b0ec79466e48c8", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/event/default_", "suffix": ".png"}}], "name": "Harlem Fit", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 3, 
+            "user": {
+                "lastName": "K.", 
+                "photo": {
+                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                    "suffix": "/4EOR4DQR0JWYMWST.jpg"
+                }, 
+                "id": "1665963", 
+                "firstName": "Sara", 
+                "gender": "female"
+            }
+        }, 
+        "createdAt": 1396111494, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "5336f886498e5cbf5b42eaf6", 
+        "shortUrl": "http://4sq.com/1gauzYh", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "NY", 
+            "crossStreet": "117th Street (between 5th And Lenox Ave)", 
+            "lat": 40.809406353521176, 
+            "lng": -73.94224207702084
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/harlem-fit/5336f886498e5cbf5b42eaf6", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 3, 
+            "usersCount": 1
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Other Events", 
+                "primary": true, 
+                "name": "Other Event", 
+                "shortName": "Other Event", 
+                "id": "5267e4d9e4b0ec79466e48c8", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/event/default_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Harlem Fit", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

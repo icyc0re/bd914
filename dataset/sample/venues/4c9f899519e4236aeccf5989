@@ -1,1 +1,131 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4c9f899519e4236aeccf5989", "createdAt": 1285523861, "stats": {"checkinsCount": 49, "tipCount": 1, "usersCount": 3}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 1, "user": {"lastName": "G.", "gender": "male", "id": "518291", "firstName": "Robbie", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/EI5S1UWJ020QJS24.jpg"}}}, "shortUrl": "http://4sq.com/b6UMOM", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "isFuzzed": true, "cc": "US", "country": "United States", "state": "NY", "lat": 40.775615852364126, "lng": -73.95361626406626}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/the-claiborne-house/4c9f899519e4236aeccf5989", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 1, "groups": [{"count": 1, "items": [{"lang": "en", "canonicalUrl": "https://foursquare.com/item/4d0e4f14be6d6ea859a409b5", "text": "Great coop Studio Apt $315K contact me 917-553-4846", "saves": {}, "logView": true, "likes": {"count": 0, "groups": []}, "todo": {"count": 1}, "id": "4d0e4f14be6d6ea859a409b5", "createdAt": 1292783380, "user": {"lastName": "G.", "gender": "male", "id": "518291", "firstName": "Robbie", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/EI5S1UWJ020QJS24.jpg"}}}], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Homes (private)", "primary": true, "name": "Home (private)", "shortName": "Home", "id": "4bf58dd8d48988d103941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", "suffix": ".png"}}], "name": "The Claiborne House", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 1, 
+            "user": {
+                "lastName": "G.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/EI5S1UWJ020QJS24.jpg"
+                }, 
+                "id": "518291", 
+                "firstName": "Robbie", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1285523861, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4c9f899519e4236aeccf5989", 
+        "shortUrl": "http://4sq.com/b6UMOM", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/4d0e4f14be6d6ea859a409b5", 
+                            "text": "Great coop Studio Apt $315K contact me 917-553-4846", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 1
+                            }, 
+                            "id": "4d0e4f14be6d6ea859a409b5", 
+                            "createdAt": 1292783380, 
+                            "user": {
+                                "lastName": "G.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/EI5S1UWJ020QJS24.jpg"
+                                }, 
+                                "id": "518291", 
+                                "firstName": "Robbie", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "isFuzzed": true, 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "NY", 
+            "lat": 40.775615852364126, 
+            "lng": -73.95361626406626
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/the-claiborne-house/4c9f899519e4236aeccf5989", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 49, 
+            "usersCount": 3
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Homes (private)", 
+                "primary": true, 
+                "name": "Home (private)", 
+                "shortName": "Home", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "The Claiborne House", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

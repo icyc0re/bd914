@@ -1,1 +1,106 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4c423940a5c5ef3b7a71b06f", "createdAt": 1279408448, "stats": {"checkinsCount": 11, "tipCount": 0, "usersCount": 2}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 14, "user": {"lastName": "S.", "gender": "male", "id": "845983", "firstName": "Jonathan", "photo": {"prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/M4L2ARUSATGFWH0Z.jpg"}}}, "shortUrl": "http://4sq.com/dCbOIp", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Seattle", "isFuzzed": true, "cc": "US", "country": "United States", "state": "WA", "lat": 47.66000867640618, "lng": -122.3425575310064}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/howard-park-roof-seattle-wa/4c423940a5c5ef3b7a71b06f", "tags": ["roof"], "photos": {"count": 0, "groups": []}, "timeZone": "America/Los_Angeles", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Homes (private)", "primary": true, "name": "Home (private)", "shortName": "Home", "id": "4bf58dd8d48988d103941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", "suffix": ".png"}}], "name": "Howard Park Roof", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 14, 
+            "user": {
+                "lastName": "S.", 
+                "photo": {
+                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                    "suffix": "/M4L2ARUSATGFWH0Z.jpg"
+                }, 
+                "id": "845983", 
+                "firstName": "Jonathan", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1279408448, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4c423940a5c5ef3b7a71b06f", 
+        "shortUrl": "http://4sq.com/dCbOIp", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Seattle", 
+            "isFuzzed": true, 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "WA", 
+            "lat": 47.66000867640618, 
+            "lng": -122.3425575310064
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/howard-park-roof-seattle-wa/4c423940a5c5ef3b7a71b06f", 
+        "tags": [
+            "roof"
+        ], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 11, 
+            "usersCount": 2
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Homes (private)", 
+                "primary": true, 
+                "name": "Home (private)", 
+                "shortName": "Home", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Howard Park Roof", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/Los_Angeles"
+    }
+}

@@ -1,1 +1,115 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4c6ab3eaa3932c7ae3e5fdf4", "createdAt": 1282061290, "stats": {"checkinsCount": 55, "tipCount": 0, "usersCount": 26}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 2, "user": {"lastName": "R.", "gender": "male", "id": "323084", "firstName": "Jay", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/WOSDSNXIWARDMOTG.jpg"}}}, "shortUrl": "http://4sq.com/cWtrJA", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "lat": 40.78566927885637, "state": "NY", "address": "228 W 82nd St", "postalCode": "10024", "lng": -73.97805285735728}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/westside-medical-associates/4c6ab3eaa3932c7ae3e5fdf4", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Doctor's Offices", "primary": true, "name": "Doctor's Office", "shortName": "Doctor's Office", "id": "4bf58dd8d48988d177941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", "suffix": ".png"}}, {"shortName": "Medical", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_", "suffix": ".png"}, "pluralName": "Medical Centers", "name": "Medical Center", "id": "4bf58dd8d48988d104941735"}], "name": "Westside Medical Associates", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "lastName": "R.", 
+                "photo": {
+                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                    "suffix": "/WOSDSNXIWARDMOTG.jpg"
+                }, 
+                "id": "323084", 
+                "firstName": "Jay", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1282061290, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4c6ab3eaa3932c7ae3e5fdf4", 
+        "shortUrl": "http://4sq.com/cWtrJA", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10024", 
+            "state": "NY", 
+            "address": "228 W 82nd St", 
+            "lat": 40.78566927885637, 
+            "lng": -73.97805285735728
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/westside-medical-associates/4c6ab3eaa3932c7ae3e5fdf4", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 55, 
+            "usersCount": 26
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Doctor's Offices", 
+                "primary": true, 
+                "name": "Doctor's Office", 
+                "shortName": "Doctor's Office", 
+                "id": "4bf58dd8d48988d177941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_doctorsoffice_", 
+                    "suffix": ".png"
+                }
+            }, 
+            {
+                "shortName": "Medical", 
+                "pluralName": "Medical Centers", 
+                "id": "4bf58dd8d48988d104941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_", 
+                    "suffix": ".png"
+                }, 
+                "name": "Medical Center"
+            }
+        ], 
+        "name": "Westside Medical Associates", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

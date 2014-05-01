@@ -1,1 +1,104 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "50c26b49e4b032fa81577a7f", "createdAt": 1354918729, "stats": {"checkinsCount": 10, "tipCount": 0, "usersCount": 4}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 1, "user": {"gender": "male", "id": "5197764", "firstName": "Edwin", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/5197764-DYWML15S1DVB11AY.jpg"}}}, "shortUrl": "http://4sq.com/RI5NsZ", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "lat": 40.788763245137346, "state": "NY", "address": "1st Ave & East 99th St", "postalCode": "10029", "lng": -73.94006646872728}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/mta-bus-m15/50c26b49e4b032fa81577a7f", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Bus Stations", "primary": true, "name": "Bus Station", "shortName": "Bus Station", "id": "4bf58dd8d48988d1fe931735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", "suffix": ".png"}}], "name": "MTA Bus M15", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 1, 
+            "user": {
+                "gender": "male", 
+                "id": "5197764", 
+                "firstName": "Edwin", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/5197764-DYWML15S1DVB11AY.jpg"
+                }
+            }
+        }, 
+        "createdAt": 1354918729, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "50c26b49e4b032fa81577a7f", 
+        "shortUrl": "http://4sq.com/RI5NsZ", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10029", 
+            "state": "NY", 
+            "address": "1st Ave & East 99th St", 
+            "lat": 40.788763245137346, 
+            "lng": -73.94006646872728
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/mta-bus-m15/50c26b49e4b032fa81577a7f", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 10, 
+            "usersCount": 4
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Bus Stations", 
+                "primary": true, 
+                "name": "Bus Station", 
+                "shortName": "Bus Station", 
+                "id": "4bf58dd8d48988d1fe931735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "MTA Bus M15", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

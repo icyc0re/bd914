@@ -1,1 +1,134 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "50a05408e4b0b72b9a1daa35", "createdAt": 1352684552, "stats": {"checkinsCount": 21, "tipCount": 0, "usersCount": 10}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 5, "user": {"gender": "male", "id": "67332396", "firstName": "Hugh", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/LP0MKQFWPY00NMOC.jpg"}}}, "shortUrl": "http://4sq.com/SVOwKE", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Stillwater", "cc": "US", "country": "United States", "lat": 36.1185134676161, "state": "OK", "postalCode": "74074", "lng": -97.07170648860969}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/farmhouse/50a05408e4b0b72b9a1daa35", "tags": [], "photos": {"count": 1, "groups": [{"count": 1, "items": [{"suffix": "/14323213_qQ8N2BNzdW96ZlsEvEJG_08DbnEd1mIGJkBG-Kptzm0.jpg", "width": 720, "visibility": "public", "height": 960, "source": {"url": "https://foursquare.com/download/#/iphone", "name": "foursquare for iPhone"}, "prefix": "https://irs0.4sqi.net/img/general/", "user": {"lastName": "T.", "gender": "female", "id": "14323213", "firstName": "Hannah", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/14323213-1V3URLZKUVDOB4BR.jpg"}}, "id": "51f94f01498e240e6f9343cc", "createdAt": 1375293185}], "type": "venue", "name": "Venue photos"}]}, "timeZone": "America/Chicago", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Fraternity Houses", "primary": true, "name": "Fraternity House", "shortName": "Frat House", "id": "4bf58dd8d48988d1b0941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/education/frathouse_", "suffix": ".png"}}], "name": "Farmhouse", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 5, 
+            "user": {
+                "gender": "male", 
+                "id": "67332396", 
+                "firstName": "Hugh", 
+                "photo": {
+                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                    "suffix": "/LP0MKQFWPY00NMOC.jpg"
+                }
+            }
+        }, 
+        "createdAt": 1352684552, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "50a05408e4b0b72b9a1daa35", 
+        "shortUrl": "http://4sq.com/SVOwKE", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Stillwater", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "74074", 
+            "state": "OK", 
+            "lat": 36.1185134676161, 
+            "lng": -97.07170648860969
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/farmhouse/50a05408e4b0b72b9a1daa35", 
+        "tags": [], 
+        "photos": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "suffix": "/14323213_qQ8N2BNzdW96ZlsEvEJG_08DbnEd1mIGJkBG-Kptzm0.jpg", 
+                            "width": 720, 
+                            "visibility": "public", 
+                            "height": 960, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/iphone", 
+                                "name": "foursquare for iPhone"
+                            }, 
+                            "prefix": "https://irs0.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "T.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/14323213-1V3URLZKUVDOB4BR.jpg"
+                                }, 
+                                "id": "14323213", 
+                                "firstName": "Hannah", 
+                                "gender": "female"
+                            }, 
+                            "id": "51f94f01498e240e6f9343cc", 
+                            "createdAt": 1375293185
+                        }
+                    ], 
+                    "type": "venue", 
+                    "name": "Venue photos"
+                }
+            ]
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 21, 
+            "usersCount": 10
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Fraternity Houses", 
+                "primary": true, 
+                "name": "Fraternity House", 
+                "shortName": "Frat House", 
+                "id": "4bf58dd8d48988d1b0941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/education/frathouse_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Farmhouse", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/Chicago"
+    }
+}

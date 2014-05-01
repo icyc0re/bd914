@@ -1,1 +1,208 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 3, "groups": [{"count": 3, "items": [{"lastName": "H.", "gender": "male", "id": "12491478", "firstName": "Dionys", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/-EJNZYPUB23UICHFN.jpg"}}, {"lastName": "D.", "gender": "male", "id": "9337194", "firstName": "Kr\u0131st\u00f3fer-\u00de\u00f3r\u0131r", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/9337194-0J1LFJCZAW3AXRRO.jpg"}}], "type": "others"}], "summary": "3 likes"}, "id": "4bd2f44acaff9521cbaad3f0", "createdAt": 1272116298, "stats": {"checkinsCount": 52, "tipCount": 0, "usersCount": 14}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 4, "user": {"lastName": "D.", "gender": "male", "id": "9337194", "firstName": "Kr\u0131st\u00f3fer-\u00de\u00f3r\u0131r", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/9337194-0J1LFJCZAW3AXRRO.jpg"}}}, "shortUrl": "http://4sq.com/b3DV8e", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "lat": 40.747755511714736, "state": "NY", "crossStreet": "btw 9th Ave. & 10th Ave.", "address": "410 W 24th St", "postalCode": "10011", "lng": -74.00168581467251}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/london-terrace-cleaners--tailor-shop/4bd2f44acaff9521cbaad3f0", "tags": [], "hours": {"status": "Open until 7:00pm", "timeframes": [{"segments": [], "open": [{"renderedTime": "7:00 AM\u20137:00 PM"}], "days": "Mon\u2013Fri", "includesToday": true}, {"segments": [], "open": [{"renderedTime": "8:00 AM\u20135:00 PM"}], "days": "Sat"}], "isOpen": true}, "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Tailor Shops", "primary": true, "name": "Tailor Shop", "shortName": "Tailor", "id": "5032781d91d4c4b30a586d5b", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_", "suffix": ".png"}}, {"shortName": "Laundry", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", "suffix": ".png"}, "pluralName": "Laundry Services", "name": "Laundry Service", "id": "4bf58dd8d48988d1fc941735"}, {"shortName": "Residential", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", "suffix": ".png"}, "pluralName": "Residential Buildings (Apartments / Condos)", "name": "Residential Building (Apartment / Condo)", "id": "4d954b06a243a5684965b473"}], "name": "London Terrace Cleaners & Tailor shop", "url": "http://www.londonterrace.com", "specials": {"count": 0, "items": []}, "contact": {"phone": "2122432514", "formattedPhone": "(212) 243-2514"}, "attributes": {"groups": [{"count": 2, "items": [{"displayValue": "Yes", "displayName": "Reservations"}], "type": "reservations", "name": "Reservations", "summary": "Reservations"}, {"count": 6, "items": [{"displayValue": "Yes (incl. American Express & MasterCard)", "displayName": "Credit Cards"}], "type": "payments", "name": "Credit Cards", "summary": "Credit Cards"}]}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 3, 
+            "groups": [
+                {
+                    "count": 3, 
+                    "items": [
+                        {
+                            "lastName": "H.", 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/-EJNZYPUB23UICHFN.jpg"
+                            }, 
+                            "id": "12491478", 
+                            "firstName": "Dionys", 
+                            "gender": "male"
+                        }, 
+                        {
+                            "lastName": "D.", 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/9337194-0J1LFJCZAW3AXRRO.jpg"
+                            }, 
+                            "id": "9337194", 
+                            "firstName": "Kr\u0131st\u00f3fer-\u00de\u00f3r\u0131r", 
+                            "gender": "male"
+                        }
+                    ], 
+                    "type": "others"
+                }
+            ], 
+            "summary": "3 likes"
+        }, 
+        "mayor": {
+            "count": 4, 
+            "user": {
+                "lastName": "D.", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/9337194-0J1LFJCZAW3AXRRO.jpg"
+                }, 
+                "id": "9337194", 
+                "firstName": "Kr\u0131st\u00f3fer-\u00de\u00f3r\u0131r", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1272116298, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4bd2f44acaff9521cbaad3f0", 
+        "shortUrl": "http://4sq.com/b3DV8e", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10011", 
+            "state": "NY", 
+            "crossStreet": "btw 9th Ave. & 10th Ave.", 
+            "address": "410 W 24th St", 
+            "lat": 40.747755511714736, 
+            "lng": -74.00168581467251
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/london-terrace-cleaners--tailor-shop/4bd2f44acaff9521cbaad3f0", 
+        "tags": [], 
+        "hours": {
+            "status": "Closed until 7:00am", 
+            "timeframes": [
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "7:00 AM\u20137:00 PM"
+                        }
+                    ], 
+                    "days": "Mon\u2013Fri", 
+                    "includesToday": true
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "8:00 AM\u20135:00 PM"
+                        }
+                    ], 
+                    "days": "Sat"
+                }
+            ], 
+            "isOpen": false
+        }, 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": [
+                {
+                    "count": 2, 
+                    "items": [
+                        {
+                            "displayValue": "Yes", 
+                            "displayName": "Reservations"
+                        }
+                    ], 
+                    "type": "reservations", 
+                    "name": "Reservations", 
+                    "summary": "Reservations"
+                }, 
+                {
+                    "count": 6, 
+                    "items": [
+                        {
+                            "displayValue": "Yes (incl. American Express & MasterCard)", 
+                            "displayName": "Credit Cards"
+                        }
+                    ], 
+                    "type": "payments", 
+                    "name": "Credit Cards", 
+                    "summary": "Credit Cards"
+                }
+            ]
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 52, 
+            "usersCount": 14
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Tailor Shops", 
+                "primary": true, 
+                "name": "Tailor Shop", 
+                "shortName": "Tailor", 
+                "id": "5032781d91d4c4b30a586d5b", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/apparel_", 
+                    "suffix": ".png"
+                }
+            }, 
+            {
+                "shortName": "Laundry", 
+                "pluralName": "Laundry Services", 
+                "id": "4bf58dd8d48988d1fc941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", 
+                    "suffix": ".png"
+                }, 
+                "name": "Laundry Service"
+            }, 
+            {
+                "shortName": "Residential", 
+                "pluralName": "Residential Buildings (Apartments / Condos)", 
+                "id": "4d954b06a243a5684965b473", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                    "suffix": ".png"
+                }, 
+                "name": "Residential Building (Apartment / Condo)"
+            }
+        ], 
+        "name": "London Terrace Cleaners & Tailor shop", 
+        "url": "http://www.londonterrace.com", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {
+            "phone": "2122432514", 
+            "formattedPhone": "(212) 243-2514"
+        }, 
+        "timeZone": "America/New_York"
+    }
+}

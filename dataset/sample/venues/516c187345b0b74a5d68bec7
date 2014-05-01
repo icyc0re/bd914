@@ -1,1 +1,161 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 5, "groups": [{"count": 5, "items": [{"lastName": "J.", "gender": "female", "id": "38845440", "firstName": "Sandra-L\u00edn\u00f0", "photo": {"prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/WGMLAR5EYCH05IET.jpg"}}, {"lastName": "J.", "gender": "male", "id": "38775273", "firstName": "Sigtryggur", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/-2VCGXLTGTXCLXXLY.jpg"}}, {"lastName": "H.", "gender": "male", "id": "53035675", "firstName": "Luka", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/-CMV1FUP0BZGQHQV4.png"}}], "type": "others"}], "summary": "5 likes"}, "id": "516c187345b0b74a5d68bec7", "createdAt": 1366038643, "stats": {"checkinsCount": 34, "tipCount": 0, "usersCount": 7}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 6, "user": {"lastName": "D.", "gender": "male", "id": "9337194", "firstName": "Kr\u0131st\u00f3fer-\u00de\u00f3r\u0131r", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/9337194-0J1LFJCZAW3AXRRO.jpg"}}}, "shortUrl": "http://4sq.com/YKOMku", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Malm\u00f6", "isFuzzed": true, "cc": "SE", "country": "Sverige", "lat": 55.611885353069965, "lng": 12.96797926839077}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/volt-kg--/516c187345b0b74a5d68bec7", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "Europe/Stockholm", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Homes (private)", "primary": true, "name": "Home (private)", "shortName": "Home", "id": "4bf58dd8d48988d103941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", "suffix": ".png"}}, {"shortName": "Residential", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", "suffix": ".png"}, "pluralName": "Residential Buildings (Apartments / Condos)", "name": "Residential Building (Apartment / Condo)", "id": "4d954b06a243a5684965b473"}, {"shortName": "Pool", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/pool_", "suffix": ".png"}, "pluralName": "Hotel Pools", "name": "Hotel Pool", "id": "4bf58dd8d48988d132951735"}], "name": "+Volt KG+  \u2731", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 5, 
+            "groups": [
+                {
+                    "count": 5, 
+                    "items": [
+                        {
+                            "lastName": "J.", 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/WGMLAR5EYCH05IET.jpg"
+                            }, 
+                            "id": "38845440", 
+                            "firstName": "Sandra-L\u00edn\u00f0", 
+                            "gender": "female"
+                        }, 
+                        {
+                            "lastName": "J.", 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/-2VCGXLTGTXCLXXLY.jpg"
+                            }, 
+                            "id": "38775273", 
+                            "firstName": "Sigtryggur", 
+                            "gender": "male"
+                        }, 
+                        {
+                            "lastName": "H.", 
+                            "photo": {
+                                "prefix": "https://irs3.4sqi.net/img/user/", 
+                                "suffix": "/-CMV1FUP0BZGQHQV4.png"
+                            }, 
+                            "id": "53035675", 
+                            "firstName": "Luka", 
+                            "gender": "male"
+                        }
+                    ], 
+                    "type": "others"
+                }
+            ], 
+            "summary": "5 likes"
+        }, 
+        "mayor": {
+            "count": 6, 
+            "user": {
+                "lastName": "D.", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/9337194-0J1LFJCZAW3AXRRO.jpg"
+                }, 
+                "id": "9337194", 
+                "firstName": "Kr\u0131st\u00f3fer-\u00de\u00f3r\u0131r", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1366038643, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "516c187345b0b74a5d68bec7", 
+        "shortUrl": "http://4sq.com/YKOMku", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Malm\u00f6", 
+            "isFuzzed": true, 
+            "cc": "SE", 
+            "country": "Sverige", 
+            "lat": 55.611885353069965, 
+            "lng": 12.96797926839077
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/volt-kg--/516c187345b0b74a5d68bec7", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 34, 
+            "usersCount": 7
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Homes (private)", 
+                "primary": true, 
+                "name": "Home (private)", 
+                "shortName": "Home", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }
+            }, 
+            {
+                "shortName": "Residential", 
+                "pluralName": "Residential Buildings (Apartments / Condos)", 
+                "id": "4d954b06a243a5684965b473", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                    "suffix": ".png"
+                }, 
+                "name": "Residential Building (Apartment / Condo)"
+            }, 
+            {
+                "shortName": "Pool", 
+                "pluralName": "Hotel Pools", 
+                "id": "4bf58dd8d48988d132951735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/pool_", 
+                    "suffix": ".png"
+                }, 
+                "name": "Hotel Pool"
+            }
+        ], 
+        "name": "+Volt KG+  \u2731", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "Europe/Stockholm"
+    }
+}

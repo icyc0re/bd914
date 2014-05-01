@@ -1,1 +1,104 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4cec613cd7268cfa5fcfbc4e", "createdAt": 1290559804, "stats": {"checkinsCount": 104, "tipCount": 0, "usersCount": 2}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 2, "user": {"lastName": "F.", "gender": "male", "id": "4090841", "firstName": "Glen", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/A0ZKV2OWSECWIDED.jpg"}}}, "shortUrl": "http://4sq.com/eiQj8b", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Wilmette", "isFuzzed": true, "cc": "US", "country": "United States", "state": "IL", "lat": 42.070878658571615, "lng": -87.74188417715732}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/glens-house-wilmette-il/4cec613cd7268cfa5fcfbc4e", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/Chicago", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Homes (private)", "primary": true, "name": "Home (private)", "shortName": "Home", "id": "4bf58dd8d48988d103941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", "suffix": ".png"}}], "name": "Glen's House!", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "lastName": "F.", 
+                "photo": {
+                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                    "suffix": "/A0ZKV2OWSECWIDED.jpg"
+                }, 
+                "id": "4090841", 
+                "firstName": "Glen", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1290559804, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4cec613cd7268cfa5fcfbc4e", 
+        "shortUrl": "http://4sq.com/eiQj8b", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Wilmette", 
+            "isFuzzed": true, 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "IL", 
+            "lat": 42.070878658571615, 
+            "lng": -87.74188417715732
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/glens-house-wilmette-il/4cec613cd7268cfa5fcfbc4e", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 104, 
+            "usersCount": 2
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Homes (private)", 
+                "primary": true, 
+                "name": "Home (private)", 
+                "shortName": "Home", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Glen's House!", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/Chicago"
+    }
+}

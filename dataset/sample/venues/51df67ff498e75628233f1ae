@@ -1,1 +1,105 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "51df67ff498e75628233f1ae", "createdAt": 1373595647, "stats": {"checkinsCount": 2, "tipCount": 0, "usersCount": 1}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 2, "user": {"lastName": "C.", "gender": "male", "id": "47376771", "firstName": "Jon", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/41TW11ZWYPE5BKEZ.jpg"}}}, "shortUrl": "http://4sq.com/133Fqkj", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Greenwich", "cc": "US", "country": "United States", "lat": 41.07831415170667, "state": "CT", "address": "Clapboard Ridge Rd.", "postalCode": "06830", "lng": -73.6394527926297}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/clapboard-ridge-rd/51df67ff498e75628233f1ae", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Roads", "primary": true, "name": "Road", "shortName": "Road", "id": "4bf58dd8d48988d1f9931735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/travel/highway_", "suffix": ".png"}}], "name": "Clapboard Ridge Rd.", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "lastName": "C.", 
+                "photo": {
+                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                    "suffix": "/41TW11ZWYPE5BKEZ.jpg"
+                }, 
+                "id": "47376771", 
+                "firstName": "Jon", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1373595647, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "51df67ff498e75628233f1ae", 
+        "shortUrl": "http://4sq.com/133Fqkj", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Greenwich", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "06830", 
+            "state": "CT", 
+            "address": "Clapboard Ridge Rd.", 
+            "lat": 41.07831415170667, 
+            "lng": -73.6394527926297
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/clapboard-ridge-rd/51df67ff498e75628233f1ae", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 2, 
+            "usersCount": 1
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Roads", 
+                "primary": true, 
+                "name": "Road", 
+                "shortName": "Road", 
+                "id": "4bf58dd8d48988d1f9931735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/highway_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Clapboard Ridge Rd.", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

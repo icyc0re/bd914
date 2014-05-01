@@ -1,1 +1,103 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4dfa866052b1a82364e6e9be", "createdAt": 1308264032, "stats": {"checkinsCount": 15, "tipCount": 0, "usersCount": 12}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 1, "user": {"lastName": "D.", "gender": "female", "id": "11561307", "firstName": "Yazzy", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/11561307-HPENTYOZNMWPDOJS.jpg"}}}, "shortUrl": "http://4sq.com/lQ5BAT", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "state": "NY", "lat": 40.828716, "lng": -73.947622}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/brunos-bakery/4dfa866052b1a82364e6e9be", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Bakeries", "primary": true, "name": "Bakery", "shortName": "Bakery", "id": "4bf58dd8d48988d16a941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/food/bakery_", "suffix": ".png"}}], "name": "Bruno's Bakery", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 1, 
+            "user": {
+                "lastName": "D.", 
+                "photo": {
+                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                    "suffix": "/11561307-HPENTYOZNMWPDOJS.jpg"
+                }, 
+                "id": "11561307", 
+                "firstName": "Yazzy", 
+                "gender": "female"
+            }
+        }, 
+        "createdAt": 1308264032, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4dfa866052b1a82364e6e9be", 
+        "shortUrl": "http://4sq.com/lQ5BAT", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "NY", 
+            "lat": 40.828716, 
+            "lng": -73.947622
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/brunos-bakery/4dfa866052b1a82364e6e9be", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 15, 
+            "usersCount": 12
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Bakeries", 
+                "primary": true, 
+                "name": "Bakery", 
+                "shortName": "Bakery", 
+                "id": "4bf58dd8d48988d16a941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/food/bakery_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Bruno's Bakery", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

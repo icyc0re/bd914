@@ -1,1 +1,115 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4ba522b7f964a5202ce238e3", "createdAt": 1269113527, "stats": {"checkinsCount": 14, "tipCount": 0, "usersCount": 12}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 2, "user": {"gender": "male", "id": "26845", "firstName": "@joeljet", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/LTXAWL1U5HMX3JBY.jpg"}}}, "shortUrl": "http://4sq.com/asRuIG", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Fredericksburg", "cc": "US", "country": "United States", "lat": 38.26839347681874, "state": "VA", "crossStreet": "Salem church", "address": "Plank Road", "postalCode": "22407", "lng": -77.5774316515728}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/mcdonalds/4ba522b7f964a5202ce238e3", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Fast Food Restaurants", "primary": true, "name": "Fast Food Restaurant", "shortName": "Fast Food", "id": "4bf58dd8d48988d16e941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/food/fastfood_", "suffix": ".png"}}, {"shortName": "Burgers", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_", "suffix": ".png"}, "pluralName": "Burger Joints", "name": "Burger Joint", "id": "4bf58dd8d48988d16c941735"}], "name": "McDonald's", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "gender": "male", 
+                "id": "26845", 
+                "firstName": "@joeljet", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/LTXAWL1U5HMX3JBY.jpg"
+                }
+            }
+        }, 
+        "createdAt": 1269113527, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4ba522b7f964a5202ce238e3", 
+        "shortUrl": "http://4sq.com/asRuIG", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Fredericksburg", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "22407", 
+            "state": "VA", 
+            "crossStreet": "Salem church", 
+            "address": "Plank Road", 
+            "lat": 38.26839347681874, 
+            "lng": -77.5774316515728
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/mcdonalds/4ba522b7f964a5202ce238e3", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 14, 
+            "usersCount": 12
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Fast Food Restaurants", 
+                "primary": true, 
+                "name": "Fast Food Restaurant", 
+                "shortName": "Fast Food", 
+                "id": "4bf58dd8d48988d16e941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/food/fastfood_", 
+                    "suffix": ".png"
+                }
+            }, 
+            {
+                "shortName": "Burgers", 
+                "pluralName": "Burger Joints", 
+                "id": "4bf58dd8d48988d16c941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_", 
+                    "suffix": ".png"
+                }, 
+                "name": "Burger Joint"
+            }
+        ], 
+        "name": "McDonald's", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

@@ -1,1 +1,104 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "500d6990e4b052b6a027be52", "createdAt": 1343056272, "stats": {"checkinsCount": 3, "tipCount": 0, "usersCount": 2}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 2, "user": {"lastName": "H.", "gender": "female", "id": "23049380", "firstName": "Kai'Cee", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/VCPKMXYVYXBBY4E2.jpg"}}}, "shortUrl": "http://4sq.com/MD81nj", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "cc": "US", "country": "United States", "lat": 40.73725509643555, "state": "NY", "postalCode": "10011", "lng": -73.9952392578125}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/mta-bus--31th-st--7th-ave/500d6990e4b052b6a027be52", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Bus Lines", "primary": true, "name": "Bus Line", "shortName": "Bus", "id": "4bf58dd8d48988d12b951735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", "suffix": ".png"}}], "name": "MTA Bus - 31th St & 7th Ave", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "lastName": "H.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/VCPKMXYVYXBBY4E2.jpg"
+                }, 
+                "id": "23049380", 
+                "firstName": "Kai'Cee", 
+                "gender": "female"
+            }
+        }, 
+        "createdAt": 1343056272, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "500d6990e4b052b6a027be52", 
+        "shortUrl": "http://4sq.com/MD81nj", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10011", 
+            "state": "NY", 
+            "lat": 40.73725509643555, 
+            "lng": -73.9952392578125
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/mta-bus--31th-st--7th-ave/500d6990e4b052b6a027be52", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 3, 
+            "usersCount": 2
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Bus Lines", 
+                "primary": true, 
+                "name": "Bus Line", 
+                "shortName": "Bus", 
+                "id": "4bf58dd8d48988d12b951735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "MTA Bus - 31th St & 7th Ave", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

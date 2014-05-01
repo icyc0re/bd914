@@ -1,1 +1,144 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "50106071e4b025fd6f7ffd85", "createdAt": 1343250545, "stats": {"checkinsCount": 13, "tipCount": 1, "usersCount": 4}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 2, "user": {"lastName": "K.", "gender": "male", "id": "744047", "firstName": "Aleks", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/744047-GOBU0VLPRNUCZNIT.jpg"}}}, "shortUrl": "http://4sq.com/PonadZ", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Bloomfield", "cc": "US", "country": "United States", "lat": 40.828055, "state": "NJ", "postalCode": "07003", "lng": -74.187051}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/brookdale-laundromat/50106071e4b025fd6f7ffd85", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 1, "groups": [{"count": 1, "items": [{"lang": "en", "canonicalUrl": "https://foursquare.com/item/5212680e11d226cf877220bb", "text": "Do your laundry.", "saves": {}, "logView": true, "likes": {"count": 0, "groups": []}, "todo": {"count": 0}, "id": "5212680e11d226cf877220bb", "createdAt": 1376937998, "user": {"lastName": "K.", "gender": "male", "id": "744047", "firstName": "Aleks", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/744047-GOBU0VLPRNUCZNIT.jpg"}}}], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Laundry Services", "primary": true, "name": "Laundry Service", "shortName": "Laundry", "id": "4bf58dd8d48988d1fc941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", "suffix": ".png"}}], "name": "Brookdale Laundromat", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": [{"count": 6, "items": [{"displayValue": "Yes (incl. American Express)", "displayName": "Credit Cards"}], "type": "payments", "name": "Credit Cards", "summary": "Credit Cards"}]}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "lastName": "K.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/744047-GOBU0VLPRNUCZNIT.jpg"
+                }, 
+                "id": "744047", 
+                "firstName": "Aleks", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1343250545, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "50106071e4b025fd6f7ffd85", 
+        "shortUrl": "http://4sq.com/PonadZ", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/5212680e11d226cf877220bb", 
+                            "text": "Do your laundry.", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "5212680e11d226cf877220bb", 
+                            "createdAt": 1376937998, 
+                            "user": {
+                                "lastName": "K.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/744047-GOBU0VLPRNUCZNIT.jpg"
+                                }, 
+                                "id": "744047", 
+                                "firstName": "Aleks", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Bloomfield", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "07003", 
+            "state": "NJ", 
+            "lat": 40.828055, 
+            "lng": -74.187051
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/brookdale-laundromat/50106071e4b025fd6f7ffd85", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": [
+                {
+                    "count": 6, 
+                    "items": [
+                        {
+                            "displayValue": "Yes (incl. American Express)", 
+                            "displayName": "Credit Cards"
+                        }
+                    ], 
+                    "type": "payments", 
+                    "name": "Credit Cards", 
+                    "summary": "Credit Cards"
+                }
+            ]
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 13, 
+            "usersCount": 4
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Laundry Services", 
+                "primary": true, 
+                "name": "Laundry Service", 
+                "shortName": "Laundry", 
+                "id": "4bf58dd8d48988d1fc941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/laundry_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Brookdale Laundromat", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

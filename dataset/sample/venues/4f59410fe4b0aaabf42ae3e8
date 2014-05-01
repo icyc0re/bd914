@@ -1,1 +1,103 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "private": true, "likes": {"count": 0, "groups": []}, "id": "4f59410fe4b0aaabf42ae3e8", "createdAt": 1331249423, "stats": {"checkinsCount": 8, "tipCount": 0, "usersCount": 4}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 3, "user": {"lastName": "C.", "gender": "male", "id": "3164387", "firstName": "Bryan", "photo": {"prefix": "https://irs0.4sqi.net/img/user/", "suffix": "/IDHUJMSF3HWSQVBS.jpg"}}}, "shortUrl": "http://4sq.com/AecyNt", "pageUpdates": {"count": 0, "items": []}, "location": {"lat": 40.809867, "cc": "US", "lng": -73.959526, "state": "New York", "country": "United States"}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/rain-garden/4f59410fe4b0aaabf42ae3e8", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Gardens", "primary": true, "name": "Garden", "shortName": "Garden", "id": "4bf58dd8d48988d15a941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/garden_", "suffix": ".png"}}], "name": "Rain Garden", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "private": true, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 3, 
+            "user": {
+                "lastName": "C.", 
+                "photo": {
+                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                    "suffix": "/IDHUJMSF3HWSQVBS.jpg"
+                }, 
+                "id": "3164387", 
+                "firstName": "Bryan", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1331249423, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4f59410fe4b0aaabf42ae3e8", 
+        "shortUrl": "http://4sq.com/AecyNt", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "lat": 40.809867, 
+            "cc": "US", 
+            "lng": -73.959526, 
+            "state": "New York", 
+            "country": "United States"
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/rain-garden/4f59410fe4b0aaabf42ae3e8", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 8, 
+            "usersCount": 4
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Gardens", 
+                "primary": true, 
+                "name": "Garden", 
+                "shortName": "Garden", 
+                "id": "4bf58dd8d48988d15a941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/garden_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Rain Garden", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

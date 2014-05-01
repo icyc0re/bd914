@@ -1,1 +1,122 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 1, "groups": [{"count": 1, "items": [{"lastName": "S.", "gender": "male", "id": "1100411", "firstName": "Andy", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/VFMVVDJOLNHJ3B3T.jpg"}}], "type": "others"}], "summary": "1 like"}, "id": "4bdcb0b0c79cc928f8b087e9", "createdAt": 1272754352, "stats": {"checkinsCount": 354, "tipCount": 0, "usersCount": 3}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 14, "user": {"lastName": "S.", "gender": "male", "id": "1100411", "firstName": "Andy", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/VFMVVDJOLNHJ3B3T.jpg"}}}, "shortUrl": "http://4sq.com/8XiYUV", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "New York", "isFuzzed": true, "cc": "US", "country": "United States", "state": "NY", "lat": 40.83483863115033, "lng": -73.95361626406626}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/blackmacknycs-domicile/4bdcb0b0c79cc928f8b087e9", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Homes (private)", "primary": true, "name": "Home (private)", "shortName": "Home", "id": "4bf58dd8d48988d103941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", "suffix": ".png"}}], "name": "BlackMackNYC's Domicile", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lastName": "S.", 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/VFMVVDJOLNHJ3B3T.jpg"
+                            }, 
+                            "id": "1100411", 
+                            "firstName": "Andy", 
+                            "gender": "male"
+                        }
+                    ], 
+                    "type": "others"
+                }
+            ], 
+            "summary": "1 like"
+        }, 
+        "mayor": {
+            "count": 14, 
+            "user": {
+                "lastName": "S.", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/VFMVVDJOLNHJ3B3T.jpg"
+                }, 
+                "id": "1100411", 
+                "firstName": "Andy", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1272754352, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4bdcb0b0c79cc928f8b087e9", 
+        "shortUrl": "http://4sq.com/8XiYUV", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "isFuzzed": true, 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "NY", 
+            "lat": 40.83483863115033, 
+            "lng": -73.95361626406626
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/blackmacknycs-domicile/4bdcb0b0c79cc928f8b087e9", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 354, 
+            "usersCount": 3
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Homes (private)", 
+                "primary": true, 
+                "name": "Home (private)", 
+                "shortName": "Home", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "BlackMackNYC's Domicile", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

@@ -1,1 +1,118 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4e00d5f8d22db37fb026525e", "createdAt": 1308677624, "stats": {"checkinsCount": 5, "tipCount": 0, "usersCount": 2}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 4, "user": {"lastName": "K.", "gender": "male", "id": "744047", "firstName": "Aleks", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/744047-GOBU0VLPRNUCZNIT.jpg"}}}, "shortUrl": "http://4sq.com/jkyDxw", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "South River", "cc": "US", "country": "United States", "lat": 40.450614, "state": "NJ", "address": "12 Ferry St", "postalCode": "08882", "lng": -74.37845769}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/destaque/4e00d5f8d22db37fb026525e", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Shops & Services", "primary": true, "name": "Shop & Service", "shortName": "Shops", "id": "4d4b7105d754a06378d81259", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/shops/default_", "suffix": ".png"}}], "name": "Destaque", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": [{"count": 6, "items": [{"displayValue": "Yes (incl. American Express)", "displayName": "Credit Cards"}], "type": "payments", "name": "Credit Cards", "summary": "Credit Cards"}]}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 4, 
+            "user": {
+                "lastName": "K.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/744047-GOBU0VLPRNUCZNIT.jpg"
+                }, 
+                "id": "744047", 
+                "firstName": "Aleks", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1308677624, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4e00d5f8d22db37fb026525e", 
+        "shortUrl": "http://4sq.com/jkyDxw", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "South River", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "08882", 
+            "state": "NJ", 
+            "address": "12 Ferry St", 
+            "lat": 40.450614, 
+            "lng": -74.37845769
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/destaque/4e00d5f8d22db37fb026525e", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": [
+                {
+                    "count": 6, 
+                    "items": [
+                        {
+                            "displayValue": "Yes (incl. American Express)", 
+                            "displayName": "Credit Cards"
+                        }
+                    ], 
+                    "type": "payments", 
+                    "name": "Credit Cards", 
+                    "summary": "Credit Cards"
+                }
+            ]
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 5, 
+            "usersCount": 2
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Shops & Services", 
+                "primary": true, 
+                "name": "Shop & Service", 
+                "shortName": "Shops", 
+                "id": "4d4b7105d754a06378d81259", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/default_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Destaque", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

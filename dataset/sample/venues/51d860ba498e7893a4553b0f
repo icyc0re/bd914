@@ -1,1 +1,174 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "51d860ba498e7893a4553b0f", "createdAt": 1373135034, "stats": {"checkinsCount": 14, "tipCount": 1, "usersCount": 5}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 4, "user": {"gender": "male", "id": "67332396", "firstName": "Hugh", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/LP0MKQFWPY00NMOC.jpg"}}}, "shortUrl": "http://4sq.com/1aN5WTU", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Stillwater", "cc": "US", "country": "United States", "state": "OK", "lat": 36.11549377441406, "lng": -97.08709716796875}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/drive-thru/51d860ba498e7893a4553b0f", "tags": [], "photos": {"count": 1, "groups": [{"count": 1, "items": [{"suffix": "/13430289_pRok_ozPTGvXzChrANo-VZMbF6RY849K_oZ6q5dH1BI.jpg", "width": 543, "visibility": "public", "height": 960, "source": {"url": "https://foursquare.com/download/#/android", "name": "foursquare for Android"}, "prefix": "https://irs3.4sqi.net/img/general/", "user": {"lastName": "S.", "gender": "male", "id": "13430289", "firstName": "Joshua", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/TG0LPHVMYI1HNHC3.jpg"}}, "id": "51d860da498e73d48fee03f2", "createdAt": 1373135066}], "type": "venue", "name": "Venue photos"}]}, "timeZone": "America/Chicago", "verified": false, "tips": {"count": 1, "groups": [{"count": 1, "items": [{"lang": "en", "canonicalUrl": "https://foursquare.com/item/51d87eb7498eee1e7338186e", "text": "Good Cokes", "saves": {}, "logView": true, "likes": {"count": 0, "groups": []}, "todo": {"count": 0}, "id": "51d87eb7498eee1e7338186e", "createdAt": 1373142711, "user": {"lastName": "S.", "gender": "male", "id": "13430289", "firstName": "Joshua", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/TG0LPHVMYI1HNHC3.jpg"}}}], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Fast Food Restaurants", "primary": true, "name": "Fast Food Restaurant", "shortName": "Fast Food", "id": "4bf58dd8d48988d16e941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/food/fastfood_", "suffix": ".png"}}], "name": "Drive Thru", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": [{"count": 1, "items": [{"displayValue": "$", "priceTier": 1, "displayName": "Price"}], "type": "price", "name": "Price", "summary": "$"}]}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 4, 
+            "user": {
+                "gender": "male", 
+                "id": "67332396", 
+                "firstName": "Hugh", 
+                "photo": {
+                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                    "suffix": "/LP0MKQFWPY00NMOC.jpg"
+                }
+            }
+        }, 
+        "createdAt": 1373135034, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "51d860ba498e7893a4553b0f", 
+        "shortUrl": "http://4sq.com/1aN5WTU", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/51d87eb7498eee1e7338186e", 
+                            "text": "Good Cokes", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "51d87eb7498eee1e7338186e", 
+                            "createdAt": 1373142711, 
+                            "user": {
+                                "lastName": "S.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/TG0LPHVMYI1HNHC3.jpg"
+                                }, 
+                                "id": "13430289", 
+                                "firstName": "Joshua", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Stillwater", 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "OK", 
+            "lat": 36.11549377441406, 
+            "lng": -97.08709716796875
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/drive-thru/51d860ba498e7893a4553b0f", 
+        "tags": [], 
+        "photos": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "suffix": "/13430289_pRok_ozPTGvXzChrANo-VZMbF6RY849K_oZ6q5dH1BI.jpg", 
+                            "width": 543, 
+                            "visibility": "public", 
+                            "height": 960, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "prefix": "https://irs3.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "S.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/TG0LPHVMYI1HNHC3.jpg"
+                                }, 
+                                "id": "13430289", 
+                                "firstName": "Joshua", 
+                                "gender": "male"
+                            }, 
+                            "id": "51d860da498e73d48fee03f2", 
+                            "createdAt": 1373135066
+                        }
+                    ], 
+                    "type": "venue", 
+                    "name": "Venue photos"
+                }
+            ]
+        }, 
+        "attributes": {
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "displayValue": "$", 
+                            "priceTier": 1, 
+                            "displayName": "Price"
+                        }
+                    ], 
+                    "type": "price", 
+                    "name": "Price", 
+                    "summary": "$"
+                }
+            ]
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 14, 
+            "usersCount": 5
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Fast Food Restaurants", 
+                "primary": true, 
+                "name": "Fast Food Restaurant", 
+                "shortName": "Fast Food", 
+                "id": "4bf58dd8d48988d16e941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/food/fastfood_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Drive Thru", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/Chicago"
+    }
+}

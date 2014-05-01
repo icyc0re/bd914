@@ -1,1 +1,112 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "515b9e67e4b0501ce4b4daae", "createdAt": 1364958823, "stats": {"checkinsCount": 6, "tipCount": 0, "usersCount": 1}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 4, "user": {"lastName": "W.", "gender": "female", "id": "16300680", "firstName": "Elaine", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/16300680-3ZI12UD1ZRJJXO0P.jpg"}}}, "shortUrl": "http://4sq.com/10ongr0", "pageUpdates": {"count": 0, "items": []}, "location": {"lat": 39.140155, "cc": "US", "lng": -84.414745, "state": "Ohio", "country": "United States"}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/casa-de-guac/515b9e67e4b0501ce4b4daae", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/New_York", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Wineries", "primary": true, "name": "Winery", "shortName": "Winery", "id": "4bf58dd8d48988d14b941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/food/winery_", "suffix": ".png"}}, {"shortName": "Home", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", "suffix": ".png"}, "pluralName": "Homes (private)", "name": "Home (private)", "id": "4bf58dd8d48988d103941735"}], "name": "Casa de Guac", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 4, 
+            "user": {
+                "lastName": "W.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/16300680-3ZI12UD1ZRJJXO0P.jpg"
+                }, 
+                "id": "16300680", 
+                "firstName": "Elaine", 
+                "gender": "female"
+            }
+        }, 
+        "createdAt": 1364958823, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "515b9e67e4b0501ce4b4daae", 
+        "shortUrl": "http://4sq.com/10ongr0", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "lat": 39.140155, 
+            "cc": "US", 
+            "lng": -84.414745, 
+            "state": "Ohio", 
+            "country": "United States"
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/casa-de-guac/515b9e67e4b0501ce4b4daae", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 6, 
+            "usersCount": 1
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Wineries", 
+                "primary": true, 
+                "name": "Winery", 
+                "shortName": "Winery", 
+                "id": "4bf58dd8d48988d14b941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/food/winery_", 
+                    "suffix": ".png"
+                }
+            }, 
+            {
+                "shortName": "Home", 
+                "pluralName": "Homes (private)", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }, 
+                "name": "Home (private)"
+            }
+        ], 
+        "name": "Casa de Guac", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

@@ -1,1 +1,106 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4c94e9ec533aa093c9bcc345", "createdAt": 1284827628, "stats": {"checkinsCount": 17, "tipCount": 0, "usersCount": 14}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 1, "user": {"gender": "male", "id": "67332396", "firstName": "Hugh", "photo": {"prefix": "https://irs3.4sqi.net/img/user/", "suffix": "/LP0MKQFWPY00NMOC.jpg"}}}, "shortUrl": "http://4sq.com/hVDv4Y", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Stillwater", "cc": "US", "country": "United States", "lat": 36.11960297555149, "state": "OK", "postalCode": "74074", "lng": -97.05126474283699}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/urgent-care/4c94e9ec533aa093c9bcc345", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/Chicago", "verified": false, "tips": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Emergency Rooms", "primary": true, "name": "Emergency Room", "shortName": "Emergency Room", "id": "4bf58dd8d48988d194941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_ems_", "suffix": ".png"}}], "name": "Urgent Care", "specials": {"count": 0, "items": []}, "contact": {"phone": "4053345272", "formattedPhone": "(405) 334-5272"}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 1, 
+            "user": {
+                "gender": "male", 
+                "id": "67332396", 
+                "firstName": "Hugh", 
+                "photo": {
+                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                    "suffix": "/LP0MKQFWPY00NMOC.jpg"
+                }
+            }
+        }, 
+        "createdAt": 1284827628, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4c94e9ec533aa093c9bcc345", 
+        "shortUrl": "http://4sq.com/hVDv4Y", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Stillwater", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "74074", 
+            "state": "OK", 
+            "lat": 36.11960297555149, 
+            "lng": -97.05126474283699
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/urgent-care/4c94e9ec533aa093c9bcc345", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 17, 
+            "usersCount": 14
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Emergency Rooms", 
+                "primary": true, 
+                "name": "Emergency Room", 
+                "shortName": "Emergency Room", 
+                "id": "4bf58dd8d48988d194941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_ems_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Urgent Care", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {
+            "phone": "4053345272", 
+            "formattedPhone": "(405) 334-5272"
+        }, 
+        "timeZone": "America/Chicago"
+    }
+}

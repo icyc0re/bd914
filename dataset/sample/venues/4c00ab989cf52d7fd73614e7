@@ -1,1 +1,148 @@
-{"venue": {"reasons": {"count": 0, "items": []}, "likes": {"count": 0, "groups": []}, "id": "4c00ab989cf52d7fd73614e7", "createdAt": 1275112344, "stats": {"checkinsCount": 38, "tipCount": 2, "usersCount": 8}, "hereNow": {"count": 0, "groups": [], "summary": "0 people here"}, "mayor": {"count": 5, "user": {"lastName": "S.", "gender": "male", "id": "605288", "firstName": "Danny", "photo": {"prefix": "https://irs1.4sqi.net/img/user/", "suffix": "/605288-DOGDIJODZMWNB1JG.jpg"}}}, "shortUrl": "http://4sq.com/cmdvl0", "pageUpdates": {"count": 0, "items": []}, "location": {"city": "Rancho Cordova", "isFuzzed": true, "cc": "US", "country": "United States", "state": "CA", "lat": 38.57407433847633, "lng": -121.29124632551728}, "dislike": false, "listed": {"count": 0, "groups": [{"count": 0, "items": [], "type": "others", "name": "Lists from other people"}]}, "canonicalUrl": "https://foursquare.com/v/the-skitsko-house/4c00ab989cf52d7fd73614e7", "tags": [], "photos": {"count": 0, "groups": []}, "timeZone": "America/Los_Angeles", "verified": false, "tips": {"count": 1, "groups": [{"count": 1, "items": [{"lang": "en", "canonicalUrl": "https://foursquare.com/item/4c32d2ce16adc928a0b9c29c", "text": "Beware!!!", "saves": {}, "logView": true, "likes": {"count": 2, "groups": [{"count": 2, "items": [], "type": "others"}], "summary": "2 likes"}, "todo": {"count": 1}, "id": "4c32d2ce16adc928a0b9c29c", "createdAt": 1278399182, "user": {"lastName": "V.", "gender": "male", "id": "971994", "firstName": "Danny", "photo": {"prefix": "https://irs2.4sqi.net/img/user/", "suffix": "/230YD11HXARAGWPE.jpg"}}}], "type": "others", "name": "Tips from others"}]}, "categories": [{"pluralName": "Homes (private)", "primary": true, "name": "Home (private)", "shortName": "Home", "id": "4bf58dd8d48988d103941735", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", "suffix": ".png"}}, {"shortName": "Arcade", "icon": {"prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/arcade_", "suffix": ".png"}, "pluralName": "Arcades", "name": "Arcade", "id": "4bf58dd8d48988d1e1931735"}], "name": "The Skitsko House", "specials": {"count": 0, "items": []}, "contact": {}, "attributes": {"groups": []}}}
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 5, 
+            "user": {
+                "lastName": "S.", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/605288-DOGDIJODZMWNB1JG.jpg"
+                }, 
+                "id": "605288", 
+                "firstName": "Danny", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1275112344, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4c00ab989cf52d7fd73614e7", 
+        "shortUrl": "http://4sq.com/cmdvl0", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/4c32d2ce16adc928a0b9c29c", 
+                            "text": "Beware!!!", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 2, 
+                                "groups": [
+                                    {
+                                        "count": 2, 
+                                        "items": [], 
+                                        "type": "others"
+                                    }
+                                ], 
+                                "summary": "2 likes"
+                            }, 
+                            "todo": {
+                                "count": 1
+                            }, 
+                            "id": "4c32d2ce16adc928a0b9c29c", 
+                            "createdAt": 1278399182, 
+                            "user": {
+                                "lastName": "V.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/230YD11HXARAGWPE.jpg"
+                                }, 
+                                "id": "971994", 
+                                "firstName": "Danny", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Rancho Cordova", 
+            "isFuzzed": true, 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "CA", 
+            "lat": 38.57407433847633, 
+            "lng": -121.29124632551728
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/the-skitsko-house/4c00ab989cf52d7fd73614e7", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 2, 
+            "checkinsCount": 38, 
+            "usersCount": 8
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Homes (private)", 
+                "primary": true, 
+                "name": "Home (private)", 
+                "shortName": "Home", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }
+            }, 
+            {
+                "shortName": "Arcade", 
+                "pluralName": "Arcades", 
+                "id": "4bf58dd8d48988d1e1931735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/arcade_", 
+                    "suffix": ".png"
+                }, 
+                "name": "Arcade"
+            }
+        ], 
+        "name": "The Skitsko House", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/Los_Angeles"
+    }
+}
