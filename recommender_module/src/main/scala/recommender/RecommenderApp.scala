@@ -2,8 +2,9 @@ package recommender
 
 import filtering.MockVectorSimilarity
 import vectors.{UserVector, VenueVector}
-import utils.Cons
 import scala.collection.mutable
+import input.{Checkins, CheckinsCount}
+import java.io.File
 
 /**
  * This is the main class of the recommender system.
@@ -25,5 +26,10 @@ object RecommenderApp {
     val similarities : Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v);
     val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities);
     MockVectorSimilarity.printTopKSimilarities(sorted, 5);
+
+    // checkins parser test
+    val file = new File("..\\dataset\\sample\\checkinstest.json")
+    val response = new Checkins(scala.io.Source.fromFile(file).mkString)
+    response.displayFeatures()
   }
 }
