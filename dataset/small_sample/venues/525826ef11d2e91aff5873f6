@@ -1,0 +1,214 @@
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 1, 
+            "user": {
+                "lastName": "Diaz", 
+                "photo": {
+                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                    "suffix": "/WHW5H5I5OJNTQPEY.jpg"
+                }, 
+                "id": "65590739", 
+                "firstName": "Ricky", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1381508847, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "525826ef11d2e91aff5873f6", 
+        "shortUrl": "http://4sq.com/1afEGIP", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/53225b15498e3f1e7a034e3c", 
+                            "text": "Coffee was good. It's sort of a hole-in-the-wall alternative to the over-the-top hotel scene", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "53225b15498e3f1e7a034e3c", 
+                            "createdAt": 1394760469, 
+                            "user": {
+                                "lastName": "Sklar", 
+                                "photo": {
+                                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                                    "suffix": "/UTCAA3NRYO3D4XTO.jpg"
+                                }, 
+                                "id": "2630044", 
+                                "firstName": "Max", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Ciudad de Panam\u00e1", 
+            "cc": "PA", 
+            "country": "Panam\u00e1", 
+            "state": "Panam\u00e1", 
+            "crossStreet": "Cl 53 E", 
+            "address": "Marbella", 
+            "lat": 8.979838338507703, 
+            "lng": -79.51915741147229
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/gourmet-plus/525826ef11d2e91aff5873f6", 
+        "tags": [], 
+        "photos": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "suffix": "/2630044_mp5gNOisc_4ZJVGYSjBeunht9h1UW4pwwb8xqjICF54.jpg", 
+                            "width": 960, 
+                            "visibility": "public", 
+                            "height": 720, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/iphone", 
+                                "name": "foursquare for iPhone"
+                            }, 
+                            "prefix": "https://irs0.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "Sklar", 
+                                "photo": {
+                                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                                    "suffix": "/UTCAA3NRYO3D4XTO.jpg"
+                                }, 
+                                "id": "2630044", 
+                                "firstName": "Max", 
+                                "gender": "male"
+                            }, 
+                            "id": "53225ad0498eb3f97f4f02fb", 
+                            "createdAt": 1394760400
+                        }
+                    ], 
+                    "type": "venue", 
+                    "name": "Venue photos"
+                }
+            ]
+        }, 
+        "attributes": {
+            "groups": [
+                {
+                    "count": 2, 
+                    "items": [
+                        {
+                            "displayValue": "No", 
+                            "displayName": "Reservations"
+                        }
+                    ], 
+                    "type": "reservations", 
+                    "name": "Reservations"
+                }, 
+                {
+                    "count": 4, 
+                    "items": [
+                        {
+                            "displayValue": "Yes", 
+                            "displayName": "Credit Cards"
+                        }
+                    ], 
+                    "type": "payments", 
+                    "name": "Credit Cards", 
+                    "summary": "Credit Cards"
+                }, 
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "displayValue": "No", 
+                            "displayName": "Outdoor Seating"
+                        }
+                    ], 
+                    "type": "outdoorSeating", 
+                    "name": "Outdoor Seating"
+                }, 
+                {
+                    "count": 8, 
+                    "items": [
+                        {
+                            "displayValue": "Breakfast", 
+                            "displayName": "Breakfast"
+                        }, 
+                        {
+                            "displayValue": "Lunch", 
+                            "displayName": "Lunch"
+                        }
+                    ], 
+                    "type": "serves", 
+                    "name": "Menus", 
+                    "summary": "Breakfast & Lunch"
+                }
+            ]
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 24, 
+            "usersCount": 9
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Breakfast Spots", 
+                "primary": true, 
+                "name": "Breakfast Spot", 
+                "shortName": "Breakfast", 
+                "id": "4bf58dd8d48988d143941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/food/breakfast_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Gourmet Plus", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/Panama"
+    }
+}
