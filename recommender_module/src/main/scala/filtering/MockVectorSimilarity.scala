@@ -54,19 +54,36 @@ object MockVectorSimilarity extends VectorSimilarity {
     sorted.toList
   }
 
+//  def printTopKSimilarities(similarities: Seq[(String, Seq[(String, Double)])], k: Int) = {
+//    for ((user, values) <- similarities) {
+//      print("user - top similarities [ ")
+//      for (i <- 0 to k - 1) {
+//        print(i + " ")
+//      }
+//      print("] " + f"$user%-10s")
+//      for (i <- 0 to k - 1) {
+//        var value: Double = values(i)._2;
+//        print(" " + f"$value%-17.15f")
+//      }
+//      println()
+//    }
+//  }
+
   def printTopKSimilarities(similarities: Seq[(String, Seq[(String, Double)])], k: Int) = {
-    for ((user, values) <- similarities) {
-      print("user - top similarities [ ")
-      for (i <- 0 to k - 1) {
-        print(i + " ")
+    for((user,values) <- getTopKSimilarities(similarities, k)){
+      println("\n user - " + user)
+      for((venueId, venueScore) <- values){
+        println("venue - " + venueId + " score - " + venueScore)
       }
-      print("] " + f"$user%-10s")
-      for (i <- 0 to k - 1) {
-        var value: Double = values(i)._2;
-        print(" " + f"$value%-17.15f")
-      }
-      println()
     }
+  }
+
+  def getTopKSimilarities(similaritiesSorted: Seq[(String, Seq[(String, Double)])], k: Int) = {
+    var top5k: mutable.Seq[(String, Seq[(String, Double)])] = mutable.MutableList.empty
+    for((user,values) <- similaritiesSorted){
+      top5k :+=(user, values.take(k))
+    }
+    top5k.toList
   }
 
   def getTopKSimilaritiesForUserString(userIndex : Int, similarities: Seq[(String, Seq[(String, Double)])], k: Int) : String = {

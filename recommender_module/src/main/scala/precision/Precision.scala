@@ -7,5 +7,7 @@ import utils.Cons
  * @author Jakub Swiatkowski
  */
 object Precision {
- 
+
+
+  //def calculatePrecision() : Double = {}
 }

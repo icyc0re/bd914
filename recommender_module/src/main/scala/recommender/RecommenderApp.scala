@@ -44,10 +44,12 @@ object RecommenderApp {
     val dummyContext: ContextVector = Context.grab()
     v = PreFilter.apply(v, dummyContext)
 
-    val similarities : Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v);
-    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities);
-    MockVectorSimilarity.printTopKSimilarities(sorted, 5);
 
-    //ResponseToWebApp.replyToWebApp(sorted, 3, 0);
+
+    val similarities : Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
+    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
+    MockVectorSimilarity.printTopKSimilarities(sorted, 5)
+
+    //ResponseToWebApp.replyToWebApp(sorted, 3, 0)
   }
 }
