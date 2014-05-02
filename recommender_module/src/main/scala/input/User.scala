@@ -1,13 +1,10 @@
 package input
-//package vectors
 
 import scala.util.parsing.json.JSON
 import scala.collection.mutable.ListBuffer
 import vectors.UserVector
 import utils.Cons
 import features.{CategoryFeature, TextFeature, DoubleFeature, CoordinatesFeature}
-import scala.io.BufferedSource
-import java.io.File
 
 //import java.nio.file.Files
 //import java.nio.file.Paths
@@ -29,7 +26,7 @@ object Gender extends Enumeration {
 
 case class GPSCoordinates(lat: Double, lon: Double)
 
-class User(jsonString: String) {
+class User(jsonString: String){
 
   import Gender._
 
@@ -69,6 +66,7 @@ class User(jsonString: String) {
   val tips = Interactions(_tips("count").asInstanceOf[Double], readInteractions("tips"))
   //all interactions
   val interactions = Interactions(mayorships.count + photos.count + tips.count, mayorships.items ++ photos.items ++ tips.items)
+
 
   groups.foreach(group => {
     val grp: Map[String, Any] = group.asInstanceOf[Map[String, Any]]
@@ -140,6 +138,7 @@ class User(jsonString: String) {
         (Cons.NY_AREA("w") <= venueLng && venueLng <= Cons.NY_AREA("e")))
     }
 
+    var countNotInNY = 0
     for (interaction <- interactions.items) {
       VenueVector.getById(interaction) match {
         case x if x != null =>
@@ -149,11 +148,14 @@ class User(jsonString: String) {
             lat += venueLat
             lng += venueLng
           } else {
-            println("not in NY" + venueLat + " " + venueLng)
+        	  countNotInNY += 1
+            //println("not in NY - "+interaction+": " + venueLat + " " + venueLng)
           }
         case null => // ignore this one
       }
     }
+    
+    println("user "+id+" has "+countNotInNY+" not in NY")
 
     if (interactions.count == 0) (40.7056308, -73.9780035)
     else (lat / interactions.count, lng / interactions.count)
@@ -166,7 +168,6 @@ class User(jsonString: String) {
   //
   //    val userVector: UserVector = UserVector.getById(id);
   //    userVector.applyVenues(userVenueVectors.toSeq)
-  //
   //    val similarities: Seq[Double] = MockVectorSimilarity.calculateSimilarity(userVector, allVenueVectors)
   //
   //    val seq = (userVenueVectors).zip(similarities)
@@ -197,14 +198,7 @@ class User(jsonString: String) {
     categoriesList
   }
 
-
-  def displayUser() {
-    println(  "User : "+ id + "\n")
-  }
-
 }
-
-
 
 object User {
   /**
@@ -212,27 +206,6 @@ object User {
    * @param dirName path to the directory
    * @return collection of vectors
    */
-  
-  var users:Seq[User] = Nil
-  def getAll: Seq[User] = {
-    val dir = new File(Cons.USERS_PATH)
-    if (!dir.isDirectory) {
-      throw new Exception("Directory expected")
-    }
-
-    //ignore hidden files and check file is file
-    users match{
-
-      case Nil =>
-        users = dir.listFiles.filter((x: File) => !x.getName.startsWith(".") && !x.isDirectory).filter(_.isFile()).map(
-          //x => processData(scala.io.Source.fromFile(x))
-          x => new User(scala.io.Source.fromFile(x).mkString)
-        )
-      case _ =>
-
-    }
-    users
-  }
 
   def featureVector(u: User): UserVector = {
     val features = List(
