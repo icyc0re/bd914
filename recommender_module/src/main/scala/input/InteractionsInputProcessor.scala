@@ -1,28 +1,23 @@
 package input
 
-import utils.Cons
-import play.api.libs.json._
-import play.api.libs.json.Reads._
-import play.api.libs.functional.syntax._
-import features.{TextFeature, IntFeature}
-import utils.Cons
-import vectors.VenueVector
-import features._
-import context.Context
-
 /**
  * @author Matteo Pagliardini
  */
-//case class VenueContact(twitter: Option[String], facebook: Option[String], phone: Option[String])
 
-case class VenueStats(checkinsCount: Int, usersCount: Option[Int], tipCount: Option[Int])
+import play.api.libs.json._
+import play.api.libs.json.Reads._
+import play.api.libs.functional.syntax._
 
-//case class VenueLocation(city: Option[String], cc: Option[String], state: Option[String],
- //                         lat: Option[Double], lng: Option[Double])
+case class VenueContact(twitter: Option[String], facebook: Option[String], phone: Option[String])
 
-case class VenueCategory(id: Option[String], name: String, pluralName: Option[String], shortName: Option[String],
+case class VenueStats2(checkinsCount: Option[Int], usersCount: Option[Int], tipCount: Option[Int])
+
+case class VenueLocation(city: Option[String], cc: Option[String], state: Option[String],
+                          lat: Option[Double], lng: Option[Double])
+
+case class VenueCategory2(id: Option[String], name: Option[String], pluralName: Option[String], shortName: Option[String],
                          primary: Option[Boolean])
-/*
+
 case class VenuePrice(tier: Option[Int], message: Option[String], currency: Option[String])
 
 case class VenueReasonsItem(summary: Option[String], tyype: Option[String], reasonName: Option[String])
@@ -61,36 +56,26 @@ case class VenueTipsGroup(user: Option[VenuePhotosGroupItemUser], tyype: Option[
 case class VenueTips(count: Option[Int], groups: Option[List[VenueTipsGroup]])
 
 case class VenuePhrases(phrase: Option[String], count: Option[Int])
-*/
-case class VenueCompact(categories: Option[List[VenueCategory]], id: String, name: String, url: Option[String], stats: VenueStats,
+
+case class VenueCompact2(categories: Option[List[VenueCategory2]], id: Option[String], name: Option[String], url: Option[String], stats: Option[VenueStats2],
                         price: Option[VenuePrice], likes: Option[Int], rating: Option[Int], reasons: Option[VenueReasons],
-                        mayor: Option[VenueMayor], tags: List[String], contact: Option[VenueContact], attributes: Option[VenueAttributes],
+                        mayor: Option[VenueMayor], tags: Option[List[String]], contact: Option[VenueContact], attributes: Option[VenueAttributes],
                         hours: Option[VenueHours], verified: Option[Boolean], photos: Option[VenuePhotos], tips: Option[VenueTips],
                         phrases: Option[List[VenuePhrases]], location: Option[VenueLocation])
 
 
-class Venue(jsonString: String) {
+abstract class InteractionInputProcessor(js:String) {
+	val jsonString = js
 
-  val jsonFile:JsValue = Json.parse(jsonString)
-
-  //Jackson way :
-  /*val mapper = new ObjectMapper() with ScalaObjectMapper
-mapper.registerModule(DefaultScalaModule)
-val obj = mapper.readValue[Map[String, Map[String, Object]]](jsonString)
-
-val map = mapper.readValue[Map[String, Any]](obj.get("venue").get("stats"))
-println(map)*/
-
-  //Play way :
   implicit val venuePhrasesRead: Reads[VenuePhrases] = (
     (__ \ "phrase").readNullable[String] and
-      (__ \ "count").readNullable[Int]
+    (__ \ "count").readNullable[Int]
     )(VenuePhrases.apply _)
 
   implicit val venueTipsGroupItemRead: Reads[VenueTipsGroupItem] = (
     (__ \ "id").readNullable[String] and
-      (__ \ "text").readNullable[String] and
-      (__ \ "likes" \ "count").readNullable[Int]
+    (__ \ "text").readNullable[String] and
+    (__ \ "likes" \ "count").readNullable[Int]
     )(VenueTipsGroupItem.apply _)
 
   implicit val venueTipsGroupRead: Reads[VenueTipsGroup] = (
@@ -179,19 +164,19 @@ println(map)*/
       (__ \ "relationship").readNullable[String]
     )(VenueMayor.apply _)
 
-  implicit val categoryRead: Reads[VenueCategory] = (
+  implicit val category2Read: Reads[VenueCategory2] = (
     (__ \ "id").readNullable[String] and
-      (__ \ "name").read[String] and
+      (__ \ "name").readNullable[String] and
       (__ \ "pluralName").readNullable[String] and
       (__ \ "shortName").readNullable[String] and
       (__ \ "primary").readNullable[Boolean]
-    )(VenueCategory.apply _)
+    )(VenueCategory2.apply _)
 
-  implicit val venueStatRead: Reads[VenueStats] = (
-    (__ \ "checkinsCount").read[Int] and
+  implicit val venueStat2Read: Reads[VenueStats2] = (
+    (__ \ "checkinsCount").readNullable[Int] and
       (__ \ "usersCount").readNullable[Int] and
       (__ \ "tipCount").readNullable[Int]
-    )(VenueStats.apply _)
+    )(VenueStats2.apply _)
 
   implicit val venuePriceRead: Reads[VenuePrice] = (
     (__ \ "tier").readNullable[Int] and
@@ -218,128 +203,26 @@ println(map)*/
       (__ \ "lng").readNullable[Double]
     )(VenueLocation.apply _)
 
-  implicit val venueCompactRead: Reads[VenueCompact] = (
-      (JsPath \ "venue" \ "categories").readNullable[List[VenueCategory]] and
-      (JsPath \ "venue" \ "id").read[String] and
-      (JsPath \ "venue" \ "name").read[String] and
-      (JsPath \ "venue" \ "url").readNullable[String] and
-      (JsPath \ "venue" \ "stats").read[VenueStats] and
-      (JsPath \ "venue" \ "price").readNullable[VenuePrice] and
-      (JsPath \ "venue" \ "likes" \ "count").readNullable[Int] and
-      (JsPath \ "venue" \ "rating").readNullable[Int] and
-      (JsPath \ "venue" \ "reasons").readNullable[VenueReasons] and
-      (JsPath \ "venue" \ "mayor").readNullable[VenueMayor] and
-      (JsPath \ "venue" \ "tags").read[List[String]] and
-      (JsPath \ "venue" \ "contact").readNullable[VenueContact] and
-      (JsPath \ "venue" \ "attributes").readNullable[VenueAttributes] and
-      (JsPath \ "venue" \ "hours").readNullable[VenueHours] and
-      (JsPath \ "venue" \ "verified").readNullable[Boolean] and
-      (JsPath \ "venue" \ "photos").readNullable[VenuePhotos] and
-      (JsPath \ "venue" \ "tips").readNullable[VenueTips] and
-      (JsPath \ "venue" \ "phrases").readNullable[List[VenuePhrases]] and
-      (JsPath \ "venue" \ "location").readNullable[VenueLocation]
-    )(VenueCompact.apply _)
+  implicit val venueCompact2Read: Reads[VenueCompact2] = (
+      (__ \ "categories").readNullable[List[VenueCategory2]] and
+      (__ \ "id").readNullable[String] and
+      (__ \ "name").readNullable[String] and
+      (__ \ "url").readNullable[String] and
+      (__ \ "stats").readNullable[VenueStats2] and
+      (__ \ "price").readNullable[VenuePrice] and
+      (__ \ "likes" \ "count").readNullable[Int] and
+      (__ \ "rating").readNullable[Int] and
+      (__ \ "reasons").readNullable[VenueReasons] and
+      (__ \ "mayor").readNullable[VenueMayor] and
+      (__ \ "tags").readNullable[List[String]] and
+      (__ \ "contact").readNullable[VenueContact] and
+      (__ \ "attributes").readNullable[VenueAttributes] and
+      (__ \ "hours").readNullable[VenueHours] and
+      (__ \ "verified").readNullable[Boolean] and
+      (__ \ "photos").readNullable[VenuePhotos] and
+      (__ \ "tips").readNullable[VenueTips] and
+      (__ \ "phrases").readNullable[List[VenuePhrases]] and
+      (__ \ "location").readNullable[VenueLocation]
+    )(VenueCompact2.apply _)
 
-  val venue : VenueCompact  = {
-		var JSvenue: JsResult[VenueCompact] = jsonFile.validate[VenueCompact](venueCompactRead)
-    	JSvenue match {
-	  		case s: JsSuccess[VenueCompact] => s.get.asInstanceOf[VenueCompact]
-	 		  case e: JsError => VenueCompact(None , "JsError", "JsError", None, VenueStats(-1,None,None), None, None, None, None,
-        None, List[Nothing](), None, None, None, None, None, None, None, None)
-		}
-	}
-
-  /**
-  * Display the features in a nice form / Show some examples on how to access the data
-  */
-  def displayFeatures() {
-  	println("\n****************************************************")
-  	println(  "VENUE : "+venue.id)
-  	println(  "****************************************************\n")
-	println(  "\n-------------- Basic info : ")
-	println(  "name := "+venue.name)
-	venue.url match {	//A lot of the venue data is optional so the reader will not crash each time he doesn't find a feature
-						//more on Option type here : http://danielwestheide.com/blog/2012/12/19/the-neophytes-guide-to-scala-part-5-the-option-type.html
-						//one way to access the data is using pattern matching :
-		case Some(url) => println(  "url := "+ url)
-		case None => {}
-	}
-	venue.likes match { case Some(likes) => println(  "likes := "+ likes); case None => {}}
-	venue.rating match { case Some(rating) => println(  "rating := "+ rating); case None => {}}
-	venue.verified match { case Some(verified) => println(  "verified := "+ verified); case None => {}}
-
-	println(  "\n-------------- Stats : ")
-	println(  "checkinsCount := "+venue.stats.checkinsCount)
-	println(  "tipCount := "+venue.stats.tipCount.getOrElse("None")) //another simple way is to use getOrElse(default value)
-	println(  "\n-------------- Price : ")
-	if(venue.price != None){
-		//val price = venue.price.getOrElse(Non)
-		//println(  "tier := "+venue.price.getOrElse("None").tier.getOrElse("None"))
-		//println(  "message := "+venue.price.message)
-		//println(  "currency := "+venue.price.currency)
-	} else{
-		println(  "None")
-	}
-	/*println(  "\n-------------- Reasons : ")
-	if(venue.reasons != None){
-		println(  "count := "+venue.reasons.count)
-		println(  "Wait ! There is more, look by yourself ...")
-	} else{
-		println(  "None")
-	}
-	println(  "\n-------------- Mayor : ")
-	if(venue.mayor != None){
-		println(  "count := "+venue.mayor.count)
-		println(  "id := "+venue.mayor.id)
-		println(  "firstName := "+venue.mayor.firstName)
-		println(  "lastName := "+venue.mayor.lastName)
-		println(  "gender := "+venue.mayor.gender)
-		println(  "homeCity := "+venue.mayor.homeCity)
-		println(  "relationship := "+venue.mayor.relationship)
-	} else{
-		println(  "None")
-	}
-	println(  "\n-------------- Tags : ")
-	println(  "Tags := "+venue.tags)
-	println(  "\n-------------- Contact : ")
-	if(venue.contact != None){
-		println(  "twitter := "+venue.contact.twitter)
-		println(  "facebook := "+venue.contact.facebook)
-		println(  "phone := "+venue.contact.phone)
-	} else{
-		println(  "None")
-	}
-	println(  "\n-------------- Attributes : ")
-	if(venue.contact != None){
-		println(  "groups := "+venue.attributes.groups)
-	} else{
-		println(  "None")
-	}
-	println(  "\nAnd even more stuff like hours / photos / tips / phrases ... !!! ")*/
-	println("\n****************************************************")
-  	println(  "****************************************************\n")
-  }
-}
-
-object Venue{
-  /**
-   * Create venue feature vector from the parsed [[Venue]] object
-   * @param v parsed venue
-   * @return venue feature vector
-   */
-  def featureVector(v: Venue):VenueVector = {
-    val features = List(
-      TextFeature(Cons.VENUE_ID, v.venue.id),
-      DoubleFeature(Cons.POPULARITY, compute_popularity(v.venue.stats.checkinsCount, v.venue.stats.tipCount.get, v.venue.stats.usersCount.get)),
-        CoordinatesFeature(Cons.GPS_COORDINATES, (v.venue.location.get.lat.get, v.venue.location.get.lng.get)),
-        CategoryFeature(Cons.CATEGORY, v.venue.categories.get.map(_.name))
-    )
-    new VenueVector(features, null)
-  }
-
-  def compute_popularity(checkinsCount: Double,
-      tipsCount: Double, usersCount: Double): Double = {
-
-    checkinsCount + tipsCount + usersCount
-  }
 }
