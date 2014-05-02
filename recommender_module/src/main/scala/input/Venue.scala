@@ -13,16 +13,16 @@ import context.Context
 /**
  * @author Matteo Pagliardini
  */
-case class VenueContact(twitter: Option[String], facebook: Option[String], phone: Option[String])
+//case class VenueContact(twitter: Option[String], facebook: Option[String], phone: Option[String])
 
 case class VenueStats(checkinsCount: Int, usersCount: Option[Int], tipCount: Option[Int])
 
-case class VenueLocation(city: Option[String], cc: Option[String], state: Option[String],
-                          lat: Option[Double], lng: Option[Double])
+//case class VenueLocation(city: Option[String], cc: Option[String], state: Option[String],
+ //                         lat: Option[Double], lng: Option[Double])
 
 case class VenueCategory(id: Option[String], name: String, pluralName: Option[String], shortName: Option[String],
                          primary: Option[Boolean])
-
+/*
 case class VenuePrice(tier: Option[Int], message: Option[String], currency: Option[String])
 
 case class VenueReasonsItem(summary: Option[String], tyype: Option[String], reasonName: Option[String])
@@ -61,12 +61,13 @@ case class VenueTipsGroup(user: Option[VenuePhotosGroupItemUser], tyype: Option[
 case class VenueTips(count: Option[Int], groups: Option[List[VenueTipsGroup]])
 
 case class VenuePhrases(phrase: Option[String], count: Option[Int])
-
+*/
 case class VenueCompact(categories: Option[List[VenueCategory]], id: String, name: String, url: Option[String], stats: VenueStats,
                         price: Option[VenuePrice], likes: Option[Int], rating: Option[Int], reasons: Option[VenueReasons],
                         mayor: Option[VenueMayor], tags: List[String], contact: Option[VenueContact], attributes: Option[VenueAttributes],
                         hours: Option[VenueHours], verified: Option[Boolean], photos: Option[VenuePhotos], tips: Option[VenueTips],
                         phrases: Option[List[VenuePhrases]], location: Option[VenueLocation])
+
 
 class Venue(jsonString: String) {
 
@@ -218,7 +219,7 @@ println(map)*/
     )(VenueLocation.apply _)
 
   implicit val venueCompactRead: Reads[VenueCompact] = (
-    (JsPath \ "venue" \ "categories").readNullable[List[VenueCategory]] and
+      (JsPath \ "venue" \ "categories").readNullable[List[VenueCategory]] and
       (JsPath \ "venue" \ "id").read[String] and
       (JsPath \ "venue" \ "name").read[String] and
       (JsPath \ "venue" \ "url").readNullable[String] and
@@ -243,7 +244,7 @@ println(map)*/
 		var JSvenue: JsResult[VenueCompact] = jsonFile.validate[VenueCompact](venueCompactRead)
     	JSvenue match {
 	  		case s: JsSuccess[VenueCompact] => s.get.asInstanceOf[VenueCompact]
-	 		case e: JsError => VenueCompact(None , "JsError", "JsError", None, VenueStats(-1,None,None), None, None, None, None,
+	 		  case e: JsError => VenueCompact(None , "JsError", "JsError", None, VenueStats(-1,None,None), None, None, None, None,
         None, List[Nothing](), None, None, None, None, None, None, None, None)
 		}
 	}
