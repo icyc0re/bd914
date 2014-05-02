@@ -47,6 +47,6 @@ object RecommenderApp {
     val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities);
     MockVectorSimilarity.printTopKSimilarities(sorted, 5);
 
-    ResponseToWebApp.replyToWebApp(sorted, 3, 0);
+    //ResponseToWebApp.replyToWebApp(sorted, 3, 0);
   }
 }
