@@ -49,7 +49,7 @@ echo 'export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin' >> ~/.bash_profile
 
 # set master node
 cp conf/spark-env.sh.template conf/spark-env.sh
-echo "SPARK_MASTER_IP=100.88.178.21" >> conf/spark-env.sh
+echo "SPARK_MASTER_IP=bigdataivan.cloudapp.net" >> conf/spark-env.sh
 
 # run spark master and our code
 ./sbin/start-master.sh
