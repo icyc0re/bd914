@@ -17,6 +17,7 @@ case class TextFeature(k:String, v:String) extends Feature[String, String](k, v)
 case class BooleanFeature(k:String, v:Boolean) extends Feature[String, Boolean](k, v)
 case class GenderFeature(k:String, v:Gender) extends Feature[String, Gender](k, v)
 case class CategoryFeature(k:String, v:Seq[String]) extends Feature[String, Seq[String]](k, v) with Filterable
+//case class CategoryFeature(k:String, v:String) extends Feature[String, String](k, v) with Filterable
 case class PriceFeature(k:String, v:VenuePrice) extends Feature[String, VenuePrice](k, v) with Filterable
 case class CoordinatesFeature(k:String, v:(Double, Double)) extends Feature[String, (Double, Double)](k, v) with Filterable
 
