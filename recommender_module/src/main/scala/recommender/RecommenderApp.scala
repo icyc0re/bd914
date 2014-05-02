@@ -2,11 +2,12 @@ package recommender
 
 import filtering.MockVectorSimilarity
 import vectors.{UserVector, VenueVector}
-import input.{Checkins, CheckinsCount}
+import input.{User, Checkins, CheckinsCount}
 import java.io.File
-import weboutput.{ResponseToWebApp, Response}
+import weboutput.{ResponseToWebApp}
 import javax.print.attribute.standard.ReferenceUriSchemesSupported
 import scalaj.http.Http
+import scala.collection.mutable
 
 /**
  * This is the main class of the recommender system.
@@ -14,26 +15,38 @@ import scalaj.http.Http
  */
 object RecommenderApp {
   def main(args: Array[String]) {
+    var u : Seq[UserVector] = mutable.MutableList.empty;
     // get venue features
     val v: Seq[VenueVector] = VenueVector.getAll
-    // get user features
-    val u: Seq[UserVector] = UserVector.getAll
+    if(args.size == 2){
+      val userJson = new File(args(0));
+      val user : User = new User(scala.io.Source.fromFile(userJson).mkString);
+      val userVector : UserVector = User.featureVector(user);
 
-    // Pre Filtering:
-    //    val dummyContext = Context.grab()
-    //    val dummyVenues  = Venue.getDummyVector()
-    //    PreFilter.apply(dummyVenues, dummyContext)
-    //    if (1==1) return
+      val checkinsJson = new File(args(1));
+      val checkins : Checkins = new Checkins(scala.io.Source.fromFile(checkinsJson).mkString);
+      // TODO create venue vectors from checkins and apply them to user vector
+
+      u :+ userVector;
+    } else {
+      // get user features
+      u = UserVector.getAll
+
+      // Pre Filtering:
+      //    val dummyContext = Context.grab()
+      //    val dummyVenues  = Venue.getDummyVector()
+      //    PreFilter.apply(dummyVenues, dummyContext)
+      //    if (1==1) return
+      // checkins parser test
+      //val file = new File("../dataset/sample/checkinstest.json")
+      //val response = new Checkins(scala.io.Source.fromFile(file).mkString)
+      //response.displayFeatures()
+    }
 
     val similarities : Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v);
     val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities);
     MockVectorSimilarity.printTopKSimilarities(sorted, 5);
 
     ResponseToWebApp.replyToWebApp(sorted, 3, 0);
-
-    // checkins parser test
-    //val file = new File("../dataset/sample/checkinstest.json")
-    //val response = new Checkins(scala.io.Source.fromFile(file).mkString)
-    //response.displayFeatures()
   }
 }
