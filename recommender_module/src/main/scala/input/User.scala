@@ -26,7 +26,7 @@ object Gender extends Enumeration {
 
 case class GPSCoordinates(lat: Double, lon: Double)
 
-class User(jsonString: String) {
+class User(jsonString: String){
 
   import Gender._
 
@@ -66,6 +66,7 @@ class User(jsonString: String) {
   val tips = Interactions(_tips("count").asInstanceOf[Double], readInteractions("tips"))
   //all interactions
   val interactions = Interactions(mayorships.count + photos.count + tips.count, mayorships.items ++ photos.items ++ tips.items)
+
 
   groups.foreach(group => {
     val grp: Map[String, Any] = group.asInstanceOf[Map[String, Any]]
@@ -200,6 +201,12 @@ class User(jsonString: String) {
 }
 
 object User {
+  /**
+   * Parse all files in a directory
+   * @param dirName path to the directory
+   * @return collection of vectors
+   */
+
   def featureVector(u: User): UserVector = {
     val features = List(
       TextFeature(Cons.USER_ID, u.id),

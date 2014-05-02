@@ -9,7 +9,7 @@ import java.io.File
  * @author Ivan Gavrilović
  */
 trait AbstractInputProcessor {
-  type T <: AbstractVector
+  type T
 
   /**
    * Parse input file and create collection of vectors from the file
@@ -33,4 +33,5 @@ trait AbstractInputProcessor {
       x => processData(scala.io.Source.fromFile(x))
     )
   }
+
 }

@@ -1,21 +1,23 @@
 package input
 
+import vectors.UserVector
 import scala.io.BufferedSource
-import vectors.{UserVector, AbstractVector}
 import java.io.File
 import utils.Cons
 
 /**
- * @author Ivan Gavrilović
+ * Created by emmafagerholm on 02/05/2014.
  */
-class UserInputProcessor extends AbstractInputProcessor{
-  type T = UserVector
+class RawUserInputProcessor extends AbstractInputProcessor{
+
+  type T = User
   /**
    * Parse input file and create collection of vectors from the file
    * @param input input source to read
    * @return collection of vectors
    */
   override def processData(input: BufferedSource): T = {
-    User.featureVector(new User(input.mkString))
+    new User(input.mkString)
   }
+
 }
