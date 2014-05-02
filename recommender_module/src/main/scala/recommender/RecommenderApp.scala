@@ -28,7 +28,7 @@ object RecommenderApp {
     MockVectorSimilarity.printTopKSimilarities(sorted, 5);
 
     // checkins parser test
-    val file = new File("..\\dataset\\sample\\checkinstest.json")
+    val file = new File("../dataset/sample/checkinstest.json")
     val response = new Checkins(scala.io.Source.fromFile(file).mkString)
     response.displayFeatures()
   }
