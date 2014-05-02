@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-from visualizer.views import home, coldstart, login, locationtime
+from visualizer.views import home, coldstart, login, logout, locationtime
 
 from django.contrib import admin
 admin.autodiscover()
@@ -12,6 +12,7 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     (r'^$', home),
     (r'^login/$', login),
+    (r'^logout/$', logout),
     (r'^coldstart/$', coldstart),
     (r'^locationtime/$', locationtime),
 )

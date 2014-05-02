@@ -1,35 +1,45 @@
 from django.shortcuts import render, redirect
+from django.conf import settings
 import foursquare
 import json
 
+ACCESS_TOKEN = 'access_token'
+
 # Create your views here.
 def home(request):
-	# signup - oauth
 
-	# connect to (link below)
+	# complete oauth retrieving token (unless already in session)
+	login_code = request.GET.get('code', '')
+	if not request.session.has_key(ACCESS_TOKEN) and not login_code:
+		return render(request, 'home.html')
+	elif not request.session.has_key(ACCESS_TOKEN) and login_code:
+		client = foursquare.Foursquare(client_id=settings.CLIENT_ID, client_secret=settings.CLIENT_SECRET, redirect_uri=settings.REDIRECT_URI)
+		access_token = client.oauth.get_token(login_code)
+		request.session[ACCESS_TOKEN] = access_token
 	
-	# code maccari
-	# TODO: get anchor from request path
-	login_request = "#access_token=XFABOQ4PIP52UBOST0ZIVC2KKO002WPCUS4IXAV3LCPNNLUY"
-	# https://foursquare.com/oauth2/authenticate?client_id=SBUR2MWKKUYWPHJTZU4OLBAMFLGWKWZZJQKVGAAEJV1URHSP&response_type=token&redirect_uri=http://localhost:8000
+	client = foursquare.Foursquare(access_token=request.session[ACCESS_TOKEN])
+	access_token = request.session[ACCESS_TOKEN]
 
-	if 'access_token' in login_request:
-		accessToken = login_request[login_request.find("=")+1:]
-		print accessToken
-		client = foursquare.Foursquare(access_token=accessToken)
-		user = client.users()
-		
-		jsonString = json.dumps(user) 	# as string
+	user = client.users()
+	
+	json_string = json.dumps(user)
 
 # 		userPath = "./user.json" 
 # 		with open(userPath,'a') as outfile:
 # 			json.dump(user, outfile) 	# in file
 
-	return render(request, 'home.html')
+	return render(request, 'home.html', {'user_data': user})
 
 
 def login(request):
-	return redirect('https://foursquare.com/oauth2/authenticate?client_id=SBUR2MWKKUYWPHJTZU4OLBAMFLGWKWZZJQKVGAAEJV1URHSP&response_type=token&redirect_uri=http://localhost:8000')
+	client = foursquare.Foursquare(client_id=settings.CLIENT_ID, client_secret=settings.CLIENT_SECRET, redirect_uri=settings.REDIRECT_URI)
+	auth_uri = client.oauth.auth_url()
+	return redirect(auth_uri)
+
+
+def logout(request):
+	del request.session[ACCESS_TOKEN]
+	return redirect('/')
 
 
 def coldstart(request):
