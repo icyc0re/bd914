@@ -9,6 +9,7 @@ import utils.Cons
 import vectors.VenueVector
 import features._
 import context.Context
+import java.util.Date
 
 /**
  * @author Matteo Pagliardini
@@ -317,7 +318,87 @@ println(map)*/
 	println("\n****************************************************")
   	println(  "****************************************************\n")
   }
+
+
+  def updateDate(curDate : Date, hour : String) = {
+    if(hour(hour.length - 2) == "A"){//morning
+    val time = hour.split(":");
+      if(time.length >= 1){
+        curDate.setHours(time(0).toInt);
+
+        if(time.length == 2){
+          curDate.setMinutes(time(1).toInt);
+        }
+      }
+    }
+    else if(hour(hour.length - 2) == "P"){//afternoon
+    val time = hour.split(":");
+      if(time.length >= 1){
+        curDate.setHours(12 + time(0).toInt);
+
+        if(time.length == 2){
+          curDate.setMinutes(time(1).toInt);
+        }
+      }
+    }
+  }
+
+  def getTimeSequenceHours(day : String, venueHours : List[VenueHoursRenderedTime]) : List[(Date, Date)] = {
+    val dayInt = day match{
+      case "Mon" => 1
+      case "Tue" => 2
+      case "Wed" => 3
+      case "Thu" => 4
+      case "Fri" => 5
+      case "Sat" => 6
+      case "Sun" => 7
+      case _ => 0
+    };
+    var result = List.empty;
+
+    if(dayInt != 0){
+        result = venueHours.map((vhrt : VenueHoursRenderedTime) => {
+          var date1 = new Date();
+          var date2 = new Date();
+          date1.setDate(dayInt);
+          date2.setDate(dayInt);
+          var result = List.empty;
+
+          val hours = vhrt.renderedTime.get.split("\\u2013");
+
+          if(hours.length == 1){
+            updateDate(date1, hours(0));
+            updateDate(date2, hours(0));
+            result:::List( (date1, date2) );
+          }
+          else if(hours.length == 2){
+            updateDate(date1, hours(0));
+            updateDate(date2, hours(1));
+            result:::List( (date1, date2) );
+          }
+
+        result
+        }).reduce(_:::_);
+    }
+    result;
+  }
+
+  def getTimeSequenceDays(venueHours : VenueHoursTimeFrames) : List[(Date, Date)]= {
+    val days = venueHours.days.get.split("\\u2013");
+    days.map((day : String) => {getTimeSequenceHours(day, venueHours.open.get)}).reduce(_:::_)
+  }
+
+  def getTimeSequence() : List[(Date, Date)] = {//Gets the sequence of opening times of the venue (on the form (Date1, Date2) where Date1 is an opening hour and Date2 the corresponding closing hour)
+    this.venue.hours.get.timeframes.get.map( (venueHours : VenueHoursTimeFrames) => {getTimeSequenceDays(venueHours)} ).reduce(_:::_)
+  }
 }
+
+/*
+case class VenueHoursRenderedTime(renderedTime: Option[String], dummy: Option[Int])
+
+case class VenueHoursTimeFrames(days: Option[String], open: Option[List[VenueHoursRenderedTime]])
+
+case class VenueHours(dummy: Option[Int], timeframes: Option[List[VenueHoursTimeFrames]])*/
 
 object Venue{
   /**

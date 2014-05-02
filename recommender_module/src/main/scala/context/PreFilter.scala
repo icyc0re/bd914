@@ -25,7 +25,6 @@ object PreFilter {
 
       vectors.filter( (v:VenueVector) => passesCriteria(v, context))
 
-      vectors
 
   }
 

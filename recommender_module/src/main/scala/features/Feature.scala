@@ -3,6 +3,7 @@ package features
 import input.Gender.Gender
 import input.VenueCategory
 import input.VenuePrice
+import java.util.Date
 
 /**
  * Representing the feature (attribute, property). Extend this class in order to create specific features.
@@ -19,6 +20,7 @@ case class GenderFeature(k:String, v:Gender) extends Feature[String, Gender](k, 
 case class CategoryFeature(k:String, v:List[VenueCategory]) extends Feature[String, List[VenueCategory]](k, v) with Filterable
 case class PriceFeature(k:String, v:VenuePrice) extends Feature[String, VenuePrice](k, v) with Filterable
 case class CoordinatesFeature(k:String, v:(Double, Double)) extends Feature[String, (Double, Double)](k, v) with Filterable
+case class TimeFeature(k:String, v:List[(Date, Date)]) extends Feature[String, List[(Date, Date)]](k, v) with Filterable
 
 abstract class Feature[+K, +V](k:K, v:V){
   val key:K = k
