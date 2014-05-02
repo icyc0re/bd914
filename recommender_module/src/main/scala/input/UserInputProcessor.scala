@@ -3,6 +3,7 @@ package input
 import scala.io.BufferedSource
 import vectors.{UserVector, AbstractVector}
 import java.io.File
+import utils.Cons
 
 /**
  * @author Ivan Gavrilović

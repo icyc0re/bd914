@@ -69,6 +69,19 @@ object MockVectorSimilarity extends VectorSimilarity {
     }
   }
 
+  def getTopKSimilaritiesForUserString(userIndex : Int, similarities: Seq[(String, Seq[(String, Double)])], k: Int) : String = {
+    var values = similarities(userIndex)._2;
+    var output : String = "[";
+    if(k > 0){
+      output += values(0)._1;
+      for (i <- 1 to k - 1) {
+        output += "," + values(i)._1;
+      }
+    }
+    output += "]"
+    output
+  }
+
   /**
    * Get the similarity between a vector and a collection of vectors
    * @param vec vector

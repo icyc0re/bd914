@@ -5,8 +5,10 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "play" % "play_2.10" % "2.1.0"
+  "play" % "play_2.10" % "2.1.0",
+  "org.scalaj" %% "scalaj-http" % "0.3.15"
 )
+
 
 version := "1.0"
     
