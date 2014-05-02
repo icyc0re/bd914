@@ -48,4 +48,7 @@ object Precision {
     userInteractions.map(x => x._1.applyVenues(x._2(VenueListType.notDeleted))).toSeq
   }
   //def calculatePrecision() : Double = {}
+
+
+
 }
