@@ -9,15 +9,16 @@
             "groups": []
         }, 
         "mayor": {
-            "count": 3, 
+            "count": 2, 
             "user": {
-                "gender": "male", 
-                "id": "30248362", 
-                "firstName": "Evan", 
+                "lastName": "O.", 
                 "photo": {
                     "prefix": "https://irs0.4sqi.net/img/user/", 
-                    "suffix": "/30248362-B2O5YM5AO02VLBTA.jpg"
-                }
+                    "suffix": "/YNKMNQD2QLRZFK2W.jpg"
+                }, 
+                "id": "9448323", 
+                "firstName": "Mark", 
+                "gender": "male"
             }
         }, 
         "createdAt": 1278529394, 
@@ -54,6 +55,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4e5552482271abb4407a8fca", 
                             "text": "It's a good place to take a nap.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 1, 
@@ -163,7 +165,7 @@
         }, 
         "stats": {
             "tipCount": 1, 
-            "checkinsCount": 186, 
+            "checkinsCount": 187, 
             "usersCount": 58
         }, 
         "dislike": false, 

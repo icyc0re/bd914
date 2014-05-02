@@ -57,16 +57,16 @@
             "summary": "5 likes"
         }, 
         "mayor": {
-            "count": 13, 
+            "count": 17, 
             "user": {
-                "lastName": "O.", 
+                "lastName": "L.", 
                 "photo": {
-                    "prefix": "https://irs0.4sqi.net/img/user/", 
-                    "suffix": "/YNKMNQD2QLRZFK2W.jpg"
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/VGTM4ZFMYVNHOF4E.jpg"
                 }, 
-                "id": "9448323", 
-                "firstName": "Mark", 
-                "gender": "male"
+                "id": "7205313", 
+                "firstName": "Abby", 
+                "gender": "female"
             }
         }, 
         "createdAt": 1271178871, 
@@ -139,6 +139,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4f3b61b1e4b0839f59aa9260", 
                             "text": "Permission to speak freely on the 2nd floor open collaborative space", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 2, 
@@ -170,10 +171,29 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/525c57a311d2c9cd935c823b", 
                             "text": "Can I say the best library in Columbia?", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
-                                "count": 0, 
-                                "groups": []
+                                "count": 1, 
+                                "groups": [
+                                    {
+                                        "count": 1, 
+                                        "items": [
+                                            {
+                                                "lastName": "S.", 
+                                                "photo": {
+                                                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                                                    "suffix": "/CUNZ1SB1E1PDJYQU.jpg"
+                                                }, 
+                                                "id": "18502289", 
+                                                "firstName": "Tyrone", 
+                                                "gender": "male"
+                                            }
+                                        ], 
+                                        "type": "others"
+                                    }
+                                ], 
+                                "summary": "1 like"
                             }, 
                             "todo": {
                                 "count": 0
@@ -195,6 +215,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/506c8482e4b0916d138ee24f", 
                             "text": "3rd floor is super quiet! 2nd floor is great for talking and/or work if you aren't easily distracted!", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -219,6 +240,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/50128b61e4b07c3cf216a269", 
                             "text": "You can find a seat any time of the day in the summer. During the fall and spring it's pretty hectic, I'd suggest visiting during off hours.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -243,6 +265,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4f85a782e4b0d19a2f0d967e", 
                             "text": "Definitely in need of more outlets. Otherwise the 2nd floor is the best place to collaborate and hang out.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -268,6 +291,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4f83445be4b08004b6bc0275", 
                             "text": "During finals you'll be lucky if you can find a seat... especially near an outlet!", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -293,6 +317,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4e6e5bad14955284baa83972", 
                             "text": "tons of work space, bad part is the printer set up", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -336,34 +361,11 @@
             "library"
         ], 
         "photos": {
-            "count": 6, 
+            "count": 7, 
             "groups": [
                 {
-                    "count": 6, 
+                    "count": 7, 
                     "items": [
-                        {
-                            "suffix": "/2WvByaZPu9lR7GfhDkghj3jOw3ABKTNCZCODCdl67b8.jpg", 
-                            "width": 612, 
-                            "visibility": "public", 
-                            "height": 612, 
-                            "source": {
-                                "url": "http://instagram.com", 
-                                "name": "Instagram"
-                            }, 
-                            "prefix": "https://irs1.4sqi.net/img/general/", 
-                            "user": {
-                                "lastName": "M.", 
-                                "photo": {
-                                    "prefix": "https://irs1.4sqi.net/img/user/", 
-                                    "suffix": "/ROIIWTOWT5TB444G.jpg"
-                                }, 
-                                "id": "18030", 
-                                "firstName": "Eduard", 
-                                "gender": "male"
-                            }, 
-                            "id": "504021cde4b06be18f4cbaef", 
-                            "createdAt": 1346380237
-                        }, 
                         {
                             "suffix": "/18030_xhbccd3znCLwX26LnKRMgiihk_lSyp575ttMS3f_YEM.jpg", 
                             "width": 612, 
@@ -386,29 +388,6 @@
                             }, 
                             "id": "50ca2f1ce4b0c995a5113918", 
                             "createdAt": 1355427612
-                        }, 
-                        {
-                            "suffix": "/QL9qAQS4CCVb6ABASuZjBnw5ZPoX_Jq5y1-OgwZ0njY.jpg", 
-                            "width": 612, 
-                            "visibility": "public", 
-                            "height": 612, 
-                            "source": {
-                                "url": "http://instagram.com", 
-                                "name": "Instagram"
-                            }, 
-                            "prefix": "https://irs0.4sqi.net/img/general/", 
-                            "user": {
-                                "lastName": "M.", 
-                                "photo": {
-                                    "prefix": "https://irs1.4sqi.net/img/user/", 
-                                    "suffix": "/ROIIWTOWT5TB444G.jpg"
-                                }, 
-                                "id": "18030", 
-                                "firstName": "Eduard", 
-                                "gender": "male"
-                            }, 
-                            "id": "50512527e4b050646b2baf22", 
-                            "createdAt": 1347495207
                         }, 
                         {
                             "suffix": "/0IUGXDJKJJPKCUZSX2S103ANQIEWVNBLCA5AECDGYYWCLL5S.jpg", 
@@ -434,6 +413,52 @@
                             "createdAt": 1319567761
                         }, 
                         {
+                            "suffix": "/2WvByaZPu9lR7GfhDkghj3jOw3ABKTNCZCODCdl67b8.jpg", 
+                            "width": 612, 
+                            "visibility": "public", 
+                            "height": 612, 
+                            "source": {
+                                "url": "http://instagram.com", 
+                                "name": "Instagram"
+                            }, 
+                            "prefix": "https://irs1.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "M.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/ROIIWTOWT5TB444G.jpg"
+                                }, 
+                                "id": "18030", 
+                                "firstName": "Eduard", 
+                                "gender": "male"
+                            }, 
+                            "id": "504021cde4b06be18f4cbaef", 
+                            "createdAt": 1346380237
+                        }, 
+                        {
+                            "suffix": "/3744_KqhjOypZLE3WQPnIN010pWnQOkpZ5LLKFA-oixgmdtM.jpg", 
+                            "width": 640, 
+                            "visibility": "public", 
+                            "height": 640, 
+                            "source": {
+                                "url": "http://instagram.com", 
+                                "name": "Instagram"
+                            }, 
+                            "prefix": "https://irs1.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "B.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/VJMHWFVISHB4NIYE.jpg"
+                                }, 
+                                "id": "3744", 
+                                "firstName": "Karen", 
+                                "gender": "none"
+                            }, 
+                            "id": "533b4e6b498e5962288d29cd", 
+                            "createdAt": 1396395627
+                        }, 
+                        {
                             "suffix": "/22646823_wSCC5fp_1C2XUNXvSX1OeOelsP4JVQFk_zdr0GDsTZs.jpg", 
                             "width": 540, 
                             "visibility": "public", 
@@ -457,7 +482,7 @@
                             "createdAt": 1350865547
                         }, 
                         {
-                            "suffix": "/TIa15qlVnXQLwelI3dwWA04IO_Et-YFCUOiys062Jgk.jpg", 
+                            "suffix": "/QL9qAQS4CCVb6ABASuZjBnw5ZPoX_Jq5y1-OgwZ0njY.jpg", 
                             "width": 612, 
                             "visibility": "public", 
                             "height": 612, 
@@ -465,7 +490,7 @@
                                 "url": "http://instagram.com", 
                                 "name": "Instagram"
                             }, 
-                            "prefix": "https://irs2.4sqi.net/img/general/", 
+                            "prefix": "https://irs0.4sqi.net/img/general/", 
                             "user": {
                                 "lastName": "M.", 
                                 "photo": {
@@ -476,8 +501,8 @@
                                 "firstName": "Eduard", 
                                 "gender": "male"
                             }, 
-                            "id": "504fa206e4b0eacd3dba704b", 
-                            "createdAt": 1347396102
+                            "id": "50512527e4b050646b2baf22", 
+                            "createdAt": 1347495207
                         }
                     ], 
                     "type": "venue", 
@@ -490,8 +515,8 @@
         }, 
         "stats": {
             "tipCount": 7, 
-            "checkinsCount": 1090, 
-            "usersCount": 229
+            "checkinsCount": 1154, 
+            "usersCount": 244
         }, 
         "dislike": false, 
         "categories": [
@@ -514,15 +539,15 @@
                     "entities": [
                         {
                             "indices": [
-                                26, 
-                                39
+                                25, 
+                                36
                             ], 
                             "type": "keyPhrase"
                         }
                     ], 
-                    "text": "... on the 2nd floor open collaborative space"
+                    "text": "... is the best place to collaborate and hang out."
                 }, 
-                "phrase": "collaborative", 
+                "phrase": "collaborate", 
                 "count": 2
             }, 
             {
@@ -530,15 +555,15 @@
                     "entities": [
                         {
                             "indices": [
-                                20, 
-                                27
+                                23, 
+                                29
                             ], 
                             "type": "keyPhrase"
                         }
                     ], 
-                    "text": "... in need of more outlets. Otherwise the 2nd floor is the best place..."
+                    "text": "... especially near an outlet!"
                 }, 
-                "phrase": "outlets", 
+                "phrase": "outlet", 
                 "count": 2
             }
         ], 
@@ -548,13 +573,15 @@
         }, 
         "contact": {}, 
         "popular": {
-            "status": "Likely open", 
             "timeframes": [
                 {
                     "segments": [], 
                     "open": [
                         {
-                            "renderedTime": "7:00 AM\u20138:00 PM"
+                            "renderedTime": "7:00 AM\u20138:00 AM"
+                        }, 
+                        {
+                            "renderedTime": "11:00 AM\u20137:00 PM"
                         }
                     ], 
                     "days": "Today", 
@@ -573,7 +600,7 @@
                     "segments": [], 
                     "open": [
                         {
-                            "renderedTime": "Noon\u20134:00 PM"
+                            "renderedTime": "1:00 PM\u20134:00 PM"
                         }
                     ], 
                     "days": "Sat"
@@ -582,7 +609,7 @@
                     "segments": [], 
                     "open": [
                         {
-                            "renderedTime": "9:00 AM\u20137:00 PM"
+                            "renderedTime": "11:00 AM\u20137:00 PM"
                         }
                     ], 
                     "days": "Sun"
@@ -591,7 +618,7 @@
                     "segments": [], 
                     "open": [
                         {
-                            "renderedTime": "8:00 AM\u20139:00 PM"
+                            "renderedTime": "10:00 AM\u20139:00 PM"
                         }
                     ], 
                     "days": "Mon"
@@ -600,7 +627,7 @@
                     "segments": [], 
                     "open": [
                         {
-                            "renderedTime": "10:00 AM\u20139:00 PM"
+                            "renderedTime": "9:00 AM\u20139:00 PM"
                         }
                     ], 
                     "days": "Tue"
@@ -615,7 +642,7 @@
                     "days": "Wed"
                 }
             ], 
-            "isOpen": true
+            "isOpen": false
         }, 
         "timeZone": "America/New_York"
     }

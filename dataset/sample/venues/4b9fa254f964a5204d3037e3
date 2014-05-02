@@ -1,0 +1,245 @@
+{
+    "venue": {
+        "rating": 6.06, 
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lastName": "C.", 
+                            "photo": {
+                                "prefix": "https://irs0.4sqi.net/img/user/", 
+                                "suffix": "/DEKQRIRQJJP3TRXO.jpg"
+                            }, 
+                            "id": "13776942", 
+                            "firstName": "GerMichael", 
+                            "gender": "male"
+                        }
+                    ], 
+                    "type": "others"
+                }
+            ], 
+            "summary": "1 like"
+        }, 
+        "mayor": {
+            "count": 6, 
+            "user": {
+                "lastName": "C.", 
+                "photo": {
+                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                    "suffix": "/DEKQRIRQJJP3TRXO.jpg"
+                }, 
+                "id": "13776942", 
+                "firstName": "GerMichael", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1268752980, 
+        "description": "C-Town supermarkets, independently owned markets located across the northeast each offer a local mix of products to meet their neighborhood needs.C-Town- proudly serving communities for over 35 years.", 
+        "verified": true, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4b9fa254f964a5204d3037e3", 
+        "shortUrl": "http://4sq.com/bfqQjZ", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "location": {
+            "city": "Bronx", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10453", 
+            "state": "NY", 
+            "address": "1750 Dr Martin L King Jr Blvd", 
+            "lat": 40.84925862941534, 
+            "lng": -73.91685654780913
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/ctown-supermarkets/4b9fa254f964a5204d3037e3", 
+        "tags": [], 
+        "storeId": "41-323", 
+        "hours": {
+            "status": "Closed until 8:00am", 
+            "timeframes": [
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "8:00 AM\u20139:00 PM"
+                        }
+                    ], 
+                    "days": "Mon\u2013Sat", 
+                    "includesToday": true
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "8:00 AM\u20137:00 PM"
+                        }
+                    ], 
+                    "days": "Sun"
+                }
+            ], 
+            "isOpen": false
+        }, 
+        "photos": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "suffix": "/18600760_KSyATOGHNkIiDvNB0AbQXNRC0OUSueK6KjzenDv56Tk.jpg", 
+                            "width": 640, 
+                            "visibility": "public", 
+                            "height": 640, 
+                            "source": {
+                                "url": "http://instagram.com", 
+                                "name": "Instagram"
+                            }, 
+                            "prefix": "https://irs2.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "P.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/METXDSWMNVHEAJXT.jpg"
+                                }, 
+                                "id": "18600760", 
+                                "firstName": "Justin", 
+                                "gender": "male"
+                            }, 
+                            "id": "52bb444c498e15ad4e9dc360", 
+                            "createdAt": 1388004428
+                        }
+                    ], 
+                    "type": "venue", 
+                    "name": "Venue photos"
+                }
+            ]
+        }, 
+        "attributes": {
+            "groups": [
+                {
+                    "count": 6, 
+                    "items": [
+                        {
+                            "displayValue": "Yes", 
+                            "displayName": "Credit Cards"
+                        }
+                    ], 
+                    "type": "payments", 
+                    "name": "Credit Cards", 
+                    "summary": "Credit Cards"
+                }
+            ]
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 202, 
+            "usersCount": 80
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Supermarkets", 
+                "primary": true, 
+                "name": "Supermarket", 
+                "shortName": "Supermarket", 
+                "id": "52f2ab2ebcbc57f1066b8b46", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/food_grocery_", 
+                    "suffix": ".png"
+                }
+            }, 
+            {
+                "shortName": "Grocery Store", 
+                "pluralName": "Grocery Stores", 
+                "id": "4bf58dd8d48988d118951735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/food_grocery_", 
+                    "suffix": ".png"
+                }, 
+                "name": "Grocery Store"
+            }
+        ], 
+        "name": "C-Town Supermarkets", 
+        "url": "http://location.ctownsupermarkets.com/NY/BRONX/41-323/", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {
+            "phone": "7182943616", 
+            "twitter": "ctownmarkets", 
+            "formattedPhone": "(718) 294-3616"
+        }, 
+        "timeZone": "America/New_York", 
+        "page": {
+            "pageInfo": {
+                "description": "C-Town Supermarkets are independently owned and operated neighborhood food stores dedicated to serving the needs of our communities.", 
+                "links": {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "url": "http://www.ctownsupermarkets.com"
+                        }
+                    ]
+                }
+            }, 
+            "user": {
+                "bio": "", 
+                "firstName": "C-Town Supermarkets", 
+                "gender": "none", 
+                "homeCity": "anaheim, CA", 
+                "contact": {
+                    "twitter": "ctownmarkets"
+                }, 
+                "followers": {
+                    "count": 1, 
+                    "groups": []
+                }, 
+                "photo": {
+                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                    "suffix": "/XLEGRNFCPCUZKI15.jpg"
+                }, 
+                "tips": {
+                    "count": 0
+                }, 
+                "type": "chain", 
+                "id": "50642543"
+            }
+        }
+    }
+}

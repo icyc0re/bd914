@@ -22,7 +22,7 @@
             "summary": "29 likes"
         }, 
         "mayor": {
-            "count": 42, 
+            "count": 40, 
             "user": {
                 "gender": "male", 
                 "id": "558433", 
@@ -36,16 +36,9 @@
         "createdAt": 1251979548, 
         "verified": false, 
         "hereNow": {
-            "count": 1, 
-            "groups": [
-                {
-                    "count": 1, 
-                    "items": [], 
-                    "type": "others", 
-                    "name": "Other people here"
-                }
-            ], 
-            "summary": "1 person here"
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
         }, 
         "id": "4a9fb11cf964a520343d20e3", 
         "shortUrl": "http://4sq.com/cPgDnI", 
@@ -54,46 +47,11 @@
             "items": []
         }, 
         "listed": {
-            "count": 16, 
+            "count": 17, 
             "groups": [
                 {
-                    "count": 16, 
+                    "count": 17, 
                     "items": [
-                        {
-                            "description": "", 
-                            "collaborative": false, 
-                            "url": "/user/26719938/list/columbia", 
-                            "editable": false, 
-                            "listItems": {
-                                "count": 8, 
-                                "items": [
-                                    {
-                                        "id": "v4a9fb11cf964a520343d20e3", 
-                                        "createdAt": 1337026293
-                                    }
-                                ]
-                            }, 
-                            "createdAt": 1337026194, 
-                            "public": true, 
-                            "followers": {
-                                "count": 2
-                            }, 
-                            "user": {
-                                "lastName": "U.", 
-                                "photo": {
-                                    "prefix": "https://irs0.4sqi.net/img/user/", 
-                                    "suffix": "/RUUCLI0U1GZWNU2V.jpg"
-                                }, 
-                                "id": "26719938", 
-                                "firstName": "Burke Library", 
-                                "gender": "none"
-                            }, 
-                            "updatedAt": 1348014928, 
-                            "type": "others", 
-                            "id": "4fb16692e4b0ded8674b9482", 
-                            "canonicalUrl": "https://foursquare.com/user/26719938/list/columbia", 
-                            "name": "Columbia"
-                        }, 
                         {
                             "description": "", 
                             "collaborative": false, 
@@ -128,6 +86,41 @@
                             "id": "515a6f3ce4b06ba4ad1389b7", 
                             "canonicalUrl": "https://foursquare.com/kimeeyuh/list/favorite-places-ny", 
                             "name": "Favorite Places- NY"
+                        }, 
+                        {
+                            "description": "", 
+                            "collaborative": false, 
+                            "url": "/user/26719938/list/columbia", 
+                            "editable": false, 
+                            "listItems": {
+                                "count": 8, 
+                                "items": [
+                                    {
+                                        "id": "v4a9fb11cf964a520343d20e3", 
+                                        "createdAt": 1337026293
+                                    }
+                                ]
+                            }, 
+                            "createdAt": 1337026194, 
+                            "public": true, 
+                            "followers": {
+                                "count": 2
+                            }, 
+                            "user": {
+                                "lastName": "U.", 
+                                "photo": {
+                                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                                    "suffix": "/RUUCLI0U1GZWNU2V.jpg"
+                                }, 
+                                "id": "26719938", 
+                                "firstName": "Burke Library", 
+                                "gender": "none"
+                            }, 
+                            "updatedAt": 1348014928, 
+                            "type": "others", 
+                            "id": "4fb16692e4b0ded8674b9482", 
+                            "canonicalUrl": "https://foursquare.com/user/26719938/list/columbia", 
+                            "name": "Columbia"
                         }, 
                         {
                             "description": "Some of the places I've been as editor of Social Media News NY that define Silicon Alley of 2011.", 
@@ -206,7 +199,7 @@
             ]
         }, 
         "tips": {
-            "count": 21, 
+            "count": 22, 
             "groups": [
                 {
                     "count": 20, 
@@ -215,6 +208,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4d854ac32142a090f2559007", 
                             "text": "You can easily get lost here.  Make the most of it and play a game of hide and go seek!", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 15, 
@@ -246,6 +240,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4d53608abbbf3704a7653478", 
                             "text": "Go to the make your own salad station in the basement. It's amazingly fresh and delicious and the cheapest price around.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 10, 
@@ -278,6 +273,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4f46b8e6e4b0b0b9982954b1", 
                             "text": "The underground passage way is the way to go to Whittier", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 6, 
@@ -298,8 +294,8 @@
                                             {
                                                 "lastName": "H.", 
                                                 "photo": {
-                                                    "prefix": "https://irs0.4sqi.net/img/user/", 
-                                                    "suffix": "/5OGH03AHXDZ21DWP.jpg"
+                                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                                    "suffix": "/326740-LDQMRUHTNZAIN52Z.jpg"
                                                 }, 
                                                 "id": "326740", 
                                                 "firstName": "Melanie", 
@@ -341,6 +337,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/51a4d8db498e80da59aa18b1", 
                             "text": "build community and thrive!", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 5, 
@@ -413,6 +410,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4c9a75bcb8e9224b58fb4d3d", 
                             "text": "In the library, printer RH3 is on the 2nd Flr & RH4 & RH5 on the 3rd Flr.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 4, 
@@ -467,6 +465,7 @@
                             "canonicalUrl": "https://foursquare.com/item/4b4df37c70c603bb377590b4", 
                             "url": "http://library.tc.columbia.edu/support.php?dq=consultation", 
                             "text": "Go to the Gottesman Libraries and ask the librarians any question about Education, Psychology or Health Sciences -- they are awesome!", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 3, 
@@ -487,6 +486,7 @@
                             "user": {
                                 "lastName": "W.", 
                                 "photo": {
+                                    "default": true, 
                                     "prefix": "https://irs0.4sqi.net/img/user/", 
                                     "suffix": "/blank_boy.png"
                                 }, 
@@ -497,8 +497,9 @@
                         }, 
                         {
                             "lang": "en", 
-                            "canonicalUrl": "https://foursquare.com/item/4eeff2abe5fa467841540129", 
-                            "text": "If you're not a student here, you have to get a guest pass from the security desk. Make sure to bring your ID.", 
+                            "canonicalUrl": "https://foursquare.com/item/4f904fd8e4b0736827881284", 
+                            "text": "Keep an eye out for events with free food on the TC events board, including student senate mixers.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 2, 
@@ -507,13 +508,23 @@
                                         "count": 2, 
                                         "items": [
                                             {
-                                                "lastName": "A.", 
+                                                "lastName": "M.", 
                                                 "photo": {
-                                                    "prefix": "https://irs1.4sqi.net/img/user/", 
-                                                    "suffix": "/FUTFY5AQ40K2JF1Y.jpg"
+                                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                                    "suffix": "/MITUYWIZ5HIYVGNE.jpg"
                                                 }, 
-                                                "id": "42076465", 
-                                                "firstName": "Catalina", 
+                                                "id": "13733509", 
+                                                "firstName": "Deedee", 
+                                                "gender": "female"
+                                            }, 
+                                            {
+                                                "lastName": "T.", 
+                                                "photo": {
+                                                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                                                    "suffix": "/79518513-OCRWYOOJUTP5DTEL.jpg"
+                                                }, 
+                                                "id": "79518513", 
+                                                "firstName": "Denny", 
                                                 "gender": "female"
                                             }
                                         ], 
@@ -523,18 +534,18 @@
                                 "summary": "2 likes"
                             }, 
                             "todo": {
-                                "count": 0
+                                "count": 1
                             }, 
-                            "id": "4eeff2abe5fa467841540129", 
-                            "createdAt": 1324348075, 
+                            "id": "4f904fd8e4b0736827881284", 
+                            "createdAt": 1334857688, 
                             "user": {
-                                "lastName": "A.", 
+                                "lastName": "K.", 
                                 "photo": {
                                     "prefix": "https://irs0.4sqi.net/img/user/", 
-                                    "suffix": "/SIIKE5UXENXTB4IP.jpg"
+                                    "suffix": "/WBIW03QWXSB2AOQS.jpg"
                                 }, 
-                                "id": "3994778", 
-                                "firstName": "Tariq", 
+                                "id": "9910182", 
+                                "firstName": "Keith", 
                                 "gender": "male"
                             }
                         }, 
@@ -542,6 +553,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4f8e209ce4b084124a481178", 
                             "text": "If you see my mom (Karen Zumwalt) tell her that her son says hi via foursquare :-).", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 2, 
@@ -592,66 +604,46 @@
                         }, 
                         {
                             "lang": "en", 
-                            "canonicalUrl": "https://foursquare.com/item/4d4751320bfd548145ed3100", 
-                            "text": "Go to pinkberry", 
+                            "canonicalUrl": "https://foursquare.com/item/4eeff2abe5fa467841540129", 
+                            "text": "If you're not a student here, you have to get a guest pass from the security desk. Make sure to bring your ID.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
-                                "count": 1, 
+                                "count": 2, 
                                 "groups": [
                                     {
-                                        "count": 1, 
-                                        "items": [], 
+                                        "count": 2, 
+                                        "items": [
+                                            {
+                                                "lastName": "A.", 
+                                                "photo": {
+                                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                                    "suffix": "/FUTFY5AQ40K2JF1Y.jpg"
+                                                }, 
+                                                "id": "42076465", 
+                                                "firstName": "Catalina", 
+                                                "gender": "female"
+                                            }
+                                        ], 
                                         "type": "others"
                                     }
                                 ], 
-                                "summary": "1 like"
+                                "summary": "2 likes"
                             }, 
                             "todo": {
                                 "count": 0
                             }, 
-                            "id": "4d4751320bfd548145ed3100", 
-                            "createdAt": 1296519474, 
+                            "id": "4eeff2abe5fa467841540129", 
+                            "createdAt": 1324348075, 
                             "user": {
-                                "lastName": "C.", 
+                                "lastName": "A.", 
                                 "photo": {
-                                    "prefix": "https://irs3.4sqi.net/img/user/", 
-                                    "suffix": "/JWAUJ100YH5XASME.jpg"
+                                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                                    "suffix": "/SIIKE5UXENXTB4IP.jpg"
                                 }, 
-                                "id": "1373902", 
-                                "firstName": "Eloy", 
-                                "gender": "none"
-                            }
-                        }, 
-                        {
-                            "lang": "en", 
-                            "canonicalUrl": "https://foursquare.com/item/4c9a7565a004a1cd746c486e", 
-                            "text": "For folks like me who end up here all day & like to bring food, apparently there's a microwave in the basement (they got rid of the one in the cafe).", 
-                            "logView": true, 
-                            "likes": {
-                                "count": 1, 
-                                "groups": [
-                                    {
-                                        "count": 1, 
-                                        "items": [], 
-                                        "type": "others"
-                                    }
-                                ], 
-                                "summary": "1 like"
-                            }, 
-                            "todo": {
-                                "count": 1
-                            }, 
-                            "id": "4c9a7565a004a1cd746c486e", 
-                            "createdAt": 1285191013, 
-                            "user": {
-                                "lastName": "T.", 
-                                "photo": {
-                                    "prefix": "https://irs2.4sqi.net/img/user/", 
-                                    "suffix": "/2BAKSPXUHGHOBLOZ.jpg"
-                                }, 
-                                "id": "3496208", 
-                                "firstName": "Adjoa", 
-                                "gender": "female"
+                                "id": "3994778", 
+                                "firstName": "Tariq", 
+                                "gender": "male"
                             }
                         }, 
                         {
@@ -659,6 +651,7 @@
                             "canonicalUrl": "https://foursquare.com/item/525f5d7511d2b63fb45e8261", 
                             "photourl": "https://irs2.4sqi.net/img/general/original/1026147_J_VNvZaPotBtzjIajKgEJdGhfMx5Ev-ViWa1mPdrOmE.jpg", 
                             "text": "Don't forget to check out artist Risa Puno's scent piece in the basement as part of the art exhibition DOING AND UNDERGOING which runs through December 15th, 2013!", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 1, 
@@ -712,6 +705,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/525dd7d5498ef64e4b8f79d0", 
                             "text": "Check out the \"doing and undergoing\" exhibit from 10/15-12/15,, word to the wise cone alone to blow your mind", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 1, 
@@ -754,6 +748,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/524cf63011d2e6f61febabc7", 
                             "text": "If u r a fan of Harry Potter, go and see the Hogwartslike building:))", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 1, 
@@ -765,7 +760,7 @@
                                                 "lastName": "H.", 
                                                 "photo": {
                                                     "prefix": "https://irs2.4sqi.net/img/user/", 
-                                                    "suffix": "/36628109-BCE5SMRUNC44Q0WL.jpg"
+                                                    "suffix": "/36628109-5M5WAC50E1SUX5T1.jpg"
                                                 }, 
                                                 "id": "36628109", 
                                                 "firstName": "Hande", 
@@ -795,26 +790,49 @@
                         }, 
                         {
                             "lang": "en", 
-                            "canonicalUrl": "https://foursquare.com/item/4f904fd8e4b0736827881284", 
-                            "text": "Keep an eye out for events with free food on the TC events board, including student senate mixers.", 
+                            "canonicalUrl": "https://foursquare.com/item/4d4751320bfd548145ed3100", 
+                            "text": "Go to pinkberry", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 1, 
                                 "groups": [
                                     {
                                         "count": 1, 
-                                        "items": [
-                                            {
-                                                "lastName": "T.", 
-                                                "photo": {
-                                                    "prefix": "https://irs0.4sqi.net/img/user/", 
-                                                    "suffix": "/79518513-OCRWYOOJUTP5DTEL.jpg"
-                                                }, 
-                                                "id": "79518513", 
-                                                "firstName": "Denny", 
-                                                "gender": "female"
-                                            }
-                                        ], 
+                                        "items": [], 
+                                        "type": "others"
+                                    }
+                                ], 
+                                "summary": "1 like"
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "4d4751320bfd548145ed3100", 
+                            "createdAt": 1296519474, 
+                            "user": {
+                                "lastName": "C.", 
+                                "photo": {
+                                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                                    "suffix": "/JWAUJ100YH5XASME.jpg"
+                                }, 
+                                "id": "1373902", 
+                                "firstName": "Eloy", 
+                                "gender": "none"
+                            }
+                        }, 
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/4c9a7565a004a1cd746c486e", 
+                            "text": "For folks like me who end up here all day & like to bring food, apparently there's a microwave in the basement (they got rid of the one in the cafe).", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 1, 
+                                "groups": [
+                                    {
+                                        "count": 1, 
+                                        "items": [], 
                                         "type": "others"
                                     }
                                 ], 
@@ -823,17 +841,43 @@
                             "todo": {
                                 "count": 1
                             }, 
-                            "id": "4f904fd8e4b0736827881284", 
-                            "createdAt": 1334857688, 
+                            "id": "4c9a7565a004a1cd746c486e", 
+                            "createdAt": 1285191013, 
                             "user": {
-                                "lastName": "K.", 
+                                "lastName": "T.", 
                                 "photo": {
-                                    "prefix": "https://irs0.4sqi.net/img/user/", 
-                                    "suffix": "/WBIW03QWXSB2AOQS.jpg"
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/2BAKSPXUHGHOBLOZ.jpg"
                                 }, 
-                                "id": "9910182", 
-                                "firstName": "Keith", 
-                                "gender": "male"
+                                "id": "3496208", 
+                                "firstName": "Adjoa", 
+                                "gender": "female"
+                            }
+                        }, 
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/535d454711d25420c6bb335d", 
+                            "text": "Best place to get some hardcore studying done.", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "535d454711d25420c6bb335d", 
+                            "createdAt": 1398621511, 
+                            "user": {
+                                "lastName": "C.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/75648572-SHMQSWWGGZPYU2DU.jpg"
+                                }, 
+                                "id": "75648572", 
+                                "firstName": "Helen", 
+                                "gender": "female"
                             }
                         }, 
                         {
@@ -841,6 +885,7 @@
                             "canonicalUrl": "https://foursquare.com/item/5163120e498eedc7dde6220d", 
                             "photourl": "https://irs0.4sqi.net/img/general/original/28216043_i8-SAeB4VvF8JRr0dMiW6Y4OvspI-qnDtH8JiI36h90.jpg", 
                             "text": "\uc2a4\ud0c0\ubc85\uc2a4 \ucee4\ud53c\ub3c4 1\uce35\uc5d0 \uc788\uc5b4 \uc88b\ub124\uc694.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -878,6 +923,7 @@
                             "lang": "ko", 
                             "canonicalUrl": "https://foursquare.com/item/516311e5498ea7a810204e61", 
                             "text": "\ucc44\uc6a9 \uc124\uba85\ud68c \uc654\uc2b5\ub2c8\ub2e4. \ub3c4\uc11c\uad00\ub3c4 \uc788\uc5b4 \uc124\uba85\ud68c \uc7a5\uc18c\ub85c\ub294 \uc88b\uc544\ubcf4\uc785\ub2c8\ub2e4.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -903,6 +949,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/5140ffbfe4b01fa4823ffc63", 
                             "text": "Love it here.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -916,8 +963,8 @@
                             "user": {
                                 "lastName": "D.", 
                                 "photo": {
-                                    "prefix": "https://irs1.4sqi.net/img/user/", 
-                                    "suffix": "/TBKVNCSB3CRFHNI2.jpg"
+                                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                                    "suffix": "/11561307-HPENTYOZNMWPDOJS.jpg"
                                 }, 
                                 "id": "11561307", 
                                 "firstName": "Yazzy", 
@@ -928,6 +975,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/504659e4e4b0d832522fe320", 
                             "text": "Google TC maps and there's a mobile site that gives directions from point A to B so you don't get lost in the maze.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -952,6 +1000,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4f98a843e4b062d811831f7f", 
                             "text": "Oops is this still Columbia? I think I walked in here by mistake!", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -971,31 +1020,6 @@
                                 "id": "1809144", 
                                 "firstName": "Muntasir", 
                                 "gender": "male"
-                            }
-                        }, 
-                        {
-                            "lang": "en", 
-                            "canonicalUrl": "https://foursquare.com/item/4e9f5b0b0039b2cba457bbf6", 
-                            "text": "writing, writing, writing....", 
-                            "logView": true, 
-                            "likes": {
-                                "count": 0, 
-                                "groups": []
-                            }, 
-                            "todo": {
-                                "count": 0
-                            }, 
-                            "id": "4e9f5b0b0039b2cba457bbf6", 
-                            "createdAt": 1319066379, 
-                            "user": {
-                                "lastName": "V.", 
-                                "photo": {
-                                    "prefix": "https://irs0.4sqi.net/img/user/", 
-                                    "suffix": "/LM3Y3XBIOAIUGETZ.jpg"
-                                }, 
-                                "id": "13322905", 
-                                "firstName": "B", 
-                                "gender": "female"
                             }
                         }
                     ], 
@@ -1025,10 +1049,10 @@
             "university"
         ], 
         "photos": {
-            "count": 156, 
+            "count": 168, 
             "groups": [
                 {
-                    "count": 156, 
+                    "count": 168, 
                     "items": [
                         {
                             "suffix": "/4295262_Je0khd_SO3cqz1AZXdNiGPAqtr2oO9tTtU9QrNIXtwU.jpg", 
@@ -1100,29 +1124,6 @@
                             "createdAt": 1354308914
                         }, 
                         {
-                            "suffix": "/y49q7rtUsf8EQ6gMRO7meYdB0jpMP-FhLrGUKG0hiIA.jpg", 
-                            "width": 720, 
-                            "visibility": "public", 
-                            "height": 537, 
-                            "source": {
-                                "url": "https://foursquare.com/download/#/iphone", 
-                                "name": "foursquare for iPhone"
-                            }, 
-                            "prefix": "https://irs1.4sqi.net/img/general/", 
-                            "user": {
-                                "lastName": "M.", 
-                                "photo": {
-                                    "prefix": "https://irs2.4sqi.net/img/user/", 
-                                    "suffix": "/MPL2RYXTDLSDMGKK.jpg"
-                                }, 
-                                "id": "35942713", 
-                                "firstName": "LLorch", 
-                                "gender": "male"
-                            }, 
-                            "id": "5048a668e4b0e55a965c36c9", 
-                            "createdAt": 1346938472
-                        }, 
-                        {
                             "suffix": "/XGTMDCPK331VTR5JAMWAZPNLTYHJN5YTNYIJG04VXLOUTEPQ.jpg", 
                             "width": 540, 
                             "visibility": "public", 
@@ -1146,7 +1147,30 @@
                             "createdAt": 1312819439
                         }, 
                         {
-                            "suffix": "/Gdoi1VV1x4kNeVQv-T-ncmshKTavvIgMZBRakcqFehg.jpg", 
+                            "suffix": "/zl5MdtOKbsRh5gCGwTXl9RbH9Zek9Qg_9ikLBKZ531E.jpg", 
+                            "width": 540, 
+                            "visibility": "public", 
+                            "height": 540, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/iphone", 
+                                "name": "foursquare for iPhone"
+                            }, 
+                            "prefix": "https://irs1.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "V.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/FYRQC2CFFIOR1C2Y.jpg"
+                                }, 
+                                "id": "3250820", 
+                                "firstName": "JoJo", 
+                                "gender": "female"
+                            }, 
+                            "id": "4f68aa3ee4b0197770529454", 
+                            "createdAt": 1332259390
+                        }, 
+                        {
+                            "suffix": "/9DKFdUNrIszHuc4eu1SZngie-2TAIHDaihWlKcum-r8.jpg", 
                             "width": 612, 
                             "visibility": "public", 
                             "height": 612, 
@@ -1154,7 +1178,7 @@
                                 "url": "http://instagram.com", 
                                 "name": "Instagram"
                             }, 
-                            "prefix": "https://irs3.4sqi.net/img/general/", 
+                            "prefix": "https://irs2.4sqi.net/img/general/", 
                             "user": {
                                 "lastName": "P.", 
                                 "photo": {
@@ -1165,8 +1189,8 @@
                                 "firstName": "Jeffrey", 
                                 "gender": "male"
                             }, 
-                            "id": "4feccb42e4b0d8a9362bf12c", 
-                            "createdAt": 1340918594
+                            "id": "4faaed49e4b08190cbed1386", 
+                            "createdAt": 1336601929
                         }
                     ], 
                     "type": "venue", 
@@ -1179,8 +1203,8 @@
         }, 
         "stats": {
             "tipCount": 21, 
-            "checkinsCount": 14903, 
-            "usersCount": 2036
+            "checkinsCount": 15234, 
+            "usersCount": 2106
         }, 
         "dislike": false, 
         "categories": [
@@ -1239,13 +1263,13 @@
                     "entities": [
                         {
                             "indices": [
-                                25, 
-                                33
+                                23, 
+                                31
                             ], 
                             "type": "keyPhrase"
                         }
                     ], 
-                    "text": "... salad station in the basement. It's amazingly fresh and delicious and the..."
+                    "text": "... a microwave in the basement (they got rid of the one in the cafe)."
                 }, 
                 "phrase": "basement", 
                 "count": 2
@@ -1259,7 +1283,6 @@
             "twitter": "teacherscollege"
         }, 
         "popular": {
-            "status": "Likely open", 
             "timeframes": [
                 {
                     "segments": [], 
@@ -1326,7 +1349,7 @@
                     "days": "Wed"
                 }
             ], 
-            "isOpen": true
+            "isOpen": false
         }, 
         "timeZone": "America/New_York"
     }

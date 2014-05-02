@@ -27,7 +27,7 @@
             "summary": "1 like"
         }, 
         "mayor": {
-            "count": 7, 
+            "count": 15, 
             "user": {
                 "gender": "male", 
                 "id": "30248362", 
@@ -107,6 +107,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4b7d9ea870c603bbf68992b4", 
                             "text": "one of the best libraries to study on campus :)", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 5, 
@@ -139,6 +140,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/505b6770e4b0df44126b9e35", 
                             "text": "Just because you're on the collaboration floor does NOT mean that talking on the phone at 10000 decibels and cursing every other word is acceptable! Be courteous!", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 2, 
@@ -190,6 +192,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/50d0ac2ce4b0c73513187154", 
                             "text": "Printing can be a hassle, but you can use printatcu.com to print from your computer. You still have to wait in line, but at least you don't have to wait for a computer too!", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 1, 
@@ -231,6 +234,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/508754a9e4b0b6701dceea1d", 
                             "text": "Third Floor: the red couches are comfier than the floral ones.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 1, 
@@ -274,6 +278,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/506355ece4b0b148e8040fac", 
                             "text": "First floor, always long queue for printing. Second floor, good for group study. Third floor, dead silence.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -299,6 +304,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4f3b6173e4b05966f5929ca5", 
                             "text": "The open seats on the 2nd floor collaborative space are likely not by an outlet. Choose wisely if you need power.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -323,6 +329,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4e6cfad61f6e84ca4c9d671d", 
                             "text": "Be considerate with other students and by yourself a decent earphone. We don't have to listen the music you are listening to!", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -348,6 +355,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4dbae0446e815ab0de5c8439", 
                             "text": "Don't steal the black chairs from the computer desks!", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -542,8 +550,8 @@
         }, 
         "stats": {
             "tipCount": 8, 
-            "checkinsCount": 1653, 
-            "usersCount": 216
+            "checkinsCount": 1676, 
+            "usersCount": 218
         }, 
         "dislike": false, 
         "categories": [
@@ -616,7 +624,6 @@
         }, 
         "contact": {}, 
         "popular": {
-            "status": "Likely open", 
             "timeframes": [
                 {
                     "segments": [], 
@@ -632,10 +639,7 @@
                     "segments": [], 
                     "open": [
                         {
-                            "renderedTime": "8:00 AM\u20139:00 AM"
-                        }, 
-                        {
-                            "renderedTime": "11:00 AM\u20135:00 PM"
+                            "renderedTime": "8:00 AM\u20135:00 PM"
                         }
                     ], 
                     "days": "Fri"
@@ -653,7 +657,7 @@
                     "segments": [], 
                     "open": [
                         {
-                            "renderedTime": "10:00 AM\u20137:00 PM"
+                            "renderedTime": "10:00 AM\u20138:00 PM"
                         }
                     ], 
                     "days": "Sun"
@@ -680,7 +684,7 @@
                     "days": "Tue\u2013Wed"
                 }
             ], 
-            "isOpen": true
+            "isOpen": false
         }, 
         "timeZone": "America/New_York"
     }

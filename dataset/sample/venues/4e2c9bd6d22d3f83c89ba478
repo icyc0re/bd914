@@ -1,0 +1,156 @@
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 30, 
+            "user": {
+                "lastName": "W.", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/CYJQV330CHGGHDLF.jpg"
+                }, 
+                "id": "12707355", 
+                "firstName": "James", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1311546326, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4e2c9bd6d22d3f83c89ba478", 
+        "shortUrl": "http://4sq.com/p7EwiG", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/4fadd4fde4b07f15ce95fbc5", 
+                            "text": "This place has the best tossed salad.", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 1, 
+                                "groups": [
+                                    {
+                                        "count": 1, 
+                                        "items": [], 
+                                        "type": "others"
+                                    }
+                                ], 
+                                "summary": "1 like"
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "4fadd4fde4b07f15ce95fbc5", 
+                            "createdAt": 1336792317, 
+                            "user": {
+                                "lastName": "C.", 
+                                "photo": {
+                                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                                    "suffix": "/4702089-USN1YVGVE1AKQYWC.jpg"
+                                }, 
+                                "id": "4702089", 
+                                "firstName": "Rich", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Chapel Hill", 
+            "isFuzzed": true, 
+            "cc": "US", 
+            "country": "United States", 
+            "state": "NC", 
+            "lat": 35.90138518695383, 
+            "lng": -78.97972709012171
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/house-of-ham/4e2c9bd6d22d3f83c89ba478", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 58, 
+            "usersCount": 11
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Homes (private)", 
+                "primary": true, 
+                "name": "Home (private)", 
+                "shortName": "Home", 
+                "id": "4bf58dd8d48988d103941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "House of Ham", 
+        "phrases": [
+            {
+                "sample": {
+                    "entities": [
+                        {
+                            "indices": [
+                                24, 
+                                30
+                            ], 
+                            "type": "keyPhrase"
+                        }
+                    ], 
+                    "text": "This place has the best tossed salad."
+                }, 
+                "phrase": "tossed", 
+                "count": 1
+            }
+        ], 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

@@ -9,7 +9,7 @@
             "groups": []
         }, 
         "mayor": {
-            "count": 15, 
+            "count": 14, 
             "user": {
                 "lastName": "H.", 
                 "photo": {
@@ -145,7 +145,7 @@
         }, 
         "stats": {
             "tipCount": 0, 
-            "checkinsCount": 262, 
+            "checkinsCount": 266, 
             "usersCount": 37
         }, 
         "dislike": false, 
@@ -169,7 +169,6 @@
         }, 
         "contact": {}, 
         "popular": {
-            "status": "Likely open", 
             "timeframes": [
                 {
                     "segments": [], 
@@ -245,7 +244,7 @@
                     "days": "Wed"
                 }
             ], 
-            "isOpen": true
+            "isOpen": false
         }, 
         "timeZone": "America/New_York"
     }

@@ -1,0 +1,173 @@
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 1, 
+            "user": {
+                "lastName": "G.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/EI5S1UWJ020QJS24.jpg"
+                }, 
+                "id": "518291", 
+                "firstName": "Robbie", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1274527936, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4bf7c0c04a67c928931924cf", 
+        "shortUrl": "http://4sq.com/ac03qu", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/52e66818498ede63f2877ebf", 
+                            "text": "Ice riding!!", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "52e66818498ede63f2877ebf", 
+                            "createdAt": 1390831640, 
+                            "user": {
+                                "lastName": "W.", 
+                                "photo": {
+                                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                                    "suffix": "/343407-13IYEVNC4RONI045.jpg"
+                                }, 
+                                "id": "343407", 
+                                "firstName": "Darrin", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Monticello", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "12701", 
+            "state": "NY", 
+            "address": "371 Starlight Road", 
+            "lat": 41.632419603142935, 
+            "lng": -74.78291033198663
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/swinging-bridge-marina/4bf7c0c04a67c928931924cf", 
+        "tags": [], 
+        "photos": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "suffix": "/343407_RbYR7olY3mzXQcg2mbG1f1GqxBF7q54YBahr_9MKD_4.jpg", 
+                            "width": 960, 
+                            "visibility": "public", 
+                            "height": 960, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
+                            }, 
+                            "prefix": "https://irs2.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "W.", 
+                                "photo": {
+                                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                                    "suffix": "/343407-13IYEVNC4RONI045.jpg"
+                                }, 
+                                "id": "343407", 
+                                "firstName": "Darrin", 
+                                "gender": "male"
+                            }, 
+                            "id": "52e6689611d27df8d0e89431", 
+                            "createdAt": 1390831766
+                        }
+                    ], 
+                    "type": "venue", 
+                    "name": "Venue photos"
+                }
+            ]
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 120, 
+            "usersCount": 36
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Harbors / Marinas", 
+                "primary": true, 
+                "name": "Harbor / Marina", 
+                "shortName": "Harbor / Marina", 
+                "id": "4bf58dd8d48988d1e0941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/harbor_", 
+                    "suffix": ".png"
+                }
+            }, 
+            {
+                "shortName": "Lake", 
+                "pluralName": "Lakes", 
+                "id": "4bf58dd8d48988d161941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/lake_", 
+                    "suffix": ".png"
+                }, 
+                "name": "Lake"
+            }
+        ], 
+        "name": "Swinging Bridge Marina", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

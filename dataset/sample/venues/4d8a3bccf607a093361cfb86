@@ -9,7 +9,7 @@
             "groups": []
         }, 
         "mayor": {
-            "count": 15, 
+            "count": 16, 
             "user": {
                 "lastName": "K.", 
                 "photo": {
@@ -55,6 +55,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/51642c96e4b02cfd24fdfdee", 
                             "text": "get the breakfast sandwich + oatmeal or yogurt + juice or coffee + fruit for only $4.50", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 1, 
@@ -98,6 +99,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4f747723e4b00a080deead82", 
                             "text": "Yummy breakfast sandwiches.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 1, 
@@ -129,6 +131,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4f747772e4b0da86fd3e28df", 
                             "text": "Breakfast I served until 11:30 and it's a good deal. Breakfast sandwich or French toast with yogurt or oatmeal and fresh fruit and coffee and juice all for $4.50", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -153,6 +156,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4f4291b2e4b080aa7a7ea7d0", 
                             "text": "The carrot ginger soup is actually quite good and super cheap!", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -177,6 +181,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4f32c577e4b0ef2eb7e12b63", 
                             "text": "They run out of the good stuff quickly so get there early if you can.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -257,8 +262,8 @@
         }, 
         "stats": {
             "tipCount": 5, 
-            "checkinsCount": 291, 
-            "usersCount": 67
+            "checkinsCount": 295, 
+            "usersCount": 69
         }, 
         "dislike": false, 
         "categories": [
@@ -287,7 +292,7 @@
                             "type": "keyPhrase"
                         }
                     ], 
-                    "text": "... toast with yogurt or oatmeal and fresh fruit and coffee and juice all..."
+                    "text": "... breakfast sandwich + oatmeal or yogurt + juice or coffee + fruit for..."
                 }, 
                 "phrase": "oatmeal", 
                 "count": 2
@@ -297,13 +302,13 @@
                     "entities": [
                         {
                             "indices": [
-                                8, 
-                                26
+                                26, 
+                                44
                             ], 
                             "type": "keyPhrase"
                         }
                     ], 
-                    "text": "get the breakfast sandwich + oatmeal or yogurt + juice or coffee +..."
+                    "text": "... and it's a good deal. Breakfast sandwich or French toast with yogurt or oatmeal and..."
                 }, 
                 "phrase": "breakfast sandwich", 
                 "count": 2
@@ -313,13 +318,13 @@
                     "entities": [
                         {
                             "indices": [
-                                25, 
-                                31
+                                26, 
+                                32
                             ], 
                             "type": "keyPhrase"
                         }
                     ], 
-                    "text": "... or French toast with yogurt or oatmeal and fresh fruit and coffee and..."
+                    "text": "... sandwich + oatmeal or yogurt + juice or coffee + fruit for only $4.50"
                 }, 
                 "phrase": "yogurt", 
                 "count": 2
@@ -331,7 +336,6 @@
         }, 
         "contact": {}, 
         "popular": {
-            "status": "Likely open", 
             "timeframes": [
                 {
                     "segments": [], 
@@ -398,7 +402,7 @@
                     "days": "Wed"
                 }
             ], 
-            "isOpen": true
+            "isOpen": false
         }, 
         "timeZone": "America/New_York"
     }

@@ -37,15 +37,15 @@
             "summary": "2 likes"
         }, 
         "mayor": {
-            "count": 19, 
+            "count": 17, 
             "user": {
                 "lastName": "K.", 
                 "photo": {
-                    "prefix": "https://irs1.4sqi.net/img/user/", 
-                    "suffix": "/IF52DBB3YVI00DN1.jpg"
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/10496902-RIVV0OIJPPILXEI5.jpg"
                 }, 
-                "id": "64258401", 
-                "firstName": "Ren\u00e9e", 
+                "id": "10496902", 
+                "firstName": "Jessi", 
                 "gender": "female"
             }
         }, 
@@ -119,6 +119,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4f4e80c6e4b0f92025e002a3", 
                             "text": "When in doubt, avoid the tunnels. You may never make it out alive.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 4, 
@@ -172,6 +173,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4f282bdfe4b0c67a18c9f0d8", 
                             "text": "The stairs are uneven due to years of use. Watch your step!", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 3, 
@@ -224,6 +226,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4c94071bf7cfa1cd6d13b015", 
                             "text": "Don't bother taking the elevator. It's really slow and the stairs aren't too terrible (just slippery).", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 2, 
@@ -271,11 +274,34 @@
         "canonicalUrl": "https://foursquare.com/v/milbank-hall--barnard/4b705bcaf964a5200d152de3", 
         "tags": [], 
         "photos": {
-            "count": 11, 
+            "count": 12, 
             "groups": [
                 {
-                    "count": 11, 
+                    "count": 12, 
                     "items": [
+                        {
+                            "suffix": "/2235363_u7ac4RfsmRrLr4GCJ33ZsVIlnRghBYCTWHPSKY6iDiU.jpg", 
+                            "width": 640, 
+                            "visibility": "public", 
+                            "height": 640, 
+                            "source": {
+                                "url": "http://instagram.com", 
+                                "name": "Instagram"
+                            }, 
+                            "prefix": "https://irs2.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "J.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/0W1NTK0WZBGNIPRY.jpg"
+                                }, 
+                                "id": "2235363", 
+                                "firstName": "Fei", 
+                                "gender": "female"
+                            }, 
+                            "id": "533b420e498e7a8a64855bd1", 
+                            "createdAt": 1396392462
+                        }, 
                         {
                             "suffix": "/S43_F-NboLIWBwALYhX-yMc7_xIRaIoJINduyUJjrIs.jpg", 
                             "width": 720, 
@@ -389,29 +415,6 @@
                             }, 
                             "id": "51630783e4b00e962fc6bb2f", 
                             "createdAt": 1365444483
-                        }, 
-                        {
-                            "suffix": "/31428618_P6BQ8_PttG_zr3eLSC6x_eMcVPbGMb4vUuyI1sXcCKM.jpg", 
-                            "width": 717, 
-                            "visibility": "public", 
-                            "height": 959, 
-                            "source": {
-                                "url": "https://foursquare.com/download/#/iphone", 
-                                "name": "foursquare for iPhone"
-                            }, 
-                            "prefix": "https://irs3.4sqi.net/img/general/", 
-                            "user": {
-                                "lastName": "Y.", 
-                                "photo": {
-                                    "prefix": "https://irs3.4sqi.net/img/user/", 
-                                    "suffix": "/31428618-NUPZXYINONILFXT5.jpg"
-                                }, 
-                                "id": "31428618", 
-                                "firstName": "Ah Young", 
-                                "gender": "female"
-                            }, 
-                            "id": "52448d53498e633427a86ddb", 
-                            "createdAt": 1380224339
                         }
                     ], 
                     "type": "venue", 
@@ -424,8 +427,8 @@
         }, 
         "stats": {
             "tipCount": 3, 
-            "checkinsCount": 2909, 
-            "usersCount": 380
+            "checkinsCount": 2954, 
+            "usersCount": 385
         }, 
         "dislike": false, 
         "categories": [
@@ -486,7 +489,6 @@
         }, 
         "contact": {}, 
         "popular": {
-            "status": "Likely open", 
             "timeframes": [
                 {
                     "segments": [], 
@@ -520,10 +522,19 @@
                     "segments": [], 
                     "open": [
                         {
+                            "renderedTime": "8:00 AM\u20136:00 PM"
+                        }
+                    ], 
+                    "days": "Mon"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
                             "renderedTime": "7:00 AM\u20136:00 PM"
                         }
                     ], 
-                    "days": "Mon\u2013Tue"
+                    "days": "Tue"
                 }, 
                 {
                     "segments": [], 
@@ -535,7 +546,7 @@
                     "days": "Wed"
                 }
             ], 
-            "isOpen": true
+            "isOpen": false
         }, 
         "timeZone": "America/New_York"
     }

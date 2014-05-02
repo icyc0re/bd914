@@ -1,23 +1,17 @@
 package input
 
 import scala.util.parsing.json.JSON
-import collection.JavaConversions._
 import scala.collection.mutable.ListBuffer
 import vectors.UserVector
 import utils.Cons
-import features.DoubleFeature
-import features.GenderFeature
-import features.TextFeature
+import features.{CategoryFeature, TextFeature, DoubleFeature, CoordinatesFeature}
 
 //import java.nio.file.Files
 //import java.nio.file.Paths
 
 import vectors.VenueVector
-import filtering.MockVectorSimilarity
-import scala.collection.mutable.HashSet
-import features.CoordinatesFeature
 
-case class Checkins(count: Double)
+case class CheckinsCount(count: Double)
 
 case class Contact(twitter: Option[String], facebook: Option[String], phone: Option[String], email: Option[String])
 
@@ -32,7 +26,7 @@ object Gender extends Enumeration {
 
 case class GPSCoordinates(lat: Double, lon: Double)
 
-class User(jsonString: String) {
+class User(jsonString: String){
 
   import Gender._
 
@@ -48,7 +42,7 @@ class User(jsonString: String) {
 
   //checkins count
   private val _checkins: Map[String, Any] = user("checkins").asInstanceOf[Map[String, Any]]
-  val checkins = Checkins(_checkins("count").asInstanceOf[Double])
+  val checkinsCount = CheckinsCount(_checkins("count").asInstanceOf[Double])
 
   //social networks
   private val _contact: Map[String, String] = user("contact").asInstanceOf[Map[String, String]]
@@ -72,6 +66,7 @@ class User(jsonString: String) {
   val tips = Interactions(_tips("count").asInstanceOf[Double], readInteractions("tips"))
   //all interactions
   val interactions = Interactions(mayorships.count + photos.count + tips.count, mayorships.items ++ photos.items ++ tips.items)
+
 
   groups.foreach(group => {
     val grp: Map[String, Any] = group.asInstanceOf[Map[String, Any]]
@@ -107,7 +102,7 @@ class User(jsonString: String) {
    */
   def readInteractions(interaction_type: String): List[String] = {
     //TODO: change absolute path
-    val interaction_path: String = "../dataset/sample/users/" + interaction_type + "/" + id
+    val interaction_path: String = Cons.USERS_PATH + interaction_type + "/" + id
     //check that interaction exists
     if (!new java.io.File(interaction_path).exists)
       return List.empty
@@ -130,61 +125,94 @@ class User(jsonString: String) {
   }
 
 
+  /**
+   * compute the average of gps coordinates of the user interactions
+   * @return average of gps coordinates of the user interactions
+   */
   def getGPSCenter: (Double, Double) = {
     var lat: Double = 0
     var lng: Double = 0
 
+    def isInNY(venueLat: Double, venueLng: Double): Boolean = {
+      ((Cons.NY_AREA("s") <= venueLat && venueLat <= Cons.NY_AREA("n")) &&
+        (Cons.NY_AREA("w") <= venueLng && venueLng <= Cons.NY_AREA("e")))
+    }
+
+    var countNotInNY = 0
     for (interaction <- interactions.items) {
-      //get venue gps location
-      val (venueLat, venueLng) = VenueVector.getById(interaction).getFeatureValue[CoordinatesFeature](Cons.GPS_COORDINATES)
-      lat += venueLat
-      lng += venueLng
+      VenueVector.getById(interaction) match {
+        case x if x != null =>
+          //get venue gps location, check it is in NY area
+          val (venueLat, venueLng) = x.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get
+          if (isInNY(venueLat, venueLng)) {
+            lat += venueLat
+            lng += venueLng
+          } else {
+        	  countNotInNY += 1
+            //println("not in NY - "+interaction+": " + venueLat + " " + venueLng)
+          }
+        case null => // ignore this one
+      }
     }
+    
+    println("user "+id+" has "+countNotInNY+" not in NY")
 
-    (lat / interactions.count, lng / interactions.count)
+    if (interactions.count == 0) (40.7056308, -73.9780035)
+    else (lat / interactions.count, lng / interactions.count)
   }
 
-  def getTopKVenues(k: Int, allVenueVectors: Seq[VenueVector]): Seq[String] = {
-
-    // TODO fix this
-    val userVenueVectors: Seq[VenueVector] = allVenueVectors.filter(x => interactions.items.contains(x.getFeatureValue(Cons.VENUE_ID).get))
-
-    val userVector: UserVector = User.featureVector(this)
-    userVector.applyVenues(userVenueVectors.toSeq)
-
-    val similarities: Seq[Double] = MockVectorSimilarity.calculateSimilarity(userVector, allVenueVectors)
-
-    val seq = (userVenueVectors).zip(similarities)
-
-    val sortedSeq: Seq[(VenueVector, Double)] = seq.sortWith((e1, e2) => (e1._2 compareTo e2._2) < 0)
-
-    val topKVenueVectors: Seq[String] = sortedSeq.splitAt(k)._1.collect {
-      case (x: (VenueVector, Double)) => x._1.getFeatureValue(Cons.VENUE_ID).get
-    }
-
-    return topKVenueVectors
-  }
+  //  def getTopKVenues(k: Int, allVenueVectors: Seq[VenueVector]): Seq[String] = {
+  //
+  //    // TODO fix this
+  //    val userVenueVectors: Seq[VenueVector] = allVenueVectors.filter(x => interactions.items.contains(x.getFeatureValue[String](Cons.VENUE_ID).get))
+  //
+  //    val userVector: UserVector = UserVector.getById(id);
+  //    userVector.applyVenues(userVenueVectors.toSeq)
+  //    val similarities: Seq[Double] = MockVectorSimilarity.calculateSimilarity(userVector, allVenueVectors)
+  //
+  //    val seq = (userVenueVectors).zip(similarities)
+  //
+  //    val sortedSeq: Seq[(VenueVector, Double)] = seq.sortWith((e1, e2) => (e1._2 compareTo e2._2) < 0)
+  //
+  //    val topKVenueVectors: Seq[String] = sortedSeq.splitAt(k)._1.collect {
+  //      case (x: (VenueVector, Double)) => x._1.getFeatureValue(Cons.VENUE_ID).get
+  //    }
+  //
+  //    return topKVenueVectors
+  //  }
 
   /**
    * @return return a list of all the categories associated to all the venues the user interacted with
    */
-  def getCategoriesList() : Set[String] = {
-    var categoriesList: ListBuffer[String] = new ListBuffer[String]
-    for(venueId <- interactions.items) {
-      categoriesList += VenueVector.getById(venueId).getFeatureValue[VenueCategory](Cons.CATEGORY).get.name
+  def getCategoriesList: Seq[String] = {
+    var categoriesList: Seq[String] = Nil
+    for (venueId <- interactions.items) {
+      VenueVector.getById(venueId) match {
+        case null => //
+        case t => t.getFeatureValue[Seq[String]](Cons.CATEGORY) match {
+          case Some(x:Seq[String]) => categoriesList = categoriesList ++ x
+          case None => //""
+        }
+      }
     }
-    //categoriesList.flatten.toList
-    categoriesList.toSet
+    categoriesList
   }
 
 }
 
 object User {
+  /**
+   * Parse all files in a directory
+   * @param dirName path to the directory
+   * @return collection of vectors
+   */
+
   def featureVector(u: User): UserVector = {
     val features = List(
       TextFeature(Cons.USER_ID, u.id),
-      CoordinatesFeature(Cons.GPS_COORDINATES, u.getGPSCenter()),
-      DoubleFeature(Cons.POPULARITY, compute_popularity(u.friends.count, u.interactions.count))
+      CoordinatesFeature(Cons.GPS_COORDINATES, u.getGPSCenter),
+      DoubleFeature(Cons.POPULARITY, compute_popularity(u.friends.count, u.interactions.count)),
+      CategoryFeature(Cons.CATEGORY, u.getCategoriesList)
       //TODO: use different weights for the different types of interactions
     )
     new UserVector(features, null)

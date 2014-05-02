@@ -9,28 +9,34 @@
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}style/reset.css" />
 	<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}style/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}scripts/jquery-ui-1.10.4.custom/css/redmond/jquery-ui-1.10.4.custom.min.css" />
+	<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}style/style.css" />
 
 	<!-- scripts -->
 	<script src="{{STATIC_URL}}scripts/jquery.min.js"></script>
+	<script src="{{STATIC_URL}}scripts/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
+	<script src="{{STATIC_URL}}scripts/scripts.js"></script>
 
 {% block head %}
 {% endblock %}
 </head>
 
 <body>
-	<header>
-	{% block header %}
-	{% endblock %}
+	<header id="header">
+	<!-- {% block header %}
+	{% endblock %} -->
+		<h1>4Square Recommender</h1>
 	</header>
 	
-	<section>
+	<section id="content-wrap">
 	{% block content %}
 	{% endblock %}
 	</section>
 
-	<footer>
-		{% block footer %}
-		{% endblock %}
+	<footer id="footer">
+		<img src="{{STATIC_URL}}img/epfl.jpg" alt="Ecole Polytechnique Federale Lausanne">
+		<!-- {% block footer %}
+		{% endblock %} -->
 	</footer>
 </body>
 

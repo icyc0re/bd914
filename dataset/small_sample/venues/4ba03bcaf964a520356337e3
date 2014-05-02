@@ -1,0 +1,185 @@
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lastName": "Ongkodjojo", 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/4624004-U3M1RDINASHSYRM3.jpg"
+                            }, 
+                            "id": "4624004", 
+                            "firstName": "Hendy", 
+                            "gender": "male"
+                        }
+                    ], 
+                    "type": "others"
+                }
+            ], 
+            "summary": "1 like"
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "lastName": "Ongkodjojo", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/4624004-U3M1RDINASHSYRM3.jpg"
+                }, 
+                "id": "4624004", 
+                "firstName": "Hendy", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1268792266, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4ba03bcaf964a520356337e3", 
+        "shortUrl": "http://4sq.com/9M6eAd", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/4ba03c2470c603bbdca894b4", 
+                            "text": "The steak sandwiches are excellent, and only $7 including a can of softdrink", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "4ba03c2470c603bbdca894b4", 
+                            "createdAt": 1268792356, 
+                            "user": {
+                                "lastName": "Churchward", 
+                                "photo": {
+                                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                                    "suffix": "/CKXBHYN4KHHHPW4P.jpg"
+                                }, 
+                                "id": "231863", 
+                                "firstName": "Nathan", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Rhodes", 
+            "cc": "AU", 
+            "country": "Australia", 
+            "postalCode": "2138", 
+            "state": "NSW", 
+            "crossStreet": "at Australand Corporate Park", 
+            "address": "1 Homebush Bay Dr.", 
+            "lat": -33.834690710882526, 
+            "lng": 151.08756966812402
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/eroma-espresso-and-caf%C3%A9/4ba03bcaf964a520356337e3", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 27, 
+            "usersCount": 17
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Caf\u00e9s", 
+                "primary": true, 
+                "name": "Caf\u00e9", 
+                "shortName": "Caf\u00e9", 
+                "id": "4bf58dd8d48988d16d941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cafe_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Eroma Espresso and Caf\u00e9", 
+        "phrases": [
+            {
+                "sample": {
+                    "entities": [
+                        {
+                            "indices": [
+                                26, 
+                                35
+                            ], 
+                            "type": "keyPhrase"
+                        }
+                    ], 
+                    "text": "... $7 including a can of softdrink"
+                }, 
+                "phrase": "softdrink", 
+                "count": 1
+            }, 
+            {
+                "sample": {
+                    "entities": [
+                        {
+                            "indices": [
+                                4, 
+                                20
+                            ], 
+                            "type": "keyPhrase"
+                        }
+                    ], 
+                    "text": "The steak sandwiches are excellent, and only $7 including a can..."
+                }, 
+                "phrase": "steak sandwiches", 
+                "count": 1
+            }
+        ], 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "Australia/Sydney"
+    }
+}

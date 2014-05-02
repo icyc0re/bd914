@@ -1,0 +1,552 @@
+{
+    "venue": {
+        "rating": 6.64, 
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 2, 
+            "groups": [
+                {
+                    "count": 2, 
+                    "items": [
+                        {
+                            "lastName": "J.", 
+                            "photo": {
+                                "prefix": "https://irs2.4sqi.net/img/user/", 
+                                "suffix": "/NNN0TJJR4IQM2MFA.jpg"
+                            }, 
+                            "id": "31666", 
+                            "firstName": "Tim", 
+                            "gender": "male"
+                        }, 
+                        {
+                            "lastName": "G.", 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/O12KZ0NCB1J2H5FH.jpg"
+                            }, 
+                            "id": "1239604", 
+                            "firstName": "Jason", 
+                            "gender": "male"
+                        }
+                    ], 
+                    "type": "others"
+                }
+            ], 
+            "summary": "2 likes"
+        }, 
+        "mayor": {
+            "count": 3, 
+            "user": {
+                "lastName": "M.", 
+                "photo": {
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/P5AH3BFBQO5L2DUO.jpg"
+                }, 
+                "id": "56886093", 
+                "firstName": "Jeff", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1283974225, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4c87e451b2138cfa4f674d44", 
+        "shortUrl": "http://4sq.com/coPiHh", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 7, 
+            "groups": [
+                {
+                    "count": 7, 
+                    "items": [
+                        {
+                            "description": "i'll try to keep this updated with current galleries and shows in new york. i tend to check http://www.nyartbeat.com/ for what's currently on (they have a great app for iphone and android, too)", 
+                            "collaborative": false, 
+                            "url": "/itsmejon/list/fantastic-gallery-shows", 
+                            "photo": {
+                                "suffix": "/eVeJJvSCp_DiUc_NFahDGv36xo2XRVU4GSpu8k_AYGY.jpg", 
+                                "visibility": "public", 
+                                "height": 612, 
+                                "width": 612, 
+                                "prefix": "https://irs0.4sqi.net/img/general/", 
+                                "user": {
+                                    "lastName": "S.", 
+                                    "photo": {
+                                        "prefix": "https://irs1.4sqi.net/img/user/", 
+                                        "suffix": "/0EFPRIGHQXHM1SNQ.jpg"
+                                    }, 
+                                    "id": "84441", 
+                                    "firstName": "Jon", 
+                                    "gender": "male"
+                                }, 
+                                "id": "4f2dba3ce4b062ad2b64af1b", 
+                                "createdAt": 1328396860
+                            }, 
+                            "editable": false, 
+                            "listItems": {
+                                "count": 66, 
+                                "items": [
+                                    {
+                                        "photo": {
+                                            "suffix": "/BkDnHl_10X2tgq_ZBx0Q0M7Pll2mafwuaTYUAZI3LgM.jpg", 
+                                            "visibility": "public", 
+                                            "height": 540, 
+                                            "width": 720, 
+                                            "prefix": "https://irs0.4sqi.net/img/general/", 
+                                            "user": {
+                                                "lastName": "S.", 
+                                                "photo": {
+                                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                                    "suffix": "/0EFPRIGHQXHM1SNQ.jpg"
+                                                }, 
+                                                "id": "84441", 
+                                                "firstName": "Jon", 
+                                                "gender": "male"
+                                            }, 
+                                            "id": "4fd3aca5e4b008dc3609f349", 
+                                            "createdAt": 1339272357
+                                        }, 
+                                        "id": "v4c87e451b2138cfa4f674d44", 
+                                        "createdAt": 1339347450
+                                    }
+                                ]
+                            }, 
+                            "createdAt": 1328465619, 
+                            "public": true, 
+                            "entities": [
+                                {
+                                    "indices": [
+                                        92, 
+                                        117
+                                    ], 
+                                    "object": {
+                                        "url": "http://www.nyartbeat.com/"
+                                    }, 
+                                    "type": "url"
+                                }
+                            ], 
+                            "followers": {
+                                "count": 66
+                            }, 
+                            "user": {
+                                "lastName": "S.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/0EFPRIGHQXHM1SNQ.jpg"
+                                }, 
+                                "id": "84441", 
+                                "firstName": "Jon", 
+                                "gender": "male"
+                            }, 
+                            "updatedAt": 1372491074, 
+                            "type": "others", 
+                            "id": "4f2ec6d3e4b062ad2c68e033", 
+                            "canonicalUrl": "https://foursquare.com/itsmejon/list/fantastic-gallery-shows", 
+                            "name": "fantastic gallery shows"
+                        }, 
+                        {
+                            "description": "", 
+                            "collaborative": false, 
+                            "url": "/user/13070323/list/mpdchelsea", 
+                            "editable": false, 
+                            "listItems": {
+                                "count": 5, 
+                                "items": [
+                                    {
+                                        "id": "v4c87e451b2138cfa4f674d44", 
+                                        "createdAt": 1362861585
+                                    }
+                                ]
+                            }, 
+                            "createdAt": 1362847402, 
+                            "public": true, 
+                            "followers": {
+                                "count": 0
+                            }, 
+                            "user": {
+                                "lastName": "S.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/R530VP5LEIPGPT1X.jpg"
+                                }, 
+                                "id": "13070323", 
+                                "firstName": "Mo", 
+                                "gender": "male"
+                            }, 
+                            "updatedAt": 1397871649, 
+                            "type": "others", 
+                            "id": "513b66aae4b099af3b06d75b", 
+                            "canonicalUrl": "https://foursquare.com/user/13070323/list/mpdchelsea", 
+                            "name": "MPD/Chelsea"
+                        }, 
+                        {
+                            "description": "Galleries located at 529 West 20th Street | New York, NY 10011", 
+                            "collaborative": false, 
+                            "url": "/pudzisz/list/529-arts-building-galleries", 
+                            "photo": {
+                                "suffix": "/6rabQqM-ySJEToUE_80GQzRsc1hA_O2-UxazTxQkD_A.jpg", 
+                                "visibility": "public", 
+                                "height": 540, 
+                                "width": 720, 
+                                "prefix": "https://irs2.4sqi.net/img/general/", 
+                                "user": {
+                                    "lastName": "P.", 
+                                    "photo": {
+                                        "prefix": "https://irs2.4sqi.net/img/user/", 
+                                        "suffix": "/HAFR3AOFSLSVPMOC.jpg"
+                                    }, 
+                                    "id": "51930", 
+                                    "firstName": "Natalia", 
+                                    "gender": "female"
+                                }, 
+                                "id": "4f2afbe4e4b0b70f2b0ed5b4", 
+                                "createdAt": 1328217060
+                            }, 
+                            "editable": false, 
+                            "listItems": {
+                                "count": 17, 
+                                "items": [
+                                    {
+                                        "photo": {
+                                            "suffix": "/FsrT2XcyTySRCHFsG6Hl1tRSehgXCAHKGgmXWzAPKgw.jpg", 
+                                            "visibility": "public", 
+                                            "height": 512, 
+                                            "width": 365, 
+                                            "prefix": "https://irs0.4sqi.net/img/general/", 
+                                            "user": {
+                                                "gender": "male", 
+                                                "id": "458530", 
+                                                "firstName": "JeyofMyUberLife", 
+                                                "photo": {
+                                                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                                                    "suffix": "/244ZSWNUC0K4UCRQ.png"
+                                                }
+                                            }, 
+                                            "id": "4f591afce4b01aa76afcce1f", 
+                                            "createdAt": 1331239676
+                                        }, 
+                                        "id": "v4c87e451b2138cfa4f674d44", 
+                                        "createdAt": 1336226809
+                                    }
+                                ]
+                            }, 
+                            "createdAt": 1336226776, 
+                            "public": true, 
+                            "followers": {
+                                "count": 1
+                            }, 
+                            "user": {
+                                "lastName": "P.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/HAFR3AOFSLSVPMOC.jpg"
+                                }, 
+                                "id": "51930", 
+                                "firstName": "Natalia", 
+                                "gender": "female"
+                            }, 
+                            "updatedAt": 1349124734, 
+                            "type": "others", 
+                            "id": "4fa533d8e4b0ddd495f33447", 
+                            "canonicalUrl": "https://foursquare.com/pudzisz/list/529-arts-building-galleries", 
+                            "name": "529 Arts Building Galleries"
+                        }, 
+                        {
+                            "description": "", 
+                            "collaborative": false, 
+                            "url": "/andreahong/list/gallery-crawl", 
+                            "editable": false, 
+                            "listItems": {
+                                "count": 8, 
+                                "items": [
+                                    {
+                                        "id": "v4c87e451b2138cfa4f674d44", 
+                                        "createdAt": 1385271637
+                                    }
+                                ]
+                            }, 
+                            "createdAt": 1385271224, 
+                            "public": true, 
+                            "followers": {
+                                "count": 1
+                            }, 
+                            "user": {
+                                "lastName": "H.", 
+                                "photo": {
+                                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                                    "suffix": "/RDS0APCZOC3HS1PL.jpg"
+                                }, 
+                                "id": "501909", 
+                                "firstName": "Andrea", 
+                                "gender": "female"
+                            }, 
+                            "updatedAt": 1385271891, 
+                            "type": "others", 
+                            "id": "52918fb811d229912d24f560", 
+                            "canonicalUrl": "https://foursquare.com/andreahong/list/gallery-crawl", 
+                            "name": "Gallery crawl"
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/51b7a2f3498e8f000cc86945", 
+                            "text": "Excellent selection here. One of the best galleries in Chelsea", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "51b7a2f3498e8f000cc86945", 
+                            "createdAt": 1370989299, 
+                            "user": {
+                                "lastName": "G.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/O12KZ0NCB1J2H5FH.jpg"
+                                }, 
+                                "id": "1239604", 
+                                "firstName": "Jason", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10011", 
+            "state": "NY", 
+            "crossStreet": "btw 10th & 11th Ave", 
+            "address": "529 W 20th St, Fl 2", 
+            "lat": 40.74650917102644, 
+            "lng": -74.00706052780151
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/hpgrp-gallery/4c87e451b2138cfa4f674d44", 
+        "tags": [], 
+        "photos": {
+            "count": 29, 
+            "groups": [
+                {
+                    "count": 29, 
+                    "items": [
+                        {
+                            "suffix": "/BkDnHl_10X2tgq_ZBx0Q0M7Pll2mafwuaTYUAZI3LgM.jpg", 
+                            "width": 720, 
+                            "visibility": "public", 
+                            "height": 540, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/iphone", 
+                                "name": "foursquare for iPhone"
+                            }, 
+                            "prefix": "https://irs0.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "S.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/0EFPRIGHQXHM1SNQ.jpg"
+                                }, 
+                                "id": "84441", 
+                                "firstName": "Jon", 
+                                "gender": "male"
+                            }, 
+                            "id": "4fd3aca5e4b008dc3609f349", 
+                            "createdAt": 1339272357
+                        }, 
+                        {
+                            "suffix": "/4YsTXOUSoSooeYusWmf9dUecQz_NtnwK7GV10_O14DI.jpg", 
+                            "width": 720, 
+                            "visibility": "public", 
+                            "height": 540, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/iphone", 
+                                "name": "foursquare for iPhone"
+                            }, 
+                            "prefix": "https://irs1.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "S.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/0EFPRIGHQXHM1SNQ.jpg"
+                                }, 
+                                "id": "84441", 
+                                "firstName": "Jon", 
+                                "gender": "male"
+                            }, 
+                            "id": "4fd3acd6e4b0d43254d597f1", 
+                            "createdAt": 1339272406
+                        }, 
+                        {
+                            "suffix": "/T2niZyNpy2ql4aL3whP3b1qogsyVfdRf_TJ5XncbBVQ.jpg", 
+                            "width": 540, 
+                            "visibility": "public", 
+                            "height": 720, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/iphone", 
+                                "name": "foursquare for iPhone"
+                            }, 
+                            "prefix": "https://irs1.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "S.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/0EFPRIGHQXHM1SNQ.jpg"
+                                }, 
+                                "id": "84441", 
+                                "firstName": "Jon", 
+                                "gender": "male"
+                            }, 
+                            "id": "4fd3acbae4b002c9e81c7e24", 
+                            "createdAt": 1339272378
+                        }, 
+                        {
+                            "suffix": "/31666_2yRBwq1EKVGm-pm2QowEZbiQmXzTK3ynW1CKHJ1RFDY.jpg", 
+                            "width": 640, 
+                            "visibility": "public", 
+                            "height": 640, 
+                            "source": {
+                                "url": "http://instagram.com", 
+                                "name": "Instagram"
+                            }, 
+                            "prefix": "https://irs2.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "J.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/NNN0TJJR4IQM2MFA.jpg"
+                                }, 
+                                "id": "31666", 
+                                "firstName": "Tim", 
+                                "gender": "male"
+                            }, 
+                            "id": "529a372c11d2d131a9aa6993", 
+                            "createdAt": 1385838380
+                        }, 
+                        {
+                            "suffix": "/84441_uuJLksk-tnpz76bF5S0iCnHvMwES3esW2dq2bzV1y_k.jpg", 
+                            "width": 960, 
+                            "visibility": "public", 
+                            "height": 720, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/iphone", 
+                                "name": "foursquare for iPhone"
+                            }, 
+                            "prefix": "https://irs3.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "S.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/0EFPRIGHQXHM1SNQ.jpg"
+                                }, 
+                                "id": "84441", 
+                                "firstName": "Jon", 
+                                "gender": "male"
+                            }, 
+                            "id": "51f41ccc498efa586855746d", 
+                            "createdAt": 1374952652
+                        }, 
+                        {
+                            "suffix": "/77027_0diCQc-7T1u1_TllZ9uSpfSZWZakgTmuDJLowK1pbOE.jpg", 
+                            "width": 612, 
+                            "visibility": "public", 
+                            "height": 612, 
+                            "source": {
+                                "url": "http://instagram.com", 
+                                "name": "Instagram"
+                            }, 
+                            "prefix": "https://irs3.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "W.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/77027_1258612331064.jpg"
+                                }, 
+                                "id": "77027", 
+                                "firstName": "Greg", 
+                                "gender": "male"
+                            }, 
+                            "id": "513b99a6e4b0fce93c1ca7b5", 
+                            "createdAt": 1362860454
+                        }
+                    ], 
+                    "type": "venue", 
+                    "name": "Venue photos"
+                }
+            ]
+        }, 
+        "attributes": {
+            "groups": [
+                {
+                    "count": 6, 
+                    "items": [
+                        {
+                            "displayValue": "Yes", 
+                            "displayName": "Credit Cards"
+                        }
+                    ], 
+                    "type": "payments", 
+                    "name": "Credit Cards", 
+                    "summary": "Credit Cards"
+                }
+            ]
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 146, 
+            "usersCount": 110
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Art Galleries", 
+                "primary": true, 
+                "name": "Art Gallery", 
+                "shortName": "Art Gallery", 
+                "id": "4bf58dd8d48988d1e2931735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/artgallery_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Hpgrp Gallery", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {
+            "phone": "2127272491", 
+            "formattedPhone": "(212) 727-2491"
+        }, 
+        "timeZone": "America/New_York"
+    }
+}

@@ -1,0 +1,71 @@
+*:focus {
+	outline: 0;
+}
+
+body {
+	color: #47677a;
+	font-weight: bold;
+	text-align: center;
+}
+	#header {
+		text-align: left;
+		padding: 12px 0;
+		background: #47677a;
+	}
+		#header h1 {
+			color: white;
+			font-weight: bold;
+			width: 980px;
+			margin: 0 auto;
+		}
+
+	#content-wrap {
+		text-align: left;
+		width: 980px;
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+
+	#footer {
+		margin-top: 20px;
+	}
+
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 8px 0;
+}
+
+button {
+	border: 0 none;
+}
+.button {
+	display: block;
+	float: left;
+	color: #47677a;
+	font-weight: bold;
+	text-align: center;
+	margin: 4px 4px 0 0;
+	padding: 4px 12px;
+	border-radius: 4px;
+	background: #dae6ee;
+}
+.button.light {
+	background: none;
+}
+.button:hover {
+	color: white;
+	text-decoration: none;
+	background: #47677a;
+}
+.button.light:hover {
+	color: #47677a;
+	background: #f0f9ff;	
+}
+
+.time-select {
+	
+}
+	.time-select input {
+		width: 20px;
+	}

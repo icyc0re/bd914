@@ -1,0 +1,200 @@
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lastName": "T.", 
+                            "photo": {
+                                "prefix": "https://irs1.4sqi.net/img/user/", 
+                                "suffix": "/SL1OE5PBBIXYOLH0.jpg"
+                            }, 
+                            "id": "53593960", 
+                            "firstName": "Emma", 
+                            "gender": "female"
+                        }
+                    ], 
+                    "type": "others"
+                }
+            ], 
+            "summary": "1 like"
+        }, 
+        "mayor": {
+            "count": 28, 
+            "user": {
+                "lastName": "P.", 
+                "photo": {
+                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                    "suffix": "/EXFX55IAYMTTBUCT.jpg"
+                }, 
+                "id": "523398", 
+                "firstName": "Brian", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1309880082, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4e132f12d4c07597ff8fc746", 
+        "shortUrl": "http://4sq.com/iSOrfv", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10065", 
+            "state": "NY", 
+            "lat": 40.770581713950826, 
+            "lng": -73.94999140653645
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/509-east-78th-street/4e132f12d4c07597ff8fc746", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 0, 
+            "checkinsCount": 478, 
+            "usersCount": 25
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Residential Buildings (Apartments / Condos)", 
+                "primary": true, 
+                "name": "Residential Building (Apartment / Condo)", 
+                "shortName": "Residential", 
+                "id": "4d954b06a243a5684965b473", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/apartment_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "509 East 78th Street", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "popular": {
+            "timeframes": [
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "6:00 AM\u20138:00 AM"
+                        }, 
+                        {
+                            "renderedTime": "7:00 PM\u201311:00 PM"
+                        }
+                    ], 
+                    "days": "Today", 
+                    "includesToday": true
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "6:00 AM\u20138:00 AM"
+                        }, 
+                        {
+                            "renderedTime": "8:00 PM\u2013Midnight"
+                        }
+                    ], 
+                    "days": "Fri"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "8:00 AM\u20131:00 PM"
+                        }, 
+                        {
+                            "renderedTime": "5:00 PM\u20136:00 PM"
+                        }
+                    ], 
+                    "days": "Sat"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "8:00 AM\u201311:00 AM"
+                        }, 
+                        {
+                            "renderedTime": "3:00 PM\u201310:00 PM"
+                        }
+                    ], 
+                    "days": "Sun"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "7:00 AM\u20139:00 AM"
+                        }, 
+                        {
+                            "renderedTime": "8:00 PM\u201311:00 PM"
+                        }
+                    ], 
+                    "days": "Mon\u2013Tue"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "7:00 AM\u20138:00 AM"
+                        }, 
+                        {
+                            "renderedTime": "8:00 PM\u201311:00 PM"
+                        }
+                    ], 
+                    "days": "Wed"
+                }
+            ], 
+            "isOpen": false
+        }, 
+        "timeZone": "America/New_York"
+    }
+}

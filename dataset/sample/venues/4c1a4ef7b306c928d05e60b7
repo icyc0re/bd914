@@ -1,0 +1,232 @@
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 4, 
+            "user": {
+                "lastName": "G.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/EI5S1UWJ020QJS24.jpg"
+                }, 
+                "id": "518291", 
+                "firstName": "Robbie", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1276792567, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4c1a4ef7b306c928d05e60b7", 
+        "shortUrl": "http://4sq.com/aawrkP", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/4e192426aeb7eb0120d2bc8f", 
+                            "text": "The attendant is sometimes really busy ; ) so just keep ringing the bell he will come at some point.", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 2, 
+                                "groups": [
+                                    {
+                                        "count": 2, 
+                                        "items": [
+                                            {
+                                                "lastName": "M.", 
+                                                "photo": {
+                                                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                                                    "suffix": "/IBI4ZC5GQRJS4CJS.jpg"
+                                                }, 
+                                                "id": "52853996", 
+                                                "firstName": "Mohamed", 
+                                                "gender": "male"
+                                            }
+                                        ], 
+                                        "type": "others"
+                                    }
+                                ], 
+                                "summary": "2 likes"
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "4e192426aeb7eb0120d2bc8f", 
+                            "createdAt": 1310270502, 
+                            "user": {
+                                "lastName": "E.", 
+                                "photo": {
+                                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                                    "suffix": "/5XIBHKVAKWTVMASE.jpg"
+                                }, 
+                                "id": "11222034", 
+                                "firstName": "Courtney", 
+                                "gender": "female"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10026", 
+            "state": "NY", 
+            "crossStreet": "116th Street", 
+            "address": "130 Malcolm X Blvd", 
+            "lat": 40.80181960155795, 
+            "lng": -73.947861806915
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/imperial-parking-new-york-ny/4c1a4ef7b306c928d05e60b7", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 756, 
+            "usersCount": 34
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Parking", 
+                "primary": true, 
+                "name": "Parking", 
+                "shortName": "Parking", 
+                "id": "4c38df4de52ce0d596b336e1", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/building/parking_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Imperial Parking", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "popular": {
+            "timeframes": [
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "7:00 AM\u2013Noon"
+                        }, 
+                        {
+                            "renderedTime": "2:00 PM\u20133:00 PM"
+                        }, 
+                        {
+                            "renderedTime": "5:00 PM\u201310:00 PM"
+                        }
+                    ], 
+                    "days": "Today", 
+                    "includesToday": true
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "8:00 AM\u201310:00 AM"
+                        }, 
+                        {
+                            "renderedTime": "9:00 PM\u201311:00 PM"
+                        }
+                    ], 
+                    "days": "Fri"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "9:00 AM\u201311:00 PM"
+                        }
+                    ], 
+                    "days": "Sat\u2013Sun"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "7:00 AM\u2013Noon"
+                        }, 
+                        {
+                            "renderedTime": "7:00 PM\u2013Midnight"
+                        }
+                    ], 
+                    "days": "Mon"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "6:00 AM\u201311:00 AM"
+                        }, 
+                        {
+                            "renderedTime": "3:00 PM\u2013Midnight"
+                        }
+                    ], 
+                    "days": "Tue"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "6:00 AM\u20139:00 AM"
+                        }, 
+                        {
+                            "renderedTime": "Noon\u20131:00 PM"
+                        }, 
+                        {
+                            "renderedTime": "4:00 PM\u20131:00 AM"
+                        }
+                    ], 
+                    "days": "Wed"
+                }
+            ], 
+            "isOpen": false
+        }, 
+        "timeZone": "America/New_York"
+    }
+}

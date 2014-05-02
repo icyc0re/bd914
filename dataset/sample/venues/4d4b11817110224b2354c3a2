@@ -55,6 +55,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4e8b93214901755a2dcf2db8", 
                             "text": "AZ 406 is the worst classroom ever!", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 1, 
@@ -207,8 +208,8 @@
         }, 
         "stats": {
             "tipCount": 1, 
-            "checkinsCount": 556, 
-            "usersCount": 123
+            "checkinsCount": 568, 
+            "usersCount": 127
         }, 
         "dislike": false, 
         "categories": [
@@ -231,7 +232,6 @@
         }, 
         "contact": {}, 
         "popular": {
-            "status": "Likely open", 
             "timeframes": [
                 {
                     "segments": [], 
@@ -307,7 +307,7 @@
                     "days": "Wed"
                 }
             ], 
-            "isOpen": true
+            "isOpen": false
         }, 
         "timeZone": "America/New_York"
     }

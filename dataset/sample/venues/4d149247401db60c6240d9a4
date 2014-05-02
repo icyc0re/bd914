@@ -1,0 +1,177 @@
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 2, 
+            "user": {
+                "gender": "female", 
+                "id": "8588637", 
+                "firstName": "Kates", 
+                "photo": {
+                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                    "suffix": "/VJCFG03YVBPHYE0O.jpg"
+                }
+            }
+        }, 
+        "createdAt": 1293193799, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4d149247401db60c6240d9a4", 
+        "shortUrl": "http://4sq.com/eRXGsh", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/51a531ff498e3e93a5cedc64", 
+                            "text": "Don't be unreasonable. Remember, the staff can't make mountains out of mole hills for you! If you screwed up, just suck it up and acknowledge it. And don't ask for Birnie Bus info. They don't have it!", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "51a531ff498e3e93a5cedc64", 
+                            "createdAt": 1369780735, 
+                            "user": {
+                                "lastName": "E.", 
+                                "photo": {
+                                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                                    "suffix": "/55310595-CJPURKS1BDEGCOWB.jpg"
+                                }, 
+                                "id": "55310595", 
+                                "firstName": "Cody", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "lat": 43.103796261312276, 
+            "cc": "US", 
+            "lng": -75.22335849884854, 
+            "state": "New York", 
+            "country": "United States"
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/utica-greyhound-bus-terminal/4d149247401db60c6240d9a4", 
+        "tags": [], 
+        "photos": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "suffix": "/55310595_naHBTaur3ZR_-MjVWU1MwSItTIKHRtZm8voks7GfqHY.jpg", 
+                            "width": 720, 
+                            "visibility": "public", 
+                            "height": 960, 
+                            "source": {
+                                "url": "https://foursquare.com/download/#/iphone", 
+                                "name": "foursquare for iPhone"
+                            }, 
+                            "prefix": "https://irs1.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "E.", 
+                                "photo": {
+                                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                                    "suffix": "/55310595-CJPURKS1BDEGCOWB.jpg"
+                                }, 
+                                "id": "55310595", 
+                                "firstName": "Cody", 
+                                "gender": "male"
+                            }, 
+                            "id": "51a53221498e2744f6b79ded", 
+                            "createdAt": 1369780769
+                        }
+                    ], 
+                    "type": "venue", 
+                    "name": "Venue photos"
+                }
+            ]
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 132, 
+            "usersCount": 80
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Bus Stations", 
+                "primary": true, 
+                "name": "Bus Station", 
+                "shortName": "Bus Station", 
+                "id": "4bf58dd8d48988d1fe931735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Utica Greyhound Bus Terminal", 
+        "phrases": [
+            {
+                "sample": {
+                    "entities": [
+                        {
+                            "indices": [
+                                26, 
+                                30
+                            ], 
+                            "type": "keyPhrase"
+                        }
+                    ], 
+                    "text": "... make mountains out of mole hills for you! If you screwed up, just suck..."
+                }, 
+                "phrase": "mole", 
+                "count": 1
+            }
+        ], 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

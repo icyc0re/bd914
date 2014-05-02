@@ -1,0 +1,246 @@
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 1, 
+            "user": {
+                "lastName": "B.", 
+                "photo": {
+                    "prefix": "https://irs0.4sqi.net/img/user/", 
+                    "suffix": "/OMJ0L4GVFQ43MJEX.jpg"
+                }, 
+                "id": "3965827", 
+                "firstName": "Bob", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1263272822, 
+        "verified": true, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "4b4c0376f964a52005ad26e3", 
+        "shortUrl": "http://4sq.com/cmb3EK", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/4e10c0f2b61c637b97a73f5d", 
+                            "text": "Go on the beach", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 4, 
+                                "groups": [
+                                    {
+                                        "count": 4, 
+                                        "items": [], 
+                                        "type": "others"
+                                    }
+                                ], 
+                                "summary": "4 likes"
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "4e10c0f2b61c637b97a73f5d", 
+                            "createdAt": 1309720818, 
+                            "user": {
+                                "lastName": "E.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/GZJ3GOMEEET0H45C.jpg"
+                                }, 
+                                "id": "1687614", 
+                                "firstName": "Ben", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "Ithaca", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "14850", 
+            "state": "NY", 
+            "address": "105 Westbourne Lane", 
+            "lat": 42.455894745027926, 
+            "lng": -76.48650001615937
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/tau-kappa-epsilon-ithaca-ny/4b4c0376f964a52005ad26e3", 
+        "tags": [
+            "bar", 
+            "frat", 
+            "party"
+        ], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": []
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 473, 
+            "usersCount": 30
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Fraternity Houses", 
+                "primary": true, 
+                "name": "Fraternity House", 
+                "shortName": "Frat House", 
+                "id": "4bf58dd8d48988d1b0941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/education/frathouse_", 
+                    "suffix": ".png"
+                }
+            }, 
+            {
+                "shortName": "Bar", 
+                "pluralName": "Bars", 
+                "id": "4bf58dd8d48988d116941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/nightlife/bar_", 
+                    "suffix": ".png"
+                }, 
+                "name": "Bar"
+            }
+        ], 
+        "name": "Tau Kappa Epsilon", 
+        "url": "http://scorpiontke.org", 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {
+            "twitter": "scorpiontke"
+        }, 
+        "popular": {
+            "timeframes": [
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "10:00 AM\u20136:00 PM"
+                        }, 
+                        {
+                            "renderedTime": "8:00 PM\u201311:00 PM"
+                        }
+                    ], 
+                    "days": "Today", 
+                    "includesToday": true
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "6:00 PM\u20139:00 PM"
+                        }
+                    ], 
+                    "days": "Fri"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "9:00 AM\u20132:00 PM"
+                        }, 
+                        {
+                            "renderedTime": "4:00 PM\u20139:00 PM"
+                        }
+                    ], 
+                    "days": "Sat"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "Noon\u20131:00 PM"
+                        }, 
+                        {
+                            "renderedTime": "3:00 PM\u201310:00 PM"
+                        }
+                    ], 
+                    "days": "Sun"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "11:00 AM\u201310:00 PM"
+                        }
+                    ], 
+                    "days": "Mon"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "10:00 AM\u20132:00 PM"
+                        }, 
+                        {
+                            "renderedTime": "4:00 PM\u20136:00 PM"
+                        }, 
+                        {
+                            "renderedTime": "10:00 PM\u201311:00 PM"
+                        }
+                    ], 
+                    "days": "Tue"
+                }, 
+                {
+                    "segments": [], 
+                    "open": [
+                        {
+                            "renderedTime": "10:00 AM\u20131:00 PM"
+                        }, 
+                        {
+                            "renderedTime": "4:00 PM\u20138:00 PM"
+                        }, 
+                        {
+                            "renderedTime": "11:00 PM\u2013Midnight"
+                        }
+                    ], 
+                    "days": "Wed"
+                }
+            ], 
+            "isOpen": false
+        }, 
+        "timeZone": "America/New_York"
+    }
+}

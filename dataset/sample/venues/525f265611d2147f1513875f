@@ -1,0 +1,193 @@
+{
+    "venue": {
+        "reasons": {
+            "count": 0, 
+            "items": []
+        }, 
+        "likes": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "mayor": {
+            "count": 3, 
+            "user": {
+                "lastName": "G.", 
+                "photo": {
+                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                    "suffix": "/EI5S1UWJ020QJS24.jpg"
+                }, 
+                "id": "518291", 
+                "firstName": "Robbie", 
+                "gender": "male"
+            }
+        }, 
+        "createdAt": 1381967446, 
+        "verified": false, 
+        "hereNow": {
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
+        }, 
+        "id": "525f265611d2147f1513875f", 
+        "shortUrl": "http://4sq.com/17LArmJ", 
+        "pageUpdates": {
+            "count": 0, 
+            "items": []
+        }, 
+        "listed": {
+            "count": 0, 
+            "groups": [
+                {
+                    "count": 0, 
+                    "items": [], 
+                    "type": "others", 
+                    "name": "Lists from other people"
+                }
+            ]
+        }, 
+        "tips": {
+            "count": 1, 
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/532aec6d498ed852382876cb", 
+                            "text": "Ask Chef Rocco to make you something special and sit back and enjoy", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 0, 
+                                "groups": []
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "532aec6d498ed852382876cb", 
+                            "createdAt": 1395321965, 
+                            "user": {
+                                "lastName": "G.", 
+                                "photo": {
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/EI5S1UWJ020QJS24.jpg"
+                                }, 
+                                "id": "518291", 
+                                "firstName": "Robbie", 
+                                "gender": "male"
+                            }
+                        }
+                    ], 
+                    "type": "others", 
+                    "name": "Tips from others"
+                }
+            ]
+        }, 
+        "location": {
+            "city": "New York", 
+            "cc": "US", 
+            "country": "United States", 
+            "postalCode": "10011", 
+            "state": "NY", 
+            "crossStreet": "Washington Square Park West", 
+            "address": "73 Washington Pl", 
+            "lat": 40.73196651333513, 
+            "lng": -73.99971173059443
+        }, 
+        "canonicalUrl": "https://foursquare.com/v/progressive-era-association-new-york-ny/525f265611d2147f1513875f", 
+        "tags": [], 
+        "photos": {
+            "count": 0, 
+            "groups": []
+        }, 
+        "attributes": {
+            "groups": [
+                {
+                    "count": 1, 
+                    "items": [
+                        {
+                            "displayValue": "$$", 
+                            "priceTier": 2, 
+                            "displayName": "Price"
+                        }
+                    ], 
+                    "type": "price", 
+                    "name": "Price", 
+                    "summary": "$$"
+                }, 
+                {
+                    "count": 6, 
+                    "items": [
+                        {
+                            "displayValue": "Yes (incl. American Express)", 
+                            "displayName": "Credit Cards"
+                        }
+                    ], 
+                    "type": "payments", 
+                    "name": "Credit Cards", 
+                    "summary": "Credit Cards"
+                }
+            ]
+        }, 
+        "stats": {
+            "tipCount": 1, 
+            "checkinsCount": 6, 
+            "usersCount": 2
+        }, 
+        "dislike": false, 
+        "categories": [
+            {
+                "pluralName": "Italian Restaurants", 
+                "primary": true, 
+                "name": "Italian Restaurant", 
+                "shortName": "Italian", 
+                "id": "4bf58dd8d48988d110941735", 
+                "icon": {
+                    "prefix": "https://ss1.4sqi.net/img/categories_v2/food/italian_", 
+                    "suffix": ".png"
+                }
+            }
+        ], 
+        "name": "Progressive Era Association", 
+        "phrases": [
+            {
+                "sample": {
+                    "entities": [
+                        {
+                            "indices": [
+                                9, 
+                                14
+                            ], 
+                            "type": "keyPhrase"
+                        }
+                    ], 
+                    "text": "Ask Chef Rocco to make you something special and sit back..."
+                }, 
+                "phrase": "rocco", 
+                "count": 1
+            }, 
+            {
+                "sample": {
+                    "entities": [
+                        {
+                            "indices": [
+                                27, 
+                                44
+                            ], 
+                            "type": "keyPhrase"
+                        }
+                    ], 
+                    "text": "... Chef Rocco to make you something special and sit back and enjoy"
+                }, 
+                "phrase": "something special", 
+                "count": 1
+            }
+        ], 
+        "specials": {
+            "count": 0, 
+            "items": []
+        }, 
+        "contact": {}, 
+        "timeZone": "America/New_York"
+    }
+}

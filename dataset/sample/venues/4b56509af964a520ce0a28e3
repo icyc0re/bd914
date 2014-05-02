@@ -63,7 +63,7 @@
             "summary": "7 likes"
         }, 
         "mayor": {
-            "count": 44, 
+            "count": 42, 
             "user": {
                 "lastName": "L.", 
                 "photo": {
@@ -78,16 +78,9 @@
         "createdAt": 1263947930, 
         "verified": false, 
         "hereNow": {
-            "count": 3, 
-            "groups": [
-                {
-                    "count": 3, 
-                    "items": [], 
-                    "type": "others", 
-                    "name": "Other people here"
-                }
-            ], 
-            "summary": "3 people here"
+            "count": 0, 
+            "groups": [], 
+            "summary": "0 people here"
         }, 
         "id": "4b56509af964a520ce0a28e3", 
         "shortUrl": "http://4sq.com/cTLAOx", 
@@ -206,6 +199,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4d82cb765e70224b8e75eb08", 
                             "text": "If you want to ride the elevator to floors 3, 4 or 6 enter the password 3141 after selecting the floor number (using the floor buttons)", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 10, 
@@ -238,6 +232,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4ed407a9e5faa5ec07031900", 
                             "text": "Pupin Hall- the original site of the Manhattan Project.", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 2, 
@@ -289,8 +284,53 @@
                         }, 
                         {
                             "lang": "en", 
+                            "canonicalUrl": "https://foursquare.com/item/51f423fb498e391b6d4cb56c", 
+                            "text": "The dome on the roof is open to the public every other friday night: outreach.astro.columbia.edu", 
+                            "saves": {}, 
+                            "logView": true, 
+                            "likes": {
+                                "count": 1, 
+                                "groups": [
+                                    {
+                                        "count": 1, 
+                                        "items": [
+                                            {
+                                                "lastName": "N.", 
+                                                "photo": {
+                                                    "prefix": "https://irs3.4sqi.net/img/user/", 
+                                                    "suffix": "/R5COO5KN3T02LBNA.jpg"
+                                                }, 
+                                                "id": "27950812", 
+                                                "firstName": "Jennifer", 
+                                                "gender": "female"
+                                            }
+                                        ], 
+                                        "type": "others"
+                                    }
+                                ], 
+                                "summary": "1 like"
+                            }, 
+                            "todo": {
+                                "count": 0
+                            }, 
+                            "id": "51f423fb498e391b6d4cb56c", 
+                            "createdAt": 1374954491, 
+                            "user": {
+                                "lastName": "S.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/CSPHKLG33HPFAMFP.jpg"
+                                }, 
+                                "id": "61114212", 
+                                "firstName": "Destry", 
+                                "gender": "male"
+                            }
+                        }, 
+                        {
+                            "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/52221ee211d2ad37bbeb70df", 
                             "text": "Columbia University building; site of first splitting of uranium atom in U.S. and other milestones in development of atomic bomb", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -314,33 +354,9 @@
                         }, 
                         {
                             "lang": "en", 
-                            "canonicalUrl": "https://foursquare.com/item/51f423fb498e391b6d4cb56c", 
-                            "text": "The dome on the roof is open to the public every other friday night: outreach.astro.columbia.edu", 
-                            "logView": true, 
-                            "likes": {
-                                "count": 0, 
-                                "groups": []
-                            }, 
-                            "todo": {
-                                "count": 0
-                            }, 
-                            "id": "51f423fb498e391b6d4cb56c", 
-                            "createdAt": 1374954491, 
-                            "user": {
-                                "lastName": "S.", 
-                                "photo": {
-                                    "prefix": "https://irs1.4sqi.net/img/user/", 
-                                    "suffix": "/CSPHKLG33HPFAMFP.jpg"
-                                }, 
-                                "id": "61114212", 
-                                "firstName": "Destry", 
-                                "gender": "male"
-                            }
-                        }, 
-                        {
-                            "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/516747dfe4b0b88e31e3ce92", 
                             "text": "Plenty of study rooms during finals and midterms", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -366,6 +382,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4f8099d9e4b0e533ac7c2853", 
                             "text": "Go into a classroom on the 4th floor to see how education looked in the 1970s", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -390,6 +407,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/4d06e505eb582c0fb7517653", 
                             "text": "another building where i work everyday", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 0, 
@@ -431,33 +449,32 @@
         "canonicalUrl": "https://foursquare.com/v/pupin-hall/4b56509af964a520ce0a28e3", 
         "tags": [], 
         "photos": {
-            "count": 37, 
+            "count": 38, 
             "groups": [
                 {
-                    "count": 37, 
+                    "count": 38, 
                     "items": [
                         {
-                            "suffix": "/aEm4_C308tIDgxNtQKDHZons_LnI7smrL81jSoelaWo.jpg", 
-                            "width": 612, 
+                            "suffix": "/348315_NwKeTdyvkgX8xeEX6kbjNCQ1TkK9BILUYG-dKCcpbpE.jpg", 
+                            "width": 540, 
                             "visibility": "public", 
-                            "height": 612, 
+                            "height": 720, 
                             "source": {
-                                "url": "http://instagram.com", 
-                                "name": "Instagram"
+                                "url": "https://foursquare.com/download/#/android", 
+                                "name": "foursquare for Android"
                             }, 
-                            "prefix": "https://irs3.4sqi.net/img/general/", 
+                            "prefix": "https://irs2.4sqi.net/img/general/", 
                             "user": {
-                                "lastName": "M.", 
+                                "gender": "female", 
+                                "id": "348315", 
+                                "firstName": "Francia", 
                                 "photo": {
-                                    "prefix": "https://irs1.4sqi.net/img/user/", 
-                                    "suffix": "/ROIIWTOWT5TB444G.jpg"
-                                }, 
-                                "id": "18030", 
-                                "firstName": "Eduard", 
-                                "gender": "male"
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/53TK2CDQCZ14KZI4.jpg"
+                                }
                             }, 
-                            "id": "5042d5f2e4b04fbe535851b5", 
-                            "createdAt": 1346557426
+                            "id": "508acfe9e4b086e5993e9aed", 
+                            "createdAt": 1351274473
                         }, 
                         {
                             "suffix": "/y_q2wYyVqop-___i0EGNH5CkfisQa1_uWhxQj9jhvxo.jpg", 
@@ -483,15 +500,38 @@
                             "createdAt": 1344643183
                         }, 
                         {
-                            "suffix": "/348315_NwKeTdyvkgX8xeEX6kbjNCQ1TkK9BILUYG-dKCcpbpE.jpg", 
-                            "width": 540, 
+                            "suffix": "/aEm4_C308tIDgxNtQKDHZons_LnI7smrL81jSoelaWo.jpg", 
+                            "width": 612, 
                             "visibility": "public", 
-                            "height": 720, 
+                            "height": 612, 
+                            "source": {
+                                "url": "http://instagram.com", 
+                                "name": "Instagram"
+                            }, 
+                            "prefix": "https://irs3.4sqi.net/img/general/", 
+                            "user": {
+                                "lastName": "M.", 
+                                "photo": {
+                                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                                    "suffix": "/ROIIWTOWT5TB444G.jpg"
+                                }, 
+                                "id": "18030", 
+                                "firstName": "Eduard", 
+                                "gender": "male"
+                            }, 
+                            "id": "5042d5f2e4b04fbe535851b5", 
+                            "createdAt": 1346557426
+                        }, 
+                        {
+                            "suffix": "/BJ-kJg7C86_wzBC1iIWZLcq8lqupH-w1VwDHRCtQpog.jpg", 
+                            "width": 720, 
+                            "visibility": "public", 
+                            "height": 540, 
                             "source": {
                                 "url": "https://foursquare.com/download/#/android", 
                                 "name": "foursquare for Android"
                             }, 
-                            "prefix": "https://irs2.4sqi.net/img/general/", 
+                            "prefix": "https://irs1.4sqi.net/img/general/", 
                             "user": {
                                 "gender": "female", 
                                 "id": "348315", 
@@ -501,8 +541,8 @@
                                     "suffix": "/53TK2CDQCZ14KZI4.jpg"
                                 }
                             }, 
-                            "id": "508acfe9e4b086e5993e9aed", 
-                            "createdAt": 1351274473
+                            "id": "5011926ee4b0073bcf2503e4", 
+                            "createdAt": 1343328878
                         }, 
                         {
                             "suffix": "/X4XFFSSMOO00XJLJGGHB3U32WVVA1P3FYBZLQDJYRP1RZTYL.jpg", 
@@ -528,50 +568,27 @@
                             "createdAt": 1299865294
                         }, 
                         {
-                            "suffix": "/18351930_t3biKA8ObicEmVtVU1FnGgjO1dg-0pfKkNmPlKX4fhY.jpg", 
+                            "suffix": "/yhE6JJWcrvbOmXLb9QuezbMvWok2uC_lkXqQy_9ZqZE.jpg", 
                             "width": 720, 
                             "visibility": "public", 
-                            "height": 960, 
+                            "height": 540, 
                             "source": {
                                 "url": "https://foursquare.com/download/#/iphone", 
                                 "name": "foursquare for iPhone"
                             }, 
                             "prefix": "https://irs2.4sqi.net/img/general/", 
                             "user": {
-                                "lastName": "L.", 
+                                "lastName": "E.", 
                                 "photo": {
-                                    "prefix": "https://irs1.4sqi.net/img/user/", 
-                                    "suffix": "/JFG5KRJH1POBBODF.jpg"
+                                    "prefix": "https://irs2.4sqi.net/img/user/", 
+                                    "suffix": "/OIRDLPTVKXCZXXL5.jpg"
                                 }, 
-                                "id": "18351930", 
-                                "firstName": "Du Hee", 
+                                "id": "11112233", 
+                                "firstName": "Stephen", 
                                 "gender": "male"
                             }, 
-                            "id": "524aed7a498ec8b45026901c", 
-                            "createdAt": 1380642170
-                        }, 
-                        {
-                            "suffix": "/17307401_GoubwPJ-4GDP2ugoZALcuHxYB18hWZEndRTC2pnFb50.jpg", 
-                            "width": 720, 
-                            "visibility": "public", 
-                            "height": 960, 
-                            "source": {
-                                "url": "https://foursquare.com/download/#/iphone", 
-                                "name": "foursquare for iPhone"
-                            }, 
-                            "prefix": "https://irs3.4sqi.net/img/general/", 
-                            "user": {
-                                "lastName": "N.", 
-                                "photo": {
-                                    "prefix": "https://irs1.4sqi.net/img/user/", 
-                                    "suffix": "/AGNZPRYRTFWPSA3W.png"
-                                }, 
-                                "id": "17307401", 
-                                "firstName": "Anca", 
-                                "gender": "female"
-                            }, 
-                            "id": "511512f9e4b043d2b520b82d", 
-                            "createdAt": 1360335609
+                            "id": "4f5d2c62e4b02628c2abe3fa", 
+                            "createdAt": 1331506274
                         }
                     ], 
                     "type": "venue", 
@@ -584,8 +601,8 @@
         }, 
         "stats": {
             "tipCount": 7, 
-            "checkinsCount": 3939, 
-            "usersCount": 640
+            "checkinsCount": 4062, 
+            "usersCount": 654
         }, 
         "dislike": false, 
         "categories": [
@@ -646,7 +663,6 @@
         }, 
         "contact": {}, 
         "popular": {
-            "status": "Likely open", 
             "timeframes": [
                 {
                     "segments": [], 
@@ -698,7 +714,7 @@
                     "days": "Wed"
                 }
             ], 
-            "isOpen": true
+            "isOpen": false
         }, 
         "timeZone": "America/New_York"
     }

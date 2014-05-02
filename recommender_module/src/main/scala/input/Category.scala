@@ -14,9 +14,10 @@ object Category {
    * Get list of all categories
    * @return
    */
-  def getAll: Seq[String] = {
+  def allCats: Seq[String] = {
     categories match {
       case Nil => init(Cons.CATEGORIES_INPUT_PATH)
+      case _ => //nothing
     }
     categories
   }
@@ -42,7 +43,7 @@ object Category {
       val values: Seq[Double] = line.split(" ").map(_.toDouble)
 
       for ((v, i) <- values.zipWithIndex){
-        similarity += categories(index) -> (similarity.getOrElse(categories(index), Map.empty) + (categories(i) -> v))
+        similarity += allCats(index) -> (similarity.getOrElse(allCats(index), Map.empty) + (allCats(i) -> v))
       }
     }
   }
@@ -56,8 +57,15 @@ object Category {
   def getCategoriesSimilarity(category1: String, category2: String): Double = {
     similarity match {
       case x if similarity.isEmpty => initMatrix(Cons.CATEGORIES_MATRIX_INPUT_PATH)
+      case _ => // nothing
     }
 
-    similarity(category1)(category2)
+    similarity.get(category1) match {
+      case Some(x:Map[String, Double]) => x.get(category2) match {
+        case Some(v:Double) => v
+        case None => throw new Exception("No such category: "+category2)
+      }
+      case _ => throw new Exception("No such category: "+category1)
+    }
   }
 }

@@ -37,12 +37,13 @@ object VenueVector {
     vectors match {
       case Nil =>
         vectors = new VenueInputProcessor().processInDir(Cons.VENUES_PATH)
+      case _ => // nothing
     }
     vectors
   }
 
   def getById(id:String):VenueVector = getAll.find((x:VenueVector)=>
-    x.getFeatureValue[String](Cons.VENUE_ID) == id
+    x.getFeatureValue[String](Cons.VENUE_ID).get == id
   ) match{
     case Some(x) => x
     case None => null

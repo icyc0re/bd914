@@ -1,7 +1,10 @@
 package filtering
 
-import vectors.AbstractVector
-import features.IntFeature
+import vectors.{VenueVector, UserVector, AbstractVector}
+import utils.Cons
+import input.Category
+import scala.collection.mutable
+
 
 /**
  * @author Ivan Gavrilović
@@ -20,7 +23,65 @@ object MockVectorSimilarity extends VectorSimilarity {
       case (x, y) => calculateSimilarity(x, y)
     }
   }
-  
+
+  /**
+   * Get the similarity between two collections of vectors
+   * @param users collection of user vectors
+   * @param venues collection of  vectors
+   * @return map - key = userId, value = (venueId, similarity to the user vector)
+   */
+  def calculateSimilaritiesBetweenUsersAndVenues(users: Seq[UserVector], venues: Seq[VenueVector]): Seq[(String, Seq[(String, Double)])] = {
+    var similarities: mutable.Seq[(String, Seq[(String, Double)])] = mutable.MutableList.empty
+    for (user <- users) {
+      val user_id = user.getFeatureValue[String](Cons.USER_ID).get
+      var rankings: mutable.Seq[(String, Double)] = mutable.MutableList.empty
+      val start = System.currentTimeMillis
+      for (venue <- venues) {
+        rankings :+=(venue.getFeatureValue[String](Cons.VENUE_ID).get, MockVectorSimilarity.calculateSimilarity(user, venue))
+      }
+      similarities :+=(user_id, rankings)
+      println("Id = " + user.getFeatureValue[String](Cons.USER_ID).get + "; took ms = " + (System.currentTimeMillis() - start) + "; num user categories = " + user.getFeatureValue[Seq[String]](Cons.CATEGORY).get)
+    }
+    similarities.toList
+  }
+
+  def sortUserVenueSimilarities(similarities: Seq[(String, Seq[(String, Double)])]): Seq[(String, Seq[(String, Double)])] = {
+    //Sort by value
+    var sorted: mutable.Seq[(String, Seq[(String, Double)])] = mutable.MutableList.empty
+    for ((user, values) <- similarities) {
+      sorted :+=(user, values.toSeq.sortBy(-_._2))
+    }
+    sorted.toList
+  }
+
+  def printTopKSimilarities(similarities: Seq[(String, Seq[(String, Double)])], k: Int) = {
+    for ((user, values) <- similarities) {
+      print("user - top similarities [ ")
+      for (i <- 0 to k - 1) {
+        print(i + " ")
+      }
+      print("] " + f"$user%-10s")
+      for (i <- 0 to k - 1) {
+        var value: Double = values(i)._2;
+        print(" " + f"$value%-17.15f")
+      }
+      println()
+    }
+  }
+
+  def getTopKSimilaritiesForUserString(userIndex : Int, similarities: Seq[(String, Seq[(String, Double)])], k: Int) : String = {
+    var values = similarities(userIndex)._2;
+    var output : String = "[";
+    if(k > 0){
+      output += values(0)._1;
+      for (i <- 1 to k - 1) {
+        output += "," + values(i)._1;
+      }
+    }
+    output += "]"
+    output
+  }
+
   /**
    * Get the similarity between a vector and a collection of vectors
    * @param vec vector
@@ -28,7 +89,7 @@ object MockVectorSimilarity extends VectorSimilarity {
    * @return list of similarities between vectors
    */
   def calculateSimilarity(vec: AbstractVector, col: Seq[AbstractVector]): Seq[Double] = {
-    col.map { 
+    col.map {
       s => calculateSimilarity(s, vec)
     }
   }
@@ -40,19 +101,47 @@ object MockVectorSimilarity extends VectorSimilarity {
    * @return similarity expressed as { @code double}
    */
   def calculateSimilarity(fst: AbstractVector, snd: AbstractVector): Double = {
+    // categories similarity
+    val userCategories = fst.getFeatureValue[Seq[String]](Cons.CATEGORY).get
+    val venuesCategories = snd.getFeatureValue[Seq[String]](Cons.CATEGORY).get
+    var catSim = .0
+    userCategories.foreach(cat1 =>
+      venuesCategories.foreach(cat2 =>
+        try {
+          catSim += Category.getCategoriesSimilarity(cat1, cat2)
+        }
+        catch {
+          case e: Exception => println(e.getMessage)
+        }
+      )
+    )
+
+    if (userCategories.size * venuesCategories.size == 0) catSim = 0
+    else catSim /= userCategories.size * venuesCategories.size
 
     //coordinates' similarities
-    
-    // get (x0*y0 + x1*y1 + ... + x_n * y_n)
-    val dotProd = (fst.getFeaturesTyped[IntFeature], snd.getFeaturesTyped[IntFeature]).zipped.foldRight(0) {
-      (x: (IntFeature, IntFeature), b: Int) =>
-        b + x._1.value * x._2.value
-    }
+    val user_coord = fst.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get
+    val user_pop = fst.getFeatureValue[Double](Cons.POPULARITY).get
 
-    // get ||x|| and ||y||
-    val intensityFst = Math.sqrt(fst.getFeaturesTyped[IntFeature].foldRight(0)((x:IntFeature, b:Int) => b + x.value*x.value))
-    val intensitySnd = Math.sqrt(snd.getFeaturesTyped[IntFeature].foldRight(0)((x:IntFeature, b:Int) => b + x.value*x.value))
+    val venue_coord = snd.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get
+    val venue_pop = snd.getFeatureValue[Double](Cons.POPULARITY).get
 
-    dotProd / (intensityFst * intensitySnd)
+    val dotProduct = user_coord._1 * venue_coord._1 + user_coord._2 * venue_coord._2 + user_pop * venue_pop
+
+    val norm = Math.sqrt(user_coord._1 * user_coord._1 + user_coord._2 * user_coord._2 + user_pop * user_pop) * Math.sqrt(venue_coord._1 * venue_coord._1 + venue_coord._2 * venue_coord._2 + venue_pop * venue_pop)
+
+
+    dotProduct / norm + catSim
+    //    // get (x0*y0 + x1*y1 + ... + x_n * y_n)
+    //    val dotProd = (fst.getFeaturesTyped[IntFeature], snd.getFeaturesTyped[IntFeature]).zipped.foldRight(0) {
+    //      (x: (IntFeature, IntFeature), b: Int) =>
+    //        b + x._1.value * x._2.value
+    //    }
+    //
+    //    // get ||x|| and ||y||
+    //    val intensityFst = Math.sqrt(fst.getFeaturesTyped[IntFeature].foldRight(0)((x:IntFeature, b:Int) => b + x.value*x.value))
+    //    val intensitySnd = Math.sqrt(snd.getFeaturesTyped[IntFeature].foldRight(0)((x:IntFeature, b:Int) => b + x.value*x.value))
+
+    //dotProd / (intensityFst * intensitySnd)
   }
 }

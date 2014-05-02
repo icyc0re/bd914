@@ -8,6 +8,17 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.6/ref/settings/
 """
 
+# MANUAL SETTINGS
+# foursquare settings
+CLIENT_ID = 'SBUR2MWKKUYWPHJTZU4OLBAMFLGWKWZZJQKVGAAEJV1URHSP'
+CLIENT_SECRET = 'XZEO4JJQ2LYDX5GMTYQJ1S3AKUAHXTWZVOK2YBEOBRHNOFW4'
+REDIRECT_URI = 'http://localhost:8000/'
+
+# access token session key
+ACCESS_TOKEN = 'access_token'
+
+
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -58,7 +69,7 @@ WSGI_APPLICATION = 'fsrecommender.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'fsrecommender.sqlite3'),
     }
 }
 

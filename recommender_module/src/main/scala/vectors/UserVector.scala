@@ -1,12 +1,12 @@
 package vectors
 
-import features._
-import sets.AbstractVectorSet
-import utils.Cons
 import features.BooleanFeature
 import features.DoubleFeature
-import scala.Some
+import features.Feature
+import features.IntFeature
 import input.UserInputProcessor
+import sets.AbstractVectorSet
+import utils.Cons
 
 /**
  * * See [[input.User]] for the list of features that make the vector
@@ -75,12 +75,13 @@ object UserVector {
     vectors match {
       case Nil =>
         vectors = new UserInputProcessor().processInDir(Cons.USERS_PATH)
+      case _ => // nothing
     }
     vectors
   }
 
   def getById(id: String): UserVector = getAll.find((x: UserVector) =>
-    x.getFeatureValue[String](Cons.USER_ID) == id
+    x.getFeatureValue[String](Cons.USER_ID).get == id
   ) match {
     case Some(x) => x
     case None => null

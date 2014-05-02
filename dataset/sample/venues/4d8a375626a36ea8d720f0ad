@@ -36,16 +36,15 @@
             "summary": "2 likes"
         }, 
         "mayor": {
-            "count": 16, 
+            "count": 12, 
             "user": {
-                "lastName": "H.", 
+                "gender": "female", 
+                "id": "53992721", 
+                "firstName": "Rachel", 
                 "photo": {
-                    "prefix": "https://irs3.4sqi.net/img/user/", 
-                    "suffix": "/1O2X52DOUSNA0GLP.jpg"
-                }, 
-                "id": "19127716", 
-                "firstName": "Sarah", 
-                "gender": "female"
+                    "prefix": "https://irs1.4sqi.net/img/user/", 
+                    "suffix": "/AMAXC5OKBJ1MCGZC.jpg"
+                }
             }
         }, 
         "createdAt": 1300903766, 
@@ -92,7 +91,7 @@
                             }, 
                             "editable": false, 
                             "listItems": {
-                                "count": 13, 
+                                "count": 12, 
                                 "items": [
                                     {
                                         "photo": {
@@ -134,7 +133,7 @@
                                 "firstName": "ellen", 
                                 "gender": "female"
                             }, 
-                            "updatedAt": 1375566630, 
+                            "updatedAt": 1397029407, 
                             "type": "others", 
                             "id": "51fd4028498e3e2d67ffe0e2", 
                             "canonicalUrl": "https://foursquare.com/eleness/list/morningside-wifi", 
@@ -156,6 +155,7 @@
                             "lang": "en", 
                             "canonicalUrl": "https://foursquare.com/item/51408ceae4b0f8e5ef54da12", 
                             "text": "If you really like coffee cross the street and go to joe's... The coffee is better and they have amazing bakery... It's worth the long line...", 
+                            "saves": {}, 
                             "logView": true, 
                             "likes": {
                                 "count": 1, 
@@ -343,7 +343,7 @@
         }, 
         "stats": {
             "tipCount": 1, 
-            "checkinsCount": 550, 
+            "checkinsCount": 565, 
             "usersCount": 79
         }, 
         "dislike": false, 
@@ -367,7 +367,6 @@
         }, 
         "contact": {}, 
         "popular": {
-            "status": "Likely open", 
             "timeframes": [
                 {
                     "segments": [], 
@@ -428,7 +427,7 @@
                     "days": "Wed"
                 }
             ], 
-            "isOpen": true
+            "isOpen": false
         }, 
         "timeZone": "America/New_York"
     }
