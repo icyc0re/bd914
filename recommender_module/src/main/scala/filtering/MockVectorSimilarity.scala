@@ -128,7 +128,7 @@ object MockVectorSimilarity extends VectorSimilarity {
           catSim += Category.getCategoriesSimilarity(cat1, cat2)
         }
         catch {
-          case e: Exception => println(e.getMessage)
+          case e: Exception => //println(e.getMessage)
         }
       )
     )

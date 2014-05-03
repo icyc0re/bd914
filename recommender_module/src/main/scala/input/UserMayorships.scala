@@ -8,30 +8,27 @@ import play.api.libs.functional.syntax._
  * @author Matteo Pagliardini
  */
 
-case class MayorshipItems(dummy : Option[String], venue : Option[VenueCompact2]) //why dummy ? Ask me ... 
 
-case class UserMayorshipCompact(count : Option[Int], items : Option[List[MayorshipItems]])
+class UserMayorships(override val jsonString: String) extends Interactions(jsonString) {
 
-class UserMayorship( override val jsonString: String) extends InteractionInputProcessor(jsonString ) {
+  val jsonFile: JsValue = Json.parse(jsonString)
 
-	val jsonFile:JsValue = Json.parse(jsonString)
-
-	implicit val mayorshipItemsRead: Reads[MayorshipItems] = (
-      (__ \ "dummy").readNullable[String] and
+  implicit val mayorshipItemsRead: Reads[InteractionItem] = (
+    (__ \ "dummy").readNullable[String] and
       (__ \ "venue").readNullable[VenueCompact2]
-    )(MayorshipItems.apply _)
+    )(InteractionItem.apply _)
 
-	implicit val userMayorshipCompactRead: Reads[UserMayorshipCompact] = (
-      (JsPath \ "mayorships" \ "count").readNullable[Int] and
-      (JsPath \ "mayorships" \ "items").readNullable[List[MayorshipItems]]
-    )(UserMayorshipCompact.apply _)
+  implicit val userMayorshipCompactRead: Reads[InteractionCompact] = (
+    (JsPath \ "mayorships" \ "count").readNullable[Int] and
+      (JsPath \ "mayorships" \ "items").readNullable[List[InteractionItem]]
+    )(InteractionCompact.apply _)
 
-    val userTips : UserMayorshipCompact  = {
-		var JSvenue: JsResult[UserMayorshipCompact] = jsonFile.validate[UserMayorshipCompact](userMayorshipCompactRead)
-    	JSvenue match {
-	  		case s: JsSuccess[UserMayorshipCompact] => s.get.asInstanceOf[UserMayorshipCompact]
-	 		case e: JsError => UserMayorshipCompact(None, None)
-		}
-	}
+  override val compact: InteractionCompact = {
+    val JSvenue: JsResult[InteractionCompact] = jsonFile.validate[InteractionCompact](userMayorshipCompactRead)
+    JSvenue match {
+      case s: JsSuccess[InteractionCompact] => s.get
+      case e: JsError => InteractionCompact(None, None)
+    }
+  }
 
 }

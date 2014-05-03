@@ -7,6 +7,9 @@ package input
 import play.api.libs.json._
 import play.api.libs.json.Reads._
 import play.api.libs.functional.syntax._
+import vectors.VenueVector
+import features.{CategoryFeature, CoordinatesFeature, DoubleFeature, TextFeature}
+import utils.Cons
 
 case class VenueContact(twitter: Option[String], facebook: Option[String], phone: Option[String])
 
@@ -63,8 +66,11 @@ case class VenueCompact2(categories: Option[List[VenueCategory2]], id: Option[St
                         hours: Option[VenueHours], verified: Option[Boolean], photos: Option[VenuePhotos], tips: Option[VenueTips],
                         phrases: Option[List[VenuePhrases]], location: Option[VenueLocation])
 
+case class InteractionCompact(cnt:Option[Int], items: Option[List[InteractionItem]])
+case class InteractionItem(text : Option[String], venue : Option[VenueCompact2])
 
-abstract class InteractionInputProcessor(js:String) {
+
+abstract class Interactions(js:String) {
 	val jsonString = js
 
   implicit val venuePhrasesRead: Reads[VenuePhrases] = (
@@ -225,4 +231,34 @@ abstract class InteractionInputProcessor(js:String) {
       (__ \ "location").readNullable[VenueLocation]
     )(VenueCompact2.apply _)
 
+  val compact:InteractionCompact = null
+}
+
+object Interactions {
+  /**
+   * Create venue feature vector from the parsed [[Venue]] object
+   * @param v parsed venue
+   * @return venue feature vector
+   */
+  def featureVector(v: VenueCompact2):VenueVector = {
+    val (checkinsCount, tipCount ,userCount) = v.stats match {
+      case Some(x:VenueStats2) => (x.checkinsCount.getOrElse(0), x.tipCount.getOrElse(0), x.usersCount.getOrElse(0))
+      case None => (0, 0, 0)
+    }
+    val (lat, lng):(Double, Double) = v.location match {
+      case None => (0, 0)
+      case Some(x:VenueLocation) => (x.lat.getOrElse(0), x.lng.getOrElse(0))
+    }
+    val cats = v.categories match {
+      case None => List.empty
+      case Some(x:Seq[VenueCategory2]) => x.map(_.name.get)
+    }
+    val features = List(
+      TextFeature(Cons.VENUE_ID, v.id.get),
+      DoubleFeature(Cons.POPULARITY, Venue.compute_popularity(checkinsCount, tipCount, userCount)),
+      CoordinatesFeature(Cons.GPS_COORDINATES, (lat, lng)),
+      CategoryFeature(Cons.CATEGORY, cats)
+    )
+    new VenueVector(features, null)
+  }
 }

@@ -26,6 +26,7 @@ object Cons {
 
   val USERS_PATH = "../dataset/small_sample/users/"
   val VENUES_PATH = "../dataset/small_sample/venues/"
+  val INTERACTIONS_PATH = "../dataset/small_sample/users/"
 
   val CATEGORIES_INPUT_PATH = "../dataset/sample/ordered_categories.txt"
   val CATEGORIES_MATRIX_INPUT_PATH = "../dataset/sample/categories_similarity.txt"
@@ -39,6 +40,7 @@ object Cons {
   
   val NY_AREA = Map[String, Double]("s"->40.526851, "n"->40.913515,"w"-> -74.271888,"e"-> -73.689612)
 
+  val HOME_PRIVATE = "Home (private)"
 }
 
 

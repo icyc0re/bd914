@@ -15,6 +15,6 @@ class VenueInputProcessor extends AbstractInputProcessor{
    * @return collection of vectors
    */
   override def processData(input: BufferedSource): T = {
-    Venue.featureVector(new Venue(input.mkString))
+    Venue.featureVector(new Venue(input.mkString).venue)
   }
 }

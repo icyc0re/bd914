@@ -13,13 +13,13 @@ object PreFilter {
   def passesCriteria(venue: VenueVector, context: ContextVector): Boolean = { //Returns true is the venue passes the prefiltering criteria (and should be kept) or false otherwise (and should be deleted)
 
     // Location criterion:
-    context.getFeatureValue(Cons.GPS_COORDINATES) match {
+    context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES) match {
       case Some(_) => {
         venue.getFeatureValue(Cons.GPS_COORDINATES) match {
           case Some(_) => {
             val distance = Haversine.getDistance(venue.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get, context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get)
             if (distance >= 2.0) { //Threshold in kilometers
-              println("NO :: distance")
+              //println("NO :: distance")
               return false
             }
           }
@@ -30,12 +30,17 @@ object PreFilter {
     }
 
     // Categories criterion:
-    context.getFeatureValue(Cons.CATEGORY) match {
+    context.getFeatureValue[Seq[String]](Cons.CATEGORY) match {
       case Some(_) => {
         venue.getFeatureValue[Seq[String]](Cons.CATEGORY).get.map((cat: String) => {
-          if (Category.getCategoriesSimilarity(cat, context.getFeatureValue[String](Cons.CATEGORY).get) == 0) {
-            println("NO :: category")
-            return false
+          try {
+            if (Category.getCategoriesSimilarity(cat, context.getFeatureValue[String](Cons.CATEGORY).get) == 0) {
+              //println("NO :: category")
+              return false
+            }
+          }
+          catch {
+            case _:Exception => return false
           }
         })
       }
@@ -43,17 +48,20 @@ object PreFilter {
     }
     
     // Price criterion:
-    context.getFeatureValue(Cons.PRICE) match {
-      case Some(_) => {
-        if (venue.getFeatureValue[VenuePrice](Cons.PRICE).get.tier.get > context.getFeatureValue[VenuePrice](Cons.PRICE).get.tier.get) {
-          println("NO :: price")
-          return false
+    context.getFeatureValue[VenuePrice](Cons.PRICE) match {
+      case Some(contextPrice:VenuePrice) => {
+        venue.getFeatureValue[VenuePrice](Cons.PRICE) match {
+          case Some(x:VenuePrice) => x.tier match {
+            case Some(p:Int) => if (p > contextPrice.tier.get) return false
+            case None => //
+          }
+          case None => //
         }
       }
       case None =>
     }
 
-    println("Yay")
+    //println("Yay")
     true
 
   }

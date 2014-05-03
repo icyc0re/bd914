@@ -8,17 +8,10 @@ import play.api.libs.json._
 import play.api.libs.json.Reads._
 import play.api.libs.functional.syntax._
 
-case class VenueStatsCI(checkinsCount: Option[Int], usersCount: Option[Int], tipCount: Option[Int])
 
-case class VenueCompactCI(categories: Option[List[VenueCategory]], id: Option[String], name: Option[String], url: Option[String], stats: Option[VenueStatsCI],
-                          price: Option[VenuePrice], likes: Option[Int], rating: Option[Int], reasons: Option[VenueReasons],
-                          mayor: Option[VenueMayor], tags: Option[List[String]], contact: Option[VenueContact], attributes: Option[VenueAttributes],
-                          hours: Option[VenueHours], verified: Option[Boolean], photos: Option[VenuePhotos], tips: Option[VenueTips],
-                          phrases: Option[List[VenuePhrases]], location: Option[VenueLocation])
+case class CheckinItem(id: String, tyype: String, timeZoneOffset: Int, createdAt: Long, venue: Option[VenueCompact2]) //, venue: Option[VenueCompact]
 
-case class Checkin(id: String, tyype: String, timeZoneOffset: Int, createdAt: Long, venue: Option[VenueCompactCI]) //, venue: Option[VenueCompact]
-
-case class CheckinsResponse(count: Int, items: Option[List[Checkin]])
+case class CheckinsCompact(count: Int, items: Option[List[CheckinItem]])
 
 class Checkins(jsonString: String) {
 
@@ -122,19 +115,19 @@ class Checkins(jsonString: String) {
       (__ \ "relationship").readNullable[String]
     )(VenueMayor.apply _)
 
-  implicit val categoryRead: Reads[VenueCategory] = (
+  implicit val categoryRead: Reads[VenueCategory2] = (
     (__ \ "id").readNullable[String] and
-      (__ \ "name").read[String] and
+      (__ \ "name").readNullable[String] and
       (__ \ "pluralName").readNullable[String] and
       (__ \ "shortName").readNullable[String] and
       (__ \ "primary").readNullable[Boolean]
-    )(VenueCategory.apply _)
+    )(VenueCategory2.apply _)
 
-  implicit val venueStatRead: Reads[VenueStatsCI] = (
+  implicit val venueStatRead: Reads[VenueStats2] = (
     (__ \ "checkinsCount").readNullable[Int] and
       (__ \ "usersCount").readNullable[Int] and
       (__ \ "tipCount").readNullable[Int]
-    )(VenueStatsCI.apply _)
+    )(VenueStats2.apply _)
 
   implicit val venuePriceRead: Reads[VenuePrice] = (
     (__ \ "tier").readNullable[Int] and
@@ -161,12 +154,12 @@ class Checkins(jsonString: String) {
       (__ \ "lng").readNullable[Double]
     )(VenueLocation.apply _)
 
-  implicit val venueCompactRead: Reads[VenueCompactCI] = (
-    (__ \ "categories").readNullable[List[VenueCategory]] and
+  implicit val venueCompactRead: Reads[VenueCompact2] = (
+    (__ \ "categories").readNullable[List[VenueCategory2]] and
       (__ \ "id").readNullable[String] and
       (__ \ "name").readNullable[String] and
       (__ \ "url").readNullable[String] and
-      (__ \ "stats").readNullable[VenueStatsCI] and
+      (__ \ "stats").readNullable[VenueStats2] and
       (__ \ "price").readNullable[VenuePrice] and
       (__ \ "likes" \ "count").readNullable[Int] and
       (__ \ "rating").readNullable[Int] and
@@ -181,27 +174,27 @@ class Checkins(jsonString: String) {
       (__ \ "tips").readNullable[VenueTips] and
       (__ \ "phrases").readNullable[List[VenuePhrases]] and
       (__ \ "location").readNullable[VenueLocation]
-    )(VenueCompactCI.apply _)
+    )(VenueCompact2.apply _)
 
 
-  implicit val checkinRead: Reads[Checkin] = (
+  implicit val checkinRead: Reads[CheckinItem] = (
     (__ \ "id").read[String] and
       (__ \ "type").read[String] and
       (__ \ "timeZoneOffset").read[Int] and
       (__ \ "createdAt").read[Long] and
-      (__ \ "venue").readNullable[VenueCompactCI]
-    )(Checkin.apply _)
+      (__ \ "venue").readNullable[VenueCompact2]
+    )(CheckinItem.apply _)
 
-  implicit val checkinsResponseRead: Reads[CheckinsResponse] = (
+  implicit val checkinsResponseRead: Reads[CheckinsCompact] = (
     (JsPath \ "response" \ "checkins" \ "count").read[Int] and
-      (JsPath \ "response" \ "checkins" \ "items").readNullable[List[Checkin]]
-    )(CheckinsResponse.apply _)
+      (JsPath \ "response" \ "checkins" \ "items").readNullable[List[CheckinItem]]
+    )(CheckinsCompact.apply _)
 
-  val checkinsResponse: CheckinsResponse = {
-    var JScheckins: JsResult[CheckinsResponse] = jsonFile.validate[CheckinsResponse](checkinsResponseRead)
+  val compact: CheckinsCompact = {
+    var JScheckins: JsResult[CheckinsCompact] = jsonFile.validate[CheckinsCompact](checkinsResponseRead)
     JScheckins match {
-      case s: JsSuccess[CheckinsResponse] => s.get.asInstanceOf[CheckinsResponse]
-      case e: JsError => CheckinsResponse(-1, None)
+      case s: JsSuccess[CheckinsCompact] => s.get
+      case e: JsError => CheckinsCompact(-1, None)
     }
   }
 
@@ -210,9 +203,9 @@ class Checkins(jsonString: String) {
    */
   def displayFeatures() {
     println("\n****************************************************")
-    println("VENUE : " + checkinsResponse.count)
+    println("VENUE : " + compact.count)
     println("****************************************************\n")
-    print(checkinsResponse.toString)
+    print(compact.toString)
     //println("name := " + checkinsResponse.items.get(1).id)
   }
 }
