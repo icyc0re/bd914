@@ -321,31 +321,79 @@ println(map)*/
   }
 
 
-  def updateDate(curDate : Date, hour : String) = {
-    if(hour(hour.length - 2) == "A"){//morning
+  def updateDate(dayInt : Int, hour : String) : (Int, Int, Int) = {
+    //println(hour);
+    var hours = 0;
+    var minutes = 0;
+    //println(hour(hour.length - 2));
+
+    if(hour(hour.length - 2) == 'A'){//morning
+      //println("Found morning hour");
     val time = hour.split(":");
       if(time.length >= 1){
-        curDate.setHours(time(0).toInt);
+
+        //println("Writing something");
+        hours = time(0).toInt;
+        //println(hours);
 
         if(time.length == 2){
-          curDate.setMinutes(time(1).toInt);
+          minutes = time(1).substring(0,2).toInt;
+          //println(minutes);
         }
       }
     }
-    else if(hour(hour.length - 2) == "P"){//afternoon
+    else if(hour(hour.length - 2) == 'P'){//afternoon
     val time = hour.split(":");
       if(time.length >= 1){
-        curDate.setHours(12 + time(0).toInt);
+        hours = 12 + time(0).toInt;
+        //println(hours);
 
         if(time.length == 2){
-          curDate.setMinutes(time(1).toInt);
+          minutes = time(1).substring(0,2).toInt;
+          //println(minutes);
         }
       }
     }
+    (dayInt, hours, minutes)
   }
 
-  def getTimeSequenceHours(day : String, venueHours : List[VenueHoursRenderedTime]) : List[(Date, Date)] = {
-    val dayInt = day match{
+  def getTimeSequenceHours(dayInt : Int, venueHours : List[VenueHoursRenderedTime]) : List[((Int, Int, Int), (Int, Int, Int))] = {
+
+
+    var result = List[((Int, Int, Int), (Int, Int, Int))]();
+    //println("dayInt")
+    //println(dayInt)
+    if(dayInt != 0){
+        result = venueHours.map((vhrt : VenueHoursRenderedTime) => {
+          var resultInterm = List[((Int, Int, Int), (Int, Int, Int))]();
+
+          val hours = vhrt.renderedTime.get.split("\\u2013");
+
+          if(hours.length == 1){
+            //println("One hour")
+            val date1 = updateDate(dayInt, hours(0));
+            val date2 = updateDate(dayInt, hours(0));
+            resultInterm = resultInterm:::List( (date1, date2) );
+          }
+          else if(hours.length == 2){
+            //println("Two hours")
+            val date1 = updateDate(dayInt, hours(0));
+            val date2 = updateDate(dayInt, hours(1));
+            //println("Add dates")
+            resultInterm = resultInterm:::List( (date1, date2) );
+            //println("Dates Added")
+            //println("Size of ResultInterm:"+resultInterm.size)
+          }
+
+        resultInterm
+        }).reduce(_:::_);
+    }
+    //println("Size of Result:"+result.size)
+    result;
+  }
+
+  def getDayInt(day : String) : Int = {
+    day match{
       case "Mon" => 1
       case "Tue" => 2
       case "Wed" => 3
@@ -354,43 +402,33 @@ println(map)*/
       case "Sat" => 6
       case "Sun" => 7
       case _ => 0
-    };
-    var result = List.empty;
-
-    if(dayInt != 0){
-        result = venueHours.map((vhrt : VenueHoursRenderedTime) => {
-          var date1 = new Date();
-          var date2 = new Date();
-          date1.setDate(dayInt);
-          date2.setDate(dayInt);
-          var result = List.empty;
-
-          val hours = vhrt.renderedTime.get.split("\\u2013");
-
-          if(hours.length == 1){
-            updateDate(date1, hours(0));
-            updateDate(date2, hours(0));
-            result:::List( (date1, date2) );
-          }
-          else if(hours.length == 2){
-            updateDate(date1, hours(0));
-            updateDate(date2, hours(1));
-            result:::List( (date1, date2) );
-          }
-
-        result
-        }).reduce(_:::_);
     }
-    result;
   }
 
-  def getTimeSequenceDays(venueHours : VenueHoursTimeFrames) : List[(Date, Date)]= {
-    val days = venueHours.days.get.split("\\u2013");
-    days.map((day : String) => {getTimeSequenceHours(day, venueHours.open.get)}).reduce(_:::_)
+  def getTimeSequenceDays(venueHours : VenueHoursTimeFrames) : List[((Int, Int, Int), (Int, Int, Int))]= {
+    val daysString = venueHours.days.get.split("\\u2013");
+   // var daysInt = List(getDayInt(daysString(0)));
+
+    var daysInt = getDayInt(daysString(0)) to getDayInt(daysString(0));
+
+    if(daysString.length > 1){
+      daysInt = getDayInt(daysString(0)) to getDayInt(daysString(1));
+    }
+
+    daysInt.map((day : Int) => { //println("Found a day");
+                                  getTimeSequenceHours(day, venueHours.open.get)}).reduce(_:::_)
   }
 
-  def getTimeSequence() : List[(Date, Date)] = {//Gets the sequence of opening times of the venue (on the form (Date1, Date2) where Date1 is an opening hour and Date2 the corresponding closing hour)
-    this.venue.hours.get.timeframes.get.map( (venueHours : VenueHoursTimeFrames) => {getTimeSequenceDays(venueHours)} ).reduce(_:::_)
+  def getTimeSequence() : List[((Int, Int, Int), (Int, Int, Int))] = {//Gets the sequence of opening times of the venue (on the form (Date1, Date2) where Date1 is an opening hour and Date2 the corresponding closing hour)
+    this.venue.hours match{
+      case None => {//println("First empty");
+                    List.empty}
+      case _ =>     this.venue.hours.get.timeframes match{
+        case None => {//println("Second empty");
+                      List.empty}
+        case _ => this.venue.hours.get.timeframes.get.map( (venueHours : VenueHoursTimeFrames) => {getTimeSequenceDays(venueHours)} ).reduce(_:::_)
+      }
+    }
   }
 }
 
@@ -408,13 +446,23 @@ object Venue{
    * @return venue feature vector
    */
   def featureVector(v: Venue):VenueVector = {
-    val features = List(
+    if(v.venue.id == "4d4fe94b529dcbffe118d5c4"){
+      println("Find venue 4d4fe94b529dcbffe118d5c4")
+      val features = List(
       TextFeature(Cons.VENUE_ID, v.venue.id),
       DoubleFeature(Cons.POPULARITY, compute_popularity(v.venue.stats.checkinsCount, v.venue.stats.tipCount.get, v.venue.stats.usersCount.get)),
         CoordinatesFeature(Cons.GPS_COORDINATES, (v.venue.location.get.lat.get, v.venue.location.get.lng.get)),
-        CategoryFeature(Cons.CATEGORY, v.venue.categories.get.map(_.name))
+        CategoryFeature(Cons.CATEGORY, v.venue.categories.get.map(_.name)),
+
+      TimeFeature(Cons.TIME, v.getTimeSequence())
     )
-    new VenueVector(features, null)
+      new VenueVector(features, null)}
+    else{val features = List(
+      TextFeature(Cons.VENUE_ID, v.venue.id)
+    )
+      new VenueVector(features, null)}
+
+
   }
 
   def compute_popularity(checkinsCount: Double,

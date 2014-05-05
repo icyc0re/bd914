@@ -23,9 +23,10 @@ object Cons {
   val PRICE    = "venue.price"
   val GPS_COORDINATES = "gps_coordinates"
   val POPULARITY = "popularity"
+  val TIME = "time"
 
   val USERS_PATH = "../dataset/small_sample/users/"
-  val VENUES_PATH = "../dataset/small_sample/venues/"
+  val VENUES_PATH = "../dataset/sample/venues/"
 
   val CATEGORIES_INPUT_PATH = "../dataset/sample/ordered_categories.txt"
   val CATEGORIES_MATRIX_INPUT_PATH = "../dataset/sample/categories_similarity.txt"
