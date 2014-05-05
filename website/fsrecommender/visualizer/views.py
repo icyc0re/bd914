@@ -25,6 +25,8 @@ def home(request):
 
 	user = client.users()
 	request.session[USER] = user
+
+	checkins = client.users.checkins()
 	
 	json_string = json.dumps(user)
 
@@ -52,7 +54,7 @@ def recommend(request):
 		#receive value from post
 		time = request.POST["time"]
 		lat = request.POST["lat"]
-		lng = request.POST["lat"]
+		lng = request.POST["lng"]
 		
 		url = 'http://bigdataivan.cloudapp.net:8090'
 		payload = {'time': time, 'lat': lat, 'lng': lng}
@@ -80,7 +82,7 @@ def recommend_list(request):
 	return render(request)
 	
 def logout(request):
-	del request.session[ACCESS_TOKEN]
+	request.session.clear()
 	return redirect('/')
 
 
