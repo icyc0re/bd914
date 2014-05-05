@@ -1,13 +1,15 @@
 package recommender
 
 import filtering.MockVectorSimilarity
-import vectors.{UserVector, VenueVector}
 import input.{User, Checkins, CheckinsCount}
 import java.io.File
+import input.Category
 import weboutput.{ResponseToWebApp}
 import javax.print.attribute.standard.ReferenceUriSchemesSupported
 import scalaj.http.Http
 import scala.collection.mutable
+import vectors._
+import context._
 
 /**
  * This is the main class of the recommender system.
@@ -17,7 +19,7 @@ object RecommenderApp {
   def main(args: Array[String]) {
     var u : Seq[UserVector] = mutable.MutableList.empty;
     // get venue features
-    val v: Seq[VenueVector] = VenueVector.getAll
+    var v: Seq[VenueVector] = VenueVector.getAll
     if(args.size == 2){
       val userJson = new File(args(0));
       val user : User = new User(scala.io.Source.fromFile(userJson).mkString);
@@ -32,21 +34,22 @@ object RecommenderApp {
       // get user features
       u = UserVector.getAll
 
-      // Pre Filtering:
-      //    val dummyContext = Context.grab()
-      //    val dummyVenues  = Venue.getDummyVector()
-      //    PreFilter.apply(dummyVenues, dummyContext)
-      //    if (1==1) return
       // checkins parser test
       //val file = new File("../dataset/sample/checkinstest.json")
       //val response = new Checkins(scala.io.Source.fromFile(file).mkString)
       //response.displayFeatures()
     }
+    
+    // Plug in PreFiltering here once we have an actual context
+    val dummyContext: ContextVector = Context.grab()
+    v = PreFilter.apply(v, dummyContext)
 
-    val similarities : Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v);
-    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities);
-    MockVectorSimilarity.printTopKSimilarities(sorted, 5);
 
-    //ResponseToWebApp.replyToWebApp(sorted, 3, 0);
+
+    val similarities : Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
+    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
+    MockVectorSimilarity.printTopKSimilarities(sorted, 5)
+
+    //ResponseToWebApp.replyToWebApp(sorted, 3, 0)
   }
 }

@@ -9,17 +9,16 @@ import utils.Cons
 import vectors.VenueVector
 import features._
 import context.Context
-import java.util.Date
 
 /**
  * @author Matteo Pagliardini
  */
-case class VenueContact(twitter: Option[String], facebook: Option[String], phone: Option[String])
+//case class VenueContact(twitter: Option[String], facebook: Option[String], phone: Option[String])
 
 case class VenueStats(checkinsCount: Int, usersCount: Option[Int], tipCount: Option[Int])
 
-case class VenueLocation(city: Option[String], cc: Option[String], state: Option[String],
-                          lat: Option[Double], lng: Option[Double])
+//case class VenueLocation(city: Option[String], cc: Option[String], state: Option[String],
+//                         lat: Option[Double], lng: Option[Double])
 
 case class VenueCategory(id: Option[String], name: String, pluralName: Option[String], shortName: Option[String],
                          primary: Option[Boolean])
@@ -68,6 +67,7 @@ case class VenueCompact(categories: Option[List[VenueCategory]], id: String, nam
                         mayor: Option[VenueMayor], tags: List[String], contact: Option[VenueContact], attributes: Option[VenueAttributes],
                         hours: Option[VenueHours], verified: Option[Boolean], photos: Option[VenuePhotos], tips: Option[VenueTips],
                         phrases: Option[List[VenuePhrases]], location: Option[VenueLocation])
+
 
 class Venue(jsonString: String) {
 
@@ -210,16 +210,16 @@ println(map)*/
       (__ \ "items").readNullable[List[VenueReasonsItem]]
     )(VenueReasons.apply _)
 
-   implicit val VenueLocationRead: Reads[VenueLocation] = (
-       (__ \ "city").readNullable[String] and
-       (__ \ "cc").readNullable[String] and
-       (__ \ "state").readNullable[String] and
-       (__ \ "lat").readNullable[Double] and
+  implicit val VenueLocationRead: Reads[VenueLocation] = (
+    (__ \ "city").readNullable[String] and
+      (__ \ "cc").readNullable[String] and
+      (__ \ "state").readNullable[String] and
+      (__ \ "lat").readNullable[Double] and
       (__ \ "lng").readNullable[Double]
     )(VenueLocation.apply _)
 
   implicit val venueCompactRead: Reads[VenueCompact] = (
-    (JsPath \ "venue" \ "categories").readNullable[List[VenueCategory]] and
+      (JsPath \ "venue" \ "categories").readNullable[List[VenueCategory]] and
       (JsPath \ "venue" \ "id").read[String] and
       (JsPath \ "venue" \ "name").read[String] and
       (JsPath \ "venue" \ "url").readNullable[String] and
@@ -241,84 +241,115 @@ println(map)*/
     )(VenueCompact.apply _)
 
   val venue : VenueCompact  = {
-		var JSvenue: JsResult[VenueCompact] = jsonFile.validate[VenueCompact](venueCompactRead)
-    	JSvenue match {
-	  		case s: JsSuccess[VenueCompact] => s.get.asInstanceOf[VenueCompact]
-	 		case e: JsError => VenueCompact(None , "JsError", "JsError", None, VenueStats(-1,None,None), None, None, None, None,
+    var JSvenue: JsResult[VenueCompact] = jsonFile.validate[VenueCompact](venueCompactRead)
+    JSvenue match {
+      case s: JsSuccess[VenueCompact] => s.get.asInstanceOf[VenueCompact]
+      case e: JsError => VenueCompact(None , "JsError", "JsError", None, VenueStats(-1,None,None), None, None, None, None,
         None, List[Nothing](), None, None, None, None, None, None, None, None)
-		}
-	}
+    }
+  }
 
   /**
-  * Display the features in a nice form / Show some examples on how to access the data
-  */
+   * Display the features in a nice form / Show some examples on how to access the data
+   */
   def displayFeatures() {
-  	println("\n****************************************************")
-  	println(  "VENUE : "+venue.id)
-  	println(  "****************************************************\n")
-	println(  "\n-------------- Basic info : ")
-	println(  "name := "+venue.name)
-	venue.url match {	//A lot of the venue data is optional so the reader will not crash each time he doesn't find a feature
-						//more on Option type here : http://danielwestheide.com/blog/2012/12/19/the-neophytes-guide-to-scala-part-5-the-option-type.html
-						//one way to access the data is using pattern matching :
-		case Some(url) => println(  "url := "+ url)
-		case None => {}
-	}
-	venue.likes match { case Some(likes) => println(  "likes := "+ likes); case None => {}}
-	venue.rating match { case Some(rating) => println(  "rating := "+ rating); case None => {}}
-	venue.verified match { case Some(verified) => println(  "verified := "+ verified); case None => {}}
+    println("\n****************************************************")
+    println(  "VENUE : "+venue.id)
+    println(  "****************************************************\n")
+    println(  "\n-------------- Basic info : ")
+    println(  "name := "+venue.name)
+    venue.url match {	//A lot of the venue data is optional so the reader will not crash each time he doesn't find a feature
+      //more on Option type here : http://danielwestheide.com/blog/2012/12/19/the-neophytes-guide-to-scala-part-5-the-option-type.html
+      //one way to access the data is using pattern matching :
+      case Some(url) => println(  "url := "+ url)
+      case None => {}
+    }
+    venue.likes match { case Some(likes) => println(  "likes := "+ likes); case None => {}}
+    venue.rating match { case Some(rating) => println(  "rating := "+ rating); case None => {}}
+    venue.verified match { case Some(verified) => println(  "verified := "+ verified); case None => {}}
 
-	println(  "\n-------------- Stats : ")
-	println(  "checkinsCount := "+venue.stats.checkinsCount)
-	println(  "tipCount := "+venue.stats.tipCount.getOrElse("None")) //another simple way is to use getOrElse(default value)
-	println(  "\n-------------- Price : ")
-	if(venue.price != None){
-		//val price = venue.price.getOrElse(Non)
-		//println(  "tier := "+venue.price.getOrElse("None").tier.getOrElse("None"))
-		//println(  "message := "+venue.price.message)
-		//println(  "currency := "+venue.price.currency)
-	} else{
-		println(  "None")
-	}
-	/*println(  "\n-------------- Reasons : ")
-	if(venue.reasons != None){
-		println(  "count := "+venue.reasons.count)
-		println(  "Wait ! There is more, look by yourself ...")
-	} else{
-		println(  "None")
-	}
-	println(  "\n-------------- Mayor : ")
-	if(venue.mayor != None){
-		println(  "count := "+venue.mayor.count)
-		println(  "id := "+venue.mayor.id)
-		println(  "firstName := "+venue.mayor.firstName)
-		println(  "lastName := "+venue.mayor.lastName)
-		println(  "gender := "+venue.mayor.gender)
-		println(  "homeCity := "+venue.mayor.homeCity)
-		println(  "relationship := "+venue.mayor.relationship)
-	} else{
-		println(  "None")
-	}
-	println(  "\n-------------- Tags : ")
-	println(  "Tags := "+venue.tags)
-	println(  "\n-------------- Contact : ")
-	if(venue.contact != None){
-		println(  "twitter := "+venue.contact.twitter)
-		println(  "facebook := "+venue.contact.facebook)
-		println(  "phone := "+venue.contact.phone)
-	} else{
-		println(  "None")
-	}
-	println(  "\n-------------- Attributes : ")
-	if(venue.contact != None){
-		println(  "groups := "+venue.attributes.groups)
-	} else{
-		println(  "None")
-	}
-	println(  "\nAnd even more stuff like hours / photos / tips / phrases ... !!! ")*/
-	println("\n****************************************************")
-  	println(  "****************************************************\n")
+    println(  "\n-------------- Stats : ")
+    println(  "checkinsCount := "+venue.stats.checkinsCount)
+    println(  "tipCount := "+venue.stats.tipCount.getOrElse("None")) //another simple way is to use getOrElse(default value)
+    println(  "\n-------------- Price : ")
+    if(venue.price != None){
+      //val price = venue.price.getOrElse(Non)
+      //println(  "tier := "+venue.price.getOrElse("None").tier.getOrElse("None"))
+      //println(  "message := "+venue.price.message)
+      //println(  "currency := "+venue.price.currency)
+    } else{
+      println(  "None")
+    }
+    /*println(  "\n-------------- Reasons : ")
+    if(venue.reasons != None){
+      println(  "count := "+venue.reasons.count)
+      println(  "Wait ! There is more, look by yourself ...")
+    } else{
+      println(  "None")
+    }
+    println(  "\n-------------- Mayor : ")
+    if(venue.mayor != None){
+      println(  "count := "+venue.mayor.count)
+      println(  "id := "+venue.mayor.id)
+      println(  "firstName := "+venue.mayor.firstName)
+      println(  "lastName := "+venue.mayor.lastName)
+      println(  "gender := "+venue.mayor.gender)
+      println(  "homeCity := "+venue.mayor.homeCity)
+      println(  "relationship := "+venue.mayor.relationship)
+    } else{
+      println(  "None")
+    }
+    println(  "\n-------------- Tags : ")
+    println(  "Tags := "+venue.tags)
+    println(  "\n-------------- Contact : ")
+    if(venue.contact != None){
+      println(  "twitter := "+venue.contact.twitter)
+      println(  "facebook := "+venue.contact.facebook)
+      println(  "phone := "+venue.contact.phone)
+    } else{
+      println(  "None")
+    }
+    println(  "\n-------------- Attributes : ")
+    if(venue.contact != None){
+      println(  "groups := "+venue.attributes.groups)
+    } else{
+      println(  "None")
+    }
+    println(  "\nAnd even more stuff like hours / photos / tips / phrases ... !!! ")*/
+    println("\n****************************************************")
+    println(  "****************************************************\n")
   }
+
+}
+
+object Venue{
+  /**
+   * Create venue feature vector from the parsed [[Venue]] object
+   * @param v parsed venue
+   * @return venue feature vector
+   */
+  def featureVector(v: VenueCompact):VenueVector = {
+  
+      val features = List(
+      TextFeature(Cons.VENUE_ID, v.id),
+      DoubleFeature(Cons.POPULARITY, compute_popularity(v.stats.checkinsCount, v.stats.tipCount.get, v.stats.usersCount.get)),
+      CoordinatesFeature(Cons.GPS_COORDINATES, (v.location.get.lat.get, v.location.get.lng.get)),
+        CategoryFeature(Cons.CATEGORY, v.categories.get.map(_.name)),
+      TimeFeature(Cons.TIME, getTimeSequence(v.hours.get))
+    )
+      new VenueVector(features, null)
+
+      }
+
+
+  
+
+  def compute_popularity(checkinsCount: Double,
+                         tipsCount: Double, usersCount: Double): Double = {
+    checkinsCount + tipsCount + usersCount
+  }
+
+
 
 
   def updateDate(dayInt : Int, hour : String) : (Int, Int, Int) = {
@@ -328,7 +359,7 @@ println(map)*/
     //println(hour(hour.length - 2));
 
     if(hour(hour.length - 2) == 'A'){//morning
-      //println("Found morning hour");
+    //println("Found morning hour");
     val time = hour.split(":");
       if(time.length >= 1){
 
@@ -364,29 +395,29 @@ println(map)*/
     //println("dayInt")
     //println(dayInt)
     if(dayInt != 0){
-        result = venueHours.map((vhrt : VenueHoursRenderedTime) => {
-          var resultInterm = List[((Int, Int, Int), (Int, Int, Int))]();
+      result = venueHours.map((vhrt : VenueHoursRenderedTime) => {
+        var resultInterm = List[((Int, Int, Int), (Int, Int, Int))]();
 
-          val hours = vhrt.renderedTime.get.split("\\u2013");
+        val hours = vhrt.renderedTime.get.split("\\u2013");
 
-          if(hours.length == 1){
-            //println("One hour")
-            val date1 = updateDate(dayInt, hours(0));
-            val date2 = updateDate(dayInt, hours(0));
-            resultInterm = resultInterm:::List( (date1, date2) );
-          }
-          else if(hours.length == 2){
-            //println("Two hours")
-            val date1 = updateDate(dayInt, hours(0));
-            val date2 = updateDate(dayInt, hours(1));
-            //println("Add dates")
-            resultInterm = resultInterm:::List( (date1, date2) );
-            //println("Dates Added")
-            //println("Size of ResultInterm:"+resultInterm.size)
-          }
+        if(hours.length == 1){
+          //println("One hour")
+          val date1 = updateDate(dayInt, hours(0));
+          val date2 = updateDate(dayInt, hours(0));
+          resultInterm = resultInterm:::List( (date1, date2) );
+        }
+        else if(hours.length == 2){
+          //println("Two hours")
+          val date1 = updateDate(dayInt, hours(0));
+          val date2 = updateDate(dayInt, hours(1));
+          //println("Add dates")
+          resultInterm = resultInterm:::List( (date1, date2) );
+          //println("Dates Added")
+          //println("Size of ResultInterm:"+resultInterm.size)
+        }
 
         resultInterm
-        }).reduce(_:::_);
+      }).reduce(_:::_);
     }
     //println("Size of Result:"+result.size)
     result;
@@ -407,7 +438,7 @@ println(map)*/
 
   def getTimeSequenceDays(venueHours : VenueHoursTimeFrames) : List[((Int, Int, Int), (Int, Int, Int))]= {
     val daysString = venueHours.days.get.split("\\u2013");
-   // var daysInt = List(getDayInt(daysString(0)));
+    // var daysInt = List(getDayInt(daysString(0)));
 
     var daysInt = getDayInt(daysString(0)) to getDayInt(daysString(0));
 
@@ -416,58 +447,19 @@ println(map)*/
     }
 
     daysInt.map((day : Int) => { //println("Found a day");
-                                  getTimeSequenceHours(day, venueHours.open.get)}).reduce(_:::_)
+      getTimeSequenceHours(day, venueHours.open.get)}).reduce(_:::_)
   }
 
-  def getTimeSequence() : List[((Int, Int, Int), (Int, Int, Int))] = {//Gets the sequence of opening times of the venue (on the form (Date1, Date2) where Date1 is an opening hour and Date2 the corresponding closing hour)
-    this.venue.hours match{
+  def getTimeSequence(venueHours : VenueHours) : List[((Int, Int, Int), (Int, Int, Int))] = {//Gets the sequence of opening times of the venue (on the form (Date1, Date2) where Date1 is an opening hour and Date2 the corresponding closing hour)
+    venueHours match{
       case None => {//println("First empty");
-                    List.empty}
-      case _ =>     this.venue.hours.get.timeframes match{
+        List.empty}
+      case _ =>     venueHours.timeframes match{
         case None => {//println("Second empty");
-                      List.empty}
-        case _ => this.venue.hours.get.timeframes.get.map( (venueHours : VenueHoursTimeFrames) => {getTimeSequenceDays(venueHours)} ).reduce(_:::_)
+          List.empty}
+        case _ => venueHours.timeframes.get.map( (venueHours : VenueHoursTimeFrames) => {getTimeSequenceDays(venueHours)} ).reduce(_:::_)
       }
     }
   }
-}
 
-/*
-case class VenueHoursRenderedTime(renderedTime: Option[String], dummy: Option[Int])
-
-case class VenueHoursTimeFrames(days: Option[String], open: Option[List[VenueHoursRenderedTime]])
-
-case class VenueHours(dummy: Option[Int], timeframes: Option[List[VenueHoursTimeFrames]])*/
-
-object Venue{
-  /**
-   * Create venue feature vector from the parsed [[Venue]] object
-   * @param v parsed venue
-   * @return venue feature vector
-   */
-  def featureVector(v: Venue):VenueVector = {
-    if(v.venue.id == "4d4fe94b529dcbffe118d5c4"){
-      println("Find venue 4d4fe94b529dcbffe118d5c4")
-      val features = List(
-      TextFeature(Cons.VENUE_ID, v.venue.id),
-      DoubleFeature(Cons.POPULARITY, compute_popularity(v.venue.stats.checkinsCount, v.venue.stats.tipCount.get, v.venue.stats.usersCount.get)),
-        CoordinatesFeature(Cons.GPS_COORDINATES, (v.venue.location.get.lat.get, v.venue.location.get.lng.get)),
-        CategoryFeature(Cons.CATEGORY, v.venue.categories.get.map(_.name)),
-
-      TimeFeature(Cons.TIME, v.getTimeSequence())
-    )
-      new VenueVector(features, null)}
-    else{val features = List(
-      TextFeature(Cons.VENUE_ID, v.venue.id)
-    )
-      new VenueVector(features, null)}
-
-
-  }
-
-  def compute_popularity(checkinsCount: Double,
-      tipsCount: Double, usersCount: Double): Double = {
-
-    checkinsCount + tipsCount + usersCount
-  }
 }

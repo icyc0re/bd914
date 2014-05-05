@@ -1,9 +1,12 @@
-from django.shortcuts import render, redirect
 from django.conf import settings
+from django.shortcuts import render, redirect
 import foursquare
 import json
+import requests
+
 
 ACCESS_TOKEN = 'access_token'
+USER = 'user'
 
 # Create your views here.
 def home(request):
@@ -21,6 +24,7 @@ def home(request):
 	access_token = request.session[ACCESS_TOKEN]
 
 	user = client.users()
+	request.session[USER] = user
 	
 	json_string = json.dumps(user)
 
@@ -36,7 +40,45 @@ def login(request):
 	auth_uri = client.oauth.auth_url()
 	return redirect(auth_uri)
 
+def recommend(request):
+	# not post
+	
+	#user not logged in
+	if not request.session.has_key(ACCESS_TOKEN):
+		render(request, 'login.html')
+	
+	# post
+	if request.method == "POST":
+		#receive value from post
+		time = request.POST["time"]
+		lat = request.POST["lat"]
+		lng = request.POST["lat"]
+		
+		url = 'http://bigdataivan.cloudapp.net:8090'
+		payload = {'time': time, 'lat': lat, 'lng': lng}
+		#get json files
+		userPath = "./user.json" 
+		with open(userPath,'a') as outfile:
+			json.dump(request.session[USER], outfile) 	# in file
 
+		files = {'file': open(userPath, 'rb')}
+		#send post request to ivan
+		r = requests.post(url, data=payload, files=files)
+		
+		#see result
+		r.text
+		# save results from requests
+		
+		#redirect to recommend_list that list the recommendations with data received from ivan
+		return render(request, 'recommend_list.html')
+		
+	# display recommend.html
+	return render(request, 'recommend.html')
+
+
+def recommend_list(request):
+	return render(request)
+	
 def logout(request):
 	del request.session[ACCESS_TOKEN]
 	return redirect('/')

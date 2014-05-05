@@ -1,12 +1,13 @@
 package vectors
 
-import features.BooleanFeature
-import features.DoubleFeature
-import features.Feature
-import features.IntFeature
+import features._
 import input.UserInputProcessor
 import sets.AbstractVectorSet
 import utils.Cons
+import features.BooleanFeature
+import features.IntFeature
+import features.DoubleFeature
+import scala.Some
 
 /**
  * * See [[input.User]] for the list of features that make the vector
@@ -35,16 +36,53 @@ class UserVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet])
    * @param venues collection of venues
    */
   def applyVenues(venues: Seq[VenueVector]): UserVector = {
-    val size = venues.size
-    venues.foreach((x: VenueVector) =>
-      x.features.foreach((f: Feature[_, _]) =>
-        findFeature(f.key) match {
-          case Some(old: Feature[_, _]) => combineFeatures(old, f, 1 / size)
-          case None => putFeature(f)
-        }
-      )
-    )
-    this
+    // add all of the interaction venue categories to the existing user categories
+    val categories = CategoryFeature(Cons.CATEGORY, getFeatureValue[Seq[String]](Cons.CATEGORY).getOrElse(List.empty[String]) ++
+      venues.collect {
+        case (x: VenueVector) if !x.getFeatureValue[Seq[String]](Cons.CATEGORY).getOrElse(List.empty).contains(Cons.HOME_PRIVATE) => x.getFeatureValue[Seq[String]](Cons.CATEGORY).get
+      }.flatten)
+
+    // combine gps
+    val gps = CoordinatesFeature(Cons.GPS_COORDINATES, getGPSCenter(venues.map(_.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).getOrElse((.0, .0))) :+ getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).getOrElse((.0, .0))))
+    // combine popularity
+    val popularity = DoubleFeature(Cons.POPULARITY, computePopularity(venues.map(_.getFeatureValue[Double](Cons.POPULARITY).get) :+ getFeatureValue[Double](Cons.POPULARITY).get))
+
+    val userId = TextFeature(Cons.USER_ID, getFeatureValue[String](Cons.USER_ID).get)
+    // new, updated user vector
+    new UserVector(List(userId, categories, gps, popularity), null)
+  }
+
+  def computePopularity(pops: Seq[Double]): Double = {
+    pops.sum / pops.size
+  }
+
+  /**
+   * compute the average of gps coordinates of the user interactions
+   * @return average of gps coordinates of the user interactions
+   */
+  def getGPSCenter(coords: Seq[(Double, Double)]): (Double, Double) = {
+    var lat: Double = 0
+    var lng: Double = 0
+
+    def isInNY(venueLat: Double, venueLng: Double): Boolean = {
+      Cons.NY_AREA("s") <= venueLat && venueLat <= Cons.NY_AREA("n") &&
+        Cons.NY_AREA("w") <= venueLng && venueLng <= Cons.NY_AREA("e")
+    }
+
+    var validOnes = 0
+    for ((ilat, ilng) <- coords) {
+      isInNY(ilat, ilng) match {
+        case true =>
+          //get venue gps location, check it is in NY area
+          lat += ilat
+          lng += ilng
+          validOnes+=1
+        case false => // ignore this one
+      }
+    }
+
+    if (validOnes == 0) (40.7056308, -73.9780035)
+    else (lat / validOnes, lng / validOnes)
   }
 
   def combineFeatures(old: Feature[_, _], n: Feature[_, _], weight: Double) = {
