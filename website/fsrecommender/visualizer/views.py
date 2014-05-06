@@ -2,11 +2,13 @@ from django.conf import settings
 from django.shortcuts import render, redirect
 import foursquare
 import json
+import os
 import requests
 
 
 ACCESS_TOKEN = 'access_token'
 USER = 'user'
+RESULTS_PATH = 'recommender_results'
 
 # Create your views here.
 def home(request):
@@ -52,12 +54,13 @@ def recommend(request):
 	# post
 	if request.method == "POST":
 		#receive value from post
+		userId = request.session[USER]["user"]["id"]
 		time = request.POST["time"]
 		lat = request.POST["lat"]
 		lng = request.POST["lng"]
 		
 		url = 'http://bigdataivan.cloudapp.net:8090'
-		payload = {'time': time, 'lat': lat, 'lng': lng}
+		payload = {'userId': userId, 'time': time, 'lat': lat, 'lng': lng}
 		#get json files
 		userPath = "./user.json" 
 		with open(userPath,'a') as outfile:
@@ -65,14 +68,16 @@ def recommend(request):
 
 		files = {'file': open(userPath, 'rb')}
 		#send post request to ivan
-		r = requests.post(url, data=payload, files=files)
+		#r = requests.post(url, data=payload, files=files)
 		
-		#see result
-		r.text
 		# save results from requests
+		venues = ["3fd66200f964a52005e71ee3"]
+		with open(os.path.join(settings.BASE_DIR, RESULTS_PATH , userId), "w") as venuesFile:
+			for venue in venues:
+				venuesFile.write(venue+"\n")
 		
 		#redirect to recommend_list that list the recommendations with data received from ivan
-		return render(request, 'recommend_list.html')
+		return render(request, 'map.html')
 		
 	# display recommend.html
 	return render(request, 'recommend.html')
