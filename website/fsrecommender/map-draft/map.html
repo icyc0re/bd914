@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>4SQ Project</title>
+
+
+<!-- MAPBOX STUFF -->
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
+<script type="text/javascript"  src="{{STATIC_URL}}scripts/jquery.min.js"></script>
+
+<!-- BOOTSTRAP STUFF - NOT USED -->
+<script type="text/javascript"  src="{{STATIC_URL}}scripts/bootstrap.min.js"></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+<link href='style.css' rel='stylesheet' />
+<script type="text/javascript"  src="{{STATIC_URL}}mockVenues.js"> </script>
+
+<!-- FONT -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+
+<!-- COOL KITTEN (LIGHTWEIGHT RESPONSIVE GRID) -->
+<link rel="stylesheet" href="{{STATIC_URL}}cool-kitten-master/css/normalize.css" type="text/css" media="screen">
+<link rel="stylesheet" href="{{STATIC_URL}}cool-kitten-master/css/grid.css" type="text/css" media="screen">
+
+
+<!-- DATA VIS LIBRARY -->
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+
+</head>
+<body>
+
+<!-- NAVIGATION MENU -->
+<div id = 'top-menu'>
+
+  <div class = 'container clearfix'></div>
+  
+  <div class='grid_3' >
+   <p id = 'logo' > 4SQ Projects </p>
+  </div>
+  <div  class='grid_8 omega'>
+    <nav>
+        <ul>
+        <li><a href=""> SomeLinkX </a></li>
+        <li><a href=""> SomeLinkY </a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<!-- CONTENT -->
+<div class = 'container clearfix'></div>
+
+<!-- map area -->
+<div class = 'grid_12 alpha omega' id = 'content'>
+  <div class ='grid_6 box' id = 'map-area'>
+    <h1> Random Map</h1>
+    <div id = 'map-container'>
+      <div if = 'test'>
+       <div id='map'></div>
+      </div>
+    </div>
+  </div>
+
+<!-- recommendation list area -->
+  <div class = 'grid_6 omega' id =  'right-side'>
+      <div class = 'grid_12 box' > 
+
+      <!-- filtering options -->
+        <h1>Filtering options ?</h1>
+      </div>
+      <!-- recommendations -->
+      <div id = 'recommendations' class = 'grid_12 box'> 
+        <h1> Displaying Recommendations ? </h1>
+      </div>
+  </div>
+
+</div>
+
+<!-- DISPLAYING RECOMMENDATION LIST SCRIPT -->
+<script>
+  
+  //For each venue in the recommendedLocations list
+  for (var i = (recommendedLocations.length - 1); i >= 0 ; i--) {
+    
+    var div = document.createElement("div");
+
+    //basic info
+    var content =  '<div class = "grid_5 recommendation"> <h2>' + recommendedLocations[i]["venue"]["name"] + 
+        '</h2> <h3> likes: ' + recommendedLocations[i]["venue"]["likes"]["count"] +  '</h3>';
+
+
+    //Add first Tips
+    content += '<div>';
+    if(recommendedLocations[i]["venue"]["tips"] != undefined && recommendedLocations[i]["venue"]["tips"]["count"] > 0){
+        content += ' <h3> Tips </h3>  <p>' + 
+            recommendedLocations[i]["venue"]["tips"]["groups"][0]["items"][0]["text"] +
+            ' <i>   by ' + 
+            recommendedLocations[i]["venue"]["tips"]["groups"][0]["items"][0]["user"]["firstName"] +
+            '</i></p>';
+    };
+    content += '</div>';
+      
+    //  Made up random Pie chart (gender? whatever?)
+
+
+    //add photos, if they exist
+    content += '<div>'
+      if(recommendedLocations[i]["venue"]["photos"] != undefined){
+        if(recommendedLocations[i]["venue"]["photos"]["count"] > 0){
+          var limit;
+          if(recommendedLocations[i]["venue"]["photos"]["count"] < 4)
+            limit = recommendedLocations[i]["venue"]["photos"]["count"] ;
+          else
+            limit = 4;
+          for(var  j = 0;  j < limit; j++){
+          
+            var photo = recommendedLocations[i]["venue"]["photos"]["groups"][0]["items"][j];
+          
+            //console.log(photo);
+            content += '<img class= "venue-icon" src ="' +  photo["prefix"] + 'cap50' + photo["suffix"] + '">';
+          }
+        }
+       };
+      //End of content
+      content += '</div>';
+
+      //Add division for gender statistics
+
+      content += '<div class = "stats"><span  class = "astat" id = rec' + i + '_stat > <h3>men/female: </h3></span></div>';
+
+      //End of content
+      content += '</div>';
+
+    div.innerHTML = content;
+    div.id = 'rec' + i;
+    document.getElementById('recommendations').appendChild(div);
+
+
+    var per = Math.random();
+    var data = [{'label': 'women', 'value':+per},{'label': 'men', 'value':+(1-per)}];
+
+    
+    var r = 15;
+
+    var colorScale = d3.scale.ordinal()
+                    .domain(["women", "men"])
+                    .range(["#D7A", "#57D"]);
+       
+    // data = [{"label":"one", "value":20}, 
+    //         {"label":"two", "value":50}, 
+    //         {"label":"three", "value":30}];
+
+    var vis = d3.select("#rec" + i + "_stat")
+        .append("svg:svg")        
+        .data([data])
+            .attr("width", r*2) 
+            .attr("height", r*2)
+        .append("svg:g") 
+            .attr("transform", "translate(" + r + "," + r + ")")
+ 
+    var arc = d3.svg.arc()
+        .outerRadius(r);
+ 
+    var pie = d3.layout.pie()
+        .value(function(d) { return d.value; });
+    var arcs = vis.selectAll("g.slice")
+        .data(pie)
+        .enter() 
+            .append("svg:g")
+                .attr("class", "slice");
+ 
+        arcs.append("svg:path")
+                .attr("fill", function(d) { return colorScale(d['data']['label']); } ) 
+                .attr("d", arc); 
+ 
+        // arcs.append("svg:text")
+        //         .attr("transform", function(d) { 
+        //         d.innerRadius = 0;
+        //         d.outerRadius = r;
+        //         return "translate(" + arc.centroid(d) + ")";
+        //     })
+        //     .attr("text-anchor", "middle")
+        //     .text(function(d, i) { return data[i].label; }); 
+ 
+ }
+
+
+
+</script>
+
+
+<!--  MAP SCRIPT -->
+<script>
+
+	 function getMeanLocation(recommendedLocations){
+      	  var lat = 0, lng = 0;
+      	  
+      	  for(var i = 0; i < recommendedLocations.length; i++){
+      	  		lat += recommendedLocations[i]["venue"]["location"]["lat"];
+      	  		lng += recommendedLocations[i]["venue"]["location"]["lng"];
+      	  }
+      	  return [lat/recommendedLocations.length, lng/recommendedLocations.length];
+      }
+    
+
+    function createGeoJSON(recommendedLocations){
+      var gjson = new Array();
+        for(var i = 0; i < recommendedLocations.length; i++){
+              var coordinates = [recommendedLocations[i]["venue"]["location"]["lng"], recommendedLocations[i]["venue"]["location"]["lat"] ];          
+            
+            gjson.push( {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": coordinates
+          },
+          "properties": {
+              "title": "Mapbox DC",
+              "description": "1714 14th St NW, Washington DC",
+              "marker-color": "#32CD32",
+              "marker-size": "large",
+              "details": recommendedLocations[i]["venue"]
+          }
+          }
+          );
+        }
+      return gjson;
+    }
+
+    
+    // CREATE ACTUAL MAP
+    var map = L.mapbox.map('map', 'emmahf.hmdbmdpk');
+    map.setView(getMeanLocation(recommendedLocations), 15);
+    
+    // CREATE GEOJSON OBJECTS
+  	test = createGeoJSON(recommendedLocations);
+  	console.log(test);
+
+    // ADD FEATURES TO MAP
+      var featureLayer = L.mapbox.featureLayer({
+          type: 'FeatureCollection',
+          features: test
+      }).addTo(map);
+    
+    featureLayer.eachLayer(function(layer) {
+	
+	
+    var content = '<div class = "popup"> <h2>' + layer.feature.properties.details["name"] + 
+    	'</h2> <h3> likes: ' + layer.feature.properties.details["likes"]["count"]+
+    	'</h3>';
+
+    content += '<div>';
+    if(layer.feature.properties.details["tips"] != undefined && layer.feature.properties.details["tips"]["count"] > 0){
+    	content += '<h3> Tips </h3>  <p>' + 
+    			layer.feature.properties.details["tips"]["groups"][0]["items"][0]["text"] +
+    			' <i>   by ' + 
+    			layer.feature.properties.details["tips"]["groups"][0]["items"][0]["user"]["firstName"] +
+    			'</i></p>';
+    }
+
+    content += '</div>';
+    
+    //add photos to popup, if they exist
+    content += '<div>';
+    if(layer.feature.properties.details["photos"] != undefined){
+    	if(layer.feature.properties.details["photos"]["count"] > 0){
+			var limit;
+			if(layer.feature.properties.details["photos"]["count"] < 4)
+				limit = layer.feature.properties.details["photos"]["count"] ;
+			else
+				limit = 4;
+			for(var  i = 0;  i < limit; i++){
+			
+				var photo = layer.feature.properties.details["photos"]["groups"][0]["items"][i];
+			
+				//console.log(photo);
+				content += '<img class= "venue-icon" src ="' +  photo["prefix"] + 'cap50' + photo["suffix"] + '">';
+			}
+   	 }
+    }
+    content += '</div';
+    
+    content += '</div';
+	//var popup = L.popup().setContent(content)
+		
+	
+    	layer.bindPopup(content, { minWidth:250, autoPan:true});
+	});
+	
+	
+//    featureLayer.on('click', function(e) {
+//         map.panTo(e.layer.getLatLng());
+//     });
+    
+    
+</script>
+
+
+</body>
+</html>
