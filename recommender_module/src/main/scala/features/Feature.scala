@@ -22,7 +22,7 @@ case class CategoryFeature(k:String, v:Seq[String]) extends Feature[String, Seq[
 case class PriceFeature(k:String, v:VenuePrice) extends Feature[String, VenuePrice](k, v) with Filterable
 case class CoordinatesFeature(k:String, v:(Double, Double)) extends Feature[String, (Double, Double)](k, v) with Filterable
 //case class TimeFeature(k:String, v:List[(Date, Date)]) extends Feature[String, List[(Date, Date)]](k, v) with Filterable
-case class TimeFeature(k:String, v:List[((Int, Int, Int), (Int, Int, Int))]) extends Feature[String, List[((Int, Int, Int), (Int, Int, Int))]](k, v) with Filterable
+case class TimeFeature(k:String, v:Seq[((Int, Int, Int), (Int, Int, Int))]) extends Feature[String, Seq[((Int, Int, Int), (Int, Int, Int))]](k, v) with Filterable
 
 abstract class Feature[+K, +V](k:K, v:V){
   val key:K = k
