@@ -14,7 +14,7 @@
 <script type="text/javascript"  src="{{STATIC_URL}}scripts/bootstrap.min.js"></script>
 <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
 <link href='style.css' rel='stylesheet' />
-<script type="text/javascript"  src="{{STATIC_URL}}mockVenues.js"> </script>
+<!-- <script type="text/javascript"  src="{{STATIC_URL}}mockVenues.js"> </script> -->
 
 <!-- FONT -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
@@ -80,6 +80,10 @@
 
 <!-- DISPLAYING RECOMMENDATION LIST SCRIPT -->
 <script>
+  
+  //read venues file
+  var recommendedLocations = new Array();
+  recommendedLocations.push(response))
   
   //For each venue in the recommendedLocations list
   for (var i = (recommendedLocations.length - 1); i >= 0 ; i--) {

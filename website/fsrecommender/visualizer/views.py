@@ -8,7 +8,7 @@ import requests
 
 ACCESS_TOKEN = 'access_token'
 USER = 'user'
-RESULTS_PATH = 'recommender_results'
+VENUES_DIRECTORY = '../../../dataset/sample/venues'
 
 # Create your views here.
 def home(request):
@@ -70,14 +70,16 @@ def recommend(request):
 		#send post request to ivan
 		#r = requests.post(url, data=payload, files=files)
 		
+		client = foursquare.Foursquare(access_token=request.session[ACCESS_TOKEN])
+
 		# save results from requests
-		venues = ["3fd66200f964a52005e71ee3"]
-		with open(os.path.join(settings.BASE_DIR, RESULTS_PATH , userId), "w") as venuesFile:
-			for venue in venues:
-				venuesFile.write(venue+"\n")
+		venues = list()
+		venues_id = ["3fd66200f964a52005e71ee3"]
+		for venue_id in venues_id:
+			venues.append(client.venues(venue_id))
 		
 		#redirect to recommend_list that list the recommendations with data received from ivan
-		return render(request, 'map.html')
+		return render(request, 'map.html', {'venues':venues})
 		
 	# display recommend.html
 	return render(request, 'recommend.html')
