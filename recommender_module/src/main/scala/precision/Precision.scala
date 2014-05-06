@@ -3,10 +3,17 @@ package precision
 import utils.Cons
 import vectors.{VenueVector, VenueListType, UserVector}
 
+import scala.util.parsing.json.JSON
+import scala.collection.mutable.ListBuffer
+import vectors.UserVector
+import utils.Cons
+
 /**
  * Keeps list of all categories and similarity between any two categories
  * @author Jakub Swiatkowski
  */
+
+
 object Precision {
 
   /**
@@ -47,8 +54,6 @@ object Precision {
   Seq[UserVector]  = {
     userInteractions.map(x => x._1.applyVenues(x._2(VenueListType.notDeleted))).toSeq
   }
-  //def calculatePrecision() : Double = {}
-
 
 
 }
