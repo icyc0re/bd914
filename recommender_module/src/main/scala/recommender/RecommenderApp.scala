@@ -41,7 +41,7 @@ object RecommenderApp {
     }
     
     // Plug in PreFiltering here once we have an actual context
-    val dummyContext: ContextVector = Context.grab()
+    val dummyContext: ContextVector = Context.grabTestContextVector(1)
     v = PreFilter.apply(v, dummyContext)
 
 
