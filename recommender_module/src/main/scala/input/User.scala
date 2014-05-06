@@ -3,7 +3,7 @@ package input
 
 import scala.util.parsing.json.JSON
 import scala.collection.mutable.ListBuffer
-import vectors.UserVector
+import vectors.{VenueVector, UserVector}
 import utils.Cons
 import features.{TextFeature, DoubleFeature}
 
@@ -87,6 +87,18 @@ class User(jsonString: String) {
 
 
 object User {
+
+  var users: Seq[(UserVector, Seq[VenueVector])] = Nil
+
+  def getAll: Seq[(UserVector, Seq[VenueVector])] = {
+    users match {
+      case Nil =>
+        users = new RawUserInputProcessor().processInDir(Cons.USERS_PATH)
+      case _ => // nothing
+    }
+    users
+  }
+
   def featureVector(u: User): UserVector = {
     val features = List(
       TextFeature(Cons.USER_ID, u.id),

@@ -118,6 +118,16 @@ object UserVector {
     vectors
   }
 
+  // Create user vector from VenueVectors of a user
+  def getAll(userVenueVectors: Map[UserVector, Seq[VenueVector]]): Seq[UserVector] = {
+    vectors match {
+      case Nil =>
+        vectors = userVenueVectors.map(x => x._1.applyVenues(x._2)).toSeq
+      case _ => // nothing
+    }
+    vectors
+  }
+
   def getById(id: String): UserVector = getAll.find((x: UserVector) =>
     x.getFeatureValue[String](Cons.USER_ID).get == id
   ) match {
