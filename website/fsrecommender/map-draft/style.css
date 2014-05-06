@@ -1,0 +1,164 @@
+/*------MAP RELATED CSS ------------*/
+
+/* #map-area{ position:fixed;}
+*/ #map-container{position:relative; height:500px; }
+ #map { position:absolute; top:0; bottom:0; width:100%; }
+
+#right-side{
+	float:right;
+
+}
+
+.popup {
+	
+	display: block;
+/* 	width: 400px; */
+/* 	height: 100px; */
+}
+
+ .popup {
+ 	width:100%;
+ }
+
+
+.venue-icon{
+	padding: 10px 10px 0 0;
+}
+
+/*---------GENERAL--------------*/
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open-Sans', sans-serif;
+
+}
+
+
+h1,h2,h3,h4{
+	
+	font-family: 'Open-Sans', sans-serif;
+	color: #169A61;
+	/*color: LimeGreen;*/
+	font-size: 1em;
+}
+
+h1{
+	font-weight: 600;
+	/*padding: 0 1em 0 1em;*/
+	text-transform: uppercase;
+
+}
+
+#content{
+	position: absolute;
+	top: 70px;
+}
+
+.box{
+	box-shadow: 0px 0px 1px #CCC;
+}
+
+/*-----LInks ----------------------_*/
+
+
+a:link {
+	color: #f68f67;
+	text-decoration: none;
+}
+a:hover {
+	color: #bde2df;
+	text-decoration: none;
+}
+a:visited {
+	color: #f68f67;
+	text-decoration: none;
+}
+
+
+
+/*-----Recommendation List --------*/
+.recommendation{
+	padding: 1em;
+	margin: 1em;
+	box-shadow: 0px 0px 1px #CCC;
+}
+
+.recommendation:hover{
+
+	box-shadow: 0px 0px 5px #CCC;
+
+}
+
+.recommendation div {
+	margin-top: 0.3em;
+	margin-bottom:0.3em;
+}
+
+.recommendation h3, .pop-up div h3{
+	display: inline;
+	color: silver;
+	font-size: 0.9em;	
+}
+
+.recommendation p, .pop-up p{
+	display: inline;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+.astat{
+}
+/*-----MENU-------*/
+
+ #top-menu {
+	position:fixed;
+	top:0px;
+	width:100%;
+	/*height: 60px;*/
+	background-color:#fff;/*D9FB3F*/
+	z-index:100;
+	color: LimeGreen;
+	font-size: 1.3em;
+	padding: 10px 10px 0 0;
+	box-shadow: 0px 1px 2px #AAA;
+}
+
+#logo {
+	/*display: inline;*/
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-left: 1em;
+}
+nav {
+	float: right;
+	text-align: right;
+	margin: 0;
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	padding:0 0 0 50px;*/
+}
+
+nav ul li a:link {
+	color: LimeGreen;
+	text-decoration: none;
+}
+nav ul li a:visited {
+	color: LimeGreen;
+	text-decoration: none;
+}
+nav ul li a:hover {
+/*	color: Pink;
+*/	
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*nav .active{
+	cursor:pointer;
+	color: #58A1FC;
+	font-weight:bold;
+}*/
