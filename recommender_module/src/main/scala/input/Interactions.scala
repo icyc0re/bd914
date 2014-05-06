@@ -21,45 +21,6 @@ case class VenueLocation(city: Option[String], cc: Option[String], state: Option
 case class VenueCategory2(id: Option[String], name: Option[String], pluralName: Option[String], shortName: Option[String],
                          primary: Option[Boolean])
 
-case class VenuePrice(tier: Option[Int], message: Option[String], currency: Option[String])
-
-case class VenueReasonsItem(summary: Option[String], tyype: Option[String], reasonName: Option[String])
-
-case class VenueReasons(count: Option[Int], items: Option[List[VenueReasonsItem]])
-
-case class VenueMayor(count: Option[Int], id: Option[String], firstName: Option[String], lastName: Option[String],
-                      gender: Option[String], homeCity: Option[String], relationship: Option[String])
-
-case class VenueAttributeItem(displayName: Option[String], displayValue: Option[String], priceTier: Option[Int])
-
-case class VenueAttribute(tyype: Option[String], name: Option[String], summary: Option[String],
-                          count: Option[Int], items: Option[List[VenueAttributeItem]])
-
-case class VenueAttributes(groups: Option[List[VenueAttribute]], dummy: Option[Int])
-
-case class VenueHoursRenderedTime(renderedTime: Option[String], dummy: Option[Int])
-
-case class VenueHoursTimeFrames(days: Option[String], open: Option[List[VenueHoursRenderedTime]])
-
-case class VenueHours(dummy: Option[Int], timeframes: Option[List[VenueHoursTimeFrames]])
-
-case class VenuePhotosGroupItemUser(id: Option[String], firstName: Option[String], lastName: Option[String], gender: Option[String])
-
-case class VenuePhotosGroupItem(id: Option[String], visibility: Option[String], user: Option[VenuePhotosGroupItemUser])
-
-case class VenuePhotosGroup(tyype: Option[String], count: Option[Int], items: Option[List[VenuePhotosGroupItem]])
-
-case class VenuePhotos(count: Option[Int], groups: Option[List[VenuePhotosGroup]])
-
-case class VenueTipsGroupItem(id: Option[String], text: Option[String], likes: Option[Int])
-
-case class VenueTipsGroup(user: Option[VenuePhotosGroupItemUser], tyype: Option[String], count: Option[Int],
-                          items: Option[List[VenueTipsGroupItem]])
-
-case class VenueTips(count: Option[Int], groups: Option[List[VenueTipsGroup]])
-
-case class VenuePhrases(phrase: Option[String], count: Option[Int])
-
 case class VenueCompact2(categories: Option[List[VenueCategory2]], id: Option[String], name: Option[String], url: Option[String], stats: Option[VenueStats2],
                         price: Option[VenuePrice], likes: Option[Int], rating: Option[Int], reasons: Option[VenueReasons],
                         mayor: Option[VenueMayor], tags: Option[List[String]], contact: Option[VenueContact], attributes: Option[VenueAttributes],

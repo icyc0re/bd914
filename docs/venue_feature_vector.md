@@ -11,18 +11,8 @@ This means that they cannot be precomputed before having the user input, so we  
 Vector (non-precomputable: np)
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Attribute | Type                 | Calculation 
-:------------| :--------------: 	|
-=======
 Attribute     | Type                 | Calculation  |
 :------------ | :--------------: 	| -------------
->>>>>>> FETCH_HEAD
-=======
-Attribute     | Type                 | Calculation  |
-:------------ | :--------------: 	| -------------
->>>>>>> FETCH_HEAD
 latitude	  |	Numerical			|
 longitude 	  | Numerical			|
 (Distance (np)) | Numerical      		| See below
@@ -31,15 +21,7 @@ Rating 		  |	Numerical			| rating / 10
 Check-ins     | "Ordinal"	   		| See below
 Hours 		  | "Text"				|
 (Hours 	 (np)) | True (1) unknown (0.5) False(0) 	|
-Cateogries 	  | True (1) False(0) 	|
-Arts & Entertainment | 			|
-College & University | 			|
-Food				   |  			|
-Great Outdoors 	   |  			|
-Home, Work, Other    |  			|
-Nightlife Spot	   |			|
-Shop				   |			|
-Travel Spot		   |			|
+Categories 	  | Seq[String] 	| See below
 
 
 Each of this could/should be weighted. This can be done either as suggested in 
@@ -51,9 +33,42 @@ As a notion though it is likely we want to set the importance of for example cat
 Categories
 --------
 
-As all venues have at least one category these should be emplyed in the system. The most simple modelling case would be to simply check the category using the category tree and set the value to 1 in the corresponding highest category level. The category tree is described by foursquare [here](https://developer.foursquare.com/categorytree).
+From the statistics it has been reported an average of (more or less) 1 category per venue, which can vary to 0 (in a small set of cases) and more. The type of computation needs to be flexible to consider all these cases and let the possibility to compute venue category similarity with the habits of a user.
+In order to do this we use the official category tree (described by foursquare [here](https://developer.foursquare.com/categorytree)), and we treat it as a forest of trees (every highest level category is a root of a tree).
 
-[here](http://research.microsoft.com/pubs/172445/LocationRecommendation.pdf) is an interesting article from microsoft on creating a recommendation system on geobased data. It has a collaborative approach, but still offers some interesting notions of a weighted category tree according to history and preference of a user.
+Since the foursquare category tree is a static structure and we also work on a static set of data we treat the category similarity as a precomputed and static 1-to-1 relationship between every couple of category. We represent this in a file as a triangular matrix which contains as rows and columns the categories and for each couple of category their similarity.
+NB: the diagonal will be filled with 1 and similarities will be >0 only within the same tree of the forest).
+
+	| C1 | C2 | C3 | ... | Cn
+:---: | :---: | :---: | :---: | :---: | :---:
+**C1** | 1 | 0 | 0 | - | 0
+**C2** | 0 | 1 | 0.8 | - | 0
+**C3** | 0 | 0.8 | 1 | - | 0
+**...** | - | - | - | - | -
+**Cn** | 0 | 0 | 0 | - | 1
+
+**Matrix building process**
+1. Recreate the foursquare tree as a forest
+2. Reduce the forest removing unused categories (to simplify and adapt to our data)
+3. for each category c1 run the similarity script
+
+**Similarity script**
+Starting with a similarity of 1 on the node we have propagate the similarity with 2 operations:
+- *downpropagation(similarity = k)*, called over all the node's children, applies to the children the similarity k * DOWNSCALE_K
+- *uppropagation(similarity = k)*, called over the parent, applies to the parent the similarity k * UPSCALE_K
+
+both these functions will then continue propagating on toward both the parent and the children *except* for the sender (not to loop and overwrite similarities).
+
+The coefficients DOWNSCALE_K and UPSCALE_K can be changed in the script, but are initialized by default to, respectively, 0.95 and 0.5.
+
+If a venue contains more N > 1 categories it's possible to join them simply by adding up the similarity rows (from the categories Cx and Cy) element by element and then normalizing the values with the normalization function:
+
+math.log(x / N * (math.e - 1) + 1)
+
+
+The same can be done with the user with the set of its venues and the categories of all its venues.
+
+
 
 Hours
 --------
