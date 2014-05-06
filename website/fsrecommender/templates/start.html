@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}Start{% endblock %}
+
+{% block head %}
+<style>
+.startform {
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.startform select {
+	margin-top: 1em;
+}
+
+.startform input[type=submit] {
+	margin-top: 2em;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<section class="startform">
+	<h2>Select a category!</h2>
+	<form action="" method="post">{% csrf_token %}
+		<select class="form-control " placeholder="Pick a category!">
+			<option value="0">-- category --</option>
+			<option value="1">Shop</option>
+			<option value="2">Bar</option>
+			<option value="3">Smth</option>
+		</select>
+		<input type="submit" />
+	</form>
+</section>
+{% endblock %}
