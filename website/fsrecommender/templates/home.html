@@ -2,13 +2,22 @@
 
 {% block title %}4square Recommender{% endblock %}
 
-{% block content %}
-<h2>Welcome to the 4SquareRecommender! Please login below to begin:</h2>
-<div class="clearfix">
-	<a href="/login/" class="button">Login</a>
-	<a href="/locationtime/" class="button">Select location&amp;time</a>
-	<a href="/recommend/" class="button">Select info</a>
-</div>
+{% block header %}
+{% if logged_in %}
+<ul>
+<li><a class="btn" type="button" href="/profile">profile</a></li>
+<li><a class="btn" type="button" href="/logout/">logout</a></li>
+</ul>
+{% endif %}
+{% endblock %}
 
-{{user_data}}
+{% block content %}
+<div class="clearfix">
+	{% if logged_in %}
+		<a class="btn" type="button" href="/locationtime/">Select location&amp;time</a>
+		<a class="btn" type="button" href="/recommend/">Select info</a>
+	{% else %}
+		<a class="btn" type="button" href="/login/">Login with Foursquare</a>
+	{% endif %}
+</div>
 {% endblock %}

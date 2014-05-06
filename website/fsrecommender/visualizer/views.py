@@ -10,8 +10,35 @@ ACCESS_TOKEN = 'access_token'
 USER = 'user'
 VENUES_DIRECTORY = '../../../dataset/sample/venues'
 
+
+def logged_in(function):
+	""" Authentication checker decorator """
+	def wrap(request, *args, **kwargs):
+		if request.session.has_key(ACCESS_TOKEN) and request.session[ACCESS_TOKEN]:
+			return function(request, *args, **kwargs)
+		else:
+			return redirect('/')
+	return wrap
+
+
+
+
+def login(request):
+	""" Login through foursquare """
+	client = foursquare.Foursquare(client_id=settings.CLIENT_ID, client_secret=settings.CLIENT_SECRET, redirect_uri=settings.REDIRECT_URI)
+	auth_uri = client.oauth.auth_url()
+	return redirect(auth_uri)
+
+def logout(request):
+	""" Remove session data """
+	request.session.clear()
+	return redirect('/')
+	
+
+
 # Create your views here.
 def home(request):
+	""" Landing page """
 
 	# complete oauth retrieving token (unless already in session)
 	login_code = request.GET.get('code', '')
@@ -36,13 +63,8 @@ def home(request):
 # 		with open(userPath,'a') as outfile:
 # 			json.dump(user, outfile) 	# in file
 
-	return render(request, 'home.html', {'user_data': user})
+	return render(request, 'home.html', {'logged_in': True, 'user_data': user})
 
-
-def login(request):
-	client = foursquare.Foursquare(client_id=settings.CLIENT_ID, client_secret=settings.CLIENT_SECRET, redirect_uri=settings.REDIRECT_URI)
-	auth_uri = client.oauth.auth_url()
-	return redirect(auth_uri)
 
 def recommend(request):
 	# not post
@@ -87,11 +109,6 @@ def recommend(request):
 
 def recommend_list(request):
 	return render(request)
-	
-def logout(request):
-	request.session.clear()
-	return redirect('/')
-
 
 def coldstart(request):
 	return render(request, 'start.html')
@@ -102,3 +119,8 @@ def locationtime(request):
 		# use a form object from django: https://docs.djangoproject.com/en/dev/topics/forms/
 		return render(request, 'locationtime.html') # this should be the recomm page with results
 	return render(request, 'locationtime.html')
+
+@logged_in
+def profile(request):
+	user_json = json.dumps(request.session[USER], sort_keys=True, indent=2)
+	return render(request, 'profile.html', {'user': user_json})
