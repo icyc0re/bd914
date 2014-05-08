@@ -1,6 +1,7 @@
 requirements:
 - Python 2.7
-- Django (1.6.3)
+- Django (1.6)
+- Django Rest Framework (pip install djangorestframework)
 - foursquare package (https://github.com/mLewisLogic/foursquare) [modified by bernard?]
 
 # start development server
