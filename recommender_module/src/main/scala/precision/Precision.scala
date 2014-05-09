@@ -2,7 +2,6 @@ package precision
 
 import utils.Cons
 import vectors.{VenueVector, VenueListType, UserVector}
-import scala.collection.mutable
 
 /**
  * Keeps list of all categories and similarity between any two categories
