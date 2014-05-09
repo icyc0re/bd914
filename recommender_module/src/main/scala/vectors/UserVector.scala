@@ -9,6 +9,7 @@ import features.IntFeature
 import features.DoubleFeature
 import scala.Some
 
+
 /**
  * * See [[input.User]] for the list of features that make the vector
  * @author Ivan Gavrilović
@@ -113,16 +114,6 @@ object UserVector {
     vectors match {
       case Nil =>
         vectors = new UserInputProcessor().processInDir(Cons.USERS_PATH)
-      case _ => // nothing
-    }
-    vectors
-  }
-
-  // Create user vector from VenueVectors of a user
-  def getAll(userVenueVectors: Map[UserVector, Seq[VenueVector]]): Seq[UserVector] = {
-    vectors match {
-      case Nil =>
-        vectors = userVenueVectors.map(x => x._1.applyVenues(x._2)).toSeq
       case _ => // nothing
     }
     vectors

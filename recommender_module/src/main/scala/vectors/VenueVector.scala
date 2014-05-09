@@ -5,6 +5,11 @@ import sets.AbstractVectorSet
 import input.VenueInputProcessor
 import utils.Cons
 
+object VenueListType extends Enumeration {
+  type VenueListType = Value
+  val deleted, notDeleted = Value
+}
+
 /**
  * See [[input.Venue]] for the list of features that make the vector
  * @author Ivan Gavrilović

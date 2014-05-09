@@ -42,6 +42,8 @@ object Cons {
   val NY_AREA = Map[String, Double]("s"->40.526851, "n"->40.913515,"w"-> -74.271888,"e"-> -73.689612)
 
   val HOME_PRIVATE = "Home (private)"
+
+  val PRECISION_DELETION_FACTOR = 0.3
 }
 
 

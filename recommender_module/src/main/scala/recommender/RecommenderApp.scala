@@ -10,6 +10,7 @@ import scalaj.http.Http
 import scala.collection.mutable
 import vectors._
 import context._
+import precision._
 
 /**
  * This is the main class of the recommender system.
@@ -18,6 +19,14 @@ import context._
 object RecommenderApp {
   def main(args: Array[String]) {
     var u : Seq[UserVector] = mutable.MutableList.empty;
+    var userInteractions: Map[UserVector, Map[VenueListType.VenueListType, Seq[VenueVector]]] = Map.empty
+    if(args.size == 1 && args(0).contains("precision")) {
+      userInteractions = Precision.modifyUserInteractions(User.getAll)
+      u = Precision.getUserVectorFromUserInteractions(userInteractions)
+    } else {
+      u = mutable.MutableList.empty;
+    }
+
     // get venue features
     var v: Seq[VenueVector] = VenueVector.getAll
     if(args.size == 2){
