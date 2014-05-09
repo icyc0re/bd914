@@ -19,7 +19,7 @@ import precision._
 object RecommenderApp {
   def main(args: Array[String]) {
     var u : Seq[UserVector] = mutable.MutableList.empty;
-    var userInteractions: Map[UserVector, Map[VenueListType.VenueListType, Seq[VenueVector]]] = Map.empty
+    var userInteractions: Map[String, Map[VenueListType.VenueListType, Seq[VenueVector]]] = Map.empty
     if(args.size == 1 && args(0).contains("precision")) {
       userInteractions = Precision.modifyUserInteractions(User.getAll)
       u = Precision.getUserVectorFromUserInteractions(userInteractions)
@@ -59,7 +59,9 @@ object RecommenderApp {
     val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
     MockVectorSimilarity.printTopKSimilarities(sorted, 5)
 
-    Precision.calculatePrecision()
+    if(args.size == 1 && args(0).contains("precision")) {
+      Precision.calculatePrecision(MockVectorSimilarity.getTopKSimilarities(sorted, 10), userInteractions)
+    }
     //ResponseToWebApp.replyToWebApp(sorted, 3, 0)
   }
 }
