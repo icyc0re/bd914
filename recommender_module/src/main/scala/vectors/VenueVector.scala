@@ -9,7 +9,6 @@ object VenueListType extends Enumeration {
   type VenueListType = Value
   val deleted, notDeleted = Value
 }
-
 /**
  * See [[input.Venue]] for the list of features that make the vector
  * @author Ivan Gavrilović
@@ -52,6 +51,10 @@ object VenueVector {
   ) match{
     case Some(x) => x
     case None => null
+  }
+
+  def getId(x: VenueVector): String = {
+    x.getFeatureValue[String](Cons.VENUE_ID).get
   }
 
   def serialize(v: VenueVector): String = {

@@ -5,7 +5,7 @@ import vectors.{VenueVector, VenueListType, UserVector}
 
 import scala.util.parsing.json.JSON
 import scala.collection.mutable.ListBuffer
-import vectors.UserVector
+import vectors.{VenueVector, UserVector}
 import utils.Cons
 
 /**
@@ -56,4 +56,29 @@ object Precision {
   }
 
 
+   //for one sampled user
+
+    /*
+      Precision is calculated as
+      Number of interactions that were deleted from the user found in the recommendation /
+      Number of recommendations - number of nonDeletedItems found in the recommendations
+     */
+
+  def calculatePrecision(topK: (String, Seq[(String, Double)]), deletedInteractions:  Seq[VenueVector], nonDeletedInteraction:  Seq[VenueVector] ): Double = {
+    var sum = 0.0
+    var numberOfNonDeletedItemsInRecommendations = 0
+    for((venue, value) <-  topK._2){
+      if(deletedInteractions.exists((a:VenueVector) => a == VenueVector.getById(venue)))
+        sum+=1.0
+      if(nonDeletedInteraction.exists((a:VenueVector) => a == VenueVector.getById(venue)))
+        numberOfNonDeletedItemsInRecommendations +=1
+    }
+
+    var result = 0.0
+    if(topK._2.length != numberOfNonDeletedItemsInRecommendations )
+      result = sum / (topK._2.length - numberOfNonDeletedItemsInRecommendations)
+
+    println(result);
+    result
+  }
 }
