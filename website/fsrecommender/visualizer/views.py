@@ -1,8 +1,10 @@
 from django.conf import settings
 from django.shortcuts import render, redirect
+from django.utils import simplejson
 import foursquare
 import json
 import os
+import pprint
 import requests
 
 
@@ -74,15 +76,24 @@ def recommend(request):
 		render(request, 'login.html')
 	
 	# post
-	if request.method == "POST":
+	if 1 or request.method == "POST":
 		#receive value from post
 		userId = request.session[USER]["user"]["id"]
-		time = request.POST["time"]
-		lat = request.POST["lat"]
-		lng = request.POST["lng"]
-		
+		if request.method == "POST":
+			time = request.POST["time"]
+			n = request.POST["n"]
+			e = request.POST["e"]
+			s = request.POST["s"]
+			w = request.POST["w"]
+		else:
+			time = "20:00"
+			n = "40.759"
+			e = "-73.94"
+			s = "40.711"
+			w = "-74.04"
+
 		url = 'http://bigdataivan.cloudapp.net:8090'
-		payload = {'userId': userId, 'time': time, 'lat': lat, 'lng': lng}
+		payload = {'userId': userId, 'time': time, 'n': n, 'e': e, 's': s, 'w': w}
 		#get json files
 		userPath = "./user.json" 
 		with open(userPath,'a') as outfile:
@@ -90,21 +101,22 @@ def recommend(request):
 
 		files = {'file': open(userPath, 'rb')}
 		#send post request to ivan
-		#r = requests.post(url, data=payload, files=files)
+		# r = requests.post(url, data=payload, files=files)
 		
 		client = foursquare.Foursquare(access_token=request.session[ACCESS_TOKEN])
 
 		# save results from requests
 		venues = list()
-		venues_id = ["3fd66200f964a52005e71ee3"]
+		venues_id = ["3fd66200f964a52005e71ee3","3fd66200f964a52008e81ee3","3fd66200f964a52008e81ee3",
+					"3fd66200f964a5200ae91ee3","3fd66200f964a52015e51ee3"]
 		for venue_id in venues_id:
 			venues.append(client.venues(venue_id))
 		
 		#redirect to recommend_list that list the recommendations with data received from ivan
-		return render(request, 'map.html', {'venues':venues})
+		return render(request, 'map.html', {'venues':simplejson.dumps(venues)})
 		
 	# display recommend.html
-	return render(request, 'recommend.html')
+	# return render(request, 'recommend.html')
 
 
 def recommend_list(request):
