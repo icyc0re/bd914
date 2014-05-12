@@ -17,16 +17,24 @@
 	<script src="{{STATIC_URL}}scripts/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
 	<script src="{{STATIC_URL}}scripts/scripts.js"></script>
 
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+
 {% block head %}
 {% endblock %}
 </head>
 
 <body>
 	<header id="header">
-		<div id="header-content">
+		<div id="header-content" class="clearfix">
 			<h1><a href="/">4Square Recommender</a></h1>
 			<div id="header-menu">
-				{% block header %}{% endblock %}
+				{% if logged_in %}
+				<ul>
+					<li><a class="button" href="/profile">Profile</a></li>
+					<li><a class="button" href="/logout/">Logout</a></li>
+				</ul>
+				{% endif %}
 			</div>
 		</div>
 	</header>

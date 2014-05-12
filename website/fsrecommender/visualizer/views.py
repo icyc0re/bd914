@@ -1,6 +1,7 @@
 from django.conf import settings
 from django.shortcuts import render, redirect
 from django.utils import simplejson
+from django.http import HttpResponse
 import foursquare
 import json
 import os
@@ -69,16 +70,33 @@ def home(request):
 
 
 def recommend(request):
-	# not post
-	
 	#user not logged in
 	if not request.session.has_key(ACCESS_TOKEN):
 		render(request, 'login.html')
 	
 	# post
-	if 1 or request.method == "POST":
-		#receive value from post
-		userId = request.session[USER]["user"]["id"]
+	if request.method == "POST":
+		data = {
+			'lat'   : request.POST["latitude"],
+			'lng'   : request.POST["longitude"],
+			'rad'   : request.POST["radius"],
+			'time1' : request.POST["time1"],
+			'time2' : request.POST["time2"],
+			'userId': request.session[USER]["user"]["id"]
+		}
+
+		# Get the JSON user file path and the checkin path?
+		# ...
+
+		url = 'http://bigdataivan.cloudapp.net:8090'
+		r = requests.post(url, data=data)
+
+		return HttpResponse(r.status_code)
+
+
+		## Ask Bernard:
+		###################################################
+		
 		if request.method == "POST":
 			time = request.POST["time"]
 			n = request.POST["n"]

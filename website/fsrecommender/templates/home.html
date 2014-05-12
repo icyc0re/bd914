@@ -2,22 +2,13 @@
 
 {% block title %}4square Recommender{% endblock %}
 
-{% block header %}
-{% if logged_in %}
-<ul>
-<li><a class="btn" type="button" href="/profile">profile</a></li>
-<li><a class="btn" type="button" href="/logout/">logout</a></li>
-</ul>
-{% endif %}
-{% endblock %}
-
 {% block content %}
 <div class="clearfix">
 	{% if logged_in %}
-		<a class="btn" type="button" href="/locationtime/">Select location&amp;time</a>
-		<a class="btn" type="button" href="/recommend/">Select info</a>
+		<a class="button" href="/locationtime/">Select location&amp;time</a>
+		<a class="button" href="/recommend/">Select info</a>
 	{% else %}
-		<a class="btn" type="button" href="/login/">Login with Foursquare</a>
+		<a class="button" href="/login/">Login with Foursquare</a>
 	{% endif %}
 </div>
 {% endblock %}
