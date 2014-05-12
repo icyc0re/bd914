@@ -46,13 +46,13 @@
 		<div class='container clearfix'></div>
 
 		<div class='grid_3'>
-			<p id='logo'>4SQ Projects</p>
+			<p id='logo'>4SQ Recommender</p>
 		</div>
 		<div class='grid_8 omega'>
 			<nav>
 				<ul>
-					<li><a href=""> SomeLinkX </a></li>
-					<li><a href=""> SomeLinkY </a></li>
+					<li><a href="/profile">profile </a></li>
+					<li><a href="/logout/">logout </a></li>
 				</ul>
 			</nav>
 		</div>
@@ -64,7 +64,7 @@
 	<!-- map area -->
 	<div class='grid_12 alpha omega' id='content'>
 		<div class='grid_6 box' id='map-area'>
-			<h1>Random Map</h1>
+			<h1>Map</h1>
 			<div id='map-container'>
 				<div if='test'>
 					<div id='map'></div>
@@ -77,21 +77,26 @@
 			<div class='grid_12 box'>
 
 				<!-- filtering options -->
-				<h1>Filtering options ?</h1>
+				<h1>Filters</h1>
 				<form method="post" action="">{% csrf_token %}
+					<h2>Time</h2>
 					<input type = "text" name = "time" value="20:00">
 					<br/>
+					<br/>
+					<h2>Location</h2>
 					<input id="n" type = "text" name = "n" value="40.759">
 					<input id="e" type = "text" name = "e" value="-73.94">
+					<br/>
 					<input id="s" type = "text" name = "s" value="40.3">
 					<input id="w" type = "text" name = "w" value="-74.04">
+					<br/>
 					<br/>
 					<button type="submit" name="set" class="button">Submit</button>
 				</form>
 			</div>
 			<!-- recommendations -->
 			<div id='recommendations' class='grid_12 box'>
-				<h1>Displaying Recommendations ?</h1>
+				<h1>Recommendations</h1>
 			</div>
 		</div>
 
@@ -153,7 +158,7 @@
 
       //Add division for gender statistics
 
-      content += '<div class = "stats"><span  class = "astat" id = rec' + i + '_stat > <h3>men/female: </h3></span></div>';
+      content += '<div class = "stats"><span  class = "astat" id = rec' + i + '_stat > </span></div>';
 
       //End of content
       content += '</div>';

@@ -123,12 +123,14 @@ def recommend(request):
 		
 		client = foursquare.Foursquare(access_token=request.session[ACCESS_TOKEN])
 
-		# save results from requests
-		venues = list()
-		venues_id = ["3fd66200f964a52005e71ee3","3fd66200f964a52008e81ee3","3fd66200f964a52008e81ee3",
+		# results from requests	
+		venues_id = ["3fd66200f964a52005e71ee3","3fd66200f964a52008e81ee3","3fd66200f964a52023eb1ee3",
 					"3fd66200f964a5200ae91ee3","3fd66200f964a52015e51ee3"]
+		
+		# get venues from api
+		venues = list() 
 		for venue_id in venues_id:
-			venues.append(client.venues(venue_id))
+			venues.append(client.venues(venue_id)) 
 		
 		#redirect to recommend_list that list the recommendations with data received from ivan
 		return render(request, 'map.html', {'venues':simplejson.dumps(venues)})
