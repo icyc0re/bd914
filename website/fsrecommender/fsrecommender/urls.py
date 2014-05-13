@@ -5,11 +5,7 @@ from visualizer.views import home, coldstart, login, logout, profile, cluster_te
 	locationtime, recommend
 
 
-admin.autodiscover()
-
 urlpatterns = patterns('',
-    #url(r'^admin/', include(admin.site.urls)),
-    
     (r'^$', home),
     
     (r'^login/$', login),

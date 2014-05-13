@@ -41,7 +41,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = (
     'visualizer',
-    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -95,12 +94,10 @@ STATIC_URL = '/static/'
 
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates'),
-    os.path.join(BASE_DIR, 'map-draft'),
 )
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
-    os.path.join(BASE_DIR, 'map-draft'),
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (

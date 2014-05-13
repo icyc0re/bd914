@@ -8,8 +8,9 @@
 # Python #
 *.pyc
 
-# Django db #
+# Website db and temporary files #
 *.sqlite3
+website/fsrecommender/*.json
 
 # Eclipse #
 .metadata
