@@ -8,8 +8,9 @@
 # Python #
 *.pyc
 
-# Django db #
-*.sqlite3
+# Website db and temporary files #
+*.slite3
+website/*.json
 
 # Eclipse #
 .metadata
