@@ -8,6 +8,9 @@
 # Python #
 *.pyc
 
+# Django db #
+*.sqlite3
+
 # Eclipse #
 .metadata
 .settings
