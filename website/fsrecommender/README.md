@@ -5,8 +5,6 @@ Website requirements:
 - Django (1.6)
 - foursquare package (https://github.com/mLewisLogic/foursquare)
 
-- Django Rest Framework (pip install djangorestframework) [ FUTURE ]
-
 
 **start development server**
 ``` python
