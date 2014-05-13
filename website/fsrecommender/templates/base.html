@@ -29,7 +29,7 @@
 		<div id="header-content" class="clearfix">
 			<h1><a href="/">4SQ Recommender</a></h1>
 			<div id="header-menu">
-				{% if logged_in %}
+				{% if request.session.is_logged_in == True %}
 				<ul>
 					<li><a class="button" href="/profile">Profile</a></li>
 					<li><a class="button" href="/logout/">Logout</a></li>

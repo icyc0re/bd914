@@ -51,6 +51,7 @@ def home(request):
 		client = foursquare.Foursquare(client_id=settings.CLIENT_ID, client_secret=settings.CLIENT_SECRET, redirect_uri=settings.REDIRECT_URI)
 		access_token = client.oauth.get_token(login_code)
 		request.session[ACCESS_TOKEN] = access_token
+		request.session["is_logged_in"] = True
 	
 	client = foursquare.Foursquare(access_token=request.session[ACCESS_TOKEN])
 	access_token = request.session[ACCESS_TOKEN]
