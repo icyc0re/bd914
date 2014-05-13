@@ -1,16 +1,15 @@
 package recommender
 
-import filtering.MockVectorSimilarity
-import input.{User, Checkins, CheckinsCount}
 import java.io.File
-import input.Category
-import weboutput.{ResponseToWebApp}
-import javax.print.attribute.standard.ReferenceUriSchemesSupported
-import scalaj.http.Http
 import scala.collection.mutable
-import vectors._
 import context._
+import filtering.MockVectorSimilarity
+import input.Checkins
+import input.User
 import precision._
+import vectors._
+import java.io.PrintWriter
+import utils.Cons
 
 /**
  * This is the main class of the recommender system.
@@ -18,6 +17,20 @@ import precision._
  */
 object RecommenderApp {
   def main(args: Array[String]) {
+    
+    // read input arguments
+    val user_id = args(0)
+    if(args.length == 5){
+    	val lat = args(1)
+    	val lng = args(2)
+    	val radius = args(3) 
+    	val time1 = args(4) //min time
+    	val time2 = args(5) //max time
+    }	
+    else{
+    	print("skip prefiltering");
+    }
+      
     var u : Seq[UserVector] = mutable.MutableList.empty;
     var userInteractions: Map[String, Map[VenueListType.VenueListType, Seq[VenueVector]]] = Map.empty
     if(args.size == 1 && args(0).contains("precision")) {
@@ -63,5 +76,14 @@ object RecommenderApp {
       Precision.calculatePrecision(MockVectorSimilarity.getTopKSimilarities(sorted, 10), userInteractions)
     }
     //ResponseToWebApp.replyToWebApp(sorted, 3, 0)
+    
+    //write results to file
+    //TODO: replace dummy venues id by real recommedations
+    val venues_id = List("3fd66200f964a52005e71ee3","3fd66200f964a52008e81ee3","3fd66200f964a52023eb1ee3",
+						 "3fd66200f964a5200ae91ee3","3fd66200f964a52015e51ee3")
+
+	val writer = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY+user_id ))
+    venues_id.foreach(writer.write)
+    writer.close()
   }
 }

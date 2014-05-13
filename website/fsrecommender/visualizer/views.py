@@ -1,18 +1,23 @@
+from collections import OrderedDict
 from django.conf import settings
+from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.utils import simplejson
-from django.http import HttpResponse
 import foursquare
-import json
+import json	
 import os
-import pprint
-import requests
+import subprocess
 
 
 ACCESS_TOKEN = 'access_token'
 USER = 'user'
-VENUES_DIRECTORY = '../../../dataset/sample/venues'
-
+DATA_ROOT = '../../dataset/'
+VENUES_DIRECTORY = DATA_ROOT+'sample/venues/'
+NEW_USER_DIRECTORY = DATA_ROOT+'new_user/'
+CHECKINS_DIRECTORY = NEW_USER_DIRECTORY+'checkins/'
+RECOMMENDATIONS_DIRECTORY = NEW_USER_DIRECTORY+'recommendations/'
+CLUSTER_DIRECTORY = '../../cluster/target/scala-2.10/'
+SCALA_JAR = CLUSTER_DIRECTORY+'simple-project_2.10-1.0.jar'
 
 def logged_in(function):
 	""" Authentication checker decorator """
@@ -57,15 +62,16 @@ def home(request):
 	access_token = request.session[ACCESS_TOKEN]
 
 	user = client.users()
+	user_id = user["user"]["id"]
 	request.session[USER] = user
 
 	checkins = client.users.checkins()
 	
-	json_string = json.dumps(user)
+	with open(NEW_USER_DIRECTORY+user_id,'w+') as outfile:
+		json.dump(user, outfile)
 
-# 		userPath = "./user.json" 
-# 		with open(userPath,'a') as outfile:
-# 			json.dump(user, outfile) 	# in file
+	with open(CHECKINS_DIRECTORY+user_id,'w+') as outfile:
+		json.dump(checkins, outfile)    
 
 	return redirect('/recommend/')
 
@@ -76,33 +82,52 @@ def recommend(request):
 	
 	# post
 	if request.method == "POST":
-		data = {
-			'lat'  : request.POST["latitude"],
-			'lng'  : request.POST["longitude"],
-			'rad'  : request.POST["radius"],
-			'time1': request.POST["time1"],
-			'time2': request.POST["time2"],
-			'user' : request.session[USER]
-		}
+		data = OrderedDict([
+			('user_id', request.session[USER]["user"]["id"]),
+			('lat'  , 	request.POST["latitude"]),
+			('lng'  ,	request.POST["longitude"]),
+			('rad'  , 	request.POST["radius"]),
+			('time1', 	request.POST["time1"]),
+			('time2', 	request.POST["time2"])])#,
+			#('user' , request.session[USER])])
 
-		# url = 'http://bigdataivan.cloudapp.net:8090'
-		url = 'http://localhost:8000/cluster-test/'
-		r = requests.post(url, data=data, stream=True)
+		# TODO : fix radius bug
+		data['rad'] = '1'
+		# call recommender
+		# TODO: CALL ONCE JAR IS SETUP
+		#return_code = subprocess.call(['java', '-jar', SCALA_JAR] + [str(d) for d in data.values()])
+		return_code = 0
 
-		if r.status_code == 200:
+		if not return_code:
 			client = foursquare.Foursquare(access_token=request.session[ACCESS_TOKEN])
+	
+			user_recommendations_file = RECOMMENDATIONS_DIRECTORY+data['user_id']
+			
+			# for testing, dummy venues if there is no file output by the recommender
+			if not os.path.exists(user_recommendations_file):			
+				venues_id = ["3fd66200f964a52005e71ee3","3fd66200f964a52008e81ee3","3fd66200f964a52023eb1ee3",
+							 "3fd66200f964a5200ae91ee3","3fd66200f964a52015e51ee3"]
+				# simulate recommender provided results
+				with open(user_recommendations_file,'w+') as recommendations_file:
+					for venue_id in venues_id:
+						recommendations_file.write(venue_id+'\n')
 
-			venues_id = json.loads(r.text)
+			# read results
+			with open(user_recommendations_file,'r') as f:
+				venues_id = f.read().splitlines()
+			
+			# crawl venues from venues ids
 			venues = list() 
 			for venue_id in venues_id:
 				venues.append(client.venues(venue_id)) 
-
+	
+			# send results to user
 			return render(request, 'map.html', {'venues':simplejson.dumps(venues), 'context': data})
-		return HttpResponse("Oupsy.. That's an error. Could not access cluster")			
+	
+			return HttpResponse("Oupsy.. That's an error. Could not access cluster")		
+			
 	return redirect('/locationtime')
 
-def recommend_list(request):
-	return render(request)
 
 def coldstart(request):
 	return render(request, 'start.html')

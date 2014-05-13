@@ -28,6 +28,11 @@ object Cons {
   val USERS_PATH = "../dataset/small_sample/users/"
   val VENUES_PATH = "../dataset/sample/venues/"
   val INTERACTIONS_PATH = "../dataset/small_sample/users/"
+    
+  val DATA_ROOT = "../../../dataset/"
+  val NEW_USER_DIRECTORY = DATA_ROOT+"new_user/"
+  val CHECKINS_DIRECTORY = NEW_USER_DIRECTORY+"checkins/"
+  val RECOMMENDATIONS_DIRECTORY = NEW_USER_DIRECTORY+"new_user/recommendations/"
 
   val CATEGORIES_INPUT_PATH = "../dataset/sample/ordered_categories.txt"
   val CATEGORIES_MATRIX_INPUT_PATH = "../dataset/sample/categories_similarity.txt"
