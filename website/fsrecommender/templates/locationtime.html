@@ -22,8 +22,8 @@
 		<div id="time-select" class="time-select">
 			<div class="element"></div>
 			<p class="display"></p>
-			<input type="hidden" name="time1">
-			<input type="hidden" name="time2">
+			<input type="hidden" name="time1" value="08:00">
+			<input type="hidden" name="time2" value="22:00">
 		</div>
 	</div>
     <div class="clearfix">
@@ -39,7 +39,7 @@
 
 	function resizeCircle(r) {
 		circle.setRadius(r*1000);
-		$("#map-radius").val(r*1000);
+		$("#map-radius").val(r);
 	}
 
 	function initMap() {
@@ -50,7 +50,8 @@
 		    draggable: true
 		}).addTo(map);
 
-		circle = L.circle(marker.getLatLng(), 2000).addTo(map);
+		circle = L.circle(marker.getLatLng(), 100).addTo(map);
+		resizeCircle(2);
 
 		marker.on('drag', onDragEnd);
 		onDragEnd(marker);

@@ -31,8 +31,9 @@
   </form>
 
 	<!-- recommendations -->
-	<div id='recommendations' class='clearfix'>
+	<div id='recommendations-wrapper'>
 		<h1>Recommendations</h1>
+    <div id="recommendations" class='clearfix'></div>
 	</div>
 
 	<!-- DISPLAYING RECOMMENDATION LIST SCRIPT -->
@@ -47,10 +48,11 @@
   //For each venue in the recommendedLocations list
   for (var i = 0; i < recommendedLocations.length; i++) {
     
-    var div = document.createElement("div");
+    // var div = document.createElement("div");
+    var $div = $('<div id="rec'+i+'" class="recommendation"></div>');
 
     //basic info
-    var content =  '<div class = "grid_5 recommendation"> <h2>' + recommendedLocations[i]["venue"]["name"] + 
+    var content =  '<h2>' + recommendedLocations[i]["venue"]["name"] + 
         '</h2> <h3> likes: ' + recommendedLocations[i]["venue"]["likes"]["count"] +  '</h3>';
 
 
@@ -69,7 +71,7 @@
 
 
     //add photos, if they exist
-    content += '<div>'
+    content += '<div class="images">'
       if(recommendedLocations[i]["venue"]["photos"] != undefined){
         if(recommendedLocations[i]["venue"]["photos"]["count"] > 0){
           var limit;
@@ -94,11 +96,9 @@
       content += '<div class = "stats"><span  class = "astat" id = rec' + i + '_stat > </span></div>';
 
       //End of content
-      content += '</div>';
 
-    div.innerHTML = content;
-    div.id = 'rec' + i;
-    document.getElementById('recommendations').appendChild(div);
+    $div.html(content);
+    $div.appendTo($('#recommendations'));
 
 	/*
     var per = Math.random();
@@ -149,6 +149,14 @@
  
  }
 
+ var container = document.querySelector("#recommendations");
+ var msnry;
+ imagesLoaded(container, function() {
+    msnry = new Masonry(container, {
+      itemSelector: '.recommendation',
+      gutter: 10
+    });
+ });
 
 
 </script>
@@ -158,7 +166,7 @@
 	<script>
 
   function resizeCircle(r) {
-    circle.setRadius(r);
+    circle.setRadius(r*1000);
     $("#map-radius").val(r);
   }
 
@@ -215,19 +223,12 @@
     var map = L.mapbox.map('map', 'emmahf.hmdbmdpk');
     //map.setView(getMeanLocation(recommendedLocations), 15);
     
-    map.on('moveend', function(){
-    	var bounds = map.getBounds();
-    	document.getElementById("n").value = bounds._northEast.lat;
-       	document.getElementById("s").value = bounds._southWest.lat;
-      	document.getElementById("e").value = bounds._northEast.lng;
-       	document.getElementById("w").value = bounds._southWest.lng;
-   });
-
     marker = L.marker(getCurrentLocation(), {
         draggable: true
     }).addTo(map);
 
-    circle = L.circle(marker.getLatLng(), {{context.rad}}}).addTo(map);
+    circle = L.circle(marker.getLatLng(), 100).addTo(map);
+    resizeCircle({{context.rad}});
 
     marker.on('drag', onDragEnd);
     onDragEnd(marker);

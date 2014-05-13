@@ -32,18 +32,21 @@ function getCurrentLocation() {
 }
 
 $(document).ready(function() {
-	$('.time-select .element').slider({
-		range: true,
-		step: 1,
-		max: 24*60-1,
-		min: 0,
-		slide: onSlide,
-		values: [timeToMins("8:00"), timeToMins("22:00")]
-			
-	});
-	$('.time-select').find('.display').text('From 08:00 to 22:00');
-	$('.time-select').find('input[name="time1"]').val("08:00");
-	$('.time-select').find('input[name="time2"]').val("22:00");
+	var $time1 = $('.time-select').find('input[name="time1"]');
+	var $time2 = $('.time-select').find('input[name="time2"]');
+
+	if($time1.length) {
+		$('.time-select .element').slider({
+			range: true,
+			step: 1,
+			max: 24*60-1,
+			min: 0,
+			slide: onSlide,
+			values: [timeToMins($time1.val()), timeToMins($time2.val())]
+				
+		});
+		$('.time-select').find('.display').text('From '+$time1.val()+' to '+$time2.val());
+	}
 
 	$('.slider .element').slider({
 		min: 0.1,

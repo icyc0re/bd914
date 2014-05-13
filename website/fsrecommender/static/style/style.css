@@ -104,7 +104,6 @@ button {
 }
 
 .time-select {
-	margin-bottom: 20px;
 }
 	.time-select .display {
 		width: 100%;
@@ -142,9 +141,15 @@ button {
 
 
 /*-----Recommendation List --------*/
-.recommendation{
-	padding: 1em;
-	margin: 1em;
+#recommendations-wrapper {
+	margin-top: 24px;
+	border-top: 1px solid #ccc;
+}
+.recommendation {
+	width: 32%;
+	padding: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
 	box-shadow: 0px 0px 1px #CCC;
 }
 
@@ -158,6 +163,13 @@ button {
 	margin-top: 0.3em;
 	margin-bottom:0.3em;
 }
+
+	.recommendation .images {
+		text-align: center;
+	}
+		.recommendation .images img {
+			margin: 2px;
+		}
 
 .recommendation h3, .pop-up div h3{
 	display: inline;
