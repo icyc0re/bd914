@@ -16,13 +16,17 @@ body {
 	text-align: center;
 }
 #header {
+	position: relative;
+	z-index: 100;
 	padding-top: 10px;
+	padding-bottom: 10px;
 	background: #47677a;
 	text-align: left;
+	box-shadow: 0 2px 4px #666;
 }
 #header-content {
 	color: white;
-	width: 980px;
+	width: 1200px;
 	margin: 0 auto;
 }
 	#header-content h1 {
@@ -57,9 +61,9 @@ body {
 
 #content-wrap {
 	text-align: left;
-	width: 980px;
+	width: 1200px;
 	margin: 0 auto;
-	padding: 20px 0;
+	padding: 0 0 20px 0;
 }
 
 #footer {
@@ -131,6 +135,94 @@ button {
 }
 	#map-holder #map {
 		width: 100%;
-		height: 400px;
+		height: 600px;
 		margin-bottom: 10px;
 	}
+
+
+
+/*-----Recommendation List --------*/
+.recommendation{
+	padding: 1em;
+	margin: 1em;
+	box-shadow: 0px 0px 1px #CCC;
+}
+
+.recommendation:hover{
+
+	box-shadow: 0px 0px 5px #CCC;
+
+}
+
+.recommendation div {
+	margin-top: 0.3em;
+	margin-bottom:0.3em;
+}
+
+.recommendation h3, .pop-up div h3{
+	display: inline;
+	color: silver;
+	font-size: 0.9em;	
+}
+
+.recommendation p, .pop-up p{
+	display: inline;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+.astat{
+}
+/*-----MENU-------*/
+
+ #top-menu {
+	position:fixed;
+	top:0px;
+	width:100%;
+	/*height: 60px;*/
+	background-color:#fff;/*D9FB3F*/
+	z-index:100;
+	color: LimeGreen;
+	font-size: 1.3em;
+	padding: 10px 10px 0 0;
+	box-shadow: 0px 1px 2px #AAA;
+}
+
+#logo {
+	/*display: inline;*/
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-left: 1em;
+}
+nav {
+	float: right;
+	text-align: right;
+	margin: 0;
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	padding:0 0 0 50px;*/
+}
+
+nav ul li a:link {
+	color: LimeGreen;
+	text-decoration: none;
+}
+nav ul li a:visited {
+	color: LimeGreen;
+	text-decoration: none;
+}
+nav ul li a:hover {
+/*	color: Pink;
+*/	
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*nav .active{
+	cursor:pointer;
+	color: #58A1FC;
+	font-weight:bold;
+}*/
+

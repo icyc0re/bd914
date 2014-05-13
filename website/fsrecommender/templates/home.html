@@ -3,13 +3,7 @@
 {% block title %}Welcome{% endblock %}
 
 {% block content %}
-<div class="clearfix">
-	{% if logged_in %}
-		<a class="button" href="/locationtime/">Select location&amp;time</a>
-		<a class="button" href="/recommend/">Select info</a>
-		<a class="button" href="/recommend/">Recommend me</a>
-	{% else %}
-		<a class="button" href="/login/">Login with Foursquare</a>
-	{% endif %}
-</div>
+<h1>Welcome!</h1>
+
+<p>This project aims to provide a context based recommendation on which venues you should go to! Check it out by first <a href="/login/">logging in</a>.</p>
 {% endblock %}

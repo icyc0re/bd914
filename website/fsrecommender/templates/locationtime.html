@@ -5,11 +5,9 @@
 {% block content %}
 
 <form method="post" action="/recommend/">{% csrf_token %}
-	<div class="clearfix">
-		<h2><a href="#map-holder" class="revealer">Choose a location</a></h2>
-
-		<div id="map-holder" data-callback="initMap">
-			<div id="map"></div>
+    <div class="clearfix">
+      <div id="map-holder">
+		<div id="map"></div>
 			<input id="map-lat" type="hidden" name="latitude"/>
 			<input id="map-long" type="hidden" name="longitude"/>
 			<input id="map-radius" type="hidden" name="radius"/>
@@ -20,7 +18,7 @@
 			</div>
 		</div>
 
-		<h2><a href="#time-select" class="revealer">Choose a time range</a></h2>
+		<h2>Choose a time range</h2>
 		<div id="time-select" class="time-select">
 			<div class="element"></div>
 			<p class="display"></p>
@@ -28,21 +26,16 @@
 			<input type="hidden" name="time2">
 		</div>
 	</div>
-	<div class="clearfix">
-		<button type="submit" id="set-locationtime" name="set" class="button">Set</button>
+    <div class="clearfix">
+      <button type="submit" id="set-locationtime" name="set" class="button">Search</button>
 		<button type="submit" id="set-locationtime" name="skip" class="button light">Skip</button>
-	</div>
-</form>
+    </div>
+ </form>		
 
 <script type="text/javascript">
 	var marker = null,
 		map = null,
 		circle = null;
-
-	function getCurrentLocation() {
-		// Stub:
-		return [40.72,-73.99];
-	}
 
 	function resizeCircle(r) {
 		circle.setRadius(r*1000);
@@ -62,6 +55,8 @@
 		marker.on('drag', onDragEnd);
 		onDragEnd(marker);
 	}
+
+	initMap();
 
 	function onDragEnd(marker) {
 		if(typeof(marker.target) !== 'undefined')

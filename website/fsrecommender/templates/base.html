@@ -3,8 +3,11 @@
 
 <head>
 	<meta charset="UTF-8" />
+	<meta name='viewport'content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
 
 	<title>4SQ Recommender :: {% block title %}{{title}}{% endblock %}</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600'rel='stylesheet' type='text/css'>
 
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}style/reset.css" />
@@ -16,6 +19,7 @@
 	<script src="{{STATIC_URL}}scripts/jquery.min.js"></script>
 	<script src="{{STATIC_URL}}scripts/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
 	<script src="{{STATIC_URL}}scripts/scripts.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
 	<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
@@ -29,12 +33,15 @@
 		<div id="header-content" class="clearfix">
 			<h1><a href="/">4SQ Recommender</a></h1>
 			<div id="header-menu">
-				{% if request.session.is_logged_in == True %}
 				<ul>
-					<li><a class="button" href="/profile">Profile</a></li>
+				{% if request.session.is_logged_in == True %}
+					<li><a class="button" href="/recommend/">Recommend!</a></li>
+					<li><a class="button" href="/profile/">Profile</a></li>
 					<li><a class="button" href="/logout/">Logout</a></li>
-				</ul>
+				{% else %}
+					<li><a class="button" href="/login/">Login with Foursquare</a></li>
 				{% endif %}
+				</ul>
 			</div>
 		</div>
 	</header>
