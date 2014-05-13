@@ -26,6 +26,11 @@ function onSlide(event, ui) {
 	$parent.find('input[name="time2"]').val(t2);
 }
 
+function getCurrentLocation() {
+	// Stub:
+	return [40.72,-73.99];
+}
+
 $(document).ready(function() {
 	$('.time-select .element').slider({
 		range: true,

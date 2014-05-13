@@ -1,0 +1,293 @@
+{% extends 'base.html' %}
+
+{% block title %}Your recommendations{% endblock %}
+
+{% block content %}
+	<form method="post" action="/recommend/">{% csrf_token %}
+    <div class="clearfix">
+      <div id="map-holder" data-callback="initMap">
+        <div id="map"></div>
+        <input id="map-lat" type="hidden" name="latitude" value="{{context.lat}}" />
+        <input id="map-long" type="hidden" name="longitude" value="{{context.lng}}" />
+        <input id="map-radius" type="hidden" name="radius" value="{{context.rad}}" />
+        <div class="slider clearfix" data-callback="resizeCircle" >
+          <p>Radius:</p>
+          <div class="element"></div>
+          <p class="kms right">{{context.rad}} km</p>
+        </div>
+      </div>
+
+      <h2>Time range:</h2>
+      <div id="time-select" class="time-select">
+        <div class="element"></div>
+        <p class="display"></p>
+        <input type="hidden" name="time1" value="{{context.time1}}">
+        <input type="hidden" name="time2" value="{{context.time2}}">
+      </div>
+    </div>
+    <div class="clearfix">
+      <button type="submit" id="set-locationtime" name="set" class="button">Filter results</button>
+    </div>
+  </form>
+
+	<!-- recommendations -->
+	<div id='recommendations' class='clearfix'>
+		<h1>Recommendations</h1>
+	</div>
+
+	<!-- DISPLAYING RECOMMENDATION LIST SCRIPT -->
+	<script type="text/javascript">
+
+  //read venues file
+  var recommendedLocations = new Array();
+  //recommendedLocations.push(response));
+  var venues = {{venues|safe}};
+  recommendedLocations.push.apply(recommendedLocations, venues);
+    
+  //For each venue in the recommendedLocations list
+  for (var i = 0; i < recommendedLocations.length; i++) {
+    
+    var div = document.createElement("div");
+
+    //basic info
+    var content =  '<div class = "grid_5 recommendation"> <h2>' + recommendedLocations[i]["venue"]["name"] + 
+        '</h2> <h3> likes: ' + recommendedLocations[i]["venue"]["likes"]["count"] +  '</h3>';
+
+
+    //Add first Tips
+    content += '<div>';
+    if(recommendedLocations[i]["venue"]["tips"] != undefined && recommendedLocations[i]["venue"]["tips"]["count"] > 0){
+        content += ' <h3> Tips </h3>  <p>' + 
+            recommendedLocations[i]["venue"]["tips"]["groups"][0]["items"][0]["text"] +
+            ' <i>   by ' + 
+            recommendedLocations[i]["venue"]["tips"]["groups"][0]["items"][0]["user"]["firstName"] +
+            '</i></p>';
+    };
+    content += '</div>';
+      
+    //  Made up random Pie chart (gender? whatever?)
+
+
+    //add photos, if they exist
+    content += '<div>'
+      if(recommendedLocations[i]["venue"]["photos"] != undefined){
+        if(recommendedLocations[i]["venue"]["photos"]["count"] > 0){
+          var limit;
+          if(recommendedLocations[i]["venue"]["photos"]["count"] < 4)
+            limit = recommendedLocations[i]["venue"]["photos"]["count"] ;
+          else
+            limit = 4;
+          for(var  j = 0;  j < limit; j++){
+          
+            var photo = recommendedLocations[i]["venue"]["photos"]["groups"][0]["items"][j];
+          
+            //console.log(photo);
+            content += '<img class= "venue-icon" src ="' +  photo["prefix"] + 'cap50' + photo["suffix"] + '">';
+          }
+        }
+       };
+      //End of content
+      content += '</div>';
+
+      //Add division for gender statistics
+
+      content += '<div class = "stats"><span  class = "astat" id = rec' + i + '_stat > </span></div>';
+
+      //End of content
+      content += '</div>';
+
+    div.innerHTML = content;
+    div.id = 'rec' + i;
+    document.getElementById('recommendations').appendChild(div);
+
+	/*
+    var per = Math.random();
+    var data = [{'label': 'women', 'value':+per},{'label': 'men', 'value':+(1-per)}];
+
+    
+    var r = 15;
+
+    var colorScale = d3.scale.ordinal()
+                    .domain(["women", "men"])
+                    .range(["#D7A", "#57D"]);
+       
+    // data = [{"label":"one", "value":20}, 
+    //         {"label":"two", "value":50}, 
+    //         {"label":"three", "value":30}];
+
+    var vis = d3.select("#rec" + i + "_stat")
+        .append("svg:svg")        
+        .data([data])
+            .attr("width", r*2) 
+            .attr("height", r*2)
+        .append("svg:g") 
+            .attr("transform", "translate(" + r + "," + r + ")")
+ 
+    var arc = d3.svg.arc()
+        .outerRadius(r);
+ 
+    var pie = d3.layout.pie()
+        .value(function(d) { return d.value; });
+    var arcs = vis.selectAll("g.slice")
+        .data(pie)
+        .enter() 
+            .append("svg:g")
+                .attr("class", "slice");
+ 
+        arcs.append("svg:path")
+                .attr("fill", function(d) { return colorScale(d['data']['label']); } ) 
+                .attr("d", arc); */
+ 
+        // arcs.append("svg:text")
+        //         .attr("transform", function(d) { 
+        //         d.innerRadius = 0;
+        //         d.outerRadius = r;
+        //         return "translate(" + arc.centroid(d) + ")";
+        //     })
+        //     .attr("text-anchor", "middle")
+        //     .text(function(d, i) { return data[i].label; }); 
+ 
+ }
+
+
+
+</script>
+
+
+	<!--  MAP SCRIPT -->
+	<script>
+
+  function resizeCircle(r) {
+    circle.setRadius(r);
+    $("#map-radius").val(r);
+  }
+
+  function onDragEnd(marker) {
+    if(typeof(marker.target) !== 'undefined')
+      marker = marker.target;
+    var ll = marker.getLatLng();
+    $("#map-lat").val(ll.lat);
+    $("#map-long").val(ll.lng);
+    circle.setLatLng(ll);
+  }
+
+	 function getMeanLocation(recommendedLocations){
+      	  var lat = 0, lng = 0;
+      	  
+      	  for(var i = 0; i < recommendedLocations.length; i++){
+      	  		lat += recommendedLocations[i]["venue"]["location"]["lat"];
+      	  		lng += recommendedLocations[i]["venue"]["location"]["lng"];
+      	  }
+      	  return [lat/recommendedLocations.length, lng/recommendedLocations.length];
+      }
+    
+	function createGeoJSON(recommendedLocations){
+		 var gjson = new Array();
+	
+		 for(var i = 0; i < recommendedLocations.length; i++){
+			 var coordinates = [recommendedLocations[i]["venue"]["location"]["lng"],
+			                    recommendedLocations[i]["venue"]["location"]["lat"] ];
+
+			 gjson.push(
+					 {
+						 "type": "Feature",
+						 "geometry":
+						 	{
+							 "type": "Point",
+							 "coordinates": coordinates
+							 },
+						 "properties":
+						 	{
+								 "title": "Mapbox DC",
+								 "description": "1714 14th St NW, Washington DC",
+								 "marker-color": "#32CD32",
+								 "marker-size": "large",
+								 "details": recommendedLocations[i]["venue"]
+							}
+		 			}
+			 );
+		 }
+		 return gjson;
+	 }
+
+    
+    // CREATE ACTUAL MAP 
+    var map = L.mapbox.map('map', 'emmahf.hmdbmdpk');
+    //map.setView(getMeanLocation(recommendedLocations), 15);
+    
+    map.on('moveend', function(){
+    	var bounds = map.getBounds();
+    	document.getElementById("n").value = bounds._northEast.lat;
+       	document.getElementById("s").value = bounds._southWest.lat;
+      	document.getElementById("e").value = bounds._northEast.lng;
+       	document.getElementById("w").value = bounds._southWest.lng;
+   });
+
+    marker = L.marker(getCurrentLocation(), {
+        draggable: true
+    }).addTo(map);
+
+    circle = L.circle(marker.getLatLng(), {{context.rad}}}).addTo(map);
+
+    marker.on('drag', onDragEnd);
+    onDragEnd(marker);
+    
+    // CREATE GEOJSON OBJECTS 
+  	test = createGeoJSON(recommendedLocations);
+  	console.log(test);
+
+    // ADD FEATURES TO MAP 
+	var featureLayer = L.mapbox.featureLayer({
+		type: 'FeatureCollection',
+		features: test
+	}).addTo(map);
+    map.fitBounds(featureLayer.getBounds());
+    
+    featureLayer.eachLayer(function(layer) {
+	
+	
+    var content = '<div class = "popup"> <h2>' + layer.feature.properties.details["name"] + 
+    	'</h2> <h3> likes: ' + layer.feature.properties.details["likes"]["count"]+
+    	'</h3>';
+
+    content += '<div>';
+    if(layer.feature.properties.details["tips"] != undefined && layer.feature.properties.details["tips"]["count"] > 0){
+    	content += '<h3> Tips </h3>  <p>' + 
+    			layer.feature.properties.details["tips"]["groups"][0]["items"][0]["text"] +
+    			' <i>   by ' + 
+    			layer.feature.properties.details["tips"]["groups"][0]["items"][0]["user"]["firstName"] +
+    			'</i></p>';
+    }
+
+    content += '</div>';
+    
+    //add photos to popup, if they exist
+    content += '<div>';
+    if(layer.feature.properties.details["photos"] != undefined){
+    	if(layer.feature.properties.details["photos"]["count"] > 0){
+			var limit;
+			if(layer.feature.properties.details["photos"]["count"] < 4)
+				limit = layer.feature.properties.details["photos"]["count"] ;
+			else
+				limit = 4;
+			for(var  i = 0;  i < limit; i++){
+			
+				var photo = layer.feature.properties.details["photos"]["groups"][0]["items"][i];
+			
+				//console.log(photo);
+				content += '<img class= "venue-icon" src ="' +  photo["prefix"] + 'cap50' + photo["suffix"] + '">';
+			}
+   	 }
+    }
+    content += '</div>';
+    
+    content += '</div>';
+	//var popup = L.popup().setContent(content)
+		
+	
+    	layer.bindPopup(content, { minWidth:250, autoPan:true});
+	});
+	
+	    
+</script>
+{% endblock %}
