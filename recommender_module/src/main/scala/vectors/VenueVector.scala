@@ -4,6 +4,7 @@ import features.{DoubleFeature, IntFeature, Feature}
 import sets.AbstractVectorSet
 import input.VenueInputProcessor
 import utils.Cons
+import utils.Mathoperators
 
 /**
  * See [[input.Venue]] for the list of features that make the vector
@@ -28,6 +29,45 @@ class VenueVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet]
    * @return all features
    */
   override def getFeatures: Seq[Feature[_, _]] = features
+
+
+
+  def isOpenUser(userTime:Seq[((Int, Int, Int), (Int, Int, Int))]): Int = {
+    //Returns 1 if the place is open, 0 if it is closed, -1 if we don't know
+    userTime match {
+      case x if !x.isEmpty => {
+        //Data: we now wants to see if the place is open or not
+        x.map((x: ((Int, Int, Int), (Int, Int, Int))) => isOpenTime(x)).reduce(math.max);
+      }
+      case _ => -1 //No data
+    }
+  }
+  def isOpenTime(userTimeInterval:((Int, Int, Int), (Int, Int, Int))): Int = {
+    //Returns 1 if the place is open, 0 if it is closed, -1 if we don't know
+
+    this.getFeatureValue[List[((Int, Int, Int), (Int, Int, Int))]](Cons.TIME) match {
+      case Some(_) => {
+
+        this.getFeatureValue[List[((Int, Int, Int), (Int, Int, Int))]](Cons.TIME) match {
+          case x if !x.get.isEmpty => {
+            //Data: we now wants to see if the place is open or not
+            x.get.map((venueTimeInterval: ((Int, Int, Int), (Int, Int, Int))) => {
+              //Check if the days fit
+              if (Mathoperators.inclusion(venueTimeInterval, userTimeInterval)) {
+                1
+              }
+              else {
+                0
+              }
+            }).max
+          }
+          case _ => -1 //No data
+        }
+      }
+      case None => -1
+    }
+
+  }
 }
 
 object VenueVector {

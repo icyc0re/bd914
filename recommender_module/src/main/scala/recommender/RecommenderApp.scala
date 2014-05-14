@@ -47,7 +47,11 @@ object RecommenderApp {
 
 
     val similarities : Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
-    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
+
+    val newSimilarities = PostFilter.applyPostFiltering(u, v, u.map(_ => dummyContext), similarities);
+
+    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(newSimilarities)
+    //val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
     MockVectorSimilarity.printTopKSimilarities(sorted, 5)
 
     //ResponseToWebApp.replyToWebApp(sorted, 3, 0)

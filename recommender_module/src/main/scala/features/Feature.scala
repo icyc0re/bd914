@@ -3,7 +3,7 @@ package features
 import input.Gender.Gender
 import input.VenueCategory
 import input.VenuePrice
-import java.util.Date
+import scala.math.Ordering.Implicits._
 
 /**
  * Representing the feature (attribute, property). Extend this class in order to create specific features.

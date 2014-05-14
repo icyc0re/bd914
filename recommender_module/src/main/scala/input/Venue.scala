@@ -454,7 +454,9 @@ object Venue {
       daysInt = getDayInt(daysString(0)) to getDayInt(daysString(1));
     }
 
-    daysInt.map((day: Int) => { getTimeSequenceHours(day, venueHours.open.get) }).flatten
+    daysInt.map((day: Int) => {
+      getTimeSequenceHours(day, venueHours.open.get)
+    }).flatten
   }
 
   def getTimeSequence(venueHours: Option[VenueHours]): Seq[((Int, Int, Int), (Int, Int, Int))] = {

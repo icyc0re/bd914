@@ -29,6 +29,25 @@ object PreFilter {
       case None =>
     }
 
+    // Time criterion:
+    context.getFeatureValue[List[((Int, Int, Int), (Int, Int, Int))]](Cons.TIME) match {
+      case Some(_) => {
+        venue.getFeatureValue(Cons.TIME) match {
+          case x if x.isEmpty =>
+          case Some(_) => {
+            val open = venue.isOpenUser(context.getFeatureValue[List[((Int, Int, Int), (Int, Int, Int))]](Cons.TIME).get);
+            open match{//-1: No data, 0:The place is closed at the time the user asked (context vector), 1: the venue is open at that time
+              case -1 =>
+              case 0 => return false
+              case 1 =>
+            }
+          }
+          case None =>
+        }
+      }
+      case None =>
+    }
+
     // Categories criterion:
     context.getFeatureValue[Seq[String]](Cons.CATEGORY) match {
       case Some(_) => {
