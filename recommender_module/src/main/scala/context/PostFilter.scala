@@ -18,41 +18,36 @@ object PostFilter {
     val w_time = 0.1
     //Initialize the weight vector with predefined weights for each feature
 
-    var weights = new ContextVector(Seq(DoubleFeature(Cons.GPS_COORDINATES, 0.000001), DoubleFeature(Cons.TIME, 0.000003)), Seq());
 
-    //val weights = venue; //TODO: modify to put a vector of weights for each feature
-
-    var sum = 0.0; //Will contain the rating modificator
-
-    //For each of the feature, we compute it's contribution to the modification vector
-    //Feature Price [Example]
-    //sum += venue.getFeatureValue[Int]("Price").get * weights.getFeatureValue[Int]("Price").get
-
-
-
-    //Feature Location [Example]
-    //sum += math.sqrt(math.pow(venue.getFeatureValue[Int]("Location X").get - context.getFeatureValue[Int]("Location X").get,
-    //  2) + math.pow(venue.getFeatureValue[Int]("Location Y").get - context.getFeatureValue[Int]("Location Y").get, 2)) * weights.getFeatureValue[Int]("Price").get
-
-    //Etc
 
     //Add the location component
-    //val distance = math.sqrt( math.pow(venue.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get._1 - context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get._1 , 2)  +  math.pow(venue.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get._2 - context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get._2 , 2)   )//Distance between the user and the venue
-    val distance = Haversine.getDistance(venue.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get, context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get);
+   val distance = Haversine.getDistance(venue.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get, context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get);
 
-    new_similarity *= w_distance*1/(distance + 1e-5)
+    new_similarity *= w_distance*1/(distance + 1e-5);
 
+//Add the time component
+    val timeFactor =   1  // Time criterion:
+  context.getFeatureValue[List[((Int, Int, Int), (Int, Int, Int))]](Cons.TIME) match {
+    case Some(_) => {
+      venue.getFeatureValue(Cons.TIME) match {
+        case x if x.isEmpty =>
+        case Some(_) => {
+          val open = venue.isOpenUser(context.getFeatureValue[List[((Int, Int, Int), (Int, Int, Int))]](Cons.TIME).get);
+          open match{//-1: No data, 0:The place is closed at the time the user asked (context vector), 1: the venue is open at that time
+            case -1 => 1
+            case 0 => 1.1
+            case 1 => 0.9
+          }
+        }
+        case None => 1
+      }
+    }
+    case None => 1
+  }
 
-    //Add the time component
-    //If we are sure that the venue is open, we increase de ranking
-    val increasingFactor = 2.0;
-    var open = 0;
+    new_similarity *= w_time*timeFactor;
+    new_similarity
 
-    //We check if the venue is open. If it is, we change "open" to 1.
-
-    sum += weights.getFeatureValue[Double](Cons.TIME).get * increasingFactor * open;
-
-    sum + venue.getFeatureValue[Double](Cons.FEATURE_RATING).get;
   }
 
   def apply(vectors: Seq[VenueVector], context: ContextVector, similarities: Seq[Double]): Unit = {
