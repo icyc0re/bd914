@@ -1,24 +1,71 @@
 {% extends 'base.html' %}
 
-{% block title %}4square Recommender :: Location &amp; Time Selection{% endblock %}
+{% block title %}Location &amp; Time Selection{% endblock %}
 
 {% block content %}
-<h2>Select location &amp; time below:</h2>
 
-<form method="post" action="/locationtime/">{% csrf_token %}
-	<div class="clearfix">
-		<div class="time-select">
-			<input class="hour" disabled="disabled" name="hour" value="12">
-			:
-			<input class="minute" disabled="disabled" name="minute" value="00">
+<form method="post" action="/recommend/">{% csrf_token %}
+    <div class="clearfix">
+      <div id="map-holder">
+		<div id="map"></div>
+			<input id="map-lat" type="hidden" name="latitude"/>
+			<input id="map-long" type="hidden" name="longitude"/>
+			<input id="map-radius" type="hidden" name="radius"/>
+			<div class="slider clearfix" data-callback="resizeCircle">
+				<p>Radius:</p>
+				<div class="element"></div>
+				<p class="kms right">2 km</p>
+			</div>
 		</div>
 
-		<!-- Map to be added similarly to what is already done -->
-		<div id="map"></div>
+		<h2>Choose a time range</h2>
+		<div id="time-select" class="time-select">
+			<div class="element"></div>
+			<p class="display"></p>
+			<input type="hidden" name="time1" value="08:00">
+			<input type="hidden" name="time2" value="22:00">
+		</div>
 	</div>
-	<div class="clearfix">
-		<button type="submit" id="set-locationtime" name="set" class="button">Set</button>
+    <div class="clearfix">
+      <button type="submit" id="set-locationtime" name="set" class="button">Search</button>
 		<button type="submit" id="set-locationtime" name="skip" class="button light">Skip</button>
-	</div>
-</form>
+    </div>
+ </form>		
+
+<script type="text/javascript">
+	var marker = null,
+		map = null,
+		circle = null;
+
+	function resizeCircle(r) {
+		circle.setRadius(r*1000);
+		$("#map-radius").val(r);
+	}
+
+	function initMap() {
+		map = L.mapbox.map('map', 'emmahf.hmdbmdpk');
+	    map.setView(getCurrentLocation(), 13);
+
+	    marker = L.marker(getCurrentLocation(), {
+		    draggable: true
+		}).addTo(map);
+
+		circle = L.circle(marker.getLatLng(), 100).addTo(map);
+		resizeCircle(2);
+
+		marker.on('drag', onDragEnd);
+		onDragEnd(marker);
+	}
+
+	initMap();
+
+	function onDragEnd(marker) {
+		if(typeof(marker.target) !== 'undefined')
+			marker = marker.target;
+		var ll = marker.getLatLng();
+		$("#map-lat").val(ll.lat);
+		$("#map-long").val(ll.lng);
+		circle.setLatLng(ll);
+	}
+</script>
 {% endblock %}

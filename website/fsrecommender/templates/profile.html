@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile{% endblock %}
+
+{% block header %}
+<ul>
+<li><a class="btn" type="button" href="/">home</a></li>
+<li><a class="btn" type="button" href="/logout/">logout</a></li>
+</ul>
+{% endblock %}
+
+{% block content %}
+<pre>
+{{user}}
+</pre>
+{% endblock %}

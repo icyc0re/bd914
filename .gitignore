@@ -8,6 +8,10 @@
 # Python #
 *.pyc
 
+# Website db and temporary files #
+*.sqlite3
+website/fsrecommender/*.json
+
 # Eclipse #
 .metadata
 .settings

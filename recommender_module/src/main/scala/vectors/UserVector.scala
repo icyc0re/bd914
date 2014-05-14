@@ -9,6 +9,7 @@ import features.IntFeature
 import features.DoubleFeature
 import scala.Some
 
+
 /**
  * * See [[input.User]] for the list of features that make the vector
  * @author Ivan Gavrilović

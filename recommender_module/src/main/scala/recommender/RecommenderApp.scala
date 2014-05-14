@@ -1,15 +1,15 @@
 package recommender
 
-import filtering.MockVectorSimilarity
-import input.{User, Checkins, CheckinsCount}
 import java.io.File
-import input.Category
-import weboutput.{ResponseToWebApp}
-import javax.print.attribute.standard.ReferenceUriSchemesSupported
-import scalaj.http.Http
 import scala.collection.mutable
-import vectors._
 import context._
+import filtering.MockVectorSimilarity
+import input.Checkins
+import input.User
+import precision._
+import vectors._
+import java.io.PrintWriter
+import utils.Cons
 
 /**
  * This is the main class of the recommender system.
@@ -17,7 +17,32 @@ import context._
  */
 object RecommenderApp {
   def main(args: Array[String]) {
+    
+    // read input arguments
+    val user_id = args.isEmpty match{
+      case true => 0
+      case false => args(0)
+    }
+    if(args.length == 5){
+    	val lat = args(1)
+    	val lng = args(2)
+    	val radius = args(3) 
+    	val time1 = args(4) //min time
+    	val time2 = args(5) //max time
+    }	
+    else{
+    	print("skip prefiltering");
+    }
+      
     var u : Seq[UserVector] = mutable.MutableList.empty;
+    var userInteractions: Map[String, Map[VenueListType.VenueListType, Seq[VenueVector]]] = Map.empty
+    if(args.size == 1 && args(0).contains("precision")) {
+      userInteractions = Precision.modifyUserInteractions(User.getAll)
+      u = Precision.getUserVectorFromUserInteractions(userInteractions)
+    } else {
+      u = mutable.MutableList.empty;
+    }
+
     // get venue features
     var v: Seq[VenueVector] = VenueVector.getAll
     if(args.size == 2){
@@ -33,15 +58,10 @@ object RecommenderApp {
     } else {
       // get user features
       u = UserVector.getAll
-
-      // checkins parser test
-      //val file = new File("../dataset/sample/checkinstest.json")
-      //val response = new Checkins(scala.io.Source.fromFile(file).mkString)
-      //response.displayFeatures()
     }
     
     // Plug in PreFiltering here once we have an actual context
-    val dummyContext: ContextVector = Context.grab()
+    val dummyContext: ContextVector = Context.grabTestContextVector(1)
     v = PreFilter.apply(v, dummyContext)
 
 
@@ -54,6 +74,20 @@ object RecommenderApp {
     //val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
     MockVectorSimilarity.printTopKSimilarities(sorted, 5)
 
+    if(args.size == 1 && args(0).contains("precision")) {
+      Precision.calculatePrecision(MockVectorSimilarity.getTopKSimilarities(sorted, 10), userInteractions)
+    }
     //ResponseToWebApp.replyToWebApp(sorted, 3, 0)
+    
+    //write results to file
+    //TODO: replace dummy venues id by real recommedations
+    if (user_id != 0) {
+      val venues_id = List("3fd66200f964a52005e71ee3", "3fd66200f964a52008e81ee3", "3fd66200f964a52023eb1ee3",
+        "3fd66200f964a5200ae91ee3", "3fd66200f964a52015e51ee3")
+
+      val writer = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id))
+      venues_id.foreach(writer.write)
+      writer.close()
+    }
   }
 }

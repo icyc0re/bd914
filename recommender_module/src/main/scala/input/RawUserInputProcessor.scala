@@ -1,23 +1,37 @@
 package input
 
-import vectors.UserVector
 import scala.io.BufferedSource
+import vectors.{VenueVector, UserVector}
 import java.io.File
 import utils.Cons
 
 /**
- * Created by emmafagerholm on 02/05/2014.
+ * @author Jakub Swiatkoswki
  */
-class RawUserInputProcessor extends AbstractInputProcessor{
+class RawUserInputProcessor extends AbstractInputProcessor {
+  type T = (UserVector, Seq[VenueVector])
 
-  type T = User
   /**
-   * Parse input file and create collection of vectors from the file
+   * Parse input file to get UserVector Seq[VenueVector] pairs
    * @param input input source to read
    * @return collection of vectors
    */
   override def processData(input: BufferedSource): T = {
-    new User(input.mkString)
-  }
+    val vector = User.featureVector(new User(input.mkString))
+    val userId = vector.getFeatureValue[String](Cons.USER_ID).get
 
+    // get all of the interactions
+    // IteractionInputProcessor: tips, photos, mayorships, checkins venuesTips ++ venuesPhotos =
+    var venues = List.empty[VenueVector]
+    InteractionType.values.foreach{(intType:InteractionType.InteractionType) =>
+      try{
+        venues ++= InteractionsInputProcessor.processData(scala.io.Source.fromFile(new File(Cons.INTERACTIONS_PATH + intType + "/" + userId)), InteractionType.tips)
+      }
+      catch {
+        case e:Exception => //
+      }
+    }
+
+    (vector,venues)
+  }
 }
