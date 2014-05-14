@@ -19,7 +19,10 @@ object RecommenderApp {
   def main(args: Array[String]) {
     
     // read input arguments
-    val user_id = args(0)
+    val user_id = args.isEmpty match{
+      case true => 0
+      case false => args(0)
+    }
     if(args.length == 5){
     	val lat = args(1)
     	val lng = args(2)
@@ -55,11 +58,6 @@ object RecommenderApp {
     } else {
       // get user features
       u = UserVector.getAll
-
-      // checkins parser test
-      //val file = new File("../dataset/sample/checkinstest.json")
-      //val response = new Checkins(scala.io.Source.fromFile(file).mkString)
-      //response.displayFeatures()
     }
     
     // Plug in PreFiltering here once we have an actual context
@@ -79,11 +77,13 @@ object RecommenderApp {
     
     //write results to file
     //TODO: replace dummy venues id by real recommedations
-    val venues_id = List("3fd66200f964a52005e71ee3","3fd66200f964a52008e81ee3","3fd66200f964a52023eb1ee3",
-						 "3fd66200f964a5200ae91ee3","3fd66200f964a52015e51ee3")
+    if (user_id != 0) {
+      val venues_id = List("3fd66200f964a52005e71ee3", "3fd66200f964a52008e81ee3", "3fd66200f964a52023eb1ee3",
+        "3fd66200f964a5200ae91ee3", "3fd66200f964a52015e51ee3")
 
-	val writer = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY+user_id ))
-    venues_id.foreach(writer.write)
-    writer.close()
+      val writer = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id))
+      venues_id.foreach(writer.write)
+      writer.close()
+    }
   }
 }
