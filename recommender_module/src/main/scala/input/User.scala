@@ -1,6 +1,8 @@
 package input
 
-
+import play.api.libs.json._
+import play.api.libs.json.Reads._
+import play.api.libs.functional.syntax._
 import scala.util.parsing.json.JSON
 import scala.collection.mutable.ListBuffer
 import vectors.{VenueVector, UserVector}
@@ -8,13 +10,12 @@ import utils.Cons
 import features.{TextFeature, DoubleFeature}
 
 
-case class CheckinsCount(count: Double)
-
 case class Contact(twitter: Option[String], facebook: Option[String], phone: Option[String], email: Option[String])
 
-case class UserInteractions(count: Double, items: List[String])
-
 case class Friends(count: Double, items: List[String])
+
+case class UserCompact(id: String, gender: Option[String], homeCity: Option[String], checkinsCount: Option[Int],
+                       contact: Option[Contact], friendsCount: Option[Int])
 
 object Gender extends Enumeration {
   type Gender = Value
@@ -27,42 +28,45 @@ class User(jsonString: String) {
 
   import Gender._
 
-  val json: Option[Any] = JSON.parseFull(jsonString)
+  val jsonFile: JsValue = Json.parse(jsonString)
 
-  private val map: Map[String, Any] = json.get.asInstanceOf[Map[String, Any]]
-  private val user: Map[String, Any] = map("user").asInstanceOf[Map[String, Any]]
+  implicit val userContactRead: Reads[Contact] = (
+      (__ \ "twitter").readNullable[String] and
+      (__ \ "facebook").readNullable[String] and
+      (__ \ "phone").readNullable[String] and
+      (__ \ "email").readNullable[String]
+    )(Contact.apply _)
+
+  implicit val userCompactRead: Reads[UserCompact] = (
+      (JsPath \ "user" \ "id").read[String] and
+      (JsPath \ "user" \ "gender").readNullable[String] and
+      (JsPath \ "user" \ "homeCity").readNullable[String] and
+      (JsPath \ "user" \ "checkins" \ "count").readNullable[Int] and
+      (JsPath \ "user" \ "contact").readNullable[Contact] and
+      (JsPath \ "user" \ "friends" \ "count").readNullable[Int]
+    )(UserCompact.apply _)
+
+  val user: UserCompact = {
+    var JSuser: JsResult[UserCompact] = jsonFile.validate[UserCompact](userCompactRead)
+    JSuser match {
+      case s: JsSuccess[UserCompact] => s.get.asInstanceOf[UserCompact]
+      case e: JsError => UserCompact("JsError", None, None, None, None, None)
+    }
+  }
 
   //basic info
-  val gender: Gender = withName(user("gender").asInstanceOf[String])
-  val homeCity: String = user("homeCity").asInstanceOf[String]
-  val id: String = user("id").asInstanceOf[String]
+  val gender: Gender = withName(user.gender.get)
+  val homeCity: String = user.homeCity.get
+  val id: String = user.id
 
   //checkins count
-  private val _checkins: Map[String, Any] = user("checkins").asInstanceOf[Map[String, Any]]
-  val checkinsCount = CheckinsCount(_checkins("count").asInstanceOf[Double])
+  val checkinsCount = user.checkinsCount.get
 
   //social networks
-  private val _contact: Map[String, String] = user("contact").asInstanceOf[Map[String, String]]
-  val contact = Contact(_contact.get("twitter"), _contact.get("facebook"), _contact.get("phone"), _contact.get("email"))
+  val contact = user.contact.get
 
   //partial list of friends
-  private val _friends: Map[String, Any] = user("friends").asInstanceOf[Map[String, Any]]
-  private val groups: List[Any] = _friends("groups").asInstanceOf[List[Any]]
-  var friendsList = new ListBuffer[String]
-  var friendsCount: Double = 0
-
-  groups.foreach(group => {
-    val grp: Map[String, Any] = group.asInstanceOf[Map[String, Any]]
-    friendsCount += grp("count").asInstanceOf[Double]
-    val items: List[Any] = grp("items").asInstanceOf[List[Any]]
-    items.foreach(item => {
-      val it: Map[String, Any] = item.asInstanceOf[Map[String, Any]]
-      val id: String = it("id").asInstanceOf[String]
-      friendsList += id
-    })
-  })
-
-  val friends = Friends(friendsCount, friendsList.toList)
+  val friends = Friends(user.friendsCount.get, Nil)
 
   def canEqual(other: Any): Boolean = other.isInstanceOf[User]
 
