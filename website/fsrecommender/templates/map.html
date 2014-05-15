@@ -7,13 +7,17 @@
     <div class="clearfix">
       <div id="map-holder" data-callback="initMap">
         <div id="map"></div>
-        <input id="map-lat" type="hidden" name="latitude" value="{{context.lat}}" />
-        <input id="map-long" type="hidden" name="longitude" value="{{context.lng}}" />
-        <input id="map-radius" type="hidden" name="radius" value="{{context.rad}}" />
+        <input id="map-lat" type="hidden" name="latitude"/>
+        <input id="map-long" type="hidden" name="longitude"/>
+        <input id="map-radius" type="hidden" name="radius"/>
         <div class="slider clearfix" data-callback="resizeCircle" >
           <p>Radius:</p>
           <div class="element"></div>
+          {% if not context.rad %}
+          <p class="kms right">2 km</p>
+          {% else %}
           <p class="kms right">{{context.rad}} km</p>
+          {% endif %}
         </div>
       </div>
 
@@ -21,8 +25,13 @@
       <div id="time-select" class="time-select">
         <div class="element"></div>
         <p class="display"></p>
+        {% if not context.time1 %}
+        <input type="hidden" name="time1" value="08:00">
+        <input type="hidden" name="time2" value="22:00">
+        {% else %}
         <input type="hidden" name="time1" value="{{context.time1}}">
         <input type="hidden" name="time2" value="{{context.time2}}">
+        {% endif %}
       </div>
     </div>
     <div class="clearfix">
@@ -223,12 +232,20 @@
     var map = L.mapbox.map('map', 'emmahf.hmdbmdpk');
     //map.setView(getMeanLocation(recommendedLocations), 15);
     
+    {% if not context.lat %}
     marker = L.marker(getCurrentLocation(), {
+    {% else %}
+    marker = L.marker([{{context.lat}}, {{context.lng}}], {
+    {% endif %}
         draggable: true
     }).addTo(map);
 
     circle = L.circle(marker.getLatLng(), 100).addTo(map);
+    {% if not context.rad %}
+    resizeCircle(2);
+    {% else %}
     resizeCircle({{context.rad}});
+    {% endif %}
 
     marker.on('drag', onDragEnd);
     onDragEnd(marker);

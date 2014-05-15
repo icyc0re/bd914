@@ -88,4 +88,27 @@ $(document).ready(function() {
 
 		return false;
 	})
+
+	$('a[data-skip]').click(function() {
+
+		var $form = $(this).closest('form');
+		$form.append('<input type="hidden" name="skip_'+$(this).attr('data-skip')+'" value="1" />');
+
+		$(this).closest('.skipper').slideUp(100, function() {
+			$(this).remove();
+
+			if($form.find('.skipper').length == 0)
+				$form.submit();
+		})
+
+		return false;
+	})
+
+	$('form').on('submit', function() {
+		if($(this).hasClass('submitting')) {
+			$(this).html("<p>The horses. Hold them..</p>");
+			return false;
+		}
+		$(this).addClass('submitting');
+	})
 });

@@ -6,8 +6,8 @@
 
 <form method="post" action="/recommend/">{% csrf_token %}
     <div class="clearfix">
-      <div id="map-holder">
-		<div id="map"></div>
+      	<div id="map-holder" class="skipper">
+			<div id="map"></div>
 			<input id="map-lat" type="hidden" name="latitude"/>
 			<input id="map-long" type="hidden" name="longitude"/>
 			<input id="map-radius" type="hidden" name="radius"/>
@@ -16,19 +16,23 @@
 				<div class="element"></div>
 				<p class="kms right">2 km</p>
 			</div>
+
+			<div class="clearfix"><a href="#" class="button light" data-skip="location">Skip location</a></div>
 		</div>
 
-		<h2>Choose a time range</h2>
-		<div id="time-select" class="time-select">
-			<div class="element"></div>
-			<p class="display"></p>
-			<input type="hidden" name="time1" value="08:00">
-			<input type="hidden" name="time2" value="22:00">
+		<div class="skipper">
+			<h2>Choose a time range</h2>
+			<div id="time-select" class="time-select">
+				<div class="element"></div>
+				<p class="display"></p>
+				<input type="hidden" name="time1" value="08:00">
+				<input type="hidden" name="time2" value="22:00">
+			</div>
+			<div class="clearfix"><a href="#" class="button light" data-skip="time">Skip time range</a></div>
 		</div>
 	</div>
     <div class="clearfix">
-      <button type="submit" id="set-locationtime" name="set" class="button">Search</button>
-		<button type="submit" id="set-locationtime" name="skip" class="button light">Skip</button>
+      	<button type="submit" id="set-locationtime" name="set" class="button">Search</button>
     </div>
  </form>		
 

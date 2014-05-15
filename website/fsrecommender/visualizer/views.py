@@ -82,17 +82,19 @@ def recommend(request):
 	
 	# post
 	if request.method == "POST":
+
 		data = OrderedDict([
 			('user_id', request.session[USER]["user"]["id"]),
-			('lat'  , 	request.POST["latitude"]),
-			('lng'  ,	request.POST["longitude"]),
-			('rad'  , 	request.POST["radius"]),
-			('time1', 	request.POST["time1"]),
-			('time2', 	request.POST["time2"])])#,
-			#('user' , request.session[USER])])
+		])
+		if "skip_location" not in request.POST:
+			data.update({'lat': request.POST["latitude"]})
+			data.update({'lng': request.POST["longitude"]})
+			data.update({'rad': request.POST["radius"]})
+		if "skip_time" not in request.POST:
+			data.update({'time1': request.POST["time1"]})
+			data.update({'time2': request.POST["time2"]})
+				#('user' , request.session[USER])])
 
-		# TODO : fix radius bug
-		data['rad'] = '1'
 		# call recommender
 		# TODO: CALL ONCE JAR IS SETUP
 		#return_code = subprocess.call(['java', '-jar', SCALA_JAR] + [str(d) for d in data.values()])
@@ -124,8 +126,6 @@ def recommend(request):
 			# send results to user
 			return render(request, 'map.html', {'venues':simplejson.dumps(venues), 'context': data})
 	
-			return HttpResponse("Oupsy.. That's an error. Could not access cluster")		
-			
 	return redirect('/locationtime')
 
 
