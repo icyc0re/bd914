@@ -100,9 +100,16 @@ object RecommenderApp {
 //        "3fd66200f964a5200ae91ee3", "3fd66200f964a52015e51ee3")
 
       val venuesIDs = MockVectorSimilarity.getTopKSimilaritiesForUserString(user_id.toString.toInt, sorted, 5)
-      val writer = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id))
-      venuesIDs.split(",").foreach(x => writer.write(x+'\n'))
-      writer.close()
+      //write the recommendation
+      val writer_venues = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id))
+      venuesIDs.split(",").foreach(x => writer_venues.write(x+'\n'))
+      writer_venues.close()
+
+      if(args.size >= 2) { //to write the features for the current user
+        val writer_user = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id +"_profile"))
+        u.foreach(x => writer_user.write(x.getFeatureValue(Cons.USER_ID).toString()+' '+
+                                         x.getFeatureValue(Cons.POPULARITY).toString()))
+      }
     }
   }
 }
