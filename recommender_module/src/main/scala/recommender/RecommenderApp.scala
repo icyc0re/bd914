@@ -28,7 +28,7 @@ object RecommenderApp {
     // parse input arguments
     	Context.setContext(args)
     }
-
+    
     println("compute recommendations for user: "+user_id);
     println("using dataset: "+Cons.VENUES_PATH)
     
@@ -37,48 +37,47 @@ object RecommenderApp {
     if (args.size == 1 && args(0).contains("precision")) {
       userInteractions = Precision.modifyUserInteractions(User.getAll)
       u = Precision.getUserVectorFromUserInteractions(userInteractions)
-    } else {
-      u = mutable.MutableList.empty;
-    }
-
-    // VENUE PARSING
-    var v: Seq[VenueVector] = VenueVector.getAll
-    // USER VECTOR
-    if (args.size >= 2) {
+    } else if(args.size >= 2){
       val userJson = new File(Cons.NEW_USER_DIRECTORY+args(0));
       val user: String = scala.io.Source.fromFile(userJson).mkString
       val userVector: UserVector = new UserInputProcessor().processData(user)
 
-      u :+= userVector;
+      u :+ userVector;
     } else {
-      // get user features
       u = UserVector.getAll
     }
 
-    // PREFILTERING
-    val context: ContextVector = Context.grab
-    if(context != null)
-    	v = PreFilter.apply(v, context)
+    // get venue features
+    var v: Seq[VenueVector] = VenueVector.getAll    
+    
+	// PREFILTERING - Do prefiltering if not calculating precision
+    if(!(args.size == 1 && args(0).contains("precision")) && context != null) {
+      // Plug in PreFiltering here once we have an actual context
+      v = PreFilter.apply(v, context)
+	}
 
-    val similarities: Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
-
-    //val newSimilarities = PostFilter.applyPostFiltering(u, v, u.map(_ => context), similarities);
+    var similarities: Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
+	
+	// Do postfiltering if not calculating precision
+    if(!(args.size == 1 && args(0).contains("precision"))) {
+      similarities = PostFilter.applyPostFiltering(u, v, u.map(_ => context), similarities);
+    }
 
     val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
-    //val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
     MockVectorSimilarity.printTopKSimilarities(sorted, 5)
 
-    if (args.size == 1 && args(0).contains("precision")) {
-      Precision.calculatePrecision(MockVectorSimilarity.getTopKSimilarities(sorted, 10), userInteractions)
+    if(args.size == 1 && args(0).contains("precision")) {
+      Precision.calculatePrecision(sorted, userInteractions,10)
     }
     //ResponseToWebApp.replyToWebApp(sorted, 3, 0)
 
     //write results to file
+    
     if (user_id != 0 && user_id != "precision") {
 //      val venues_id = List("3fd66200f964a52005e71ee3", "3fd66200f964a52008e81ee3", "3fd66200f964a52023eb1ee3",
 //        "3fd66200f964a5200ae91ee3", "3fd66200f964a52015e51ee3")
 
-      val venuesIDs = MockVectorSimilarity.getTopKSimilaritiesForUserString(0, sorted, 5)
+	  val venuesIDs = MockVectorSimilarity.getTopKSimilaritiesForUserString(0, sorted, 5)
       //write the recommendation
       val writer_venues = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id))
       venuesIDs.split(",").foreach(x => writer_venues.write(x+'\n'))
