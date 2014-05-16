@@ -17,10 +17,12 @@ if 'STAGING' in os.environ:
     CLIENT_ID = 'SBUR2MWKKUYWPHJTZU4OLBAMFLGWKWZZJQKVGAAEJV1URHSP'
     CLIENT_SECRET = 'XZEO4JJQ2LYDX5GMTYQJ1S3AKUAHXTWZVOK2YBEOBRHNOFW4'
     REDIRECT_URI = 'http://zitazure.cloudapp.net/'
+    DATA_ROOT = '/data'
 else:
     CLIENT_ID = 'V2V5MKSOUAVDDPMPACRRQBTKFU3JQTRSMGEBMOXKGL0HX1FL'
     CLIENT_SECRET = 'BBL0BQUIXUEHJG0MSPTNDLC1HKQ2PHSOK3DFKRXANPCV2JYC'
-    REDIRECT_URI = 'http://localhost:8000/'    
+    REDIRECT_URI = 'http://localhost:8000/'
+    DATA_ROOT = '../../dataset/'
 
 
 # access token session key
@@ -48,7 +50,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
-    'gunicorn',
     'visualizer',
     'django.contrib.admin',
     'django.contrib.auth',
