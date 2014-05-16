@@ -3,8 +3,6 @@ package input
 import play.api.libs.json._
 import play.api.libs.json.Reads._
 import play.api.libs.functional.syntax._
-import scala.util.parsing.json.JSON
-import scala.collection.mutable.ListBuffer
 import vectors.{VenueVector, UserVector}
 import utils.Cons
 import features.{TextFeature, DoubleFeature}
@@ -31,14 +29,14 @@ class User(jsonString: String) {
   val jsonFile: JsValue = Json.parse(jsonString)
 
   implicit val userContactRead: Reads[Contact] = (
-      (__ \ "twitter").readNullable[String] and
+    (__ \ "twitter").readNullable[String] and
       (__ \ "facebook").readNullable[String] and
       (__ \ "phone").readNullable[String] and
       (__ \ "email").readNullable[String]
     )(Contact.apply _)
 
   implicit val userCompactRead: Reads[UserCompact] = (
-      (JsPath \ "user" \ "id").read[String] and
+    (JsPath \ "user" \ "id").read[String] and
       (JsPath \ "user" \ "gender").readNullable[String] and
       (JsPath \ "user" \ "homeCity").readNullable[String] and
       (JsPath \ "user" \ "checkins" \ "count").readNullable[Int] and
@@ -49,7 +47,7 @@ class User(jsonString: String) {
   val user: UserCompact = {
     var JSuser: JsResult[UserCompact] = jsonFile.validate[UserCompact](userCompactRead)
     JSuser match {
-      case s: JsSuccess[UserCompact] => s.get.asInstanceOf[UserCompact]
+      case s: JsSuccess[UserCompact] => s.get
       case e: JsError => UserCompact("JsError", None, None, None, None, None)
     }
   }

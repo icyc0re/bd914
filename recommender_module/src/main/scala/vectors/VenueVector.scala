@@ -10,6 +10,7 @@ object VenueListType extends Enumeration {
   type VenueListType = Value
   val deleted, notDeleted = Value
 }
+
 /**
  * See [[input.Venue]] for the list of features that make the vector
  * @author Ivan Gavrilović
@@ -35,8 +36,7 @@ class VenueVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet]
   override def getFeatures: Seq[Feature[_, _]] = features
 
 
-
-  def isOpenUser(userTime:Seq[((Int, Int, Int), (Int, Int, Int))]): Int = {
+  def isOpenUser(userTime: Seq[((Int, Int, Int), (Int, Int, Int))]): Int = {
     //Returns 1 if the place is open, 0 if it is closed, -1 if we don't know
     userTime match {
       case x if !x.isEmpty => {
@@ -46,7 +46,8 @@ class VenueVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet]
       case _ => -1 //No data
     }
   }
-  def isOpenTime(userTimeInterval:((Int, Int, Int), (Int, Int, Int))): Int = {
+
+  def isOpenTime(userTimeInterval: ((Int, Int, Int), (Int, Int, Int))): Int = {
     //Returns 1 if the place is open, 0 if it is closed, -1 if we don't know
 
     this.getFeatureValue[List[((Int, Int, Int), (Int, Int, Int))]](Cons.TIME) match {
@@ -86,9 +87,9 @@ object VenueVector {
     vectors
   }
 
-  def getById(id:String):VenueVector = getAll.find((x:VenueVector)=>
+  def getById(id: String): VenueVector = getAll.find((x: VenueVector) =>
     x.getFeatureValue[String](Cons.VENUE_ID).get == id
-  ) match{
+  ) match {
     case Some(x) => x
     case None => null
   }

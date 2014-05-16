@@ -16,33 +16,34 @@ case class VenueContact(twitter: Option[String], facebook: Option[String], phone
 case class VenueStats2(checkinsCount: Option[Int], usersCount: Option[Int], tipCount: Option[Int])
 
 case class VenueLocation(city: Option[String], cc: Option[String], state: Option[String],
-                          lat: Option[Double], lng: Option[Double])
+                         lat: Option[Double], lng: Option[Double])
 
 case class VenueCategory2(id: Option[String], name: Option[String], pluralName: Option[String], shortName: Option[String],
-                         primary: Option[Boolean])
+                          primary: Option[Boolean])
 
 case class VenueCompact2(categories: Option[List[VenueCategory2]], id: Option[String], name: Option[String], url: Option[String], stats: Option[VenueStats2],
-                        price: Option[VenuePrice], likes: Option[Int], rating: Option[Int], reasons: Option[VenueReasons],
-                        mayor: Option[VenueMayor], tags: Option[List[String]], contact: Option[VenueContact], attributes: Option[VenueAttributes],
-                        hours: Option[VenueHours], verified: Option[Boolean], photos: Option[VenuePhotos], tips: Option[VenueTips],
-                        phrases: Option[List[VenuePhrases]], location: Option[VenueLocation])
+                         price: Option[VenuePrice], likes: Option[Int], rating: Option[Int], reasons: Option[VenueReasons],
+                         mayor: Option[VenueMayor], tags: Option[List[String]], contact: Option[VenueContact], attributes: Option[VenueAttributes],
+                         hours: Option[VenueHours], verified: Option[Boolean], photos: Option[VenuePhotos], tips: Option[VenueTips],
+                         phrases: Option[List[VenuePhrases]], location: Option[VenueLocation])
 
-case class InteractionCompact(cnt:Option[Int], items: Option[List[InteractionItem]])
-case class InteractionItem(text : Option[String], venue : Option[VenueCompact2])
+case class InteractionCompact(cnt: Option[Int], items: Option[List[InteractionItem]])
+
+case class InteractionItem(text: Option[String], venue: Option[VenueCompact2])
 
 
-abstract class Interactions(js:String) {
-	val jsonString = js
+abstract class Interactions(js: String) {
+  val jsonString = js
 
   implicit val venuePhrasesRead: Reads[VenuePhrases] = (
     (__ \ "phrase").readNullable[String] and
-    (__ \ "count").readNullable[Int]
+      (__ \ "count").readNullable[Int]
     )(VenuePhrases.apply _)
 
   implicit val venueTipsGroupItemRead: Reads[VenueTipsGroupItem] = (
     (__ \ "id").readNullable[String] and
-    (__ \ "text").readNullable[String] and
-    (__ \ "likes" \ "count").readNullable[Int]
+      (__ \ "text").readNullable[String] and
+      (__ \ "likes" \ "count").readNullable[Int]
     )(VenueTipsGroupItem.apply _)
 
   implicit val venueTipsGroupRead: Reads[VenueTipsGroup] = (
@@ -162,16 +163,16 @@ abstract class Interactions(js:String) {
       (__ \ "items").readNullable[List[VenueReasonsItem]]
     )(VenueReasons.apply _)
 
-   implicit val VenueLocationRead: Reads[VenueLocation] = (
-       (__ \ "city").readNullable[String] and
-       (__ \ "cc").readNullable[String] and
-       (__ \ "state").readNullable[String] and
-       (__ \ "lat").readNullable[Double] and
+  implicit val VenueLocationRead: Reads[VenueLocation] = (
+    (__ \ "city").readNullable[String] and
+      (__ \ "cc").readNullable[String] and
+      (__ \ "state").readNullable[String] and
+      (__ \ "lat").readNullable[Double] and
       (__ \ "lng").readNullable[Double]
     )(VenueLocation.apply _)
 
   implicit val venueCompact2Read: Reads[VenueCompact2] = (
-      (__ \ "categories").readNullable[List[VenueCategory2]] and
+    (__ \ "categories").readNullable[List[VenueCategory2]] and
       (__ \ "id").readNullable[String] and
       (__ \ "name").readNullable[String] and
       (__ \ "url").readNullable[String] and
@@ -192,7 +193,7 @@ abstract class Interactions(js:String) {
       (__ \ "location").readNullable[VenueLocation]
     )(VenueCompact2.apply _)
 
-  val compact:InteractionCompact = null
+  val compact: InteractionCompact = null
 }
 
 object Interactions {
@@ -201,18 +202,18 @@ object Interactions {
    * @param v parsed venue
    * @return venue feature vector
    */
-  def featureVector(v: VenueCompact2):VenueVector = {
-    val (checkinsCount, tipCount ,userCount) = v.stats match {
-      case Some(x:VenueStats2) => (x.checkinsCount.getOrElse(0), x.tipCount.getOrElse(0), x.usersCount.getOrElse(0))
+  def featureVector(v: VenueCompact2): VenueVector = {
+    val (checkinsCount, tipCount, userCount) = v.stats match {
+      case Some(x: VenueStats2) => (x.checkinsCount.getOrElse(0), x.tipCount.getOrElse(0), x.usersCount.getOrElse(0))
       case None => (0, 0, 0)
     }
-    val (lat, lng):(Double, Double) = v.location match {
+    val (lat, lng): (Double, Double) = v.location match {
       case None => (0, 0)
-      case Some(x:VenueLocation) => (x.lat.getOrElse(0), x.lng.getOrElse(0))
+      case Some(x: VenueLocation) => (x.lat.getOrElse(0), x.lng.getOrElse(0))
     }
     val cats = v.categories match {
       case None => List.empty
-      case Some(x:Seq[VenueCategory2]) => x.map(_.name.get)
+      case Some(x: Seq[VenueCategory2]) => x.map(_.name.get)
     }
     val features = List(
       TextFeature(Cons.VENUE_ID, v.id.get),

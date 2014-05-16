@@ -1,9 +1,7 @@
 package input
 
-import scala.io.BufferedSource
 import vectors.{VenueVector, UserVector}
-import java.io.File
-import utils.Cons
+import utils.{FileSys, Cons}
 
 object InteractionType extends Enumeration {
   type InteractionType = Value
@@ -21,20 +19,21 @@ class UserInputProcessor extends AbstractInputProcessor {
    * @param input input source to read
    * @return collection of vectors
    */
-  override def processData(input: BufferedSource): T = {
-    val vector = User.featureVector(new User(input.mkString))
+  override def processData(input: String): T = {
+    val vector = User.featureVector(new User(input))
     val userId = vector.getFeatureValue[String](Cons.USER_ID).get
 
     // get all of the interactions
     // IteractionInputProcessor: tips, photos, mayorships, checkins venuesTips ++ venuesPhotos =
     var venues = List.empty[VenueVector]
-    InteractionType.values.foreach{(intType:InteractionType.InteractionType) =>
-      try{
-        venues ++= InteractionsInputProcessor.processData(scala.io.Source.fromFile(new File(Cons.INTERACTIONS_PATH + intType + "/" + userId)), InteractionType.tips)
-      }
-      catch {
-        case e:Exception => //
-      }
+    InteractionType.values.foreach {
+      (intType: InteractionType.InteractionType) =>
+        try {
+          venues ++= InteractionsInputProcessor.processData(FileSys.readFile(Cons.INTERACTIONS_PATH + intType + "/" + userId), InteractionType.tips)
+        }
+        catch {
+          case e: Exception => //
+        }
     }
 
     vector.applyVenues(venues)
@@ -48,40 +47,34 @@ object InteractionsInputProcessor {
    * @param interactionType type of interaction
    * @return list of venue feature vector
    */
-  def processData(input: BufferedSource, interactionType: InteractionType.InteractionType): Seq[VenueVector] = {
-    val interaction = interactionType match {
-      case InteractionType.`tips` => new UserTips(input.mkString)
-      case InteractionType.`mayorships` => new UserMayorships(input.mkString)
-      case InteractionType.`photos` => new UserPhotos(input.mkString)
+  def processData(input: String, interactionType: InteractionType.InteractionType): Seq[VenueVector] = {
+    if (interactionType == InteractionType.checkins) {
+      val venues = new Checkins(input.mkString).compact.items match {
+        case None => List.empty
+        case Some(x: List[CheckinItem]) => x.map(y =>
+          y.venue match {
+            case Some(p: VenueCompact2) => p
+          }
+        )
+      }
+      venues.map(x => Interactions.featureVector(x))
     }
+    else {
+      val interaction = interactionType match {
+        case InteractionType.`tips` => new UserTips(input)
+        case InteractionType.`mayorships` => new UserMayorships(input)
+        case InteractionType.`photos` => new UserPhotos(input)
+      }
 
-    val venues = interaction.compact.items match {
-      case None => List.empty
-      case Some(x: List[InteractionItem]) => x.map(y =>
-        y.venue match {
-          case Some(p: VenueCompact2) => p
-        }
-      )
+      val venues = interaction.compact.items match {
+        case None => List.empty
+        case Some(x: List[InteractionItem]) => x.map(y =>
+          y.venue match {
+            case Some(p: VenueCompact2) => p
+          }
+        )
+      }
+      venues.map(x => Interactions.featureVector(x))
     }
-    venues.map(x => Interactions.featureVector(x))
-  }
-}
-
-object CheckinInputProcessor {
-  /**
-   * Parse input file and create collection of vectors from the file
-   * @param input input source to read
-   * @return list of venue feature vector
-   */
-  def processData(input: BufferedSource): Seq[VenueVector] = {
-    val venues = new Checkins(input.mkString).compact.items match {
-      case None => List.empty
-      case Some(x: List[InteractionItem]) => x.map(y =>
-        y.venue match {
-          case Some(p: VenueCompact2) => p
-        }
-      )
-    }
-    venues.map(x => Interactions.featureVector(x))
   }
 }

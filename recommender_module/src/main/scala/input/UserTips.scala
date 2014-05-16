@@ -9,26 +9,26 @@ import play.api.libs.functional.syntax._
  */
 
 
-class UserTips( override val jsonString: String) extends Interactions(jsonString ) {
+class UserTips(override val jsonString: String) extends Interactions(jsonString) {
 
-	val jsonFile:JsValue = Json.parse(jsonString)
+  val jsonFile: JsValue = Json.parse(jsonString)
 
-	implicit val tipsItemsRead: Reads[InteractionItem] = (
-      (__ \ "text").readNullable[String] and
+  implicit val tipsItemsRead: Reads[InteractionItem] = (
+    (__ \ "text").readNullable[String] and
       (__ \ "venue").readNullable[VenueCompact2]
     )(InteractionItem.apply _)
 
-	implicit val userTipsCompactRead: Reads[InteractionCompact] = (
-      (JsPath \ "tips" \ "count").readNullable[Int] and
+  implicit val userTipsCompactRead: Reads[InteractionCompact] = (
+    (JsPath \ "tips" \ "count").readNullable[Int] and
       (JsPath \ "tips" \ "items").readNullable[List[InteractionItem]]
     )(InteractionCompact.apply _)
 
-    override val compact: InteractionCompact  = {
-		var JSvenue: JsResult[InteractionCompact] = jsonFile.validate[InteractionCompact](userTipsCompactRead)
-    	JSvenue match {
-	  		case s: JsSuccess[InteractionCompact] => s.get.asInstanceOf[InteractionCompact]
-	 		case e: JsError => InteractionCompact(None, None)
-		}
-	}
+  override val compact: InteractionCompact = {
+    var JSvenue: JsResult[InteractionCompact] = jsonFile.validate[InteractionCompact](userTipsCompactRead)
+    JSvenue match {
+      case s: JsSuccess[InteractionCompact] => s.get.asInstanceOf[InteractionCompact]
+      case e: JsError => InteractionCompact(None, None)
+    }
+  }
 
 }

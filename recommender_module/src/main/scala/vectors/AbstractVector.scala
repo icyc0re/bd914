@@ -19,11 +19,11 @@ trait AbstractVector {
   def getFeatureValue[V](key: Any): Option[V] = getFeatures.find {
     case (t: Feature[_, V]) => t.key == key
   } match {
-    case Some(x:Feature[_, V]) => Some(x.value)
+    case Some(x: Feature[_, V]) => Some(x.value)
     case _ => None
   }
 
-  def findFeature(key:Any) = getFeatures.find(_.key == key)
+  def findFeature(key: Any) = getFeatures.find(_.key == key)
 
 
   /**
@@ -53,7 +53,7 @@ trait AbstractVector {
    * @tparam T feature type
    * @return list of features with specified type
    */
-  def getFeaturesTyped[T <: Feature[_, _]: ClassTag]: Seq[T] = getFeatures.collect {
+  def getFeaturesTyped[T <: Feature[_, _] : ClassTag]: Seq[T] = getFeatures.collect {
     case (x: T) => x
   }
 
@@ -62,10 +62,11 @@ trait AbstractVector {
    * @return all features
    */
   def getFeatures: Seq[Feature[_, _]]
+
   /**
    * Set all of the vector's features
    */
-  protected def setFeatures(feats: Seq[Feature[_,_]])
+  protected def setFeatures(feats: Seq[Feature[_, _]])
 
   /**
    * Get all sets to which this vector belongs to

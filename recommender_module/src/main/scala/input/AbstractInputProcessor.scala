@@ -1,8 +1,6 @@
 package input
 
-import scala.io.BufferedSource
-import vectors.AbstractVector
-import java.io.File
+import utils.FileSys
 
 /**
  * Implement this if you want to process the input files, and create object representation of the read data
@@ -16,7 +14,7 @@ trait AbstractInputProcessor {
    * @param input input source to read
    * @return feature vector
    */
-  def processData(input: BufferedSource): T
+  def processData(input: String): T
 
   /**
    * Parse all files in a directory
@@ -24,14 +22,8 @@ trait AbstractInputProcessor {
    * @return collection of vectors
    */
   def processInDir(dirName: String): Seq[T] = {
-    val dir = new File(dirName)
-    if (!dir.isDirectory) {
-      throw new Exception("Directory expected")
-    }
-    //ignore hidden files and check file is file
-    dir.listFiles.filter((x: File) => !x.getName.startsWith(".") && !x.isDirectory).filter(_.isFile()).map(
-      x => processData(scala.io.Source.fromFile(x))
+    FileSys.readDir(dirName).map(
+      x => processData(FileSys.readFile(x))
     )
   }
-
 }

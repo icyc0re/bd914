@@ -1,6 +1,6 @@
 package input
 
-import utils.Cons
+import utils.{FileSys, Cons}
 
 /**
  * Keeps list of all categories and similarity between any two categories
@@ -28,7 +28,7 @@ object Category {
    */
   private def init(path: String) = {
     categories = Array.empty[String]
-    for (line <- scala.io.Source.fromFile(path).getLines()) {
+    for (line <- FileSys.getLines(path)) {
       categories :+= line
     }
   }
@@ -37,12 +37,12 @@ object Category {
    * Load similarity matrix for categories
    * @param path path to file
    */
-  private def initMatrix(path: String) = {
+  def initMatrix(path: String) = {
     similarity = Map.empty
-    for ((line, index) <- scala.io.Source.fromFile(path).getLines().zipWithIndex) {
+    for ((line, index) <- FileSys.getLines(path).zipWithIndex) {
       val values: Seq[Double] = line.split(" ").map(_.toDouble)
 
-      for ((v, i) <- values.zipWithIndex){
+      for ((v, i) <- values.zipWithIndex) {
         similarity += allCats(index) -> (similarity.getOrElse(allCats(index), Map.empty) + (allCats(i) -> v))
       }
     }
@@ -61,11 +61,11 @@ object Category {
     }
 
     similarity.get(category1) match {
-      case Some(x:Map[String, Double]) => x.get(category2) match {
-        case Some(v:Double) => v
-        case None => throw new Exception("No such category: "+category2)
+      case Some(x: Map[String, Double]) => x.get(category2) match {
+        case Some(v: Double) => v
+        case None => throw new Exception("No such category: " + category2)
       }
-      case _ => throw new Exception("No such category: "+category1)
+      case _ => throw new Exception("No such category: " + category1)
     }
   }
 }

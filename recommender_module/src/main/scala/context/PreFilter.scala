@@ -1,16 +1,15 @@
 package context
 
-import vectors.AbstractVector
 import vectors.VenueVector
 import vectors.ContextVector
 import utils._
 import input.Category
-import features.CategoryFeature
 import input.VenuePrice
 
 object PreFilter {
 
-  def passesCriteria(venue: VenueVector, context: ContextVector): Boolean = { //Returns true is the venue passes the prefiltering criteria (and should be kept) or false otherwise (and should be deleted)
+  def passesCriteria(venue: VenueVector, context: ContextVector): Boolean = {
+    //Returns true is the venue passes the prefiltering criteria (and should be kept) or false otherwise (and should be deleted)
 
     // Location criterion:
     context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES) match {
@@ -18,7 +17,8 @@ object PreFilter {
         venue.getFeatureValue(Cons.GPS_COORDINATES) match {
           case Some(_) => {
             val distance = Haversine.getDistance(venue.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get, context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get)
-            if (distance >= 2.0) { //Threshold in kilometers
+            if (distance >= 2.0) {
+              //Threshold in kilometers
               //println("NO :: distance")
               return false
             }
@@ -36,7 +36,8 @@ object PreFilter {
           case x if x.isEmpty =>
           case Some(_) => {
             val open = venue.isOpenUser(context.getFeatureValue[List[((Int, Int, Int), (Int, Int, Int))]](Cons.TIME).get);
-            open match{//-1: No data, 0:The place is closed at the time the user asked (context vector), 1: the venue is open at that time
+            open match {
+              //-1: No data, 0:The place is closed at the time the user asked (context vector), 1: the venue is open at that time
               case -1 =>
               case 0 => return false
               case 1 =>
@@ -59,19 +60,19 @@ object PreFilter {
             }
           }
           catch {
-            case _:Exception => return false
+            case _: Exception => return false
           }
         })
       }
       case None =>
     }
-    
+
     // Price criterion:
     context.getFeatureValue[VenuePrice](Cons.PRICE) match {
-      case Some(contextPrice:VenuePrice) => {
+      case Some(contextPrice: VenuePrice) => {
         venue.getFeatureValue[VenuePrice](Cons.PRICE) match {
-          case Some(x:VenuePrice) => x.tier match {
-            case Some(p:Int) => if (p > contextPrice.tier.get) return false
+          case Some(x: VenuePrice) => x.tier match {
+            case Some(p: Int) => if (p > contextPrice.tier.get) return false
             case None => //
           }
           case None => //

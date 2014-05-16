@@ -1,15 +1,16 @@
 package sets
 
-import vectors.{VenueVector, AbstractVector}
+import vectors.VenueVector
 
 /**
  * @author Ivan Gavrilović
  */
 
-class VenueVectorSet(val name: String) extends AbstractVectorSet{
+class VenueVectorSet(val name: String) extends AbstractVectorSet {
   type T = VenueVector
 
   var vectors: Seq[T] = Nil
+
   /**
    * Get size of this vector set
    * @return size of set
@@ -31,9 +32,9 @@ object VenueVectorSet {
    * @param name name of the new set
    * @return throws exception if name is already taken, returns newly created venue set
    */
-  def createNew(name: String):VenueVectorSet = {
-    sets.find((x:VenueVectorSet) => x.name == name) match {
-      case t:Some[_] => throw new Exception("Choose unique name!")
+  def createNew(name: String): VenueVectorSet = {
+    sets.find((x: VenueVectorSet) => x.name == name) match {
+      case t: Some[_] => throw new Exception("Choose unique name!")
       case _ => {
         val newSet = new VenueVectorSet(name)
         sets = sets :+ newSet

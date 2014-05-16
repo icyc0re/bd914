@@ -8,15 +8,16 @@ import vectors.AbstractVector
  */
 trait AbstractVectorSet {
   type T <: AbstractVector
+
   /**
    * Get all of the vectors associated to this set
    * @return all vectors
    */
-  def getVectors():Seq[T]
+  def getVectors(): Seq[T]
 
   /**
    * Get size of this vector set
    * @return size of set
    */
-  def size():Int
+  def size(): Int
 }

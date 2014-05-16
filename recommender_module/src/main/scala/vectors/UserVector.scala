@@ -77,7 +77,7 @@ class UserVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet])
           //get venue gps location, check it is in NY area
           lat += ilat
           lng += ilng
-          validOnes+=1
+          validOnes += 1
         case false => // ignore this one
       }
     }

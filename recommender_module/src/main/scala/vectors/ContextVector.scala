@@ -1,13 +1,12 @@
 package vectors
 
-import features.{IntFeature, Feature}
+import features.Feature
 import sets.AbstractVectorSet
-import scala.reflect.ClassTag
 
 /**
  * @author Ivan Gavrilović
  */
-class ContextVector(var features: Seq[Feature[_,_]], sets:Seq[AbstractVectorSet]) extends AbstractVector{
+class ContextVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet]) extends AbstractVector {
 
 
   /**

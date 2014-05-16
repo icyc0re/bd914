@@ -9,7 +9,9 @@ import play.api.libs.json.Reads._
 import play.api.libs.functional.syntax._
 
 
-case class CheckinItem(id: String, tyype: String, timeZoneOffset: Int, createdAt: Long, venue: Option[VenueCompact2]) //, venue: Option[VenueCompact]
+case class CheckinItem(id: String, tyype: String, timeZoneOffset: Int, createdAt: Long, venue: Option[VenueCompact2])
+
+//, venue: Option[VenueCompact]
 
 case class CheckinsCompact(count: Int, items: Option[List[CheckinItem]])
 

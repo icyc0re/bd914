@@ -13,7 +13,7 @@ trait VectorSimilarity {
    * @param snd second item
    * @return similarity expressed as { @code double}
    */
-  def calculateSimilarity(fst:AbstractVector, snd:AbstractVector):Double
+  def calculateSimilarity(fst: AbstractVector, snd: AbstractVector): Double
 
   /**
    * Get the similarity between two collections of vectors
@@ -21,5 +21,5 @@ trait VectorSimilarity {
    * @param snd second collection of vectors
    * @return list of similarities between vectors
    */
-  def calculateSimilarity(fst:Seq[AbstractVector], snd:Seq[AbstractVector]):Seq[Double]
+  def calculateSimilarity(fst: Seq[AbstractVector], snd: Seq[AbstractVector]): Seq[Double]
 }

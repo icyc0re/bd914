@@ -30,66 +30,52 @@ object MockVectorSimilarity extends VectorSimilarity {
    * @param venues collection of  vectors
    * @return map - key = userId, value = (venueId, similarity to the user vector)
    */
-  def calculateSimilaritiesBetweenUsersAndVenues(users: Seq[UserVector], venues: Seq[VenueVector]): Seq[(String, Seq[(String, Double)])] = {
-    var similarities: mutable.Seq[(String, Seq[(String, Double)])] = mutable.MutableList.empty
+  def calculateSimilaritiesBetweenUsersAndVenues(users: Seq[UserVector], venues: Seq[VenueVector]): Seq[(String, Seq[(String, String, Double)])] = {
+    var similarities: mutable.MutableList[(String, Seq[(String, String, Double)])] = mutable.MutableList.empty
     for (user <- users) {
       val user_id = user.getFeatureValue[String](Cons.USER_ID).get
-      var rankings: mutable.Seq[(String, Double)] = mutable.MutableList.empty
+      var rankings: mutable.MutableList[(String, String, Double)] = mutable.MutableList.empty
       val start = System.currentTimeMillis
       for (venue <- venues) {
-        rankings :+=(venue.getFeatureValue[String](Cons.VENUE_ID).get, MockVectorSimilarity.calculateSimilarity(user, venue))
+        val venueName: String = venue.getFeatureValue[String](Cons.VENUE_NAME).getOrElse("N/A")
+        rankings += ((venue.getFeatureValue[String](Cons.VENUE_ID).get, venueName, calculateSimilarity(user, venue)))
       }
-      similarities :+=(user_id, rankings)
-      println("Id = " + user.getFeatureValue[String](Cons.USER_ID).get + "; took ms = " + (System.currentTimeMillis() - start) + "; num user categories = " + user.getFeatureValue[Seq[String]](Cons.CATEGORY).get)
+      similarities += ((user_id, rankings))
+      println("Id = " + user.getFeatureValue[String](Cons.USER_ID).get + "; took ms = " + (System.currentTimeMillis() - start))
     }
     similarities.toList
   }
 
-  def sortUserVenueSimilarities(similarities: Seq[(String, Seq[(String, Double)])]): Seq[(String, Seq[(String, Double)])] = {
+  def sortUserVenueSimilarities(similarities: Seq[(String, Seq[(String, String, Double)])]): Seq[(String, Seq[(String, String, Double)])] = {
     //Sort by value
-    var sorted: mutable.Seq[(String, Seq[(String, Double)])] = mutable.MutableList.empty
+    var sorted: mutable.MutableList[(String, Seq[(String, String, Double)])] = mutable.MutableList.empty
     for ((user, values) <- similarities) {
-      sorted :+=(user, values.toSeq.sortBy(-_._2))
+      sorted += ((user, values.toSeq.sortBy(-_._3)))
     }
     sorted.toList
   }
 
-//  def printTopKSimilarities(similarities: Seq[(String, Seq[(String, Double)])], k: Int) = {
-//    for ((user, values) <- similarities) {
-//      print("user - top similarities [ ")
-//      for (i <- 0 to k - 1) {
-//        print(i + " ")
-//      }
-//      print("] " + f"$user%-10s")
-//      for (i <- 0 to k - 1) {
-//        var value: Double = values(i)._2;
-//        print(" " + f"$value%-17.15f")
-//      }
-//      println()
-//    }
-//  }
-
-  def printTopKSimilarities(similarities: Seq[(String, Seq[(String, Double)])], k: Int) = {
-    for((user,values) <- getTopKSimilarities(similarities, k)){
+  def printTopKSimilarities(similarities: Seq[(String, Seq[(String, String, Double)])], k: Int) = {
+    for ((user, values) <- getTopKSimilarities(similarities, k)) {
       println("\n user - " + user)
-      for((venueId, venueScore) <- values){
-        println("venue - " + venueId + " score - " + venueScore)
+      for ((venueId, venueName, venueScore) <- values) {
+        println("name - " + venueName + " venue - " + venueId + " score - " + venueScore)
       }
     }
   }
 
-  def getTopKSimilarities(similaritiesSorted: Seq[(String, Seq[(String, Double)])], k: Int) = {
-    var top5k: mutable.Seq[(String, Seq[(String, Double)])] = mutable.MutableList.empty
-    for((user,values) <- similaritiesSorted){
-      top5k :+=(user, values.take(k))
+  def getTopKSimilarities(similaritiesSorted: Seq[(String, Seq[(String, String, Double)])], k: Int) = {
+    var top5k: mutable.MutableList[(String, Seq[(String, String, Double)])] = mutable.MutableList.empty
+    for ((user, values) <- similaritiesSorted) {
+      top5k += ((user, values.take(k)))
     }
     top5k.toList
   }
 
-  def getTopKSimilaritiesForUserString(userIndex : Int, similarities: Seq[(String, Seq[(String, Double)])], k: Int) : String = {
+  def getTopKSimilaritiesForUserString(userIndex: Int, similarities: Seq[(String, Seq[(String, Double)])], k: Int): String = {
     var values = similarities(userIndex)._2;
-    var output : String = "[";
-    if(k > 0){
+    var output: String = "[";
+    if (k > 0) {
       output += values(0)._1;
       for (i <- 1 to k - 1) {
         output += "," + values(i)._1;
@@ -149,16 +135,5 @@ object MockVectorSimilarity extends VectorSimilarity {
 
 
     dotProduct / norm + catSim
-    //    // get (x0*y0 + x1*y1 + ... + x_n * y_n)
-    //    val dotProd = (fst.getFeaturesTyped[IntFeature], snd.getFeaturesTyped[IntFeature]).zipped.foldRight(0) {
-    //      (x: (IntFeature, IntFeature), b: Int) =>
-    //        b + x._1.value * x._2.value
-    //    }
-    //
-    //    // get ||x|| and ||y||
-    //    val intensityFst = Math.sqrt(fst.getFeaturesTyped[IntFeature].foldRight(0)((x:IntFeature, b:Int) => b + x.value*x.value))
-    //    val intensitySnd = Math.sqrt(snd.getFeaturesTyped[IntFeature].foldRight(0)((x:IntFeature, b:Int) => b + x.value*x.value))
-
-    //dotProd / (intensityFst * intensitySnd)
   }
 }
