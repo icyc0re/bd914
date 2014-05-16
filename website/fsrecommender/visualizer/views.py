@@ -85,6 +85,12 @@ def recommend(request):
 
 		data = OrderedDict([
 			('user_id', request.session[USER]["user"]["id"]),
+			('lat', "~"),
+			('lng', "~"),
+			('rad', "~"),
+			('time1', "~"),
+			('time2', "~"),
+			('days', "~"),
 		])
 		if "skip_location" not in request.POST:
 			data.update({'lat': request.POST["latitude"]})
@@ -93,7 +99,8 @@ def recommend(request):
 		if "skip_time" not in request.POST:
 			data.update({'time1': request.POST["time1"]})
 			data.update({'time2': request.POST["time2"]})
-				#('user' , request.session[USER])])
+		if "skip_days" not in request.POST:
+			data.update({'days': request.POST["days"]})
 
 		# call recommender
 		# TODO: CALL ONCE JAR IS SETUP

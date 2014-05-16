@@ -18,8 +18,16 @@ import utils.Cons
 object RecommenderApp {
   def main(args: Array[String]) {
 
-    // read input arguments
+    // Set USER_ID
     val user_id = args.isEmpty match {
+      case true => 0
+      case false => args(0)
+    }
+
+    // parse input arguments
+    Context.setContext(args)
+
+    /*val user_id = args.isEmpty match {
       case true => 0
       case false => args(0)
     }
@@ -32,7 +40,7 @@ object RecommenderApp {
     }
     else {
       print("skip prefiltering");
-    }
+    }*/
 
     var u: Seq[UserVector] = mutable.MutableList.empty;
     var userInteractions: Map[String, Map[VenueListType.VenueListType, Seq[VenueVector]]] = Map.empty

@@ -63,6 +63,7 @@ $(document).ready(function() {
 			}
 		}
 	});
+	$('.slider .element').slider('value', $('#map-radius').val());
 
 	// Revealer code:
 	$('a.revealer').each(function() {
@@ -94,7 +95,7 @@ $(document).ready(function() {
 		var $form = $(this).closest('form');
 		$form.append('<input type="hidden" name="skip_'+$(this).attr('data-skip')+'" value="1" />');
 
-		$(this).closest('.skipper').slideUp(100, function() {
+		$(this).closest('.skipper').slideUp(200, function() {
 			$(this).remove();
 
 			if($form.find('.skipper').length == 0)
@@ -111,4 +112,32 @@ $(document).ready(function() {
 		}
 		$(this).addClass('submitting');
 	})
+
+	$('.day-select .button').click(function() {
+		var $btn = $(this);
+		var $input = $btn.closest('.day-select').find('input[name="days"]');
+		var days = $input.val();
+		
+		if($btn.hasClass('selected')) {
+			days = days.replace($btn.attr('data-day'), "");
+			$btn.removeClass('selected');
+		} else {
+			days += $btn.attr('data-day');
+			$btn.addClass('selected');
+		}
+		$input.val(days);
+
+		return false;
+	});
+	$('.day-select input[name="days"]').each(function() {
+		var $daySelect = $(this).closest('.day-select');
+		var days = $(this).val();
+		var d;
+
+		while(days) {
+			d = days%10;
+			$daySelect.find('.button[data-day="'+d+'"]').addClass("selected");
+			days = parseInt(days/10);
+		}
+	});
 });

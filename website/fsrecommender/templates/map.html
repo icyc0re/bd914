@@ -5,7 +5,7 @@
 {% block content %}
 	<form method="post" action="/recommend/">{% csrf_token %}
     <div class="clearfix">
-      <div id="map-holder" data-callback="initMap">
+      <div id="map-holder" data-callback="initMap" class="skipper">
         <div id="map"></div>
         <input id="map-lat" type="hidden" name="latitude"/>
         <input id="map-long" type="hidden" name="longitude"/>
@@ -13,25 +13,47 @@
         <div class="slider clearfix" data-callback="resizeCircle" >
           <p>Radius:</p>
           <div class="element"></div>
-          {% if not context.rad %}
+          {% if context.rad == "~" %}
           <p class="kms right">2 km</p>
           {% else %}
           <p class="kms right">{{context.rad}} km</p>
           {% endif %}
         </div>
+        <div class="clearfix"><a href="#" class="button light" data-skip="location">Skip location</a></div>
       </div>
 
-      <h2>Time range:</h2>
-      <div id="time-select" class="time-select">
-        <div class="element"></div>
-        <p class="display"></p>
-        {% if not context.time1 %}
-        <input type="hidden" name="time1" value="08:00">
-        <input type="hidden" name="time2" value="22:00">
-        {% else %}
-        <input type="hidden" name="time1" value="{{context.time1}}">
-        <input type="hidden" name="time2" value="{{context.time2}}">
-        {% endif %}
+      <div class="skipper mt">
+        <h2>Time range:</h2>
+        <div id="time-select" class="time-select">
+          <div class="element"></div>
+          <p class="display"></p>
+          {% if context.time1 == "~" %}
+          <input type="hidden" name="time1" value="08:00">
+          <input type="hidden" name="time2" value="22:00">
+          {% else %}
+          <input type="hidden" name="time1" value="{{context.time1}}">
+          <input type="hidden" name="time2" value="{{context.time2}}">
+          {% endif %}
+        </div>
+        <div class="clearfix"><a href="#" class="button light" data-skip="time">Skip time range</a></div>
+      </div>
+
+      <div class="skipper mt">
+        <ul class="day-select clearfix">
+          {% if context.days == "~" %}
+          <input type="hidden" name="days" />
+          {% else %}
+          <input type="hidden" name="days" value="{{context.days}}" />
+          {% endif %}
+          <li><a href="#" class="button" data-day="1">Monday</a></li>
+          <li><a href="#" class="button" data-day="2">Tuesday</a></li>
+          <li><a href="#" class="button" data-day="3">Wednesday</a></li>
+          <li><a href="#" class="button" data-day="4">Thursday</a></li>
+          <li><a href="#" class="button" data-day="5">Friday</a></li>
+          <li><a href="#" class="button" data-day="6">Saturday</a></li>
+          <li><a href="#" class="button" data-day="7">Sunday</a></li>
+        </ul>
+        <div class="clearfix"><a href="#" class="button light" data-skip="days">Skip day selection</a></div>
       </div>
     </div>
     <div class="clearfix">
@@ -232,7 +254,7 @@
     var map = L.mapbox.map('map', 'emmahf.hmdbmdpk');
     //map.setView(getMeanLocation(recommendedLocations), 15);
     
-    {% if not context.lat %}
+    {% if context.lat == "~" %}
     marker = L.marker(getCurrentLocation(), {
     {% else %}
     marker = L.marker([{{context.lat}}, {{context.lng}}], {
@@ -241,7 +263,7 @@
     }).addTo(map);
 
     circle = L.circle(marker.getLatLng(), 100).addTo(map);
-    {% if not context.rad %}
+    {% if context.rad == "~" %}
     resizeCircle(2);
     {% else %}
     resizeCircle({{context.rad}});

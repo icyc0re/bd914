@@ -9,6 +9,23 @@ import input._
  * Interface used to grab all context related features: Location, TimeOfDay, some explicitly defined preferences, etc. 
  */
 object Context {
+
+  var contextVector: ContextVector
+
+  // Input: args -- lat, lng, rad, time1, time2, days
+  def setContext(args: Array[String]) = {
+    if (args.length == 5) {
+      contextVector = new ContextVector(List(
+        CoordinatesFeature(Cons.GPS_COORDINATES, (args(1), args(2)), //Current Location of the user
+        TimeFeature(Cons.TIME, List(((sDay, sMinutes, sHours), (eDay, eMinutes, eHours)))) // ... other context related features (i.e. current location)
+      ), null)
+    }
+    // No Context provided
+    else {
+      print("No Context provided");
+    }
+  }
+
   //  // FIXME: to be modified later to actually grab context related features. For now this returns a test context
   //  def grab(): ContextVector = {
   //    return new ContextVector(List(
@@ -18,6 +35,10 @@ object Context {
   //      TimeFeature(Cons.TIME, List(((0, 0, 0), (-1, -1, -1)))) // ... other context related features (i.e. current location)
   //    ), null)
   //  }
+
+  def grabContextVector(): ContextVector = {
+    contextVector;
+  }
 
   def grabTestContextVector(num: Int): ContextVector = {
     if (num == 1) createContextVector("Food", 1, "Cheap food", "USD", 40.809976486485596, -73.96180629730225, 6, 20, 15, 6, 23, 0)
