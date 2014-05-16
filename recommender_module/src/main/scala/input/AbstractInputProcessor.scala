@@ -1,6 +1,8 @@
 package input
 
 import utils.FileSys
+import scala.collection
+import scala.collection.mutable
 
 /**
  * Implement this if you want to process the input files, and create object representation of the read data
@@ -21,14 +23,15 @@ trait AbstractInputProcessor {
    * @param dirName path to the directory
    * @return collection of vectors
    */
-  def processInDir(dirName: String): Seq[T] = {
+  def processInDir(dirName: String, maxItems:Int = Int.MaxValue): Seq[T] = {
     var cnt = 0
-    FileSys.readDir(dirName).map(
-      x => {
+    val fileIt = FileSys.readDir(dirName).iterator
+    val vectors:collection.mutable.MutableList[T] = mutable.MutableList.empty[T]
+    while(fileIt.hasNext && cnt < maxItems){
         if (cnt % 1000 == 0) println("Parsed "+cnt)
         cnt += 1
-        processData(FileSys.readFile(x))
-      }
-    )
+        vectors += processData(FileSys.readFile(fileIt.next()))
+    }
+    vectors.toList
   }
 }

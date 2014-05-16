@@ -2,14 +2,11 @@ package recommender
 
 import java.io.File
 import scala.collection.mutable
-import context._
 import filtering.MockVectorSimilarity
 import input.Checkins
 import input.User
 import precision._
 import vectors._
-import java.io.PrintWriter
-import utils.Cons
 
 /**
  * This is the main class of the recommender system.
@@ -63,7 +60,6 @@ object RecommenderApp {
     // Plug in PreFiltering here once we have an actual context
     //val dummyContext: ContextVector = Context.grabTestContextVector(1)
     //v = PreFilter.apply(v, dummyContext)
-
 
 
     val similarities: Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)

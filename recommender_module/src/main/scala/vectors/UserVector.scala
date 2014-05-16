@@ -113,7 +113,7 @@ object UserVector {
   def getAll: Seq[UserVector] = {
     vectors match {
       case Nil =>
-        vectors = new UserInputProcessor().processInDir(Cons.USERS_PATH)
+        vectors = new UserInputProcessor().processInDir(Cons.USERS_PATH, 20000)
       case _ => // nothing
     }
     vectors
