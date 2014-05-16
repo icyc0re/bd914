@@ -10,15 +10,34 @@ import input._
  */
 object Context {
 
-  var contextVector: ContextVector
+  var contextVector: ContextVector = null
 
   // Input: args -- lat, lng, rad, time1, time2, days
   def setContext(args: Array[String]) = {
     if (args.length == 5) {
-      contextVector = new ContextVector(List(
-        CoordinatesFeature(Cons.GPS_COORDINATES, (args(1), args(2)), //Current Location of the user
-        TimeFeature(Cons.TIME, List(((sDay, sMinutes, sHours), (eDay, eMinutes, eHours)))) // ... other context related features (i.e. current location)
-      ), null)
+      var list: List[Feature[_,_]] = List.empty      
+      if (args(1) != "~" && args(2) != "~")
+        list :+ CoordinatesFeature(Cons.GPS_COORDINATES, (args(1).toDouble, args(2).toDouble)) // Current Location of the user
+      if (args(3) != "~")
+        list :+ DoubleFeature(Cons.RADIUS, args(3).toDouble) // Radius to search around location
+      if (args(4) != "~" && args(5) != "~") {
+        val sH: Int = args(4).split(":")(0).toInt
+        val sM: Int = args(4).split(":")(1).toInt
+        
+        val eH: Int = args(5).split(":")(0).toInt
+        val eM: Int = args(5).split(":")(1).toInt
+        
+        if (args(6) != "~") {
+          for (i <- 1 to 7)
+            list :+ TimeFeature(Cons.TIME, List(((i, sH, sM), (i, eH, eM))))
+        } else {
+          args(6).map(_.asDigit).map(x => {
+            list :+ TimeFeature(Cons.TIME, List(((x, sH, sM), (x, eH, eM))))
+          })
+        }
+      }
+      
+      contextVector = new ContextVector(list, null)
     }
     // No Context provided
     else {
@@ -26,18 +45,8 @@ object Context {
     }
   }
 
-  //  // FIXME: to be modified later to actually grab context related features. For now this returns a test context
-  //  def grab(): ContextVector = {
-  //    return new ContextVector(List(
-  //      TextFeature(Cons.CATEGORY, "Food"), // User selected that he only wants Food or Nightlife venues
-  //      PriceFeature(Cons.PRICE, new VenuePrice(Option(1), Option("Cheap food"), Option("USD"))), // user selected he wants cheap locations
-  //      CoordinatesFeature(Cons.GPS_COORDINATES, (40.809976486485596, -73.96180629730225)), //Current Location of the user
-  //      TimeFeature(Cons.TIME, List(((0, 0, 0), (-1, -1, -1)))) // ... other context related features (i.e. current location)
-  //    ), null)
-  //  }
-
-  def grabContextVector(): ContextVector = {
-    contextVector;
+  def grab(): ContextVector = {
+    contextVector
   }
 
   def grabTestContextVector(num: Int): ContextVector = {

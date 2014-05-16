@@ -21,6 +21,7 @@ object Cons {
   val CATEGORY = "venue.category"
   val PRICE = "venue.price"
   val GPS_COORDINATES = "gps_coordinates"
+  val RADIUS = "radius" 
   val POPULARITY = "popularity"
   val TIME = "time"
 
