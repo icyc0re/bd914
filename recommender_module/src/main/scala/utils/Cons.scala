@@ -34,7 +34,7 @@ object Cons {
   /**
    * CONFIGURATION PARAMETERS
    */
-  val DATA_ROOT = "/data"
+  val DATA_ROOT = "/data/"
 
   val USERS_PATH = DATA_ROOT + "/users/"
   val VENUES_PATH = DATA_ROOT + "/venues/"
@@ -42,6 +42,8 @@ object Cons {
 
   val CATEGORIES_INPUT_PATH = DATA_ROOT + "/ordered_categories.txt"
   val CATEGORIES_MATRIX_INPUT_PATH = DATA_ROOT + "/categories_similarity.txt"
+
+  val VENUES_SERIALIZED = DATA_ROOT+"venues_serialized"
 
   val WEBAPP_RESULT_URL = "http://webapp.com:80/result"
   val WEBAPP_RESULT_PARAM_USERID = "userId"
