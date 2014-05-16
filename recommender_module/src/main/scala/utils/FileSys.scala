@@ -14,7 +14,7 @@ object FileSys {
       content
     }
     catch {
-      case e: Exception => println("Path = " + path + " - " + e); ""
+      case e: Exception => ""
     }
   }
 

@@ -25,17 +25,18 @@ object Cons {
   val POPULARITY = "popularity"
   val TIME = "time"
 
-  val USERS_PATH = "../dataset/small_sample/users/"
-  val VENUES_PATH = "../dataset/sample/venues/"
-  val INTERACTIONS_PATH = "../dataset/small_sample/users/"
+  val DATA_ROOT = "../dataset/sample/"
+  val USERS_PATH = DATA_ROOT+"users/"
+  val VENUES_PATH = DATA_ROOT+"venues/"
+  val INTERACTIONS_PATH = DATA_ROOT+"users/"
 
-  val DATA_ROOT = "../../../dataset/"
+
   val NEW_USER_DIRECTORY = DATA_ROOT + "new_user/"
   val CHECKINS_DIRECTORY = NEW_USER_DIRECTORY + "checkins/"
   val RECOMMENDATIONS_DIRECTORY = NEW_USER_DIRECTORY + "new_user/recommendations/"
 
-  val CATEGORIES_INPUT_PATH = "../dataset/sample/ordered_categories.txt"
-  val CATEGORIES_MATRIX_INPUT_PATH = "../dataset/sample/categories_similarity.txt"
+  val CATEGORIES_INPUT_PATH = DATA_ROOT+"ordered_categories.txt"
+  val CATEGORIES_MATRIX_INPUT_PATH = DATA_ROOT+"categories_similarity.txt"
 
   val WEBAPP_RESULT_URL = "http://webapp.com:80/result"
   val WEBAPP_RESULT_PARAM_USERID = "userId"
