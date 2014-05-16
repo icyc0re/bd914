@@ -107,8 +107,10 @@ object RecommenderApp {
 
       if(args.size >= 2) { //to write the features for the current user
         val writer_user = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id +"_profile"))
-        u.foreach(x => writer_user.write(x.getFeatureValue(Cons.USER_ID).toString()+' '+
-                                         x.getFeatureValue(Cons.POPULARITY).toString()))
+        u.foreach(x => writer_user.write("Id: "+x.getFeatureValue(Cons.USER_ID).toString+'\n'+
+                                         "Popularity: "+x.getFeatureValue(Cons.POPULARITY).toString+'\n'+
+                                         "Coordinates: "+context.getFeatureValue(Cons.GPS_COORDINATES).toString+'\n'+
+                                         "Time: "+context.getFeatureValue(Cons.TIME).toString))
       }
     }
   }
