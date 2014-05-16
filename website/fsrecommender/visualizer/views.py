@@ -11,13 +11,10 @@ import subprocess
 
 ACCESS_TOKEN = 'access_token'
 USER = 'user'
-DATA_ROOT = '../../dataset/'
-VENUES_DIRECTORY = DATA_ROOT+'sample/venues/'
-NEW_USER_DIRECTORY = DATA_ROOT+'new_user/'
-CHECKINS_DIRECTORY = NEW_USER_DIRECTORY+'checkins/'
-RECOMMENDATIONS_DIRECTORY = NEW_USER_DIRECTORY+'recommendations/'
+
 CLUSTER_DIRECTORY = '../../cluster/target/scala-2.10/'
 SCALA_JAR = CLUSTER_DIRECTORY+'simple-project_2.10-1.0.jar'
+
 
 def logged_in(function):
 	""" Authentication checker decorator """
@@ -67,10 +64,10 @@ def home(request):
 
 	checkins = client.users.checkins()
 	
-	with open(NEW_USER_DIRECTORY+user_id,'w+') as outfile:
+	with open(os.path.join(settings.NEW_USER_DIRECTORY, user_id), 'w+') as outfile:
 		json.dump(user, outfile)
 
-	with open(CHECKINS_DIRECTORY+user_id,'w+') as outfile:
+	with open(os.path.join(settings.CHECKINS_DIRECTORY, user_id), 'w+') as outfile:
 		json.dump(checkins, outfile)    
 
 	return redirect('/recommend/')
@@ -103,7 +100,7 @@ def recommend(request):
 		if not return_code:
 			client = foursquare.Foursquare(access_token=request.session[ACCESS_TOKEN])
 	
-			user_recommendations_file = RECOMMENDATIONS_DIRECTORY+data['user_id']
+			user_recommendations_file = os.path.join(settings.RECOMMENDATIONS_DIRECTORY, data['user_id'])
 			
 			# for testing, dummy venues if there is no file output by the recommender
 			if not os.path.exists(user_recommendations_file):			

@@ -10,6 +10,10 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 
 import os
 
+# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+
+
 # MANUAL SETTINGS
 # foursquare settings
 
@@ -22,7 +26,20 @@ else:
     CLIENT_ID = 'V2V5MKSOUAVDDPMPACRRQBTKFU3JQTRSMGEBMOXKGL0HX1FL'
     CLIENT_SECRET = 'BBL0BQUIXUEHJG0MSPTNDLC1HKQ2PHSOK3DFKRXANPCV2JYC'
     REDIRECT_URI = 'http://localhost:8000/'
-    DATA_ROOT = '../../dataset/'
+    DATA_ROOT = os.path.join(BASE_DIR, os.pardir, os.pardir, 'dataset')
+
+VENUES_DIRECTORY = os.path.join(DATA_ROOT, 'sample', 'venues')
+NEW_USER_DIRECTORY = os.path.join(DATA_ROOT, 'new_user')
+CHECKINS_DIRECTORY = os.path.join(NEW_USER_DIRECTORY, 'checkins')
+RECOMMENDATIONS_DIRECTORY = os.path.join(NEW_USER_DIRECTORY, 'recommendations')
+
+CLUSTER_DIRECTORY = '../../cluster/target/scala-2.10/'
+SCALA_JAR = CLUSTER_DIRECTORY+'simple-project_2.10-1.0.jar'
+
+if not os.path.exists(VENUES_DIRECTORY): os.mkdir(VENUES_DIRECTORY)
+if not os.path.exists(NEW_USER_DIRECTORY): os.mkdir(NEW_USER_DIRECTORY)
+if not os.path.exists(CHECKINS_DIRECTORY): os.mkdir(CHECKINS_DIRECTORY)
+if not os.path.exists(RECOMMENDATIONS_DIRECTORY): os.mkdir(RECOMMENDATIONS_DIRECTORY)
 
 
 # access token session key
@@ -30,8 +47,6 @@ ACCESS_TOKEN = 'access_token'
 
 
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
