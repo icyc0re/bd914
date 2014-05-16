@@ -8,11 +8,20 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.6/ref/settings/
 """
 
+import os
+
 # MANUAL SETTINGS
 # foursquare settings
-CLIENT_ID = 'SBUR2MWKKUYWPHJTZU4OLBAMFLGWKWZZJQKVGAAEJV1URHSP'
-CLIENT_SECRET = 'XZEO4JJQ2LYDX5GMTYQJ1S3AKUAHXTWZVOK2YBEOBRHNOFW4'
-REDIRECT_URI = 'http://localhost:8000/'
+
+if 'STAGING' in os.environ:
+    CLIENT_ID = 'SBUR2MWKKUYWPHJTZU4OLBAMFLGWKWZZJQKVGAAEJV1URHSP'
+    CLIENT_SECRET = 'XZEO4JJQ2LYDX5GMTYQJ1S3AKUAHXTWZVOK2YBEOBRHNOFW4'
+    REDIRECT_URI = 'http://zitazure.cloudapp.net/'
+else:
+    CLIENT_ID = 'V2V5MKSOUAVDDPMPACRRQBTKFU3JQTRSMGEBMOXKGL0HX1FL'
+    CLIENT_SECRET = 'BBL0BQUIXUEHJG0MSPTNDLC1HKQ2PHSOK3DFKRXANPCV2JYC'
+    REDIRECT_URI = 'http://localhost:8000/'    
+
 
 # access token session key
 ACCESS_TOKEN = 'access_token'
@@ -20,7 +29,6 @@ ACCESS_TOKEN = 'access_token'
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 # Quick-start development settings - unsuitable for production
@@ -40,6 +48,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
+    'gunicorn',
     'visualizer',
     'django.contrib.admin',
     'django.contrib.auth',
