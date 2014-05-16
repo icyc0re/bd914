@@ -12,8 +12,8 @@ import subprocess
 ACCESS_TOKEN = 'access_token'
 USER = 'user'
 
-CLUSTER_DIRECTORY = '../../cluster/target/scala-2.10/'
-SCALA_JAR = CLUSTER_DIRECTORY+'simple-project_2.10-1.0.jar'
+CLUSTER_DIRECTORY = '../../recommender_module/target/scala-2.10/'
+SCALA_JAR = CLUSTER_DIRECTORY+'recommender_module-assembly-1.0.jar'
 
 
 def logged_in(function):
@@ -100,13 +100,13 @@ def recommend(request):
 			data.update({'days': request.POST["days"]})
 
 		# call recommender
-		# TODO: CALL ONCE JAR IS SETUP
-		#return_code = subprocess.call(['java', '-jar', SCALA_JAR] + [str(d) for d in data.values()])
-		return_code = 0
+		output = subprocess.Popen(['java', '-jar', SCALA_JAR] + [str(d) for d in data.values()], stdout=subprocess.PIPE);
+		streamdata = output.communicate()
+		for line in streamdata:
+			print line
 
-		if not return_code:
+		if not output.returncode:
 			client = foursquare.Foursquare(access_token=request.session[ACCESS_TOKEN])
-	
 			user_recommendations_file = os.path.join(settings.RECOMMENDATIONS_DIRECTORY, data['user_id'])
 			
 			# for testing, dummy venues if there is no file output by the recommender

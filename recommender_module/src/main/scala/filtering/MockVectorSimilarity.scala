@@ -73,14 +73,13 @@ object MockVectorSimilarity extends VectorSimilarity {
 
   def getTopKSimilaritiesForUserString(userIndex: Int, similarities: Seq[(String, Seq[(String, Double)])], k: Int): String = {
     val values = similarities(userIndex)._2
-    var output: String = "["
+    var output: String = ""
     if (k > 0) {
       output += values(0)._1
       for (i <- 1 to k - 1) {
         output += "," + values(i)._1
       }
     }
-    output += "]"
     output
   }
 

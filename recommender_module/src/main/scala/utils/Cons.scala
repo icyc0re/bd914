@@ -25,15 +25,16 @@ object Cons {
   val POPULARITY = "popularity"
   val TIME = "time"
 
-  val DATA_ROOT = "../dataset/sample/"
-  val USERS_PATH = DATA_ROOT+"users/"
-  val VENUES_PATH = DATA_ROOT+"venues/"
-  val INTERACTIONS_PATH = DATA_ROOT+"users/"
-
+  val PROJECT_PATH = "/home/bernard/Dropbox/epfl/S10/BD/project/bd914/"
+  val DATA_ROOT = PROJECT_PATH+"dataset/"
+  val SAMPLE_PATH = DATA_ROOT + "small_sample/"
+  val USERS_PATH = SAMPLE_PATH + "users/"
+  val VENUES_PATH = SAMPLE_PATH + "venues/"
+  val INTERACTIONS_PATH = SAMPLE_PATH + "users/"
 
   val NEW_USER_DIRECTORY = DATA_ROOT + "new_user/"
   val CHECKINS_DIRECTORY = NEW_USER_DIRECTORY + "checkins/"
-  val RECOMMENDATIONS_DIRECTORY = NEW_USER_DIRECTORY + "new_user/recommendations/"
+  val RECOMMENDATIONS_DIRECTORY = NEW_USER_DIRECTORY + "recommendations/"
 
   val CATEGORIES_INPUT_PATH = DATA_ROOT+"ordered_categories.txt"
   val CATEGORIES_MATRIX_INPUT_PATH = DATA_ROOT+"categories_similarity.txt"
