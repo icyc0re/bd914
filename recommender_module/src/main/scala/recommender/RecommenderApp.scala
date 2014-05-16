@@ -61,16 +61,16 @@ object RecommenderApp {
     }
 
     // Plug in PreFiltering here once we have an actual context
-    val dummyContext: ContextVector = Context.grabTestContextVector(1)
-    v = PreFilter.apply(v, dummyContext)
+    //val dummyContext: ContextVector = Context.grabTestContextVector(1)
+    //v = PreFilter.apply(v, dummyContext)
 
 
 
     val similarities: Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
 
-    val newSimilarities = PostFilter.applyPostFiltering(u, v, u.map(_ => dummyContext), similarities);
+    //val newSimilarities = PostFilter.applyPostFiltering(u, v, u.map(_ => dummyContext), similarities);
 
-    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(newSimilarities)
+    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
     //val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
     MockVectorSimilarity.printTopKSimilarities(sorted, 5)
 
@@ -85,9 +85,7 @@ object RecommenderApp {
       val venues_id = List("3fd66200f964a52005e71ee3", "3fd66200f964a52008e81ee3", "3fd66200f964a52023eb1ee3",
         "3fd66200f964a5200ae91ee3", "3fd66200f964a52015e51ee3")
 
-      val writer = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id))
-      venues_id.foreach(writer.write)
-      writer.close()
+      // WRITE SOMEWHERE RESULT 
     }
   }
 }
