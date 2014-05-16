@@ -22,8 +22,13 @@ trait AbstractInputProcessor {
    * @return collection of vectors
    */
   def processInDir(dirName: String): Seq[T] = {
+    var cnt = 0
     FileSys.readDir(dirName).map(
-      x => processData(FileSys.readFile(x))
+      x => {
+        if (cnt % 1000 == 0) println("Parsed "+cnt)
+        cnt += 1
+        processData(FileSys.readFile(x))
+      }
     )
   }
 }
