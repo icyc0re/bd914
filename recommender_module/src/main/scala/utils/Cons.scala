@@ -11,7 +11,6 @@ object Cons {
   val USERS_COUNT = "usersCount"
   val TIP_COUNT = "tipCount"
   val VENUE_ID = "venue.id"
-  val VENUE_NAME = "venue.name"
 
   val FRIENDS_COUNT = "user.friends.count"
   val USER_CHECKINS = "user.checkins.count"

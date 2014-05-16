@@ -341,7 +341,6 @@ object Venue {
 
     val features = List(
       TextFeature(Cons.VENUE_ID, v.id),
-      TextFeature(Cons.VENUE_NAME, v.name),
       DoubleFeature(Cons.POPULARITY, compute_popularity(v.stats.checkinsCount, v.stats.tipCount.get, v.stats.usersCount.get)),
       CoordinatesFeature(Cons.GPS_COORDINATES, (v.location.get.lat.get, v.location.get.lng.get)),
       CategoryFeature(Cons.CATEGORY, v.categories.get.map(_.name)),

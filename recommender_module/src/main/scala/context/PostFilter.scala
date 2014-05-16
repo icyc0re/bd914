@@ -65,8 +65,9 @@ object PostFilter {
       val user_id = user.getFeatureValue[String](Cons.USER_ID).get
       var rankings: mutable.MutableList[(String, Double)] = mutable.MutableList.empty
       for ((venue, s) <- venues zip sim) {
+
         val venue_id = venue.getFeatureValue[String](Cons.VENUE_ID).get
-        //val s : Double = similarities.map( x => x._1 match {case user_id => x._2.map(a => a._1 match {case venue_id => computerRatingModificator(venue, context, a._2) }) }).flatten
+
         rankings += ((venue_id, computerRatingModificator(venue, context, s)))
       }
       similarities += ((user_id, rankings))

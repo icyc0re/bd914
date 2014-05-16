@@ -1,7 +1,10 @@
 package precision
 
-import vectors.VenueListType
+import utils.Cons
+import vectors.{VenueVector, VenueListType, UserVector}
 
+import scala.util.parsing.json.JSON
+import scala.collection.mutable.ListBuffer
 import vectors.{VenueVector, UserVector}
 import utils.Cons
 
