@@ -57,6 +57,8 @@ object Cons {
 
   val USERS_MAX = 10
   val VENUES_SERIALIZED = DATA_ROOT+"venues_serialized"
+
+  val TOP_K_COUNT = 10
 }
 
 

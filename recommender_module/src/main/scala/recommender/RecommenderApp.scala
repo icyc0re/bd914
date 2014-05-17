@@ -1,7 +1,6 @@
 package recommender
 
 import java.io.File
-import scala.collection.mutable
 import context._
 import filtering.MockVectorSimilarity
 import input.User
@@ -17,84 +16,76 @@ import input.UserInputProcessor
  */
 object RecommenderApp {
   def main(args: Array[String]) {
+    println("using dataset: " + Cons.VENUES_PATH)
 
     // Set USER_ID
     val user_id = args.isEmpty match {
       case true => 0
-      case false => args(0)
+      case false => {
+        println("compute recommendations for user: " + args(0))
+        args(0)
+      }
     }
     if (args.length == 7) {
       // parse input arguments
-    	Context.setContext(args)
+      Context.setContext(args)
     }
-    
-    println("compute recommendations for user: "+user_id);
-    println("using dataset: "+Cons.VENUES_PATH)
-    
-    var u: Seq[UserVector] = mutable.MutableList.empty;
+
+    // PARSE VENUES
+    var v: Seq[VenueVector] = VenueVector.getAll
+    // APPLY PRE-FILTERING if context args are passed
+    val context: ContextVector = Context.grab()
+    if (context != null) {
+      println("Applying pre-filtering")
+      v = PreFilter.apply(v, context)
+    }
+    println("venues size " + v.size)
+
+    // GET USER IF PRECISION, IF PASSED AS ARGUMENT, OR ALL USERS
+    var u: Seq[UserVector] = List.empty[UserVector]
     var userInteractions: Map[String, Map[VenueListType.VenueListType, Seq[VenueVector]]] = Map.empty
     if (args.size == 1 && args(0).contains(Cons.PRECISION)) {
       userInteractions = Precision.modifyUserInteractions(User.getAll)
       u = Precision.getUserVectorFromUserInteractions(userInteractions)
-    } else if(args.size >= 2){
-      val userJson = new File(Cons.NEW_USER_DIRECTORY+args(0));
+
+    } else if (args.size >= 2) {
+      val userJson = new File(Cons.NEW_USER_DIRECTORY + args(0))
       val user: String = scala.io.Source.fromFile(userJson).mkString
       val userVector: UserVector = new UserInputProcessor().processData(user)
 
-      u :+ userVector;
+      u = List(userVector)
     } else {
       u = UserVector.getAll
     }
 
-    // COMMENT OUT TO CHECK PRECISION CORRECTNESS
-    // get venue features
-    var v: Seq[VenueVector] = VenueVector.getAll
-
-    // UNCOMMENT TO CHECK PRECISION CORRECTNESS
-    //var userId: String = u(0).getFeatureValue[String](Cons.USER_ID).get
-    //var v: Seq[VenueVector] = userInteractions(userId)(VenueListType.notDeleted) ++ userInteractions(userId)(VenueListType.deleted)
-
-
-    // PREFILTERING - Do prefiltering if not calculating precision
-    val context: ContextVector = Context.grab
-    if(!(args.size == 1 && args(0).contains(Cons.PRECISION)) && context != null) {
-      // Plug in PreFiltering here once we have an actual context
-      v = PreFilter.apply(v, context)
-	  }
-
     var similarities: Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
-	
-	  // Do postfiltering if not calculating precision
-    if(!(args.size == 1 && args(0).contains(Cons.PRECISION)) && context != null) {
-      similarities = PostFilter.applyPostFiltering(u, v, u.map(_ => context), similarities);
+    similarities = context match {
+      case null => similarities
+      case _ => PostFilter.applyPostFiltering(u, v, u.map(_ => context), similarities)
     }
 
     val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
-    MockVectorSimilarity.printTopKSimilarities(sorted, 5)
+    val topK = MockVectorSimilarity.getTopKSimilarities(sorted, Cons.TOP_K_COUNT)
+    MockVectorSimilarity.printTopKSimilarities(topK)
 
-    if(args.size == 1 && args(0).contains(Cons.PRECISION)) {
-      Precision.calculatePrecision(sorted, userInteractions,10)
+    if (args.size == 1 && args(0).contains(Cons.PRECISION)) {
+      Precision.calculatePrecision(sorted, userInteractions, Cons.TOP_K_COUNT)
     }
-    //ResponseToWebApp.replyToWebApp(sorted, 3, 0)
+    else {
+      //write results to file
+      if (user_id != 0 && user_id != Cons.PRECISION) {
+        val venuesIDs = MockVectorSimilarity.getTopKSimilaritiesForUserString(0, sorted, Cons.TOP_K_COUNT)
+        //write the recommendation
+        val writer_venues = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id))
+        venuesIDs.split(",").foreach(x => writer_venues.write(x + '\n'))
+        writer_venues.close()
 
-    //write results to file
-    
-    if (user_id != 0 && user_id != Cons.PRECISION) {
-    //      val venues_id = List("3fd66200f964a52005e71ee3", "3fd66200f964a52008e81ee3", "3fd66200f964a52023eb1ee3",
-    //        "3fd66200f964a5200ae91ee3", "3fd66200f964a52015e51ee3")
-
-	    val venuesIDs = MockVectorSimilarity.getTopKSimilaritiesForUserString(0, sorted, 5)
-      //write the recommendation
-      val writer_venues = new PrintWriter (new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id))
-      venuesIDs.split(",").foreach(x => writer_venues.write(x+'\n'))
-      writer_venues.close()
-
-      if(args.size >= 2) { //to write the features for the current user
-        val writer_user = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id +"_profile"))
-        u.foreach(x => writer_user.write("Id: "+x.getFeatureValue(Cons.USER_ID).get.toString+'\n'+
-                                         "Popularity: "+x.getFeatureValue(Cons.POPULARITY).get.toString+'\n'+
-                                         "Coordinates: "+context.getFeatureValue(Cons.GPS_COORDINATES).getOrElse(Cons.DEFAULT_COORDINATES).toString+'\n'+
-                                         "Time: "+context.getFeatureValue(Cons.TIME).toString+'\n'))
+        //to write the features for the current user
+        val writer_user = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id + "_profile"))
+        u.foreach(x => writer_user.write("Id: " + x.getFeatureValue(Cons.USER_ID).get.toString + '\n' +
+          "Popularity: " + x.getFeatureValue(Cons.POPULARITY).get.toString + '\n' +
+          "Coordinates: " + context.getFeatureValue(Cons.GPS_COORDINATES).getOrElse(Cons.DEFAULT_COORDINATES).toString + '\n' +
+          "Time: " + context.getFeatureValue(Cons.TIME).toString + '\n'))
         writer_user.close()
       }
     }
