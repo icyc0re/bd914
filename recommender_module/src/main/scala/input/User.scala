@@ -95,7 +95,7 @@ object User {
   def getAll: Seq[(UserVector, Seq[VenueVector])] = {
     users match {
       case Nil =>
-        users = new RawUserInputProcessor().processInDir(Cons.USERS_PATH)
+        users = new RawUserInputProcessor().processInDir(Cons.USERS_PATH, Cons.USERS_MAX)
       case _ => // nothing
     }
     users

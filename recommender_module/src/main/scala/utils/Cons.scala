@@ -26,7 +26,7 @@ object Cons {
   val TIME = "time"
 
   val PROJECT_PATH = "/home/bernard/Dropbox/epfl/S10/BD/project/bd914/"
-  val DATA_ROOT = PROJECT_PATH+"dataset/"
+  val DATA_ROOT = "../dataset/"
   val SAMPLE_PATH = DATA_ROOT + "small_sample/"
   val USERS_PATH = SAMPLE_PATH + "users/"
   val VENUES_PATH = SAMPLE_PATH + "venues/"
@@ -53,6 +53,9 @@ object Cons {
   val HOME_PRIVATE = "Home (private)"
 
   val PRECISION_DELETION_FACTOR = 0.3
+
+  val USERS_MAX = 10
+  val VENUES_SERIALIZED = DATA_ROOT+"venues_serialized"
 }
 
 

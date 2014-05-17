@@ -1,10 +1,14 @@
 package vectors
 
-import features.{DoubleFeature, IntFeature, Feature}
+import features._
 import sets.AbstractVectorSet
 import input.VenueInputProcessor
-import utils.Cons
-import utils.Mathoperators
+import utils.{FileSys, Cons, Mathoperators}
+import features.DoubleFeature
+import scala.Some
+import features.TextFeature
+import java.net.{URLEncoder, URLDecoder}
+import java.io.{File, PrintWriter}
 
 object VenueListType extends Enumeration {
   type VenueListType = Value
@@ -80,8 +84,16 @@ object VenueVector {
 
   def getAll: Seq[VenueVector] = {
     vectors match {
-      case Nil =>
-        vectors = new VenueInputProcessor().processInDir(Cons.VENUES_PATH)
+      case Nil => {
+        val f: File = new File(Cons.VENUES_SERIALIZED)
+        if (f.isFile) {
+          readFromDisk(Cons.VENUES_SERIALIZED)
+        }
+        else {
+          vectors = new VenueInputProcessor().processInDir(Cons.VENUES_PATH)
+          saveToDisk(Cons.VENUES_SERIALIZED)
+        }
+      }
       case _ => // nothing
     }
     vectors
@@ -98,27 +110,72 @@ object VenueVector {
     x.getFeatureValue[String](Cons.VENUE_ID).get
   }
 
+  private def saveToDisk(path: String) = {
+    val writer = new PrintWriter(path)
+    vectors.foreach {
+      v =>
+        writer.println(serialize(v))
+    }
+    writer.close()
+  }
+
+  def readFromDisk(path: String) = {
+    println("Reading venues from disk: " + path)
+    vectors = for (l <- FileSys.getLines(path)) yield deSerialize(l)
+  }
+
   def serialize(v: VenueVector): String = {
     var line = new StringBuilder("")
     // get categories
-    line ++= ""
-    // get num people
-    line ++= ""
+    line ++= v.getFeatureValue[String](Cons.VENUE_ID).getOrElse("n/a") ++ " "
+    // get popularity
+    line ++= v.getFeatureValue[Double](Cons.POPULARITY).getOrElse(.0).toString ++ " "
     // get coordinates
-    line ++= ""
+    val coord = v.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).getOrElse((.0, .0))
+    line ++= coord._1.toString ++ " " ++ coord._2.toString ++ " "
+
+    line ++= v.getFeatureValue[Seq[String]](Cons.CATEGORY).getOrElse(List("Bar")).foldRight("")((a, b) => URLEncoder.encode(a, "UTF-8") + "," + b) ++ " "
+
+    // time series
+    val times = v.getFeatureValue[Seq[((Int, Int, Int), (Int, Int, Int))]](Cons.TIME).getOrElse(List(((0, 0, 0), (0, 0, 0)))) match {
+      case x if x.isEmpty => List(((0, 0, 0), (0, 0, 0)))
+      case x => x
+    }
+    line ++= times.foldLeft[String]("")(
+      (b, a) => a._1._1 + "," + a._1._2 + "," + a._1._3 + "," + a._2._1 + "," + a._2._2 + "," + a._2._3 + "," + b
+    )
+
     line.mkString
   }
 
   def deSerialize(in: String): VenueVector = {
     val components = in.split("\\s")
     // get categories
-    val categories = IntFeature("categories", components(0).toInt)
-    // get num people
-    val numPeople = IntFeature("numPeople", components(1).toInt)
+    val venueId = TextFeature(Cons.VENUE_ID, components(0))
+    // get popularity
+    val popularity = DoubleFeature(Cons.POPULARITY, components(1).toDouble)
     // get coordinates
-    val coordinates = DoubleFeature("coordsLan", components(2).toDouble)
+    val coordinates = CoordinatesFeature(Cons.GPS_COORDINATES, (components(2).toDouble, components(3).toDouble))
+    // categories
+    val cats = CategoryFeature(Cons.CATEGORY, parseCats(components(4)))
+    // time series
+    val times = TimeFeature(Cons.TIME, parseTimes(components(5)))
 
+    new VenueVector(List(venueId, popularity, coordinates, cats, times), null)
+  }
 
-    new VenueVector(List(categories, numPeople, coordinates), null)
+  def parseCats(cats: String): Seq[String] = {
+    cats.split("\\,").map(x => URLDecoder.decode(x, "UTF-8"))
+  }
+
+  def parseTimes(times: String): Seq[((Int, Int, Int), (Int, Int, Int))] = {
+    val parts = times.split("\\,")
+    val res = for (i <- 0 until (parts.size / 6)) yield {
+      ((parts(i * 6 + 0).toInt, parts(i * 6 + 1).toInt, parts(i * 6 + 2).toInt), (parts(i * 6 + 3).toInt, parts(i * 6 + 4).toInt, parts(i * 6 + 5).toInt))
+    }
+    res match {
+      case List(((0, 0, 0), (0, 0, 0))) => List.empty[((Int, Int, Int), (Int, Int, Int))]
+      case x => x
+    }
   }
 }
