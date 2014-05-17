@@ -59,15 +59,15 @@ object RecommenderApp {
     }
 
     // Plug in PreFiltering here once we have an actual context
-    val dummyContext: ContextVector = Context.grabTestContextVector(1)
-    v = PreFilter.apply(v, dummyContext)
+    //val dummyContext: ContextVector = Context.grabTestContextVector(1)
+    //v = PreFilter.apply(v, dummyContext)
 
 
     val similarities: Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
 
-    val newSimilarities = PostFilter.applyPostFiltering(u, v, u.map(_ => dummyContext), similarities);
+    //val newSimilarities = PostFilter.applyPostFiltering(u, v, u.map(_ => dummyContext), similarities);
 
-    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(newSimilarities)
+    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
     MockVectorSimilarity.printTopKSimilarities(sorted, 5)
 
     if (args.size == 1 && args(0).contains("precision")) {
