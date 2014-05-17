@@ -22,10 +22,11 @@ object Precision {
 
     var count: Double = 0
     var numberOfVenues: Double = 0
+    // USE THIS TO CHECK PRECISION CORRECTNESS
     //var (userVector, venueVectors) = userVenues(1)
+    // COMMENT OUT THIS LOOP TO CHECK PRECISION CORRECTNESS
     for ((userVector, venueVectors) <- userVenues) {
       var userId: String = userVector.getFeatureValue[String](Cons.USER_ID).get
-      //println(userVector);
       count = 0
       numberOfVenues = venueVectors.length
       userInteractions += userId -> Map((VenueListType.deleted -> collection.mutable.ArrayBuffer()),

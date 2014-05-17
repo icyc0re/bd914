@@ -46,10 +46,16 @@ object RecommenderApp {
       u = UserVector.getAll
     }
 
+    // COMMENT OUT TO CHECK PRECISION CORRECTNESS
     // get venue features
-    var v: Seq[VenueVector] = VenueVector.getAll    
-    
-	  // PREFILTERING - Do prefiltering if not calculating precision
+    var v: Seq[VenueVector] = VenueVector.getAll
+
+    // UNCOMMENT TO CHECK PRECISION CORRECTNESS
+    //var userId: String = u(0).getFeatureValue[String](Cons.USER_ID).get
+    //var v: Seq[VenueVector] = userInteractions(userId)(VenueListType.notDeleted) ++ userInteractions(userId)(VenueListType.deleted)
+
+
+    // PREFILTERING - Do prefiltering if not calculating precision
     val context: ContextVector = Context.grab
     if(!(args.size == 1 && args(0).contains(Cons.PRECISION)) && context != null) {
       // Plug in PreFiltering here once we have an actual context
