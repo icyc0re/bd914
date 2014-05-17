@@ -4,7 +4,6 @@ import java.io.File
 import scala.collection.mutable
 import context._
 import filtering.MockVectorSimilarity
-import input.Checkins
 import input.User
 import precision._
 import vectors._
@@ -25,7 +24,7 @@ object RecommenderApp {
       case false => args(0)
     }
     if (args.length == 7) {
-    // parse input arguments
+      // parse input arguments
     	Context.setContext(args)
     }
     
@@ -50,7 +49,7 @@ object RecommenderApp {
     // get venue features
     var v: Seq[VenueVector] = VenueVector.getAll    
     
-	// PREFILTERING - Do prefiltering if not calculating precision
+	  // PREFILTERING - Do prefiltering if not calculating precision
     val context: ContextVector = Context.grab
     if(!(args.size == 1 && args(0).contains("precision")) && context != null) {
       // Plug in PreFiltering here once we have an actual context
@@ -59,7 +58,7 @@ object RecommenderApp {
 
     var similarities: Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
 	
-	// Do postfiltering if not calculating precision
+	  // Do postfiltering if not calculating precision
     if(!(args.size == 1 && args(0).contains("precision"))) {
       similarities = PostFilter.applyPostFiltering(u, v, u.map(_ => context), similarities);
     }
@@ -75,10 +74,10 @@ object RecommenderApp {
     //write results to file
     
     if (user_id != 0 && user_id != "precision") {
-//      val venues_id = List("3fd66200f964a52005e71ee3", "3fd66200f964a52008e81ee3", "3fd66200f964a52023eb1ee3",
-//        "3fd66200f964a5200ae91ee3", "3fd66200f964a52015e51ee3")
+    //      val venues_id = List("3fd66200f964a52005e71ee3", "3fd66200f964a52008e81ee3", "3fd66200f964a52023eb1ee3",
+    //        "3fd66200f964a5200ae91ee3", "3fd66200f964a52015e51ee3")
 
-	  val venuesIDs = MockVectorSimilarity.getTopKSimilaritiesForUserString(0, sorted, 5)
+	    val venuesIDs = MockVectorSimilarity.getTopKSimilaritiesForUserString(0, sorted, 5)
       //write the recommendation
       val writer_venues = new PrintWriter (new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id))
       venuesIDs.split(",").foreach(x => writer_venues.write(x+'\n'))
