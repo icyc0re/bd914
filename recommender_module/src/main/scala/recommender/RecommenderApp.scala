@@ -33,7 +33,7 @@ object RecommenderApp {
     
     var u: Seq[UserVector] = mutable.MutableList.empty;
     var userInteractions: Map[String, Map[VenueListType.VenueListType, Seq[VenueVector]]] = Map.empty
-    if (args.size == 1 && args(0).contains("precision")) {
+    if (args.size == 1 && args(0).contains(Cons.PRECISION)) {
       userInteractions = Precision.modifyUserInteractions(User.getAll)
       u = Precision.getUserVectorFromUserInteractions(userInteractions)
     } else if(args.size >= 2){
@@ -51,7 +51,7 @@ object RecommenderApp {
     
 	  // PREFILTERING - Do prefiltering if not calculating precision
     val context: ContextVector = Context.grab
-    if(!(args.size == 1 && args(0).contains("precision")) && context != null) {
+    if(!(args.size == 1 && args(0).contains(Cons.PRECISION)) && context != null) {
       // Plug in PreFiltering here once we have an actual context
       v = PreFilter.apply(v, context)
 	  }
@@ -59,21 +59,21 @@ object RecommenderApp {
     var similarities: Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
 	
 	  // Do postfiltering if not calculating precision
-    if(!(args.size == 1 && args(0).contains("precision")) && context != null) {
+    if(!(args.size == 1 && args(0).contains(Cons.PRECISION)) && context != null) {
       similarities = PostFilter.applyPostFiltering(u, v, u.map(_ => context), similarities);
     }
 
     val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
     MockVectorSimilarity.printTopKSimilarities(sorted, 5)
 
-    if(args.size == 1 && args(0).contains("precision")) {
+    if(args.size == 1 && args(0).contains(Cons.PRECISION)) {
       Precision.calculatePrecision(sorted, userInteractions,10)
     }
     //ResponseToWebApp.replyToWebApp(sorted, 3, 0)
 
     //write results to file
     
-    if (user_id != 0 && user_id != "precision") {
+    if (user_id != 0 && user_id != Cons.PRECISION) {
     //      val venues_id = List("3fd66200f964a52005e71ee3", "3fd66200f964a52008e81ee3", "3fd66200f964a52023eb1ee3",
     //        "3fd66200f964a5200ae91ee3", "3fd66200f964a52015e51ee3")
 

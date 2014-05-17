@@ -53,6 +53,7 @@ object Cons {
   val HOME_PRIVATE = "Home (private)"
 
   val PRECISION_DELETION_FACTOR = 0.3
+  val PRECISION = "precision"
 
   val USERS_MAX = 10
   val VENUES_SERIALIZED = DATA_ROOT+"venues_serialized"
