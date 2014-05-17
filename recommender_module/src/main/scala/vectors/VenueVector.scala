@@ -122,7 +122,7 @@ object VenueVector {
   }
 
   def readFromDisk(path: String) = {
-    println("read disk " + path)
+    println("Reading venues from disk: " + path)
     vectors = for (l <- FileSys.getLines(path)) yield deSerialize(l)
   }
 
