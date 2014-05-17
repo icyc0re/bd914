@@ -43,7 +43,7 @@ object Cons {
   val CATEGORIES_INPUT_PATH = DATA_ROOT + "/ordered_categories.txt"
   val CATEGORIES_MATRIX_INPUT_PATH = DATA_ROOT + "/categories_similarity.txt"
 
-  val USERS_MAX = 100
+  val USERS_MAX = 10
 
   val VENUES_SERIALIZED = DATA_ROOT+"venues_serialized"
 
