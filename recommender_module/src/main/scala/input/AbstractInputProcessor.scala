@@ -31,6 +31,7 @@ trait AbstractInputProcessor {
       cnt match {
         case 0 => println("Started parsing...")
         case x if cnt % 1000 == 0 => println("Parsed "+cnt)
+        case _ => // no logging
       }
       cnt += 1
       vectors += processData(FileSys.readFile(fileIt.next()))
