@@ -54,8 +54,8 @@ object MockVectorSimilarity extends VectorSimilarity {
     sorted.toList
   }
 
-  def printTopKSimilarities(similarities: Seq[(String, Seq[(String, Double)])], k: Int) = {
-    for ((user, values) <- getTopKSimilarities(similarities, k)) {
+  def printTopKSimilarities(topK: Seq[(String, Seq[(String, Double)])]) = {
+    for ((user, values) <- topK) {
       println("\n user - " + user)
       for ((venueId, venueScore) <- values) {
         println(" venue - " + venueId + " score - " + venueScore)
@@ -73,14 +73,13 @@ object MockVectorSimilarity extends VectorSimilarity {
 
   def getTopKSimilaritiesForUserString(userIndex: Int, similarities: Seq[(String, Seq[(String, Double)])], k: Int): String = {
     val values = similarities(userIndex)._2
-    var output: String = "["
+    var output: String = ""
     if (k > 0) {
       output += values(0)._1
       for (i <- 1 to k - 1) {
         output += "," + values(i)._1
       }
     }
-    output += "]"
     output
   }
 

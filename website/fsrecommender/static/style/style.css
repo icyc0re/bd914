@@ -136,14 +136,15 @@ button {
 	}
 
 #map-holder {
-	margin-bottom: 20px;
 }
 	#map-holder #map {
 		width: 100%;
 		height: 600px;
 		margin-bottom: 10px;
 	}
-
+.mt {
+	margin-top: 20px;
+}
 
 
 /*-----Recommendation List --------*/
@@ -244,3 +245,27 @@ nav ul li a:hover {
 	font-weight:bold;
 }*/
 
+.day-select {
+	text-align: center;
+	list-style-type: none;	
+}
+	.day-select li {
+		display: inline-block;
+		margin: 0 2px;	
+	}
+		.day-select .button {
+			display: block;
+			line-height: 92px;
+			width: 100px;
+			height: 100px;
+			border-radius: 8px;
+		}
+		.day-select .button:hover,
+		.day-select .button.selected {
+			line-height: 88px;
+			color: white;
+			border: 2px solid #80A2B6;
+		}
+		.day-select .button.selected {
+			background: #479ac2;
+		}

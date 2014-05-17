@@ -1,19 +1,14 @@
 package precision
 
-import utils.Cons
-import vectors.{VenueVector, VenueListType, UserVector}
 
-import scala.util.parsing.json.JSON
-import scala.collection.mutable.ListBuffer
-import vectors.{VenueVector, UserVector}
+import vectors.{VenueVector, VenueListType, UserVector}
 import utils.Cons
+import scala.util.control.Breaks._
 
 /**
  * Keeps list of all categories and similarity between any two categories
  * @author Jakub Swiatkowski
  */
-
-
 object Precision {
 
   /**
@@ -27,9 +22,11 @@ object Precision {
 
     var count: Double = 0
     var numberOfVenues: Double = 0
+    // USE THIS TO CHECK PRECISION CORRECTNESS
+    //var (userVector, venueVectors) = userVenues(1)
+    // COMMENT OUT THIS LOOP TO CHECK PRECISION CORRECTNESS
     for ((userVector, venueVectors) <- userVenues) {
       var userId: String = userVector.getFeatureValue[String](Cons.USER_ID).get
-      //println(userVector);
       count = 0
       numberOfVenues = venueVectors.length
       userInteractions += userId -> Map((VenueListType.deleted -> collection.mutable.ArrayBuffer()),
@@ -56,41 +53,80 @@ object Precision {
     userInteractions.map(x => UserVector.getById(x._1).applyVenues(x._2(VenueListType.notDeleted))).toSeq
   }
 
-  //for one sampled user
+
 
   /**
    * Precision is calculated as
    * Number of interactions that were deleted from the user found in the recommendation /
    * Number of recommendations - number of nonDeletedItems found in the recommendations
    */
-  def calculatePrecisionForOneUser(topK: (String, Seq[(String, Double)]), deletedInteractions: Seq[VenueVector], nonDeletedInteractions: Seq[VenueVector]): Double = {
+  def calculatePrecisionForOneUser(similarities: (String, Seq[(String, Double)]), deletedInteractions:  Seq[VenueVector], nonDeletedInteractions: Seq[VenueVector], topNumber :Integer): Double = {
     var sum = 0.0
-    var numberOfNonDeletedItemsInRecommendations = 0
-    for ((venueID, value) <- topK._2) {
-      if (deletedInteractions.exists((a: VenueVector) => a == VenueVector.getById(venueID)))
-        sum += 1.0
-      if (nonDeletedInteractions.exists((a: VenueVector) => a == VenueVector.getById(venueID)))
-        numberOfNonDeletedItemsInRecommendations += 1
+    var topKWithoutNotDeleted: Seq[String] = collection.mutable.ArrayBuffer.empty
+    // Get top recommended venues without notDeleted
+    var count = 0
+    var exists = false
+
+    // Create venue similarities set
+    val similaritiesSet: collection.mutable.Set[String] = collection.mutable.Set.empty[String]
+    for ((venueID, value) <- similarities._2) {
+      similaritiesSet += venueID
     }
 
+    val deletedSet: collection.mutable.Set[String] = collection.mutable.Set.empty[String]
+    for (venueVector <- deletedInteractions) {
+      deletedSet += venueVector.getFeatureValue[String](Cons.VENUE_ID).get
+    }
 
-    var result = 0.0
-    if (topK._2.length - numberOfNonDeletedItemsInRecommendations > 0)
-      result = sum / (topK._2.length - numberOfNonDeletedItemsInRecommendations)
+    val nonDeletedSet: collection.mutable.Set[String] = collection.mutable.Set.empty[String]
+    for (venueVector <- nonDeletedInteractions) {
+      nonDeletedSet += venueVector.getFeatureValue[String](Cons.VENUE_ID).get
+    }
 
+    breakable {
+      for (venueID <- similaritiesSet) {
+        exists = false
+        // Check if the venue from recommendation exists in nonDeletedInteractions
+        breakable {
+          for(nonDeletedVenueID <- nonDeletedSet) {
+            if(venueID == nonDeletedVenueID) {
+              exists = true
+              //break()
+            }
+          }
+        }
+        if(exists == false) {
+          topKWithoutNotDeleted :+= venueID
+          count = count + 1
+        }
+        if(count == topNumber)
+          break()
+      }
+    }
+
+    for(venueID <-  topKWithoutNotDeleted){
+      for(deletedVenueId <- deletedSet) {
+        if(venueID == deletedVenueId) {
+          sum+=1.0
+        }
+      }
+    }
+    var result = sum/count
     result
   }
 
-  def calculatePrecision(usersTopK: Seq[(String, Seq[(String, Double)])], modified: Map[String, Map[VenueListType.VenueListType, Seq[VenueVector]]]): Double = {
+  def calculatePrecision(similarities: Seq[(String, Seq[(String, Double)])], modified: Map[String, Map[VenueListType.VenueListType, Seq[VenueVector]]] , topNumber: Integer ): Double = {
     var sum = 0.0
-    for ((userId, userVenues) <- usersTopK) {
+    for ((userId, userVenues) <- similarities) {
       sum += calculatePrecisionForOneUser((userId, userVenues),
         modified(userId)(VenueListType.deleted),
-        modified(userId)(VenueListType.notDeleted))
+        modified(userId)(VenueListType.notDeleted),
+        topNumber)
     }
 
-    println("Precision: " + sum / usersTopK.length)
-    sum / usersTopK.length
+    val precision = sum / similarities.length
+    println(f"Precision: $precision%2.20f")
+    sum / similarities.length
   }
 }
 

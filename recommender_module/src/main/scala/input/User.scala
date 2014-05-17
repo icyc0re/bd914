@@ -101,6 +101,7 @@ object User {
     users
   }
 
+  //TODO: add features category and location
   def featureVector(u: User): UserVector = {
     val features = List(
       TextFeature(Cons.USER_ID, u.id),

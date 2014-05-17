@@ -28,9 +28,9 @@ trait AbstractInputProcessor {
     val fileIt = FileSys.readDir(dirName).iterator
     val vectors:collection.mutable.MutableList[T] = mutable.MutableList.empty[T]
     while(fileIt.hasNext && cnt < maxItems){
-        if (cnt % 1000 == 0) println("Parsed "+cnt)
-        cnt += 1
-        vectors += processData(FileSys.readFile(fileIt.next()))
+      if (cnt % 1000 == 0) println("Parsed "+cnt)
+      cnt += 1
+      vectors += processData(FileSys.readFile(fileIt.next()))
     }
     vectors.toList
   }

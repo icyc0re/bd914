@@ -35,11 +35,12 @@ object RecommenderApp {
       val similarities: Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
 
       val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
+      val topK = MockVectorSimilarity.getTopKSimilarities(sorted, Cons.TOP_K_COUNT)
       if (args.size == 1 && args(0).contains("precision")) {
-        Precision.calculatePrecision(MockVectorSimilarity.getTopKSimilarities(sorted, Int.MaxValue), userInteractions)
+        Precision.calculatePrecision(topK, userInteractions, Cons.TOP_K_COUNT)
       }
       else {
-        MockVectorSimilarity.printTopKSimilarities(sorted, 5)
+        MockVectorSimilarity.printTopKSimilarities(topK)
       }
 
       println("Recommender took [ms] = " + (System.currentTimeMillis() - start))

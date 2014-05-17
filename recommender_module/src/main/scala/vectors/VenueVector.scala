@@ -4,13 +4,11 @@ import features._
 import sets.AbstractVectorSet
 import input.VenueInputProcessor
 import utils.{FileSys, Cons, Mathoperators}
-import java.io._
 import features.DoubleFeature
 import scala.Some
-import features.CoordinatesFeature
 import features.TextFeature
-import features.CategoryFeature
-import java.net.{URLDecoder, URLEncoder}
+import java.net.{URLEncoder, URLDecoder}
+import java.io.{File, PrintWriter}
 
 object VenueListType extends Enumeration {
   type VenueListType = Value

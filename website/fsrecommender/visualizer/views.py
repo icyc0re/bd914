@@ -6,18 +6,16 @@ from django.utils import simplejson
 import foursquare
 import json	
 import os
+import pprint
 import subprocess
 
 
 ACCESS_TOKEN = 'access_token'
 USER = 'user'
-DATA_ROOT = '../../dataset/'
-VENUES_DIRECTORY = DATA_ROOT+'sample/venues/'
-NEW_USER_DIRECTORY = DATA_ROOT+'new_user/'
-CHECKINS_DIRECTORY = NEW_USER_DIRECTORY+'checkins/'
-RECOMMENDATIONS_DIRECTORY = NEW_USER_DIRECTORY+'recommendations/'
-CLUSTER_DIRECTORY = '../../cluster/target/scala-2.10/'
-SCALA_JAR = CLUSTER_DIRECTORY+'simple-project_2.10-1.0.jar'
+
+CLUSTER_DIRECTORY = '../../recommender_module/target/scala-2.10/'
+SCALA_JAR = CLUSTER_DIRECTORY+'recommender_module-assembly-1.0.jar'
+
 
 def logged_in(function):
 	""" Authentication checker decorator """
@@ -67,10 +65,10 @@ def home(request):
 
 	checkins = client.users.checkins()
 	
-	with open(NEW_USER_DIRECTORY+user_id,'w+') as outfile:
+	with open(os.path.join(settings.NEW_USER_DIRECTORY, user_id), 'w+') as outfile:
 		json.dump(user, outfile)
 
-	with open(CHECKINS_DIRECTORY+user_id,'w+') as outfile:
+	with open(os.path.join(settings.CHECKINS_DIRECTORY, user_id), 'w+') as outfile:
 		json.dump(checkins, outfile)    
 
 	return redirect('/recommend/')
@@ -85,6 +83,12 @@ def recommend(request):
 
 		data = OrderedDict([
 			('user_id', request.session[USER]["user"]["id"]),
+			('lat', "~"),
+			('lng', "~"),
+			('rad', "~"),
+			('time1', "~"),
+			('time2', "~"),
+			('days', "~"),
 		])
 		if "skip_location" not in request.POST:
 			data.update({'lat': request.POST["latitude"]})
@@ -93,17 +97,19 @@ def recommend(request):
 		if "skip_time" not in request.POST:
 			data.update({'time1': request.POST["time1"]})
 			data.update({'time2': request.POST["time2"]})
-				#('user' , request.session[USER])])
-
+		if "skip_days" not in request.POST:
+			data.update({'days': request.POST["days"]})
+			
+		print(json.dumps(data, indent=4))
 		# call recommender
-		# TODO: CALL ONCE JAR IS SETUP
-		#return_code = subprocess.call(['java', '-jar', SCALA_JAR] + [str(d) for d in data.values()])
-		return_code = 0
+		output = subprocess.Popen(['java', '-jar', SCALA_JAR] + [str(d) for d in data.values()], stdout=subprocess.PIPE);
+		streamdata = output.communicate()
+		for line in streamdata:
+			print line
 
-		if not return_code:
+		if not output.returncode:
 			client = foursquare.Foursquare(access_token=request.session[ACCESS_TOKEN])
-	
-			user_recommendations_file = RECOMMENDATIONS_DIRECTORY+data['user_id']
+			user_recommendations_file = os.path.join(settings.RECOMMENDATIONS_DIRECTORY, data['user_id'])
 			
 			# for testing, dummy venues if there is no file output by the recommender
 			if not os.path.exists(user_recommendations_file):			
