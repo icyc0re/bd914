@@ -23,12 +23,16 @@ trait AbstractInputProcessor {
    * @param dirName path to the directory
    * @return collection of vectors
    */
-  def processInDir(dirName: String, maxItems:Int = Int.MaxValue): Seq[T] = {
+  def processInDir(dirName: String, maxItems: Int = Int.MaxValue): Seq[T] = {
     var cnt = 0
     val fileIt = FileSys.readDir(dirName).iterator
-    val vectors:collection.mutable.MutableList[T] = mutable.MutableList.empty[T]
-    while(fileIt.hasNext && cnt < maxItems){
-      if (cnt % 1000 == 0) println("Parsed "+cnt)
+    val vectors: collection.mutable.MutableList[T] = mutable.MutableList.empty[T]
+    while (fileIt.hasNext && cnt < maxItems) {
+      cnt match {
+        case 0 => println("Started parsing...")
+        case x if cnt % 1000 == 0 => println("Parsed " + cnt)
+        case _ => // no logging
+      }
       cnt += 1
       vectors += processData(FileSys.readFile(fileIt.next()))
     }
