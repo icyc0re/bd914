@@ -4,7 +4,6 @@ import features._
 import sets.AbstractVectorSet
 import input.VenueInputProcessor
 import utils.{FileSys, Cons, Mathoperators}
-import java.io.PrintWriter
 import java.io._
 import features.DoubleFeature
 import scala.Some
@@ -86,18 +85,18 @@ object VenueVector {
   var vectors: Seq[VenueVector] = Nil
 
   def getAll: Seq[VenueVector] = {
-    val f:File = new File(Cons.VENUES_SERIALIZED)
-    if (f.isFile){
-      readFromDisk(Cons.VENUES_SERIALIZED)
-    }
-    else{
-      vectors match {
-        case Nil => {
+    vectors match {
+      case Nil => {
+        val f: File = new File(Cons.VENUES_SERIALIZED)
+        if (f.isFile) {
+          readFromDisk(Cons.VENUES_SERIALIZED)
+        }
+        else {
           vectors = new VenueInputProcessor().processInDir(Cons.VENUES_PATH)
           saveToDisk(Cons.VENUES_SERIALIZED)
         }
-        case _ => // nothing
       }
+      case _ => // nothing
     }
     vectors
   }
@@ -123,7 +122,7 @@ object VenueVector {
   }
 
   def readFromDisk(path: String) = {
-    println("read disk "+path)
+    println("read disk " + path)
     vectors = for (l <- FileSys.getLines(path)) yield deSerialize(l)
   }
 
