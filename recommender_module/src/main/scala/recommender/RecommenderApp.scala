@@ -10,6 +10,7 @@ import precision._
 import vectors._
 import java.io.PrintWriter
 import utils.Cons
+import input.UserInputProcessor
 
 /**
  * This is the main class of the recommender system.
@@ -23,26 +24,11 @@ object RecommenderApp {
       case true => 0
       case false => args(0)
     }
-    if (args.length == 6) {
+    if (args.length == 7) {
     // parse input arguments
     	Context.setContext(args)
     }
 
-    /*val user_id = args.isEmpty match {
-      case true => 0
-      case false => args(0)
-    }
-    if (args.length == 6) {
-      val lat = args(1)
-      val lng = args(2)
-      val radius = args(3)
-      val time1 = args(4) //min time
-      val time2 = args(5) //max time
-    }
-    else {
-      println("skip prefiltering");
-    }*/
-    
     println("compute recommendations for user: "+user_id);
     println("using dataset: "+Cons.VENUES_PATH)
     
@@ -55,36 +41,30 @@ object RecommenderApp {
       u = mutable.MutableList.empty;
     }
 
-    // get venue features
+    // VENUE PARSING
     var v: Seq[VenueVector] = VenueVector.getAll
+    // USER VECTOR
     if (args.size >= 2) {
       val userJson = new File(Cons.NEW_USER_DIRECTORY+args(0));
-      val user: User = new User(scala.io.Source.fromFile(userJson).mkString);
-      val userVector: UserVector = User.featureVector(user);
+      val user: String = scala.io.Source.fromFile(userJson).mkString
+      val userVector: UserVector = new UserInputProcessor().processData(user)
 
-      val checkinsJson = new File(Cons.CHECKINS_DIRECTORY+args(0));
-      val checkins: Checkins = new Checkins(scala.io.Source.fromFile(checkinsJson).mkString);
-      // TODO create venue vectors from checkins and apply them to user vector
-
-      u :+ userVector;
+      u :+= userVector;
     } else {
       // get user features
       u = UserVector.getAll
     }
 
-    // Plug in PreFiltering here once we have an actual context
-//    val dummyContext: ContextVector = Context.grabTestContextVector(1)
-//    v = PreFilter.apply(v, dummyContext)
-    
+    // PREFILTERING
     val context: ContextVector = Context.grab
-    v = PreFilter.apply(v, context)
-
+    if(context != null)
+    	v = PreFilter.apply(v, context)
 
     val similarities: Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
 
-    val newSimilarities = PostFilter.applyPostFiltering(u, v, u.map(_ => context), similarities);
+    //val newSimilarities = PostFilter.applyPostFiltering(u, v, u.map(_ => context), similarities);
 
-    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(newSimilarities)
+    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
     //val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
     MockVectorSimilarity.printTopKSimilarities(sorted, 5)
 
@@ -94,12 +74,11 @@ object RecommenderApp {
     //ResponseToWebApp.replyToWebApp(sorted, 3, 0)
 
     //write results to file
-    
     if (user_id != 0 && user_id != "precision") {
 //      val venues_id = List("3fd66200f964a52005e71ee3", "3fd66200f964a52008e81ee3", "3fd66200f964a52023eb1ee3",
 //        "3fd66200f964a5200ae91ee3", "3fd66200f964a52015e51ee3")
 
-      val venuesIDs = MockVectorSimilarity.getTopKSimilaritiesForUserString(user_id.toString.toInt, sorted, 5)
+      val venuesIDs = MockVectorSimilarity.getTopKSimilaritiesForUserString(0, sorted, 5)
       //write the recommendation
       val writer_venues = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id))
       venuesIDs.split(",").foreach(x => writer_venues.write(x+'\n'))
@@ -107,10 +86,11 @@ object RecommenderApp {
 
       if(args.size >= 2) { //to write the features for the current user
         val writer_user = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id +"_profile"))
-        u.foreach(x => writer_user.write("Id: "+x.getFeatureValue(Cons.USER_ID).toString+'\n'+
-                                         "Popularity: "+x.getFeatureValue(Cons.POPULARITY).toString+'\n'+
-                                         "Coordinates: "+context.getFeatureValue(Cons.GPS_COORDINATES).toString+'\n'+
-                                         "Time: "+context.getFeatureValue(Cons.TIME).toString))
+        u.foreach(x => writer_user.write("Id: "+x.getFeatureValue(Cons.USER_ID).get.toString+'\n'+
+                                         "Popularity: "+x.getFeatureValue(Cons.POPULARITY).get.toString+'\n'+
+                                         "Coordinates: "+context.getFeatureValue(Cons.GPS_COORDINATES).getOrElse(Cons.DEFAULT_COORDINATES).toString+'\n'+
+                                         "Time: "+context.getFeatureValue(Cons.TIME).toString+'\n'))
+        writer_user.close()
       }
     }
   }

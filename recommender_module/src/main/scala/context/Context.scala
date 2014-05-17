@@ -14,7 +14,7 @@ object Context {
 
   // Input: args -- lat, lng, rad, time1, time2, days
   def setContext(args: Array[String]) = {
-    if (args.length == 5) {
+    if (args.length == 7) {
       var list: List[Feature[_,_]] = List.empty      
       if (args(1) != "~" && args(2) != "~")
         list :+ CoordinatesFeature(Cons.GPS_COORDINATES, (args(1).toDouble, args(2).toDouble)) // Current Location of the user
@@ -41,7 +41,7 @@ object Context {
     }
     // No Context provided
     else {
-      print("No Context provided");
+      println("No Context provided");
     }
   }
 

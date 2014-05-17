@@ -27,7 +27,7 @@ object Cons {
 
   val PROJECT_PATH = "/home/bernard/Dropbox/epfl/S10/BD/project/bd914/"
   val DATA_ROOT = PROJECT_PATH+"dataset/"
-  val SAMPLE_PATH = DATA_ROOT + "small_sample/"
+  val SAMPLE_PATH = DATA_ROOT + "sample/"
   val USERS_PATH = SAMPLE_PATH + "users/"
   val VENUES_PATH = SAMPLE_PATH + "venues/"
   val INTERACTIONS_PATH = SAMPLE_PATH + "users/"
@@ -47,7 +47,9 @@ object Cons {
   val FEATURE_RATING = "Rating" //Name given to the feature containing the rating of a venue. This feature is added during the similarity computation phase
 
   val NY_AREA = Map[String, Double]("s" -> 40.526851, "n" -> 40.913515, "w" -> -74.271888, "e" -> -73.689612)
-
+  val DEFAULT_COORDINATES = ((NY_AREA("s")+NY_AREA("n"))/2,(NY_AREA("w")+NY_AREA("e"))/2)
+  
+  
   val HOME_PRIVATE = "Home (private)"
 
   val PRECISION_DELETION_FACTOR = 0.3

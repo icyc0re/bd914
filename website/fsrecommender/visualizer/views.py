@@ -6,6 +6,7 @@ from django.utils import simplejson
 import foursquare
 import json	
 import os
+import pprint
 import subprocess
 
 
@@ -98,7 +99,8 @@ def recommend(request):
 			data.update({'time2': request.POST["time2"]})
 		if "skip_days" not in request.POST:
 			data.update({'days': request.POST["days"]})
-
+			
+		print(json.dumps(data, indent=4))
 		# call recommender
 		output = subprocess.Popen(['java', '-jar', SCALA_JAR] + [str(d) for d in data.values()], stdout=subprocess.PIPE);
 		streamdata = output.communicate()
