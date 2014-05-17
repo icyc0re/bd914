@@ -92,11 +92,12 @@ object VenueVector {
     }
     else{
       vectors match {
-        case Nil =>
+        case Nil => {
           vectors = new VenueInputProcessor().processInDir(Cons.VENUES_PATH)
+          saveToDisk(Cons.VENUES_SERIALIZED)
+        }
         case _ => // nothing
       }
-      saveToDisk(Cons.VENUES_SERIALIZED)
     }
     vectors
   }
