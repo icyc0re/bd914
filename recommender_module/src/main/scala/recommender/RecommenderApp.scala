@@ -7,6 +7,7 @@ import input.Checkins
 import input.User
 import precision._
 import vectors._
+import context.{PostFilter, PreFilter, Context}
 
 /**
  * This is the main class of the recommender system.
@@ -58,13 +59,13 @@ object RecommenderApp {
     }
 
     // Plug in PreFiltering here once we have an actual context
-    //val dummyContext: ContextVector = Context.grabTestContextVector(1)
-    //v = PreFilter.apply(v, dummyContext)
+    val dummyContext: ContextVector = Context.grabTestContextVector(1)
+    v = PreFilter.apply(v, dummyContext)
 
 
     val similarities: Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
 
-    //val newSimilarities = PostFilter.applyPostFiltering(u, v, u.map(_ => dummyContext), similarities);
+    val newSimilarities = PostFilter.applyPostFiltering(u, v, u.map(_ => dummyContext), similarities);
 
     val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
     //val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
