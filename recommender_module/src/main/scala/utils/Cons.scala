@@ -26,11 +26,10 @@ object Cons {
   val TIME = "time"
 
   val PROJECT_PATH = "/home/bernard/Dropbox/epfl/S10/BD/project/bd914/"
-  val DATA_ROOT = "../dataset/"
-  val SAMPLE_PATH = DATA_ROOT + "small_sample/"
-  val USERS_PATH = SAMPLE_PATH + "users/"
-  val VENUES_PATH = SAMPLE_PATH + "venues/"
-  val INTERACTIONS_PATH = SAMPLE_PATH + "users/"
+  val DATA_ROOT = "/data/"
+  val USERS_PATH = DATA_ROOT+ "users/"
+  val VENUES_PATH = DATA_ROOT + "venues/"
+  val INTERACTIONS_PATH = DATA_ROOT + "users/"
 
   val NEW_USER_DIRECTORY = DATA_ROOT + "new_user/"
   val CHECKINS_DIRECTORY = NEW_USER_DIRECTORY + "checkins/"
