@@ -33,7 +33,7 @@ object RecommenderApp {
     MockVectorSimilarity.printTopKSimilarities(sorted, 5)
 
     if (args.size == 1 && args(0).contains("precision")) {
-      Precision.calculatePrecision(MockVectorSimilarity.getTopKSimilarities(sorted, 10), userInteractions)
+      Precision.calculatePrecision(MockVectorSimilarity.getTopKSimilarities(sorted, 500000), userInteractions)
     }
 
     println("Recommender took [ms] = " + (System.currentTimeMillis() - start))
