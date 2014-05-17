@@ -51,10 +51,11 @@ object RecommenderApp {
     var v: Seq[VenueVector] = VenueVector.getAll    
     
 	// PREFILTERING - Do prefiltering if not calculating precision
+    val context: ContextVector = Context.grab
     if(!(args.size == 1 && args(0).contains("precision")) && context != null) {
       // Plug in PreFiltering here once we have an actual context
       v = PreFilter.apply(v, context)
-	}
+	  }
 
     var similarities: Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
 	
@@ -79,7 +80,7 @@ object RecommenderApp {
 
 	  val venuesIDs = MockVectorSimilarity.getTopKSimilaritiesForUserString(0, sorted, 5)
       //write the recommendation
-      val writer_venues = new PrintWriter(new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id))
+      val writer_venues = new PrintWriter (new File(Cons.RECOMMENDATIONS_DIRECTORY + user_id))
       venuesIDs.split(",").foreach(x => writer_venues.write(x+'\n'))
       writer_venues.close()
 
