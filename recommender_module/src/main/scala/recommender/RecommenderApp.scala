@@ -59,7 +59,7 @@ object RecommenderApp {
     var similarities: Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
 	
 	  // Do postfiltering if not calculating precision
-    if(!(args.size == 1 && args(0).contains("precision"))) {
+    if(!(args.size == 1 && args(0).contains("precision")) && context != null) {
       similarities = PostFilter.applyPostFiltering(u, v, u.map(_ => context), similarities);
     }
 
