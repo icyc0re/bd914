@@ -15,7 +15,7 @@ import context.{PostFilter, PreFilter, Context}
  */
 object RecommenderApp {
   def main(args: Array[String]) {
-
+    val start = System.currentTimeMillis()
     // read input arguments
     val user_id = args.isEmpty match {
       case true => 0
@@ -67,14 +67,14 @@ object RecommenderApp {
 
     val newSimilarities = PostFilter.applyPostFiltering(u, v, u.map(_ => dummyContext), similarities);
 
-    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
-    //val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
+    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(newSimilarities)
     MockVectorSimilarity.printTopKSimilarities(sorted, 5)
 
     if (args.size == 1 && args(0).contains("precision")) {
       Precision.calculatePrecision(MockVectorSimilarity.getTopKSimilarities(sorted, 10), userInteractions)
     }
-    //ResponseToWebApp.replyToWebApp(sorted, 3, 0)
+
+    println("Recommender took [ms] = "+(System.currentTimeMillis() - start))
 
     //write results to file
     //TODO: replace dummy venues id by real recommedations
