@@ -34,7 +34,7 @@ object Cons {
   /**
    * CONFIGURATION PARAMETERS
    */
-  val DATA_ROOT = "/data/"
+  val DATA_ROOT = "../dataset/small_sample"
 
   val USERS_PATH = DATA_ROOT + "/users/"
   val VENUES_PATH = DATA_ROOT + "/venues/"
@@ -59,5 +59,11 @@ object Cons {
   val SPARK_JOB = "RecommenderApp"
   val SPARK_JARS: Seq[String] = List("target/scala-2.10/Recommender_cluster-assembly-1.0.jar")
   val PRECISION_DELETION_FACTOR = 0.3
+
+
+
+
+
+  val IS_SPARK = false
 }
 
