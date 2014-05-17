@@ -12,12 +12,16 @@ object PreFilter {
     //Returns true is the venue passes the prefiltering criteria (and should be kept) or false otherwise (and should be deleted)
 
     // Location criterion:
+    val radius:Double = context.getFeatureValue[Double](Cons.RADIUS) match{
+      case Some(x) => x
+      case _ => 0
+    }
     context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES) match {
-      case Some(_) => {
-        venue.getFeatureValue(Cons.GPS_COORDINATES) match {
-          case Some(_) => {
-            val distance = Haversine.getDistance(venue.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get, context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get)
-            if (distance >= 2.0) {
+      case Some(c) => {
+        venue.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES) match {
+          case Some(v) => {
+            val distance = Haversine.getDistance(v, c)
+            if (radius != 0 && distance >= radius) {
               //Threshold in kilometers
               //println("NO :: distance")
               return false

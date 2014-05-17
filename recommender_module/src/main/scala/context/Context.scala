@@ -17,9 +17,9 @@ object Context {
     if (args.length == 7) {
       var list: List[Feature[_,_]] = List.empty      
       if (args(1) != "~" && args(2) != "~")
-        list :+ CoordinatesFeature(Cons.GPS_COORDINATES, (args(1).toDouble, args(2).toDouble)) // Current Location of the user
+        list :+= CoordinatesFeature(Cons.GPS_COORDINATES, (args(1).toDouble, args(2).toDouble)) // Current Location of the user
       if (args(3) != "~")
-        list :+ DoubleFeature(Cons.RADIUS, args(3).toDouble) // Radius to search around location
+        list :+= DoubleFeature(Cons.RADIUS, args(3).toDouble) // Radius to search around location
       if (args(4) != "~" && args(5) != "~") {
         val sH: Int = args(4).split(":")(0).toInt
         val sM: Int = args(4).split(":")(1).toInt
@@ -29,15 +29,16 @@ object Context {
         
         if (args(6) != "~") {
           for (i <- 1 to 7)
-            list :+ TimeFeature(Cons.TIME, List(((i, sH, sM), (i, eH, eM))))
+            list :+= TimeFeature(Cons.TIME, List(((i, sH, sM), (i, eH, eM))))
         } else {
           args(6).map(_.asDigit).map(x => {
-            list :+ TimeFeature(Cons.TIME, List(((x, sH, sM), (x, eH, eM))))
+            list :+= TimeFeature(Cons.TIME, List(((x, sH, sM), (x, eH, eM))))
           })
         }
       }
       
       contextVector = new ContextVector(list, null)
+      contextVector
     }
     // No Context provided
     else {

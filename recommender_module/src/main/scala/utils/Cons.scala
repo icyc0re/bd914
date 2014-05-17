@@ -27,7 +27,7 @@ object Cons {
 
   val PROJECT_PATH = "/home/bernard/Dropbox/epfl/S10/BD/project/bd914/"
   val DATA_ROOT = PROJECT_PATH+"dataset/"
-  val SAMPLE_PATH = DATA_ROOT + "sample/"
+  val SAMPLE_PATH = DATA_ROOT + "small_sample/"
   val USERS_PATH = SAMPLE_PATH + "users/"
   val VENUES_PATH = SAMPLE_PATH + "venues/"
   val INTERACTIONS_PATH = SAMPLE_PATH + "users/"
