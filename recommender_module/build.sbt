@@ -10,8 +10,7 @@ libraryDependencies ++= Seq(
     exclude("play", "sbt-link").
     exclude("ch.qos.logback", "logback-classic").
     exclude("com.typesafe.akka", "akka-actor_2.10").
-    exclude("com.typesafe.akka", "akka-slf4j_2.10"),
-  "org.scalaj" %% "scalaj-http" % "0.3.15"
+    exclude("com.typesafe.akka", "akka-slf4j_2.10")
 )
 
 
