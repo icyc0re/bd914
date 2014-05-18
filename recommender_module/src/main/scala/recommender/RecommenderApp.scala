@@ -69,7 +69,7 @@ object RecommenderApp {
     MockVectorSimilarity.printTopKSimilarities(topK)
 
     if (args.size == 1 && args(0).contains(Cons.PRECISION)) {
-      Precision.calculatePrecision(sorted, userInteractions, Cons.TOP_K_COUNT)
+      Precision.calculatePrecision(topK, userInteractions, Cons.TOP_K_COUNT)
     }
     else {
       //write results to file

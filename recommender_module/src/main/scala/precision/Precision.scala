@@ -3,7 +3,6 @@ package precision
 
 import vectors.{VenueVector, VenueListType, UserVector}
 import utils.Cons
-import scala.util.control.Breaks._
 
 /**
  * Keeps list of all categories and similarity between any two categories
@@ -26,7 +25,6 @@ object Precision {
     //var (userVector, venueVectors) = userVenues(1)
     // COMMENT OUT THIS LOOP TO CHECK PRECISION CORRECTNESS
     for ((userVector, venueVectors) <- userVenues) {
-      //var userId: String = userVector.getFeatureValue[String](Cons.USER_ID).get
       count = 0
       numberOfVenues = venueVectors.length
       userInteractions += userVector -> Map((VenueListType.deleted -> collection.mutable.ArrayBuffer()),
@@ -54,66 +52,26 @@ object Precision {
   }
 
 
-
   /**
    * Precision is calculated as
    * Number of interactions that were deleted from the user found in the recommendation /
    * Number of recommendations - number of nonDeletedItems found in the recommendations
    */
-  def calculatePrecisionForOneUser(similarities: (String, Seq[(String, Double)]), deletedInteractions:  Seq[VenueVector], nonDeletedInteractions: Seq[VenueVector], topNumber :Integer): Double = {
-    var sum = 0.0
-    var topKWithoutNotDeleted: Seq[String] = collection.mutable.ArrayBuffer.empty
-    // Get top recommended venues without notDeleted
-    var count = 0
-    var exists = false
-
+  def calculatePrecisionForOneUser(similarities: (String, Seq[(String, Double)]), deletedInteractions: Seq[VenueVector], nonDeletedInteractions: Seq[VenueVector], topNumber: Integer): Double = {
     // Create venue similarities set
-    val similaritiesSet: collection.mutable.Set[String] = collection.mutable.Set.empty[String]
-    for ((venueID, value) <- similarities._2) {
-      similaritiesSet += venueID
-    }
+    val similaritiesSet: Set[String] = similarities._2.map(x => x._1).toSet
 
-    val deletedSet: collection.mutable.Set[String] = collection.mutable.Set.empty[String]
-    for (venueVector <- deletedInteractions) {
-      deletedSet += venueVector.getFeatureValue[String](Cons.VENUE_ID).get
-    }
+    val deletedSet: Set[String] = deletedInteractions.map(x => x.getFeatureValue[String](Cons.VENUE_ID).get).toSet
 
-    val nonDeletedSet: collection.mutable.Set[String] = collection.mutable.Set.empty[String]
-    for (venueVector <- nonDeletedInteractions) {
-      nonDeletedSet += venueVector.getFeatureValue[String](Cons.VENUE_ID).get
-    }
-
-    breakable {
-      for (venueID <- similaritiesSet) {
-        exists = false
-        // Check if the venue from recommendation exists in nonDeletedInteractions
-        breakable {
-          for(nonDeletedVenueID <- nonDeletedSet) {
-            if(venueID == nonDeletedVenueID) {
-              exists = true
-              //break()
-            }
-          }
-        }
-        if(exists == false) {
-          topKWithoutNotDeleted :+= venueID
-          count = count + 1
-        }
-        if(count == topNumber)
-          break()
+    val sum = similaritiesSet.map(
+      x => deletedSet.contains(x) match {
+        case true => 1
+        case false => 0
       }
-    }
-
-    for(venueID <-  topKWithoutNotDeleted){
-      for(deletedVenueId <- deletedSet) {
-        if(venueID == deletedVenueId) {
-          sum+=1.0
-        }
-      }
-    }
-    var result = sum/count
-    result
+    ).sum
+    sum/(1.0 * similaritiesSet.size)
   }
+
 
   def calculatePrecision(similarities: Seq[(String, Seq[(String, Double)])], modified: Map[UserVector, Map[VenueListType.VenueListType, Seq[VenueVector]]] , topNumber: Integer ): Double = {
     var sum = 0.0
