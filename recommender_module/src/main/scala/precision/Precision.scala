@@ -51,7 +51,6 @@ object Precision {
   def getUserVectorFromUserInteractions(userInteractions: Map[UserVector, Map[VenueListType.VenueListType, Seq[VenueVector]]]):
   Seq[UserVector] = {
     userInteractions.map(x => x._1.applyVenues(x._2(VenueListType.notDeleted))).toSeq
-    //userInteractions.map(x => UserVector.getById(x._1).applyVenues(x._2(VenueListType.notDeleted))).toSeq
   }
 
 
