@@ -50,7 +50,6 @@ class UserVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet])
 
     val userId = TextFeature(Cons.USER_ID, getFeatureValue[String](Cons.USER_ID).get)
     // new, updated user vector
-    //new UserVector(List(userId, categories, gps, popularity), null)
     this.setFeatures(List(userId, categories, gps, popularity))
     this
   }
