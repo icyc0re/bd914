@@ -43,7 +43,7 @@ object RecommenderApp {
 
     // GET USER IF PRECISION, IF PASSED AS ARGUMENT, OR ALL USERS
     var u: Seq[UserVector] = List.empty[UserVector]
-    var userInteractions: Map[String, Map[VenueListType.VenueListType, Seq[VenueVector]]] = Map.empty
+    var userInteractions: Map[UserVector, Map[VenueListType.VenueListType, Seq[VenueVector]]] = Map.empty
     if (args.size == 1 && args(0).contains(Cons.PRECISION)) {
       userInteractions = Precision.modifyUserInteractions(User.getAll)
       u = Precision.getUserVectorFromUserInteractions(userInteractions)

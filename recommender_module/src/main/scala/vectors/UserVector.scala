@@ -36,7 +36,7 @@ class UserVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet])
    * Updates the feature vector according to the venues that user interacted with
    * @param venues collection of venues
    */
-  def applyVenues(venues: Seq[VenueVector]): UserVector = {
+  def applyVenues(venues: Seq[VenueVector]) = { //: UserVector = {
     // add all of the interaction venue categories to the existing user categories
     val categories = CategoryFeature(Cons.CATEGORY, getFeatureValue[Seq[String]](Cons.CATEGORY).getOrElse(List.empty[String]) ++
       venues.collect {
@@ -50,7 +50,9 @@ class UserVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet])
 
     val userId = TextFeature(Cons.USER_ID, getFeatureValue[String](Cons.USER_ID).get)
     // new, updated user vector
-    new UserVector(List(userId, categories, gps, popularity), null)
+    //new UserVector(List(userId, categories, gps, popularity), null)
+    this.setFeatures(List(userId, categories, gps, popularity))
+    this
   }
 
   def computePopularity(pops: Seq[Double]): Double = {

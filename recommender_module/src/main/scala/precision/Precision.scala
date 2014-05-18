@@ -16,9 +16,9 @@ object Precision {
    * @param userVenues sequence of users and venues they interacted with
    */
   def modifyUserInteractions(userVenues: Seq[(UserVector, Seq[VenueVector])]):
-  Map[String, Map[VenueListType.VenueListType, collection.mutable.ArrayBuffer[VenueVector]]] = {
-    var userInteractions: Map[String, Map[VenueListType.VenueListType, collection.mutable.ArrayBuffer[VenueVector]]] =
-      Map.empty[String, Map[VenueListType.VenueListType, collection.mutable.ArrayBuffer[VenueVector]]]
+  Map[UserVector, Map[VenueListType.VenueListType, collection.mutable.ArrayBuffer[VenueVector]]] = {
+    var userInteractions: Map[UserVector, Map[VenueListType.VenueListType, collection.mutable.ArrayBuffer[VenueVector]]] =
+      Map.empty[UserVector, Map[VenueListType.VenueListType, collection.mutable.ArrayBuffer[VenueVector]]]
 
     var count: Double = 0
     var numberOfVenues: Double = 0
@@ -26,18 +26,18 @@ object Precision {
     //var (userVector, venueVectors) = userVenues(1)
     // COMMENT OUT THIS LOOP TO CHECK PRECISION CORRECTNESS
     for ((userVector, venueVectors) <- userVenues) {
-      var userId: String = userVector.getFeatureValue[String](Cons.USER_ID).get
+      //var userId: String = userVector.getFeatureValue[String](Cons.USER_ID).get
       count = 0
       numberOfVenues = venueVectors.length
-      userInteractions += userId -> Map((VenueListType.deleted -> collection.mutable.ArrayBuffer()),
+      userInteractions += userVector -> Map((VenueListType.deleted -> collection.mutable.ArrayBuffer()),
         (VenueListType.notDeleted -> collection.mutable.ArrayBuffer()))
       for (venueVector <- venueVectors) {
         count = count + 1
         if (count / numberOfVenues < Cons.PRECISION_DELETION_FACTOR) {
-          userInteractions(userId)(VenueListType.deleted) += venueVector
+          userInteractions(userVector)(VenueListType.deleted) += venueVector
         }
         else {
-          userInteractions(userId)(VenueListType.notDeleted) += venueVector
+          userInteractions(userVector)(VenueListType.notDeleted) += venueVector
         }
       }
     }
@@ -48,9 +48,10 @@ object Precision {
    * Calculate UserVector based only on notDeleted interactions
    * @param userInteractions map of both deleted and notDeleted user interactions
    */
-  def getUserVectorFromUserInteractions(userInteractions: Map[String, Map[VenueListType.VenueListType, Seq[VenueVector]]]):
+  def getUserVectorFromUserInteractions(userInteractions: Map[UserVector, Map[VenueListType.VenueListType, Seq[VenueVector]]]):
   Seq[UserVector] = {
-    userInteractions.map(x => UserVector.getById(x._1).applyVenues(x._2(VenueListType.notDeleted))).toSeq
+    userInteractions.map(x => x._1.applyVenues(x._2(VenueListType.notDeleted))).toSeq
+    //userInteractions.map(x => UserVector.getById(x._1).applyVenues(x._2(VenueListType.notDeleted))).toSeq
   }
 
 
@@ -115,13 +116,18 @@ object Precision {
     result
   }
 
-  def calculatePrecision(similarities: Seq[(String, Seq[(String, Double)])], modified: Map[String, Map[VenueListType.VenueListType, Seq[VenueVector]]] , topNumber: Integer ): Double = {
+  def calculatePrecision(similarities: Seq[(String, Seq[(String, Double)])], modified: Map[UserVector, Map[VenueListType.VenueListType, Seq[VenueVector]]] , topNumber: Integer ): Double = {
     var sum = 0.0
     for ((userId, userVenues) <- similarities) {
-      sum += calculatePrecisionForOneUser((userId, userVenues),
-        modified(userId)(VenueListType.deleted),
-        modified(userId)(VenueListType.notDeleted),
-        topNumber)
+      // find deleted and nonDeleted for this user
+      for ((modifiedUserVector, venueVectors) <- modified) {
+        if (modifiedUserVector.getFeatureValue[String](Cons.USER_ID).get == userId) {
+          sum += calculatePrecisionForOneUser((userId, userVenues),
+            venueVectors(VenueListType.deleted),
+            venueVectors(VenueListType.notDeleted),
+            topNumber)
+        }
+      }
     }
 
     val precision = sum / similarities.length
