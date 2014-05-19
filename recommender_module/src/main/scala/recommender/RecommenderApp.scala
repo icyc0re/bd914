@@ -15,7 +15,7 @@ import java.io.File
  */
 object RecommenderApp {
   def main(args: Array[String]) {
-    if (Cons.IS_SPARK) {
+    if (args(0) == "spark") {
       runSpark()
     }
     else {
