@@ -86,7 +86,7 @@ object RecommenderApp {
     val similarities = userVenues.map((paths: (Seq[String], Seq[String])) => {
       println("doing users " + paths._2)
       if (paths._1.isEmpty || paths._2.isEmpty) {
-        List.empty[(String, String, Double)]
+        List.empty[(String, Seq[(String, Double)])]
       }
       else {
         var cnt = 0
@@ -114,21 +114,24 @@ object RecommenderApp {
 
         cnt = 0
         println("Total sim to calc "+(venueVec.size * userVec.size))
-        MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(userVec, venueVec).map(sim => {
+        val userSimilarities = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(userVec, venueVec).map(sim => {
           if (cnt % 1000 == 0) println("Similarities calculated " + cnt)
           cnt += 1
           sim._2.map(x => (sim._1, x._1, x._2))
         }
         ).flatten
+
+        val resList = userSimilarities.groupBy(_._1).map {
+          case (x: (String, Array[(String, String, Double)])) => (x._1, x._2.map(p => (p._2, p._3)).toList)
+        }.toList
+
+        val topK = MockVectorSimilarity.getTopKSimilarities(MockVectorSimilarity.sortUserVenueSimilarities(resList), Cons.TOP_K_COUNT)
+        topK
       }
     }
     ).collect()
 
-
-    val resMap = similarities.flatten.groupBy(_._1).map {
-      case (x: (String, Array[(String, String, Double)])) => (x._1, x._2.map(p => (p._2, p._3)).toList)
-    }.toList
-    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(resMap)
+    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities.flatten)
     val topK = MockVectorSimilarity.getTopKSimilarities(sorted, Cons.TOP_K_COUNT)
 
     MockVectorSimilarity.printTopKSimilarities(topK)
