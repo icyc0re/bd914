@@ -82,27 +82,35 @@ object RecommenderApp {
 
     println("Sending out all pairs")
     val similarities = userVenues.map((paths: (Seq[String], Seq[String])) => {
-      var cnt = 0
-      val venueVec: Seq[VenueVector] = paths._1.map {
-        if (cnt % 1000 == 0) println("Venues parsed " + cnt)
-        cnt += 1
-        venuePath => new VenueInputProcessor().processData(FileSys.readFile(venuePath))
+      println("doing users "+paths._2)
+      if (paths._1.isEmpty || paths._2.isEmpty) {
+        List.empty[(String, String, Double)]
       }
-
-      cnt = 0
-      val userVec: Seq[UserVector] = paths._2.map {
-        userPath =>
-          if (cnt % 1000 == 0) println("Users parsed " + cnt)
+      else {
+        var cnt = 0
+        val venueVec: Seq[VenueVector] = paths._1.map {
+          if (cnt % 1000 == 0) println("Venues parsed " + cnt)
           cnt += 1
-          new UserInputProcessor().processData(FileSys.readFile(userPath))
-      }
+          venuePath => new VenueInputProcessor().processData(FileSys.readFile(venuePath))
+        }
 
-      MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(userVec, venueVec).map(sim=> sim._2.map(x=> (sim._1, x._1, x._2))).flatten
+        cnt = 0
+        val userVec: Seq[UserVector] = paths._2.map {
+          userPath =>
+            if (cnt % 1000 == 0) println("Users parsed " + cnt)
+            cnt += 1
+            new UserInputProcessor().processData(FileSys.readFile(userPath))
+        }
+
+        MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(userVec, venueVec).map(sim => sim._2.map(x => (sim._1, x._1, x._2))).flatten
+      }
     }
     ).collect()
 
 
-    val resMap = similarities.flatten.groupBy(_._1).map{case (x:(String, Seq[(String, String, Double)])) => (x._1, x._2.map(p=>(p._2, p._3)).toSeq)}.toSeq
+    val resMap = similarities.flatten.groupBy(_._1).map {
+      case (x: (String, Seq[(String, String, Double)])) => (x._1, x._2.map(p => (p._2, p._3)).toSeq)
+    }.toSeq
     val sorted = MockVectorSimilarity.sortUserVenueSimilarities(resMap)
     val topK = MockVectorSimilarity.getTopKSimilarities(sorted, Cons.TOP_K_COUNT)
 
