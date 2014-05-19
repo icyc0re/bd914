@@ -28,7 +28,7 @@ object Cons {
   val TIME = "time"
 
   val DATA_ROOT = Config.PROJECT_PATH+"dataset/"
-  val SAMPLE_PATH = DATA_ROOT + "small_sample/"
+  val SAMPLE_PATH = DATA_ROOT + "sample/"
   val USERS_PATH = SAMPLE_PATH + "users/"
   val VENUES_PATH = SAMPLE_PATH + "venues/"
   val INTERACTIONS_PATH = SAMPLE_PATH + "users/"
