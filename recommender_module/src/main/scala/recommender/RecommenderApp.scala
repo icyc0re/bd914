@@ -112,7 +112,14 @@ object RecommenderApp {
             new UserInputProcessor().processData(FileSys.readFile(userPath))
         }
 
-        MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(userVec, venueVec).map(sim => sim._2.map(x => (sim._1, x._1, x._2))).flatten
+        cnt = 0
+        println("Total sim to calc "+(venueVec.size * userVec.size))
+        MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(userVec, venueVec).map(sim => {
+          if (cnt % 1000 == 0) println("Similarities calculated " + cnt)
+          cnt += 1
+          sim._2.map(x => (sim._1, x._1, x._2))
+        }
+        ).flatten
       }
     }
     ).collect()
