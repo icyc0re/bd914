@@ -131,7 +131,7 @@ object RecommenderApp {
     }
     ).collect()
 
-    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities.flatten)
+    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities.flatten.toSeq)
     val topK = MockVectorSimilarity.getTopKSimilarities(sorted, Cons.TOP_K_COUNT)
 
     MockVectorSimilarity.printTopKSimilarities(topK)
