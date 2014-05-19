@@ -6,7 +6,7 @@ import scala.math
  * Created by Julia Y. Chatain on 28/04/2014.
  */
 object Haversine {
-  val r = 6.371 //Earth radius in kilometers
+  val r = 6371 //Earth radius in kilometers
 
   def getDistance(loc1: (Double, Double), loc2: (Double, Double)): Double = {
     val deltaLat = math.toRadians(loc2._1 - loc1._1)

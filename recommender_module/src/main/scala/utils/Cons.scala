@@ -1,5 +1,6 @@
 package utils
 
+import utils.Config
 
 /**
  * Use this class to specify all constants that are used
@@ -26,8 +27,7 @@ object Cons {
   val POPULARITY = "popularity"
   val TIME = "time"
 
-  val PROJECT_PATH = "/home/bernard/Dropbox/epfl/S10/BD/project/bd914/"
-  val DATA_ROOT = "../dataset/"
+  val DATA_ROOT = Config.PROJECT_PATH+"dataset/"
   val SAMPLE_PATH = DATA_ROOT + "sample/"
   val USERS_PATH = SAMPLE_PATH + "users/"
   val VENUES_PATH = SAMPLE_PATH + "venues/"
