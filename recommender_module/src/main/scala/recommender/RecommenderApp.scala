@@ -74,11 +74,11 @@ object RecommenderApp {
       List(half1._1, half1._2, half2._1, half2._2)
     }
 
-    val venuesWholeList: Seq[String] = FileSys.readDir(Cons.VENUES_PATH).take(50000)
+    val venuesWholeList: Seq[String] = FileSys.readDir(Cons.VENUES_PATH)
     val venuesList: Seq[Seq[String]] = splitThirds(venuesWholeList)
-    val userWholeList: Seq[String] = FileSys.readDir(Cons.USERS_PATH).take(4)
+    val userWholeList: Seq[String] = FileSys.readDir(Cons.USERS_PATH).take(3)
     val userList: Seq[Seq[String]] = splitThirds(userWholeList)
-    val userVenues = sc.makeRDD(venuesList, 4).cartesian[Seq[String]](sc.makeRDD(userList, 4))
+    val userVenues = sc.makeRDD(venuesList, 4).cartesian[Seq[String]](sc.makeRDD(userList, 3))
 
     println("Sending out all pairs")
     val similarities = userVenues.map((paths: (Seq[String], Seq[String])) => {
@@ -101,8 +101,12 @@ object RecommenderApp {
     }
     ).collect()
 
-    similarities.foreach(x => println(x))
 
+    val resMap = similarities.flatten.groupBy(_._1).map{case (x:(String, Seq[(String, String, Double)])) => (x._1, x._2.map(p=>(p._2, p._3)).toSeq)}.toSeq
+    val sorted = MockVectorSimilarity.sortUserVenueSimilarities(resMap)
+    val topK = MockVectorSimilarity.getTopKSimilarities(sorted, Cons.TOP_K_COUNT)
+
+    MockVectorSimilarity.printTopKSimilarities(topK)
     /*
      * READ USERS, AND FORM USER VECTORS
     */
