@@ -13,11 +13,8 @@ import subprocess
 ACCESS_TOKEN = 'access_token'
 USER = 'user'
 
-# CLUSTER_DIRECTORY = '../../recommender_module/target/scala-2.10/'
-CLUSTER_DIRECTORY = '/home/alex/Workspace/bd914/recommender_module/target/scala-2.10/'
+CLUSTER_DIRECTORY = '../../recommender_module/target/scala-2.10/'
 SCALA_JAR = CLUSTER_DIRECTORY+'recommender_module-assembly-1.0.jar'
-
-print SCALA_JAR
 
 def logged_in(function):
 	""" Authentication checker decorator """
@@ -134,7 +131,8 @@ def recommend(request):
 	
 			# send results to user
 			return render(request, 'map.html', {'venues':simplejson.dumps(venues), 'context': data})
-	
+		else:
+			print "Well.. fuck"
 	return redirect('/locationtime')
 
 
