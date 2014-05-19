@@ -99,9 +99,9 @@ object RecommenderApp {
 
       MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(userVec, venueVec)
     }
-    ).collect().flatten.groupBy(_._1).map(p => (p._1, p._2.map(_._2).toSeq)).toSeq
+    ).collect()
 
-    similarities
+    similarities.foreach(x => println(x))
 
     /*
      * READ USERS, AND FORM USER VECTORS
