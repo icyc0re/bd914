@@ -110,7 +110,7 @@ object VenueVector {
     x.getFeatureValue[String](Cons.VENUE_ID).get
   }
 
-  private def saveToDisk(path: String) = {
+  def saveToDisk(path: String) = {
     val writer = new PrintWriter(path)
     vectors.foreach {
       v =>

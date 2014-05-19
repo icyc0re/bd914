@@ -7,6 +7,7 @@ import precision._
 import vectors._
 import utils.{FileSys, Cons}
 import org.apache.spark.{SparkConf, SparkContext}
+import java.io.File
 
 /**
  * This is the main class of the recommender system.
@@ -78,21 +79,29 @@ object RecommenderApp {
     val venuesWholeList: Seq[String] = FileSys.readDir(Cons.VENUES_PATH)
     val venuesList: Seq[Seq[String]] = splitThirds(venuesWholeList)
     val userWholeList: Seq[String] = FileSys.readDir(Cons.USERS_PATH).take(3)
-    val userList: Seq[Seq[String]] = List(List(userWholeList(0)), List(userWholeList(1)), List(userWholeList(2)))//splitThirds(userWholeList)
+    val userList: Seq[Seq[String]] = List(List(userWholeList(0)), List(userWholeList(1)), List(userWholeList(2))) //splitThirds(userWholeList)
     val userVenues = sc.makeRDD(venuesList, 4).cartesian[Seq[String]](sc.makeRDD(userList, 3))
 
     println("Sending out all pairs")
     val similarities = userVenues.map((paths: (Seq[String], Seq[String])) => {
-      println("doing users "+paths._2)
+      println("doing users " + paths._2)
       if (paths._1.isEmpty || paths._2.isEmpty) {
         List.empty[(String, String, Double)]
       }
       else {
         var cnt = 0
-        val venueVec: Seq[VenueVector] = paths._1.map {
-          if (cnt % 1000 == 0) println("Venues parsed " + cnt)
-          cnt += 1
-          venuePath => new VenueInputProcessor().processData(FileSys.readFile(venuePath))
+        val venueVec: Seq[VenueVector] = new File(Cons.VENUES_SERIALIZED).exists match {
+          case true => VenueVector.getAll
+          case false => {
+            val venueChunk = paths._1.map {
+              if (cnt % 1000 == 0) println("Venues parsed " + cnt)
+              cnt += 1
+              venuePath => new VenueInputProcessor().processData(FileSys.readFile(venuePath))
+            }
+            VenueVector.vectors = venueChunk
+            VenueVector.saveToDisk(Cons.VENUES_SERIALIZED)
+            venueChunk
+          }
         }
 
         cnt = 0
@@ -120,6 +129,6 @@ object RecommenderApp {
      * READ USERS, AND FORM USER VECTORS
     */
 
-    println("Calculated similarities... Took "+(System.currentTimeMillis() - start) + " [ms]")
+    println("Calculated similarities... Took " + (System.currentTimeMillis() - start) + " [ms]")
   }
 }
