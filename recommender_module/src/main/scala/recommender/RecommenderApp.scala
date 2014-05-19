@@ -97,7 +97,7 @@ object RecommenderApp {
           new UserInputProcessor().processData(FileSys.readFile(userPath))
       }
 
-      MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(userVec, venueVec).map(x => x._2.map(_._2)).flatten
+      MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(userVec, venueVec).map(sim=> sim._2.map(x=> (sim._1, x._1, x._2))).flatten
     }
     ).collect()
 
