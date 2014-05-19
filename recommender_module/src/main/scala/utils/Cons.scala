@@ -60,6 +60,6 @@ object Cons {
 
   val TOP_K_COUNT = 10000
 
-  val IS_SPARK = false
+  val IS_SPARK = true
 }
 

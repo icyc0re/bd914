@@ -13,17 +13,17 @@ libraryDependencies ++= Seq(
     exclude("com.typesafe.akka", "akka-slf4j_2.10")
 )
 
-// UNCOMMENT FOR SPARK BUILD
-//libraryDependencies ++= Seq(
-//  ("org.apache.spark" % "spark-core_2.10" % "0.9.1").
-//    exclude("commons-logging", "commons-logging").
-//    exclude("org.mortbay.jetty", "servlet-api").
-//    exclude("commons-beanutils", "commons-beanutils-core").
-//    exclude("commons-collections", "commons-collections").
-//    exclude("commons-collections", "commons-collections").
-//    exclude("com.esotericsoftware.minlog", "minlog").
-//    exclude("org.apache.hadoop", "hadoop-yarn-common")
-//)
+//UNCOMMENT FOR SPARK BUILD
+libraryDependencies ++= Seq(
+  ("org.apache.spark" % "spark-core_2.10" % "0.9.1").
+    exclude("commons-logging", "commons-logging").
+    exclude("org.mortbay.jetty", "servlet-api").
+    exclude("commons-beanutils", "commons-beanutils-core").
+    exclude("commons-collections", "commons-collections").
+    exclude("commons-collections", "commons-collections").
+    exclude("com.esotericsoftware.minlog", "minlog").
+    exclude("org.apache.hadoop", "hadoop-yarn-common")
+)
 
 resolvers ++= Seq(
   "Typesafe Repo" at "http://repo.typesafe.com/typesafe/releases/",

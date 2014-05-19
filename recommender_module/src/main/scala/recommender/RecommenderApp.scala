@@ -2,10 +2,11 @@ package recommender
 
 import scala.collection.mutable
 import filtering.MockVectorSimilarity
-import input.User
+import input.{UserInputProcessor, VenueInputProcessor, Category, User}
 import precision._
 import vectors._
-import utils.Cons
+import utils.{FileSys, Cons}
+import org.apache.spark.{SparkConf, SparkContext}
 
 /**
  * This is the main class of the recommender system.
@@ -22,7 +23,7 @@ object RecommenderApp {
       val v: Seq[VenueVector] = VenueVector.getAll
 
       var u: Seq[UserVector] = mutable.MutableList.empty
-      var userInteractions: Map[String, Map[VenueListType.VenueListType, Seq[VenueVector]]] = Map.empty
+      var userInteractions: Map[UserVector, Map[VenueListType.VenueListType, Seq[VenueVector]]] = Map.empty
       if (args.size == 1 && args(0).contains("precision")) {
         userInteractions = Precision.modifyUserInteractions(User.getAll)
         u = Precision.getUserVectorFromUserInteractions(userInteractions)
@@ -49,14 +50,14 @@ object RecommenderApp {
 
   // UNCOMMENT FOR SPARK
   def runSpark() = {
-    /*val NUM_NODES: Int = 16
+    val NUM_NODES: Int = 16
     // create spark context and connect to master node
     val conf = new SparkConf()
-      .setMaster(Cons.SPARK_MASTER)
-      .setAppName(Cons.SPARK_JOB)
+      .setMaster("spark://")
+      .setAppName("Recommender")
       .set("spark.executor.memory", "1g")
-      .setSparkHome(Cons.SPARK_HOME)
-      .setJars(Cons.SPARK_JARS)
+      .setSparkHome(System.getenv("SPARK_HOME"))
+      .setJars(List("target/scala-2.10/recommender_module-assembly-1.0.jar"))
       .set("spark.akka.frameSize", "1000")
     val sc = new SparkContext(conf)
 
@@ -73,9 +74,9 @@ object RecommenderApp {
       List(half1._1, half1._2, half2._1, half2._2)
     }
 
-    val venuesWholeList: Seq[String] = FileSys.readDir(Cons.VENUES_PATH)
+    val venuesWholeList: Seq[String] = FileSys.readDir(Cons.VENUES_PATH).take(50000)
     val venuesList: Seq[Seq[String]] = splitThirds(venuesWholeList)
-    val userWholeList: Seq[String] = FileSys.readDir(Cons.USERS_PATH)
+    val userWholeList: Seq[String] = FileSys.readDir(Cons.USERS_PATH).take(4)
     val userList: Seq[Seq[String]] = splitThirds(userWholeList)
     val userVenues = sc.makeRDD(venuesList, 4).cartesian[Seq[String]](sc.makeRDD(userList, 4))
 
@@ -102,11 +103,10 @@ object RecommenderApp {
 
     similarities
 
-    /**
+    /*
      * READ USERS, AND FORM USER VECTORS
-     */
+    */
 
-
-    println("Calculated similarities...")*/
+    println("Calculated similarities...")
   }
 }

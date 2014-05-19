@@ -37,6 +37,7 @@ class UserInputProcessor extends AbstractInputProcessor {
     }
 
     vector.applyVenues(venues)
+    vector
   }
 }
 
