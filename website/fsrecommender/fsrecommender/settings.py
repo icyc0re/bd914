@@ -22,19 +22,20 @@ if 'STAGING' in os.environ:
     CLIENT_SECRET = 'XZEO4JJQ2LYDX5GMTYQJ1S3AKUAHXTWZVOK2YBEOBRHNOFW4'
     REDIRECT_URI = 'http://zitazure.cloudapp.net/'
     DATA_ROOT = '/data'
+    CLUSTER_DIRECTORY = os.path.join(BASE_DIR, os.pardir, os.pardir, 'recommender_module', 'target', 'scala-2.10')
 else:
     CLIENT_ID = 'V2V5MKSOUAVDDPMPACRRQBTKFU3JQTRSMGEBMOXKGL0HX1FL'
     CLIENT_SECRET = 'BBL0BQUIXUEHJG0MSPTNDLC1HKQ2PHSOK3DFKRXANPCV2JYC'
     REDIRECT_URI = 'http://localhost:8000/'
     DATA_ROOT = os.path.join(BASE_DIR, os.pardir, os.pardir, 'dataset')
+    CLUSTER_DIRECTORY = os.path.join(BASE_DIR, os.pardir, os.pardir, 'recommender_module', 'target', 'scala-2.10')
 
-VENUES_DIRECTORY = os.path.join(DATA_ROOT, 'sample', 'venues')
+VENUES_DIRECTORY = os.path.join(DATA_ROOT, 'venues')
 NEW_USER_DIRECTORY = os.path.join(DATA_ROOT, 'new_user')
 CHECKINS_DIRECTORY = os.path.join(NEW_USER_DIRECTORY, 'checkins')
 RECOMMENDATIONS_DIRECTORY = os.path.join(NEW_USER_DIRECTORY, 'recommendations')
 
-CLUSTER_DIRECTORY = '../../cluster/target/scala-2.10/'
-SCALA_JAR = CLUSTER_DIRECTORY+'simple-project_2.10-1.0.jar'
+SCALA_JAR = os.path.join(CLUSTER_DIRECTORY, 'recommender_module-assembly-1.0.jar')
 
 if not os.path.exists(VENUES_DIRECTORY): os.mkdir(VENUES_DIRECTORY)
 if not os.path.exists(NEW_USER_DIRECTORY): os.mkdir(NEW_USER_DIRECTORY)
