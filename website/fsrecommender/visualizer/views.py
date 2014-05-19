@@ -13,9 +13,11 @@ import subprocess
 ACCESS_TOKEN = 'access_token'
 USER = 'user'
 
-CLUSTER_DIRECTORY = '../../recommender_module/target/scala-2.10/'
+# CLUSTER_DIRECTORY = '../../recommender_module/target/scala-2.10/'
+CLUSTER_DIRECTORY = '/home/alex/Workspace/bd914/recommender_module/target/scala-2.10/'
 SCALA_JAR = CLUSTER_DIRECTORY+'recommender_module-assembly-1.0.jar'
 
+print SCALA_JAR
 
 def logged_in(function):
 	""" Authentication checker decorator """
@@ -99,9 +101,10 @@ def recommend(request):
 			data.update({'time2': request.POST["time2"]})
 		if "skip_days" not in request.POST:
 			data.update({'days': request.POST["days"]})
-			
+
 		print(json.dumps(data, indent=4))
 		# call recommender
+		print ['java', '-jar', SCALA_JAR] + [str(d) for d in data.values()]
 		output = subprocess.Popen(['java', '-jar', SCALA_JAR] + [str(d) for d in data.values()], stdout=subprocess.PIPE);
 		streamdata = output.communicate()
 		for line in streamdata:
