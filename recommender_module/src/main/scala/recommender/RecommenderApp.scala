@@ -53,7 +53,7 @@ object RecommenderApp {
     val NUM_NODES: Int = 16
     // create spark context and connect to master node
     val conf = new SparkConf()
-      .setMaster("spark://")
+      .setMaster("spark://bigdataig1:7077")
       .setAppName("Recommender")
       .set("spark.executor.memory", "1g")
       .setSparkHome(System.getenv("SPARK_HOME"))
