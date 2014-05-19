@@ -62,9 +62,11 @@ object Precision {
     val similaritiesSet: Set[String] = similarities._2.map(x => x._1).toSet
 
     val deletedSet: Set[String] = deletedInteractions.map(x => x.getFeatureValue[String](Cons.VENUE_ID).get).toSet
+    val nonDeletedSet: Set[String] = nonDeletedInteractions.map(x => x.getFeatureValue[String](Cons.VENUE_ID).get).toSet
+
 
     val sum = similaritiesSet.map(
-      x => deletedSet.contains(x) match {
+      x => (deletedSet.contains(x) || nonDeletedSet.contains(x)) match {
         case true => 1
         case false => 0
       }
