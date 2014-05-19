@@ -109,8 +109,8 @@ object RecommenderApp {
 
 
     val resMap = similarities.flatten.groupBy(_._1).map {
-      case (x: (String, Seq[(String, String, Double)])) => (x._1, x._2.map(p => (p._2, p._3)).toSeq)
-    }.toSeq
+      case (x: (String, Array[(String, String, Double)])) => (x._1, x._2.map(p => (p._2, p._3)).toList)
+    }.toList
     val sorted = MockVectorSimilarity.sortUserVenueSimilarities(resMap)
     val topK = MockVectorSimilarity.getTopKSimilarities(sorted, Cons.TOP_K_COUNT)
 
