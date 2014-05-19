@@ -55,7 +55,7 @@ object Cons {
   val PRECISION_DELETION_FACTOR = 0.3
   val PRECISION = "precision"
 
-  val USERS_MAX = 3
+  val USERS_MAX = 100
   val VENUES_SERIALIZED = DATA_ROOT+"venues_serialized"
 
   val TOP_K_COUNT = 1000
