@@ -344,7 +344,8 @@ object Venue {
       DoubleFeature(Cons.POPULARITY, compute_popularity(v.stats.checkinsCount, v.stats.tipCount.get, v.stats.usersCount.get)),
       CoordinatesFeature(Cons.GPS_COORDINATES, (v.location.get.lat.get, v.location.get.lng.get)),
       CategoryFeature(Cons.CATEGORY, v.categories.get.map(_.name)),
-      TimeFeature(Cons.TIME, getTimeSequence(v.hours))
+      TimeFeature(Cons.TIME, getTimeSequence(v.hours)),
+      BooleanFeature(Cons.VENUE_ISVERIFIED, v.verified.get)
     )
     new VenueVector(features, null)
 
