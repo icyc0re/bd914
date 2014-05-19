@@ -33,6 +33,7 @@ object RecommenderApp {
 
     // PARSE VENUES
     var v: Seq[VenueVector] = VenueVector.getAll
+    println("Ze seize ov venoos iz: " + v.size)
     // APPLY PRE-FILTERING if context args are passed
     val context: ContextVector = Context.grab()
     if (context != null) {
@@ -47,7 +48,6 @@ object RecommenderApp {
     if (args.size == 1 && args(0).contains(Cons.PRECISION)) {
       userInteractions = Precision.modifyUserInteractions(User.getAll)
       u = Precision.getUserVectorFromUserInteractions(userInteractions)
-
     } else if (args.size >= 2) {
       val userJson = new File(Cons.NEW_USER_DIRECTORY + args(0))
       val user: String = scala.io.Source.fromFile(userJson).mkString
@@ -57,13 +57,14 @@ object RecommenderApp {
     } else {
       u = UserVector.getAll
     }
+    println("bifor post feilteeriz: " + v.size)
 
     var similarities: Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
     similarities = context match {
       case null => similarities
       case _ => PostFilter.applyPostFiltering(u, v, u.map(_ => context), similarities)
     }
-
+    
     val sorted = MockVectorSimilarity.sortUserVenueSimilarities(similarities)
     val topK = MockVectorSimilarity.getTopKSimilarities(sorted, Cons.TOP_K_COUNT)
     MockVectorSimilarity.printTopKSimilarities(topK)
