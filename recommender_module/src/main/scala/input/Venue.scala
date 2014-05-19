@@ -410,12 +410,32 @@ object Venue {
 
         if (hours.length == 1) {
           //println("One hour")
+          if(hours(0) == "Noon"){
+            hours(0) = "12:00 AM"
+          }
+          if(hours(0) == "Midnight"){
+            hours(0) = "00:00 AM"
+          }
           val date1 = updateDate(dayInt, hours(0));
           val date2 = updateDate(dayInt, hours(0));
           resultInterm = resultInterm ::: List((date1, date2));
         }
         else if (hours.length == 2) {
           //println("Two hours")
+
+          if(hours(0) == "Noon"){
+            hours(0) = "12:00 AM"
+          }
+          if(hours(0) == "Midnight"){
+            hours(0) = "00:00 AM"
+          }
+
+          if(hours(1) == "Noon"){
+            hours(1) = "12:00 AM"
+          }
+          if(hours(1) == "Midnight"){
+            hours(1) = "00:00 AM"
+          }
           val date1 = updateDate(dayInt, hours(0));
           val date2 = updateDate(dayInt, hours(1));
           //println("Add dates")
