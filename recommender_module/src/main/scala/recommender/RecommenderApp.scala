@@ -50,6 +50,7 @@ object RecommenderApp {
 
   // UNCOMMENT FOR SPARK
   def runSpark() = {
+    val start = System.currentTimeMillis()
     val NUM_NODES: Int = 16
     // create spark context and connect to master node
     val conf = new SparkConf()
@@ -119,6 +120,6 @@ object RecommenderApp {
      * READ USERS, AND FORM USER VECTORS
     */
 
-    println("Calculated similarities...")
+    println("Calculated similarities... Took "+(System.currentTimeMillis() - start) + " [ms]")
   }
 }
