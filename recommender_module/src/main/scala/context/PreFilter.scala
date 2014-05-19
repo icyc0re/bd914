@@ -23,7 +23,7 @@ object PreFilter {
             val distance = Haversine.getDistance(v, c)
             if (radius != 0 && distance >= radius) {
               //Threshold in kilometers
-              //println("NO :: distance")
+              println("NO :: distance")
               return false
             }
           }
@@ -43,7 +43,7 @@ object PreFilter {
             open match {
               //-1: No data, 0:The place is closed at the time the user asked (context vector), 1: the venue is open at that time
               case -1 =>
-              case 0 => return false
+              case 0 => println("time"+venue.features); return false
               case 1 =>
             }
           }
@@ -59,7 +59,7 @@ object PreFilter {
         venue.getFeatureValue[Seq[String]](Cons.CATEGORY).get.map((cat: String) => {
           try {
             if (Category.getCategoriesSimilarity(cat, context.getFeatureValue[String](Cons.CATEGORY).get) == 0) {
-              //println("NO :: category")
+              println("NO :: category")
               return false
             }
           }
@@ -76,7 +76,7 @@ object PreFilter {
       case Some(contextPrice: VenuePrice) => {
         venue.getFeatureValue[VenuePrice](Cons.PRICE) match {
           case Some(x: VenuePrice) => x.tier match {
-            case Some(p: Int) => if (p > contextPrice.tier.get) return false
+            case Some(p: Int) => if (p > contextPrice.tier.get) print("price"+venue.features); return false
             case None => //
           }
           case None => //

@@ -31,9 +31,8 @@ object Context {
           for (i <- 1 to 7)
             list :+= TimeFeature(Cons.TIME, List(((i, sH, sM), (i, eH, eM))))
         } else {
-          args(6).map(_.asDigit).map(x => {
-            list :+= TimeFeature(Cons.TIME, List(((x, sH, sM), (x, eH, eM))))
-          })
+        	val list2 = 1.to(7).map(x=>((x, sH, sM), (x, eH, eM)))
+            	list :+= TimeFeature(Cons.TIME, list2)
         }
       }
       

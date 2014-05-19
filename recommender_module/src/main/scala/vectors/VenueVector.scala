@@ -62,7 +62,7 @@ class VenueVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet]
             //Data: we now wants to see if the place is open or not
             x.get.map((venueTimeInterval: ((Int, Int, Int), (Int, Int, Int))) => {
               //Check if the days fit
-              if (Mathoperators.inclusion(venueTimeInterval, userTimeInterval)) {
+              if (Mathoperators.intersection(venueTimeInterval, userTimeInterval)) {
                 1
               }
               else {
@@ -174,7 +174,7 @@ object VenueVector {
       ((parts(i * 6 + 0).toInt, parts(i * 6 + 1).toInt, parts(i * 6 + 2).toInt), (parts(i * 6 + 3).toInt, parts(i * 6 + 4).toInt, parts(i * 6 + 5).toInt))
     }
     res match {
-      case List(((0, 0, 0), (0, 0, 0))) => List.empty[((Int, Int, Int), (Int, Int, Int))]
+      case Vector(((0, 0, 0), (0, 0, 0))) => List.empty[((Int, Int, Int), (Int, Int, Int))]
       case x => x
     }
   }
