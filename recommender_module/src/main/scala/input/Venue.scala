@@ -360,8 +360,8 @@ object Venue {
 
   def updateDate(dayInt: Int, hour: String): (Int, Int, Int) = {
     //println(hour);
-    var hours = 0;
-    var minutes = 0;
+    var hours = -1;
+    var minutes = -1;
     //println(hour(hour.length - 2));
 
     if (hour(hour.length - 2) == 'A') {
@@ -416,8 +416,14 @@ object Venue {
           if(hours(0) == "Midnight"){
             hours(0) = "00:00 AM"
           }
-          val date1 = updateDate(dayInt, hours(0));
-          val date2 = updateDate(dayInt, hours(0));
+          var date1 = updateDate(dayInt, hours(0));
+          var date2 = updateDate(dayInt, hours(0));
+
+          if((date1._2 == -1) || (date1._3 == -1) || (date2._2 == -1) || (date2._3 == -1)){
+            date1 = (date1._1, 0, 0);
+            date2 = (date2._1, 0, 0);
+          }
+
           resultInterm = resultInterm ::: List((date1, date2));
         }
         else if (hours.length == 2) {
@@ -436,8 +442,14 @@ object Venue {
           if(hours(1) == "Midnight"){
             hours(1) = "00:00 AM"
           }
-          val date1 = updateDate(dayInt, hours(0));
-          val date2 = updateDate(dayInt, hours(1));
+          var date1 = updateDate(dayInt, hours(0));
+          var date2 = updateDate(dayInt, hours(1));
+
+          if((date1._2 == -1) || (date1._3 == -1) || (date2._2 == -1) || (date2._3 == -1)){
+            date1 = (date1._1, 0, 0);
+            date2 = (date2._1, 23, 59);
+          }
+
           //println("Add dates")
           resultInterm = resultInterm ::: List((date1, date2));
           //println("Dates Added")
