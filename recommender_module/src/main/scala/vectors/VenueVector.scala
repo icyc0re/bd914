@@ -143,10 +143,10 @@ object VenueVector {
     }
     line ++= times.foldLeft[String]("")(
       (b, a) => a._1._1 + "," + a._1._2 + "," + a._1._3 + "," + a._2._1 + "," + a._2._2 + "," + a._2._3 + "," + b
-    )
+    ) ++ " "
 
     // set verified
-    line ++= v.getFeatureValue[Boolean](Cons.VENUE_ISVERIFIED).getOrElse(false).toString ++ " "
+    line ++= v.getFeatureValue[Boolean](Cons.VENUE_ISVERIFIED).getOrElse(false).toString
 
     line.mkString
   }

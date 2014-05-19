@@ -28,7 +28,7 @@ def main():
     
     user_interactions = dict()
             
-    interactions = ["tips", "photos", "mayorships", "badges"]
+    interactions = ["tips", "photos", "mayorships"]
     interactions_count = dict.fromkeys(interactions+["all"])
     
     counter=0
