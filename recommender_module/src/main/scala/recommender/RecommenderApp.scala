@@ -78,8 +78,8 @@ object RecommenderApp {
 
     val venuesWholeList: Seq[String] = FileSys.readDir(Cons.VENUES_PATH)
     val venuesList: Seq[Seq[String]] = splitThirds(venuesWholeList)
-    val userWholeList: Seq[String] = FileSys.readDir(Cons.USERS_PATH).take(100)
-    val userList: Seq[Seq[String]] = List(userWholeList.slice(0, 33), userWholeList.slice(33, 67), userWholeList.slice(67, 100)) //splitThirds(userWholeList)
+    val userWholeList: Seq[String] = FileSys.readDir(Cons.USERS_PATH).take(1000)
+    val userList: Seq[Seq[String]] = List(userWholeList.slice(0, 333), userWholeList.slice(333, 667), userWholeList.slice(667, 1000)) //splitThirds(userWholeList)
     val userVenues = sc.makeRDD(venuesList, 4).cartesian[Seq[String]](sc.makeRDD(userList, 3))
 
     println("Sending out all pairs")
