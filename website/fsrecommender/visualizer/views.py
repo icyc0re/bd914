@@ -102,9 +102,10 @@ def recommend(request):
 		print(json.dumps(data, indent=4))
 		# call recommender
 		print ['java', '-jar', SCALA_JAR] + [str(d) for d in data.values()]
-		output = subprocess.Popen(['java', '-jar', SCALA_JAR] + [str(d) for d in data.values()], stdout=subprocess.PIPE);
+		output = subprocess.Popen(['java', '-Xmx800m', '-Xms800m', '-jar', SCALA_JAR] + [str(d) for d in data.values()], stdout=subprocess.PIPE)
 		streamdata = output.communicate()
 		for line in streamdata:
+			print 'no'
 			print line
 
 		# everything is cool

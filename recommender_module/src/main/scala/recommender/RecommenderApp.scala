@@ -33,14 +33,14 @@ object RecommenderApp {
 
     // PARSE VENUES
     var v: Seq[VenueVector] = VenueVector.getAll
-    println("Ze seize ov venoos iz: " + v.size)
+    println("initial size of venues set " + v.size)
     // APPLY PRE-FILTERING if context args are passed
     val context: ContextVector = Context.grab()
     if (context != null) {
       println("Applying pre-filtering")
       v = PreFilter.apply(v, context)
     }
-    println("venues size " + v.size)
+    println("keep " + v.size + " after prefiltering")
 
     // GET USER IF PRECISION, IF PASSED AS ARGUMENT, OR ALL USERS
     var u: Seq[UserVector] = List.empty[UserVector]
@@ -57,7 +57,6 @@ object RecommenderApp {
     } else {
       u = UserVector.getAll
     }
-    println("bifor post feilteeriz: " + v.size)
 
     var similarities: Seq[(String, Seq[(String, Double)])] = MockVectorSimilarity.calculateSimilaritiesBetweenUsersAndVenues(u, v)
     similarities = context match {

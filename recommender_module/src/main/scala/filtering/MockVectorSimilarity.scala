@@ -132,6 +132,6 @@ object MockVectorSimilarity extends VectorSimilarity {
     val norm = Math.sqrt(user_coord._1 * user_coord._1 + user_coord._2 * user_coord._2 + user_pop * user_pop) * Math.sqrt(venue_coord._1 * venue_coord._1 + venue_coord._2 * venue_coord._2 + venue_pop * venue_pop)
 
 
-    dotProduct / norm + catSim
+    dotProduct / norm + catSim * Cons.CATEGORIES_WEIGHT
   }
 }

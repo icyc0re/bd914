@@ -62,7 +62,7 @@ class VenueVector(var features: Seq[Feature[_, _]], sets: Seq[AbstractVectorSet]
             //Data: we now wants to see if the place is open or not
             x.get.map((venueTimeInterval: ((Int, Int, Int), (Int, Int, Int))) => {
               //Check if the days fit
-              if (Mathoperators.inclusion(venueTimeInterval, userTimeInterval)) {
+              if (Mathoperators.intersection(venueTimeInterval, userTimeInterval)) {
                 1
               }
               else {
@@ -143,7 +143,10 @@ object VenueVector {
     }
     line ++= times.foldLeft[String]("")(
       (b, a) => a._1._1 + "," + a._1._2 + "," + a._1._3 + "," + a._2._1 + "," + a._2._2 + "," + a._2._3 + "," + b
-    )
+    ) ++ " "
+
+    // set verified
+    line ++= v.getFeatureValue[Boolean](Cons.VENUE_ISVERIFIED).getOrElse(false).toString
 
     line.mkString
   }
@@ -160,8 +163,10 @@ object VenueVector {
     val cats = CategoryFeature(Cons.CATEGORY, parseCats(components(4)))
     // time series
     val times = TimeFeature(Cons.TIME, parseTimes(components(5)))
+    // verified value
+    val verified = BooleanFeature(Cons.VENUE_ISVERIFIED, components(6).toBoolean)
 
-    new VenueVector(List(venueId, popularity, coordinates, cats, times), null)
+    new VenueVector(List(venueId, popularity, coordinates, cats, times, verified), null)
   }
 
   def parseCats(cats: String): Seq[String] = {
@@ -174,7 +179,7 @@ object VenueVector {
       ((parts(i * 6 + 0).toInt, parts(i * 6 + 1).toInt, parts(i * 6 + 2).toInt), (parts(i * 6 + 3).toInt, parts(i * 6 + 4).toInt, parts(i * 6 + 5).toInt))
     }
     res match {
-      case List(((0, 0, 0), (0, 0, 0))) => List.empty[((Int, Int, Int), (Int, Int, Int))]
+      case Vector(((0, 0, 0), (0, 0, 0))) => List.empty[((Int, Int, Int), (Int, Int, Int))]
       case x => x
     }
   }

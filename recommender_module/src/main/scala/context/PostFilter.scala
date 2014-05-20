@@ -12,9 +12,9 @@ object PostFilter {
   def computerRatingModificator(venue: VenueVector, context: ContextVector, similarity: Double): Double = {
 
     var new_similarity = similarity //the final new rating that will be returned by the function
-    val w_distance = 0.1 //weight to control the importance of the distance to the venue
-    val w_time = 0.1
-    val w_isverified = 0.01
+    val w_distance = Cons.WEIGHT_DISTANCE //weight to control the importance of the distance to the venue
+    val w_time = Cons.WEIGHT_TIME
+    val w_isverified = Cons.WEIGHT_ISVERRIFIED
     //Initialize the weight vector with predefined weights for each feature
 
 

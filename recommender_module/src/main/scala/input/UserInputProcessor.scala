@@ -29,7 +29,13 @@ class UserInputProcessor extends AbstractInputProcessor {
     InteractionType.values.foreach {
       (intType: InteractionType.InteractionType) =>
         try {
-          venues ++= InteractionsInputProcessor.processData(FileSys.readFile(Cons.INTERACTIONS_PATH + intType + "/" + userId), InteractionType.tips)
+          val interVenues = InteractionsInputProcessor.processData(FileSys.readFile(Cons.INTERACTIONS_PATH + intType + "/" + userId), InteractionType.tips)
+          if (intType == InteractionType.mayorships){
+            for (i<-1 to Cons.MAYORSHIPS_WEIGHT) venues ++= interVenues
+          }
+          else{
+            venues ++= InteractionsInputProcessor.processData(FileSys.readFile(Cons.INTERACTIONS_PATH + intType + "/" + userId), InteractionType.tips)
+          }
         }
         catch {
           case e: Exception => //

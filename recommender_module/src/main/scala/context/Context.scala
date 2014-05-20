@@ -28,12 +28,12 @@ object Context {
         val eM: Int = args(5).split(":")(1).toInt
         
         if (args(6) != "~") {
-          for (i <- 1 to 7)
-            list :+= TimeFeature(Cons.TIME, List(((i, sH, sM), (i, eH, eM))))
+          val days = args(6).map(p=>Integer.parseInt(p.toString))
+          val list2 = days.map(p=>((p, sH, sM), (p, eH, eM)))
+            list :+= TimeFeature(Cons.TIME, list2.toList)
         } else {
-          args(6).map(_.asDigit).map(x => {
-            list :+= TimeFeature(Cons.TIME, List(((x, sH, sM), (x, eH, eM))))
-          })
+        	val list2 = 1.to(7).map(x=>((x, sH, sM), (x, eH, eM)))
+            	list :+= TimeFeature(Cons.TIME, list2.toList)
         }
       }
       
