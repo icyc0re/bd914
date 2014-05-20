@@ -61,6 +61,7 @@ body {
 }
 
 #content-wrap {
+	position: relative;
 	text-align: left;
 	width: 1200px;
 	margin: 0 auto;
@@ -189,6 +190,27 @@ button {
 	font-size: 15px;
 	font-weight: 100;
 }
+
+.info {
+	position: absolute;
+	top: 11px;
+	right: -210px;
+	display: block;
+	width: 200px;
+	padding: 10px;
+	border-radius: 4px;
+	box-shadow: 0 0 4px #47677a;
+	background: #f0f9ff;
+}
+	.info p {
+		color: #47677a;
+		font-weight: normal;
+		font-style: italic;
+	}
+		.info p strong {
+			font-style: normal;
+			font-weight: bold;
+		}
 
 .astat{
 }
