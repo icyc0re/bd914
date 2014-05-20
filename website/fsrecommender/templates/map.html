@@ -7,7 +7,7 @@
 {% if info.display %}
 <div class="info">
   {% for key,value in info.items %}
-    {% if key != 'display' %}
+    {% if key != 'display' and key != 'Time' %}
     <p><strong>{{key}}: </strong>{{value}}</p>
     {% endif %}
   {% endfor %}
