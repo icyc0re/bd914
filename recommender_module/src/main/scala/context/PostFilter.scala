@@ -21,7 +21,7 @@ object PostFilter {
     //Add the location component
     val distance = Haversine.getDistance(venue.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get, context.getFeatureValue[(Double, Double)](Cons.GPS_COORDINATES).get);
 
-    new_similarity *= w_distance * 1 / (distance + 1e-5);
+    new_similarity *= w_distance * 1 / (distance + 1000);
 
     //Add the time component
     val timeFactor = 1 // Time criterion:
