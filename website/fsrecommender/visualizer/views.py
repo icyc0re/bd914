@@ -108,32 +108,32 @@ def recommend(request):
 			print line
 
 		# everything is cool
-		# if not output.returncode:
-		client = foursquare.Foursquare(access_token=request.session[ACCESS_TOKEN])
-		# 	user_recommendations_file = os.path.join(settings.RECOMMENDATIONS_DIRECTORY, data['user_id'])
+		if not output.returncode:
+			client = foursquare.Foursquare(access_token=request.session[ACCESS_TOKEN])
+			user_recommendations_file = os.path.join(settings.RECOMMENDATIONS_DIRECTORY, data['user_id'])
 			
-		# 	# for testing, dummy venues if there is no file output by the recommender
-		# 	if not os.path.exists(user_recommendations_file):			
-		venues_id = ["3fd66200f964a52005e71ee3","3fd66200f964a52008e81ee3","3fd66200f964a52023eb1ee3",
-					 "3fd66200f964a5200ae91ee3","3fd66200f964a52015e51ee3"]
-		# simulate recommender provided results
-		# with open(user_recommendations_file,'w+') as recommendations_file:
-		# 	for venue_id in venues_id:
-		# 		recommendations_file.write(venue_id+'\n')
+			# for testing, dummy venues if there is no file output by the recommender
+			if not os.path.exists(user_recommendations_file):			
+				venues_id = ["3fd66200f964a52005e71ee3","3fd66200f964a52008e81ee3","3fd66200f964a52023eb1ee3",
+							 "3fd66200f964a5200ae91ee3","3fd66200f964a52015e51ee3"]
+				# simulate recommender provided results
+				with open(user_recommendations_file,'w+') as recommendations_file:
+					for venue_id in venues_id:
+						recommendations_file.write(venue_id+'\n')
 
-		# read results
-		# with open(user_recommendations_file,'r') as f:
-		# 	venues_id = f.read().splitlines()
-		
-		# crawl venues from venues ids
-		venues = list() 
-		for venue_id in venues_id:
-			venues.append(client.venues(venue_id)) 
-
-		# send results to user
-		return render(request, 'map.html', {'venues':simplejson.dumps(venues), 'context': data})
-		# else:
-		# 	print "Well.. fuck"
+			# read results
+			with open(user_recommendations_file,'r') as f:
+				venues_id = f.read().splitlines()
+			
+			# crawl venues from venues ids
+			venues = list() 
+			for venue_id in venues_id:
+				venues.append(client.venues(venue_id)) 
+	
+			# send results to user
+			return render(request, 'map.html', {'venues':simplejson.dumps(venues), 'context': data})
+		else:
+			print "Well.. fuck"
 	return redirect('/locationtime')
 
 
