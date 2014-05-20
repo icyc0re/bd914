@@ -3,6 +3,17 @@
 {% block title %}Your recommendations{% endblock %}
 
 {% block content %}
+
+{% if info.display %}
+<div class="info">
+  {% for key,value in info.items %}
+    {% if key != 'display' %}
+    <p><strong>{{key}}: </strong>{{value}}</p>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
 	<form method="post" action="/recommend/">{% csrf_token %}
     <div class="clearfix">
       <div id="map-holder" data-callback="initMap" class="skipper">

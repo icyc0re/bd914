@@ -8,7 +8,7 @@ import json
 import os
 import pprint
 import subprocess
-
+import string
 
 ACCESS_TOKEN = 'access_token'
 USER = 'user'
@@ -110,8 +110,12 @@ def recommend(request):
 
 		# everything is cool
 		if not output.returncode:
+			info = {
+				'display': False
+			}
 			client = foursquare.Foursquare(access_token=request.session[ACCESS_TOKEN])
 			user_recommendations_file = os.path.join(settings.RECOMMENDATIONS_DIRECTORY, data['user_id'])
+			user_recommendations_profile = os.path.join(settings.RECOMMENDATIONS_DIRECTORY, data['user_id']+'_profile')
 			
 			# for testing, dummy venues if there is no file output by the recommender
 			if not os.path.exists(user_recommendations_file):			
@@ -126,15 +130,20 @@ def recommend(request):
 			with open(user_recommendations_file,'r') as f:
 				venues_id = f.read().splitlines()
 			
+			if os.path.exists(user_recommendations_profile):
+				info['display'] = True
+				with open(user_recommendations_profile, 'r') as f:
+					for line in f.read().splitlines():
+						parts = string.split(line, ": ")
+						info[parts[0]] = parts[1]
+
 			# crawl venues from venues ids
 			venues = list() 
 			for venue_id in venues_id:
 				venues.append(client.venues(venue_id)) 
 	
 			# send results to user
-			return render(request, 'map.html', {'venues':simplejson.dumps(venues), 'context': data})
-		else:
-			print "Well.. fuck"
+			return render(request, 'map.html', {'venues':simplejson.dumps(venues), 'context': data, 'info': info})
 	return redirect('/locationtime')
 
 
