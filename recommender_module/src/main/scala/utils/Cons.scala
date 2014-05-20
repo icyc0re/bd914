@@ -63,7 +63,7 @@ object Cons {
 
   val MAYORSHIPS_WEIGHT = 4
   val CATEGORIES_WEIGHT = 10
-  val WEIGHT_DISTANCE = 0.1 //weight to control the importance of the distance to the venue
+  val WEIGHT_DISTANCE = 1 //weight to control the importance of the distance to the venue
   val WEIGHT_TIME = 0.1
   val WEIGHT_ISVERRIFIED = 0.01
 }
